@@ -33,8 +33,17 @@ interface Props {
   onPipClick: (supplierId: string) => void;
   /**
    * Called when the user clicks the supplier name or card body — opens the
-   * SupplierDetail view in the right pane. Separate from the checkbox so
-   * multi-select state isn't perturbed.
+   * right pane (Live session when the supplier has one, Detail otherwise).
+   *
+   * CONTRACT — onOpen MUST be a pure preview action. It MUST NOT change the
+   * workflow phase, set chain selection, or trigger any launch side-effect.
+   * The Live session pane is the load-bearing surface during enrichment; if
+   * onOpen ever launches the chain again, users lose the ability to scan
+   * suppliers in Live before picking one. Routing onOpen to the chain phase
+   * is the regression class we're guarding against — keep this contract.
+   *
+   * Launch path lives exclusively on onLaunch (the explicit "Launch sequence
+   * on selected" button) so the two intents stay impossible to conflate.
    */
   onOpen?: (supplierId: string) => void;
   /** Called with the selected supplier_ids when "Launch sequence" fires. */

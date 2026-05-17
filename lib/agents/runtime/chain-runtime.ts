@@ -292,10 +292,26 @@ export async function fireCall(input: FireCallInput): Promise<CallOutResult> {
     payload: { call_id: result.call_id, mode: result.mode, error: result.error },
   });
 
-  // If the wire call failed up front, mark the stage failed but still leave
-  // the pointer in place — webhook can still receive late events.
-  if (result.status === "failed" && result.mode === "missing_env") {
+  // Both failure shapes — missing env AND vendor down — escalate to "failed"
+  // so the transition table can route call.failed → email and the rest of
+  // the chain stays alive. A visible event narrates why.
+  // Why both: when AgentPhone's API is unreachable, callOut catches the
+  // throw and returns { status: "failed", mode: "real", error: "..." }.
+  // Previously only missing_env was marked, leaving real outages stuck
+  // in_progress forever (no webhook ever fires).
+  if (result.status === "failed") {
     setStageStatus(state, "call", "failed");
+    appendEvent(state, "call", {
+      event_id: `call:${result.call_id}:unavailable`,
+      timestamp: new Date().toISOString(),
+      direction: "system",
+      actor: "agent",
+      channel: "call",
+      text:
+        result.mode === "missing_env"
+          ? "Phone leg unavailable — AgentPhone credentials not configured. Skipping to email."
+          : `Phone leg unavailable — AgentPhone error: ${result.error ?? "unknown"}. Skipping to email.`,
+    });
   }
   saveChainState(state);
   return result;
@@ -339,8 +355,22 @@ export async function fireSmsPay(
     payload: { sms_id: result.sms_id, mode: result.mode, error: result.error },
   });
 
-  if (result.mode === "missing_env") {
+  // Same shape as the call leg: any failure (missing env or vendor down)
+  // marks the stage failed and narrates why, so the cockpit clearly shows
+  // the SMS leg degraded instead of spinning forever.
+  if (result.error || result.mode === "missing_env") {
     setStageStatus(state, "sms_pay", "failed");
+    appendEvent(state, "sms_pay", {
+      event_id: `sms_pay:${result.sms_id}:unavailable`,
+      timestamp: new Date().toISOString(),
+      direction: "system",
+      actor: "agent",
+      channel: "sms",
+      text:
+        result.mode === "missing_env"
+          ? "SMS leg unavailable — AgentPhone credentials not configured."
+          : `SMS leg unavailable — AgentPhone error: ${result.error}.`,
+    });
   }
   saveChainState(state);
   return result;
@@ -364,13 +394,16 @@ export function defaultChainHandlers(
   ctx: ChainHandlerContext,
   overrides: Partial<ChainHandlers> = {},
 ): ChainHandlers {
-  return {
+  // Two-step bag construction so the fire-* closures can call completeStage
+  // with the very same handlers object on phone-leg failure. JS closure
+  // capture across the assignment makes this safe.
+  const handlers: ChainHandlers = {
     fireCall: async (state) => {
       // Dynamic import: keep Moss native binding out of client bundles.
       const { VOICE_PERSONA_SYSTEM_PROMPT } = await import(
         "@/lib/agents/voice-persona"
       );
-      await fireCall({
+      const result = await fireCall({
         state,
         toNumber: ctx.supplierPhone,
         buyerPhone: ctx.buyerPhone,
@@ -380,14 +413,28 @@ export function defaultChainHandlers(
           ...ctx.callContext,
         },
       });
+      // Phone leg down? Cascade to email immediately rather than hang
+      // waiting for a call.completed webhook that will never arrive.
+      if (result.status === "failed") {
+        await completeStage(state, { stage: "call", kind: "failed" }, handlers);
+      }
     },
     fireSmsPay: async (state) => {
-      await fireSmsPay({
+      const result = await fireSmsPay({
         state,
         toNumber: ctx.buyerPhone,
         buyerPhone: ctx.buyerPhone,
         body: ctx.smsBody,
       });
+      // SMS leg down? Treat as "no_reply" so the chain terminates cleanly
+      // instead of waiting indefinitely for an inbound CONFIRMED.
+      if (result.error || result.mode === "missing_env") {
+        await completeStage(
+          state,
+          { stage: "sms_pay", kind: "no_reply" },
+          handlers,
+        );
+      }
     },
     // Owned by other agents — overridden by the caller wiring.
     fireEmail: overrides.fireEmail ?? (() => {}),
@@ -395,6 +442,7 @@ export function defaultChainHandlers(
     onFallback: overrides.onFallback,
     ...overrides,
   };
+  return handlers;
 }
 
 /**

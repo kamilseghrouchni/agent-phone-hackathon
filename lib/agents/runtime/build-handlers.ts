@@ -309,7 +309,11 @@ export function isEmailAgreeReply(body: string): boolean {
 
 const ACTIVE_POLLERS = new Map<string, NodeJS.Timeout>();
 const POLL_INTERVAL_MS = 5_000;
-const MAX_POLL_DURATION_MS = 10 * 60 * 1000; // 10 min ceiling per call
+// Demo budget: if a call hasn't reached a terminal status within this window
+// we treat it as no_answer and cascade to email anyway. The previous 10-min
+// ceiling left chains visibly stuck on stage 2 when AgentPhone never sent
+// a terminal status for ringing/voicemail tail.
+const MAX_POLL_DURATION_MS = 2 * 60 * 1000; // 2 min ceiling per call
 
 export function startCallCompletionPoller(
   runId: string,
@@ -330,7 +334,35 @@ export function startCallCompletionPoller(
     inFlight = true;
     try {
       if (Date.now() - startedAt > MAX_POLL_DURATION_MS) {
+        // Soft timeout: chain must keep moving for the demo. Mark the call
+        // as a no-answer fallback and cascade to email so the audience sees
+        // forward progress instead of a permanently spinning Stage 2.
         stopPoller(key);
+        const stalled = loadChainState(runId);
+        if (stalled) {
+          const completedAt = new Date().toISOString();
+          appendEvent(stalled, "call", {
+            event_id: `call:${callId}:timeout`,
+            timestamp: completedAt,
+            direction: "system",
+            actor: "agent",
+            channel: "call",
+            text: `Call did not reach a terminal status within ${Math.round(MAX_POLL_DURATION_MS / 1000)}s — treating as no-answer and cascading to email.`,
+          });
+          stalled.stages.call.artifact_id = callId;
+          stalled.stages.call.completed_at = completedAt;
+          stalled.stages.call.status = "fallback";
+          saveChainState(stalled);
+          const { completeStage } = await import(
+            "@/lib/agents/runtime/chain-runtime"
+          );
+          const handlers = buildHandlersForRun(runId);
+          await completeStage(
+            stalled,
+            { stage: "call", kind: "no_answer" },
+            handlers,
+          );
+        }
         return;
       }
       const { getCall, getCallTranscript } = await import(

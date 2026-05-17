@@ -133,6 +133,55 @@ function SourceLink({ href }: { href: string }) {
   );
 }
 
+/**
+ * Render an extracted value with provenance:
+ *   - URL values → the value text itself is the clickable anchor
+ *   - Non-URL values → text followed by a visible "source ↗" pill
+ *   - No href → plain text
+ *
+ * Mirrors components/Enrich/SessionPanel.tsx so the two panes feel the same.
+ */
+function ValueWithSource({
+  value,
+  target,
+}: {
+  value: unknown;
+  target: string | null | undefined;
+}) {
+  if (!isFilled(value)) return <>—</>;
+  if (isUrlValue(value)) {
+    const href = String(value);
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+        className="extracted-link"
+        title={href}
+      >
+        {href}
+      </a>
+    );
+  }
+  const href = target && /^https?:\/\//i.test(target) ? target : null;
+  return (
+    <>
+      {formatValue(value)}
+      {href ? (
+        <a
+          href={href}
+          target="_blank"
+          rel="noreferrer"
+          className="source-pill"
+          title={`Source: ${href}`}
+        >
+          source ↗
+        </a>
+      ) : null}
+    </>
+  );
+}
+
 export function SupplierDetail({ supplierId, runId }: Props) {
   const [data, setData] = useState<SupplierDetailResponse | null>(null);
   const [loading, setLoading] = useState(true);
@@ -489,7 +538,6 @@ function ScrapeExtractedView({
           <dl className="supplier-detail-dl">
             {filledLabels.map(({ key, label }) => {
               const v = extracted[key];
-              const href = sourceHref(v, sourceUrl);
               return (
                 <div
                   key={key}
@@ -497,8 +545,7 @@ function ScrapeExtractedView({
                 >
                   <dt className="mono-sm">{label}</dt>
                   <dd>
-                    {formatValue(v)}
-                    {href ? <SourceLink href={href} /> : null}
+                    <ValueWithSource value={v} target={sourceUrl} />
                   </dd>
                 </div>
               );

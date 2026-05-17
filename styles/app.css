@@ -4083,6 +4083,40 @@ details[open] > .prosp-section-summary .prosp-section-title { color: var(--brand
 .source-link:hover {
   color: var(--brand-ink);
 }
+
+/* Extracted-value link — when the value itself is a URL, render the whole
+   value as an obvious anchor (blue, underlined on hover). */
+.extracted-link {
+  color: var(--brand-ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  word-break: break-all;
+}
+.extracted-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Source pill — visible "source ↗" chip next to non-URL extracted values
+   so provenance is one click away even when the value itself isn't a link. */
+.source-pill {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  border: 1px solid var(--brand-ink);
+  background: transparent;
+  color: var(--brand-ink);
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: background 80ms ease, color 80ms ease;
+}
+.source-pill:hover {
+  background: var(--brand-ink);
+  color: var(--bg);
+}
 .supplier-detail-roll-big {
   font-family: var(--display);
   font-size: 28px;

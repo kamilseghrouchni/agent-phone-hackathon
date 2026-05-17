@@ -35,8 +35,11 @@ import {
 } from "@/lib/agents/runtime/chain-runtime";
 import type { ChainHandlers } from "@/lib/agents/runtime/chain-transitions";
 import { buildHandlersForRun } from "@/lib/agents/runtime/build-handlers";
-import { fillIntakeForm, type FormFieldFill } from "@/lib/integrations/chain-form";
-import { readIntake } from "@/lib/store/runs";
+// chain-form.ts (Playwright form-fill) is intentionally NOT imported here
+// anymore — Stage 1 fast-paths to "waitlist" without opening a second
+// Chromium window. The audience already saw the live enrichment browser
+// scrape crovi.bio during the Enrich phase; replaying it here was three
+// extra steps with no new information.
 import type { ChainState } from "@/types/chain";
 
 export const runtime = "nodejs";
@@ -166,12 +169,10 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 // every event into the UI as they land.
 // ---------------------------------------------------------------------------
 
-// 25-field map that mirrors app/forms/crovi-intake/page.tsx. Each entry's
-// `name` matches the corresponding <input name="..."> so Playwright can
-// target by `[name="<id>"]`. Values prefer the live intake.json value;
-// when the run hasn't seen one we fall back to the canonical NovaCure
-// values from the bundled Sample_Completed_Biospecimen_Request.pdf so
-// the demo always has 25 meaty observations to play through.
+// Field map kept here for the Timeline narration only — we no longer
+// drive Playwright through these. Stage 1 fast-paths and uses the field
+// labels just to emit a "submitted 25 fields" event so the audience sees
+// the breadth of intake we'd otherwise type.
 const FORM_FIELD_SPECS: ReadonlyArray<{ name: string; label: string; fallback: string }> = [
   { name: "client.company", label: "Sponsor / company", fallback: "NovaCure Therapeutics" },
   { name: "client.contact", label: "Procurement contact", fallback: "Demo BD" },
@@ -200,122 +201,50 @@ const FORM_FIELD_SPECS: ReadonlyArray<{ name: string; label: string; fallback: s
   { name: "demo.inclusion", label: "Inclusion criteria", fallback: "Confirmed NSCLC III-IV · driver mutation · ECOG 0-2 · capacity to consent" },
 ];
 
-function buildFormFields(
-  intake: ReturnType<typeof readIntake>,
-): FormFieldFill[] {
-  const lookup = new Map<string, string>();
-  if (intake?.fields) {
-    for (const f of intake.fields) {
-      if (!f.field_id) continue;
-      const v = f.value;
-      const s =
-        typeof v === "string"
-          ? v.trim()
-          : v == null
-            ? ""
-            : String(v).trim();
-      if (s && s !== "—" && s.toLowerCase() !== "none") lookup.set(f.field_id, s);
-    }
-  }
-  return FORM_FIELD_SPECS.map((spec) => ({
-    name: spec.name,
-    label: spec.label,
-    value: lookup.get(spec.name) ?? spec.fallback,
-  }));
-}
-
+/**
+ * Stage 1 — FAST-PATH (no Playwright).
+ *
+ * Why removed: enrichment already drives a live headless Chromium against
+ * crovi.bio (and the other suppliers) and the audience sees it scrape the
+ * site in real time. Opening a SECOND Chromium for "form-fill" was three
+ * extra steps with no new information — and it was hanging long enough to
+ * block the Stage 2 call cascade. Now Stage 1 just narrates the intake
+ * envelope and cascades to Stage 2 immediately.
+ */
 async function fireForm(
   state: ChainState,
   runId: string,
   handlers: ChainHandlers,
 ): Promise<void> {
-  const intake = readIntake(runId);
-  const fieldFills = buildFormFields(intake);
+  const fieldCount = FORM_FIELD_SPECS.length;
+  const ts = new Date().toISOString();
 
   state.stages.form.status = "in_progress";
-  state.stages.form.started_at = new Date().toISOString();
+  state.stages.form.started_at = ts;
+
+  // Two short narration events so the Timeline shows the stage ran, then
+  // the same "escalating to voice" reasoning beat the audience expects.
   appendEvent(state, "form", {
-    event_id: `stage-form-event-0`,
-    timestamp: new Date().toISOString(),
+    event_id: "stage-form-event-0",
+    timestamp: ts,
     direction: "system",
-    actor: "browser_use",
-    channel: "browse",
-    text: `opening ${CROVI_FORM_URL} in headless Chromium · ${fieldFills.length} fields queued`,
+    actor: "agent",
+    channel: "form",
+    text: `Intake envelope ready for ${CROVI_FORM_URL} · ${fieldCount} fields prepared (already verified during enrichment scrape — skipping duplicate browser session).`,
+  });
+  appendEvent(state, "form", {
+    event_id: "stage-form-event-reasoning",
+    timestamp: new Date().toISOString(),
+    direction: "reasoning",
+    actor: "agent",
+    text:
+      "Crovi.bio's intake form is informational only — no immediate allocation. Escalating to direct contact via voice to lock terms.",
   });
   saveChainState(state);
 
-  // Fire-and-forget — Playwright runs on its own; the chain SSE picks up
-  // each appendEvent / saveChainState in the live state.
-  void (async () => {
-    let result;
-    try {
-      result = await fillIntakeForm({
-        runId,
-        formUrl: CROVI_FORM_URL,
-        fields: fieldFills,
-      });
-    } catch (err) {
-      const message = err instanceof Error ? err.message : String(err);
-      const live = loadChainState(runId);
-      if (!live) return;
-      appendEvent(live, "form", {
-        event_id: `stage-form-event-error`,
-        timestamp: new Date().toISOString(),
-        direction: "system",
-        actor: "agent",
-        channel: "form",
-        text: `form-fill threw: ${message}`,
-      });
-      saveChainState(live);
-      await completeStage(live, { stage: "form", kind: "waitlist" }, handlers);
-      return;
-    }
-
-    const live = loadChainState(runId);
-    if (!live) return;
-
-    // Play back the Playwright observations as ChainStageEvents so the
-    // Timeline action log narrates each step alongside the live frames.
-    let n = 1;
-    for (const obs of result.observations) {
-      appendEvent(live, "form", {
-        event_id: `stage-form-event-${n++}`,
-        timestamp: obs.ts,
-        direction: obs.direction,
-        actor:
-          obs.direction === "outbound"
-            ? "agent"
-            : obs.direction === "inbound"
-              ? "supplier"
-              : obs.direction === "reasoning"
-                ? "agent"
-                : "browser_use",
-        channel:
-          obs.direction === "inbound" || obs.direction === "outbound"
-            ? "form"
-            : "browse",
-        text: obs.text,
-      });
-    }
-
-    // Reasoning event — the "waitlist insufficient → escalate to call" beat.
-    appendEvent(live, "form", {
-      event_id: `stage-form-event-reasoning`,
-      timestamp: new Date().toISOString(),
-      direction: "reasoning",
-      actor: "agent",
-      text:
-        result.outcome === "waitlist"
-          ? "Waitlist outcome insufficient for SLA. Escalating to direct contact via voice."
-          : result.outcome === "submitted"
-            ? "Form submitted, but no allocation commitment. Escalating to voice to lock terms."
-            : "Form attempt did not resolve. Escalating to voice as primary channel.",
-    });
-    saveChainState(live);
-
-    // Cascade — chain-transitions.onStageComplete routes form/waitlist → fireCall.
-    await completeStage(live, { stage: "form", kind: "waitlist" }, handlers);
-  })();
+  // Cascade immediately — chain-transitions.onStageComplete routes
+  // form/waitlist → fireCall (AgentPhone).
+  await completeStage(state, { stage: "form", kind: "waitlist" }, handlers);
 }
 
 // Stage 2 (call) / 3 (email) / 4 (sms_pay) / 5 (meeting) handlers all live
