@@ -573,10 +573,10 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
   const [activeSupplierId, setActiveSupplierId] = useState<string | null>(null);
   const [openedSupplierId, setOpenedSupplierId] = useState<string | null>(null);
   // Right-pane view mode for the opened supplier — Detail (data we have) or
-  // Live session (Chromium frame stream + action log). Live session is the
-  // default when the user clicks the card name.
+  // Live session (Chromium frame stream + action log). Detail is the default
+  // when the user clicks the card name.
   const [rightPaneView, setRightPaneView] = useState<"detail" | "session">(
-    "session",
+    "detail",
   );
   const [enrichStarted, setEnrichStarted] = useState(false);
   const [selectedChainSuppliers, setSelectedChainSuppliers] = useState<string[]>([]);
@@ -873,8 +873,7 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                 }}
                 onOpen={(id) => {
                   setOpenedSupplierId(id);
-                  setActiveSupplierId(id);
-                  setRightPaneView("session");
+                  setRightPaneView("detail");
                 }}
                 onLaunch={(ids) => {
                   setSelectedChainSuppliers(ids);

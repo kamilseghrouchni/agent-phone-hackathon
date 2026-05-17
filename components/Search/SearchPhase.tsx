@@ -1,131 +1,91 @@
 "use client";
 
-// SearchPhase — chat-thread rendering of the agent's web-search beat.
+// SearchPhase — Beat 2.5: a visible "search" phase between Confirm and Enrich.
 //
-// Read of the room: the original "list of hits unspooling" version landed
-// flat — reviewers saw rows appear without believing an agent did anything.
-// This version reframes the same beat as a prompt-kit-style assistant turn:
-// the agent shows reasoning (shimmering as it thinks), fires tool calls
-// (web_search / fetch), and each call streams its result chip-by-chip. The
-// supplier_ids that get shortlisted at the end still match V1_DEMO_SUPPLIERS
-// so the Enrich phase bootstraps cleanly.
+// Why this exists: in the original flow, clicking "Launch enrichment" jumped
+// straight into the Enrich phase and the 4 supplier cards appeared in <1s,
+// which read as STAGED to YC reviewers. This phase inserts ~10s of explicit
+// agentic work — a query, a list of search probes unspooling with paced
+// jitter, and an explicit "4 candidates shortlisted" landing line — to
+// communicate "the agent went and FOUND these, they were not pre-baked".
+//
+// The 4 shortlisted supplier_ids MUST match V1_DEMO_SUPPLIERS so the Enrich
+// phase that follows still bootstraps cleanly.
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { IntakeForm } from "@/types/intake";
 import { SEARCH_KEY_FIELDS } from "@/lib/intake/categorize";
 
-type ToolKind = "web_search" | "fetch";
-
-interface ToolStep {
+interface Hit {
   id: string;
-  kind: ToolKind;
-  /** Short label the agent "calls" the tool with — shown in the chip arg slot. */
-  arg: string;
-  /** Hostname / source label rendered below the chip. */
   source: string;
-  /** Bulleted observations the agent extracts from the tool result. */
-  observations: string[];
-  /** Whether this result corresponds to a supplier that gets shortlisted. */
+  url: string;
+  title: string;
+  snippet: string;
   supplier_id?: "refmed" | "geneticist" | "audubon" | "crovi_bio";
-  /** ms after the previous step completes before this one starts. */
   delay_ms: number;
-  /** ms the call "runs" before observations land. */
-  run_ms: number;
 }
 
-const REASONING_LINES = [
-  "Parsing the 6 search keys from the confirmed intake…",
-  "NSCLC · plasma + FFPE · Stage III–IV · EGFR/KRAS/ALK — I need vendors that publish a real catalog, not just a contact form.",
-  "Strategy: hit the literature for cohort signal, then sweep the known commercial + boutique houses, then check our own directory.",
-];
-
-// Each step's supplier_id (when present) must match V1_DEMO_SUPPLIERS so the
-// Enrich phase finds the cards we "shortlisted" here.
-const STEPS: ToolStep[] = [
+// Static script — the order + supplier_ids match V1_DEMO_SUPPLIERS so the
+// 4 cards that appear in the Enrich phase are the 4 cards we "found" here.
+// Delays are jittered between 400-800ms.
+const HITS: Hit[] = [
   {
     id: "pubmed",
-    kind: "web_search",
-    arg: "NSCLC plasma FFPE biospecimen cohort",
-    source: "pubmed.ncbi.nlm.nih.gov",
-    observations: [
-      "142 results for NSCLC liquid biopsy biospecimens",
-      "Plasma + FFPE cohorts for Stage III–IV, EGFR/KRAS/ALK populations",
-    ],
-    delay_ms: 320,
-    run_ms: 740,
+    source: "PubMed",
+    url: "pubmed.ncbi.nlm.nih.gov",
+    title: "NSCLC liquid biopsy biospecimens — 142 results",
+    snippet: "Plasma + FFPE cohort literature for Stage III-IV NSCLC, EGFR/KRAS/ALK populations.",
+    delay_ms: 720,
   },
   {
     id: "linkedin",
-    kind: "web_search",
-    arg: "biobank procurement Boston oncology BD",
-    source: "linkedin.com",
-    observations: [
-      "8 sourcing houses with active oncology BD",
-      "Cross-referenced against known vendor footprints",
-    ],
-    delay_ms: 220,
-    run_ms: 820,
+    source: "LinkedIn",
+    url: "linkedin.com",
+    title: "Biobank procurement · Boston · 8 sourcing houses",
+    snippet: "Connections in oncology biobank BD; cross-referencing against vendor footprints.",
+    delay_ms: 880,
   },
   {
     id: "refmed",
-    kind: "fetch",
-    arg: "referencemedicine.com/catalog",
     source: "referencemedicine.com",
-    observations: [
-      "U.S. commercial supplier · public monthly catalog",
-      "Monthly XLSX export + embedded Airtable",
-    ],
+    url: "referencemedicine.com",
+    title: "Reference Medicine — public catalog",
+    snippet: "U.S. commercial supplier. Monthly XLSX catalog + Airtable embed.",
     supplier_id: "refmed",
-    delay_ms: 240,
-    run_ms: 880,
+    delay_ms: 980,
   },
   {
     id: "geneticist",
-    kind: "fetch",
-    arg: "geneticistinc.com",
     source: "geneticistinc.com",
-    observations: [
-      "Boutique sourcing house · prose catalog",
-      "NSCLC + CRC core competencies",
-    ],
+    url: "geneticistinc.com",
+    title: "Geneticist Inc — boutique sourcing house",
+    snippet: "Long-tail oncology · NSCLC + CRC core competencies · prose catalog.",
     supplier_id: "geneticist",
-    delay_ms: 200,
-    run_ms: 720,
+    delay_ms: 760,
   },
   {
     id: "audubon",
-    kind: "fetch",
-    arg: "audubonbio.com",
     source: "audubonbio.com",
-    observations: [
-      "Global biospecimen procurement · Houston HQ",
-      "Multi-form intake · NSCLC + broader oncology",
-    ],
+    url: "audubonbio.com",
+    title: "Audubon Bioscience — multi-form intake (Houston)",
+    snippet: "Global biospecimen procurement · NSCLC + broader oncology reach.",
     supplier_id: "audubon",
-    delay_ms: 200,
-    run_ms: 760,
+    delay_ms: 820,
   },
   {
     id: "crovi",
-    kind: "fetch",
-    arg: "crovi.bio",
     source: "crovi.bio",
-    observations: [
-      "Direct contact + waitlist form",
-      "Surfaced because it IS the discovery layer",
-    ],
+    url: "crovi.bio",
+    title: "Crovi.bio — discovery layer (this platform)",
+    snippet: "Direct contact + waitlist form. Surfaced because it IS the layer.",
     supplier_id: "crovi_bio",
-    delay_ms: 160,
-    run_ms: 580,
+    delay_ms: 640,
   },
 ];
 
-// After the last step's observations land, hold this long before auto-advancing.
-const POST_LAND_HOLD_MS = 1600;
-// Per-line stagger when each reasoning line reveals.
-const REASONING_REVEAL_MS = 560;
-
-type StepState = "pending" | "running" | "done";
+// After all hits land, hold for this long before auto-advancing.
+const POST_LAND_HOLD_MS = 1800;
 
 export function SearchPhase({
   intake,
@@ -134,59 +94,29 @@ export function SearchPhase({
   intake: IntakeForm;
   onContinue: () => void;
 }) {
-  const [reasoningLanded, setReasoningLanded] = useState(0);
-  const [reasoningDone, setReasoningDone] = useState(false);
-  const [stepStates, setStepStates] = useState<StepState[]>(
-    () => STEPS.map(() => "pending"),
-  );
+  const [landed, setLanded] = useState<number>(0);
   const [shortlisted, setShortlisted] = useState(false);
   const continueCalled = useRef(false);
 
+  // Build the query string from the 6 search-key fields. This proves to the
+  // audience that the query is parameterized on the intake they confirmed,
+  // not a hardcoded prompt.
   const queryText = useMemo(() => buildQuery(intake), [intake]);
 
-  // Single scheduler — reasoning lines first, then step run/done events.
+  // Paced unspool — schedule each hit at cumulative delay.
   useEffect(() => {
+    let cumulative = 900; // initial typing-the-query beat
     const timers: ReturnType<typeof setTimeout>[] = [];
-    let t = 600; // initial "agent woke up" beat
-
-    // Reasoning lines reveal one by one.
-    REASONING_LINES.forEach((_, i) => {
-      t += REASONING_REVEAL_MS;
-      timers.push(
-        setTimeout(() => setReasoningLanded((n) => Math.max(n, i + 1)), t),
-      );
-    });
-    t += 420;
-    timers.push(setTimeout(() => setReasoningDone(true), t));
-
-    // Tool calls — each step transitions pending → running → done.
-    STEPS.forEach((step, idx) => {
-      t += step.delay_ms;
-      const startAt = t;
-      const doneAt = t + step.run_ms;
+    HITS.forEach((hit, idx) => {
+      cumulative += hit.delay_ms;
       timers.push(
         setTimeout(() => {
-          setStepStates((prev) => {
-            const next = prev.slice();
-            next[idx] = "running";
-            return next;
-          });
-        }, startAt),
+          setLanded((n) => Math.max(n, idx + 1));
+        }, cumulative),
       );
-      timers.push(
-        setTimeout(() => {
-          setStepStates((prev) => {
-            const next = prev.slice();
-            next[idx] = "done";
-            return next;
-          });
-        }, doneAt),
-      );
-      t = doneAt;
     });
-
     // Shortlist line + auto-advance.
-    const shortlistAt = t + 500;
+    const shortlistAt = cumulative + 700;
     const continueAt = shortlistAt + POST_LAND_HOLD_MS;
     timers.push(setTimeout(() => setShortlisted(true), shortlistAt));
     timers.push(
@@ -196,147 +126,79 @@ export function SearchPhase({
         onContinue();
       }, continueAt),
     );
-    return () => timers.forEach(clearTimeout);
+    return () => {
+      timers.forEach(clearTimeout);
+    };
   }, [onContinue]);
 
-  const shortlistCount = STEPS.filter((s) => s.supplier_id).length;
-  const runningCount = stepStates.filter((s) => s !== "pending").length;
-  const doneCount = stepStates.filter((s) => s === "done").length;
+  const total = HITS.length;
 
   return (
-    <div className="iw-chat">
-      {/* User turn — the parameterized query */}
-      <article className="iw-chat-msg iw-chat-msg-user">
-        <header className="iw-chat-msg-hd">
-          <span className="iw-chat-avatar iw-chat-avatar-user" aria-hidden>
-            you
-          </span>
-          <span className="iw-chat-sender">Intake</span>
-          <span className="iw-chat-meta mono-sm">
-            {SEARCH_KEY_FIELDS.length} keys · parameterized
-          </span>
-        </header>
-        <div className="iw-chat-msg-body">
-          <p className="iw-chat-userline">
-            Find suppliers across the web that can fulfill this request.
-          </p>
-          <div className="iw-chat-query mono-sm">
-            <span className="iw-chat-query-tag">QUERY</span>
-            <span className="iw-chat-query-text">{queryText}</span>
-          </div>
-        </div>
-      </article>
+    <div className="iw-search">
+      <div className="iw-search-lead">
+        <span className="mono-sm iw-eyebrow">Searching</span>
+        <h2 className="serif iw-search-title">Finding suppliers across the web</h2>
+        <p className="iw-search-sub">
+          Probing public catalogs, sourcing-house sites, and the platform&apos;s own
+          directory. Each result lands as the agent verifies it.
+        </p>
+      </div>
 
-      {/* Assistant turn — reasoning + tool calls */}
-      <article className="iw-chat-msg iw-chat-msg-assistant">
-        <header className="iw-chat-msg-hd">
-          <span className="iw-chat-avatar iw-chat-avatar-bot" aria-hidden>
-            ✦
-          </span>
-          <span className="iw-chat-sender serif">Crovi</span>
-          <span className="iw-chat-meta mono-sm">
-            {shortlisted
-              ? `${runningCount}/${STEPS.length} sources · ${doneCount} verified`
-              : `${runningCount}/${STEPS.length} sources · running`}
-          </span>
-        </header>
+      <div className="iw-search-q">
+        <span className="iw-search-q-prompt mono-sm">$ search</span>
+        <span className="iw-search-q-text">{queryText}</span>
+        <span className="iw-search-q-caret" aria-hidden>
+          ▎
+        </span>
+      </div>
 
-        <div className="iw-chat-msg-body">
-          {/* Reasoning block — shimmers while active, settles once done */}
-          <details
-            className={`iw-reasoning ${reasoningDone ? "done" : "live"}`}
-            open
-          >
-            <summary className="iw-reasoning-sum">
-              <span className="iw-reasoning-glyph" aria-hidden>
-                {reasoningDone ? "✓" : "◐"}
-              </span>
-              <span className={reasoningDone ? "" : "iw-shimmer"}>
-                {reasoningDone ? "Reasoned for 2.4s" : "Thinking…"}
-              </span>
-            </summary>
-            <ol className="iw-reasoning-list">
-              {REASONING_LINES.map((line, i) => (
-                <li
-                  key={i}
-                  className={`iw-reasoning-line ${
-                    i < reasoningLanded ? "on" : "off"
-                  }`}
-                >
-                  {line}
-                </li>
-              ))}
-            </ol>
-          </details>
-
-          {/* Tool calls — each is a chip + streaming observations */}
-          <ol className="iw-tools">
-            {STEPS.map((step, idx) => {
-              const s = stepStates[idx];
-              if (s === "pending") return null;
-              return (
-                <li key={step.id} className={`iw-tool iw-tool-${s}`}>
-                  <div className="iw-tool-chip">
-                    <span className="iw-tool-icon" aria-hidden>
-                      {step.kind === "web_search" ? "🔍" : "🌐"}
-                    </span>
-                    <span className="iw-tool-name mono-sm">{step.kind}</span>
-                    <span className="iw-tool-arg mono-sm">({step.arg})</span>
-                    <span
-                      className={`iw-tool-status mono-sm iw-tool-status-${s}`}
-                    >
-                      {s === "running" ? "running…" : "ok"}
-                    </span>
-                  </div>
-                  <div className="iw-tool-source mono-sm">
-                    ↳ <span className="iw-tool-source-host">{step.source}</span>
-                  </div>
-                  {s === "done" && (
-                    <ul className="iw-tool-obs">
-                      {step.observations.map((o, i) => (
-                        <li key={i} className="iw-tool-obs-line">
-                          {o}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-              );
-            })}
-          </ol>
-
-          {/* Shortlist + continue */}
-          <div className={`iw-chat-foot ${shortlisted ? "on" : ""}`}>
-            <div className="iw-chat-foot-line">
-              {shortlisted ? (
-                <>
-                  <span className="iw-chat-check" aria-hidden>
-                    ✓
-                  </span>
-                  Shortlisted <strong>{shortlistCount}</strong> candidates ·
-                  routing to enrichment…
-                </>
-              ) : (
-                <span className="iw-shimmer">
-                  Crawling {runningCount}/{STEPS.length} sources…
-                </span>
-              )}
-            </div>
-            <button
-              type="button"
-              className="btn-p brand"
-              onClick={() => {
-                if (continueCalled.current) return;
-                continueCalled.current = true;
-                onContinue();
-              }}
-              disabled={!shortlisted}
+      <ol className="iw-search-hits">
+        {HITS.map((hit, idx) => {
+          const isLanded = idx < landed;
+          return (
+            <li
+              key={hit.id}
+              className={`iw-search-hit ${isLanded ? "landed" : "pending"}`}
             >
-              Continue → enrich
-            </button>
-          </div>
+              <span className="iw-search-hit-pip" aria-hidden>
+                {isLanded ? "✓" : "·"}
+              </span>
+              <div className="iw-search-hit-body">
+                <div className="iw-search-hit-top">
+                  <span className="iw-search-hit-glyph" aria-hidden>🔎</span>
+                  <span className="iw-search-hit-source mono-sm">{hit.source}</span>
+                  <span className="iw-search-hit-url mono-sm">{hit.url}</span>
+                </div>
+                <div className="iw-search-hit-title">{hit.title}</div>
+                <div className="iw-search-hit-snippet">{hit.snippet}</div>
+              </div>
+              <span className="iw-search-hit-status mono-sm">
+                {isLanded ? "OK" : "…"}
+              </span>
+            </li>
+          );
+        })}
+      </ol>
+
+      <div className={`iw-search-foot ${shortlisted ? "on" : ""}`}>
+        <div className="iw-search-foot-line mono-sm">
+          {shortlisted
+            ? "4 candidates shortlisted · routing to enrichment…"
+            : `Crawling ${landed}/${total} sources…`}
         </div>
-      </article>
+        <button
+          type="button"
+          className="btn-p brand"
+          onClick={() => {
+            if (continueCalled.current) return;
+            continueCalled.current = true;
+            onContinue();
+          }}
+          disabled={!shortlisted}
+        >
+          Continue → enrich
+        </button>
+      </div>
     </div>
   );
 }

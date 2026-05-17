@@ -42,7 +42,7 @@ export interface FillIntakeFormResult {
 const VIEWPORT_W = 1280;
 const VIEWPORT_H = 720;
 const NAV_TIMEOUT_MS = 20_000;
-const HOLD_OPEN_MS = 8_000;
+const HOLD_OPEN_MS = 30_000;
 
 export async function fillIntakeForm(
   input: FillIntakeFormInput,
