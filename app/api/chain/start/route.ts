@@ -31,14 +31,12 @@ import {
   saveChainState,
   appendEvent,
   completeStage,
-  defaultChainHandlers,
   recordAgentPhoneId,
 } from "@/lib/agents/runtime/chain-runtime";
 import type { ChainHandlers } from "@/lib/agents/runtime/chain-transitions";
-import { sendEmail } from "@/lib/integrations/agentmail";
-import { bookSlot } from "@/lib/integrations/calcom";
+import { buildHandlersForRun } from "@/lib/agents/runtime/build-handlers";
+import { fillIntakeForm, type FormFieldFill } from "@/lib/integrations/chain-form";
 import { readIntake } from "@/lib/store/runs";
-import type { BiobankOpportunity } from "@/types/biobank";
 import type { ChainState } from "@/types/chain";
 
 export const runtime = "nodejs";
@@ -50,24 +48,25 @@ export const maxDuration = 60;
 // internal directory, not in the V1 enrichment scrape pool.
 // ---------------------------------------------------------------------------
 
-const CROVI_BIO: BiobankOpportunity = {
-  id: "crovi_bio",
-  name: "Crovi.bio",
-  contact: {
-    email: process.env.CROVI_BIO_BD_EMAIL ?? "bd@crovi.bio",
-    bd_name: process.env.CROVI_BIO_BD_NAME ?? "Crovi.bio BD",
-    site_url: process.env.CROVI_INTAKE_FORM_URL ?? "https://crovi.bio/intake-demo",
-    quote_form_url: process.env.CROVI_INTAKE_FORM_URL ?? "https://crovi.bio/intake-demo",
-  },
-  reported: { conditions: [], sample_types: [] },
-  source_evidence: [],
-  audit_state: "pending",
-} as unknown as BiobankOpportunity;
+// Stage 1 form-fill target — the REAL crovi.bio public intake page
+// (env `CROVI_INTAKE_FORM`, currently `https://crovi.bio/agent-launched`).
+// Playwright opens a visible Chromium window, navigates to this URL, and
+// reads the response copy. No fake field-typing — the page is the
+// demo's first audience touchpoint.
+const CROVI_FORM_URL =
+  process.env.CROVI_INTAKE_FORM ?? "https://crovi.bio/agent-launched";
 
-const SUPPLIER_PHONE =
-  process.env.CROVI_BIO_PHONE_NUMBER ?? process.env.DEMO_SUPPLIER_PHONE ?? "+15555550100";
+// For the demo, `DEMO_CALL_TARGET_PHONE` is YOUR phone — you play both the
+// crovi.bio BD persona (Stage 2 call rings you) and NovaCure procurement
+// (Stage 4 SMS lands on you). Both sides fall back to the canonical demo
+// phone unless a per-role override is set explicitly. Kept here for the
+// pre-Stage-2 agentphone.json seed; Stage 2 onward sources phones from
+// the shared buildHandlersForRun.
 const BUYER_PHONE =
-  process.env.NOVACURE_BUYER_PHONE ?? process.env.DEMO_BUYER_PHONE ?? "+15555550199";
+  process.env.NOVACURE_BUYER_PHONE ??
+  process.env.DEMO_BUYER_PHONE ??
+  process.env.DEMO_CALL_TARGET_PHONE ??
+  "+15555550199";
 
 // ---------------------------------------------------------------------------
 // POST entry — initialize chain + fire Stage 1.
@@ -100,8 +99,49 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     // non-fatal
   }
 
-  // Build the handler set the transition dispatcher will use.
-  const handlers = buildHandlers(runId);
+  // Supermemory recall — pull what we already know about this supplier
+  // from prior procurement runs. Surface as a chain event so the audience
+  // sees Supermemory fire in the Timeline. Non-fatal: chain proceeds even
+  // if Supermemory is misconfigured.
+  void (async () => {
+    try {
+      const { supermemory, supermemoryConfigured } = await import(
+        "@/lib/integrations/supermemory"
+      );
+      if (!supermemoryConfigured()) return;
+      const recall = await supermemory.recallSupplierContext(supplierId);
+      const live = loadChainState(runId);
+      if (!live) return;
+      const hitCount = recall.hits.length;
+      const profileBits =
+        (recall.static.length || 0) + (recall.dynamic.length || 0);
+      const topHit = recall.hits[0]?.content?.slice(0, 120);
+      appendEvent(live, "form", {
+        event_id: `supermemory:recall:${Date.now()}`,
+        timestamp: new Date().toISOString(),
+        direction: "system",
+        actor: "agent",
+        text:
+          hitCount + profileBits === 0
+            ? `Supermemory: no prior context for supplier:${supplierId} (cold). Recall ${recall.latency_ms}ms.`
+            : `Supermemory: recalled ${hitCount} prior memor${hitCount === 1 ? "y" : "ies"} + ${profileBits} profile fact${profileBits === 1 ? "" : "s"} for supplier:${supplierId} (${recall.latency_ms}ms)${topHit ? ` — "${topHit}"` : ""}`,
+        payload: {
+          hits: hitCount,
+          profile_facts: profileBits,
+          latency_ms: recall.latency_ms,
+        },
+      });
+      saveChainState(live);
+    } catch {
+      // best-effort
+    }
+  })();
+
+  // Build the handler set the transition dispatcher will use. Shared
+  // factory — the webhook handlers (agentphone call.completed, agentmail
+  // reply) re-import the same builder so completeStage() does the same
+  // thing regardless of who fires it.
+  const handlers = buildHandlersForRun(runId);
 
   // Fire Stage 1 (form) — fast-pathed to "waitlist" outcome. The cascade
   // through chain-transitions.onStageComplete then invokes fireCall, which
@@ -116,12 +156,73 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 }
 
 // ---------------------------------------------------------------------------
-// Stage 1 fast-path. Real Playwright form fill would call submitForm() from
-// lib/integrations/browser-use; for the demo flow we emit a coherent thread
-// of ChainStageEvents so the Timeline lights up immediately, then mark the
-// stage complete with `waitlist` outcome (which the transition table maps
-// to → call).
+// Stage 1 — real Playwright form-fill against CROVI_FORM_URL with live JPEG
+// frames streaming into the Timeline's Stage 1 card (via emitStageFrame in
+// chain-form.ts). Observations from the Playwright run are played back as
+// ChainStageEvents in real time, then a reasoning event closes the stage:
+// "waitlist outcome insufficient for SLA → escalating to call". completeStage
+// fires the chain-transitions cascade → fireCall (AgentPhone). The POST
+// returns immediately; the form-fill runs async and the chain SSE pushes
+// every event into the UI as they land.
 // ---------------------------------------------------------------------------
+
+// 25-field map that mirrors app/forms/crovi-intake/page.tsx. Each entry's
+// `name` matches the corresponding <input name="..."> so Playwright can
+// target by `[name="<id>"]`. Values prefer the live intake.json value;
+// when the run hasn't seen one we fall back to the canonical NovaCure
+// values from the bundled Sample_Completed_Biospecimen_Request.pdf so
+// the demo always has 25 meaty observations to play through.
+const FORM_FIELD_SPECS: ReadonlyArray<{ name: string; label: string; fallback: string }> = [
+  { name: "client.company", label: "Sponsor / company", fallback: "NovaCure Therapeutics" },
+  { name: "client.contact", label: "Procurement contact", fallback: "Demo BD" },
+  { name: "client.title", label: "Contact title", fallback: "Director, Translational Procurement" },
+  { name: "client.email", label: "Contact email", fallback: "procurement@novacure.example" },
+  { name: "client.phone", label: "Contact phone", fallback: "+1 (415) 555-0142" },
+  { name: "client.study_name", label: "Study name", fallback: "NSCLC Liquid Biopsy Validation Study" },
+  { name: "client.timeline", label: "Required timeline", fallback: "Q3 2026 kickoff · 4-month accrual window" },
+  { name: "project.purpose", label: "Purpose / endpoint", fallback: "Validate plasma cfDNA assay against matched FFPE in EGFR/KRAS/ALK NSCLC; primary endpoint = concordance ≥ 90%." },
+  { name: "project.therapeutic_area", label: "Therapeutic area", fallback: "NSCLC, stage III-IV" },
+  { name: "project.irb_status", label: "IRB / ethics status", fallback: "Central IRB approved (WIRB #20251847)" },
+  { name: "project.consent", label: "Consent scope", fallback: "Broad consent · genomic + clinical · re-contact permitted" },
+  { name: "project.regulatory", label: "Regulatory pathway", fallback: "FDA 510(k) IVD validation · CAP/CLIA pathology required" },
+  { name: "specimen.types", label: "Specimen types", fallback: "Plasma (Streck/EDTA) + matched FFPE blocks" },
+  { name: "specimen.diagnosis", label: "Diagnosis", fallback: "C34.9 — Malignant neoplasm of bronchus and lung, NSCLC histology" },
+  { name: "specimen.quantity", label: "Quantity", fallback: "150 plasma cases + 75 matched FFPE blocks" },
+  { name: "specimen.timepoints", label: "Collection timepoints", fallback: "Baseline (pre-treatment) + on-treatment week 6" },
+  { name: "specimen.format", label: "Format", fallback: "Plasma: 4 × 1 mL aliquots, −80°C · FFPE: 10 µm unstained slides + paired H&E" },
+  { name: "specimen.min_volume", label: "Min volume / mass", fallback: "Plasma ≥ 4 mL · FFPE ≥ 50% tumor cellularity" },
+  { name: "specimen.aliquot", label: "Aliquot / tube spec", fallback: "Streck BCT or EDTA K2 · double-spin protocol within 4h of draw" },
+  { name: "specimen.matched_normal", label: "Matched normal", fallback: "Yes — buffy coat or peripheral WBC, paired per case" },
+  { name: "demo.age_range", label: "Age range", fallback: "Adults 40-85 (mean ~65)" },
+  { name: "demo.disease_stage", label: "Disease stage", fallback: "Stage III-B / III-C / IV-A / IV-B per AJCC 8th ed." },
+  { name: "demo.treatment_history", label: "Treatment line", fallback: "Treatment-naive at baseline draw; on-treatment per protocol" },
+  { name: "demo.biomarker", label: "Biomarker enrichment", fallback: "EGFR (60%), KRAS (25%), ALK (15%) — driver-positive only" },
+  { name: "demo.inclusion", label: "Inclusion criteria", fallback: "Confirmed NSCLC III-IV · driver mutation · ECOG 0-2 · capacity to consent" },
+];
+
+function buildFormFields(
+  intake: ReturnType<typeof readIntake>,
+): FormFieldFill[] {
+  const lookup = new Map<string, string>();
+  if (intake?.fields) {
+    for (const f of intake.fields) {
+      if (!f.field_id) continue;
+      const v = f.value;
+      const s =
+        typeof v === "string"
+          ? v.trim()
+          : v == null
+            ? ""
+            : String(v).trim();
+      if (s && s !== "—" && s.toLowerCase() !== "none") lookup.set(f.field_id, s);
+    }
+  }
+  return FORM_FIELD_SPECS.map((spec) => ({
+    name: spec.name,
+    label: spec.label,
+    value: lookup.get(spec.name) ?? spec.fallback,
+  }));
+}
 
 async function fireForm(
   state: ChainState,
@@ -129,239 +230,94 @@ async function fireForm(
   handlers: ChainHandlers,
 ): Promise<void> {
   const intake = readIntake(runId);
-  const indication =
-    (intake?.fields.find((f) => f.field_id === "study.therapeutic_area")?.value as string) ??
-    "NSCLC III-IV";
-  const quantity =
-    (intake?.fields.find((f) => f.field_id === "specimen.total_quantity")?.value as string) ??
-    "150 / 75";
+  const fieldFills = buildFormFields(intake);
 
   state.stages.form.status = "in_progress";
   state.stages.form.started_at = new Date().toISOString();
   appendEvent(state, "form", {
-    event_id: `stage-form-event-1`,
+    event_id: `stage-form-event-0`,
     timestamp: new Date().toISOString(),
     direction: "system",
     actor: "browser_use",
     channel: "browse",
-    text: `navigating to ${CROVI_BIO.contact.quote_form_url}`,
-  });
-  appendEvent(state, "form", {
-    event_id: `stage-form-event-2`,
-    timestamp: new Date().toISOString(),
-    direction: "outbound",
-    actor: "agent",
-    channel: "form",
-    text: `typed indication = "${indication}"`,
-  });
-  appendEvent(state, "form", {
-    event_id: `stage-form-event-3`,
-    timestamp: new Date().toISOString(),
-    direction: "outbound",
-    actor: "agent",
-    channel: "form",
-    text: `typed quantity = "${quantity}"`,
-  });
-  appendEvent(state, "form", {
-    event_id: `stage-form-event-4`,
-    timestamp: new Date().toISOString(),
-    direction: "inbound",
-    actor: "supplier",
-    channel: "form",
-    text: `form response: "Added to waitlist — capacity verification required."`,
-  });
-  appendEvent(state, "form", {
-    event_id: `stage-form-event-5`,
-    timestamp: new Date().toISOString(),
-    direction: "reasoning",
-    actor: "agent",
-    text: "Waitlist outcome insufficient for SLA. Escalating to direct contact via voice.",
+    text: `opening ${CROVI_FORM_URL} in headless Chromium · ${fieldFills.length} fields queued`,
   });
   saveChainState(state);
 
-  // Mark complete with outcome `waitlist` → cascades to fireCall.
-  await completeStage(state, { stage: "form", kind: "waitlist" }, handlers);
-}
-
-// ---------------------------------------------------------------------------
-// Handler set. fireCall + fireSmsPay come from defaultChainHandlers (which
-// owns the AgentPhone wire + pointer-file bookkeeping). We override fireEmail
-// and fireMeeting here because they belong to different integration owners.
-// ---------------------------------------------------------------------------
-
-function buildHandlers(runId: string): ChainHandlers {
-  return defaultChainHandlers(
-    {
-      supplierPhone: SUPPLIER_PHONE,
-      buyerPhone: BUYER_PHONE,
-      voiceAgentId: process.env.AGENTPHONE_VOICE_AGENT_ID ?? "",
-      callContext: {
-        buyer: { company: "NovaCure", contact: "Demo BD", study: "NSCLC Liquid Biopsy Validation" },
-        supplier: { id: "crovi_bio", name: "Crovi.bio" },
-        evidence_targets: [
-          "specimen.types",
-          "specimen.format",
-          "biomarker.subsets",
-          "regulatory.cap_clia",
-        ],
-      },
-      smsBody:
-        "Crovi.bio contract drafted — reply CONFIRMED to authorize $10 goodwill down payment and lock allocation.",
-    },
-    {
-      fireEmail: async (state) => {
-        await fireEmail(state, runId);
-      },
-      fireMeeting: async (state) => {
-        await fireMeeting(state, runId);
-      },
-    },
-  );
-}
-
-// ---------------------------------------------------------------------------
-// Stage 3 — Email. Sends a Filled Intake + Quote email to crovi.bio's BD via
-// AgentMail. After the send, the supplier reply must come in via the AgentMail
-// webhook (/api/webhooks/agentmail) to advance the chain. For the demo, the
-// operator can hit the "Reply: I agree" inbox UI; that fires the webhook,
-// which calls completeStage(email/replied_yes) → fireSmsPay cascades.
-// ---------------------------------------------------------------------------
-
-async function fireEmail(state: ChainState, runId: string): Promise<void> {
-  state.stages.email.status = "in_progress";
-  state.stages.email.started_at = new Date().toISOString();
-  saveChainState(state);
-
-  const intake = readIntake(runId);
-  const studyName =
-    (intake?.fields.find((f) => f.field_id === "study.name")?.value as string) ??
-    "NSCLC Liquid Biopsy Validation Study";
-
-  const body = [
-    `Hi ${CROVI_BIO.contact.bd_name ?? "Crovi.bio BD"},`,
-    ``,
-    `Per our call, attached is the filled intake and a benchmarked quote for ${studyName}.`,
-    ``,
-    `Scope: 150 plasma + 75 matched FFPE/slides, Stage III-IV NSCLC,`,
-    `EGFR/KRAS/ALK enriched. Total $213,750 (11% below industry median).`,
-    ``,
-    `Terms: 30 days validity, $10 goodwill down payment via Sponge to lock allocation.`,
-    `Reply "I agree" to proceed.`,
-    ``,
-    `— Crovi Agent on behalf of NovaCure`,
-  ].join("\n");
-
-  const rendered = [
-    `Subject: Crovi.bio × NovaCure — Filled Intake + Quote ($213,750)`,
-    ``,
-    body,
-  ].join("\n");
-
-  try {
-    const sent = await sendEmail({
-      runId,
-      runDir: `store/runs/${runId}`,
-      supplier: CROVI_BIO,
-      rendered,
-    });
-    appendEvent(state, "email", {
-      event_id: `stage-email-event-1`,
-      timestamp: sent.sent_at,
-      direction: "outbound",
-      actor: "agent",
-      channel: "email",
-      text: `Sent to ${sent.envelope.to} with Filled Intake + Quote attachments (subject: ${sent.envelope.subject})`,
-      payload: { message_id: sent.message_id, thread_id: sent.thread_id, mode: sent.mode },
-    });
-    state.stages.email.artifact_id = sent.message_id;
-  } catch (err) {
-    const message = err instanceof Error ? err.message : String(err);
-    appendEvent(state, "email", {
-      event_id: `stage-email-event-error`,
-      timestamp: new Date().toISOString(),
-      direction: "system",
-      actor: "agent",
-      channel: "email",
-      text: `Email send failed: ${message}`,
-    });
-    state.stages.email.status = "failed";
-  }
-  saveChainState(state);
-  // Note: we DO NOT call completeStage here — completion is triggered by the
-  // supplier's inbound reply (AgentMail webhook → completeStage email/replied_yes).
-}
-
-// ---------------------------------------------------------------------------
-// Stage 5 — Meeting. Drives the Notion calendar in headed Playwright. Real
-// Chromium window pops up on stage; the agent picks a slot and submits.
-// ---------------------------------------------------------------------------
-
-async function fireMeeting(state: ChainState, runId: string): Promise<void> {
-  state.stages.meeting.status = "in_progress";
-  state.stages.meeting.started_at = new Date().toISOString();
-  saveChainState(state);
-
-  const intake = readIntake(runId);
-  const attendeeName =
-    (intake?.buyer?.contact as string | undefined) ?? "NovaCure Procurement";
-  const attendeeEmail =
-    (intake?.buyer?.email as string | undefined) ??
-    process.env.NOVACURE_BUYER_EMAIL ??
-    "procurement@novacure.example";
-
-  // Fire and forget — the headed Chromium window will hold attention on stage.
-  // We don't block the request for the full 60s booking timeout.
+  // Fire-and-forget — Playwright runs on its own; the chain SSE picks up
+  // each appendEvent / saveChainState in the live state.
   void (async () => {
+    let result;
     try {
-      const result = await bookSlot({
+      result = await fillIntakeForm({
         runId,
-        supplierId: "crovi_bio",
-        attendeeName,
-        attendeeEmail,
-        agenda: "Crovi.bio × NovaCure — Shipment logistics & contract review",
+        formUrl: CROVI_FORM_URL,
+        fields: fieldFills,
       });
-      const live = loadChainState(runId);
-      if (!live) return;
-      appendEvent(live, "meeting", {
-        event_id: `stage-meeting-event-1`,
-        timestamp: new Date().toISOString(),
-        direction: "system",
-        actor: "cal",
-        channel: "calendar",
-        text: result.ok
-          ? `createEvent → ${result.event_id} (mode: ${result.mode})`
-          : `Notion calendar booking partial: ${result.error ?? "unknown"}`,
-        payload: { event_id: result.event_id, mode: result.mode },
-      });
-      live.stages.meeting.status = result.ok ? "complete" : "fallback";
-      live.stages.meeting.completed_at = new Date().toISOString();
-      live.stages.meeting.artifact_id = result.event_id;
-      saveChainState(live);
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       const live = loadChainState(runId);
       if (!live) return;
-      appendEvent(live, "meeting", {
-        event_id: `stage-meeting-event-error`,
+      appendEvent(live, "form", {
+        event_id: `stage-form-event-error`,
         timestamp: new Date().toISOString(),
         direction: "system",
-        actor: "cal",
-        channel: "calendar",
-        text: `bookSlot threw: ${message}`,
+        actor: "agent",
+        channel: "form",
+        text: `form-fill threw: ${message}`,
       });
-      live.stages.meeting.status = "failed";
       saveChainState(live);
+      await completeStage(live, { stage: "form", kind: "waitlist" }, handlers);
+      return;
     }
-  })();
 
-  // Emit a kickoff event so the timeline lights immediately.
-  appendEvent(state, "meeting", {
-    event_id: `stage-meeting-event-0`,
-    timestamp: new Date().toISOString(),
-    direction: "system",
-    actor: "agent",
-    channel: "calendar",
-    text: `Opening Notion calendar via Playwright (live on laptop)…`,
-  });
-  saveChainState(state);
+    const live = loadChainState(runId);
+    if (!live) return;
+
+    // Play back the Playwright observations as ChainStageEvents so the
+    // Timeline action log narrates each step alongside the live frames.
+    let n = 1;
+    for (const obs of result.observations) {
+      appendEvent(live, "form", {
+        event_id: `stage-form-event-${n++}`,
+        timestamp: obs.ts,
+        direction: obs.direction,
+        actor:
+          obs.direction === "outbound"
+            ? "agent"
+            : obs.direction === "inbound"
+              ? "supplier"
+              : obs.direction === "reasoning"
+                ? "agent"
+                : "browser_use",
+        channel:
+          obs.direction === "inbound" || obs.direction === "outbound"
+            ? "form"
+            : "browse",
+        text: obs.text,
+      });
+    }
+
+    // Reasoning event — the "waitlist insufficient → escalate to call" beat.
+    appendEvent(live, "form", {
+      event_id: `stage-form-event-reasoning`,
+      timestamp: new Date().toISOString(),
+      direction: "reasoning",
+      actor: "agent",
+      text:
+        result.outcome === "waitlist"
+          ? "Waitlist outcome insufficient for SLA. Escalating to direct contact via voice."
+          : result.outcome === "submitted"
+            ? "Form submitted, but no allocation commitment. Escalating to voice to lock terms."
+            : "Form attempt did not resolve. Escalating to voice as primary channel.",
+    });
+    saveChainState(live);
+
+    // Cascade — chain-transitions.onStageComplete routes form/waitlist → fireCall.
+    await completeStage(live, { stage: "form", kind: "waitlist" }, handlers);
+  })();
 }
+
+// Stage 2 (call) / 3 (email) / 4 (sms_pay) / 5 (meeting) handlers all live
+// in lib/agents/runtime/build-handlers.ts so the webhook routes can call
+// completeStage() with the same handler set this route uses.

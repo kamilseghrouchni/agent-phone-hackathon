@@ -53,6 +53,11 @@ function parseSubjectAndBody(rendered: string): { subject: string; body: string 
 }
 
 function inboxAddressFor(runId: string): string {
+  // If AGENTMAIL_INBOX_ADDRESS is set (e.g. crovi@agentmail.to — an inbox
+  // already provisioned in the AgentMail dashboard), use it directly so we
+  // don't depend on being able to create arbitrary subaddresses on
+  // agentmail.to. Per-run namespacing happens via thread_id anyway.
+  if (process.env.AGENTMAIL_INBOX_ADDRESS) return process.env.AGENTMAIL_INBOX_ADDRESS;
   // AgentMail addresses can't have underscores or spaces. Slugify.
   const slug = runId.replace(/[^a-zA-Z0-9-]/g, "-").toLowerCase();
   return `crovi-run-${slug}@${inboxDomain}`;
@@ -104,11 +109,16 @@ export async function sendEmail(input: SendEmailInput): Promise<EmailSendResult>
   } catch {
     // already exists — fine
   }
+  // Reply-To must point back to OUR inbox (not the supplier's contact
+  // address) so the recipient's "Reply" routes to us → AgentMail webhook
+  // fires → cascade advances. Earlier this pointed at supplier.contact.email,
+  // which (when supplier.contact.email = the buyer's own gmail) sent replies
+  // to themselves and the webhook never saw the reply.
   const sent = (await c.inboxes.messages.send(inbox, {
     to: [actualTo],
     subject,
     text: body,
-    replyTo: [`${fromName} <${supplier.contact.email ?? inbox}>`],
+    replyTo: [`${fromName} <${inbox}>`],
   })) as unknown as { message_id?: string; messageId?: string; thread_id?: string; threadId?: string };
   return {
     message_id: sent.message_id ?? sent.messageId ?? `unknown_${Date.now()}`,

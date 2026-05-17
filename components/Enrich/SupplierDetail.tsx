@@ -16,7 +16,7 @@
 // the full row table to the client.
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { DemoSupplierCardSeed } from "@/lib/demo-suppliers";
+import { getV1Supplier, type DemoSupplierCardSeed } from "@/lib/demo-suppliers";
 
 interface CountEntry {
   label: string;
@@ -31,6 +31,16 @@ interface InventoryRow {
   fee_usd?: number;
 }
 
+interface IntakeMatchSummary {
+  count: number;
+  total: number;
+  criteria: {
+    indication?: string[];
+    specimen_types?: string[];
+    stages?: string[];
+  };
+}
+
 interface RefMedInventoryPayload {
   total_specimens: number;
   total_cases: number;
@@ -41,6 +51,7 @@ interface RefMedInventoryPayload {
   rows_total: number;
   rows_truncated_at: number;
   rows: InventoryRow[];
+  intake_match?: IntakeMatchSummary;
 }
 
 interface SupplierDetailResponse {
@@ -89,6 +100,37 @@ function isFilled(v: unknown): boolean {
   if (Array.isArray(v)) return v.length > 0;
   if (typeof v === "string") return v.length > 0;
   return true;
+}
+
+function isUrlValue(v: unknown): boolean {
+  return typeof v === "string" && /^https?:\/\//i.test(v);
+}
+
+/**
+ * Source link for an extracted field:
+ *   - If the value is a URL → link to that URL directly.
+ *   - Else → link to the supplier's scrape target page so the audience can
+ *     verify the field on the page it was scraped from.
+ */
+function sourceHref(value: unknown, target: string | null | undefined): string | null {
+  if (isUrlValue(value)) return String(value);
+  if (target && /^https?:\/\//i.test(target)) return target;
+  return null;
+}
+
+function SourceLink({ href }: { href: string }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      className="source-link"
+      aria-label="View source page"
+      title={href}
+    >
+      {" "}↗
+    </a>
+  );
 }
 
 export function SupplierDetail({ supplierId, runId }: Props) {
@@ -195,6 +237,7 @@ export function SupplierDetail({ supplierId, runId }: Props) {
           <ScrapeExtractedView
             claimed={data.claimed}
             extracted={data.extracted}
+            sourceUrl={getV1Supplier(data.supplier_id)?.scrape_target ?? null}
           />
         )}
       </div>
@@ -217,6 +260,35 @@ function RefMedInventoryView({
 }) {
   return (
     <>
+      {inv.intake_match ? (
+        <div className="supplier-detail-intake-match">
+          <span className="supplier-detail-roll-big">
+            {inv.intake_match.count.toLocaleString()}
+          </span>
+          <span className="supplier-detail-roll-unit mono-sm">
+            of {inv.intake_match.total.toLocaleString()} specimens match your
+            query
+          </span>
+          <div className="supplier-detail-intake-criteria mono-sm">
+            {inv.intake_match.criteria.indication?.length ? (
+              <span className="supplier-detail-criteria-chip">
+                indication: {inv.intake_match.criteria.indication.join(", ")}
+              </span>
+            ) : null}
+            {inv.intake_match.criteria.specimen_types?.length ? (
+              <span className="supplier-detail-criteria-chip">
+                sample: {inv.intake_match.criteria.specimen_types.join(", ")}
+              </span>
+            ) : null}
+            {inv.intake_match.criteria.stages?.length ? (
+              <span className="supplier-detail-criteria-chip">
+                stage: {inv.intake_match.criteria.stages.join("/")}
+              </span>
+            ) : null}
+          </div>
+        </div>
+      ) : null}
+
       <div className="supplier-detail-roll">
         <span className="supplier-detail-roll-big">
           {inv.total_specimens.toLocaleString()}
@@ -356,9 +428,11 @@ function RefMedInventoryView({
 function ScrapeExtractedView({
   claimed,
   extracted,
+  sourceUrl,
 }: {
   claimed: DemoSupplierCardSeed["claimed"];
   extracted: Record<string, unknown>;
+  sourceUrl: string | null;
 }) {
   const hasAnyExtracted = Object.values(extracted).some(isFilled);
   const filledLabels = SCRAPE_FIELD_LABELS.filter((f) =>
@@ -413,15 +487,22 @@ function ScrapeExtractedView({
           </div>
         ) : (
           <dl className="supplier-detail-dl">
-            {filledLabels.map(({ key, label }) => (
-              <div
-                key={key}
-                className="supplier-detail-dl-row supplier-detail-dl-row-filled"
-              >
-                <dt className="mono-sm">{label}</dt>
-                <dd>{formatValue(extracted[key])}</dd>
-              </div>
-            ))}
+            {filledLabels.map(({ key, label }) => {
+              const v = extracted[key];
+              const href = sourceHref(v, sourceUrl);
+              return (
+                <div
+                  key={key}
+                  className="supplier-detail-dl-row supplier-detail-dl-row-filled"
+                >
+                  <dt className="mono-sm">{label}</dt>
+                  <dd>
+                    {formatValue(v)}
+                    {href ? <SourceLink href={href} /> : null}
+                  </dd>
+                </div>
+              );
+            })}
             {emptyLabels.length > 0 && (
               <div className="supplier-detail-dl-row supplier-detail-dl-row-empty">
                 <dt className="mono-sm">Not yet captured</dt>

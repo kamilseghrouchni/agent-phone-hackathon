@@ -233,7 +233,7 @@ export const V1_DEMO_SUPPLIERS: DemoSupplierCardSeed[] = [
     claimed: {
       conditions: ["all"],
       sample_types: ["all"],
-      contact: { email: "agents@crovi.bio", form_url: "https://crovi.bio/waitlist" },
+      contact: { email: "agents@crovi.bio", form_url: "https://crovi.bio/agent-launched" },
     },
     blurb: "Discovery layer. Direct contact + waitlist form.",
   },

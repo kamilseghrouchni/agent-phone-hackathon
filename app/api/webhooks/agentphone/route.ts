@@ -70,17 +70,37 @@ function findRunByCallId(callId: string): AgentPhonePointer | null {
 function findRunByBuyerPhone(fromNumber: string): AgentPhonePointer | null {
   const runsDir = path.join(getRepoRoot(), "store", "runs");
   if (!fs.existsSync(runsDir)) return null;
+  // Collect candidates with matching buyer_phone. Prefer runs whose sms_pay
+  // stage is still WAITING (locked / ready / in_progress) — they're the ones
+  // expecting the SMS. Ties broken by chain mtime (newest first). This stops
+  // SMS from re-routing to a previously-completed run when multiple test
+  // runs share the same demo phone.
+  const candidates: Array<{ ptr: AgentPhonePointer; mtime: number; active: number }> = [];
   for (const runId of fs.readdirSync(runsDir)) {
     const p = path.join(runsDir, runId, "agentphone.json");
     if (!fs.existsSync(p)) continue;
     try {
       const r = JSON.parse(fs.readFileSync(p, "utf-8")) as AgentPhonePointer;
-      if (r.buyer_phone && normalizePhone(r.buyer_phone) === normalizePhone(fromNumber)) return r;
+      if (!r.buyer_phone || normalizePhone(r.buyer_phone) !== normalizePhone(fromNumber)) continue;
+      const chainP = path.join(runsDir, runId, "chain.json");
+      let active = 0; // 1 if sms_pay still expects input
+      let mtime = fs.statSync(p).mtimeMs;
+      if (fs.existsSync(chainP)) {
+        mtime = fs.statSync(chainP).mtimeMs;
+        try {
+          const chain = JSON.parse(fs.readFileSync(chainP, "utf-8"));
+          const smsStatus = chain?.stages?.sms_pay?.status;
+          active = smsStatus !== "complete" ? 1 : 0;
+        } catch { /* keep active=0 */ }
+      }
+      candidates.push({ ptr: r, mtime, active });
     } catch {
       /* skip */
     }
   }
-  return null;
+  if (candidates.length === 0) return null;
+  candidates.sort((a, b) => b.active - a.active || b.mtime - a.mtime);
+  return candidates[0].ptr;
 }
 
 function normalizePhone(s: string): string {
@@ -339,11 +359,100 @@ async function handleCallCompleted(
   });
   appendEvidence(pointer.run_id, evidence);
 
+  // Supermemory: post-call tracking write — every Q&A pair + a call summary
+  // persisted under `supplier:<id>` for cross-run audit and future recall.
+  // Mirrors the poller path in build-handlers.ts startCallCompletionPoller.
+  try {
+    const { supermemory, supermemoryConfigured } = (await import(
+      "@/lib/integrations/supermemory"
+    )) as typeof import("@/lib/integrations/supermemory");
+    const transcript = evt.transcript ?? [];
+    if (supermemoryConfigured() && transcript.length > 0) {
+      let pairs = 0;
+      for (let i = 0; i < transcript.length; i++) {
+        const t = transcript[i];
+        if (t.turn !== "agent") continue;
+        const reply = transcript.slice(i + 1).find((x) => x.turn === "supplier");
+        if (!reply) continue;
+        await supermemory.add({
+          contextId: `supplier:${pointer.supplier_id}`,
+          content: `[run ${pointer.run_id} · call ${evt.call_id}] Q: ${t.text.trim()} A: ${reply.text.trim()}`,
+          metadata: {
+            supplier_id: pointer.supplier_id,
+            run_id: pointer.run_id,
+            call_id: evt.call_id,
+            channel: "call",
+            kind: "qa_pair",
+            timestamp: reply.timestamp ?? evt.completed_at,
+          },
+        });
+        pairs++;
+      }
+      const agentTurns = transcript.filter((t) => t.turn === "agent").length;
+      const supplierTurns = transcript.filter((t) => t.turn === "supplier").length;
+      await supermemory.add({
+        contextId: `supplier:${pointer.supplier_id}`,
+        content: `[run ${pointer.run_id} · call ${evt.call_id}] Stage-2 call complete · ${evt.duration_sec ?? 0}s · ${agentTurns} agent turns · ${supplierTurns} supplier turns · status=${evt.status}`,
+        metadata: {
+          supplier_id: pointer.supplier_id,
+          run_id: pointer.run_id,
+          call_id: evt.call_id,
+          channel: "call",
+          kind: "call_summary",
+          duration_sec: evt.duration_sec ?? 0,
+          completed_at: evt.completed_at,
+        },
+      });
+      const live = readChain(pointer.run_id);
+      if (live) {
+        live.stages.call.events.push({
+          event_id: `supermemory:tracking:${Date.now()}`,
+          timestamp: new Date().toISOString(),
+          direction: "system",
+          actor: "agent",
+          channel: "call",
+          text: `Supermemory: persisted ${pairs} Q&A pair${pairs === 1 ? "" : "s"} + 1 call summary under supplier:${pointer.supplier_id} (future-run recall + audit trail).`,
+        });
+        writeChain(live);
+      }
+    }
+  } catch {
+    // best-effort
+  }
+
+  // Cascade — drive the chain to Stage 3 (email). The transition table
+  // routes call/{complete,no_answer,failed} → email so all three statuses
+  // advance; the difference is just the evidence quality, not the cascade.
+  let cascaded = false;
+  try {
+    const runtime = (await import(
+      "@/lib/agents/runtime/chain-runtime"
+    )) as typeof import("@/lib/agents/runtime/chain-runtime");
+    const { buildHandlersForRun } = (await import(
+      "@/lib/agents/runtime/build-handlers"
+    )) as typeof import("@/lib/agents/runtime/build-handlers");
+    const live = runtime.loadChainState(pointer.run_id);
+    if (live) {
+      const handlers = buildHandlersForRun(pointer.run_id);
+      const kind: "complete" | "no_answer" | "failed" =
+        evt.status === "completed"
+          ? "complete"
+          : evt.status === "no_answer"
+            ? "no_answer"
+            : "failed";
+      await runtime.completeStage(live, { stage: "call", kind }, handlers);
+      cascaded = true;
+    }
+  } catch {
+    // best-effort; the webhook returns success either way
+  }
+
   return NextResponse.json({
     runId: pointer.run_id,
     callId: evt.call_id,
     status: evt.status,
     evidenceWritten: evidence.length,
+    cascadedToEmail: cascaded,
   });
 }
 

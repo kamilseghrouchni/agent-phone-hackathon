@@ -83,6 +83,24 @@ async function tryClickAny(page: Page, candidates: string[], timeoutMs = 5_000):
   return false;
 }
 
+/**
+ * Locate an input by its label text (the way Notion's calendar structures
+ * the form — labels like "Name*" / "Email*" with no `name=` attribute).
+ * Tries Playwright's getByLabel for each candidate label.
+ */
+async function fillByLabel(page: Page, labels: string[], value: string): Promise<boolean> {
+  for (const label of labels) {
+    try {
+      const loc = page.getByLabel(label, { exact: false });
+      await loc.first().fill(value, { timeout: 1_500 });
+      return true;
+    } catch {
+      // try next label
+    }
+  }
+  return false;
+}
+
 async function tryFillAny(
   page: Page,
   candidates: string[],
@@ -145,7 +163,9 @@ export async function bookSlot(input: BookSlotInput): Promise<BookSlotResult> {
   }, BOOKING_TIMEOUT_MS);
 
   try {
-    browser = await chromium.launch({ headless: true });
+    // HEADED mode by default — Notion booking pops up on the demo laptop so
+    // the audience watches it land. Set PLAYWRIGHT_HEADLESS=true for CI.
+    browser = await chromium.launch({ headless: process.env.PLAYWRIGHT_HEADLESS === "true" });
     context = await browser.newContext({
       viewport: { width: VIEWPORT_W, height: VIEWPORT_H },
       userAgent:
@@ -199,39 +219,56 @@ export async function bookSlot(input: BookSlotInput): Promise<BookSlotResult> {
     // Let the attendee form mount.
     await page.waitForLoadState("networkidle", { timeout: 5_000 }).catch(() => {});
 
-    // 3. Fill name.
-    const nameFilled = await tryFillAny(
-      page,
-      [
-        'input[name="name"]',
-        'input[placeholder*="Name" i]',
-        'input[aria-label*="Name" i]',
-        'input[type="text"]',
-      ],
-      input.attendeeName,
-      4_000,
-    );
+    // 3. Fill name. Notion's calendar uses label-based fields — no name=
+    //    attributes. Use Playwright's getByLabel via locator selector, plus
+    //    structural fallbacks (the first text input after the "Name*" label).
+    const nameFilled = await fillByLabel(page, ["Name", "Full name", "Your name"], input.attendeeName)
+      || await tryFillAny(
+        page,
+        [
+          'input[name="name"]',
+          'input[placeholder*="Name" i]',
+          'input[aria-label*="Name" i]',
+          'input[type="text"]:first-of-type',
+        ],
+        input.attendeeName,
+        3_000,
+      );
     if (!nameFilled) {
       partial = true;
       issues.push("name field not found");
     }
 
     // 4. Fill email.
-    const emailFilled = await tryFillAny(
-      page,
-      [
-        'input[name="email"]',
-        'input[type="email"]',
-        'input[placeholder*="Email" i]',
-        'input[aria-label*="Email" i]',
-      ],
-      input.attendeeEmail,
-      4_000,
-    );
+    const emailFilled = await fillByLabel(page, ["Email", "Email address"], input.attendeeEmail)
+      || await tryFillAny(
+        page,
+        [
+          'input[name="email"]',
+          'input[type="email"]',
+          'input[placeholder*="Email" i]',
+          'input[aria-label*="Email" i]',
+        ],
+        input.attendeeEmail,
+        3_000,
+      );
     if (!emailFilled) {
       partial = true;
       issues.push("email field not found");
     }
+
+    // 4.5. Select a location/meeting-type radio if one is required (Notion's
+    //      booking form has Phone call / Google Meet / San Francisco). Try
+    //      Google Meet first (most universally available); fall back to any.
+    const pg = page;
+    await pg
+      .locator('label:has-text("Google Meet") input[type="radio"], input[type="radio"] + label:has-text("Google Meet")')
+      .first()
+      .click({ timeout: 1500 })
+      .catch(async () => {
+        await pg.locator('label:has-text("Google Meet"), :text("Google Meet")').first().click({ timeout: 1500 }).catch(() => {});
+      })
+      .catch(() => {});
 
     // 5. Try to fill an agenda/notes textarea if one exists. Non-fatal.
     await tryFillAny(
@@ -247,12 +284,15 @@ export async function bookSlot(input: BookSlotInput): Promise<BookSlotResult> {
       2_000,
     ).catch(() => false);
 
-    // 6. Submit. Try the most specific labels first.
+    // 6. Submit. Notion's button reads "Schedule meeting".
     const submitted = await tryClickAny(
       page,
       [
-        'button:has-text("Book")',
+        'button:has-text("Schedule meeting")',
         'button:has-text("Schedule")',
+        'button:has-text("Book meeting")',
+        'button:has-text("Book event")',
+        'button:has-text("Book")',
         'button:has-text("Confirm")',
         'button:has-text("Reserve")',
         'button[type="submit"]',

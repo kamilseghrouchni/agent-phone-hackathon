@@ -19,9 +19,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import { getV1Supplier } from "@/lib/demo-suppliers";
-import { loadRefMed } from "@/lib/search/refmed-loader";
+import { loadRefMed, type RefMedSpecimen } from "@/lib/search/refmed-loader";
 import { readEvidence } from "@/lib/store/evidence-pool";
+import { readIntake } from "@/lib/store/runs";
 import type { SupplierEvidence } from "@/types/evidence";
+import type { IntakeForm } from "@/types/intake";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -43,6 +45,18 @@ interface InventoryRow {
   fee_usd?: number;
 }
 
+interface IntakeMatchCriteria {
+  indication?: string[];      // tokens applied (e.g. ["NSCLC", "lung"])
+  specimen_types?: string[];  // tokens applied (e.g. ["plasma", "FFPE"])
+  stages?: string[];          // tokens applied (e.g. ["III", "IV"])
+}
+
+interface IntakeMatchSummary {
+  count: number;              // rows passing all intake filters
+  total: number;              // total catalog size pre-filter
+  criteria: IntakeMatchCriteria;
+}
+
 interface RefMedInventoryPayload {
   total_specimens: number;
   total_cases: number;
@@ -53,6 +67,8 @@ interface RefMedInventoryPayload {
   rows_total: number;       // total matching rows (post-filter, pre-truncate)
   rows_truncated_at: number; // limit applied
   rows: InventoryRow[];
+  /** Buyer-query filter summary — drives the "N of 14,637 match" headline. */
+  intake_match?: IntakeMatchSummary;
 }
 
 interface SupplierDetailResponse {
@@ -91,9 +107,110 @@ function topN(map: Map<string, number>, n: number): CountEntry[] {
     .map(([label, count]) => ({ label, count }));
 }
 
+// ---------------------------------------------------------------------------
+// Intake-derived filter — turns the buyer's parsed intake into a small set of
+// case-insensitive substring tokens we can apply to the XLSX rows. The point
+// is to PROVE the agent is filtering: the audience sees "150 of 14,637 match"
+// instead of the unfiltered catalog. Each filter dimension is optional and
+// only applied when at least one token is present.
+// ---------------------------------------------------------------------------
+
+const INDICATION_SYNONYMS: Record<string, string[]> = {
+  nsclc: ["nsclc", "lung", "non-small", "non small"],
+  lung: ["lung", "nsclc", "non-small"],
+  breast: ["breast"],
+  crc: ["crc", "colorectal", "colon", "rectum"],
+  colorectal: ["colorectal", "colon", "crc", "rectum"],
+  prostate: ["prostate"],
+  pancreatic: ["pancreas", "pancreatic"],
+  ovarian: ["ovary", "ovarian"],
+  melanoma: ["melanoma", "skin"],
+};
+
+const SPECIMEN_SYNONYMS: Record<string, string[]> = {
+  plasma: ["plasma"],
+  serum: ["serum"],
+  blood: ["blood"],
+  ffpe: ["ffpe", "paraffin"],
+  paraffin: ["paraffin", "ffpe"],
+  tissue: ["tissue", "paraffin", "frozen"],
+  frozen: ["frozen"],
+  "buffy coat": ["buffy"],
+  "whole blood": ["blood"],
+};
+
+function deriveIntakeFilter(intake: IntakeForm | null): IntakeMatchCriteria {
+  if (!intake) return {};
+  const byId = new Map<string, string>();
+  for (const f of intake.fields) {
+    if (f.value == null) continue;
+    byId.set(f.field_id, String(f.value).toLowerCase());
+  }
+  const indText = [
+    byId.get("specimen.diagnosis") ?? "",
+    byId.get("project.therapeutic_area") ?? "",
+  ].join(" ");
+  const specText = [
+    byId.get("specimen.types") ?? "",
+    byId.get("specimen.format") ?? "",
+  ].join(" ");
+  const stageText = [
+    byId.get("specimen.diagnosis") ?? "",
+    byId.get("demo.disease_stage") ?? "",
+  ].join(" ");
+
+  const indications: string[] = [];
+  for (const [key, syns] of Object.entries(INDICATION_SYNONYMS)) {
+    if (syns.some((s) => indText.includes(s))) indications.push(key);
+  }
+  const specimen_types: string[] = [];
+  for (const [key, syns] of Object.entries(SPECIMEN_SYNONYMS)) {
+    if (syns.some((s) => specText.includes(s))) specimen_types.push(key);
+  }
+  const stages: string[] = [];
+  // Match "III-IV", "stage III", "III/IV", "stage IV", "advanced", "metastatic".
+  if (/\bstage\s+iii\b|\biii[-/\s]?iv\b|\biii\b/.test(stageText)) stages.push("III");
+  if (/\bstage\s+iv\b|\biii[-/\s]?iv\b|\biv\b/.test(stageText)) stages.push("IV");
+  if (stages.length === 0 && /\badvanced\b|\bmetastatic\b/.test(stageText)) {
+    stages.push("III", "IV");
+  }
+
+  return {
+    indication: indications.length > 0 ? indications : undefined,
+    specimen_types: specimen_types.length > 0 ? specimen_types : undefined,
+    stages: stages.length > 0 ? stages : undefined,
+  };
+}
+
+function rowMatchesCriteria(s: RefMedSpecimen, c: IntakeMatchCriteria): boolean {
+  if (c.indication && c.indication.length > 0) {
+    const hay = `${s.primary_tumor_site ?? ""} ${s.tumor_type ?? ""} ${s.pathologic_diagnosis ?? ""}`.toLowerCase();
+    const tokens = c.indication.flatMap((k) => INDICATION_SYNONYMS[k] ?? [k]);
+    if (!tokens.some((t) => hay.includes(t))) return false;
+  }
+  if (c.specimen_types && c.specimen_types.length > 0) {
+    const hay = (s.specimen_type ?? "").toLowerCase();
+    const tokens = c.specimen_types.flatMap((k) => SPECIMEN_SYNONYMS[k] ?? [k]);
+    if (!tokens.some((t) => hay.includes(t))) return false;
+  }
+  if (c.stages && c.stages.length > 0) {
+    const stage = (s.stage ?? "").toUpperCase();
+    // Match by leading roman numeral so "III" matches "III"/"IIIA"/"IIIB"/"IIIC"
+    // but NOT "II"/"IIA". "IV" matches "IV"/"IVA"/"IVB" but not "I".
+    const leading = stage.match(/^[IVX]+/)?.[0] ?? "";
+    const ok = c.stages.some((st) => {
+      const up = st.toUpperCase();
+      return leading === up;
+    });
+    if (!ok) return false;
+  }
+  return true;
+}
+
 function buildRefMedInventory(
   q: string | null,
   limit: number,
+  intake: IntakeForm | null,
 ): RefMedInventoryPayload {
   const { cases, specimens } = loadRefMed(refmedXlsxPath());
 
@@ -107,9 +224,19 @@ function buildRefMedInventory(
     sampleTypeCounts.set(st, (sampleTypeCounts.get(st) ?? 0) + 1);
   }
 
-  // Build row preview (post-filter).
+  // 1) Apply intake-derived filter (the "proves the agent is filtering" pass).
+  const criteria = deriveIntakeFilter(intake);
+  const hasCriteria =
+    Boolean(criteria.indication?.length) ||
+    Boolean(criteria.specimen_types?.length) ||
+    Boolean(criteria.stages?.length);
+  const intakeFiltered = hasCriteria
+    ? specimens.filter((s) => rowMatchesCriteria(s, criteria))
+    : specimens;
+
+  // 2) Apply free-text overlay filter (UI search input).
   const needle = q?.toLowerCase() ?? "";
-  const rowsAll: InventoryRow[] = specimens
+  const rowsAll: InventoryRow[] = intakeFiltered
     .filter((s) => {
       if (!needle) return true;
       const hay = `${s.rm_id} ${s.specimen_type ?? ""} ${s.primary_tumor_site ?? ""} ${s.tumor_type ?? ""} ${s.stage ?? ""} ${s.pathologic_diagnosis ?? ""}`.toLowerCase();
@@ -123,7 +250,7 @@ function buildRefMedInventory(
       fee_usd: s.fee_usd,
     }));
 
-  return {
+  const payload: RefMedInventoryPayload = {
     total_specimens: specimens.length,
     total_cases: cases.length,
     unique_conditions: conditionCounts.size,
@@ -134,6 +261,14 @@ function buildRefMedInventory(
     rows_truncated_at: limit,
     rows: rowsAll.slice(0, limit),
   };
+  if (hasCriteria) {
+    payload.intake_match = {
+      count: intakeFiltered.length,
+      total: specimens.length,
+      criteria,
+    };
+  }
+  return payload;
 }
 
 function projectExtractedFromEvidence(
@@ -171,12 +306,18 @@ export async function GET(req: NextRequest, ctx: RouteContext) {
   );
 
   let extracted: Record<string, unknown> = {};
+  let intake: IntakeForm | null = null;
   if (runId) {
     try {
       const evidence = readEvidence(runId);
       extracted = projectExtractedFromEvidence(evidence, supplierId);
     } catch {
       extracted = {};
+    }
+    try {
+      intake = readIntake(runId);
+    } catch {
+      intake = null;
     }
   }
 
@@ -192,7 +333,7 @@ export async function GET(req: NextRequest, ctx: RouteContext) {
 
   if (seed.supplier_id === "refmed") {
     try {
-      response.inventory = buildRefMedInventory(q, limit);
+      response.inventory = buildRefMedInventory(q, limit, intake);
       response.conviction_tier = "high_match";
     } catch (err) {
       // Demo-safe: surface the error but don't 500 — UI degrades to claimed only.

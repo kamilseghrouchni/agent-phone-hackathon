@@ -148,7 +148,7 @@ export default async function OpportunityDashboardPage({
     { label: "Donor manifest watcher", detail: "Pings Camille Trottier weekly until residual confirm" },
     { label: "Cold-chain QC dispatch", detail: "Books courier slot at viability-test clearance" },
     { label: "Milestone tracker", detail: "Posts updates to Aulus inbox + this dashboard" },
-    { label: "Final dossier compiler", detail: "Bundles HD4 data + bridge report at milestone close" },
+    { label: "Final dossier compiler", detail: "Bundles HD4 data + bridge report on 2026-12-08" },
   ];
 
   return (

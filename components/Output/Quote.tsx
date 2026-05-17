@@ -114,7 +114,7 @@ export function Quote({ spongeTransferId, stripeTransferId }: QuoteProps) {
       </section>
 
       <footer className="qt-foot mono">
-        Issued {new Date().toISOString().slice(0, 10)} · Valid 30 days · bd@crovi.bio
+        Issued 2026-05-17 · Valid 30 days · bd@crovi.bio
       </footer>
     </article>
   );

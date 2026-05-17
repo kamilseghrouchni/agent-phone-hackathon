@@ -19,10 +19,10 @@ export const SUPPLIERS: BiobankOpportunity[] = [
     reported: {
       conditions: ["NSCLC", "Breast", "CRC", "Prostate", "Pancreatic", "Lung"],
       sample_types: ["FFPE block", "plasma", "serum", "frozen tissue", "buffy coat"],
-      public_xlsx_url: "store/inventory/refmed_catalog.xlsx",
+      public_xlsx_url: "store/inventory/refmed_2026-05.xlsx",
       filterable_catalog_url: "https://airtable.com/embed/refmed-catalog",
     },
-    source_evidence: [{ url: "https://referencemedicine.com", scraped_at: "", snippet: "RefMed catalog (XLSX, 14k specimens)" }],
+    source_evidence: [{ url: "https://referencemedicine.com", scraped_at: "2026-05-15T00:00:00Z", snippet: "RefMed catalog (XLSX, 14k specimens)" }],
     audit_state: "pending",
   },
   {
@@ -39,7 +39,7 @@ export const SUPPLIERS: BiobankOpportunity[] = [
       conditions: ["NSCLC", "CRC", "lung", "colon"],
       sample_types: ["FFPE block", "plasma", "serum"],
     },
-    source_evidence: [{ url: "https://geneticist.net", scraped_at: "", snippet: "Geneticist Inc. — biospecimen sourcing" }],
+    source_evidence: [{ url: "https://geneticist.net", scraped_at: "2026-05-15T00:00:00Z", snippet: "Geneticist Inc. — biospecimen sourcing" }],
     audit_state: "pending",
   },
   {
@@ -56,7 +56,7 @@ export const SUPPLIERS: BiobankOpportunity[] = [
       conditions: ["NSCLC", "lung", "breast", "cancer"],
       sample_types: ["FFPE block", "frozen tissue", "plasma"],
     },
-    source_evidence: [{ url: "https://ukrainebiobank.com", scraped_at: "", snippet: "Ukraine Biobank tissue archive" }],
+    source_evidence: [{ url: "https://ukrainebiobank.com", scraped_at: "2026-05-15T00:00:00Z", snippet: "Ukraine Biobank tissue archive" }],
     audit_state: "pending",
   },
   {
@@ -73,7 +73,7 @@ export const SUPPLIERS: BiobankOpportunity[] = [
       conditions: ["NSCLC", "lung", "cancer", "tumor"],
       sample_types: ["FFPE block", "plasma", "frozen tissue"],
     },
-    source_evidence: [{ url: "https://audubonbio.com", scraped_at: "", snippet: "Audubon — global biospecimen procurement" }],
+    source_evidence: [{ url: "https://audubonbio.com", scraped_at: "2026-05-15T00:00:00Z", snippet: "Audubon — global biospecimen procurement" }],
     audit_state: "pending",
   },
   {
@@ -89,7 +89,7 @@ export const SUPPLIERS: BiobankOpportunity[] = [
       conditions: ["NSCLC", "tumor", "cancer"],
       sample_types: ["FFPE block", "frozen tissue"],
     },
-    source_evidence: [{ url: "https://biomedica-cro.com", scraped_at: "", snippet: "Biomedica CRO — taxonomy gated" }],
+    source_evidence: [{ url: "https://biomedica-cro.com", scraped_at: "2026-05-15T00:00:00Z", snippet: "Biomedica CRO — taxonomy gated" }],
     audit_state: "pending",
   },
   {
@@ -106,7 +106,7 @@ export const SUPPLIERS: BiobankOpportunity[] = [
       conditions: ["all"],
       sample_types: ["all"],
     },
-    source_evidence: [{ url: "https://crovi.bio", scraped_at: "", snippet: "vCRO discovery layer (meta)" }],
+    source_evidence: [{ url: "https://crovi.bio", scraped_at: "2026-05-15T00:00:00Z", snippet: "vCRO discovery layer (meta)" }],
     audit_state: "pending",
     meta_flag: "discovery_layer",
   },

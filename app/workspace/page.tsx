@@ -25,6 +25,7 @@ import { ConfirmStrip } from "@/components/Intake/ConfirmStrip";
 import { FullIntakeAccordion } from "@/components/Intake/FullIntakeAccordion";
 import { SearchPhase } from "@/components/Search/SearchPhase";
 import { SequenceTemplate } from "@/components/Chain/SequenceTemplate";
+import { StageControls } from "@/components/Chain/StageControls";
 import { Timeline } from "@/components/Chain/Timeline";
 import { SupplierCardsGrid } from "@/components/Enrich/SupplierCardsGrid";
 import { SessionPanel } from "@/components/Enrich/SessionPanel";
@@ -572,11 +573,10 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
   const [activeSupplierId, setActiveSupplierId] = useState<string | null>(null);
   const [openedSupplierId, setOpenedSupplierId] = useState<string | null>(null);
   // Right-pane view mode for the opened supplier — Detail (data we have) or
-  // Live session (Chromium frame stream + action log). Live session is the
-  // default so reviewers immediately see the agent working; clicking a card
-  // name flips to Detail.
+  // Live session (Chromium frame stream + action log). Detail is the default
+  // when the user clicks the card name.
   const [rightPaneView, setRightPaneView] = useState<"detail" | "session">(
-    "session",
+    "detail",
   );
   const [enrichStarted, setEnrichStarted] = useState(false);
   const [selectedChainSuppliers, setSelectedChainSuppliers] = useState<string[]>([]);
@@ -588,9 +588,10 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
   // Climax/Lineage right-pane toggle (active once Stage 5 lands).
   const [climaxMode, setClimaxMode] = useState<ClimaxMode>("documents");
 
-  // Load the intake. First try sessionStorage (stashed by Dropzone); if absent,
-  // re-fetch from /api/intake by re-uploading would require the file — for the
-  // demo path the dropzone always stashes, so we surface an error otherwise.
+  // Load the intake. Priority:
+  //   1. sessionStorage (stashed by Dropzone on PDF upload)
+  //   2. /api/runs/<runId>/intake (disk fallback — lets direct URL access
+  //      to ?phase=chain work without going through the PDF flow)
   useEffect(() => {
     if (typeof window === "undefined") return;
     const raw = sessionStorage.getItem(`crovi_intake_${runId}`);
@@ -603,7 +604,30 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
         return;
       }
     }
-    setLoadError("Intake not found in session — start again from the home page.");
+    // Disk fallback — fetch from the runs store.
+    (async () => {
+      try {
+        const r = await fetch(`/api/runs/${runId}/intake`);
+        if (!r.ok) {
+          setLoadError(
+            "Intake not found — upload a PDF on the home page or POST to /api/chain/fire-stage first.",
+          );
+          return;
+        }
+        const j = (await r.json()) as { intake: IntakeForm };
+        if (j.intake) {
+          setIntake(j.intake);
+          // Stash for refresh persistence
+          try {
+            sessionStorage.setItem(`crovi_intake_${runId}`, JSON.stringify(j.intake));
+          } catch {}
+        } else {
+          setLoadError("Intake fetched but empty.");
+        }
+      } catch (e) {
+        setLoadError(`intake fetch failed: ${String(e)}`);
+      }
+    })();
   }, [runId]);
 
   // Persist intake edits (from ConfirmStrip + editable rows in IntakePreview)
@@ -654,28 +678,25 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
     })();
   }, [phase, intake, enrichStarted, runId]);
 
-  // Fire chain start once when entering chain phase (idempotent on server).
-  useEffect(() => {
-    if (phase !== "chain" || chainStarted) return;
+  // Chain fire is now MANUAL — user clicks "Launch sequence" in the chain
+  // phase UI. (Previously auto-fired on phase entry; that made the run
+  // start before the audience could see the chrome, and re-firing on
+  // refresh was awkward. The Launch button below owns this now.)
+  const launchChain = async () => {
+    if (chainStarted) return;
     setChainStarted(true);
     const supplierId = selectedChainSuppliers[0] ?? "crovi_bio";
-    void (async () => {
-      try {
-        const r = await fetch("/api/chain/start", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ runId, supplierId }),
-        });
-        if (!r.ok) {
-          // eslint-disable-next-line no-console
-          console.warn("chain/start failed", r.status);
-        }
-      } catch (e) {
-        // eslint-disable-next-line no-console
-        console.warn("chain/start error", e);
-      }
-    })();
-  }, [phase, chainStarted, runId, selectedChainSuppliers]);
+    try {
+      await fetch("/api/chain/start", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ runId, supplierId }),
+      });
+    } catch (e) {
+      console.warn("chain/start error", e);
+      setChainStarted(false);
+    }
+  };
 
   // SSE: subscribe to live ChainState updates once we're in chain phase.
   useEffect(() => {
@@ -913,7 +934,28 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
 
         {phase === "chain" && (
           <div className="iw-chain">
-            {chainState ? (
+            {!chainState || chainState.stages.form.status === "ready" ? (
+              <div className="iw-chain-launch">
+                <h2>Launch sequence</h2>
+                <p>
+                  Drives: <strong>form-fill on crovi.bio</strong> → <strong>call your phone</strong> with
+                  the Crovi-AI operator → <strong>email contract to {`<your inbox>`}</strong> → <strong>SMS + $10 down-payment stub</strong> → <strong>book meeting on Notion calendar</strong>.
+                </p>
+                <p className="iw-chain-launch-hint">
+                  Each stage cascades automatically on real wire events (call.completed,
+                  email reply, SMS CONFIRMED). You can also fire any stage in isolation
+                  from the stage cockpit once launched.
+                </p>
+                <button
+                  type="button"
+                  className="iw-chain-launch-btn"
+                  onClick={launchChain}
+                  disabled={chainStarted}
+                >
+                  {chainStarted ? "Starting…" : "▶ Launch sequence"}
+                </button>
+              </div>
+            ) : (
               <>
                 <div className="iw-chain-hd">
                   <SequenceTemplate chain={chainState} />
@@ -936,14 +978,16 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                     onProvenanceClick={handleProvenanceClick}
                   />
                 ) : (
-                  <Timeline chain={chainState} runId={runId} />
+                  <>
+                    <StageControls
+                      runId={runId}
+                      chain={chainState}
+                      supplierId={chainState.supplier_id}
+                    />
+                    <Timeline chain={chainState} runId={runId} />
+                  </>
                 )}
               </>
-            ) : (
-              <div className="iwep-card">
-                <span className="live-dot" />
-                <span className="mono-sm"> Initializing chain…</span>
-              </div>
             )}
           </div>
         )}
