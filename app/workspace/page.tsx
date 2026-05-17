@@ -25,7 +25,8 @@ import { ConfirmStrip } from "@/components/Intake/ConfirmStrip";
 import { FullIntakeAccordion } from "@/components/Intake/FullIntakeAccordion";
 import { SearchPhase } from "@/components/Search/SearchPhase";
 import { SequenceTemplate } from "@/components/Chain/SequenceTemplate";
-import { StageControls } from "@/components/Chain/StageControls";
+// StageControls cockpit removed — actions stream naturally one after
+// another via Timeline. No manual fire buttons in the demo.
 import { Timeline } from "@/components/Chain/Timeline";
 import { SupplierCardsGrid } from "@/components/Enrich/SupplierCardsGrid";
 import { SessionPanel } from "@/components/Enrich/SessionPanel";
@@ -708,11 +709,24 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
     setChainStarted(true);
     const supplierId = selectedChainSuppliers[0] ?? "crovi_bio";
     try {
-      await fetch("/api/chain/start", {
+      const r = await fetch("/api/chain/start", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ runId, supplierId }),
       });
+      // Hydrate chainState immediately from the response so the Timeline
+      // mounts without a "Starting sequence…" gap — chain/start returns
+      // synchronously with form already complete and call in_progress
+      // (form fast-paths in <50ms; call is fire-and-forget on the same
+      // request).
+      if (r.ok) {
+        try {
+          const data = (await r.json()) as { chain?: ChainState };
+          if (data.chain) setChainState(data.chain);
+        } catch {
+          // SSE will fill in
+        }
+      }
     } catch (e) {
       console.warn("chain/start error", e);
       setChainStarted(false);
@@ -997,9 +1011,8 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                   the Crovi-AI operator → <strong>email contract to {`<your inbox>`}</strong> → on your "I agree" reply: <strong>Sponge $1 USDC wire + SMS receipt + Notion meeting</strong> fire in parallel.
                 </p>
                 <p className="iw-chain-launch-hint">
-                  Each stage cascades automatically on real wire events (call.completed,
-                  email reply, SMS CONFIRMED). You can also fire any stage in isolation
-                  from the stage cockpit once launched.
+                  Every action chains to the next as soon as the previous one lands —
+                  no manual buttons, no waiting. Total runtime under a minute.
                 </p>
                 <button
                   type="button"
@@ -1043,14 +1056,13 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                     onProvenanceClick={handleProvenanceClick}
                   />
                 ) : (
-                  <>
-                    <StageControls
-                      runId={runId}
-                      chain={chainState}
-                      supplierId={chainState.supplier_id}
-                    />
-                    <Timeline chain={chainState} runId={runId} />
-                  </>
+                  // No more StageControls cockpit. The Timeline shows
+                  // events streaming in naturally as each stage fires —
+                  // form completes instantly, call fires, email lands,
+                  // SMS + Sponge + meeting fan out on agree. The user
+                  // shouldn't see "manual fire" buttons because the
+                  // demo's whole point is that nothing is manual.
+                  <Timeline chain={chainState} runId={runId} />
                 )}
               </>
             )}
