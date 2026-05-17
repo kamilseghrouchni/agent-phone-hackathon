@@ -222,21 +222,36 @@ export async function fireCall(input: FireCallInput): Promise<CallOutResult> {
     started_at: new Date().toISOString(),
   });
 
-  // Pre-call retrieval: seed Moss with the 35-field intake corpus and pull
-  // per-question tactical facts into the system prompt. If Moss is offline
-  // or the intake hasn't been written yet, preparePerTurnPrompt falls back
-  // to Supermemory or the bare voice-persona prompt — never throws.
+  // Pre-call retrieval + per-call Crovi-AI operator prompt build. The new
+  // 4-beat script (technical confirm → market budget window → interest +
+  // capacity qualification → close) is templated against the live intake.
+  // Both `systemPrompt` and `initialGreeting` are overridden per call so
+  // we get a Crovi-branded opening regardless of the vendor agent's
+  // default greeting. If Moss is offline or intake hasn't been written
+  // yet, preparePerTurnPrompt cleanly falls back to a static rendering.
   // Dynamic import: keeps Moss native binding out of client bundles.
-  const { preparePerTurnPrompt, VOICE_PERSONA_SYSTEM_PROMPT } = await import(
-    "@/lib/agents/voice-persona"
-  );
+  const supplierName = context.supplier?.name ?? "crovi.bio";
+  const {
+    preparePerTurnPrompt,
+    buildCroviOperatorGreeting,
+    buildCroviOperatorPrompt,
+    VOICE_PERSONA_SYSTEM_PROMPT,
+  } = await import("@/lib/agents/voice-persona");
   const intake = readIntake(state.run_id);
-  const enrichedPrompt = await preparePerTurnPrompt(state.run_id, intake).catch(
-    () => context.systemPrompt ?? VOICE_PERSONA_SYSTEM_PROMPT,
+  const enrichedPrompt = await preparePerTurnPrompt(
+    state.run_id,
+    intake,
+    supplierName,
+  ).catch(() =>
+    intake
+      ? buildCroviOperatorPrompt({ intake, supplierName })
+      : context.systemPrompt ?? VOICE_PERSONA_SYSTEM_PROMPT,
   );
+  const initialGreeting = buildCroviOperatorGreeting({ intake, supplierName });
   const enrichedContext: CallOutContext = {
     ...context,
     systemPrompt: enrichedPrompt,
+    initialGreeting,
   };
 
   const result = await callOut(toNumber, voiceAgentId, enrichedContext);
@@ -250,6 +265,22 @@ export async function fireCall(input: FireCallInput): Promise<CallOutResult> {
     kind: "call",
     id: result.call_id,
   });
+
+  // Start the poll-based completion fallback. The poller hits AgentPhone's
+  // getCall(call_id) every 5s and, when the call terminates, fires the
+  // cascade to email — same path the call.completed webhook would take.
+  // Webhook still works if provisioned; poller just removes the ngrok
+  // dependency for local testing.
+  if (result.mode === "real" && result.status !== "failed") {
+    try {
+      const { startCallCompletionPoller } = await import(
+        "@/lib/agents/runtime/build-handlers"
+      );
+      startCallCompletionPoller(state.run_id, result.call_id);
+    } catch {
+      // best-effort — webhook path still works if configured
+    }
+  }
 
   appendEvent(state, "call", {
     event_id: `call:${result.call_id}:initiated`,

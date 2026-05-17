@@ -136,9 +136,8 @@ function evt(
   };
 }
 
-// Module-load epoch keeps timestamps stable across re-renders within a
-// single run, while remaining tied to whenever the demo is launched.
-const TS_EPOCH = Date.now();
 function ts(offsetMs: number): string {
-  return new Date(TS_EPOCH + offsetMs).toISOString();
+  // Deterministic base so successive renders don't churn timestamps.
+  const BASE = new Date("2026-05-17T17:00:00Z").getTime();
+  return new Date(BASE + offsetMs).toISOString();
 }

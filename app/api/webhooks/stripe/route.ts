@@ -1,10 +1,12 @@
 // /api/webhooks/stripe — GONE.
 //
-// The down-payment rail uses Sponge, not Stripe. Webhook traffic must be
-// redirected to /api/webhooks/sponge. This route returns 410 Gone so an
-// old Stripe webhook config doesn't silently swallow events.
+// The down-payment rail was swapped from Stripe to Sponge (YC W26) for the
+// YC hackathon demo. Webhook traffic must be redirected to
+// /api/webhooks/sponge. This route now returns 410 Gone so an old Stripe
+// webhook config doesn't silently swallow events.
 //
 // Replaced by: app/api/webhooks/sponge/route.ts
+// Replaced on: 2026-05-17
 
 import { NextResponse } from "next/server";
 

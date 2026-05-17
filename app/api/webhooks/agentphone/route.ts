@@ -70,17 +70,37 @@ function findRunByCallId(callId: string): AgentPhonePointer | null {
 function findRunByBuyerPhone(fromNumber: string): AgentPhonePointer | null {
   const runsDir = path.join(getRepoRoot(), "store", "runs");
   if (!fs.existsSync(runsDir)) return null;
+  // Collect candidates with matching buyer_phone. Prefer runs whose sms_pay
+  // stage is still WAITING (locked / ready / in_progress) — they're the ones
+  // expecting the SMS. Ties broken by chain mtime (newest first). This stops
+  // SMS from re-routing to a previously-completed run when multiple test
+  // runs share the same demo phone.
+  const candidates: Array<{ ptr: AgentPhonePointer; mtime: number; active: number }> = [];
   for (const runId of fs.readdirSync(runsDir)) {
     const p = path.join(runsDir, runId, "agentphone.json");
     if (!fs.existsSync(p)) continue;
     try {
       const r = JSON.parse(fs.readFileSync(p, "utf-8")) as AgentPhonePointer;
-      if (r.buyer_phone && normalizePhone(r.buyer_phone) === normalizePhone(fromNumber)) return r;
+      if (!r.buyer_phone || normalizePhone(r.buyer_phone) !== normalizePhone(fromNumber)) continue;
+      const chainP = path.join(runsDir, runId, "chain.json");
+      let active = 0; // 1 if sms_pay still expects input
+      let mtime = fs.statSync(p).mtimeMs;
+      if (fs.existsSync(chainP)) {
+        mtime = fs.statSync(chainP).mtimeMs;
+        try {
+          const chain = JSON.parse(fs.readFileSync(chainP, "utf-8"));
+          const smsStatus = chain?.stages?.sms_pay?.status;
+          active = smsStatus !== "complete" ? 1 : 0;
+        } catch { /* keep active=0 */ }
+      }
+      candidates.push({ ptr: r, mtime, active });
     } catch {
       /* skip */
     }
   }
-  return null;
+  if (candidates.length === 0) return null;
+  candidates.sort((a, b) => b.active - a.active || b.mtime - a.mtime);
+  return candidates[0].ptr;
 }
 
 function normalizePhone(s: string): string {
@@ -339,11 +359,39 @@ async function handleCallCompleted(
   });
   appendEvidence(pointer.run_id, evidence);
 
+  // Cascade — drive the chain to Stage 3 (email). The transition table
+  // routes call/{complete,no_answer,failed} → email so all three statuses
+  // advance; the difference is just the evidence quality, not the cascade.
+  let cascaded = false;
+  try {
+    const runtime = (await import(
+      "@/lib/agents/runtime/chain-runtime"
+    )) as typeof import("@/lib/agents/runtime/chain-runtime");
+    const { buildHandlersForRun } = (await import(
+      "@/lib/agents/runtime/build-handlers"
+    )) as typeof import("@/lib/agents/runtime/build-handlers");
+    const live = runtime.loadChainState(pointer.run_id);
+    if (live) {
+      const handlers = buildHandlersForRun(pointer.run_id);
+      const kind: "complete" | "no_answer" | "failed" =
+        evt.status === "completed"
+          ? "complete"
+          : evt.status === "no_answer"
+            ? "no_answer"
+            : "failed";
+      await runtime.completeStage(live, { stage: "call", kind }, handlers);
+      cascaded = true;
+    }
+  } catch {
+    // best-effort; the webhook returns success either way
+  }
+
   return NextResponse.json({
     runId: pointer.run_id,
     callId: evt.call_id,
     status: evt.status,
     evidenceWritten: evidence.length,
+    cascadedToEmail: cascaded,
   });
 }
 
