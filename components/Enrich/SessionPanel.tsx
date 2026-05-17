@@ -55,6 +55,21 @@ function formatValue(v: unknown): string {
   return String(v);
 }
 
+function isUrl(v: unknown): boolean {
+  return typeof v === "string" && /^https?:\/\//i.test(v);
+}
+
+/**
+ * Source link for an extracted value:
+ *   - If the value itself is a URL → link to that URL.
+ *   - Else → link to the scrape's target page so the audience can verify.
+ */
+function sourceHref(value: unknown, target: string | undefined): string | null {
+  if (isUrl(value)) return String(value);
+  if (target && /^https?:\/\//i.test(target)) return target;
+  return null;
+}
+
 function shortTime(iso: string): string {
   return iso.slice(11, 19);
 }
@@ -190,13 +205,28 @@ export function SessionPanel({ supplierId, states }: Props) {
             {FIELD_ORDER.map(({ key, label }) => {
               const v = extracted[key];
               const filled = v != null && (Array.isArray(v) ? v.length > 0 : String(v).length > 0);
+              const href = filled ? sourceHref(v, handle?.target_url) : null;
               return (
                 <div
                   key={key}
                   className={`session-extracted-row ${filled ? "filled" : "empty"}`}
                 >
                   <dt className="mono-sm">{label}</dt>
-                  <dd>{formatValue(v)}</dd>
+                  <dd>
+                    {formatValue(v)}
+                    {href ? (
+                      <a
+                        href={href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="source-link"
+                        aria-label="View source page"
+                        title={href}
+                      >
+                        {" "}↗
+                      </a>
+                    ) : null}
+                  </dd>
                 </div>
               );
             })}
