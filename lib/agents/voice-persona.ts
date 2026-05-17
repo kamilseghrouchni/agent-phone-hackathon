@@ -1,20 +1,26 @@
-// Voice persona for the Stage 2 outbound call to crovi.bio BD.
-// Used by AgentPhone's voice agent. The system prompt is intentionally tight:
-// opening line → 3 substantive questions (spec §4 Stage 2) → closing line.
-// Outcome parser converts the call transcript into SupplierEvidence entries.
+// Voice persona for the Stage 2 outbound call from CROVI (the AI procurement
+// platform) to crovi.bio's BD line, on behalf of the sponsor whose intake
+// we just submitted (and got a waitlist response on) in Stage 1.
 //
-// Retrieval layering (spec §7.1 + Moss swap):
-//   - Supermemory  = long-term buyer-spec context per run_id
-//   - Moss         = real-time semantic search for THIS turn's question,
-//                    sub-200ms tactical retrieval against the 35-field
-//                    intake corpus that we seed at run start
-// `retrieveForTurn()` queries Moss first; falls through to Supermemory
-// when Moss is unconfigured or empty. The top 1-2 hits are appended to
-// the agent's context so the NEXT turn has the right tactical facts.
+// The script has 4 beats — the design doc's 3 substantive questions are
+// preserved as the TECHNICAL CONFIRMATION block (so parseCallOutcome still
+// emits evidence), with two new blocks added per the latest direction:
+//
+//   1. OPEN              — Crovi-AI identity, references the just-submitted form
+//   2. TECHNICAL CONFIRM — 3 questions on volumes, format, biomarker, protocols
+//   3. BUDGET WINDOW     — agent proposes a market-based price range
+//   4. INTEREST + CAPACITY — agent qualifies "do you have it + want it"
+//   5. CLOSE             — commit to follow-up email with quote
+//
+// Every concrete number (case quantity, biomarker mix, budget range, etc.)
+// is templated from the live intake.json so the call works for any run.
+//
+// Retrieval layering remains: Moss preferred, Supermemory fallback — the
+// per-turn facts are appended to ground hedge clarifications.
 
 import type { SupplierEvidence } from "@/types/evidence";
 import type { CallCompletedEvent } from "@/lib/integrations/agentphone";
-import type { IntakeForm } from "@/types/intake";
+import type { IntakeForm, IntakeField } from "@/types/intake";
 import {
   mossConfigured,
   mossSearch,
@@ -25,49 +31,229 @@ import {
 import { supermemory, supermemoryConfigured } from "@/lib/integrations/supermemory";
 
 // ---------------------------------------------------------------------------
-// System prompt — keep under ~15 lines. Tactical-fact appendix is injected
-// per-turn by buildVoicePersonaPrompt() below; the bare constant is kept for
-// backwards compatibility with existing imports.
+// Intake field readers — keep tolerant. Intake values can be missing, "—",
+// "None", or filled. When missing, fall back to canonical NovaCure values
+// so the call still reads naturally on stage.
 // ---------------------------------------------------------------------------
 
-const BASE_PROMPT = `You are a procurement agent calling crovi.bio's BD line on behalf of NovaCure Therapeutics regarding an NSCLC liquid-biopsy validation study. Speak naturally, one question at a time, wait for an answer before moving on. Do not improvise extra questions. Open, ask exactly the three questions below, then close and hang up.
+function fieldValue(intake: IntakeForm | null, id: string): string | null {
+  if (!intake?.fields) return null;
+  const f = intake.fields.find((x: IntakeField) => x.field_id === id);
+  if (!f) return null;
+  const v = f.value;
+  const s = typeof v === "string" ? v.trim() : v == null ? "" : String(v).trim();
+  if (!s || s === "—" || s.toLowerCase() === "none") return null;
+  return s;
+}
 
-OPEN: "Hi, this is the NovaCure procurement agent following up on our intake form for the Stage III–IV NSCLC liquid-biopsy study. Do you have a minute for three quick feasibility questions?"
+function fv(intake: IntakeForm | null, id: string, fallback: string): string {
+  return fieldValue(intake, id) ?? fallback;
+}
 
-Q1 (specimen + format + matched normal): "Can you confirm 150 plasma samples at a minimum of 2 milliliters, with matched FFPE blocks or 10 unstained slides, baseline pre-treatment, and a matched normal for each subject?"
+// ---------------------------------------------------------------------------
+// Budget-window estimator. Pulls case counts from the intake's quantity
+// field and computes a market-aligned price band. Anchors are the design
+// doc's $850 plasma / $1,150 FFPE midpoints widened by ±~12% to a window.
+// ---------------------------------------------------------------------------
 
-Q2 (biomarker subset distribution): "What is your approximate breakdown across EGFR-positive, KRAS-positive, and ALK-positive cases in your treatment-naive Stage III to IV NSCLC pool?"
+interface BudgetWindow {
+  plasma_low: number;
+  plasma_high: number;
+  ffpe_low: number;
+  ffpe_high: number;
+  plasma_count: number;
+  ffpe_count: number;
+  total_low: number;
+  total_high: number;
+  /** True when we parsed both counts from intake; false = we used defaults. */
+  derived_from_intake: boolean;
+}
 
-Q3 (pathology + de-identification documentation): "Do you ship de-identified only, with pathology reports and de-identified clinical history, and can you provide your SOP documentation?"
+const PLASMA_LOW = 750;
+const PLASMA_HIGH = 950;
+const FFPE_LOW = 1_000;
+const FFPE_HIGH = 1_300;
+const DEFAULT_PLASMA_COUNT = 150;
+const DEFAULT_FFPE_COUNT = 75;
 
-CLOSE: "Thank you. I'll send the full specs and a benchmarked quote via email." Then hang up.`;
+function parseCounts(text: string | null): { plasma?: number; ffpe?: number } {
+  if (!text) return {};
+  const lower = text.toLowerCase();
+  // Look for "<N> plasma" / "<N> ffpe|tissue|block|slide" patterns.
+  const plasmaMatch = lower.match(/(\d{2,5})\s*(?:plasma|case|cases)/);
+  const ffpeMatch = lower.match(/(\d{2,5})\s*(?:ffpe|tissue|block|slide|matched\s+tissue)/);
+  return {
+    plasma: plasmaMatch ? Number(plasmaMatch[1]) : undefined,
+    ffpe: ffpeMatch ? Number(ffpeMatch[1]) : undefined,
+  };
+}
 
-export const VOICE_PERSONA_SYSTEM_PROMPT = BASE_PROMPT;
+export function computeBudgetWindow(intake: IntakeForm | null): BudgetWindow {
+  const qty = fieldValue(intake, "specimen.quantity");
+  const { plasma, ffpe } = parseCounts(qty);
+  const plasma_count = plasma ?? DEFAULT_PLASMA_COUNT;
+  const ffpe_count = ffpe ?? DEFAULT_FFPE_COUNT;
+  return {
+    plasma_low: PLASMA_LOW,
+    plasma_high: PLASMA_HIGH,
+    ffpe_low: FFPE_LOW,
+    ffpe_high: FFPE_HIGH,
+    plasma_count,
+    ffpe_count,
+    total_low: plasma_count * PLASMA_LOW + ffpe_count * FFPE_LOW,
+    total_high: plasma_count * PLASMA_HIGH + ffpe_count * FFPE_HIGH,
+    derived_from_intake: plasma != null && ffpe != null,
+  };
+}
+
+function formatUsd(n: number): string {
+  // "$213,750" / "$200K" depending on magnitude.
+  if (n >= 100_000) return `$${Math.round(n / 1000)}K`;
+  return `$${n.toLocaleString("en-US")}`;
+}
+
+// ---------------------------------------------------------------------------
+// System prompt builder — the 4-beat Crovi-AI script, templated.
+// ---------------------------------------------------------------------------
+
+export interface CroviOperatorInputs {
+  intake: IntakeForm | null;
+  supplierName: string; // e.g. "crovi.bio" (the SUPPLIER, not the platform)
+}
+
+export function buildCroviOperatorPrompt(inputs: CroviOperatorInputs): string {
+  const { intake, supplierName } = inputs;
+
+  const sponsor = fv(intake, "client.company", "NovaCure Therapeutics");
+  const study = fv(intake, "client.study_name", "NSCLC liquid-biopsy validation study");
+  const indication = fv(intake, "project.therapeutic_area", "Stage III-IV NSCLC");
+  const stageShort = fv(intake, "demo.disease_stage", "advanced metastatic NSCLC")
+    .replace(/^advanced\s+/i, "")
+    .replace(/\.$/, "");
+  const specimenTypes = fv(intake, "specimen.types", "plasma + matched FFPE");
+  const specimenFormat = fv(intake, "specimen.format", "frozen plasma plus FFPE blocks or 10 unstained slides");
+  const specimenQty = fv(intake, "specimen.quantity", "150 plasma cases plus 75 matched FFPE blocks");
+  const minVolume = fv(intake, "specimen.min_volume", "2 mL plasma minimum");
+  const matchedNormal = fv(intake, "specimen.matched_normal", "Yes")
+    .toLowerCase()
+    .startsWith("y")
+    ? "with"
+    : "without";
+  const biomarker = fv(intake, "demo.biomarker", "EGFR+, KRAS+, and ALK+ subsets");
+  const treatmentLine = fv(intake, "demo.treatment_history", "treatment-naive at baseline");
+  const timeline = fv(intake, "client.timeline", "the next 8 weeks");
+
+  const budget = computeBudgetWindow(intake);
+  const totalLowStr = formatUsd(budget.total_low);
+  const totalHighStr = formatUsd(budget.total_high);
+
+  return `You are CROVI — an AI procurement orchestrator that runs end-to-end biospecimen sourcing for pharma sponsors. Right now you are on an outbound voice call to ${supplierName}'s BD line, calling on behalf of ${sponsor}.
+
+CONTEXT: Crovi just submitted ${sponsor}'s procurement intake form to ${supplierName}'s portal a few minutes ago — for ${study}. The form returned a waitlist response. You are following up directly with their BD lead to (1) confirm the technical scope, (2) propose a market-based budget window, and (3) qualify whether they have the allocation and want the opportunity.
+
+VOICE: Warm, concise, professional. You speak naturally, one beat at a time, listen for the answer, then move on. You don't lecture. You don't speak in lists. You don't say "as an AI" unless asked directly. If asked, answer honestly: "Yes, I'm Crovi — an AI procurement platform that runs sourcing end-to-end for sponsors." You say "I" and "we" and let the work do the talking.
+
+═══ OPEN ═══
+"Hi, this is Crovi calling on behalf of ${sponsor} — we just submitted our intake on your portal for the ${study} and saw a waitlist response. I wanted to clarify a few things directly to see if there's a fit. Got two minutes?"
+
+WAIT for them to say yes / go ahead before continuing. If they ask who Crovi is, briefly: "Crovi runs end-to-end procurement for sponsors — I'm the AI orchestrator on this run."
+
+═══ SECTION 1 · TECHNICAL CONFIRMATION (the three substantive questions) ═══
+Ask one at a time. Wait for an answer between each.
+
+Q1 (volumes + format + matched normal):
+"First — can you confirm you can source ${specimenQty}, in ${specimenFormat}, at a minimum of ${minVolume}, ${matchedNormal} a matched normal for each subject at baseline pre-treatment?"
+
+If they hedge ("probably / depends / maybe"), ask once: "What's a realistic best-case in ${timeline}?"
+
+Q2 (biomarker subset / cohort):
+"Second — for the ${treatmentLine} ${indication} pool, what's your realistic breakdown across ${biomarker}? Even a rough percentage split is fine."
+
+If they give specific percentages, repeat them back to confirm: "So you're seeing roughly X / Y / Z — is that right?"
+
+Q3 (protocols + documentation):
+"Third — on protocols: can you ship de-identified by default, with matched pathology reports, de-identified clinical history, and your CAP/CLIA-aligned SOP documentation?"
+
+═══ SECTION 2 · MARKET BUDGET WINDOW (propose, don't ask) ═══
+After Q3 lands, transition directly into the price proposal:
+
+"Great — quick on pricing before I let you go. Based on what we're seeing in the current market for ${stageShort} cases, plasma is running about ${formatUsd(budget.plasma_low)} to ${formatUsd(budget.plasma_high)} per case, and matched FFPE blocks about ${formatUsd(budget.ffpe_low)} to ${formatUsd(budget.ffpe_high)} per case. For your scope, that puts our target budget window around ${totalLowStr} to ${totalHighStr} total. Does that range feel workable on your side?"
+
+Listen to their reaction. If they push back ("low" / "too tight"), acknowledge and say: "Understood — let's see where you land in writing; we have some room on volume commits."
+
+═══ SECTION 3 · INTEREST + CAPACITY QUALIFICATION ═══
+Then, directly:
+
+"Last thing — and I want to be straight with you: do you have allocation that could realistically match this scope in ${timeline}, AND is this opportunity something you'd want to prioritize given everything else on your plate right now?"
+
+Listen. If they say yes-but-conditional, ask: "What's the one thing that would tip you to a firm yes?"
+
+═══ CLOSE ═══
+"Perfect — thanks for the time. I'll send the full spec plus the benchmarked quote in writing within the hour. If you're a yes, we can move to SOW this week and lock allocation."
+
+Thank them by name if you caught it, then end the call.
+
+═══ HARD RULES ═══
+- One question at a time. Always wait for the answer.
+- Never invent numbers. Use only the values in this prompt.
+- If they ask "are you an AI?" — answer truthfully (see VOICE above).
+- If they ask a question you don't know, say: "Let me come back to you on that in the follow-up email."
+- Target total call length: under 4 minutes.`;
+}
+
+// Crovi-AI opening line for AgentPhone's per-call `initialGreeting`. Voice
+// agent will speak this verbatim before the system prompt takes over.
+export function buildCroviOperatorGreeting(inputs: CroviOperatorInputs): string {
+  const { intake } = inputs;
+  const sponsor = fv(intake, "client.company", "NovaCure Therapeutics");
+  const study = fv(intake, "client.study_name", "NSCLC liquid-biopsy validation study");
+  return `Hi, this is Crovi calling on behalf of ${sponsor} — we just submitted our intake on your portal for the ${study} and saw a waitlist response. I wanted to clarify a few things directly to see if there's a fit. Got two minutes?`;
+}
+
+// ---------------------------------------------------------------------------
+// Backwards-compatible export — the old constant. Callers that still import
+// VOICE_PERSONA_SYSTEM_PROMPT (e.g. scripts/setup-agentphone.ts) get a
+// canonical NovaCure-shaped prompt. New callers should prefer
+// buildCroviOperatorPrompt(intake).
+// ---------------------------------------------------------------------------
+
+export const VOICE_PERSONA_SYSTEM_PROMPT = buildCroviOperatorPrompt({
+  intake: null,
+  supplierName: "crovi.bio",
+});
 
 /**
- * Build a per-turn-enriched system prompt. The base script is appended with
- * a TACTICAL FACTS block populated from Moss (preferred) or Supermemory
- * (fallback) hits keyed to each of the 3 questions. The voice agent uses
- * these to ground its phrasing and respond to ambiguous answers.
+ * Per-turn enrichment wrapper. Renders the Crovi operator prompt for the
+ * given intake + supplier, then appends a TACTICAL FACTS block populated
+ * from Moss (preferred) or Supermemory (fallback) hits so the voice agent
+ * has grounded answers if the supplier hedges.
  */
-export function buildVoicePersonaPrompt(facts: TurnFacts): string {
+export function buildVoicePersonaPrompt(
+  facts: TurnFacts,
+  inputs?: CroviOperatorInputs,
+): string {
+  const base = buildCroviOperatorPrompt(
+    inputs ?? { intake: null, supplierName: "crovi.bio" },
+  );
   const lines: string[] = [];
   if (facts.q1.length || facts.q2.length || facts.q3.length) {
-    lines.push("\n---\nTACTICAL FACTS (pre-fetched, use to ground answers and clarifications):");
+    lines.push(
+      "\n---\nTACTICAL FACTS (pre-fetched, use to ground answers and clarifications):",
+    );
     if (facts.q1.length) {
-      lines.push("Q1 context:");
+      lines.push("Q1 context (technical volumes/format):");
       facts.q1.forEach((h) => lines.push(`- ${h.content}`));
     }
     if (facts.q2.length) {
-      lines.push("Q2 context:");
+      lines.push("Q2 context (biomarker / cohort):");
       facts.q2.forEach((h) => lines.push(`- ${h.content}`));
     }
     if (facts.q3.length) {
-      lines.push("Q3 context:");
+      lines.push("Q3 context (documentation / protocols):");
       facts.q3.forEach((h) => lines.push(`- ${h.content}`));
     }
   }
-  return BASE_PROMPT + (lines.length ? `\n${lines.join("\n")}` : "");
+  return base + (lines.length ? `\n${lines.join("\n")}` : "");
 }
 
 // ---------------------------------------------------------------------------
@@ -75,12 +261,6 @@ export function buildVoicePersonaPrompt(facts: TurnFacts): string {
 // voice persona has a tactical-fact corpus to retrieve against per turn.
 // ---------------------------------------------------------------------------
 
-/**
- * Seed Moss with the 35 intake fields keyed by field_id. Each field becomes
- * a search document with text = "<label>: <value>". Non-fatal: if Moss
- * isn't configured, returns mode="missing_env" and the per-turn path
- * cleanly falls through to Supermemory.
- */
 export async function seedRunCorpus(
   runId: string,
   intake: IntakeForm,
@@ -110,20 +290,11 @@ export interface TurnFacts {
   q3: MossHit[];
 }
 
-/**
- * Retrieve tactical facts for each of the 3 questions in one shot. Used at
- * call kickoff so the system prompt is enriched before the voice agent
- * starts speaking. The questions are fixed (spec §4 Stage 2) — we run 3
- * parallel Moss queries with k=2.
- *
- * If Moss isn't configured, falls back to Supermemory's `retrieveForTurn`
- * which already does the long-term buyer-spec read.
- */
 export async function retrieveTurnFacts(runId: string): Promise<TurnFacts> {
   const questions = {
-    q1: "specimen plasma 2 mL minimum FFPE blocks unstained slides matched normal baseline pre-treatment",
-    q2: "biomarker EGFR KRAS ALK treatment-naive Stage III IV NSCLC",
-    q3: "de-identified pathology report clinical history SOP documentation",
+    q1: "specimen plasma minimum volume FFPE blocks unstained slides matched normal baseline pre-treatment quantity",
+    q2: "biomarker EGFR KRAS ALK treatment-naive Stage III IV NSCLC cohort breakdown",
+    q3: "de-identified pathology report clinical history SOP documentation CAP CLIA protocol",
   } as const;
 
   if (mossConfigured()) {
@@ -133,11 +304,9 @@ export async function retrieveTurnFacts(runId: string): Promise<TurnFacts> {
       mossSearch({ indexName, query: questions.q2, k: 2 }),
       mossSearch({ indexName, query: questions.q3, k: 2 }),
     ]);
-    // If Moss returned something for at least one question, use it.
     if (q1.length + q2.length + q3.length > 0) return { q1, q2, q3 };
   }
 
-  // Supermemory fallback — single buyer-spec read, broadcast to all 3 slots.
   if (supermemoryConfigured()) {
     try {
       const profile = await supermemory.retrieveForTurn(runId, questions.q1);
@@ -157,14 +326,15 @@ export async function retrieveTurnFacts(runId: string): Promise<TurnFacts> {
 
 /**
  * One-call helper used by chain-runtime: seed Moss, fetch turn facts,
- * return an enriched system prompt ready to hand to AgentPhone's call API.
+ * return an enriched Crovi-operator system prompt ready to hand to
+ * AgentPhone's call API.
  */
 export async function preparePerTurnPrompt(
   runId: string,
   intake: IntakeForm | null,
+  supplierName: string = "crovi.bio",
 ): Promise<string> {
   if (intake) {
-    // Best-effort seed; ignore failures so the call still fires.
     await seedRunCorpus(runId, intake).catch(() => undefined);
   }
   const facts = await retrieveTurnFacts(runId).catch<TurnFacts>(() => ({
@@ -172,19 +342,18 @@ export async function preparePerTurnPrompt(
     q2: [],
     q3: [],
   }));
-  return buildVoicePersonaPrompt(facts);
+  return buildVoicePersonaPrompt(facts, { intake, supplierName });
 }
 
 // ---------------------------------------------------------------------------
 // Outcome parser — turns a completed call transcript into evidence entries.
+// Q1/Q2/Q3 keyword classifiers are unchanged — the new script preserves the
+// same anchor phrases (plasma/FFPE/matched normal for Q1, EGFR/KRAS/ALK for
+// Q2, de-identified/pathology/SOP for Q3) so existing evidence emission
+// keeps working.
 // ---------------------------------------------------------------------------
 
-// The 3 questions in Q1/Q2/Q3 each unlock a known set of intake field_ids.
-// On call completion, we walk the transcript, find the supplier's reply to
-// each question (the turn immediately after the agent's question turn), and
-// emit one SupplierEvidence per field_id, channel="call".
 const QUESTION_TO_FIELDS: Record<"q1" | "q2" | "q3", string[]> = {
-  // Q1 → specimen+format+matched-normal
   q1: [
     "specimen.total_quantity",
     "specimen.minimum_volume",
@@ -193,9 +362,7 @@ const QUESTION_TO_FIELDS: Record<"q1" | "q2" | "q3", string[]> = {
     "specimen.matched_normal",
     "specimen.collection_timepoints",
   ],
-  // Q2 → biomarker subset distribution
   q2: ["cohort.biomarker", "cohort.treatment_history"],
-  // Q3 → pathology + de-id documentation
   q3: [
     "documents.pathology_reports",
     "documents.de_identification",
@@ -203,17 +370,15 @@ const QUESTION_TO_FIELDS: Record<"q1" | "q2" | "q3", string[]> = {
   ],
 };
 
-// Cheap question detectors — match the canonical keywords from the script.
 function classifyQuestionTurn(text: string): "q1" | "q2" | "q3" | null {
   const t = text.toLowerCase();
-  if (/(plasma|matched ffpe|matched normal|2 ml|2 milliliters|baseline pre)/.test(t)) return "q1";
-  if (/(egfr|kras|alk|biomarker|treatment-naive|treatment naive)/.test(t)) return "q2";
-  if (/(de-identified|de identified|pathology report|sop|clinical history)/.test(t)) return "q3";
+  if (/(plasma|matched ffpe|matched normal|2 ml|2 milliliters|baseline pre|unstained slides|frozen)/.test(t)) return "q1";
+  if (/(egfr|kras|alk|biomarker|treatment-naive|treatment naive|cohort|breakdown)/.test(t)) return "q2";
+  if (/(de-identified|de identified|pathology report|sop|clinical history|cap.?clia)/.test(t)) return "q3";
   return null;
 }
 
 function lowConfidence(text: string): "low" | "medium" | "high" {
-  // Hedging language → low; numbers / explicit yes → high; otherwise medium.
   const t = text.toLowerCase();
   if (/\b(yes|confirmed|we can|we do|absolutely|certainly)\b/.test(t)) return "high";
   if (/\b(maybe|probably|might|i think|not sure|depends)\b/.test(t)) return "low";
@@ -226,12 +391,6 @@ export interface ParseCallOutcomeInput {
   call: CallCompletedEvent;
 }
 
-/**
- * Walk a completed-call transcript and emit one SupplierEvidence per
- * (supplier, field_id) reachable from the 3 substantive questions.
- * The supplier's *next* turn after an agent question is treated as the
- * answer. Quotes are preserved verbatim for the Filled Intake hovercards.
- */
 export function parseCallOutcome(
   input: ParseCallOutcomeInput,
 ): SupplierEvidence[] {
@@ -245,7 +404,6 @@ export function parseCallOutcome(
     if (turn.turn !== "agent") continue;
     const tag = classifyQuestionTurn(turn.text);
     if (!tag) continue;
-    // First supplier turn after this agent turn.
     const reply = transcript
       .slice(i + 1)
       .find((t) => t.turn === "supplier");

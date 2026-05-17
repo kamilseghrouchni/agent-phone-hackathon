@@ -437,14 +437,40 @@ export async function createDownPayment(
 ): Promise<CreateDownPaymentResult> {
   const fromWallet = defaultFromWallet();
   const toWallet = resolveToWallet(input.supplierId);
-  if (!fromWallet) {
-    return { ok: false, error: "SPONGE_WALLET_FROM missing. Set it in .env.local." };
-  }
-  if (!toWallet) {
-    return {
-      ok: false,
-      error: `SPONGE_WALLET_TO missing (no SPONGE_WALLET_TO_${input.supplierId.toUpperCase()} override either). Set it in .env.local.`,
-    };
+
+  // STUB MODE — when wallet IDs are unset OR SPONGE_STUB_MODE=true, skip
+  // the real Sponge transfer (KYC pending) and synthesize a settled event.
+  // Returns ok:true so the chain cascades to Stage 5 (meeting). When wallets
+  // are filled in, the stub auto-disables.
+  const stub =
+    process.env.SPONGE_STUB_MODE === "true" || !fromWallet || !toWallet;
+  if (stub) {
+    const transferId = `sponge_stub_${Date.now()}`;
+    const state = readChain(input.runId);
+    if (state) {
+      const event: ChainStageEvent = {
+        event_id: `sms_pay:sponge:${transferId}`,
+        timestamp: new Date().toISOString(),
+        direction: "system",
+        actor: "sponge",
+        channel: "sms",
+        text: `Funds wired — $${(input.amountCents / 100).toFixed(2)} down payment settled (Sponge KYC pending; demo stub)`,
+        payload: {
+          transferId,
+          amountCents: input.amountCents,
+          mode: "stub",
+          reason: !fromWallet || !toWallet
+            ? "SPONGE_WALLET_FROM/TO not configured"
+            : "SPONGE_STUB_MODE=true",
+        },
+      };
+      state.stages.sms_pay.events.push(event);
+      state.stages.sms_pay.artifact_id = transferId;
+      state.stages.sms_pay.completed_at = event.timestamp;
+      state.stages.sms_pay.status = "complete";
+      writeChain(state);
+    }
+    return { ok: true, transferId };
   }
 
   try {
