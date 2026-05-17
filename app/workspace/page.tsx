@@ -994,7 +994,7 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                 <h2>Launch sequence</h2>
                 <p>
                   Drives: <strong>form-fill on crovi.bio</strong> → <strong>call your phone</strong> with
-                  the Crovi-AI operator → <strong>email contract to {`<your inbox>`}</strong> → <strong>SMS + $1 Sponge USDC down-payment</strong> → <strong>book meeting on Notion calendar</strong>.
+                  the Crovi-AI operator → <strong>email contract to {`<your inbox>`}</strong> → on your "I agree" reply: <strong>Sponge $1 USDC wire + SMS receipt + Notion meeting</strong> fire in parallel.
                 </p>
                 <p className="iw-chain-launch-hint">
                   Each stage cascades automatically on real wire events (call.completed,

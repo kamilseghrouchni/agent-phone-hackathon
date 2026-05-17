@@ -109,13 +109,12 @@ async function fireEmailStage(state: ChainState, runId: string): Promise<void> {
   const body = [
     `Hi ${CROVI_BIO.contact.bd_name ?? "Crovi.bio BD"},`,
     ``,
-    `Per our call, attached is the filled intake and a benchmarked quote for ${studyName} (${sponsorName}).`,
+    `Per our call, here's the filled intake + benchmarked quote for ${studyName} (${sponsorName}).`,
     ``,
     `Scope: 150 plasma + 75 matched FFPE/slides, Stage III-IV NSCLC,`,
     `EGFR/KRAS/ALK enriched. Total $213,750 (11% below industry median).`,
     ``,
-    `Terms: 30 days validity, $1 goodwill down payment via Sponge to lock allocation.`,
-    `Reply "I agree" to proceed.`,
+    `Reply "I agree" to lock allocation — funds wire and meeting auto-book on your reply.`,
     ``,
     `— Crovi Agent on behalf of ${sponsorName}`,
   ].join("\n");
@@ -287,6 +286,130 @@ async function fireMeetingStage(
   saveChainState(state);
 }
 
+/**
+ * Email-agree fanout — fires Sponge transfer + SMS notification + meeting
+ * IN PARALLEL when the supplier agrees to the contract.
+ *
+ * Replaces the old SMS-CONFIRMED gate. The user explicitly didn't want a
+ * goodwill-confirmation step — agreeing to the contract is consent. We
+ * now:
+ *   1. Mark email complete
+ *   2. Fire Sponge USDC transfer (real $1 wire, see sponge.ts)
+ *   3. Send SMS as a NOTIFICATION ("✓ Allocation locked, $X settled")
+ *   4. Fire meeting in parallel with #2 and #3 — calendar Playwright needs
+ *      the runway and can't wait for SMS round-trips
+ *
+ * Both the agentmail webhook AND the email-reply poller call this when
+ * isEmailAgreeReply returns true. Idempotent — safe to call twice (each
+ * leg checks state and no-ops if already complete).
+ */
+export async function fanoutOnEmailAgree(
+  runId: string,
+  state: ChainState,
+): Promise<void> {
+  // 1. Mark email complete (idempotent).
+  const now = new Date().toISOString();
+  if (state.stages.email.status !== "complete") {
+    state.stages.email.status = "complete";
+    state.stages.email.completed_at = now;
+    saveChainState(state);
+  }
+
+  // 2 + 3 + 4: launch all in parallel.
+  const handlers = buildHandlersForRun(runId);
+  const tasks: Array<Promise<unknown>> = [];
+
+  if (state.stages.sms_pay.status !== "complete") {
+    tasks.push(fireSpongeAndNotify(runId));
+  }
+  if (state.stages.meeting.status !== "complete") {
+    tasks.push(Promise.resolve(handlers.fireMeeting(state)));
+  }
+
+  await Promise.allSettled(tasks);
+}
+
+/**
+ * Stage 4 fast path — Sponge USDC transfer + outbound SMS notification.
+ * The Sponge call writes the wire event and marks sms_pay complete
+ * itself (see lib/integrations/sponge.ts createDownPayment). After
+ * settlement we send a notification SMS with the Solscan link so the
+ * buyer sees the chain hash in their messages app.
+ */
+async function fireSpongeAndNotify(runId: string): Promise<void> {
+  const initial = loadChainState(runId);
+  if (!initial) return;
+  if (initial.stages.sms_pay.status === "complete") return;
+
+  initial.stages.sms_pay.status = "in_progress";
+  initial.stages.sms_pay.started_at = new Date().toISOString();
+  saveChainState(initial);
+
+  const envCents = Number(process.env.SPONGE_DEMO_AMOUNT_CENTS);
+  const amountCents = Math.min(
+    100,
+    Number.isFinite(envCents) && envCents > 0 ? envCents : 100,
+  );
+
+  const { createDownPayment } = await import("@/lib/integrations/sponge");
+  const tx = await createDownPayment({
+    runId,
+    supplierId: initial.supplier_id,
+    amountCents,
+  });
+
+  // After Sponge: re-read state (createDownPayment mutates it) and append
+  // an outbound SMS notification with the tx hash / solscan url.
+  const after = loadChainState(runId);
+  if (!after) return;
+
+  let solscanUrl: string | undefined;
+  let txHash: string | undefined;
+  for (const e of after.stages.sms_pay.events) {
+    const p = e.payload as
+      | { solscanUrl?: string; txHash?: string; transferId?: string }
+      | undefined;
+    if (p?.solscanUrl || p?.txHash || p?.transferId) {
+      solscanUrl = p.solscanUrl;
+      txHash = p.txHash ?? p.transferId;
+      break;
+    }
+  }
+  const amountUsd = (amountCents / 100).toFixed(2);
+  const body = tx.ok
+    ? solscanUrl
+      ? `✓ Allocation locked — $${amountUsd} USDC settled via Sponge. ${solscanUrl}`
+      : `✓ Allocation locked — $${amountUsd} USDC settled via Sponge${txHash ? ` (tx ${txHash.slice(0, 10)}…)` : ""}.`
+    : `Sponge transfer failed. We'll retry shortly.`;
+
+  try {
+    const { smsSend } = await import("@/lib/integrations/agentphone");
+    const sms = await smsSend(BUYER_PHONE, body);
+    appendEvent(after, "sms_pay", {
+      event_id: `sms_pay:notify:${sms.sms_id}`,
+      timestamp: sms.sent_at,
+      direction: "outbound",
+      actor: "agent",
+      channel: "sms",
+      text: body,
+      payload: { sms_id: sms.sms_id, mode: sms.mode, error: sms.error },
+    });
+    saveChainState(after);
+  } catch (err) {
+    // SMS down — Sponge already settled, log and move on. Meeting is
+    // already firing in parallel.
+    appendEvent(after, "sms_pay", {
+      event_id: `sms_pay:notify:failed_${Date.now()}`,
+      timestamp: new Date().toISOString(),
+      direction: "system",
+      actor: "agent",
+      channel: "sms",
+      text: `SMS notification failed: ${err instanceof Error ? err.message : String(err)}`,
+    });
+    saveChainState(after);
+  }
+}
+
 /** Best-effort agree-detector for the email-reply webhook + poller.
  *
  * Broad on purpose — BD replies are noisy and the demo can't bounce on
@@ -325,12 +448,11 @@ export function isEmailAgreeReply(body: string): boolean {
 // ---------------------------------------------------------------------------
 
 const ACTIVE_POLLERS = new Map<string, NodeJS.Timeout>();
-const POLL_INTERVAL_MS = 5_000;
-// Demo budget: if a call hasn't reached a terminal status within this window
-// we treat it as no_answer and cascade to email anyway. The previous 10-min
-// ceiling left chains visibly stuck on stage 2 when AgentPhone never sent
-// a terminal status for ringing/voicemail tail.
-const MAX_POLL_DURATION_MS = 2 * 60 * 1000; // 2 min ceiling per call
+const POLL_INTERVAL_MS = 3_000;
+// Demo budget: the call prompt caps at 20s. We give the poller 60s to
+// catch the post-call terminal status — anything past that, we cascade
+// to email as fallback so the chain doesn't visibly stall.
+const MAX_POLL_DURATION_MS = 60 * 1000;
 
 export function startCallCompletionPoller(
   runId: string,
@@ -649,15 +771,10 @@ export function startEmailReplyPoller(runId: string, threadId: string): void {
 
       if (agreed) {
         stopPoller(key);
-        const { completeStage } = await import(
-          "@/lib/agents/runtime/chain-runtime"
-        );
-        const handlers = buildHandlersForRun(runId);
-        await completeStage(
-          cur,
-          { stage: "email", kind: "replied_yes" },
-          handlers,
-        );
+        // Skip the old completeStage(email, replied_yes) → fireSmsPay path.
+        // Email agree now fans out to Sponge wire + SMS notification +
+        // meeting all in parallel (no CONFIRMED gate).
+        await fanoutOnEmailAgree(runId, cur);
       }
     } catch {
       // best-effort; next tick will retry

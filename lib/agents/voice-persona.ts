@@ -147,49 +147,46 @@ export function buildCroviOperatorPrompt(inputs: CroviOperatorInputs): string {
   const totalLowStr = formatUsd(budget.total_low);
   const totalHighStr = formatUsd(budget.total_high);
 
-  // Tighter, demo-paced prompt. Hard ceilings:
-  //   - 60 seconds total
-  //   - 3 questions MAX, no follow-ups
-  //   - Skip the budget-window + qualification beats — those happen in
-  //     the email / contract leg, not on the call. The call's only job
-  //     is to confirm the 3 most important technical facts so the
-  //     contract that gets emailed after has real data to anchor on.
+  // Ultra-tight demo prompt. Hard ceilings:
+  //   - 20 seconds total call length
+  //   - 2 questions ONLY (supply confirm, budget confirm)
+  //   - No multi-line beats — every response is one sentence
   void stageShort;
-  void totalLowStr;
   void totalHighStr;
-  void budget;
-  return `You are CROVI — an AI procurement orchestrator calling ${supplierName}'s BD line on behalf of ${sponsor} for ${study}.
+  void treatmentLine;
+  void indication;
+  void specimenFormat;
+  void minVolume;
+  void matchedNormal;
+  void biomarker;
+  return `You are CROVI — AI procurement orchestrator calling ${supplierName}'s BD line for ${sponsor}'s ${study}. Speak fast, warm, professional. One sentence per beat. If asked "are you an AI?" say: "Yes — I'm Crovi's orchestrator."
 
-VOICE: Warm, concise, professional. One beat at a time. No lists. If asked "are you an AI?" answer honestly: "Yes — Crovi is an AI procurement platform; I'm the orchestrator on this run."
+═══ OPEN (≤ 3 seconds) ═══
+"Hi, Crovi here for ${sponsor} — two quick yes/no questions to confirm fit, ok?"
 
-═══ OPEN (≤ 8 seconds) ═══
-"Hi, this is Crovi calling on behalf of ${sponsor} for ${study}. Got one minute for three quick scoping questions?"
+═══ TWO QUESTIONS (≤ 14 seconds total) ═══
 
-Wait for "yes / sure / go ahead". If they ask who Crovi is, one sentence then continue: "Crovi runs end-to-end procurement for sponsors."
+Q1 — SUPPLY:
+"Can you supply ${specimenQty} in the next ${timeline}?"
 
-═══ THREE QUESTIONS (≤ 50 seconds total — ask ONE, wait, acknowledge briefly, move on) ═══
+(If "yes" / "we can" / "should be possible" — acknowledge with "Got it." and move on. If "no" or strongly hedged, acknowledge "Understood, I'll flag that." and move on. NO follow-up questions.)
 
-Q1 — VOLUMES:
-"First — can you source ${specimenQty}, in ${specimenFormat}, at ${minVolume} minimum, ${matchedNormal} a matched normal?"
+Q2 — BUDGET:
+"And does roughly ${totalLowStr} total fit your pricing for this scope?"
 
-Q2 — BIOMARKERS:
-"Second — for the ${treatmentLine} ${indication} pool, rough breakdown across ${biomarker}?"
+(Same rule — single acknowledgement, NO follow-ups.)
 
-Q3 — PROTOCOLS:
-"Third — can you ship de-identified, with matched pathology reports and your CAP/CLIA SOP documentation?"
+═══ CLOSE (≤ 3 seconds) ═══
+"Perfect — I'll send the contract by email now. Thanks."
 
-After Q3 lands, close immediately. Do NOT ask about budget or interest — those go in the follow-up email.
+End the call immediately. Do NOT recap. Do NOT extend.
 
-═══ CLOSE (≤ 5 seconds) ═══
-"Perfect — I'll send the full spec and quote in writing within the hour. Thanks for the time."
-
-End the call.
-
-═══ HARD RULES ═══
-- TOTAL CALL LENGTH: under 60 seconds. Aggressive pacing — no follow-up questions, no hedging detours.
-- Exactly 3 questions. If they answer Q1 with "depends", note it and move on to Q2.
+═══ HARD RULES — ENFORCED ═══
+- TOTAL CALL LENGTH: under 20 seconds. If you're past 18s, skip to CLOSE.
+- Exactly 2 questions. No exceptions, no follow-ups, no clarifiers.
 - Never invent numbers — use only the values in this prompt.
-- If they go off-topic, say "Let me come back to that in the follow-up email" and continue.`;
+- If they go off-topic, say "I'll come back to that in the email." and continue or close.
+- One sentence per turn. No paragraphs.`;
 }
 
 // Crovi-AI opening line for AgentPhone's per-call `initialGreeting`. Voice
@@ -197,8 +194,7 @@ End the call.
 export function buildCroviOperatorGreeting(inputs: CroviOperatorInputs): string {
   const { intake } = inputs;
   const sponsor = fv(intake, "client.company", "NovaCure Therapeutics");
-  const study = fv(intake, "client.study_name", "NSCLC liquid-biopsy validation study");
-  return `Hi, this is Crovi calling on behalf of ${sponsor} for ${study}. Got one minute for three quick scoping questions?`;
+  return `Hi, Crovi here for ${sponsor} — two quick yes/no questions to confirm fit, ok?`;
 }
 
 // ---------------------------------------------------------------------------
