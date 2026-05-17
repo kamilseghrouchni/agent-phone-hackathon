@@ -1238,6 +1238,16 @@ export async function startSession(
       await page.goto(target_url, { waitUntil: "domcontentloaded", timeout: 20_000 });
       dlog(`page.goto() done url=${target_url} +${Date.now() - tNav0}ms`);
 
+      // Wait for the page to actually paint before capturing the first
+      // frame. domcontentloaded fires before paint, so a screenshot here
+      // catches a blank canvas — that was the "geneticist shows blank"
+      // symptom (6KB JPEG = white screen). Wait for `load` (capped 2s) +
+      // a short paint settle so first frame has real content.
+      await page
+        .waitForLoadState("load", { timeout: 2_000 })
+        .catch(() => {});
+      await page.waitForTimeout(600).catch(() => {});
+
       // Force a screenshot immediately after navigation lands so first-frame
       // arrives at the SSE consumer in well under FRAME_INTERVAL_MS.
       try {

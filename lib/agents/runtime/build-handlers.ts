@@ -74,7 +74,7 @@ export function buildHandlersForRun(runId: string): ChainHandlers {
         ],
       },
       smsBody:
-        "Crovi.bio contract drafted — reply CONFIRMED to authorize $10 goodwill down payment and lock allocation.",
+        "Crovi.bio contract drafted — reply CONFIRMED to authorize $1 goodwill down payment and lock allocation.",
     },
     {
       fireEmail: async (state) => {
@@ -114,7 +114,7 @@ async function fireEmailStage(state: ChainState, runId: string): Promise<void> {
     `Scope: 150 plasma + 75 matched FFPE/slides, Stage III-IV NSCLC,`,
     `EGFR/KRAS/ALK enriched. Total $213,750 (11% below industry median).`,
     ``,
-    `Terms: 30 days validity, $10 goodwill down payment via Sponge to lock allocation.`,
+    `Terms: 30 days validity, $1 goodwill down payment via Sponge to lock allocation.`,
     `Reply "I agree" to proceed.`,
     ``,
     `— Crovi Agent on behalf of ${sponsorName}`,
@@ -147,6 +147,13 @@ async function fireEmailStage(state: ChainState, runId: string): Promise<void> {
       },
     });
     state.stages.email.artifact_id = sent.message_id;
+    // Localhost has no public webhook URL → AgentMail's reply webhook
+    // doesn't reach us. The poller below hits threads.get(thread_id)
+    // every 5s and treats each newly-seen inbound message exactly like
+    // the webhook would: append + cascade-on-agree.
+    if (sent.thread_id && !sent.thread_id.startsWith("unknown_")) {
+      startEmailReplyPoller(runId, sent.thread_id);
+    }
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
     appendEvent(state, "email", {
@@ -225,7 +232,7 @@ async function fireMeetingStage(
           const meetingOk = result.ok;
           const summary = [
             `Procurement chain completed for ${live.supplier_id}.`,
-            `Outcomes: call=${callOk ? "ok" : "skipped"} email=${emailOk ? "agreed" : "n/a"} sms_pay=${smsOk ? "settled $10" : "stub"} meeting=${meetingOk ? "booked" : "partial"}.`,
+            `Outcomes: call=${callOk ? "ok" : "skipped"} email=${emailOk ? "agreed" : "n/a"} sms_pay=${smsOk ? "settled $1" : "stub"} meeting=${meetingOk ? "booked" : "partial"}.`,
             `Scope: 150 plasma + 75 FFPE, Stage III-IV NSCLC, budget $188K-$240K.`,
           ].join(" ");
           await supermemory.writeChainCompletion({
@@ -280,12 +287,22 @@ async function fireMeetingStage(
   saveChainState(state);
 }
 
-/** Best-effort agree-detector for the email-reply webhook. */
+/** Best-effort agree-detector for the email-reply webhook + poller.
+ *
+ * Broad on purpose — BD replies are noisy and the demo can't bounce on
+ * phrasing. Matches: i agree, agree, agreed, approve, approved, confirm,
+ * confirmed, yes / ya / yep / yeah (standalone OK), ok / okay, sure,
+ * sounds good, lgtm, go (let's go / go ahead), perfect, great.
+ *
+ * Explicit no-detector wins so "no", "not now", "decline" don't false-fire.
+ */
 export function isEmailAgreeReply(body: string): boolean {
-  // "I agree" / "agree" / "yes" / "approved" / "confirmed" — broad on purpose
-  // so the demo doesn't bounce on phrasing nuances.
-  return /\b(i\s*agree|agreed?|approved|confirm(ed)?|yes,?\s*proceed|go\s+ahead)\b/i.test(
-    body,
+  const text = body.toLowerCase();
+  if (/\b(no\b|nope|not\s+(now|interested|today)|declin|reject|pass\b|hold\s+off)/i.test(text)) {
+    return false;
+  }
+  return /\b(i\s*agree|agreed?|approved?|confirm(ed)?|yes\b|yep\b|yeah\b|ya\b|ok(ay)?\b|sure\b|sounds?\s+good|lgtm|let'?s\s+(go|do)|go\s+ahead|perfect\b|great\b|👍|🤝)/i.test(
+    text,
   );
 }
 
@@ -540,4 +557,120 @@ function stopPoller(key: string): void {
     clearInterval(h);
     ACTIVE_POLLERS.delete(key);
   }
+}
+
+// ---------------------------------------------------------------------------
+// Email-reply poller — the no-webhook fallback path (mirror of the call
+// poller above).
+//
+// AgentMail's inbound webhook needs a public URL; on localhost without
+// ngrok, replies never reach us → Stage 3 hangs forever even when the
+// supplier replied "yes". This poller hits threads.get(thread_id) every
+// 8s, walks new inbound messages we haven't threaded yet, appends each to
+// the email stage timeline, and cascades to Stage 4 on the first
+// agree-flavoured reply (same isEmailAgreeReply check the webhook uses).
+//
+// One active poller per (runId, threadId). 5-minute ceiling per thread.
+// ---------------------------------------------------------------------------
+
+const EMAIL_POLL_INTERVAL_MS = 8_000;
+const EMAIL_MAX_POLL_DURATION_MS = 5 * 60 * 1000; // 5 min ceiling per thread
+const PROCESSED_INBOUND_IDS = new Map<string, Set<string>>(); // runId → set
+
+export function startEmailReplyPoller(runId: string, threadId: string): void {
+  const key = `email:${runId}:${threadId}`;
+  if (ACTIVE_POLLERS.has(key)) return;
+  // Seed the processed set with any inbound message_ids we already threaded
+  // (so a re-start after a hot reload doesn't double-fire).
+  const seen = PROCESSED_INBOUND_IDS.get(runId) ?? new Set<string>();
+  const live = loadChainState(runId);
+  if (live) {
+    for (const e of live.stages.email.events) {
+      if (e.direction === "inbound") {
+        const id = (e.payload as { message_id?: string } | undefined)?.message_id;
+        if (id) seen.add(id);
+      }
+    }
+  }
+  PROCESSED_INBOUND_IDS.set(runId, seen);
+
+  const startedAt = Date.now();
+  let inFlight = false;
+
+  const tick = async () => {
+    if (inFlight) return;
+    inFlight = true;
+    try {
+      if (Date.now() - startedAt > EMAIL_MAX_POLL_DURATION_MS) {
+        stopPoller(key);
+        return;
+      }
+      const { getThread } = await import("@/lib/integrations/agentmail");
+      const thread = await getThread(threadId);
+      if (!thread) return;
+
+      const cur = loadChainState(runId);
+      if (!cur) return;
+      if (cur.stages.email.status === "complete") {
+        stopPoller(key);
+        return;
+      }
+
+      const processed = PROCESSED_INBOUND_IDS.get(runId) ?? new Set<string>();
+      const fresh = thread.messages.filter((m) => {
+        if (processed.has(m.messageId)) return false;
+        const labels = (m.labels as unknown as string[]) ?? [];
+        // Only inbound — sent messages have "sent" in labels, received have
+        // "received" or "inbox". Be permissive: anything NOT-labeled "sent"
+        // and from outside our own inbox counts as inbound.
+        const isSent = labels.some((l) => /sent/i.test(l));
+        return !isSent;
+      });
+      if (fresh.length === 0) return;
+
+      let agreed = false;
+      for (const m of fresh) {
+        processed.add(m.messageId);
+        const text =
+          m.extractedText ?? m.text ?? m.preview ?? "";
+        appendEvent(cur, "email", {
+          event_id: `email:inbound:${m.messageId}`,
+          timestamp: m.timestamp ?? new Date().toISOString(),
+          direction: "inbound",
+          actor: "supplier",
+          channel: "email",
+          text: text.slice(0, 400),
+          payload: { thread_id: threadId, from: m.from, message_id: m.messageId },
+        });
+        if (isEmailAgreeReply(text)) agreed = true;
+      }
+      saveChainState(cur);
+      PROCESSED_INBOUND_IDS.set(runId, processed);
+
+      if (agreed) {
+        stopPoller(key);
+        const { completeStage } = await import(
+          "@/lib/agents/runtime/chain-runtime"
+        );
+        const handlers = buildHandlersForRun(runId);
+        await completeStage(
+          cur,
+          { stage: "email", kind: "replied_yes" },
+          handlers,
+        );
+      }
+    } catch {
+      // best-effort; next tick will retry
+    } finally {
+      inFlight = false;
+    }
+  };
+
+  const handle = setInterval(() => {
+    void tick();
+  }, EMAIL_POLL_INTERVAL_MS);
+  ACTIVE_POLLERS.set(key, handle);
+  // Fire one tick immediately so a fast supplier reply lands without an
+  // 8-second wait.
+  void tick();
 }

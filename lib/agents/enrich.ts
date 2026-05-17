@@ -250,16 +250,29 @@ export async function enrich(
     `[enrich] start runId=${runId} suppliers=[${scrapeSeeds.map((s) => s.supplier_id).join(",")}]`,
   );
 
-  // Kick the 3 real scrape sessions concurrently. startSession() returns its
-  // handle synchronously and spawns Playwright work on a microtask, so this
-  // resolves fast (<50ms).
+  // Kick the scrape sessions in parallel but STAGGERED by 300ms each. All
+  // browsers still race side-by-side, but the head-start lets each
+  // chromium.launch() (the heaviest call) avoid CPU contention spikes that
+  // were making the slowest supplier's first frame come back blank.
+  // startSession() returns its handle synchronously and spawns Playwright
+  // work on a microtask, so this resolves fast (<200ms total even with
+  // the staggers).
+  const STAGGER_MS = 300;
   const sessionResults = await Promise.allSettled(
-    scrapeSeeds.map((seed) =>
-      startSession({
-        supplier_id: seed.supplier_id,
-        target_url: seed.scrape_target!,
-        task: buildTask(seed),
-      }),
+    scrapeSeeds.map((seed, i) =>
+      new Promise<ReturnType<typeof startSession> extends Promise<infer T> ? T : never>(
+        (resolve, reject) => {
+          setTimeout(() => {
+            startSession({
+              supplier_id: seed.supplier_id,
+              target_url: seed.scrape_target!,
+              task: buildTask(seed),
+            })
+              .then(resolve)
+              .catch(reject);
+          }, i * STAGGER_MS);
+        },
+      ),
     ),
   );
   const sessionsBySupplier = new Map<string, BrowserSessionHandle | null>();

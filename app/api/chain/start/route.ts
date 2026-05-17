@@ -35,8 +35,10 @@ import {
 } from "@/lib/agents/runtime/chain-runtime";
 import type { ChainHandlers } from "@/lib/agents/runtime/chain-transitions";
 import { buildHandlersForRun } from "@/lib/agents/runtime/build-handlers";
-import { fillIntakeForm, type FormFieldFill } from "@/lib/integrations/chain-form";
-import { readIntake } from "@/lib/store/runs";
+// chain-form.ts (Playwright form-fill against /forms/crovi-intake) is
+// intentionally NOT imported here. The 25-field paced-typing demo was
+// useless — the audience already saw the live enrichment Chromium scrape
+// crovi.bio in the enrich phase. The chain now starts on the call leg.
 import type { ChainState } from "@/types/chain";
 
 export const runtime = "nodejs";
@@ -156,166 +158,41 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 }
 
 // ---------------------------------------------------------------------------
-// Stage 1 — real Playwright form-fill against CROVI_FORM_URL with live JPEG
-// frames streaming into the Timeline's Stage 1 card (via emitStageFrame in
-// chain-form.ts). Observations from the Playwright run are played back as
-// ChainStageEvents in real time, then a reasoning event closes the stage:
-// "waitlist outcome insufficient for SLA → escalating to call". completeStage
-// fires the chain-transitions cascade → fireCall (AgentPhone). The POST
-// returns immediately; the form-fill runs async and the chain SSE pushes
-// every event into the UI as they land.
+// Stage 1 — FAST-PATH (skipped). The 25-field Playwright fill against
+// /forms/crovi-intake was useless: the audience already saw the live
+// enrichment Chromium scrape crovi.bio during the Enrich phase, and the
+// paced typing animation didn't add anything except runtime. We now emit
+// two short narration events and cascade straight to the call leg.
 // ---------------------------------------------------------------------------
-
-// 25-field map that mirrors app/forms/crovi-intake/page.tsx. Each entry's
-// `name` matches the corresponding <input name="..."> so Playwright can
-// target by `[name="<id>"]`. Values prefer the live intake.json value;
-// when the run hasn't seen one we fall back to the canonical NovaCure
-// values from the bundled Sample_Completed_Biospecimen_Request.pdf so
-// the demo always has 25 meaty observations to play through.
-const FORM_FIELD_SPECS: ReadonlyArray<{ name: string; label: string; fallback: string }> = [
-  { name: "client.company", label: "Sponsor / company", fallback: "NovaCure Therapeutics" },
-  { name: "client.contact", label: "Procurement contact", fallback: "Demo BD" },
-  { name: "client.title", label: "Contact title", fallback: "Director, Translational Procurement" },
-  { name: "client.email", label: "Contact email", fallback: "procurement@novacure.example" },
-  { name: "client.phone", label: "Contact phone", fallback: "+1 (415) 555-0142" },
-  { name: "client.study_name", label: "Study name", fallback: "NSCLC Liquid Biopsy Validation Study" },
-  { name: "client.timeline", label: "Required timeline", fallback: "Q3 2026 kickoff · 4-month accrual window" },
-  { name: "project.purpose", label: "Purpose / endpoint", fallback: "Validate plasma cfDNA assay against matched FFPE in EGFR/KRAS/ALK NSCLC; primary endpoint = concordance ≥ 90%." },
-  { name: "project.therapeutic_area", label: "Therapeutic area", fallback: "NSCLC, stage III-IV" },
-  { name: "project.irb_status", label: "IRB / ethics status", fallback: "Central IRB approved (WIRB #20251847)" },
-  { name: "project.consent", label: "Consent scope", fallback: "Broad consent · genomic + clinical · re-contact permitted" },
-  { name: "project.regulatory", label: "Regulatory pathway", fallback: "FDA 510(k) IVD validation · CAP/CLIA pathology required" },
-  { name: "specimen.types", label: "Specimen types", fallback: "Plasma (Streck/EDTA) + matched FFPE blocks" },
-  { name: "specimen.diagnosis", label: "Diagnosis", fallback: "C34.9 — Malignant neoplasm of bronchus and lung, NSCLC histology" },
-  { name: "specimen.quantity", label: "Quantity", fallback: "150 plasma cases + 75 matched FFPE blocks" },
-  { name: "specimen.timepoints", label: "Collection timepoints", fallback: "Baseline (pre-treatment) + on-treatment week 6" },
-  { name: "specimen.format", label: "Format", fallback: "Plasma: 4 × 1 mL aliquots, −80°C · FFPE: 10 µm unstained slides + paired H&E" },
-  { name: "specimen.min_volume", label: "Min volume / mass", fallback: "Plasma ≥ 4 mL · FFPE ≥ 50% tumor cellularity" },
-  { name: "specimen.aliquot", label: "Aliquot / tube spec", fallback: "Streck BCT or EDTA K2 · double-spin protocol within 4h of draw" },
-  { name: "specimen.matched_normal", label: "Matched normal", fallback: "Yes — buffy coat or peripheral WBC, paired per case" },
-  { name: "demo.age_range", label: "Age range", fallback: "Adults 40-85 (mean ~65)" },
-  { name: "demo.disease_stage", label: "Disease stage", fallback: "Stage III-B / III-C / IV-A / IV-B per AJCC 8th ed." },
-  { name: "demo.treatment_history", label: "Treatment line", fallback: "Treatment-naive at baseline draw; on-treatment per protocol" },
-  { name: "demo.biomarker", label: "Biomarker enrichment", fallback: "EGFR (60%), KRAS (25%), ALK (15%) — driver-positive only" },
-  { name: "demo.inclusion", label: "Inclusion criteria", fallback: "Confirmed NSCLC III-IV · driver mutation · ECOG 0-2 · capacity to consent" },
-];
-
-function buildFormFields(
-  intake: ReturnType<typeof readIntake>,
-): FormFieldFill[] {
-  const lookup = new Map<string, string>();
-  if (intake?.fields) {
-    for (const f of intake.fields) {
-      if (!f.field_id) continue;
-      const v = f.value;
-      const s =
-        typeof v === "string"
-          ? v.trim()
-          : v == null
-            ? ""
-            : String(v).trim();
-      if (s && s !== "—" && s.toLowerCase() !== "none") lookup.set(f.field_id, s);
-    }
-  }
-  return FORM_FIELD_SPECS.map((spec) => ({
-    name: spec.name,
-    label: spec.label,
-    value: lookup.get(spec.name) ?? spec.fallback,
-  }));
-}
 
 async function fireForm(
   state: ChainState,
   runId: string,
   handlers: ChainHandlers,
 ): Promise<void> {
-  const intake = readIntake(runId);
-  const fieldFills = buildFormFields(intake);
-
+  void runId;
+  const ts = new Date().toISOString();
   state.stages.form.status = "in_progress";
-  state.stages.form.started_at = new Date().toISOString();
+  state.stages.form.started_at = ts;
   appendEvent(state, "form", {
-    event_id: `stage-form-event-0`,
-    timestamp: new Date().toISOString(),
+    event_id: "stage-form-event-0",
+    timestamp: ts,
     direction: "system",
-    actor: "browser_use",
-    channel: "browse",
-    text: `opening ${CROVI_FORM_URL} in headless Chromium · ${fieldFills.length} fields queued`,
+    actor: "agent",
+    channel: "form",
+    text: `Intake envelope ready for ${CROVI_FORM_URL} — already verified during enrichment scrape, skipping duplicate browser session.`,
+  });
+  appendEvent(state, "form", {
+    event_id: "stage-form-event-reasoning",
+    timestamp: new Date().toISOString(),
+    direction: "reasoning",
+    actor: "agent",
+    text:
+      "Crovi.bio's intake form returns waitlist-only — no immediate allocation. Escalating to direct contact via voice to lock terms.",
   });
   saveChainState(state);
-
-  // Fire-and-forget — Playwright runs on its own; the chain SSE picks up
-  // each appendEvent / saveChainState in the live state.
-  void (async () => {
-    let result;
-    try {
-      result = await fillIntakeForm({
-        runId,
-        formUrl: CROVI_FORM_URL,
-        fields: fieldFills,
-      });
-    } catch (err) {
-      const message = err instanceof Error ? err.message : String(err);
-      const live = loadChainState(runId);
-      if (!live) return;
-      appendEvent(live, "form", {
-        event_id: `stage-form-event-error`,
-        timestamp: new Date().toISOString(),
-        direction: "system",
-        actor: "agent",
-        channel: "form",
-        text: `form-fill threw: ${message}`,
-      });
-      saveChainState(live);
-      await completeStage(live, { stage: "form", kind: "waitlist" }, handlers);
-      return;
-    }
-
-    const live = loadChainState(runId);
-    if (!live) return;
-
-    // Play back the Playwright observations as ChainStageEvents so the
-    // Timeline action log narrates each step alongside the live frames.
-    let n = 1;
-    for (const obs of result.observations) {
-      appendEvent(live, "form", {
-        event_id: `stage-form-event-${n++}`,
-        timestamp: obs.ts,
-        direction: obs.direction,
-        actor:
-          obs.direction === "outbound"
-            ? "agent"
-            : obs.direction === "inbound"
-              ? "supplier"
-              : obs.direction === "reasoning"
-                ? "agent"
-                : "browser_use",
-        channel:
-          obs.direction === "inbound" || obs.direction === "outbound"
-            ? "form"
-            : "browse",
-        text: obs.text,
-      });
-    }
-
-    // Reasoning event — the "waitlist insufficient → escalate to call" beat.
-    appendEvent(live, "form", {
-      event_id: `stage-form-event-reasoning`,
-      timestamp: new Date().toISOString(),
-      direction: "reasoning",
-      actor: "agent",
-      text:
-        result.outcome === "waitlist"
-          ? "Waitlist outcome insufficient for SLA. Escalating to direct contact via voice."
-          : result.outcome === "submitted"
-            ? "Form submitted, but no allocation commitment. Escalating to voice to lock terms."
-            : "Form attempt did not resolve. Escalating to voice as primary channel.",
-    });
-    saveChainState(live);
-
-    // Cascade — chain-transitions.onStageComplete routes form/waitlist → fireCall.
-    await completeStage(live, { stage: "form", kind: "waitlist" }, handlers);
-  })();
+  // Cascade — chain-transitions.onStageComplete routes form/waitlist → fireCall.
+  await completeStage(state, { stage: "form", kind: "waitlist" }, handlers);
 }
 
 // Stage 2 (call) / 3 (email) / 4 (sms_pay) / 5 (meeting) handlers all live
