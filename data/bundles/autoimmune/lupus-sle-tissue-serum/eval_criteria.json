@@ -1,0 +1,182 @@
+{
+  "bundle_id": "lupus-sle-tissue-serum",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "CHTN Eastern",
+        "NDRI",
+        "Shlok Superspecialty Care"
+      ],
+      "pass": "find >= 30% of ground truth orgs OR find >= 1 org with SLE tissue specimens",
+      "notes": "Pipeline may also surface the AMP-LN (Accelerating Medicines Partnership Lupus Nephritis) consortium \u2014 that is a valid but controlled-access find. Academic rheumatology cohorts (GLADEL, LuNa) are valid finds if they offer physical specimen re-access."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "CHTN Eastern": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Established academic tissue network \u2014 good contact, limited lupus-specific clinical annotation"
+        },
+        "NDRI": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Nonprofit tissue procurement \u2014 good contact, ISN/RPS class unlikely tracked"
+        },
+        "Shlok Superspecialty Care": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "1-2"
+          },
+          "has_contact": false,
+          "has_biomarkers": false,
+          "note": "Limited public footprint \u2014 generic AminoChain contact, no published literature"
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "isn_rps_class",
+          "reason": "ISN/RPS classification requires expert nephropathology review \u2014 not tracked in any biospecimen registry"
+        },
+        {
+          "field": "ana_status",
+          "reason": "serological biomarkers not tracked in tissue specimen registries \u2014 requires clinical record linkage"
+        },
+        {
+          "field": "anti_dsdna_status",
+          "reason": "serological biomarkers not tracked in tissue specimen registries \u2014 requires clinical record linkage"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not in any public registry \u2014 requires direct inquiry"
+        },
+        {
+          "field": "freeze_thaw_count",
+          "reason": "not tracked in specimen registries"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "CHTN Eastern": "ISN/RPS class unknown",
+        "NDRI": "ISN/RPS class unknown",
+        "Shlok Superspecialty Care": "ISN/RPS class unknown"
+      },
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs OR surfaces a credible academic SLE nephritis cohort"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented ISN/RPS classifications without a nephropathology source",
+        "no invented ANA or anti-dsDNA values without clinical record citation",
+        "no invented contacts \u2014 every email traces to paper/website/registry",
+        "no training-data fills for collection protocol specifics"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "ana_status": "0.0% annotated in AminoChain \u2014 not tracked",
+    "anti_dsdna_status": "0.0% annotated in AminoChain \u2014 not tracked",
+    "isn_rps_class": "0.0% annotated \u2014 not tracked"
+  }
+}

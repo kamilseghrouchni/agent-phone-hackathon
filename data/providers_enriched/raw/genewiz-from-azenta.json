@@ -1,0 +1,2100 @@
+{
+  "name": "GENEWIZ from Azenta",
+  "cleaned_name": "GENEWIZ from Azenta",
+  "aliases_tried": [
+    "GENEWIZ from Azenta",
+    "GENEWIZ",
+    "Azenta"
+  ],
+  "publication_total": 11,
+  "search_queries": [
+    "\"GENEWIZ from Azenta\"[Affiliation] AND 2022:3000[pdat]",
+    "\"GENEWIZ\"[Affiliation] AND 2022:3000[pdat]",
+    "\"Azenta\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "40621474",
+      "pmc": "PMC3409785",
+      "doi": "10.1016/0197-2456(86)90046-2",
+      "title": "Interlaboratory assessment of candidate reference materials for lentiviral vector copy number and integration site measurements.",
+      "abstract": "While lentiviral vectors have played a critical role in the emergence of gene-modified cell therapies, safety concerns remain regarding potential insertional mutagenesis. Regulatory authorities strongly recommend risk assessment and management of vector copy numbers (VCNs), integration profiles, and integration sites in the lentivirus-based cell and gene therapy products. However, accurately measuring these parameters remains a significant challenge due to the lack of standardized methodologies and VCN reference materials (RMs). Toward this challenge, we conducted an interlaboratory study on NIST candidate RMs for VCN measurements. The candidate RMs comprise five human genomic DNA samples or fixed cells from clonal Jurkat cell lines with defined VCNs ranging from 0 to 4. All 12 study participants were able to identify the VCN in the five blinded samples using quantitative PCR (qPCR), digital PCR (dPCR), or next generation sequencing (NGS) assays. Consensus value of VCN and integration sites in these candidate RMs were achieved. The fixed clonal VCN cells were also used to evaluate an emerging imaging-based technology called molecular combing. This interlaboratory assessment demonstrated the utility, commutability, and suitability of the NIST VCN candidate RMs for quality assurance and improved confidence in VCN, integration profile, and integration site measurements.",
+      "journal": "Mol Ther Methods Clin Dev",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "He",
+          "fore_name": "Hua-Jun",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "He",
+          "fore_name": "Zhiyong",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Lund",
+          "fore_name": "Steven P",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Turner",
+          "fore_name": "Laure",
+          "affiliations": [
+            "GENEWIZ from Azenta Life Sciences, 111 Corporate Boulevard, South Plainfield, NJ 07080, USA."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "Yongjun",
+          "affiliations": [
+            "GENEWIZ from Azenta Life Sciences, 111 Corporate Boulevard, South Plainfield, NJ 07080, USA."
+          ]
+        },
+        {
+          "last_name": "Qiu",
+          "fore_name": "Yu",
+          "affiliations": [
+            "GENEWIZ from Azenta Life Sciences, 111 Corporate Boulevard, South Plainfield, NJ 07080, USA."
+          ]
+        },
+        {
+          "last_name": "Corney",
+          "fore_name": "David C",
+          "affiliations": [
+            "GENEWIZ from Azenta Life Sciences, 111 Corporate Boulevard, South Plainfield, NJ 07080, USA."
+          ]
+        },
+        {
+          "last_name": "Dropulic",
+          "fore_name": "Boro",
+          "affiliations": [
+            "Caring Cross, 910 Clopper Road, Gaithersburg, MD 20878, USA."
+          ]
+        },
+        {
+          "last_name": "Orentas",
+          "fore_name": "Rimas",
+          "affiliations": [
+            "Caring Cross, 910 Clopper Road, Gaithersburg, MD 20878, USA."
+          ]
+        },
+        {
+          "last_name": "Slessareva",
+          "fore_name": "Oxana",
+          "affiliations": [
+            "Caring Cross, 910 Clopper Road, Gaithersburg, MD 20878, USA."
+          ]
+        },
+        {
+          "last_name": "Welch",
+          "fore_name": "Priscilla",
+          "affiliations": [
+            "Castle Creek Biosci, 405 Eagleview Boulevard, Exton, PA 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Dungca",
+          "fore_name": "Katie",
+          "affiliations": [
+            "Castle Creek Biosci, 405 Eagleview Boulevard, Exton, PA 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Stelloo",
+          "fore_name": "Ellen",
+          "affiliations": [
+            "Cergentis, a Solvias Company, Yalelaan 62, 3584 CM Utrecht, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Dijksteel",
+          "fore_name": "Gabrielle",
+          "affiliations": [
+            "Cergentis, a Solvias Company, Yalelaan 62, 3584 CM Utrecht, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Feitsma",
+          "fore_name": "Harma",
+          "affiliations": [
+            "Cergentis, a Solvias Company, Yalelaan 62, 3584 CM Utrecht, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Ahmed-Seghir",
+          "fore_name": "Sana",
+          "affiliations": [
+            "Genomic Vision, 80 Rue des Meuniers, Bagneux, Paris Area 92220, France."
+          ]
+        },
+        {
+          "last_name": "Makarenko",
+          "fore_name": "Rostyslav",
+          "affiliations": [
+            "Genomic Vision, 80 Rue des Meuniers, Bagneux, Paris Area 92220, France."
+          ]
+        },
+        {
+          "last_name": "Altunlu",
+          "fore_name": "Engin",
+          "affiliations": [
+            "Genomic Vision, 80 Rue des Meuniers, Bagneux, Paris Area 92220, France."
+          ]
+        },
+        {
+          "last_name": "Steenmans",
+          "fore_name": "Dani\u00eblle",
+          "affiliations": [
+            "Glycostem Therapeutics, Kloosterstraat 9, 5349 AB Oss, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Spanholtz",
+          "fore_name": "Jan",
+          "affiliations": [
+            "Glycostem Therapeutics, Kloosterstraat 9, 5349 AB Oss, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Raimo",
+          "fore_name": "Monica",
+          "affiliations": [
+            "Glycostem Therapeutics, Kloosterstraat 9, 5349 AB Oss, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Senderovich",
+          "fore_name": "Shai",
+          "affiliations": [
+            "GSK, Gunnels Wood Road, Stevenage SG1 2NF, UK."
+          ]
+        },
+        {
+          "last_name": "Paugh",
+          "fore_name": "Barbara S",
+          "affiliations": [
+            "Lentigen, a Miltenyi Biotec Company, 1201 Clopper Road, Gaithersburg, MD 20878, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Chieh-Yuan",
+          "affiliations": [
+            "Mission Bio, 400 E Jamie Court, South San Francisco, CA 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Schroeder",
+          "fore_name": "Benjamin",
+          "affiliations": [
+            "Mission Bio, 400 E Jamie Court, South San Francisco, CA 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Whale",
+          "fore_name": "Alexandra S",
+          "affiliations": [
+            "National Measurement Laboratory (NML at LGC), LGC, Queens Road, Teddington, Middlesex TW11 0LY, UK."
+          ]
+        },
+        {
+          "last_name": "Yener",
+          "fore_name": "Dilek",
+          "affiliations": [
+            "National Measurement Laboratory (NML at LGC), LGC, Queens Road, Teddington, Middlesex TW11 0LY, UK."
+          ]
+        },
+        {
+          "last_name": "Foy",
+          "fore_name": "Carole A",
+          "affiliations": [
+            "National Measurement Laboratory (NML at LGC), LGC, Queens Road, Teddington, Middlesex TW11 0LY, UK."
+          ]
+        },
+        {
+          "last_name": "Nahas",
+          "fore_name": "Shareef",
+          "affiliations": [
+            "Sampled, 30 Knightsbridge Road, Piscataway, NJ 08854, USA."
+          ]
+        },
+        {
+          "last_name": "Tu",
+          "fore_name": "Feng",
+          "affiliations": [
+            "Sampled, 30 Knightsbridge Road, Piscataway, NJ 08854, USA."
+          ]
+        },
+        {
+          "last_name": "Sheldon",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Sampled, 30 Knightsbridge Road, Piscataway, NJ 08854, USA."
+          ]
+        },
+        {
+          "last_name": "Ding",
+          "fore_name": "Yan",
+          "affiliations": [
+            "Sampled, 30 Knightsbridge Road, Piscataway, NJ 08854, USA."
+          ]
+        },
+        {
+          "last_name": "Kandell",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Thermo Fisher Scientific, 10421 Wateridge Circle, San Diego, CA 92121, USA."
+          ]
+        },
+        {
+          "last_name": "Lakshmipathy",
+          "fore_name": "Uma",
+          "affiliations": [
+            "Thermo Fisher Scientific, 10421 Wateridge Circle, San Diego, CA 92121, USA."
+          ]
+        },
+        {
+          "last_name": "McDaniel",
+          "fore_name": "Jennifer H",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Zook",
+          "fore_name": "Justin M",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Miller",
+          "fore_name": "Sierra",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Maragh",
+          "fore_name": "Samantha",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Patange",
+          "fore_name": "Simona",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Mohiuddin",
+          "fore_name": "Mahir",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Tona",
+          "fore_name": "Alessandro",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Cole",
+          "fore_name": "Kenneth D",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        },
+        {
+          "last_name": "Lin-Gibson",
+          "fore_name": "Sheng",
+          "affiliations": [
+            "National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CAR T-cell therapy",
+        "NGS",
+        "digital PCR",
+        "gene therapy",
+        "integration profiling",
+        "integration site analysis",
+        "interlaboratory testing",
+        "lentiviral vector, LV",
+        "next generation sequencing",
+        "reference material",
+        "vector copy number, VCN"
+      ]
+    },
+    {
+      "pmid": "39496931",
+      "pmc": "PMC8654478",
+      "doi": "10.1080/19420862.2021.1980942",
+      "title": "AIntibody: an experimentally validated in silico antibody discovery design challenge.",
+      "abstract": "",
+      "journal": "Nat Biotechnol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Erasmus",
+          "fore_name": "M Frank",
+          "affiliations": [
+            "Specifica LLC, an IQVIA business, Santa Fe, USA. mfrank.erasmus@iqvia.com."
+          ]
+        },
+        {
+          "last_name": "Spector",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Specifica LLC, an IQVIA business, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Ferrara",
+          "fore_name": "Fortunato",
+          "affiliations": [
+            "Specifica LLC, an IQVIA business, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "DiNiro",
+          "fore_name": "Roberto",
+          "affiliations": [
+            "Specifica LLC, an IQVIA business, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Pohl",
+          "fore_name": "Thomas J",
+          "affiliations": [
+            "Specifica LLC, an IQVIA business, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Perea-Schmittle",
+          "fore_name": "Katheryn",
+          "affiliations": [
+            "Specifica LLC, an IQVIA business, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Wei",
+          "affiliations": [
+            "University of California, San Diego, USA."
+          ]
+        },
+        {
+          "last_name": "Tessier",
+          "fore_name": "Peter M",
+          "affiliations": [
+            "University of Michigan, Ann Arbor, USA."
+          ]
+        },
+        {
+          "last_name": "Richardson",
+          "fore_name": "Crystal",
+          "affiliations": [
+            "GENEWIZ from Azenta Life Sciences, South Plainfield, USA."
+          ]
+        },
+        {
+          "last_name": "Turner",
+          "fore_name": "Laure",
+          "affiliations": [
+            "GENEWIZ from Azenta Life Sciences, South Plainfield, USA."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Sumit",
+          "affiliations": [
+            "GENEWIZ from Azenta Life Sciences, South Plainfield, USA."
+          ]
+        },
+        {
+          "last_name": "Bedinger",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Carterra, Salt Lake City, USA."
+          ]
+        },
+        {
+          "last_name": "Sormanni",
+          "fore_name": "Pietro",
+          "affiliations": [
+            "University of Cambridge, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Fern\u00e1ndez-Quintero",
+          "fore_name": "Monica L",
+          "affiliations": [
+            "Scripps Research Institute, San Diego, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Ward",
+          "fore_name": "Andrew B",
+          "affiliations": [
+            "Scripps Research Institute, San Diego, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Loeffler",
+          "fore_name": "Johannes R",
+          "affiliations": [
+            "Scripps Research Institute, San Diego, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Swanson",
+          "fore_name": "Olivia M",
+          "affiliations": [
+            "Scripps Research Institute, San Diego, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Deane",
+          "fore_name": "Charlotte M",
+          "affiliations": [
+            "University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Raybould",
+          "fore_name": "Matthew I J",
+          "affiliations": [
+            "University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Evers",
+          "fore_name": "Andreas",
+          "affiliations": [
+            "Merck KGaA, Darmstadt, Germany."
+          ]
+        },
+        {
+          "last_name": "Sellmann",
+          "fore_name": "Carolin",
+          "affiliations": [
+            "Merck KGaA, Darmstadt, Germany."
+          ]
+        },
+        {
+          "last_name": "Bachas",
+          "fore_name": "Sharrol",
+          "affiliations": [
+            "Evolutionary Scale, San Francisco, USA."
+          ]
+        },
+        {
+          "last_name": "Ruffolo",
+          "fore_name": "Jeff",
+          "affiliations": [
+            "Profluent Bio, Berkeley, USA."
+          ]
+        },
+        {
+          "last_name": "Nastri",
+          "fore_name": "Horacio G",
+          "affiliations": [
+            "Incyte, Inc, Wilmington, USA."
+          ]
+        },
+        {
+          "last_name": "Ramesh",
+          "fore_name": "Karthik",
+          "affiliations": [
+            "Incyte, Inc, Wilmington, USA."
+          ]
+        },
+        {
+          "last_name": "S\u00f8rensen",
+          "fore_name": "Jesper",
+          "affiliations": [
+            "OpenEye, Cadence Molecular Sciences, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Croasdale-Wood",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "Astrazeneca, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Hijano",
+          "fore_name": "Oliver",
+          "affiliations": [
+            "Sanofi, Inc, Cambridge, USA."
+          ]
+        },
+        {
+          "last_name": "Leal-Lopes",
+          "fore_name": "Camila",
+          "affiliations": [
+            "Sanofi, Inc, Cambridge, USA."
+          ]
+        },
+        {
+          "last_name": "Shahsavarian",
+          "fore_name": "Melody",
+          "affiliations": [
+            "Eli Lilly, San Diego, USA."
+          ]
+        },
+        {
+          "last_name": "Qiu",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Sanofi, Inc, Cambridge, USA."
+          ]
+        },
+        {
+          "last_name": "Marcatili",
+          "fore_name": "Paolo",
+          "affiliations": [
+            "Novo Nordisk, A/S, Bagsv\u00e6rd, Denmark."
+          ]
+        },
+        {
+          "last_name": "Vernet",
+          "fore_name": "Erik",
+          "affiliations": [
+            "Novo Nordisk, A/S, Bagsv\u00e6rd, Denmark."
+          ]
+        },
+        {
+          "last_name": "Akbar",
+          "fore_name": "Rahmad",
+          "affiliations": [
+            "Novo Nordisk, A/S, Bagsv\u00e6rd, Denmark."
+          ]
+        },
+        {
+          "last_name": "Friedensohn",
+          "fore_name": "Simon",
+          "affiliations": [
+            "Alloy Therapeutics, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wagner",
+          "fore_name": "Rick",
+          "affiliations": [
+            "Bonito Biosciences, Waltham, USA."
+          ]
+        },
+        {
+          "last_name": "Kurella",
+          "fore_name": "Vinodh Babu",
+          "affiliations": [
+            "Takeda, Inc, Cambridge, USA."
+          ]
+        },
+        {
+          "last_name": "Malhotra",
+          "fore_name": "Shipra",
+          "affiliations": [
+            "Takeda, Inc, Cambridge, USA."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Satyendra",
+          "affiliations": [
+            "Takeda, Inc, Cambridge, USA."
+          ]
+        },
+        {
+          "last_name": "Kidger",
+          "fore_name": "Patrick",
+          "affiliations": [
+            "Cradle Bio, Z\u00fcrich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Almagro",
+          "fore_name": "Juan C",
+          "affiliations": [
+            "GlobalBio, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Furfine",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Mosaic Biosciences, Boulder, USA."
+          ]
+        },
+        {
+          "last_name": "Stanton",
+          "fore_name": "Marty",
+          "affiliations": [
+            "Mosaic Biosciences, Boulder, USA."
+          ]
+        },
+        {
+          "last_name": "Graff",
+          "fore_name": "Christilyn P",
+          "affiliations": [
+            "Mosaic Biosciences, Boulder, USA."
+          ]
+        },
+        {
+          "last_name": "Villalba",
+          "fore_name": "Santiago David",
+          "affiliations": [
+            "Bayer AG, Leverkusen, Germany."
+          ]
+        },
+        {
+          "last_name": "Tomszak",
+          "fore_name": "Florian",
+          "affiliations": [
+            "Bayer AG, Leverkusen, Germany."
+          ]
+        },
+        {
+          "last_name": "Teixeira",
+          "fore_name": "Andre A R",
+          "affiliations": [
+            "Institute for Protein Innovation, Boston, USA."
+          ]
+        },
+        {
+          "last_name": "Hopkins",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Sapidyne Instruments, Inc. & GmbH, Boise, USA."
+          ]
+        },
+        {
+          "last_name": "Dovner",
+          "fore_name": "Molly",
+          "affiliations": [
+            "Sapidyne Instruments, Inc. & GmbH, Boise, USA."
+          ]
+        },
+        {
+          "last_name": "D'Angelo",
+          "fore_name": "Sara",
+          "affiliations": [
+            "Specifica LLC, an IQVIA business, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Bradbury",
+          "fore_name": "Andrew R M",
+          "affiliations": [
+            "Specifica LLC, an IQVIA business, Santa Fe, USA. andrew.bradbury@iqvia.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "40897178",
+      "pmc": "PMC2672624",
+      "doi": "10.1093/bioinformatics/btp033",
+      "title": "Oral virome metagenomic catalog links Porphyromonas gingivalis phages to obesity and type 2 diabetes.",
+      "abstract": "The human microbiota has a critical role in maintaining human microbiome homeostasis and health, yet the viral component of the oral microbiome remains largely unidentified. We establish the Human Oral Virome Database (HOVD) catalog, a freely accessible online resource cataloging 24,440 bacteriophage viral operational taxonomic units and 83 eukaryotic viral genomes. Utilizing HOVD, we investigate oral virome variation and its correlation with oral bacteria and gut virome in 220 obese individuals with or without type 2 diabetes mellitus (T2D). Obese individuals with T2D exhibit reduced oral viral diversity, lower correlations with clinical features, disrupted viral-bacterial correlations, and enhanced oral-gut virome transmission. Furthermore, we computationally identify bacteriophages that infect Porphyromonas gingivalis and screen six putative endolysins. Experimental validation reveals that a mixture of three endolysins significantly inhibits Porphyromonas gingivalis growth. These findings highlight the potential of phage-derived endolysins for periodontitis with T2D, offering a path toward oral and systemic disease intervention.",
+      "journal": "Cell Rep Med",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Xu",
+          "fore_name": "Tiansong",
+          "affiliations": [
+            "Central Laboratory, Peking University School and Hospital of Stomatology & National Center for Stomatology & National Clinical Research Center for Oral Diseases & National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing 100081, China; Fifth Clinical Division, Peking University School and Hospital of Stomatology & National Center for Stomatology & National Clinical Research Center for Oral Diseases & National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing 100081, China."
+          ]
+        },
+        {
+          "last_name": "Jiao",
+          "fore_name": "Xianyue",
+          "affiliations": [
+            "Center for Infection Biology, School of Basic Medical Sciences, Tsinghua University, Beijing 100084, China; Tsinghua-Peking Joint Center for Life Sciences, Beijing 100084, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "George",
+          "affiliations": [
+            "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center of Biological Structure, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing 100084, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Xi",
+          "affiliations": [
+            "Central Laboratory, Peking University School and Hospital of Stomatology & National Center for Stomatology & National Clinical Research Center for Oral Diseases & National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing 100081, China."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Qingqing",
+          "affiliations": [
+            "Center for Infection Biology, School of Basic Medical Sciences, Tsinghua University, Beijing 100084, China; Tsinghua-Peking Joint Center for Life Sciences, Beijing 100084, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Gaopu",
+          "affiliations": [
+            "Center for Infection Biology, School of Basic Medical Sciences, Tsinghua University, Beijing 100084, China; Tsinghua-Peking Joint Center for Life Sciences, Beijing 100084, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Bowen",
+          "affiliations": [
+            "Center for Infection Biology, School of Basic Medical Sciences, Tsinghua University, Beijing 100084, China; Tsinghua-Peking Joint Center for Life Sciences, Beijing 100084, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Department of Implantology, Peking University School and Hospital of Stomatology & National Center for Stomatology & National Clinical Research Center for Oral Diseases & National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing 100081, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xue",
+          "affiliations": [
+            "Fifth Clinical Division, Peking University School and Hospital of Stomatology & National Center for Stomatology & National Clinical Research Center for Oral Diseases & National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing 100081, China."
+          ]
+        },
+        {
+          "last_name": "Cheung",
+          "fore_name": "Yoo",
+          "affiliations": [
+            "Lingchuan Stomatology Inc., Beijing 100176, China."
+          ]
+        },
+        {
+          "last_name": "Chai",
+          "fore_name": "Xiaofen",
+          "affiliations": [
+            "Central Laboratory, Peking University School and Hospital of Stomatology & National Center for Stomatology & National Clinical Research Center for Oral Diseases & National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing 100081, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Yueqing",
+          "affiliations": [
+            "Department of General Medicine, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Nanjing Medical University, Suzhou 215002, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Huihui",
+          "affiliations": [
+            "GENEWIZ Inc., Suzhou 215000, China."
+          ]
+        },
+        {
+          "last_name": "Deng",
+          "fore_name": "Feng",
+          "affiliations": [
+            "GENEWIZ Inc., Suzhou 215000, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Feng",
+          "affiliations": [
+            "Central Laboratory, Peking University School and Hospital of Stomatology & National Center for Stomatology & National Clinical Research Center for Oral Diseases & National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing 100081, China. Electronic address: chenfeng2011@hsc.pku.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Guanxiang",
+          "affiliations": [
+            "Center for Infection Biology, School of Basic Medical Sciences, Tsinghua University, Beijing 100084, China; Tsinghua-Peking Joint Center for Life Sciences, Beijing 100084, China. Electronic address: guanxiangliang@tsinghua.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Porphyromonas gingivalis",
+        "Diabetes Mellitus, Type 2",
+        "Virome",
+        "Bacteriophages",
+        "Obesity",
+        "Mouth",
+        "Metagenomics",
+        "Metagenome",
+        "Female",
+        "Male",
+        "Middle Aged",
+        "Gastrointestinal Microbiome",
+        "Microbiota"
+      ],
+      "keywords": [
+        "Porphyromonas gingivalis",
+        "human oral virome database",
+        "oral and gut metagenomics",
+        "therapeutic strategies",
+        "type 2 diabetes"
+      ]
+    },
+    {
+      "pmid": "39962085",
+      "pmc": "PMC7616036",
+      "doi": "10.1016/S2468-1253(23)00315-1",
+      "title": "Whole genome sequencing of hepatitis B virus using tiled amplicon (HEPTILE) and probe based enrichment on Illumina and Nanopore platforms.",
+      "abstract": "Hepatitis B virus (HBV) whole genome sequencing (WGS) is currently limited as the DNA viral loads (VL) of many clinical samples are below the threshold required to generate full genomes using current sequencing methods. We developed two pan-genotypic viral enrichment methods, using probe-based capture and tiled amplicon PCR (HEP-TILE) for HBV WGS. We demonstrate using mock samples that both enrichment methods are pan-genotypic (genotypes A-J). Using clinical samples, we demonstrate that HEP-TILE amplification successfully amplifies full genomes at the lowest HBV VL tested (30 IU/ml), and the PCR products can be sequenced using both Nanopore and Illumina platforms. Probe-based capture with Illumina sequencing required VL\u2009>\u2009300,000 IU/ml to generate full length HBV genomes. The capture-Illumina and HEP-TILE-Nanopore pipelines had consensus sequencing accuracy of 100% in mock samples with known DNA sequences. Together, these protocols will facilitate the generation of HBV sequence data, enabling a more accurate and representative picture of HBV molecular epidemiology, cast light on persistence and pathogenesis, and enhance understanding of the outcomes of infection and its treatment.",
+      "journal": "Sci Rep",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Lumley",
+          "fore_name": "Sheila F",
+          "affiliations": [
+            "Nuffield Department of Medicine, University of Oxford, Oxford, UK.",
+            "Department of Infectious Diseases and Microbiology, Oxford University Hospitals NHS Foundation Trust, John Radcliffe Hospital, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Kent",
+          "fore_name": "Chris",
+          "affiliations": [
+            "Institute of Microbiology and Infection, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Jennings",
+          "fore_name": "Daisy",
+          "affiliations": [
+            "Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Chai",
+          "fore_name": "Haiting",
+          "affiliations": [
+            "Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Airey",
+          "fore_name": "George",
+          "affiliations": [
+            "Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Waddilove",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "The Francis Crick Institute, London, UK."
+          ]
+        },
+        {
+          "last_name": "Delphin",
+          "fore_name": "Marion",
+          "affiliations": [
+            "The Francis Crick Institute, London, UK."
+          ]
+        },
+        {
+          "last_name": "Trebes",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Nuffield Department of Medicine, Centre for Human Genomics, University of Oxford, Oxford, UK.",
+            "Genewiz UK Ltd, Azenta Life Sciences, Stratton Court, Abingdon, UK."
+          ]
+        },
+        {
+          "last_name": "McNaughton",
+          "fore_name": "Anna L",
+          "affiliations": [
+            "Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK."
+          ]
+        },
+        {
+          "last_name": "Mohammed",
+          "fore_name": "Khadija Said",
+          "affiliations": [
+            "The Francis Crick Institute, London, UK."
+          ]
+        },
+        {
+          "last_name": "Wilkinson",
+          "fore_name": "Sam A J",
+          "affiliations": [
+            "Institute of Microbiology and Infection, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Yanxia",
+          "affiliations": [
+            "Nuffield Department of Medicine, Centre for Human Genomics, University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "MacIntyre-Cockett",
+          "fore_name": "George",
+          "affiliations": [
+            "Nuffield Department of Medicine, Centre for Human Genomics, University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Kimono",
+          "fore_name": "Beatrice",
+          "affiliations": [
+            "MRC/UVRI & LSHTM Uganda Research Unit, Entebbe, Uganda."
+          ]
+        },
+        {
+          "last_name": "Mbonye",
+          "fore_name": "Kwizera Moses",
+          "affiliations": [
+            "MRC/UVRI & LSHTM Uganda Research Unit, Entebbe, Uganda."
+          ]
+        },
+        {
+          "last_name": "Ojambo",
+          "fore_name": "Kevin",
+          "affiliations": [
+            "MRC/UVRI & LSHTM Uganda Research Unit, Entebbe, Uganda."
+          ]
+        },
+        {
+          "last_name": "Maponga",
+          "fore_name": "Tongai G",
+          "affiliations": [
+            "Division of Medical Virology, Stellenbosch University Faculty of Medicine and Health Sciences and National Health Laboratory Service Tygerberg Business Unit, Cape Town, South Africa."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Cedric C S",
+          "affiliations": [
+            "The Francis Crick Institute, London, UK."
+          ]
+        },
+        {
+          "last_name": "de Lara",
+          "fore_name": "Catherine",
+          "affiliations": [
+            "Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Martin",
+          "fore_name": "Jacqueline",
+          "affiliations": [
+            "Department of Infectious Diseases and Microbiology, Oxford University Hospitals NHS Foundation Trust, John Radcliffe Hospital, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Campbell",
+          "fore_name": "James",
+          "affiliations": [
+            "The Francis Crick Institute, London, UK."
+          ]
+        },
+        {
+          "last_name": "Van Schalkwyk",
+          "fore_name": "Marije",
+          "affiliations": [
+            "Division of Infectious Diseases, Department of Medicine, Stellenbosch University and Tygerberg Hospital, Cape Town, South Africa."
+          ]
+        },
+        {
+          "last_name": "Goedhals",
+          "fore_name": "Dominique",
+          "affiliations": [
+            "University of the Free State, Bloemfontein, South Africa.",
+            "PathCare, Pretoria, South Africa."
+          ]
+        },
+        {
+          "last_name": "Newton",
+          "fore_name": "Robert",
+          "affiliations": [
+            "MRC/UVRI & LSHTM Uganda Research Unit, Entebbe, Uganda.",
+            "Department of Health Sciences, University of York, York, UK."
+          ]
+        },
+        {
+          "last_name": "Barnes",
+          "fore_name": "Eleanor",
+          "affiliations": [
+            "Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Loman",
+          "fore_name": "Nicholas J",
+          "affiliations": [
+            "Institute of Microbiology and Infection, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Piazza",
+          "fore_name": "Paolo",
+          "affiliations": [
+            "Nuffield Department of Medicine, Centre for Human Genomics, University of Oxford, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Quick",
+          "fore_name": "Joshua",
+          "affiliations": [
+            "Institute of Microbiology and Infection, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Ansari",
+          "fore_name": "M Azim",
+          "affiliations": [
+            "Nuffield Department of Medicine, University of Oxford, Oxford, UK. azim.ansari@ndm.ox.ac.uk."
+          ]
+        },
+        {
+          "last_name": "Matthews",
+          "fore_name": "Philippa C",
+          "affiliations": [
+            "The Francis Crick Institute, London, UK. philippa.matthews@crick.ac.uk.",
+            "Division of Infection and Immunity, University College London, London, UK. philippa.matthews@crick.ac.uk.",
+            "Department of Infection, University College London Hospitals, London, UK. philippa.matthews@crick.ac.uk."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Hepatitis B virus",
+        "Humans",
+        "Genome, Viral",
+        "Whole Genome Sequencing",
+        "Nanopores",
+        "DNA, Viral",
+        "High-Throughput Nucleotide Sequencing",
+        "Hepatitis B",
+        "Nanopore Sequencing",
+        "Polymerase Chain Reaction",
+        "Genotype"
+      ],
+      "keywords": [
+        "Hepatitis B virus (HBV)",
+        "Illumina",
+        "Nanopore",
+        "Whole genome sequencing"
+      ]
+    },
+    {
+      "pmid": "39360992",
+      "pmc": "PMC5961307",
+      "doi": "10.1093/ve/vey007",
+      "title": "Castanet: a pipeline for rapid analysis of targeted multi-pathogen genomic data.",
+      "abstract": "Target enrichment strategies generate genomic data from multiple pathogens in a single process, greatly improving sensitivity over metagenomic sequencing and enabling cost-effective, high-throughput surveillance and clinical applications. However, uptake by research and clinical laboratories is constrained by an absence of computational tools that are specifically designed for the analysis of multi-pathogen enrichment sequence data. Here we present an analysis pipeline, Castanet, for use with multi-pathogen enrichment sequencing data. Castanet is designed to work with short-read data produced by existing targeted enrichment strategies, but can be readily deployed on any BAM file generated by another methodology. Also included are an optional graphical interface and installer script. In addition to genome reconstruction, Castanet reports method-specific metrics that enable quantification of capture efficiency, estimation of pathogen load, differentiation of low-level positives from contamination, and assessment of sequencing quality. Castanet can be used as a traditional end-to-end pipeline for consensus generation, but its strength lies in the ability to process a flexible, pre-defined set of pathogens of interest directly from multi-pathogen enrichment experiments. In our tests, Castanet consensus sequences were accurate reconstructions of reference sequences, including in instances where multiple strains of the same pathogen were present. Castanet performs effectively on standard computers and can process the entire output of a 96-sample enrichment sequencing run (50M reads) using a single batch process command, in $<$2\u2009h. Source code freely available under GPL-3 license at https://github.com/MultipathogenGenomics/castanet, implemented in Python 3.10 and supported in Ubuntu Linux 22.04. The data underlying this article are available in Europe Nucleotide Archives, at https://www.ebi.ac.uk/ena/browser/view/PRJEB77004.",
+      "journal": "Bioinformatics",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Mayne",
+          "fore_name": "Richard",
+          "affiliations": [
+            "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxfordshire OX1 3SY, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Secret",
+          "fore_name": "Shannah",
+          "affiliations": [
+            "Radcliffe Department of Medicine, University of Oxford, West Wing John Radcliffe Hospital, Oxfordshire OX3 9DU, United Kingdom.",
+            "Microbiology Services, NHS Blood and Transplant, London NW9 5BG, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Geoghegan",
+          "fore_name": "Cyndi",
+          "affiliations": [
+            "Centre for Human Genetics, University of Oxford, Oxfordshire OX3 7BN, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Trebes",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Genewiz UK Ltd, Azenta Life Sciences, Oxfordshire OX14 1SG, United Kingdom.",
+            "Oxford Genomics Centre, University of Oxford, Oxfordshire OX3 7BN, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Kean",
+          "fore_name": "Kai",
+          "affiliations": [
+            "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxfordshire OX1 3SY, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Reid",
+          "fore_name": "Kaitlin",
+          "affiliations": [
+            "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxfordshire OX1 3SY, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Gu-Lung",
+          "affiliations": [
+            "Oxford Vaccine Group, University of Oxford, Oxfordshire OX3 7LE, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Ansari",
+          "fore_name": "M Azim",
+          "affiliations": [
+            "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxfordshire OX1 3SY, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "de Cesare",
+          "fore_name": "Mariateresa",
+          "affiliations": [
+            "National Facility for Genomics, Human Technopole, Viale Rita Levi-Montalcini, Milan 20157, Italy."
+          ]
+        },
+        {
+          "last_name": "Bonsall",
+          "fore_name": "David",
+          "affiliations": [
+            "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxfordshire OX1 3SY, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Elliott",
+          "fore_name": "Ivo",
+          "affiliations": [
+            "Centre for Tropical Medicine and Global Health, University of Oxford, Oxfordshire OX3 7LE, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Piazza",
+          "fore_name": "Paolo",
+          "affiliations": [
+            "Centre for Human Genetics, University of Oxford, Oxfordshire OX3 7BN, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Brown",
+          "fore_name": "Anthony",
+          "affiliations": [
+            "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxfordshire OX1 3SY, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Bray",
+          "fore_name": "James",
+          "affiliations": [
+            "Department of Biology, University of Oxford, Oxfordshire OX1 3SY, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Knight",
+          "fore_name": "Julian C",
+          "affiliations": [
+            "Oxford Genomics Centre, University of Oxford, Oxfordshire OX3 7BN, United Kingdom.",
+            "Chinese Academy of Medical Science Oxford Institute, University of Oxford, Oxfordshire OX3 7BN, United Kingdom.",
+            "NIHR Oxford Biomedical Research Centre, University of Oxford, John Radcliffe Hospital, Oxfordshire OX3 9DU, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Harvala",
+          "fore_name": "Heli",
+          "affiliations": [
+            "Radcliffe Department of Medicine, University of Oxford, West Wing John Radcliffe Hospital, Oxfordshire OX3 9DU, United Kingdom.",
+            "Microbiology Services, NHS Blood and Transplant, London NW9 5BG, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Breuer",
+          "fore_name": "Judith",
+          "affiliations": [
+            "Institute of Child Health, University College London, London WC1N 1EH, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Simmonds",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxfordshire OX1 3SY, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Bowden",
+          "fore_name": "Rory J",
+          "affiliations": [
+            "Genomics Lab, The Walter and Eliza Hall Institute of Medical Research, Victoria 3052, Melbourne, Australia."
+          ]
+        },
+        {
+          "last_name": "Golubchik",
+          "fore_name": "Tanya",
+          "affiliations": [
+            "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxfordshire OX1 3SY, United Kingdom.",
+            "Sydney Infectious Diseases Institute, Faculty of Medicine and Health, University of Sydney, New South Wales 2050, Sydney, Australia."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Software",
+        "Genomics",
+        "High-Throughput Nucleotide Sequencing",
+        "Humans",
+        "Sequence Analysis, DNA",
+        "Metagenomics"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "37861205",
+      "pmc": "PMC9926627",
+      "doi": "10.1186/s13148-023-01440-w",
+      "title": "Plasma cell-free DNA methylation analysis for ovarian cancer detection: Analysis of samples from a case-control study and an ovarian cancer screening trial.",
+      "abstract": "Analysis of cell-free DNA methylation (cfDNAme), alone or combined with CA125, could help to detect ovarian cancers earlier and may reduce mortality. We assessed cfDNAme in regions of ZNF154, C2CD4D and WNT6 via targeted bisulfite sequencing in diagnostic and early detection (preceding diagnosis) settings. Diagnostic samples were obtained via prospective blood collection in cell-free DNA tubes in a convenience series of patients with a pelvic mass. Early detection samples were matched case-control samples derived from the UK Familial Ovarian Cancer Screening Study (UKFOCSS). In the diagnostic set (n",
+      "journal": "Int J Cancer",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Herzog",
+          "fore_name": "Chiara",
+          "affiliations": [
+            "European Translational Oncology Prevention and Screening (EUTOPS) Institute, Hall in Tirol, Austria.",
+            "Research Institute for Biomedical Aging Research, Universit\u00e4t Innsbruck, Innsbruck, Austria."
+          ]
+        },
+        {
+          "last_name": "Jones",
+          "fore_name": "Allison",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Evans",
+          "fore_name": "Iona",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Reisel",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Olaitan",
+          "fore_name": "Adeola",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Doufekas",
+          "fore_name": "Konstantinos",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "MacDonald",
+          "fore_name": "Nicola",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "R\u00e5destad",
+          "fore_name": "Angelique Fl\u00f6ter",
+          "affiliations": [
+            "Department of Women's and Children's Health, Division of Obstetrics and Gynecology, Karolinska Institutet and Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Gemzell-Danielsson",
+          "fore_name": "Kristina",
+          "affiliations": [
+            "Department of Women's and Children's Health, Division of Obstetrics and Gynecology, Karolinska Institutet and Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Zikan",
+          "fore_name": "Michal",
+          "affiliations": [
+            "Department of Gynecology and Obstetrics, Charles University in Prague, First Faculty of Medicine and Hospital, Na Bulovce, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Cibula",
+          "fore_name": "David",
+          "affiliations": [
+            "Department of Gynaecology, Obstetrics and Neonatology, First Faculty of Medicine, Charles University, Prague and, General University Hospital, Prague, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Dost\u00e1lek",
+          "fore_name": "Luk\u00e1\u0161",
+          "affiliations": [
+            "Department of Gynaecology, Obstetrics and Neonatology, First Faculty of Medicine, Charles University, Prague and, General University Hospital, Prague, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Paprotka",
+          "fore_name": "Tobias",
+          "affiliations": [
+            "GENEWIZ Germany GmbH, Bahnhofstra\u00dfe, Germany."
+          ]
+        },
+        {
+          "last_name": "Leimbach",
+          "fore_name": "Andreas",
+          "affiliations": [
+            "Eurofins Genomics Europe Sequencing GmbH, Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Schmitt",
+          "fore_name": "Markus",
+          "affiliations": [
+            "Eurofins Genomics Europe Sequencing GmbH, Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Ryan",
+          "fore_name": "Andy",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Gentry-Maharaj",
+          "fore_name": "Aleksandra",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK.",
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Apostolidou",
+          "fore_name": "Sophia",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Rosenthal",
+          "fore_name": "Adam N",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Menon",
+          "fore_name": "Usha",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Widschwendter",
+          "fore_name": "Martin",
+          "affiliations": [
+            "European Translational Oncology Prevention and Screening (EUTOPS) Institute, Hall in Tirol, Austria.",
+            "Research Institute for Biomedical Aging Research, Universit\u00e4t Innsbruck, Innsbruck, Austria.",
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK.",
+            "Department of Women's and Children's Health, Division of Obstetrics and Gynecology, Karolinska Institutet and Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Case-Control Studies",
+        "Prospective Studies",
+        "DNA Methylation",
+        "Early Detection of Cancer",
+        "Ovarian Neoplasms",
+        "Biomarkers, Tumor",
+        "CA-125 Antigen",
+        "Kruppel-Like Transcription Factors"
+      ],
+      "keywords": [
+        "cell-free DNA",
+        "diagnosis",
+        "methylation",
+        "ovarian cancer"
+      ]
+    },
+    {
+      "pmid": "35192776",
+      "doi": "10.1080/16078454.2022.2029255",
+      "title": "Comparison of transcriptome profiles of nucleated red blood cells in cord blood between preterm and full-term neonates.",
+      "abstract": "The reactivation of fetal \u03b3-globin expression is an effective strategy for ameliorating the clinical symptoms of \u03b2-hemoglobinopathies. However, the mechanism of globin switching, especially the roles of long non-coding RNAs (lncRNAs) in this process, remains elusive. We compared the In this study, we identified 7,166 differentially expressed protein-coding genes, 3,243 differentially expressed lncRNAs, and 79 differentially expressed microRNAs. Our data show that the Fanconi anemia pathway and the H19/let-7/LIN28B axis may be involved in \u03b3- to \u03b2-globin gene switching. Moreover, we constructed the hub gene network of the differentially expressed transcription factors. Based on qPCR, we found that We present the profiles of the",
+      "journal": "Hematology",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Han",
+          "fore_name": "Yuanyuan",
+          "affiliations": [
+            "School of Medicine, Guizhou University, Guiyang, People's Republic of China.",
+            "Prenatal Diagnosis Center, Guizhou Provincial People's Hospital, Guiyang, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Ling",
+          "affiliations": [
+            "Department of Laboratory, Guizhou Provincial People's Hospital, Guiyang, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Man",
+          "affiliations": [
+            "Obstetrical Department, Guizhou Provincial People's Hospital, Guiyang, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Xiaoyu",
+          "affiliations": [
+            "CAS Key Laboratory of Genome Science & Information, Chinese Academy of Sciences/ China National Center for Bioinformation, Beijing Institute of Genomics, Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Gong",
+          "fore_name": "Shangjin",
+          "affiliations": [
+            "CAS Key Laboratory of Genome Science & Information, Chinese Academy of Sciences/ China National Center for Bioinformation, Beijing Institute of Genomics, Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Zhaojun",
+          "affiliations": [
+            "CAS Key Laboratory of Genome Science & Information, Chinese Academy of Sciences/ China National Center for Bioinformation, Beijing Institute of Genomics, Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Tingting",
+          "affiliations": [
+            "School of Medicine, Guizhou University, Guiyang, People's Republic of China.",
+            "Prenatal Diagnosis Center, Guizhou Provincial People's Hospital, Guiyang, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Xiangdong",
+          "affiliations": [
+            "CAS Key Laboratory of Genome Science & Information, Chinese Academy of Sciences/ China National Center for Bioinformation, Beijing Institute of Genomics, Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Jia",
+          "fore_name": "Yankai",
+          "affiliations": [
+            "GENEWIZ Suzhou, Suzhou, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "S W",
+          "affiliations": [
+            "School of Medicine, Guizhou University, Guiyang, People's Republic of China.",
+            "Prenatal Diagnosis Center, Guizhou Provincial People's Hospital, Guiyang, People's Republic of China.",
+            "NHC Key Laboratory of Pulmonary Immunological Diseases, Guizhou Provincial People's Hospital, Guiyang, People's Republic of China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Erythrocytes",
+        "Female",
+        "Fetal Blood",
+        "Humans",
+        "Infant, Newborn",
+        "Infant, Premature",
+        "Pregnancy",
+        "Transcriptome"
+      ],
+      "keywords": [
+        "Nucleated red blood cell",
+        "RNA sequencing",
+        "fetal hemoglobin",
+        "in vivo",
+        "long non-coding RNA",
+        "microRNA",
+        "transcriptome",
+        "umbilical cord blood"
+      ]
+    },
+    {
+      "pmid": "39501790",
+      "doi": "10.1089/bio.2023.0156",
+      "title": "Challenges and Opportunities for Collaboration Between Academic Biobanks and Industry: Results of an International Survey of Academic Biobanks.",
+      "abstract": "",
+      "journal": "Biopreserv Biobank",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Hasan",
+          "fore_name": "Wohaib",
+          "affiliations": [
+            "Takeda Pharmaceuticals, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Simeon-Dubach",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Medservice, Walchwil, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Tumilasci",
+          "fore_name": "Vanessa",
+          "affiliations": [
+            "Azenta, Burlington, Vermont, USA."
+          ]
+        },
+        {
+          "last_name": "Sebbel",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Roche, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Orth",
+          "fore_name": "Suenne",
+          "affiliations": [
+            "Roche, Basel, Switzerland."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Biological Specimen Banks",
+        "Humans",
+        "Surveys and Questionnaires",
+        "Cooperative Behavior",
+        "Universities",
+        "Industry"
+      ],
+      "keywords": [
+        "academia",
+        "industry",
+        "pharmaceutical",
+        "survey"
+      ]
+    },
+    {
+      "pmid": "39133809",
+      "pmc": "PMC11708182",
+      "doi": "10.1089/bio.2017.0109",
+      "title": "Standard PREanalytical Code Version 4.0.",
+      "abstract": "",
+      "journal": "Biopreserv Biobank",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Betsou",
+          "fore_name": "Fay",
+          "affiliations": [
+            "Institute Pasteur, Universit\u00e9 Paris Cite, CRBIP, Paris, France."
+          ]
+        },
+        {
+          "last_name": "Chuaqui",
+          "fore_name": "Rodrigo",
+          "affiliations": [
+            "Division of Cancer Treatment and Diagnosis (DCTD), National Cancer Institute, Rockville, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "De-Wilde",
+          "fore_name": "Annemieke",
+          "affiliations": [
+            "BBMRI.be - Belgian Cancer Registry, Brussels, Belgium.",
+            "Universiteit Antwerpen, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Grizzle",
+          "fore_name": "William",
+          "affiliations": [
+            "Department of Pathology, University of Alabama at Birmingham, Birmingham, AL, USA."
+          ]
+        },
+        {
+          "last_name": "Kiehntopf",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Institute of Clinical Chemistry and Laboratory Diagnostics, and Integrated Biobank Jena (IBBJ), Jena University Hospital, Jena, Germany."
+          ]
+        },
+        {
+          "last_name": "Linsen",
+          "fore_name": "Loes",
+          "affiliations": [
+            "UZ KU Leuven Biobank, University Hospitals Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Mathieson",
+          "fore_name": "William",
+          "affiliations": [
+            "Integrated Biobank of Luxembourg, Luxembourg Institute of Health, Dudelange, Luxembourg."
+          ]
+        },
+        {
+          "last_name": "Moldovan",
+          "fore_name": "Ioana",
+          "affiliations": [
+            "Cellular Technology Limited (CTL), Shaker Heights, Ohio, USA."
+          ]
+        },
+        {
+          "last_name": "Aguilar-Quesada",
+          "fore_name": "Roc\u00edo",
+          "affiliations": [
+            "Biobanco del Sistema Sanitario P\u00fablico de Andaluc\u00eda, Granada, Spain."
+          ]
+        },
+        {
+          "last_name": "Shea",
+          "fore_name": "Katheryn",
+          "affiliations": [
+            "Azenta Life Sciences, Burlington, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Singh",
+          "fore_name": "Purnima",
+          "affiliations": [
+            "Department of Pediatrics, University of Alabama at Birmingham, Birmingham, AL, USA."
+          ]
+        },
+        {
+          "last_name": "Somiari",
+          "fore_name": "Stella",
+          "affiliations": [
+            "Chan Soon-Shiong Institute of Molecular Medicine, Windber, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Spyropoulos",
+          "fore_name": "Demetri",
+          "affiliations": [
+            "Department of Pathology & Laboratory, Medical University of South Carolina, Charleston, South Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Tayal",
+          "fore_name": "Juhi",
+          "affiliations": [
+            "Rajiv Gandhi Cancer Institute & Research Centre, New Delhi, India."
+          ]
+        },
+        {
+          "last_name": "Tebbakha",
+          "fore_name": "Riad",
+          "affiliations": [
+            "Tumoroth\u00e8que de Picardie, Amiens-Picardie University Hospital Center, Amiens, France."
+          ]
+        },
+        {
+          "last_name": "Valyi-Nagy",
+          "fore_name": "Klara",
+          "affiliations": [
+            "Department of Pathology, University of Illinois at Chicago College of Medicine, Chicago, Illinois, USA."
+          ]
+        },
+        {
+          "last_name": "Wadhwa",
+          "fore_name": "Lalita",
+          "affiliations": [
+            "Department of Congenital Heart Surgery, Baylor College of Medicine, Houston, Texas, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "40586306",
+      "pmc": "PMC4368642",
+      "doi": "10.1371/journal.pcbi.1004094",
+      "title": "Identification and correction of time-series transcriptomic anomalies.",
+      "abstract": "Transcriptomic analyses performed in time series have uncovered many important insights into dynamic biological processes such as circadian rhythms, cellular developmental cycles, and the cell cycle. Some of these studies have revealed transcriptomic artifacts (STRIPEs), characterized by substantial changes in transcript levels across the transcriptome between a time point and its temporal neighbors. These changes are unlikely to reflect underlying biology as the magnitude of the change is too large to occur within the time interval and because every gene in the time point exhibits a substantial change. Furthermore, STRIPEs occur across species exhibiting different biology, do not occur in the same phase across replicate time-series experiments, and can vary between technical replicates of a single time point. Here, we demonstrate STRIPEs in five time-series transcriptomic datasets across different species, biological processes, and timescales. We describe a computational method to detect STRIPEs in time series using the Kolmogorov-Smirnov statistical test, allowing for unbiased, user-friendly detection of STRIPEs. Finally, we present three methods for STRIPE correction and demonstrate their efficacy. Using periodicity analysis to identify periodic genes, we find nearly 600 genes changed in periodicity labeling following successful STRIPE correction, indicating the large impact of STRIPE removal on downstream analysis.",
+      "journal": "Nucleic Acids Res",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Campione",
+          "fore_name": "Sophia A",
+          "affiliations": [
+            "Department of Biology, Duke University, Durham, NC. 27708\u00a0United States.",
+            "Azenta Life Sciences, South Plainfield, NJ, 07080\u00a0United States."
+          ]
+        },
+        {
+          "last_name": "Kelliher",
+          "fore_name": "Christina M",
+          "affiliations": [
+            "Department of Biology, University of Massachusetts Boston, Boston, MA 02125 United States."
+          ]
+        },
+        {
+          "last_name": "Roth",
+          "fore_name": "Cullen",
+          "affiliations": [
+            "Department of Biology, Duke University, Durham, NC. 27708\u00a0United States."
+          ]
+        },
+        {
+          "last_name": "Cho",
+          "fore_name": "Chun Yi",
+          "affiliations": [
+            "Department of Biology, Duke University, Durham, NC. 27708\u00a0United States."
+          ]
+        },
+        {
+          "last_name": "Deckard",
+          "fore_name": "Anastasia",
+          "affiliations": [
+            "Geometric Data Analytics, Inc., Durham, NC,\u00a027701United States."
+          ]
+        },
+        {
+          "last_name": "Motta",
+          "fore_name": "Francis",
+          "affiliations": [
+            "Department of Mathematical Sciences, Florida Atlantic University, Boca Raton, FL 33431\u00a0United States."
+          ]
+        },
+        {
+          "last_name": "Haase",
+          "fore_name": "Steven B",
+          "affiliations": [
+            "Department of Biology, Duke University, Durham, NC. 27708\u00a0United States."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Transcriptome",
+        "Gene Expression Profiling",
+        "Animals",
+        "Artifacts",
+        "Humans",
+        "Time Factors",
+        "Circadian Rhythm",
+        "Computational Biology"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "39971624",
+      "pmc": "PMC11189454",
+      "doi": "10.1002/2056-4538.70021",
+      "title": "Sarcomatoid areas of urothelial carcinoma are enriched for CD163-positive antigen-presenting cells.",
+      "abstract": "Sarcomatoid urothelial carcinoma (SUC) is a rare histologic subtype with poor prognosis. While there is known intra-tumoral heterogeneity between individual SUC tumors, the relationship between sarcomatoid and conventional urothelial carcinoma (CUC) within the same patient is poorly understood. The objective of this study was to identify differences between the sarcomatoid and CUC tumor microenvironment components that may drive this aggressive phenotype. Using tissue microarrays from eight patient tumors with mixed CUC and SUC, we examined paired CUC, mixed urothelial carcinoma (UC) regions, and SUC using the Nanostring Digital Spatial Profiling platform. We found SUC and mixed UC had higher levels of stromal cells, predominately macrophages and fibroblasts, when compared with CUC within the same tumor. CD14, CD163, and transforming growth factor-beta levels were significantly higher in SUC than in CUC. Immunohistochemical analysis revealed consistently moderate to strong expression of CD163-positive antigen-presenting cells (APCs) in SUC regions, whereas CD68-positive APC expression was generally absent. Thus, in mixed histology SUC, the SUC component preferentially expressed CD163-positive APCs and fibroblasts compared to the CUC component. As CD163-positive APCs and fibroblasts are known to be tumor-promoting and immune-suppressive, this infiltration may contribute to epithelial to mesenchymal transition and other aggressive properties of SUC.",
+      "journal": "J Pathol Clin Res",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Johnson",
+          "fore_name": "Burles A",
+          "affiliations": [
+            "Department of Oncology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA.",
+            "Department of Urology, Johns Hopkins Greenberg Bladder Cancer Institute, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Parimi",
+          "fore_name": "Vamsi",
+          "affiliations": [
+            "Department of Pathology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Kamanda",
+          "fore_name": "Sonia",
+          "affiliations": [
+            "Department of Pathology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Corney",
+          "fore_name": "David C",
+          "affiliations": [
+            "Multiomics, Azenta Life Sciences, South Plainfield, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Choi",
+          "fore_name": "Woonyoung",
+          "affiliations": [
+            "Department of Urology, Johns Hopkins Greenberg Bladder Cancer Institute, Baltimore, Maryland, USA.",
+            "Department of Urology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Hoffman-Censits",
+          "fore_name": "Jean",
+          "affiliations": [
+            "Department of Oncology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA.",
+            "Department of Urology, Johns Hopkins Greenberg Bladder Cancer Institute, Baltimore, Maryland, USA.",
+            "Department of Urology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Kates",
+          "fore_name": "Max",
+          "affiliations": [
+            "Department of Oncology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA.",
+            "Department of Urology, Johns Hopkins Greenberg Bladder Cancer Institute, Baltimore, Maryland, USA.",
+            "Department of Urology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "McConkey",
+          "fore_name": "David J",
+          "affiliations": [
+            "Department of Oncology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA.",
+            "Department of Urology, Johns Hopkins Greenberg Bladder Cancer Institute, Baltimore, Maryland, USA.",
+            "Department of Urology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Hahn",
+          "fore_name": "Noah M",
+          "affiliations": [
+            "Department of Oncology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA.",
+            "Department of Urology, Johns Hopkins Greenberg Bladder Cancer Institute, Baltimore, Maryland, USA.",
+            "Department of Urology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Matoso",
+          "fore_name": "Andres",
+          "affiliations": [
+            "Department of Oncology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA.",
+            "Department of Urology, Johns Hopkins Greenberg Bladder Cancer Institute, Baltimore, Maryland, USA.",
+            "Department of Pathology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA.",
+            "Department of Urology, The Johns Hopkins Medical Institutions, Baltimore, Maryland, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "CD163 Antigen",
+        "Antigens, Differentiation, Myelomonocytic",
+        "Antigens, CD",
+        "Receptors, Cell Surface",
+        "Tumor Microenvironment",
+        "Urinary Bladder Neoplasms",
+        "Antigen-Presenting Cells",
+        "Carcinoma, Transitional Cell",
+        "Biomarkers, Tumor",
+        "Male",
+        "Female",
+        "Urothelium",
+        "Aged",
+        "Middle Aged",
+        "Macrophages"
+      ],
+      "keywords": [
+        "CD163",
+        "bladder cancer",
+        "macrophage",
+        "sarcomatoid carcinoma"
+      ]
+    },
+    {
+      "pmid": "38834670",
+      "pmc": "PMC10669658",
+      "doi": "10.1162/089976698300017467",
+      "title": "Enhanced analysis of tabular data through Multi-representation DeepInsight.",
+      "abstract": "Tabular data analysis is a critical task in various domains, enabling us to uncover valuable insights from structured datasets. While traditional machine learning methods can be used for feature engineering and dimensionality reduction, they often struggle to capture the intricate relationships and dependencies within real-world datasets. In this paper, we present Multi-representation DeepInsight (MRep-DeepInsight), a novel extension of the DeepInsight method designed to enhance the analysis of tabular data. By generating multiple representations of samples using diverse feature extraction techniques, our approach is able to capture a broader range of features and reveal deeper insights. We demonstrate the effectiveness of MRep-DeepInsight on single-cell datasets, Alzheimer's data, and artificial data, showcasing an improved accuracy over the original DeepInsight approach and machine learning methods like random forest, XGBoost, LightGBM, FT-Transformer and L2-regularized logistic regression. Our results highlight the value of incorporating multiple representations for robust and accurate tabular data analysis. By leveraging the power of diverse representations, MRep-DeepInsight offers a promising new avenue for advancing decision-making and scientific discovery across a wide range of fields.",
+      "journal": "Sci Rep",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Sharma",
+          "fore_name": "Alok",
+          "affiliations": [
+            "Laboratory for Medical Science Mathematics, RIKEN Center for Integrative Medical Sciences, Yokohama, Japan. alok.fj@gmail.com.",
+            "Institute for Integrated and Intelligent Systems, Griffith University, Brisbane, Australia. alok.fj@gmail.com.",
+            "Laboratory for Medical Science Mathematics, Department of Biological Sciences, School of Science, The University of Tokyo, Tokyo, Japan. alok.fj@gmail.com."
+          ]
+        },
+        {
+          "last_name": "L\u00f3pez",
+          "fore_name": "Yosvany",
+          "affiliations": [
+            "Azenta Life Sciences, Tokyo, Japan."
+          ]
+        },
+        {
+          "last_name": "Jia",
+          "fore_name": "Shangru",
+          "affiliations": [
+            "Laboratory for Medical Science Mathematics, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan."
+          ]
+        },
+        {
+          "last_name": "Lysenko",
+          "fore_name": "Artem",
+          "affiliations": [
+            "Laboratory for Medical Science Mathematics, RIKEN Center for Integrative Medical Sciences, Yokohama, Japan.",
+            "Laboratory for Medical Science Mathematics, Department of Biological Sciences, School of Science, The University of Tokyo, Tokyo, Japan."
+          ]
+        },
+        {
+          "last_name": "Boroevich",
+          "fore_name": "Keith A",
+          "affiliations": [
+            "Laboratory for Medical Science Mathematics, RIKEN Center for Integrative Medical Sciences, Yokohama, Japan."
+          ]
+        },
+        {
+          "last_name": "Tsunoda",
+          "fore_name": "Tatsuhiko",
+          "affiliations": [
+            "Laboratory for Medical Science Mathematics, RIKEN Center for Integrative Medical Sciences, Yokohama, Japan. tsunoda@bs.s.u-tokyo.ac.jp.",
+            "Laboratory for Medical Science Mathematics, Department of Biological Sciences, School of Science, The University of Tokyo, Tokyo, Japan. tsunoda@bs.s.u-tokyo.ac.jp.",
+            "Laboratory for Medical Science Mathematics, Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, The University of Tokyo, Tokyo, Japan. tsunoda@bs.s.u-tokyo.ac.jp."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "36456889",
+      "doi": "10.1007/s00792-016-0867-1",
+      "pmc": "84087",
+      "title": "Biological role of the major AP (abasic site) endonuclease of an archaeon from geothermal environments.",
+      "abstract": "Archaea and bacteria in geothermal environments are predicted to suffer DNA depurination in vivo at high rates, which raises questions regarding the biological roles of their abasic-site-repair enzymes. Gene deletion and enzymatic assay demonstrated that the saci_0015 gene of Sulfolobus acidocaldarius encodes an AP endonuclease (Apn) accounting for as much as 95% of the assayable activity in cell extracts and is not essential for viability. To identify genetic functions of this enzyme, deletion (\u0394Apn) strains were examined with respect to growth, spontaneous mutation, transformation by ssDNA containing an abasic site, and conjugation. Relative to its isogenic control, the \u0394Apn strain did not exhibit any change in growth rate or final cell density, rate or spectrum of spontaneous mutation, transformation by DNA containing an abasic site, or efficiency of DNA transfer and recombination. The apparent lack of genetic impact of removing the major AP endonuclease was unexpected and indicated that abasic sites are rarely bypassed directly by DNA polymerases in S. acidocaldarius. AP endonuclease deficiency had no obvious effect on survival of S. acidocaldarius under several test conditions, but it accelerated the death of cells at 4\u00ba C under illumination. Our results suggest that the normal level of AP endonuclease in S. acidocaldarius is well above the minimum required for growth and cell division but not for recovery from prolonged exposure to certain low-temperature conditions. This situation illustrates a biological challenge that has not been emphasized in experimental studies of extremophiles, i.e., the problem of long-term survival under \"non-extreme\" conditions.",
+      "journal": "Extremophiles",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Jain",
+          "fore_name": "Rupal",
+          "affiliations": [
+            "Azenta Life Sciences, South Plainfield, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Grogan",
+          "fore_name": "Dennis W",
+          "affiliations": [
+            "Department of Biological Sciences, University of Cincinnati, ML0006, 614 Rieveschl Hall, Clifton Court, Cincinnati, OH, 45221-0006, USA. grogandw@ucmail.uc.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Archaea",
+        "Endonucleases",
+        "DNA-(Apurinic or Apyrimidinic Site) Lyase",
+        "Extremophiles",
+        "Cell Division"
+      ],
+      "keywords": [
+        "Abasic sites",
+        "DNA depurination",
+        "Genetic processes",
+        "Growth properties",
+        "Sulfolobus",
+        "Survival",
+        "Thermoacidophilic archaea"
+      ]
+    },
+    {
+      "pmid": "35107338",
+      "pmc": "PMC3424584",
+      "doi": "10.1093/nar/gks596",
+      "title": "Simultaneous Single-Cell Genome and Transcriptome Sequencing of Termite Hindgut Protists Reveals Metabolic and Evolutionary Traits of Their Endosymbionts.",
+      "abstract": "Some of the protist species which colonize the hindguts of wood-feeding",
+      "journal": "mSphere",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Stephens",
+          "fore_name": "Michael E",
+          "affiliations": [
+            "Department of Molecular and Cell Biology, University of Connecticutgrid.63054.34, Storrs, Connecticut, USA.",
+            "Azenta Life Sciences, South Plainfield, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Benjamino",
+          "fore_name": "Jacquelynn",
+          "affiliations": [
+            "Department of Molecular and Cell Biology, University of Connecticutgrid.63054.34, Storrs, Connecticut, USA.",
+            "Communication Partners Group, New York, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Graf",
+          "fore_name": "Joerg",
+          "affiliations": [
+            "Department of Molecular and Cell Biology, University of Connecticutgrid.63054.34, Storrs, Connecticut, USA."
+          ]
+        },
+        {
+          "last_name": "Gage",
+          "fore_name": "Daniel J",
+          "affiliations": [
+            "Department of Molecular and Cell Biology, University of Connecticutgrid.63054.34, Storrs, Connecticut, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Bacteria",
+        "Carbon",
+        "Eukaryota",
+        "Isoptera",
+        "Phylogeny",
+        "Symbiosis",
+        "Transcriptome"
+      ],
+      "keywords": [
+        "carbon metabolism",
+        "endosymbionts",
+        "genetic competence",
+        "metagenomics",
+        "protists",
+        "single-cell methods",
+        "symbiosis",
+        "termites"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4671 @@
+{
+  "name": "Caprion (CellCarta)",
+  "cleaned_name": "Caprion",
+  "aliases_tried": [
+    "Caprion",
+    "CellCarta"
+  ],
+  "publication_total": 50,
+  "search_queries": [
+    "\"Caprion\"[Affiliation] AND 2022:3000[pdat]",
+    "\"CellCarta\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "38729196",
+      "doi": "10.1016/S2666-5247(24)00024-7",
+      "title": "Assessment of CD8",
+      "abstract": "Protection afforded by inactivated influenza vaccines can theoretically be improved by inducing T-cell responses to conserved internal influenza A antigens. We assessed whether, in an influenza controlled human infection challenge, susceptible individuals receiving a vaccine boosting T-cell responses would exhibit lower viral load and decreased symptoms compared with placebo recipients. In this single centre, randomised, double-blind phase 2 study, healthy adult (aged 18-55 years) volunteers with microneutralisation titres of less than 20 to the influenza A(H3N2) challenge strain were enrolled at an SGS quarantine facility in Antwerp, Belgium. Participants were randomly assigned double-blind using a permuted-block list with a 3:2 allocation ratio to receive 0\u00b75 mL intramuscular injections of modified vaccinia Ankara (MVA) expressing H3N2 nucleoprotein (NP) and matrix protein 1 (M1) at 1\u00b75\u2009\u00d7\u200910 Between May 2 and Oct 24, 2019, 145 volunteers were enrolled and randomly assigned to the MVA-NP+M1 group (n=87) or the placebo group (n=58). Of these, 118 volunteers entered the challenge period (71 in the MVA-NP+M1 group and 47 in the placebo group) and 117 participants completed the study (71 in the MVA-NP+M1 group and 46 in the placebo group). 78 (54%) of the 145 volunteers were female and 67 (46%) were male. The primary outcome, overall viral load as determined by quantitative PCR, did not show a statistically significant difference between the MVA-NP+M1 (mean 649\u00b77 [95% CI 552\u00b77-746\u00b77) and placebo groups (mean 726\u00b71 [604\u00b70-848\u00b72]; p=0\u00b717). All reported treatment emergent adverse events (TEAEs; 11 in the vaccination phase and 51 in the challenge phase) were grade 1 and 2, except for two grade 3 TEAEs in the placebo group in the challenge phase. A\u00a0grade 4 second trimester fetal death, considered possibly related to the MVA-NP+M1 vaccination, and an acute psychosis reported in a placebo participant during the challenge phase were reported. The use of an MVA vaccine to expand CD4 Department of Health and Human Services; Administration for Strategic Preparedness and Response; Biomedical Advanced Research and Development Authority; and Barinthus Biotherapeutics.",
+      "journal": "Lancet Microbe",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Evans",
+          "fore_name": "Thomas G",
+          "affiliations": [
+            "Barinthus Biotherapeutics, Oxford, UK. Electronic address: tom.evans@barinthusbio.com."
+          ]
+        },
+        {
+          "last_name": "Castellino",
+          "fore_name": "Flora",
+          "affiliations": [
+            "Biodefense Advanced Research and Development Authority, US Department of Health and Human Services, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Kowalik Dobczyk",
+          "fore_name": "Monika",
+          "affiliations": [
+            "SGS, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Tucker",
+          "fore_name": "Gwen",
+          "affiliations": [
+            "Barinthus Biotherapeutics, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Walley",
+          "fore_name": "Ana Marie",
+          "affiliations": [
+            "Barinthus Biotherapeutics, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Van Leuven",
+          "fore_name": "Katrin",
+          "affiliations": [
+            "SGS, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Klein",
+          "fore_name": "Jelle",
+          "affiliations": [
+            "SGS, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Rutkowski",
+          "fore_name": "Kathryn",
+          "affiliations": [
+            "Barinthus Biotherapeutics, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Ellis",
+          "fore_name": "Chris",
+          "affiliations": [
+            "Barinthus Biotherapeutics, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Eagling-Vose",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Barinthus Biotherapeutics, Oxford, UK."
+          ]
+        },
+        {
+          "last_name": "Treanor",
+          "fore_name": "John",
+          "affiliations": [
+            "Biodefense Advanced Research and Development Authority, US Department of Health and Human Services, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "van Baalen",
+          "fore_name": "Carel",
+          "affiliations": [
+            "Viroclinics, a Cerba Research Company, Rotterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Filkov",
+          "fore_name": "Ella",
+          "affiliations": [
+            "Viroclinics, a Cerba Research Company, Rotterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Laurent",
+          "fore_name": "Cyril",
+          "affiliations": [
+            "Caprion Biosciences, Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Thacker",
+          "fore_name": "Juilee",
+          "affiliations": [
+            "Department of Medicine, University of Rochester; Rochester, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Asher",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Biodefense Advanced Research and Development Authority, US Department of Health and Human Services, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Donabedian",
+          "fore_name": "Armen",
+          "affiliations": [
+            "Biodefense Advanced Research and Development Authority, US Department of Health and Human Services, Washington, DC, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Adult",
+        "Belgium",
+        "Double-Blind Method",
+        "Influenza A Virus, H3N2 Subtype",
+        "Influenza, Human",
+        "Female",
+        "Male",
+        "Young Adult",
+        "Middle Aged",
+        "CD8-Positive T-Lymphocytes",
+        "Viral Load",
+        "Influenza Vaccines",
+        "Adolescent",
+        "Viral Matrix Proteins",
+        "Viral Core Proteins",
+        "RNA-Binding Proteins",
+        "Vaccines, DNA",
+        "Nucleocapsid Proteins",
+        "Antibodies, Viral",
+        "Immunity, Cellular"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "35969710",
+      "pmc": "PMC9372730",
+      "doi": "10.1016/j.jmsacl.2022.07.007",
+      "title": "Corrigendum to \"Analytical validation of protein biomarkers for risk of spontaneous preterm birth\" [Clin. Mass Spectrom. 3 (2017) 25-38].",
+      "abstract": "[This corrects the article DOI: 10.1016/j.clinms.2017.06.002.].",
+      "journal": "J Mass Spectrom Adv Clin Lab",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Bradford",
+          "fore_name": "Chad",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Severinsen",
+          "fore_name": "Rob",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Pugmire",
+          "fore_name": "Trina",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Rasmussen",
+          "fore_name": "Matison",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Stoddard",
+          "fore_name": "Kathryn",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Uemura",
+          "fore_name": "Yuta",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Wheelwright",
+          "fore_name": "Spencer",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Mentinova",
+          "fore_name": "Marija",
+          "affiliations": [
+            "Caprion Biosciences, 201 Avenue Pr\u00e9sident Kennedy, Suite 3900, Montr\u00e9al, Qu\u00e9bec H2X 3Y7, Canada."
+          ]
+        },
+        {
+          "last_name": "Chelsky",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Caprion Biosciences, 201 Avenue Pr\u00e9sident Kennedy, Suite 3900, Montr\u00e9al, Qu\u00e9bec H2X 3Y7, Canada."
+          ]
+        },
+        {
+          "last_name": "Hunsucker",
+          "fore_name": "Stephen W",
+          "affiliations": [
+            "Integrated Diagnostics, Inc., 219 Terry Avenue North, Suite 110, Seattle, WA 98101, USA."
+          ]
+        },
+        {
+          "last_name": "Kearney",
+          "fore_name": "Paul",
+          "affiliations": [
+            "Integrated Diagnostics, Inc., 219 Terry Avenue North, Suite 110, Seattle, WA 98101, USA."
+          ]
+        },
+        {
+          "last_name": "Hickok",
+          "fore_name": "Durlin",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Fleischer",
+          "fore_name": "Tracey C",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Ichetovkin",
+          "fore_name": "Ilia",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Boniface",
+          "fore_name": "J Jay",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Critchfield",
+          "fore_name": "Gregory C",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        },
+        {
+          "last_name": "Peltier",
+          "fore_name": "John M",
+          "affiliations": [
+            "Sera Prognostics, Inc., 2749 East Parleys Way, Suite 200, Salt Lake City, UT 84109, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "32313928",
+      "pmc": "PMC4731614",
+      "doi": "10.1093/infdis/jiaa121",
+      "title": "A Randomized Dose-Escalating Phase I Trial of a Replication-Deficient Lymphocytic Choriomeningitis Virus Vector-Based Vaccine Against Human Cytomegalovirus.",
+      "abstract": "A vaccine (HB-101) consisting of 2 nonreplicating lymphocytic choriomeningitis virus (LCMV) vectors expressing the human cytomegalovirus antigens glycoprotein B (gB) and the 65-kD phosphoprotein (pp65), respectively, is in development to prevent cytomegalovirus infection. HB-101 was tested in cytomegalovirus-naive, healthy adults in a randomized, double-blind, placebo-controlled, dose-escalation Phase I trial. Fifty-four subjects received low, medium, or high dose of HB-101 or placebo by intramuscular administration at Month 0, 1, and 3. Safety and immunogenicity were the respective primary and secondary endpoints. Subjects were followed for 12 months after the initial immunization. Vaccination was associated with transient mild to moderate adverse events. HB-101 administration induced dose-dependent gB- and pp65-specific cellular responses, dominated by pp65-specific CD8 T cells, a high fraction of which were polyfunctional. Two administrations were sufficient to elicit dose-dependent gB-binding and cytomegalovirus-neutralizing antibodies (Abs). Cytomegalovirus-specific immune responses were boosted after each administration. Only 1 of 42 vaccine recipients mounted a transient LCMV vector-neutralizing Ab response. HB-101 was well tolerated and induced cytomegalovirus-specific polyfunctional CD8 T-cell and neutralizing Ab responses in the majority of subjects. Lack of vector-neutralizing Ab responses should facilitate booster vaccinations. These results justify further clinical evaluation of this vaccine candidate.",
+      "journal": "J Infect Dis",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Schwendinger",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Hookipa Pharma Inc., New York, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Thiry",
+          "fore_name": "Georges",
+          "affiliations": [
+            "Hookipa Pharma Inc., New York, New York, USA.",
+            "Senergues Consult, Saint Etienne de Maurs, France."
+          ]
+        },
+        {
+          "last_name": "De Vos",
+          "fore_name": "Beatrice",
+          "affiliations": [
+            "Bejamad bvba, Consultancy Office Pharmaceutical Sciences, Dworp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Leroux-Roels",
+          "fore_name": "Geert",
+          "affiliations": [
+            "Center for Vaccinology (CEVAC), Ghent University Hospital, Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Bruhwyler",
+          "fore_name": "Jacques",
+          "affiliations": [
+            "ECSOR, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Huygens",
+          "fore_name": "Ariane",
+          "affiliations": [
+            "Caprion Biosciences, Gosselies, Belgium."
+          ]
+        },
+        {
+          "last_name": "Ganeff",
+          "fore_name": "Corinne",
+          "affiliations": [
+            "Caprion Biosciences, Gosselies, Belgium."
+          ]
+        },
+        {
+          "last_name": "Buchinger",
+          "fore_name": "Heidemarie",
+          "affiliations": [
+            "Hookipa Pharma Inc., New York, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Orlinger",
+          "fore_name": "Klaus K",
+          "affiliations": [
+            "Hookipa Pharma Inc., New York, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Pinschewer",
+          "fore_name": "Daniel D",
+          "affiliations": [
+            "Hookipa Pharma Inc., New York, New York, USA.",
+            "University of Basel, Department of Biomedicine - Haus Petersplatz, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Monath",
+          "fore_name": "Thomas P",
+          "affiliations": [
+            "Hookipa Pharma Inc., New York, New York, USA.",
+            "Crozet BioPharma LLC, Devens, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Lilja",
+          "fore_name": "Anders E",
+          "affiliations": [
+            "Hookipa Pharma Inc., New York, New York, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Antibodies, Neutralizing",
+        "Antibodies, Viral",
+        "Cytomegalovirus",
+        "Cytomegalovirus Vaccines",
+        "Humans",
+        "Immunization, Secondary",
+        "Lymphocytic choriomeningitis virus",
+        "Vaccines"
+      ],
+      "keywords": [
+        "Phase I",
+        "cytomegalovirus",
+        "healthy volunteers",
+        "vaccine",
+        "viral vector"
+      ]
+    },
+    {
+      "pmid": "41491840",
+      "pmc": "PMC10829369",
+      "doi": "10.1186/s13058-024-01774-0",
+      "title": "The spatial immune landscape predicts outcome and reveals the central role of tumor-associated macrophages in inflammatory breast cancer biology.",
+      "abstract": "Inflammatory breast cancer (IBC) is a rare but aggressive subtype of breast cancer characterized by rapid progression and poor prognosis. Despite its distinct clinical presentation and molecular features, the immune landscape of IBC and its potential role in driving the aggressive phenotype remain poorly understood. This study aimed to characterize the spatial immune landscape of IBC, compare it with that of subtype-matched non-inflammatory breast cancer (nIBC), and evaluate the prognostic implications of immune cell composition and localization. We analyzed pre-treatment tumor samples from 161 IBC and 115 subtype-matched nIBC patients using immunohistochemistry (IHC) for CD8, FOXP3, CD79\u03b1, CD163, and PD-L1. Digital image analysis quantified the immune cell density and relative marker area in the tumor area (TA) and invasive margin (IM). Associations with clinicopathological features, pathological response to neoadjuvant chemotherapy (NACT), and survival were assessed using multivariate logistic regression and Cox proportional hazards models. Transcriptomic validation was performed using Affymetrix gene expression data and consensus TME deconvolution. IBC showed higher infiltration of CD163\u2009+\u2009tumor-associated macrophages (TAMs) compared to nIBC. Gene expression data confirmed IHC findings, and pathway analysis linked high TAM density with inflammatory and proliferative pathways. The spatial distribution of immune cells was prognostically relevant, with high CD8\u2009+\u2009T-cell infiltration (OR: 0.41, 95% CI: 0.22-0.76, P\u2009=\u20090.004) and low CD79\u03b1\u2009+\u2009B-cell infiltration (OR: 3.19, 95% CI: 1.68-6.03, P\u2009<\u20090.001) correlating with improved overall survival in IBC. Furthermore, the ratio of CD8+\u2009T-cells to FOXP3+\u2009regulatory T-cells within the TA was a significant prognostic indicator (OR: 0.34, 95% CI: 0.14-0.83, P\u2009=\u20090.018), whereas the absolute densities of either CD8+\u2009or FOXP3\u2009+\u2009T-cells alone were not associated with outcome. These results highlight the immunosuppressive nature of the IBC microenvironment and the role of TAMs in promoting an aggressive IBC phenotype. Spatial context and the balance between the immune cells, rather than the overall abundance, was critical in determining outcome. Our findings underscore the importance of considering immune cell localization in prognostic assessment and support further investigation of TAM-targeted therapies in IBC.",
+      "journal": "Breast Cancer Res",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Van Berckelaer",
+          "fore_name": "Christophe",
+          "affiliations": [
+            "Faculty of Medicine and Health Sciences, Multidisciplinary Breast Clinic, Antwerp University Hospital (UZA), University of Antwerp, Antwerp, Belgium. Christophe.vanberckelaer@uza.be.",
+            "Center for Oncological Research (CORE), University of Antwerp, Antwerp, Belgium. Christophe.vanberckelaer@uza.be.",
+            "Department of Pathology, AZ Turnhout, Turnhout, Belgium. Christophe.vanberckelaer@uza.be."
+          ]
+        },
+        {
+          "last_name": "Van Laere",
+          "fore_name": "Steven",
+          "affiliations": [
+            "Center for Oncological Research (CORE), University of Antwerp, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Vermeulen",
+          "fore_name": "Chlo\u00e9",
+          "affiliations": [
+            "Center for Oncological Research (CORE), University of Antwerp, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Kockx",
+          "fore_name": "Mark",
+          "affiliations": [
+            "CellCarta, Wilrijk, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Waumans",
+          "fore_name": "Yannick",
+          "affiliations": [
+            "CellCarta, Wilrijk, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Marien",
+          "fore_name": "Koen",
+          "affiliations": [
+            "CellCarta, Wilrijk, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Rypens",
+          "fore_name": "Charlotte",
+          "affiliations": [
+            "CellCarta, Wilrijk, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Missal",
+          "fore_name": "No\u00e9mie",
+          "affiliations": [
+            "Center for Oncological Research (CORE), University of Antwerp, Antwerp, Belgium.",
+            "Translational Cancer Research Unit, ZAS Augustinus, Wilrijk, Antwerp, Belgium.",
+            "Laboratory for Translational Breast Cancer Research (LTBCR), Department of Oncology, KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Berditchevski",
+          "fore_name": "Fedor",
+          "affiliations": [
+            "Institute of Cancer and Genomic Sciences, The University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Bertucci",
+          "fore_name": "Fran\u00e7ois",
+          "affiliations": [
+            "Predictive Oncology team, Department of Medical Oncology, Centre de Recherche en Canc\u00e9rologie de Marseille, CNRS, Aix-Marseille Universit\u00e9, Institut Paoli-Calmettes, Marseille, France."
+          ]
+        },
+        {
+          "last_name": "Vermeulen",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Translational Cancer Research Unit, ZAS Augustinus, Wilrijk, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Dirix",
+          "fore_name": "Luc",
+          "affiliations": [
+            "Department of Medical Oncology, ZAS Augustinus, Wilrijk, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Colpaert",
+          "fore_name": "Cecile",
+          "affiliations": [
+            "Department of Pathology, AZ Turnhout, Turnhout, Belgium."
+          ]
+        },
+        {
+          "last_name": "Devi",
+          "fore_name": "Gayathri R",
+          "affiliations": [
+            "Division of Surgical Sciences, Department of Surgery, Duke University Medical Center, Durham, NC, USA.",
+            "Duke Inflammatory Breast Cancer Consortium, Duke Cancer Institute, Duke University School of Medicine, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Van Dam",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Faculty of Medicine and Health Sciences, Multidisciplinary Breast Clinic, Antwerp University Hospital (UZA), University of Antwerp, Antwerp, Belgium.",
+            "Center for Oncological Research (CORE), University of Antwerp, Antwerp, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Inflammatory Breast Neoplasms",
+        "Tumor Microenvironment",
+        "Prognosis",
+        "Tumor-Associated Macrophages",
+        "Middle Aged",
+        "Biomarkers, Tumor",
+        "Lymphocytes, Tumor-Infiltrating",
+        "Aged",
+        "CD163 Antigen",
+        "Antigens, CD",
+        "Adult",
+        "Antigens, Differentiation, Myelomonocytic",
+        "Receptors, Cell Surface",
+        "Neoadjuvant Therapy"
+      ],
+      "keywords": [
+        "B-cells",
+        "Cytotoxic t-cells",
+        "Inflammatory breast cancer (IBC)",
+        "PD-L1",
+        "Regulatory t-cells",
+        "Stromal tumor infiltrating lymphocytes (sTIL)",
+        "Tumor microenvironment (TME)",
+        "Tumor-associated macrophages (TAM)"
+      ]
+    },
+    {
+      "pmid": "41363816",
+      "doi": "10.1002/acn3.70272",
+      "title": "Discovery and Targeted Proteomic Studies Reveal Striatal Markers Validated for Huntington's Disease.",
+      "abstract": "Clinical trials for Huntington's disease (HD) enrolling persons before clinical motor diagnosis (CMD) lack validated biomarkers. This study aimed to conduct an unbiased discovery analysis and a targeted examination of proteomic biomarkers scrutinized by clinical validation. Cerebrospinal fluid was obtained from PREDICT-HD and ancillary studies. Cohorts included HD family members who were gene-tested and considered prodromal following neuroexam. An initial unbiased mass spectrometry proteomics analysis identified candidate disease biomarkers that were then added to a targeted mass spectrometry assay including 100+ proteins associated with other neurodegenerative diseases. This assay determined relative quantifications of proteins in a single analysis. Significant biomarkers were examined against genetic and clinical measures of disease onset and progression. Two overlapping targeted analyses using 180 samples from 125 participants (61% female, 89% White, average age of 42\u2009\u00b1\u200914) were performed; longitudinal duration was 1-4\u2009years. Based on participants' clinical data, 25 proteins correlated significantly with CAG-age-product (CAP) score and Unified HD Rating Scale (UHDRS) motor and cognitive measures. While most proteins increase in abundance with disease progression, proenkephalin and prodynorphin were downregulated before CMD. Power was low for longitudinal analysis. However, the reliability of HD family normal controls indicates that each individual's proteome remains relatively stable over time. Findings replicate and extend the verification of HD biomarkers. Monitoring proenkephalin and prodynorphin levels in persons with HD may facilitate early detection and disease-tracking. These disease-specific biomarkers may improve the rigor of therapeutic intervention before clinical motor diagnosis. Further studies emphasizing longitudinal changes are needed to assess disease-monitoring. ClinicalTrials.gov identifier: NCT00051324.",
+      "journal": "Ann Clin Transl Neurol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Chelsky",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "CellCarta, Inc., Montreal, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Joyce",
+          "fore_name": "Cara",
+          "affiliations": [
+            "Department of Biostatistics, Center for Translational Research and Education, Loyola University Chicago, Maywood, Illinois, USA."
+          ]
+        },
+        {
+          "last_name": "Bockholt",
+          "fore_name": "H Jeremy",
+          "affiliations": [
+            "Tri-institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS), Georgia State University, Georgia Institute of Technology, Emory University, Atlanta, Georgia, USA."
+          ]
+        },
+        {
+          "last_name": "Rudnick",
+          "fore_name": "Paul A",
+          "affiliations": [
+            "Spectragen Informatics, LLC, Bainbridge Island, Washington, USA."
+          ]
+        },
+        {
+          "last_name": "Adams",
+          "fore_name": "William H",
+          "affiliations": [
+            "Department of Biostatistics, Center for Translational Research and Education, Loyola University Chicago, Maywood, Illinois, USA."
+          ]
+        },
+        {
+          "last_name": "McAllister",
+          "fore_name": "Fiona",
+          "affiliations": [
+            "CellCarta, Inc., Montreal, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Smock",
+          "fore_name": "Justin W",
+          "affiliations": [
+            "Department of Internal Medicine, University of Iowa, Iowa, USA."
+          ]
+        },
+        {
+          "last_name": "Newton",
+          "fore_name": "Michael A",
+          "affiliations": [
+            "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA."
+          ]
+        },
+        {
+          "last_name": "Paulsen",
+          "fore_name": "Jane S",
+          "affiliations": [
+            "Department of Neurology, University of Wisconsin-Madison, Madison, Wisconsin, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Huntington's disease",
+        "biomarkers",
+        "proteomics",
+        "qualification",
+        "striatum"
+      ]
+    },
+    {
+      "pmid": "40570369",
+      "pmc": "PMC7046837",
+      "doi": "10.3389/fimmu.2020.00239",
+      "title": "A hypomorphic Il2rb mutant mouse model recapitulates and reveals mechanisms of human T cell immune dysregulation in IL-2R\u03b2 deficiency.",
+      "abstract": "Here, we describe the use of a homologous knockin mouse model to further decipher the mechanism(s) of a novel human homozygous IL2RB hypomorphic mutation. Our model recapitulates the human immune dysregulation phenotype, showing decreased mutant interleukin-2R\u03b2 (IL-2R\u03b2) cell-surface expression, impaired IL-2/15-dependent STAT5 signaling, elevated serum IL-2/15 levels, expanded effector memory CD8",
+      "journal": "Cell Rep",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Cabrera-Martinez",
+          "fore_name": "Berenice",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Garcia-Perez",
+          "fore_name": "Josselyn E",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA; CellCarta, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Baxter",
+          "fore_name": "Ryan M",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Lui",
+          "fore_name": "Victor G",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA; Benaroya Research Institute, Seattle, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Ghosh",
+          "fore_name": "Tusharkanti",
+          "affiliations": [
+            "Department of Biostatistics and Informatics, Colorado School of Public Health, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Eken",
+          "fore_name": "Ahmet",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Kostka-Newman",
+          "fore_name": "Zander",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Garcia",
+          "fore_name": "John Rhey Mhar",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Rahkola",
+          "fore_name": "Jeremy",
+          "affiliations": [
+            "Rocky Mountain Regional Veterans Affairs Medical Center, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Gessner",
+          "fore_name": "Rachel L",
+          "affiliations": [
+            "Medicine-Hematology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Dutmer",
+          "fore_name": "Cullen M",
+          "affiliations": [
+            "Department of Pediatrics, Section of Allergy and Immunology, School of Medicine, University of Colorado, Children's Hospital Colorado, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Klarquist",
+          "fore_name": "Jared",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Pietras",
+          "fore_name": "Eric M",
+          "affiliations": [
+            "Medicine-Hematology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Ghosh",
+          "fore_name": "Debashis",
+          "affiliations": [
+            "Department of Biostatistics and Informatics, Colorado School of Public Health, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Johnson",
+          "fore_name": "Sara A",
+          "affiliations": [
+            "Department of Pediatrics, Section of Allergy and Immunology, School of Medicine, University of Colorado, Children's Hospital Colorado, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Kedl",
+          "fore_name": "Ross M",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Hsieh",
+          "fore_name": "Elena W Y",
+          "affiliations": [
+            "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO, USA; Department of Pediatrics, Section of Allergy and Immunology, School of Medicine, University of Colorado, Children's Hospital Colorado, Aurora, CO, USA. Electronic address: elena.hsieh@cuanschutz.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Interleukin-2 Receptor beta Subunit",
+        "Humans",
+        "T-Lymphocytes, Regulatory",
+        "Mice",
+        "STAT5 Transcription Factor",
+        "Disease Models, Animal",
+        "CD8-Positive T-Lymphocytes",
+        "Interleukin-2",
+        "Signal Transduction",
+        "Mutation",
+        "Interleukin-15",
+        "Mice, Inbred C57BL",
+        "Autoimmunity"
+      ],
+      "keywords": [
+        "CD8 T cells",
+        "CP: Immunology",
+        "IEI",
+        "IL-15",
+        "IL-2",
+        "IL-2R\u03b2",
+        "STAT5 signaling",
+        "Tregs",
+        "inborn errors of immunity",
+        "pro-inflammatory cytokines",
+        "regulatory T cells"
+      ]
+    },
+    {
+      "pmid": "38564603",
+      "pmc": "PMC7431080",
+      "doi": "10.1101/2021.05.11.442610",
+      "title": "Subpar reporting of pre-analytical variables in RNA-focused blood plasma studies.",
+      "abstract": "Extracellular RNA (cell-free RNA; exRNA) from blood-derived liquid biopsies is an appealing, minimally invasive source of disease biomarkers. As pre-analytical variables strongly influence exRNA measurements, their reporting is essential for meaningful interpretation and replication of results. The aim of this review was to chart to what extent pre-analytical variables are documented, to pinpoint shortcomings and to improve future reporting. In total, 200 blood plasma exRNA studies published in 2018 or 2023 were reviewed for annotation of 22 variables associated with blood collection, plasma preparation, and RNA purification. Our results show that pre-analytical variables are poorly documented, with only three out of 22 variables described in over half of the publications. The percentage of variables reported ranged from 4.6% to 54.6% (mean 24.84%) in 2023 and from 4.6% to 57.1% (mean 28.60%) in 2018. Recommendations and guidelines (i.e., BRISQ, ASCO-CAP, BloodPAC, PPMPT, and CEN standards) have currently not resulted in improved reporting. In conclusion, our results highlight the lack of reporting pre-analytical variables in exRNA studies and advocate for a consistent use of available standards, endorsed by funders and journals.",
+      "journal": "Mol Oncol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Van Der Schueren",
+          "fore_name": "C\u00e9leste",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium."
+          ]
+        },
+        {
+          "last_name": "Decruyenaere",
+          "fore_name": "Philippe",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "Department of Hematology, Ghent University Hospital, Belgium."
+          ]
+        },
+        {
+          "last_name": "Avila Cobos",
+          "fore_name": "Francisco",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Bult",
+          "fore_name": "Johanna",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "Department of Hematology, University Medical Center Groningen, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Deleu",
+          "fore_name": "Jill",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Dipalo",
+          "fore_name": "Laudonia Lidia",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Helsmoortel",
+          "fore_name": "Hetty Hilde",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Hulstaert",
+          "fore_name": "Eva",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium.",
+            "Department of Dermatology, AZ Sint-Blasius, Belgium."
+          ]
+        },
+        {
+          "last_name": "Morlion",
+          "fore_name": "Annelien",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Ramos Varas",
+          "fore_name": "Elena",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Schoofs",
+          "fore_name": "Kathleen",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium.",
+            "Translational Oncogenomics and Bioinformatics Lab, Cancer Research Institute Ghent (CRIG), Belgium.",
+            "Center for Medical Biotechnology, VIB-UGent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Trypsteen",
+          "fore_name": "Wim",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Vanden Eynde",
+          "fore_name": "Eveline",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Van Droogenbroeck",
+          "fore_name": "Hanne",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Verniers",
+          "fore_name": "Kimberly",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        },
+        {
+          "last_name": "Vandesompele",
+          "fore_name": "Jo",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium.",
+            "CellCarta, Belgium."
+          ]
+        },
+        {
+          "last_name": "Decock",
+          "fore_name": "Anneleen",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Belgium.",
+            "OncoRNALab, Cancer Research Institute Ghent (CRIG), Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Cell-Free Nucleic Acids",
+        "Liquid Biopsy",
+        "Plasma",
+        "Pre-Analytical Phase"
+      ],
+      "keywords": [
+        "cell\u2010free RNA",
+        "circulating cell\u2010free RNA",
+        "extracellular RNA",
+        "liquid biopsies",
+        "plasma",
+        "pre\u2010analytical variable"
+      ]
+    },
+    {
+      "pmid": "40130537",
+      "pmc": "PMC5381364",
+      "doi": "10.1038/srep06780",
+      "title": "Chromosome-level genome assembly of a doubled haploid brook trout (Salvelinus fontinalis).",
+      "abstract": "Brook trout (Salvelinus fontinalis) is a socioeconomically important fish species for fisheries, aquaculture, and aquatic conservation. We produced a 2.5-Gb reference assembly by combining Hi-C chromosome conformation capture with high-coverage short- and long-read sequencing of a fully homozygous mitotic gynogenic doubled-haploid fish, which facilitates the assembly of highly complex salmonid genomes. The assembly has an N50 of 50.98 Mb and 88.9% of the total assembled sequence length is anchored into 42 main chromosomes, of which 63.44% represents repeated contents, including 1,461,010 DNA transposons. 56,058 genes were found, with 98.6% of the 3,640 expected conserved orthologs BUSCO genes (actinopterygii_odb10 lineage database). Additionally, we found significant homology within the 42 chromosomes, as expected for this pseudo-tetraploid species, as well as with the sister species lake trout (Salvelinus namaycush) and Atlantic salmon (Salmo salar). This assembly will serve as a reliable genomic resource for brook trout, thus enabling a wider range of reference-based applications to support ongoing research and management decision-making for the species.",
+      "journal": "G3 (Bethesda)",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Lecomte",
+          "fore_name": "Laurie",
+          "affiliations": [
+            "Institut de Biologie Int\u00e9grative et des Syst\u00e8mes (IBIS), Universit\u00e9 Laval 1030, Avenue de la M\u00e9decine, Qu\u00e9bec, Canada, QC G1V 0A6."
+          ]
+        },
+        {
+          "last_name": "Ferchaud",
+          "fore_name": "Anne-Laure",
+          "affiliations": [
+            "Parks Canada, Office of the Chief Ecosystem Scientist, Protected Areas Establishment, 30 Rue Victoria, Gatineau, Canada, QC J8X 0B3."
+          ]
+        },
+        {
+          "last_name": "Normandeau",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Plateforme de bio-informatique de l'IBIS (Institut de Biologie Int\u00e9grative et des Syst\u00e8mes), Universit\u00e9 Laval, 1030, Avenue de la M\u00e9decine, Qu\u00e9bec, Canada, QC G1V 0A6."
+          ]
+        },
+        {
+          "last_name": "M\u00e9rot",
+          "fore_name": "Claire",
+          "affiliations": [
+            "UMR 6553 Ecobio, OSUR, CNRS, Universit\u00e9 de Rennes, 263 Avenue du G\u00e9n\u00e9ral Leclerc, Rennes 35004, France."
+          ]
+        },
+        {
+          "last_name": "Langlois-Paris\u00e9",
+          "fore_name": "Isabelle",
+          "affiliations": [
+            "Laboratoire de Recherche en Sciences Environnementales et M\u00e9dicales (LARSEM), Universit\u00e9 Laval, 1030, Avenue de la M\u00e9decine, Qu\u00e9bec, Canada, QC G1V 0A6."
+          ]
+        },
+        {
+          "last_name": "Therrien",
+          "fore_name": "Jean-Christophe",
+          "affiliations": [
+            "Laboratoire de Recherche en Sciences Environnementales et M\u00e9dicales (LARSEM), Universit\u00e9 Laval, 1030, Avenue de la M\u00e9decine, Qu\u00e9bec, Canada, QC G1V 0A6."
+          ]
+        },
+        {
+          "last_name": "B\u00e9rub\u00e9",
+          "fore_name": "Pierre",
+          "affiliations": [
+            "McGill Genome Centre, Department of Human Genetics, Victor Phillip Dahdaleh Institute of Genomic Medicine, McGill University, 740 Dr Penfield Ave, Montr\u00e9al, Canada, QC H3A0G1."
+          ]
+        },
+        {
+          "last_name": "Djambazian",
+          "fore_name": "Haig",
+          "affiliations": [
+            "McGill Genome Centre, Department of Human Genetics, Victor Phillip Dahdaleh Institute of Genomic Medicine, McGill University, 740 Dr Penfield Ave, Montr\u00e9al, Canada, QC H3A0G1."
+          ]
+        },
+        {
+          "last_name": "Nawarathna",
+          "fore_name": "Pubudu Manoj",
+          "affiliations": [
+            "CellCarta, 201 President Kennedy Ave, Suite 3900, Montr\u00e9al, Canada, QC H2X 3Y7."
+          ]
+        },
+        {
+          "last_name": "Ragoussis",
+          "fore_name": "Jiannis",
+          "affiliations": [
+            "McGill Genome Centre, Department of Human Genetics, Victor Phillip Dahdaleh Institute of Genomic Medicine, McGill University, 740 Dr Penfield Ave, Montr\u00e9al, Canada, QC H3A0G1."
+          ]
+        },
+        {
+          "last_name": "Fraser",
+          "fore_name": "Dylan",
+          "affiliations": [
+            "Department of Biology, Concordia University, 3475 West Broadway Street, Montr\u00e9al, Canada, QC H4B 2A7."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Trout",
+        "Genome",
+        "Haploidy",
+        "Chromosomes",
+        "Genomics",
+        "Molecular Sequence Annotation"
+      ],
+      "keywords": [
+        "Salvelinus fontinalis",
+        "Brook trout",
+        "Hi-C",
+        "genome assembly",
+        "long-read sequencing",
+        "salmonid",
+        "short-read sequencing"
+      ]
+    },
+    {
+      "pmid": "39984111",
+      "doi": "10.1016/j.biochi.2025.02.003",
+      "title": "The prolyl oligopeptidase and \u03b1-synuclein connection revisited.",
+      "abstract": "The aim of this work was to revisit the connection between prolyl oligopeptidase (PREP) and \u03b1-synuclein (aSyn) by presenting novel data from cell free and cellular assays and to discuss the results in a contemporary context. The aSyn aggregation process was studied using fluorescence correlation spectroscopy and thioflavin-T fluorescence. Binding sites for PREP on the aSyn sequence were determined using peptide arrays. Subcellular localisation of PREP and stress markers were studied using double staining immunofluorescence microscopy in SH-SY5Y cells with and without overexpression of aSyn and PREP, before and after differentiation, and with or without proteolytic stress induced by proteasome inhibition. The interaction between PREP and aSyn was found to be weak and transient. It promotes the early phases of aggregation but does not affect the rate of \u03b2-fibril formation. Moreover, this interaction is not dependent upon the C-terminal prolines of aSyn, but is affected by PREP inhibitors and interferes with PREP substrate binding. Although present in the same cellular compartments, there is little evidence for a strong physical association of PREP with aggresomes and stress markers. Instead, there is colocalization with aSyn in the cell periphery and neurites. There is evidence for a binding site for peptides much longer than the usual PREP substrates. The modular assembly of molecular machines and the observation that PREP's protein-protein interactions are tuneable by active site inhibitors, lead to the hypothesis that this binding site features in the cross-talk between autophagy and neuron-specific pathways involving vesicle transport and protein secretion.",
+      "journal": "Biochimie",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Van Elzen",
+          "fore_name": "Roos",
+          "affiliations": [
+            "Laboratory of Medical Biochemistry, University of Antwerp, Universiteitsplein 1, B-2610, Wilrijk, Belgium. Electronic address: Roos.vanelzen@cellcarta.com."
+          ]
+        },
+        {
+          "last_name": "Waumans",
+          "fore_name": "Yannick",
+          "affiliations": [
+            "Laboratory of Medical Biochemistry, University of Antwerp, Universiteitsplein 1, B-2610, Wilrijk, Belgium. Electronic address: Yannick.waumans@cellcarta.com."
+          ]
+        },
+        {
+          "last_name": "Nath",
+          "fore_name": "Sangeeta",
+          "affiliations": [
+            "Laboratory of Biomolecular Dynamics, KU Leuven, Celestijnenlaan 200G, Leuven, B-3001, Belgium. Electronic address: sangeeta.nath@manipal.edu."
+          ]
+        },
+        {
+          "last_name": "Van der Veken",
+          "fore_name": "Pieter",
+          "affiliations": [
+            "Laboratory of Medicinal Chemistry, University of Antwerp, Universiteitsplein 1, B-2610, Wilrijk, Belgium. Electronic address: pieter.vanderveken@uantwerpen.be."
+          ]
+        },
+        {
+          "last_name": "Kerkhoff",
+          "fore_name": "Sonja",
+          "affiliations": [
+            "Biosynth B.V. (formerly Pepscan Therapeutics), Zuidersluisweg 2, 8243 RC, Lelystad, the Netherlands. Electronic address: Sonja.kerkhoff@thermofisher.com."
+          ]
+        },
+        {
+          "last_name": "Van Dijk",
+          "fore_name": "Evert",
+          "affiliations": [
+            "Biosynth B.V. (formerly Pepscan Therapeutics), Zuidersluisweg 2, 8243 RC, Lelystad, the Netherlands. Electronic address: evert.vandijk@biosynth.com."
+          ]
+        },
+        {
+          "last_name": "Morawski",
+          "fore_name": "Markus",
+          "affiliations": [
+            "Paul Flechsig Institute - Centre of Neuropathology and Brain Research, University of Leipzig, Liebigstra\u00dfe 19, 04103, Leipzig, Germany. Electronic address: Marcus.morawski@medizin.uni-leipzig.de."
+          ]
+        },
+        {
+          "last_name": "Ro\u00dfner",
+          "fore_name": "Steffen",
+          "affiliations": [
+            "Paul Flechsig Institute - Centre of Neuropathology and Brain Research, University of Leipzig, Liebigstra\u00dfe 19, 04103, Leipzig, Germany. Electronic address: Steffen.Rossner@medizin.uni-leipzig.de."
+          ]
+        },
+        {
+          "last_name": "Engelborghs",
+          "fore_name": "Yves",
+          "affiliations": [
+            "Laboratory of Biomolecular Dynamics, KU Leuven, Celestijnenlaan 200G, Leuven, B-3001, Belgium. Electronic address: yves.engelborghs@kuleuven.be."
+          ]
+        },
+        {
+          "last_name": "De Meester",
+          "fore_name": "Ingrid",
+          "affiliations": [
+            "Laboratory of Medical Biochemistry, University of Antwerp, Universiteitsplein 1, B-2610, Wilrijk, Belgium. Electronic address: Ingrid.demeester@uantwerpen.be."
+          ]
+        },
+        {
+          "last_name": "Lambeir",
+          "fore_name": "Anne-Marie",
+          "affiliations": [
+            "Laboratory of Medical Biochemistry, University of Antwerp, Universiteitsplein 1, B-2610, Wilrijk, Belgium. Electronic address: anne-marie.lambeir@uantwerpen.be."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "alpha-Synuclein",
+        "Prolyl Oligopeptidases",
+        "Serine Endopeptidases",
+        "Cell Line, Tumor",
+        "Binding Sites",
+        "Protein Binding",
+        "Protein Aggregates",
+        "Mitochondrial Proteins"
+      ],
+      "keywords": [
+        "Autophagy",
+        "PREP inhibitor",
+        "Prolyl oligopeptidase",
+        "Protein secretion",
+        "Vesicle trafficking",
+        "\u03b1-synuclein"
+      ]
+    },
+    {
+      "pmid": "40223099",
+      "pmc": "PMC9555301",
+      "doi": "10.1016/j.cell.2022.06.035",
+      "title": "Development of a personalized digital biomarker of vaccine-associated reactogenicity using wearable sensors and digital twin technology.",
+      "abstract": "Effective response to vaccination requires activation of the innate immune system, triggering the synthesis of inflammatory cytokines. The degree of subjective symptoms related to this, referred to as reactogenicity, may predict their eventual immune response. However, the subjective nature of these symptoms is influenced by the nocebo effect, making it difficult to accurately quantify a person's physiologic response. The use of wearable sensors allows for the identification of objective evidence of physiologic changes a person experiences following vaccination, but as these changes are subtle, they can only be detected when an individual's pre-vaccination normal variability is considered. We use a wearable torso sensor patch and a machine learning method of similarity-based modeling (SBM) to create a physiologic digital twin for 88 people receiving 104 COVID vaccine doses. By using each individual's pre-vaccine digital twin, we are able to effectively control for expected physiologic variations unique to that individual, leaving only vaccine-induced differences. We use these individualized differences between the pre- and post-vaccine period to develop a multivariate digital biomarker for objectively measuring the degree and duration of physiologic changes each individual experiences following vaccination. Here we show that the multivariate digital biomarker better predicted systemic reactogenicity than any one physiologic data type and correlated with vaccine-induced changes in humoral and cellular immunity in a 20-person subset. A digital biomarker is capable of objectively identifying an individual's unique response to vaccination and could play a future role in personalizing vaccine regimens.",
+      "journal": "Commun Med (Lond)",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Steinhubl",
+          "fore_name": "Steven R",
+          "affiliations": [
+            "Purdue University, W, Lafayette, IN, USA. ssteinhu@purdue.edu."
+          ]
+        },
+        {
+          "last_name": "Sekaric",
+          "fore_name": "Jadranka",
+          "affiliations": [
+            "Prolaio Health, Scottsdale, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Gendy",
+          "fore_name": "Maged",
+          "affiliations": [
+            "Prolaio Health, Scottsdale, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Huaijian",
+          "affiliations": [
+            "CellCarta, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Ward",
+          "fore_name": "Matthew P",
+          "affiliations": [
+            "Purdue University, W, Lafayette, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Goergen",
+          "fore_name": "Craig J",
+          "affiliations": [
+            "Purdue University, W, Lafayette, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Anderson",
+          "fore_name": "Jennifer L",
+          "affiliations": [
+            "Purdue University, W, Lafayette, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Amin",
+          "fore_name": "Sarwat",
+          "affiliations": [
+            "Purdue University, W, Lafayette, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Wilson",
+          "fore_name": "Damen",
+          "affiliations": [
+            "Purdue University, W, Lafayette, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Paramithiotis",
+          "fore_name": "Eustache",
+          "affiliations": [
+            "CellCarta, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Wegerich",
+          "fore_name": "Stephan",
+          "affiliations": [
+            "Prolaio Health, Scottsdale, AZ, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "39853278",
+      "pmc": "PMC10897541",
+      "doi": "10.1158/2326-6066.CIR-24-0649",
+      "title": "Different PD-L1 Assays Reveal Distinct Immunobiology and Clinical Outcomes in Urothelial Cancer.",
+      "abstract": "Testing for PD-L1 expression by IHC is used to predict immune checkpoint blockade (ICB) benefits but has performed inconsistently in urothelial cancer clinical trials. Different approaches are used for PD-L1 IHC. We analyzed paired PD-L1 IHC data on urothelial cancer samples using the SP142 and 22C3 assays from the phase III IMvigor130 trial and found discordant findings summarized by four phenotypes: PD-L1 positive by both assays, PD-L1 positive by the SP142 assay only, PD-L1 positive by the 22C3 assay only, and PD-L1 negative by both assays double negative. PD-L1 positive by both assays and PD-L1 positive by the SP142 assay only urothelial cancers were associated with more favorable ICB outcomes and increased dendritic cell (DC) infiltration. SP142 PD-L1 staining co-localized with DC-LAMP, a DC marker, whereas 22C3 staining was more diffuse. PD-L1 positive by the 22C3 assay only urothelial cancers, associated with worse outcomes, were enriched in tumor cell (TC)-dominant PD-L1 expression. Multiplex IHC in an independent ICB-treated cohort confirmed that TC-dominant PD-L1 expression was associated with shorter survival. Using different PD-L1 assays, we uncovered that SP142 may preferentially stain PD-L1-expressing DCs, key to orchestrating antitumor immunity, whereas TC-dominant PD-L1 expression, which underlies a subset of \"PD-L1-positive\" specimens, is associated with poor ICB outcomes. See related Spotlight by Karunamurthy and Davar, p. 454 .",
+      "journal": "Cancer Immunol Res",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Galsky",
+          "fore_name": "Matthew D",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, New York."
+          ]
+        },
+        {
+          "last_name": "Kockx",
+          "fore_name": "Mark",
+          "affiliations": [
+            "CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Roels",
+          "fore_name": "Juliette",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Van Elzen",
+          "fore_name": "Roos",
+          "affiliations": [
+            "CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Guan",
+          "fore_name": "Xiangnan",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Yuen",
+          "fore_name": "Kobe",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Rishipathak",
+          "fore_name": "Deepali",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Anker",
+          "fore_name": "Jonathan F",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, New York."
+          ]
+        },
+        {
+          "last_name": "Gnjatic",
+          "fore_name": "Sacha",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, New York."
+          ]
+        },
+        {
+          "last_name": "Izadmehr",
+          "fore_name": "Sudeh",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, New York."
+          ]
+        },
+        {
+          "last_name": "Sanjabi",
+          "fore_name": "Shomyseh",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Johnston",
+          "fore_name": "Robert J",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Peterson",
+          "fore_name": "Maureen",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Koeppen",
+          "fore_name": "Hartmut",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "David",
+          "fore_name": "Justin M",
+          "affiliations": [
+            "Bristol Myers Squibb, Princeton, New Jersey."
+          ]
+        },
+        {
+          "last_name": "Gupta",
+          "fore_name": "Saurabh",
+          "affiliations": [
+            "Bristol Myers Squibb, Princeton, New Jersey."
+          ]
+        },
+        {
+          "last_name": "Bamias",
+          "fore_name": "Aristotelis",
+          "affiliations": [
+            "National and Kapodistrian University of Athens, Athens, Greece."
+          ]
+        },
+        {
+          "last_name": "Arranz",
+          "fore_name": "Jose Angel",
+          "affiliations": [
+            "Gregorio Maranon Hospital, Madrid, Spain."
+          ]
+        },
+        {
+          "last_name": "Kikuchi",
+          "fore_name": "Eiji",
+          "affiliations": [
+            "Keio University School of Medicine, Tokyo, Japan.",
+            "St Marianna University School of Medicine, Kawasaki, Japan."
+          ]
+        },
+        {
+          "last_name": "De Santis",
+          "fore_name": "Maria",
+          "affiliations": [
+            "Charit\u00e9 Universit\u00e4tsmedizin Berlin, Berlin, Germany.",
+            "Medical University of Vienna, Vienna, Austria."
+          ]
+        },
+        {
+          "last_name": "Davis",
+          "fore_name": "Ian D",
+          "affiliations": [
+            "Monash University, Melbourne, Australia.",
+            "Eastern Health, Melbourne, Australia."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "Patrick",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Bernhard",
+          "fore_name": "Sandrine",
+          "affiliations": [
+            "Roche Products, Welwyn Garden City, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Mellman",
+          "fore_name": "Ira",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Grande",
+          "fore_name": "Enrique",
+          "affiliations": [
+            "MD Anderson Cancer Center Madrid, Madrid, Spain."
+          ]
+        },
+        {
+          "last_name": "Banchereau",
+          "fore_name": "Romain",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        },
+        {
+          "last_name": "Mariathasan",
+          "fore_name": "Sanjeev",
+          "affiliations": [
+            "Genentech, South San Francisco, California."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "B7-H1 Antigen",
+        "Urinary Bladder Neoplasms",
+        "Immune Checkpoint Inhibitors",
+        "Biomarkers, Tumor",
+        "Immunohistochemistry",
+        "Prognosis",
+        "Urothelium",
+        "Female",
+        "Male",
+        "Treatment Outcome",
+        "Urologic Neoplasms"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40065106",
+      "pmc": "PMC6158764",
+      "doi": "10.1093/annonc/mdy263",
+      "title": "A nationwide comprehensive genomic profiling and molecular tumor board platform for patients with advanced cancer.",
+      "abstract": "The Belgian Approach for Local Laboratory Extensive Tumor Testing (BALLETT) study assessed the feasibility of using comprehensive genomic profiling (CGP) in clinical decision-making for patients with advanced cancers. This multi-center study enrolled 872 patients from 12 Belgian hospitals. CGP was performed on tumor tissues using a standardized CGP panel (523 genes) across nine laboratories with success in 93% of patients and a median turnaround time of 29 days. Actionable genomic markers were identified in 81% of patients, substantially higher than the 21% using nationally reimbursed, small panels. A national molecular tumor board (nMTB) recommended treatments for 69% of patients, with 23% receiving matched therapies. Reasons for non-compliance were highly variable across clinical sites. Overall, BALLETT demonstrates the feasibility of implementing decentralized CGP and its potential to identify actionable targets in most patients with advanced cancers. BALLETT reinforces CGP's utility and emphasizes the importance of collaboration, standardization, and addressing implementation challenges.",
+      "journal": "NPJ Precis Oncol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Volders",
+          "fore_name": "Pieter-Jan",
+          "affiliations": [
+            "Laboratory for Molecular Diagnostics, Jessa Hospital, Hasselt, Belgium.",
+            "Faculty of Medicine and Life Sciences, LCRC, University of Hasselt, Hasselt, Belgium.",
+            "Department of Biomolecular Medicine, Ghent University, Gent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Aftimos",
+          "fore_name": "Philippe",
+          "affiliations": [
+            "Clinical Trials Conduct Unit, Institut Jules Bordet-Universit\u00e9 Libre de Bruxelles, H\u00f4pital Universitaire de Bruxelles, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Dedeurwaerdere",
+          "fore_name": "Franceska",
+          "affiliations": [
+            "Department of Pathology, AZ Delta Hospital, Roeselare, Belgium."
+          ]
+        },
+        {
+          "last_name": "Martens",
+          "fore_name": "Geert",
+          "affiliations": [
+            "Department of Laboratory Medicine, AZ Delta Hospital, Roeselare, Belgium."
+          ]
+        },
+        {
+          "last_name": "Canon",
+          "fore_name": "Jean-Luc",
+          "affiliations": [
+            "Department of Medical Oncology, Grand H\u00f4pital de Charleroi, Charleroi, Belgium."
+          ]
+        },
+        {
+          "last_name": "Beniuga",
+          "fore_name": "Gabriela",
+          "affiliations": [
+            "Institut de Pathologie et de G\u00e9n\u00e9tique, Charleroi, Belgium."
+          ]
+        },
+        {
+          "last_name": "Froyen",
+          "fore_name": "Guy",
+          "affiliations": [
+            "Laboratory for Molecular Diagnostics, Jessa Hospital, Hasselt, Belgium.",
+            "Faculty of Medicine and Life Sciences, LCRC, University of Hasselt, Hasselt, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van Huysse",
+          "fore_name": "Jacques",
+          "affiliations": [
+            "Department of Pathology, AZ Sint-Jan Brugge, Bruges, Belgium."
+          ]
+        },
+        {
+          "last_name": "De Pauw",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "Department of Pulmonology, AZ Sint-Jan Brugge, Bruges, Belgium."
+          ]
+        },
+        {
+          "last_name": "Prenen",
+          "fore_name": "Hans",
+          "affiliations": [
+            "Department of Oncology, Antwerp University Hospital, Edegem, Belgium.",
+            "Center for Oncological research, University of Antwerp, Wilrijk, Belgium."
+          ]
+        },
+        {
+          "last_name": "Lambin",
+          "fore_name": "Suzan",
+          "affiliations": [
+            "Department of Pathology, University Hospital Antwerp, Edegem, Belgium."
+          ]
+        },
+        {
+          "last_name": "Decoster",
+          "fore_name": "Lore",
+          "affiliations": [
+            "Department of Medical Oncology, University Hospital Brussels, Brussels, Belgium.",
+            "Laboratory for Medical and Molecular Oncology, Vrije Universiteit, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Vaeyens",
+          "fore_name": "Freya",
+          "affiliations": [
+            "Centre for Medical Genetics, University Hospital Brussels, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Rottey",
+          "fore_name": "Sylvie",
+          "affiliations": [
+            "Department of Medical Oncology, Ghent University, Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van Dam",
+          "fore_name": "Pieter-Jan",
+          "affiliations": [
+            "CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Decoster",
+          "fore_name": "Lynn",
+          "affiliations": [
+            "Department of Pulmonology, AZ Turnhout, Turnhout, Belgium."
+          ]
+        },
+        {
+          "last_name": "Rutten",
+          "fore_name": "Annemie",
+          "affiliations": [
+            "Department of Medical Oncology, ZAS hospitals, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Schreuer",
+          "fore_name": "Max",
+          "affiliations": [
+            "Department of Medical Oncology, ASZ Aalst, Aalst, Belgium."
+          ]
+        },
+        {
+          "last_name": "Loontiens",
+          "fore_name": "Siebe",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Gent, Belgium.",
+            "Molecular Diagnostics, Ghent University Hospital, Ghent, Belgium.",
+            "Cancer Research Institute Ghent, Ghent University, Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van der Meulen",
+          "fore_name": "Joni",
+          "affiliations": [
+            "Department of Biomolecular Medicine, Ghent University, Gent, Belgium.",
+            "Molecular Diagnostics, Ghent University Hospital, Ghent, Belgium.",
+            "Cancer Research Institute Ghent, Ghent University, Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Mebis",
+          "fore_name": "Jeroen",
+          "affiliations": [
+            "Faculty of Medicine and Life Sciences, LCRC, University of Hasselt, Hasselt, Belgium.",
+            "Department of Medical Oncology, Jessa Hospital, Hasselt, Belgium."
+          ]
+        },
+        {
+          "last_name": "Cuppens",
+          "fore_name": "Kristof",
+          "affiliations": [
+            "Faculty of Medicine and Life Sciences, LCRC, University of Hasselt, Hasselt, Belgium.",
+            "Department of Pulmonology and Thoracic Oncology, Jessa Hospital, Hasselt, Belgium."
+          ]
+        },
+        {
+          "last_name": "Tejpar",
+          "fore_name": "Sabine",
+          "affiliations": [
+            "Digestive Oncology, University Hospitals KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Vanden Bempt",
+          "fore_name": "Isabelle",
+          "affiliations": [
+            "Department of Human Genetics, University Hospitals KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "De Gr\u00e8ve",
+          "fore_name": "Jacques",
+          "affiliations": [
+            "Laboratory for Medical and Molecular Oncology, Vrije Universiteit, Brussels, Belgium.",
+            "Centre for Medical Genetics, University Hospital Brussels, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Schr\u00f6der",
+          "fore_name": "David",
+          "affiliations": [
+            "Department of Medical Oncology, Grand H\u00f4pital de Charleroi, Charleroi, Belgium."
+          ]
+        },
+        {
+          "last_name": "van Marcke",
+          "fore_name": "C\u00e9dric",
+          "affiliations": [
+            "Institute for Experimental and Clinical Research, UCLouvain, Brussels, Belgium.",
+            "Department of Medical Oncology, Institut Roi Albert II, Cliniques universitaires Saint-Luc, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van Den Bulcke",
+          "fore_name": "Marc",
+          "affiliations": [
+            "Sciensano, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "de Azambuja",
+          "fore_name": "Evandro",
+          "affiliations": [
+            "Institut Jules Bordet, H\u00f4pital Universitaire de Bruxelles and l'Universit\u00e9 Libre de Bruxelles, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Punie",
+          "fore_name": "Kevin",
+          "affiliations": [
+            "Department of Medical Oncology, ZAS hospitals, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Maes",
+          "fore_name": "Brigitte",
+          "affiliations": [
+            "Laboratory for Molecular Diagnostics, Jessa Hospital, Hasselt, Belgium. Brigitte.maes@jessazh.be.",
+            "Faculty of Medicine and Life Sciences, LCRC, University of Hasselt, Hasselt, Belgium. Brigitte.maes@jessazh.be."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "39666203",
+      "doi": "10.3389/fimmu.2022.1045329",
+      "pmc": "9800416",
+      "title": "Molecular characterization of the histopathological growth patterns of colorectal cancer liver metastases by RNA sequencing of targeted samples at the tumor-liver interface.",
+      "abstract": "The behaviour of metastases in patients with liver-metastatic colorectal cancer (CRC) is still not adequately considered during treatment planning. However, studies in large cohorts have shown that the disease course in these patients depends on the histopathological growth pattern (HGP) of the liver metastases, with the desmoplastic (or encapsulated) pattern responsible for a favourable outcome and the replacement pattern for an unfavourable course. To increase our knowledge of cancer biology in general as well as to design clinical trials that take into account the diverse behaviour of liver metastases, it is necessary to know the cellular and molecular determinants of these growth patterns. For that purpose, we compared the transcriptome of tumour tissue (prospective cohort; n\u2009=\u200957) sampled very precisely at the transition of metastasis and adjacent liver, between the desmoplastic and replacement HGP. In addition, the mutational profiles for 46 genes related to CRC were extracted from the RNA sequencing reads. First, we show that the genetic constitution of a liver metastasis from colorectal cancer does not determine its HGP. Second, we show clear differences between HGPs regarding the expression of genes belonging to the Molecular Signatures Database hallmark gene sets. Biological themes of the replacement HGP reflect cancer cell proliferation and glucose metabolism, while the desmoplastic HGP is characterized by inflammation and immune response, and angiogenesis. This study supports the view that HGPs are a reflection of the biology of CRC liver metastases and suggests the HGPs are driven epigenetically rather than by specific gene mutations.",
+      "journal": "Clin Exp Metastasis",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Latacz",
+          "fore_name": "Emily",
+          "affiliations": [
+            "Translational Cancer Research Unit, Ziekenhuis aan de Stroom (ZAS), Campus Augustinus, Antwerp, Belgium.",
+            "Center for Oncological Research (CORE), Integrated Personalized and Precision Oncology Network (IPPON), University of Antwerp, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Verheul",
+          "fore_name": "Sanne M L",
+          "affiliations": [
+            "Department of Gastrointestinal Surgery and Surgical Oncology, Erasmus MC Cancer Institute, University Medical Center Rotterdam, Rotterdam, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Sillis",
+          "fore_name": "Yasmine",
+          "affiliations": [
+            "Translational Cancer Research Unit, Ziekenhuis aan de Stroom (ZAS), Campus Augustinus, Antwerp, Belgium.",
+            "Center for Oncological Research (CORE), Integrated Personalized and Precision Oncology Network (IPPON), University of Antwerp, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "van Dam",
+          "fore_name": "Pieter-Jan",
+          "affiliations": [
+            "Data Science, CellCarta NV, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Doukas",
+          "fore_name": "Michail",
+          "affiliations": [
+            "Department of Pathology, Erasmus MC Cancer Institute, University Medical Center Rotterdam, Rotterdam, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Grunhagen",
+          "fore_name": "Dirk J",
+          "affiliations": [
+            "Department of Gastrointestinal Surgery and Surgical Oncology, Erasmus MC Cancer Institute, University Medical Center Rotterdam, Rotterdam, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Nystr\u00f6m",
+          "fore_name": "Hanna",
+          "affiliations": [
+            "Department of Surgical and Perioperative Sciences, Surgery, Ume\u00e5 University, Ume\u00e5, Sweden."
+          ]
+        },
+        {
+          "last_name": "Dirix",
+          "fore_name": "Piet",
+          "affiliations": [
+            "Translational Cancer Research Unit, Ziekenhuis aan de Stroom (ZAS), Campus Augustinus, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Dirix",
+          "fore_name": "Luc",
+          "affiliations": [
+            "Translational Cancer Research Unit, Ziekenhuis aan de Stroom (ZAS), Campus Augustinus, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van Laere",
+          "fore_name": "Steven",
+          "affiliations": [
+            "Center for Oncological Research (CORE), Integrated Personalized and Precision Oncology Network (IPPON), University of Antwerp, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Verhoef",
+          "fore_name": "Cornelis",
+          "affiliations": [
+            "Department of Gastrointestinal Surgery and Surgical Oncology, Erasmus MC Cancer Institute, University Medical Center Rotterdam, Rotterdam, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Vermeulen",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Translational Cancer Research Unit, Ziekenhuis aan de Stroom (ZAS), Campus Augustinus, Antwerp, Belgium. peter.vermeulen@zas.be.",
+            "Department of Gastrointestinal Surgery and Surgical Oncology, Erasmus MC Cancer Institute, University Medical Center Rotterdam, Rotterdam, The Netherlands. peter.vermeulen@zas.be."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Colorectal Neoplasms",
+        "Liver Neoplasms",
+        "Female",
+        "Male",
+        "Sequence Analysis, RNA",
+        "Prospective Studies",
+        "Middle Aged",
+        "Transcriptome",
+        "Aged",
+        "Mutation",
+        "Gene Expression Regulation, Neoplastic",
+        "Biomarkers, Tumor",
+        "Cell Proliferation"
+      ],
+      "keywords": [
+        "Colorectal cancer",
+        "Histopathological growth patterns",
+        "Liver metastasis",
+        "RNA sequencing",
+        "Transcriptome"
+      ]
+    },
+    {
+      "pmid": "39406392",
+      "pmc": "PMC4114642",
+      "doi": "10.1093/neuonc/noae177",
+      "title": "Intracranial administration of anti-PD-1 and anti-CTLA-4 immune checkpoint-blocking monoclonal antibodies in patients with recurrent high-grade glioma.",
+      "abstract": "Recurrent high-grade glioma (rHGG) lacks effective life-prolonging treatments and the efficacy of systemic PD-1 and CTLA-4 immune checkpoint inhibitors is limited. The multi-cohort Glitipni phase I trial investigates the safety and feasibility of intraoperative intracerebral (iCer) and postoperative intracavitary (iCav) nivolumab (NIVO) \u00b1 ipilimumab (IPI) treatment following maximal safe resection (MSR) in rHGG. Patients received 10 mg IV NIVO within 24 h before surgery, followed by MSR, iCer 5 mg IPI and 10 mg NIVO, and Ommaya catheter placement in the resection cavity. Biweekly postoperative iCav administrations of 1-5-10 mg NIVO (cohort 4) or 10 mg NIVO plus 1-5-10 mg IPI (cohort 7) were combined with 10 mg IV NIVO for 11 cycles. 42 rHGG patients underwent MSR with iCer NIVO\u2005+\u2005IPI. 16 pts were treated in cohort 4 (postoperative iCav NIVO at escalating doses) while 28 patients were treated in cohort 7 (intra and postoperative iCav NIVO and escalating doses of IPI). The most common TRAE was fatigue; no grade 5 AE occurred. Dose-limiting toxicity was grade 3 neutrophilic pleocytosis (4 pts) receiving iCav NIVO plus 5 or 10 mg IPI. PFS and OS did not significantly differ between cohorts (median OS: 42 [95% CI 26-57] vs. 35 [29-40] weeks; 1-year OS rate: 37% vs. 29%). Baseline B7-H3 expression significantly correlated with worse survival. OS compared favorably to a historical pooled cohort (n\u2005=\u2005469) of Belgian rHGG pts treated with anti-VEGF therapies (log-rank P\u2005=\u2005.015). Intraoperative iCer IPI\u2005+\u2005NIVO with postoperative iCav NIVO \u00b1 IPI up to biweekly doses of 1 mg IPI\u2005+\u200510 mg NIVO is feasible and safe, showing encouraging OS in rHGG patients. ClinicalTrials.gov registration: NCT03233152.",
+      "journal": "Neuro Oncol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Duerinck",
+          "fore_name": "Johnny",
+          "affiliations": [
+            "Department of Neurosurgery, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Lescrauwaet",
+          "fore_name": "Louise",
+          "affiliations": [
+            "Department of Neurosurgery, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Dirven",
+          "fore_name": "Iris",
+          "affiliations": [
+            "Department of Medical Oncology, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium.",
+            "Laboratory for Medical and Molecular Oncology (LMMO), Translational Oncology Research Center (TORC), Vrije Universiteit Brussel (VUB), Universitair Ziekenhuis Brussel (UZ Brussel), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Del'haye",
+          "fore_name": "Jacomi",
+          "affiliations": [
+            "Department of Medical Oncology, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Stevens",
+          "fore_name": "Latoya",
+          "affiliations": [
+            "Laboratory for Medical and Molecular Oncology (LMMO), Translational Oncology Research Center (TORC), Vrije Universiteit Brussel (VUB), Universitair Ziekenhuis Brussel (UZ Brussel), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Geeraerts",
+          "fore_name": "Xenia",
+          "affiliations": [
+            "Laboratory for Medical and Molecular Oncology (LMMO), Translational Oncology Research Center (TORC), Vrije Universiteit Brussel (VUB), Universitair Ziekenhuis Brussel (UZ Brussel), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Vaeyens",
+          "fore_name": "Freya",
+          "affiliations": [
+            "Department of Genetics, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Geens",
+          "fore_name": "Wietse",
+          "affiliations": [
+            "Department of Neurosurgery, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Brock",
+          "fore_name": "Stefanie",
+          "affiliations": [
+            "Department of Pathology, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Vanbinst",
+          "fore_name": "Anne-Marie",
+          "affiliations": [
+            "Department of Radiology, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Everaert",
+          "fore_name": "Hendrik",
+          "affiliations": [
+            "Department of Nuclear Medicine, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Caljon",
+          "fore_name": "Ben",
+          "affiliations": [
+            "Department of Genetics, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Bruneau",
+          "fore_name": "Micha\u00ebl",
+          "affiliations": [
+            "Department of Neurosurgery, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Lebrun",
+          "fore_name": "Laetitia",
+          "affiliations": [
+            "Department of Pathology, Universit\u00e9 Libre de Bruxelles (ULB), H\u00f4pital Universitaire de Bruxelles (HUB), CUB H\u00f4pital Erasme, Erasme University Hospital, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Salmon",
+          "fore_name": "Isabelle",
+          "affiliations": [
+            "Department of Pathology, Universit\u00e9 Libre de Bruxelles (ULB), H\u00f4pital Universitaire de Bruxelles (HUB), CUB H\u00f4pital Erasme, Erasme University Hospital, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Kockx",
+          "fore_name": "Marc",
+          "affiliations": [
+            "CellCarta, Antwerpen, Belgium."
+          ]
+        },
+        {
+          "last_name": "Tuyaerts",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "Laboratory for Medical and Molecular Oncology (LMMO), Translational Oncology Research Center (TORC), Vrije Universiteit Brussel (VUB), Universitair Ziekenhuis Brussel (UZ Brussel), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Neyns",
+          "fore_name": "Bart",
+          "affiliations": [
+            "Department of Medical Oncology, Universitair Ziekenhuis Brussel (UZ Brussel), Vrije Universiteit Brussel (VUB), Brussels, Belgium.",
+            "Laboratory for Medical and Molecular Oncology (LMMO), Translational Oncology Research Center (TORC), Vrije Universiteit Brussel (VUB), Universitair Ziekenhuis Brussel (UZ Brussel), Brussels, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Glioma",
+        "Male",
+        "Female",
+        "Middle Aged",
+        "Brain Neoplasms",
+        "Programmed Cell Death 1 Receptor",
+        "Immune Checkpoint Inhibitors",
+        "CTLA-4 Antigen",
+        "Adult",
+        "Neoplasm Recurrence, Local",
+        "Aged",
+        "Nivolumab",
+        "Ipilimumab",
+        "Follow-Up Studies",
+        "Prognosis",
+        "Survival Rate",
+        "Neoplasm Grading"
+      ],
+      "keywords": [
+        "glioblastoma",
+        "high-grade glioma",
+        "immune checkpoint inhibition",
+        "immunotherapy",
+        "local administration"
+      ]
+    },
+    {
+      "pmid": "39374099",
+      "doi": "10.1200/PO.23.00493",
+      "title": "Phase II Clinical Trial of Trametinib and Low-Dose Dabrafenib in Advanced, Previously Treated",
+      "abstract": "Patients with This phase II trial investigated trametinib (2 mg once daily) in patients with advanced Twenty-four patients were included (50% male; median age 57 years; 92% Eastern Cooperative Oncology Group Performance Status 0-2; 75% stage IV-M1c/stage IV-M1d; median number of prior therapies: two [range, 1-5]). Three patients were enrolled before and 21 patients after the amendment, respectively. Seven confirmed and one unconfirmed partial responses (PRs) were observed (cORR, 29.2%). The median duration of response was 16.6 weeks (95% CI, 5.5 to 27.7). Stable disease (SD) was the best response in an additional five patients. Among the responding patients, genetic alterations causing mitogen-activated protein kinase (MAPK) pathway activation were documented in six patients. The disease control rate in patients with MAPK pathway-activating alterations was 64.3% (five confirmed PR, one unconfirmed PR, and three SD). The median progression-free survival was 13.3 weeks (95% CI, 3.5 to 23.1), and the median overall survival was 54.3 weeks (95% CI, 37.9 to 70.6). Adding low-dose dabrafenib to trametinib effectively mitigated or prevented treatment-limiting trametinib-related skin toxicity. The combination of trametinib plus low-dose dabrafenib demonstrated encouraging efficacy and effective mitigation of skin toxicity in patients with advanced, ICI-pretreated",
+      "journal": "JCO Precis Oncol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Awada",
+          "fore_name": "Gil",
+          "affiliations": [
+            "Department of Medical Oncology, Vrije Universiteit Brussel/Universitair Ziekenhuis Brussel, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Dirven",
+          "fore_name": "Iris",
+          "affiliations": [
+            "Department of Medical Oncology, Vrije Universiteit Brussel/Universitair Ziekenhuis Brussel, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Schwarze",
+          "fore_name": "Julia Katharina",
+          "affiliations": [
+            "Department of Medical Oncology, Vrije Universiteit Brussel/Universitair Ziekenhuis Brussel, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Tijtgat",
+          "fore_name": "Jens",
+          "affiliations": [
+            "Department of Medical Oncology, Vrije Universiteit Brussel/Universitair Ziekenhuis Brussel, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Fasolino",
+          "fore_name": "Giuseppe",
+          "affiliations": [
+            "Department of Ophthalmology, Vrije Universiteit Brussel/Universitair Ziekenhuis Brussel, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Kockx",
+          "fore_name": "Mark",
+          "affiliations": [
+            "CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Neyns",
+          "fore_name": "Bart",
+          "affiliations": [
+            "Department of Medical Oncology, Vrije Universiteit Brussel/Universitair Ziekenhuis Brussel, Brussels, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Pyridones",
+        "Pyrimidinones",
+        "Melanoma",
+        "Oximes",
+        "Male",
+        "Middle Aged",
+        "Female",
+        "Imidazoles",
+        "Proto-Oncogene Proteins B-raf",
+        "Aged",
+        "Adult",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Skin Neoplasms",
+        "GTP Phosphohydrolases",
+        "Membrane Proteins"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "39178742",
+      "pmc": "PMC10687210",
+      "doi": "10.1128/mbio.00133-17",
+      "title": "Altered memory CCR6",
+      "abstract": "Despite successful antiretroviral therapy (ART), frequencies and immunological functions of memory CCR6 mRNA-sequencing was performed using Illumina technology on freshly FACS-sorted memory CCR6 Decreased Th17\u00a0cell frequencies in STs and ECs versus HDs coincided with reduced Th17-lineage cytokine production in\u00a0vitro. Accordingly, the ROR\u03b3t/RORC2 repressor NR1D1 was upregulated, while the ROR\u03b3t/RORC2 inducer Semaphorin 4D was decreased in memory CCR6 These results reveal new molecular mechanisms of Th17 cell deficit in ST and EC PWH despite a successful control of HIV-1 replication. This knowledge points to potential therapeutic interventions to limit HIV-1 infection and restore frequencies, effector functions, and senescence/exhaustion in Th17\u00a0cells. This study was funded by the Canadian Institutes of Health Research (CIHR, operating grant MOP 142294, and the Canadian HIV Cure Enterprise [CanCURE 2.0] Team Grant HB2 164064), and in part, by the R\u00e9seau SIDA et maladies infectieuses du Fonds de recherche du Qu\u00e9bec-Sant\u00e9 (FRQ-S).",
+      "journal": "EBioMedicine",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Yero",
+          "fore_name": "Alexis",
+          "affiliations": [
+            "Department of Biological Sciences and CERMO-FC Research Centre, Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM), Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Goulet",
+          "fore_name": "Jean-Philippe",
+          "affiliations": [
+            "CellCarta, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Department of Biological Sciences and CERMO-FC Research Centre, Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM), Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Costiniuk",
+          "fore_name": "Cecilia T",
+          "affiliations": [
+            "Chronic Viral Illness Service and Research Institute of the McGill University Health Centre, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Routy",
+          "fore_name": "Jean-Pierre",
+          "affiliations": [
+            "Chronic Viral Illness Service and Research Institute of the McGill University Health Centre, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Tremblay",
+          "fore_name": "Cecile",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montreal, QC, Canada; D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Mboumba Bouassa",
+          "fore_name": "Ralph-Sydney",
+          "affiliations": [
+            "Department of Biological Sciences and CERMO-FC Research Centre, Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM), Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Alexandrova",
+          "fore_name": "Yulia",
+          "affiliations": [
+            "Department of Biological Sciences and CERMO-FC Research Centre, Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM), Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Pagliuzza",
+          "fore_name": "Am\u00e9lie",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Chomont",
+          "fore_name": "Nicolas",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montreal, QC, Canada; D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Ancuta",
+          "fore_name": "Petronela",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montreal, QC, Canada; D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Jenabian",
+          "fore_name": "Mohammad-Ali",
+          "affiliations": [
+            "Department of Biological Sciences and CERMO-FC Research Centre, Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM), Montreal, QC, Canada; D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montreal, QC, Canada. Electronic address: jenabian.mohammad-ali@uqam.ca."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "HIV Infections",
+        "Receptors, CCR6",
+        "Th17 Cells",
+        "HIV-1",
+        "Male",
+        "Immunologic Memory",
+        "Adult",
+        "Female",
+        "Memory T Cells",
+        "Middle Aged",
+        "Antiretroviral Therapy, Highly Active",
+        "Cytokines",
+        "Biomarkers",
+        "Viral Load",
+        "Gene Expression Profiling"
+      ],
+      "keywords": [
+        "CCR6",
+        "DNA damage",
+        "DNA repair",
+        "HIV infection",
+        "HIV persistence",
+        "Th17\u00a0cells",
+        "Transcriptomics"
+      ]
+    },
+    {
+      "pmid": "39044944",
+      "pmc": "PMC7602446",
+      "doi": "10.1016/j.euros.2024.06.011",
+      "title": "Fibroblast Activation Protein-\u03b1 and the Immune Landscape: Unraveling T1 Non-muscle-invasive Bladder Cancer Progression.",
+      "abstract": "The tumor microenvironment (TME) in non-muscle-invasive bladder cancer (NMIBC) plays an important role in the anticancer response. We aimed to identify the prognostic biomarkers in the TME of patients with NMIBC for progression to \u2265T2. From our institutional database, 40 patients with T1 high-risk NMIBC who progressed were pair matched for Club Urologico Espa\u00f1ol de Tratamiento Oncologico (CUETO) progression variables with 80 patients who never progressed despite longer follow-up. Progression was defined as \u2265T2 or extravesical disease. Patients were treated at least with bacillus Calmette-Gu\u00e9rin (BCG) induction (five or more of six doses). Immunohistochemical (IHC) markers for the TME were used on tissue at first T1 diagnosis: CD8-PanCK, GZMB-CD8-FOXP3, CD163, PD-L1 SP142/SP263, fibroblast activation protein-\u03b1 (FAP), and CK5-GATA3. Full tissue slides were annotated digitally. Relative marker area (IHC-positive area/total area) or density (IHC-positive cells per area; Only FAP expression (increase per 50%) in T1 (odds ratio [OR]: 1.33; 95% confidence interval [CI]: 1.04-1.70) and all ROIs combined (OR: 1.62; 95% CI: 1.14-2.29) correlated significantly with progression. None of the other clinicopathological/IHC variables correlated with progression. FAP is a potential prognostic biomarker for progression in high-risk NMIBC. FAP is a marker for cancer-associated fibroblasts and is linked to immunosuppression and neoangiogenesis, which makes future investigation clinically relevant. We found that progression of high-risk non-muscle-invasive bladder cancer to muscle-invasive disease is less in patients with lower fibroblast activation protein-\u03b1 (FAP) expression, which is a marker for cancer-associated fibroblasts.",
+      "journal": "Eur Urol Open Sci",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Muilwijk",
+          "fore_name": "Tim",
+          "affiliations": [
+            "Department of Urology, University Hospitals Leuven, Leuven, Belgium.",
+            "Organ Systems, KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Baekelandt",
+          "fore_name": "Lo\u00efc",
+          "affiliations": [
+            "Department of Urology, University Hospitals Leuven, Leuven, Belgium.",
+            "Organ Systems, KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Akand",
+          "fore_name": "Murat",
+          "affiliations": [
+            "Department of Urology, University Hospitals Leuven, Leuven, Belgium.",
+            "Organ Systems, KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Daelemans",
+          "fore_name": "Sofie",
+          "affiliations": [
+            "Pathology - Histology, Imaging and Quantification, CellCarta, Antwerp, Belgium.",
+            "Medical Biochemistry, Faculty of Pharmaceutical, Biomedical and Veterinary Sciences, University of Antwerp, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Marien",
+          "fore_name": "Koen",
+          "affiliations": [
+            "Pathology - Histology, Imaging and Quantification, CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Waumans",
+          "fore_name": "Yannick",
+          "affiliations": [
+            "Pathology - Histology, Imaging and Quantification, CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "van Dam",
+          "fore_name": "Pieter-Jan",
+          "affiliations": [
+            "Pathology - Histology, Imaging and Quantification, CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Kockx",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Pathology - Histology, Imaging and Quantification, CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van den Broeck",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Department of Urology, University Hospitals Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van Cleynenbreugel",
+          "fore_name": "Ben",
+          "affiliations": [
+            "Department of Urology, University Hospitals Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van der Aa",
+          "fore_name": "Frank",
+          "affiliations": [
+            "Department of Urology, University Hospitals Leuven, Leuven, Belgium.",
+            "Organ Systems, KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Gevaert",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Organ Systems, KU Leuven, Leuven, Belgium.",
+            "Department of Pathology, AZ Klina, Brasschaat, Belgium."
+          ]
+        },
+        {
+          "last_name": "Joniau",
+          "fore_name": "Steven",
+          "affiliations": [
+            "Department of Urology, University Hospitals Leuven, Leuven, Belgium.",
+            "Organ Systems, KU Leuven, Leuven, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Bacillus Calmette-Gu\u00e9rin",
+        "Biomarker",
+        "Carcinoma in situ",
+        "Fibroblast activation protein-\u03b1",
+        "Non-muscle-invasive bladder cancer",
+        "Prognosis",
+        "Progression",
+        "Progression-free survival"
+      ]
+    },
+    {
+      "pmid": "38943643",
+      "pmc": "PMC4982656",
+      "doi": "10.1016/j.celrep.2017.09.030.",
+      "title": "Retinoic acid enhances HIV-1 reverse transcription and transcription in macrophages via mTOR-modulated mechanisms.",
+      "abstract": "The intestinal environment facilitates HIV-1 infection via mechanisms involving the gut-homing vitamin A-derived retinoic acid (RA), which transcriptionally reprograms CD4",
+      "journal": "Cell Rep",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Dias",
+          "fore_name": "Jonathan",
+          "affiliations": [
+            "D\u00e9partement de microbiologie, infectiologie et immunologie, Facult\u00e9 de m\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada; Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Cattin",
+          "fore_name": "Am\u00e9lie",
+          "affiliations": [
+            "D\u00e9partement de microbiologie, infectiologie et immunologie, Facult\u00e9 de m\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada; Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Bendoumou",
+          "fore_name": "Maryam",
+          "affiliations": [
+            "Service of Molecular Virology, Department of Molecular Biology (DBM), Universit\u00e9 libre de Bruxelles (ULB), 6041 Gosselies, Belgium."
+          ]
+        },
+        {
+          "last_name": "Dutilleul",
+          "fore_name": "Antoine",
+          "affiliations": [
+            "Service of Molecular Virology, Department of Molecular Biology (DBM), Universit\u00e9 libre de Bruxelles (ULB), 6041 Gosselies, Belgium."
+          ]
+        },
+        {
+          "last_name": "Lodge",
+          "fore_name": "Robert",
+          "affiliations": [
+            "Institut de recherches cliniques de Montr\u00e9al, Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Goulet",
+          "fore_name": "Jean-Philippe",
+          "affiliations": [
+            "CellCarta, Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Fert",
+          "fore_name": "Augustine",
+          "affiliations": [
+            "D\u00e9partement de microbiologie, infectiologie et immunologie, Facult\u00e9 de m\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada; Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Raymond Marchand",
+          "fore_name": "Laurence",
+          "affiliations": [
+            "Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Wiche Salinas",
+          "fore_name": "Tomas Raul",
+          "affiliations": [
+            "D\u00e9partement de microbiologie, infectiologie et immunologie, Facult\u00e9 de m\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada; Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Ngassaki Yoka",
+          "fore_name": "Christ-Dominique",
+          "affiliations": [
+            "D\u00e9partement de microbiologie, infectiologie et immunologie, Facult\u00e9 de m\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada; Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Gabriel",
+          "fore_name": "Etiene Moreira",
+          "affiliations": [
+            "D\u00e9partement de microbiologie, infectiologie et immunologie, Facult\u00e9 de m\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada; Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Caballero",
+          "fore_name": "Ramon Edwin",
+          "affiliations": [
+            "Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada; Department of Microbiology and Immunology, McGill University Health Centre, Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Routy",
+          "fore_name": "Jean-Pierre",
+          "affiliations": [
+            "Infectious Diseases and Immunity in Global Health Program, Research Institute, McGill University Health Centre, Montr\u00e9al, QC, Canada; Chronic Viral Illness Service, McGill University Health Centre, Montr\u00e9al, QC, Canada; Division of Hematology, McGill University Health Centre, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Cohen",
+          "fore_name": "\u00c9ric A",
+          "affiliations": [
+            "D\u00e9partement de microbiologie, infectiologie et immunologie, Facult\u00e9 de m\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada; Institut de recherches cliniques de Montr\u00e9al, Montr\u00e9al, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Van Lint",
+          "fore_name": "Carine",
+          "affiliations": [
+            "Service of Molecular Virology, Department of Molecular Biology (DBM), Universit\u00e9 libre de Bruxelles (ULB), 6041 Gosselies, Belgium. Electronic address: carine.vanlint@ulb.be."
+          ]
+        },
+        {
+          "last_name": "Ancuta",
+          "fore_name": "Petronela",
+          "affiliations": [
+            "D\u00e9partement de microbiologie, infectiologie et immunologie, Facult\u00e9 de m\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada; Centre de recherche du centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CR-CHUM), Montr\u00e9al, QC, Canada. Electronic address: petronela.ancuta@umontreal.ca."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Macrophages",
+        "Humans",
+        "HIV-1",
+        "TOR Serine-Threonine Kinases",
+        "Tretinoin",
+        "Virus Replication",
+        "Reverse Transcription",
+        "SAM Domain and HD Domain-Containing Protein 1",
+        "HIV Infections",
+        "Cyclin-Dependent Kinase 9",
+        "RNA Polymerase II",
+        "Transcription, Genetic"
+      ],
+      "keywords": [
+        "ART",
+        "CCR5",
+        "CDK9",
+        "CP: Immunology",
+        "CP: Microbiology",
+        "HIV-1",
+        "RAR\u03b1",
+        "RNAPII",
+        "SAMHD1",
+        "mTOR",
+        "monocyte-derived macrophages",
+        "retinoic acid"
+      ]
+    },
+    {
+      "pmid": "38900640",
+      "pmc": "PMC2808928",
+      "doi": "10.1093/nar/gkp1002",
+      "title": "A pre-vaccination immune metabolic interplay determines the protective antibody response to a dengue virus vaccine.",
+      "abstract": "Protective immunity to dengue virus (DENV) requires antibody response to all four serotypes. Systems vaccinology identifies a multi-OMICs pre-vaccination signature and mechanisms predictive of broad antibody responses after immunization with a tetravalent live attenuated DENV vaccine candidate (Butantan-DV/TV003). Anti-inflammatory pathways, including TGF-\u03b2 signaling expressed by CD68",
+      "journal": "Cell Rep",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Pelletier",
+          "fore_name": "Adam-Nicolas",
+          "affiliations": [
+            "RPM Bioinfo Solutions, Sainte-Th\u00e9r\u00e8se, QC, Canada; Department of Pathology, Case Western Reserve University School of Medicine, Cleveland, OH, USA."
+          ]
+        },
+        {
+          "last_name": "Sanchez",
+          "fore_name": "Gabriela Pacheco",
+          "affiliations": [
+            "Pathology Advanced Translational Research Unit, Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Izmirly",
+          "fore_name": "Abdullah",
+          "affiliations": [
+            "Department of Medical Laboratory Sciences, Faculty of Applied Medical Sciences, King Abdulaziz University, Jeddah, Saudi Arabia."
+          ]
+        },
+        {
+          "last_name": "Watson",
+          "fore_name": "Mark",
+          "affiliations": [
+            "CellCarta, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Di Pucchio",
+          "fore_name": "Tiziana",
+          "affiliations": [
+            "Pathology Advanced Translational Research Unit, Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Carvalho",
+          "fore_name": "Karina Inacio",
+          "affiliations": [
+            "Department of Pathology, Case Western Reserve University School of Medicine, Cleveland, OH, USA; Hospital Israelita Albert Einstein, S\u00e3o Paulo, SP, Brazil."
+          ]
+        },
+        {
+          "last_name": "Filali-Mouhim",
+          "fore_name": "Abdelali",
+          "affiliations": [
+            "Centre de recherche du Centre hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Paramithiotis",
+          "fore_name": "Eustache",
+          "affiliations": [
+            "CellCarta, Montreal, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Timenetsky",
+          "fore_name": "Maria do Carmo S T",
+          "affiliations": [
+            "Instituto Adolfo Lutz, S\u00e3o Paulo, Brazil."
+          ]
+        },
+        {
+          "last_name": "Precioso",
+          "fore_name": "Alexander Roberto",
+          "affiliations": [
+            "Instituto Butantan, S\u00e3o Paulo, Brazil."
+          ]
+        },
+        {
+          "last_name": "Kalil",
+          "fore_name": "Jorge",
+          "affiliations": [
+            "Laboratory of Immunology, Heart Institute (InCor), Hospital das Cl\u00ednicas da Faculdade de Medicina da Universidade de S\u00e3o Paulo (HCFMUSP), S\u00e3o Paulo, SP, Brazil; Institute for Investigation in Immunology-Instituto Nacional de Ci\u00eancia e Tecnologia-iii-INCT, S\u00e3o Paulo, SP, Brazil."
+          ]
+        },
+        {
+          "last_name": "Diamond",
+          "fore_name": "Michael S",
+          "affiliations": [
+            "Departments of Medicine, Molecular Microbiology, and Pathology & Immunology, Washington University School of Medicine, St. Louis, MO 63110, USA."
+          ]
+        },
+        {
+          "last_name": "Haddad",
+          "fore_name": "Elias K",
+          "affiliations": [
+            "Department of Medicine and Microbiology and Immunology, Drexel University College of Medicine, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Kallas",
+          "fore_name": "Esper G",
+          "affiliations": [
+            "Instituto Butantan, S\u00e3o Paulo, Brazil; Department of Infectious and Parasitic Diseases, Hospital das Cl\u00ednicas, School of Medicine, University of Sao Paulo, S\u00e3o Paulo 01246-903, Brazil."
+          ]
+        },
+        {
+          "last_name": "Sekaly",
+          "fore_name": "Rafick Pierre",
+          "affiliations": [
+            "Pathology Advanced Translational Research Unit, Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, GA, USA. Electronic address: rafick.sekaly@emory.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Dengue Vaccines",
+        "Humans",
+        "Dengue Virus",
+        "Antibodies, Viral",
+        "Dengue",
+        "Monocytes",
+        "Antibody Formation",
+        "Transforming Growth Factor beta",
+        "Vaccination",
+        "Antibodies, Neutralizing"
+      ],
+      "keywords": [
+        "CP: Immunology",
+        "bile acids",
+        "dengue",
+        "immunology",
+        "systems biology",
+        "vaccine"
+      ]
+    },
+    {
+      "pmid": "38872830",
+      "pmc": "PMC11419333",
+      "doi": "10.18637/jss.v012.i05",
+      "title": "Identifying MAGE-A4-positive tumors for TCR T\u00a0cell therapies in HLA-A\u221702-eligible patients.",
+      "abstract": "T cell receptor (TCR) T\u00a0cell therapies target tumor antigens in a human leukocyte antigen (HLA)-restricted manner. Biomarker-defined therapies require validation of assays suitable for determination of patient eligibility. For clinical trials evaluating TCR\u00a0T\u00a0cell therapies targeting melanoma-associated antigen A4\u00a0(MAGE-A4), screening in studies NCT02636855 and NCT04044768 assesses patient eligibility based on: (1) high-resolution HLA typing and (2) tumor MAGE-A4 testing via an immunohistochemical assay in HLA-eligible patients. The HLA/MAGE-A4 assays validation, biomarker data, and their relationship to covariates (demographics, cancer type, histopathology, tissue location) are reported here. HLA-A\u221702 eligibility was 44.8% (2,959/6,606) in patients from 43 sites across North America and Europe. While HLA-A\u221702:01 was the most frequent HLA-A\u221702 allele, others (A\u221702:02, A\u221702:03, A\u221702:06) considerably increased HLA eligibility in Hispanic, Black, and Asian populations. Overall, MAGE-A4 prevalence based on clinical trial enrollment was 26% (447/1,750) across 10 solid tumor types, and was highest in synovial sarcoma (70%) and lowest in gastric cancer (9%). The covariates were generally not associated with MAGE-A4 expression, except for patient age in ovarian cancer and histology in non-small cell lung cancer. This report shows the eligibility rate from biomarker screening for TCR T\u00a0cell therapies and provides epidemiological data for future clinical development of MAGE-A4-targeted therapies.",
+      "journal": "Mol Ther Methods Clin Dev",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "Tianjiao",
+          "affiliations": [
+            "Clinical Biomarkers & Companion Diagnostics, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Navenot",
+          "fore_name": "Jean-Marc",
+          "affiliations": [
+            "Clinical Biomarkers & Companion Diagnostics, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Rafail",
+          "fore_name": "Stavros",
+          "affiliations": [
+            "Biomarker Discovery and Platform, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Kurtis",
+          "fore_name": "Cynthia",
+          "affiliations": [
+            "Clinical Biomarkers & Companion Diagnostics, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Carroll",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Information Management Clinical Systems, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Van Kerckhoven",
+          "fore_name": "Marian",
+          "affiliations": [
+            "Assay Development Histopathology, CellCarta, Antwerpen, Belgium."
+          ]
+        },
+        {
+          "last_name": "Van Rossom",
+          "fore_name": "Sofie",
+          "affiliations": [
+            "Assay Development Histopathology, CellCarta, Antwerpen, Belgium."
+          ]
+        },
+        {
+          "last_name": "Schats",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "Assay Development Histopathology, CellCarta, Antwerpen, Belgium."
+          ]
+        },
+        {
+          "last_name": "Avraam",
+          "fore_name": "Konstantinos",
+          "affiliations": [
+            "Histopathology & Image Quantification Unit, CellCarta, Antwerpen, Belgium."
+          ]
+        },
+        {
+          "last_name": "Broad",
+          "fore_name": "Robyn",
+          "affiliations": [
+            "Translational Sciences, Adaptimmune, Abingdon, Oxfordshire, UK."
+          ]
+        },
+        {
+          "last_name": "Howe",
+          "fore_name": "Karen",
+          "affiliations": [
+            "Target Validation, Adaptimmune, Abingdon, Oxfordshire, UK."
+          ]
+        },
+        {
+          "last_name": "Liddle",
+          "fore_name": "Ashley",
+          "affiliations": [
+            "Translational Sciences, Adaptimmune, Abingdon, Oxfordshire, UK."
+          ]
+        },
+        {
+          "last_name": "Clayton",
+          "fore_name": "Amber",
+          "affiliations": [
+            "Target Validation, Adaptimmune, Abingdon, Oxfordshire, UK."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Ruoxi",
+          "affiliations": [
+            "Information Management Clinical Systems, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Quinn",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Preclinical Research, Adaptimmune, Abingdon, Oxfordshire, UK."
+          ]
+        },
+        {
+          "last_name": "Sanderson",
+          "fore_name": "Joseph P",
+          "affiliations": [
+            "Preclinical Research, Adaptimmune, Abingdon, Oxfordshire, UK."
+          ]
+        },
+        {
+          "last_name": "McAlpine",
+          "fore_name": "Cheryl",
+          "affiliations": [
+            "Translational Sciences, Adaptimmune, Abingdon, Oxfordshire, UK."
+          ]
+        },
+        {
+          "last_name": "Carozza",
+          "fore_name": "Carly",
+          "affiliations": [
+            "Histocompatibility Laboratory Services, American Red Cross, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Pimpinella",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Histocompatibility Laboratory Services, American Red Cross, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Hsu",
+          "fore_name": "Susan",
+          "affiliations": [
+            "Histocompatibility Laboratory Services, American Red Cross, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Brophy",
+          "fore_name": "Francine",
+          "affiliations": [
+            "Clinical Science, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Elefant",
+          "fore_name": "Erica",
+          "affiliations": [
+            "Clinical Science, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Bayer",
+          "fore_name": "Paige",
+          "affiliations": [
+            "Clinical Science, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "Dennis",
+          "affiliations": [
+            "Late Stage Development, Adaptimmune, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Butler",
+          "fore_name": "Marcus O",
+          "affiliations": [
+            "Department of Medical Oncology and Hematology, Princess Margaret Cancer Centre, Departments of Immunology and Medicine, University of Toronto, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Clarke",
+          "fore_name": "Jeffrey M",
+          "affiliations": [
+            "Department of Medicine, Duke Cancer Institute, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Gainor",
+          "fore_name": "Justin F",
+          "affiliations": [
+            "Department of Medicine, Massachusetts General Hospital, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Govindan",
+          "fore_name": "Ramaswamy",
+          "affiliations": [
+            "Department of Medicine, Washington University School of Medicine, St. Louis, MO, USA."
+          ]
+        },
+        {
+          "last_name": "Moreno",
+          "fore_name": "Victor",
+          "affiliations": [
+            "Oncology, START Madrid FJD, Hospital Universitario Fundaci\u00f3n Jim\u00e9nez D\u00edaz, Madrid, Spain."
+          ]
+        },
+        {
+          "last_name": "Johnson",
+          "fore_name": "Melissa",
+          "affiliations": [
+            "Lung Cancer Research and Drug Development, Sarah Cannon Research Institute, Nashville, TN, USA."
+          ]
+        },
+        {
+          "last_name": "Tu",
+          "fore_name": "Janet",
+          "affiliations": [
+            "Department of General Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Hong",
+          "fore_name": "David S",
+          "affiliations": [
+            "Department of Investigational Cancer Therapeutics, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Blumenschein",
+          "fore_name": "George R",
+          "affiliations": [
+            "Thoracic/Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "HLA",
+        "MAGE-A4",
+        "T cell receptor",
+        "T cell therapy",
+        "assay validation",
+        "biomarker",
+        "clinical trial",
+        "immunotherapy",
+        "patient screening",
+        "precision medicine"
+      ]
+    },
+    {
+      "pmid": "38864397",
+      "pmc": "PMC8816448",
+      "doi": "10.1208/s12248-023-00830-5",
+      "title": "16",
+      "abstract": "The 16th GCC Closed Forum was held in Orlando, FL, USA, on 23\u00a0June 2023. Representatives from international bioanalytical Contract Research Organizations were in attendance in order to discuss scientific and regulatory issues specific to bioanalysis. The issues discussed at the meeting included: IS response, flow cytometry, changes to the bioanalytical industry, NGS assays, biomarker assay for tissues, dPCR validation, immunogenicity harmonization and ICH M10 implementation. Conclusions and consensus from discussions of these topics are included in this article.",
+      "journal": "Bioanalysis",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Zimmer",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Alturas Analytics, Moscow, Idaho, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Lester",
+          "fore_name": "Todd",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Diaz",
+          "fore_name": "Manisha",
+          "affiliations": [
+            "Eurofins Viracor, BioPharma Services, Lenexa, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Thomas",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Labcorp, Indianapolis, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "O'Dell",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Labcorp, Indianapolis, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "Hyer",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Labcorp, Madison, Wisconsin, USA."
+          ]
+        },
+        {
+          "last_name": "Tangri",
+          "fore_name": "Shabnam",
+          "affiliations": [
+            "Navigate Biopharma, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Dakappagari",
+          "fore_name": "Naveen",
+          "affiliations": [
+            "Navigate Biopharma, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Yuan",
+          "fore_name": "Moucun",
+          "affiliations": [
+            "PPD Clinical Research, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Lavelle",
+          "fore_name": "Amy",
+          "affiliations": [
+            "PPD Clinical Research, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Karnik",
+          "fore_name": "Shane",
+          "affiliations": [
+            "Aliri Bioanalysis, Colorado Springs, Colorado, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Aihua",
+          "affiliations": [
+            "Resolian (Formally Alliance Pharma), Malvern, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Accurant Biotech, Cranbury, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Sales",
+          "fore_name": "Kurt",
+          "affiliations": [
+            "Agilex Biolabs, Adelaide, Australia."
+          ]
+        },
+        {
+          "last_name": "Gorityala",
+          "fore_name": "Shashank",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Reynolds",
+          "fore_name": "Gregory",
+          "affiliations": [
+            "BioAgilytix, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Sangster",
+          "fore_name": "Tim",
+          "affiliations": [
+            "Celerion, Lincoln, Nebraska, USA."
+          ]
+        },
+        {
+          "last_name": "Franckaert",
+          "fore_name": "Dean",
+          "affiliations": [
+            "CellCarta Biosciences, Montreal, Canada."
+          ]
+        },
+        {
+          "last_name": "Love",
+          "fore_name": "Iain",
+          "affiliations": [
+            "Charles River Laboratories, Edinburgh, Tranent, UK."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Vimal",
+          "affiliations": [
+            "Charles River Laboratories, Reno, Nevada, USA."
+          ]
+        },
+        {
+          "last_name": "Roberge",
+          "fore_name": "Martin",
+          "affiliations": [
+            "CIRION BioPharma Research (a Cerba Research Company), Laval, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Jenny",
+          "affiliations": [
+            "CMIC, Hoffman Estates, Illinois, USA."
+          ]
+        },
+        {
+          "last_name": "Jerks",
+          "fore_name": "Erik",
+          "affiliations": [
+            "Eurofins Pharma Bioanalytics, Lake St. Louis, Missouri, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Frontage Laboratory, Exton, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Wei",
+          "affiliations": [
+            "GCC, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Nadarajah",
+          "fore_name": "Sankeetha",
+          "affiliations": [
+            "GCC, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Kernstock",
+          "fore_name": "Robert",
+          "affiliations": [
+            "ICON plc, Whitesboro, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Dufield",
+          "fore_name": "Dawn",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Ambrose",
+          "fore_name": "David",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Warrino",
+          "fore_name": "Dominic",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Luna",
+          "fore_name": "Marsha",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Marco",
+          "fore_name": "Chantal Di",
+          "affiliations": [
+            "Pharma Medica Research, Mississauga, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Tudoroniu",
+          "fore_name": "Ariana",
+          "affiliations": [
+            "Pharma Serv International, Bucharest, Romania."
+          ]
+        },
+        {
+          "last_name": "Iordachescu",
+          "fore_name": "Adriana",
+          "affiliations": [
+            "Pharma Serv International, Bucharest, Romania."
+          ]
+        },
+        {
+          "last_name": "Sanghvi",
+          "fore_name": "Mitesh",
+          "affiliations": [
+            "Pharmaron, Germantown, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Barton",
+          "fore_name": "Hollie",
+          "affiliations": [
+            "PPD Clinical Research, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Brown",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Q2 Solutions Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Hoffpauir",
+          "fore_name": "Brian",
+          "affiliations": [
+            "Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Rocha",
+          "fore_name": "Agostinho",
+          "affiliations": [
+            "Smithers, Ewing, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "United-Power Pharma Tech Co., Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Yamashita",
+          "fore_name": "Jim",
+          "affiliations": [
+            "WuXi AppTec, Plainsboro, NJ, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Flow Cytometry",
+        "Biomarkers",
+        "Humans",
+        "High-Throughput Nucleotide Sequencing",
+        "Real-Time Polymerase Chain Reaction"
+      ],
+      "keywords": [
+        "CRO",
+        "ICH M10",
+        "IS response",
+        "NGS assay",
+        "bioanalysis",
+        "biomarker assay",
+        "dPCR validation",
+        "flow cytometry",
+        "immunogenicity harmonization"
+      ]
+    },
+    {
+      "pmid": "38525811",
+      "doi": "10.1002/path.6274",
+      "title": "Automated tumor immunophenotyping predicts clinical benefit from anti-PD-L1 immunotherapy.",
+      "abstract": "Cancer immunotherapy has transformed the clinical approach to patients with malignancies, as profound benefits can be seen in a subset of patients. To identify this subset, biomarker analyses increasingly focus on phenotypic and functional evaluation of the tumor microenvironment to determine if density, spatial distribution, and cellular composition of immune cell infiltrates can provide prognostic and/or predictive information. Attempts have been made to develop standardized methods to evaluate immune infiltrates in the routine assessment of certain tumor types; however, broad adoption of this approach in clinical decision-making is still missing. We developed approaches to categorize solid tumors into 'desert', 'excluded', and 'inflamed' types according to the spatial distribution of CD8+ immune effector cells to determine the prognostic and/or predictive implications of such labels. To overcome the limitations of this subjective approach, we incrementally developed four automated analysis pipelines of increasing granularity and complexity for density and pattern assessment of immune effector cells. We show that categorization based on 'manual' observation is predictive for clinical benefit from anti-programmed death ligand 1 therapy in two large cohorts of patients with non-small cell lung cancer or triple-negative breast cancer. For the automated analysis we demonstrate that a combined approach outperforms individual pipelines and successfully relates spatial features to pathologist-based readouts and the patient's response to therapy. Our findings suggest that tumor immunophenotype generated by automated analysis pipelines should be evaluated further as potential predictive biomarkers for cancer immunotherapy. \u00a9 2024 The Pathological Society of Great Britain and Ireland.",
+      "journal": "J Pathol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Li",
+          "fore_name": "Xiao",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Eastham",
+          "fore_name": "Jeffrey",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Giltnane",
+          "fore_name": "Jennifer M",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Zou",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Zijlstra",
+          "fore_name": "Andries",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Tabatsky",
+          "fore_name": "Evgeniy",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Banchereau",
+          "fore_name": "Romain",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Chang",
+          "fore_name": "Ching-Wei",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Nabet",
+          "fore_name": "Barzin Y",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Patil",
+          "fore_name": "Namrata S",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Molinero",
+          "fore_name": "Luciana",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Chui",
+          "fore_name": "Steve",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Harryman",
+          "fore_name": "Maureen",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Lau",
+          "fore_name": "Shari",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Rangell",
+          "fore_name": "Linda",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Waumans",
+          "fore_name": "Yannick",
+          "affiliations": [
+            "CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Kockx",
+          "fore_name": "Mark",
+          "affiliations": [
+            "CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Orlova",
+          "fore_name": "Darya",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Koeppen",
+          "fore_name": "Hartmut",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Immunotherapy",
+        "B7-H1 Antigen",
+        "Neoplasms",
+        "Immunophenotyping",
+        "Molecular Targeted Therapy",
+        "Automation",
+        "Cohort Studies",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Triple Negative Breast Neoplasms",
+        "Biomarkers, Tumor",
+        "Treatment Outcome"
+      ],
+      "keywords": [
+        "CD8+ T cell",
+        "anti\u2010PD\u2010L1 immunotherapy",
+        "artificial intelligence",
+        "immunophenotype",
+        "non\u2010small cell lung cancer",
+        "panCK/CD8 immunohistochemistry",
+        "survival analysis",
+        "triple\u2010negative breast cancer"
+      ]
+    },
+    {
+      "pmid": "38113908",
+      "pmc": "PMC3314661",
+      "doi": "10.1093/infdis/jiad576",
+      "title": "IL-32 Drives the Differentiation of Cardiotropic CD4+ T Cells Carrying HIV DNA in People With HIV.",
+      "abstract": "Interleukin 32 (IL-32) is a potent multi-isoform proinflammatory cytokine, which is upregulated in people with HIV (PWH) and is associated with cardiovascular disease (CVD) risk. However, the impact of IL-32 isoforms on CD4 T-cell cardiotropism, a mechanism potentially contributing to heart inflammation, remains unknown. Here we show that IL-32 isoforms \u03b2 and \u03b3 induce the generation of CCR4+CXCR3+ double positive (DP) memory CD4 T-cell subpopulation expressing the tyrosine kinase receptor c-Met, a phenotype associated with heart-homing of T cells. Our ex vivo studies on PWH show that the frequency of DP CD4 T cells is significantly higher in individuals with, compared to individuals without, subclinical atherosclerosis and that DP cells from antiretroviral-naive and treated individuals are highly enriched with HIV DNA. Together, these data demonstrate that IL-32 isoforms have the potential to induce heart-homing of HIV-infected CD4 T cells, which may further aggravate heart inflammation and CVD in PWH.",
+      "journal": "J Infect Dis",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Ramani",
+          "fore_name": "Hardik",
+          "affiliations": [
+            "D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Gosselin",
+          "fore_name": "Annie",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Bunet",
+          "fore_name": "R\u00e9mi",
+          "affiliations": [
+            "D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Jenabian",
+          "fore_name": "Mohammad-Ali",
+          "affiliations": [
+            "D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "Department of Biological Sciences, Universit\u00e9 du Qu\u00e9bec Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Sylla",
+          "fore_name": "Mohamed",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Pagliuzza",
+          "fore_name": "Am\u00e9lie",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Chartrand-Lefebvre",
+          "fore_name": "Carl",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "D\u00e9partement de Radiologie, Radio-oncologie et M\u00e9decine Nucl\u00e9aire, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Routy",
+          "fore_name": "Jean-Pierre",
+          "affiliations": [
+            "Research Institute, McGill University Health Centre, Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Goulet",
+          "fore_name": "Jean-Philippe",
+          "affiliations": [
+            "CellCarta, Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Thomas",
+          "fore_name": "R\u00e9jean",
+          "affiliations": [
+            "Clinique M\u00e9dicale l'Actuel, Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Trottier",
+          "fore_name": "Benoit",
+          "affiliations": [
+            "Clinique de M\u00e9decine Urbaine du Quartier Latin, Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Martel-Laferri\u00e8re",
+          "fore_name": "Val\u00e9rie",
+          "affiliations": [
+            "D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Fortin",
+          "fore_name": "Claude",
+          "affiliations": [
+            "Department of Medical Microbiology and Department of Medicine, Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Chomont",
+          "fore_name": "Nicolas",
+          "affiliations": [
+            "D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Fromentin",
+          "fore_name": "R\u00e9mi",
+          "affiliations": [
+            "D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Landay",
+          "fore_name": "Alan L",
+          "affiliations": [
+            "Department of Internal Medicine, Rush University Medical Center, Chicago, Illinois, USA."
+          ]
+        },
+        {
+          "last_name": "Durand",
+          "fore_name": "Madeleine",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "D\u00e9partement de M\u00e9decine, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Ancuta",
+          "fore_name": "Petronela",
+          "affiliations": [
+            "D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "El-Far",
+          "fore_name": "Mohamed",
+          "affiliations": [
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Tremblay",
+          "fore_name": "Cecile",
+          "affiliations": [
+            "D\u00e9partement de Microbiologie, Infectiologie et Immunologie, Facult\u00e9 de M\u00e9decine, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Qu\u00e9bec, Canada.",
+            "Centre de Recherche du Centre Hospitalier de l'Universit\u00e9 de Montr\u00e9al (CRCHUM), Montr\u00e9al, Qu\u00e9bec, Canada."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Female",
+        "Humans",
+        "Male",
+        "CD4-Positive T-Lymphocytes",
+        "Cell Differentiation",
+        "DNA, Viral",
+        "HIV Infections",
+        "HIV-1",
+        "Interleukins",
+        "Protein Isoforms"
+      ],
+      "keywords": [
+        "CD4 T cells",
+        "HIV",
+        "IL-32",
+        "cardiovascular disease",
+        "heart-homing",
+        "inflammation"
+      ]
+    },
+    {
+      "pmid": "38412664",
+      "pmc": "PMC9219596",
+      "doi": "10.1016/j.tranon.2024.101907",
+      "title": "XIAP overexpressing inflammatory breast cancer patients have high infiltration of immunosuppressive subsets and increased TNFR1 signaling targetable with Birinapant.",
+      "abstract": "To assess the expression pattern of X-linked inhibitor of apoptosis protein (XIAP), a cellular stress sensor, and delineate the associated changes in the tumor immune microenvironment (TiME) for prognostic value and new therapeutic targets in inflammatory breast cancer (IBC). Immunohistochemistry was conducted to assess the spatial localization of immune subsets, XIAP, and PDL1 expression in IBC and non-inflammatory breast cancer (nIBC) pretreatment tumors (n = 142). Validation and further exploration were performed by gene expression analysis of patient tumors along with signaling studies in a co-culture model. High XIAP in 37/81 IBC patients correlated significantly with high PD-L1, increased infiltration of FOXP3+ Tregs, CD163+ tumor-associated macrophages (TAMs), low CD8/CD163 ratio in both tumor stroma (TS) and invasive margins (IM), and higher CD8+ T cells and CD79\u03b1+ B cells in the IM. Gene set enrichment analysis identified cellular stress response- and inflammation-related genes along with tumor necrosis factor receptor 1 (TNFR1) expression in high-XIAP IBC tumors. Induction of TNFR1 and XIAP was observed when patient-derived SUM149 IBC cells were co-cultured with human macrophage-conditioned media simulating TAMs, further demonstrating that the TNF-\u03b1 signaling pathway is a likely candidate governing TAM-induced XIAP overexpression in IBC cells. Finally, addition of Birinapant, a pan IAP antagonist, induced cell death in the pro-survival cytokine-enriched conditions. Using immunophenotyping and gene expression analysis in patient biospecimens along with in silico modeling and a preclinical model with a pan-IAP antagonist, this study revealed an interplay between increased TAMs, TNF-\u03b1 signaling, and XIAP activation during (immune) stress in IBC. These data demonstrate the potential of IAP antagonists as immunomodulators for improving IBC therapeutic regimens.",
+      "journal": "Transl Oncol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Van Berckelaer",
+          "fore_name": "Christophe",
+          "affiliations": [
+            "Multidisciplinary Breast Clinic, Antwerp University Hospital (UZA), Molecular Imaging, Pathology, Radiotherapy, Oncology (MIPRO); Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium; Center for Oncological Research (CORE), Integrated Personalized and Precision Oncology Network (IPPON), University of Antwerp, Antwerp, Belgium; Duke Consortium for Inflammatory Breast Cancer, Duke Cancer Institute, Duke University School of Medicine, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Van Laere",
+          "fore_name": "Steven",
+          "affiliations": [
+            "Center for Oncological Research (CORE), Integrated Personalized and Precision Oncology Network (IPPON), University of Antwerp, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Seayoung",
+          "affiliations": [
+            "Department of Surgery, Division of Surgical Sciences, Duke University School of Medicine, Durham, NC, USA; Duke Consortium for Inflammatory Breast Cancer, Duke Cancer Institute, Duke University School of Medicine, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Morse",
+          "fore_name": "Michael A",
+          "affiliations": [
+            "Department of Surgery, Division of Surgical Sciences, Duke University School of Medicine, Durham, NC, USA; Duke Consortium for Inflammatory Breast Cancer, Duke Cancer Institute, Duke University School of Medicine, Durham, NC, USA; Department of Medicine, Duke University, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Geradts",
+          "fore_name": "Joseph",
+          "affiliations": [
+            "Duke Consortium for Inflammatory Breast Cancer, Duke Cancer Institute, Duke University School of Medicine, Durham, NC, USA; Department of Pathology, Duke University School of Medicine, Durham, NC, USA; Department of Medicine, Duke University, Durham, NC, USA; Department of Pathology, East Carolina University Brody School of Medicine, Greenville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Dirix",
+          "fore_name": "Luc",
+          "affiliations": [
+            "Department of Oncology, GZA Hospitals, University of Antwerp, Antwerpen, Belgium."
+          ]
+        },
+        {
+          "last_name": "Kockx",
+          "fore_name": "Mark",
+          "affiliations": [
+            "CellCarta, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Bertucci",
+          "fore_name": "Fran\u00e7ois",
+          "affiliations": [
+            "Predictive Oncology team, Centre de Recherche en Canc\u00e9rologie de Marseille (CRCM), Inserm, CNRS, Aix-Marseille Universit\u00e9, Institut Paoli-Calmettes, Marseille, France."
+          ]
+        },
+        {
+          "last_name": "Van Dam",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Multidisciplinary Breast Clinic, Antwerp University Hospital (UZA), Molecular Imaging, Pathology, Radiotherapy, Oncology (MIPRO); Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium; Center for Oncological Research (CORE), Integrated Personalized and Precision Oncology Network (IPPON), University of Antwerp, Antwerp, Belgium. Electronic address: Peter.vandam@uza.be."
+          ]
+        },
+        {
+          "last_name": "Devi",
+          "fore_name": "Gayathri R",
+          "affiliations": [
+            "Department of Surgery, Division of Surgical Sciences, Duke University School of Medicine, Durham, NC, USA; Duke Consortium for Inflammatory Breast Cancer, Duke Cancer Institute, Duke University School of Medicine, Durham, NC, USA; Department of Pathology, Duke University School of Medicine, Durham, NC, USA. Electronic address: gayathri.devi@duke.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Birinapant, IAP-antagonist",
+        "Inflammatory breast cancer (IBC)",
+        "PD-L1",
+        "Tumor immune-microenvironment (TiME)",
+        "Tumor necrosis factor - alpha (TNF-\u03b1)",
+        "Tumor-associated macrophages (TAM)",
+        "XIAP"
+      ]
+    },
+    {
+      "pmid": "38230434",
+      "pmc": "PMC8286792",
+      "doi": "10.1002/path.6238",
+      "title": "Image-based multiplex immune profiling of cancer tissues: translational implications. A report of the International Immuno-oncology Biomarker Working Group on Breast Cancer.",
+      "abstract": "Recent advances in the field of immuno-oncology have brought transformative changes in the management of cancer patients. The immune profile of tumours has been found to have key value in predicting disease prognosis and treatment response in various cancers. Multiplex immunohistochemistry and immunofluorescence have emerged as potent tools for the simultaneous detection of multiple protein biomarkers in a single tissue section, thereby expanding opportunities for molecular and immune profiling while preserving tissue samples. By establishing the phenotype of individual tumour cells when distributed within a mixed cell population, the identification of clinically relevant biomarkers with high-throughput multiplex immunophenotyping of tumour samples has great potential to guide appropriate treatment choices. Moreover, the emergence of novel multi-marker imaging approaches can now provide unprecedented insights into the tumour microenvironment, including the potential interplay between various cell types. However, there are significant challenges to widespread integration of these technologies in daily research and clinical practice. This review addresses the challenges and potential solutions within a structured framework of action from a regulatory and clinical trial perspective. New developments within the field of immunophenotyping using multiplexed tissue imaging platforms and associated digital pathology are also described, with a specific focus on translational implications across different subtypes of cancer. \u00a9 2024 The Authors. The Journal of Pathology published by John Wiley & Sons Ltd on behalf of The Pathological Society of Great Britain and Ireland.",
+      "journal": "J Pathol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Jahangir",
+          "fore_name": "Chowdhury Arif",
+          "affiliations": [
+            "UCD School of Biomolecular and Biomedical Science, UCD Conway Institute, University College Dublin, Dublin, Ireland."
+          ]
+        },
+        {
+          "last_name": "Page",
+          "fore_name": "David B",
+          "affiliations": [
+            "Earle A Chiles Research Institute, Providence Cancer Institute, Portland, OR, USA."
+          ]
+        },
+        {
+          "last_name": "Broeckx",
+          "fore_name": "Glenn",
+          "affiliations": [
+            "Department of Pathology PA2, GZA-ZNA Hospitals, Antwerp, Belgium.",
+            "Centre for Oncological Research (CORE), MIPPRO, Faculty of Medicine, Antwerp University, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Gonzalez",
+          "fore_name": "Claudia A",
+          "affiliations": [
+            "UCD School of Biomolecular and Biomedical Science, UCD Conway Institute, University College Dublin, Dublin, Ireland."
+          ]
+        },
+        {
+          "last_name": "Burke",
+          "fore_name": "Caoimbhe",
+          "affiliations": [
+            "UCD School of Biomolecular and Biomedical Science, UCD Conway Institute, University College Dublin, Dublin, Ireland."
+          ]
+        },
+        {
+          "last_name": "Murphy",
+          "fore_name": "Clodagh",
+          "affiliations": [
+            "UCD School of Biomolecular and Biomedical Science, UCD Conway Institute, University College Dublin, Dublin, Ireland."
+          ]
+        },
+        {
+          "last_name": "Reis-Filho",
+          "fore_name": "Jorge S",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Ly",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Department of Pathology, Massachusetts General Hospital, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Harms",
+          "fore_name": "Paul W",
+          "affiliations": [
+            "Departments of Pathology and Dermatology, University of Michigan, Ann Arbor, MI, USA."
+          ]
+        },
+        {
+          "last_name": "Gupta",
+          "fore_name": "Rajarsi R",
+          "affiliations": [
+            "Department of Biomedical Informatics, Stony Brook University, Stony Brook, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Vieth",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Institute of Pathology, Klinikum Bayreuth GmbH, Friedrich-Alexander-University Erlangen-Nuremberg, Bayreuth, Germany."
+          ]
+        },
+        {
+          "last_name": "Hida",
+          "fore_name": "Akira I",
+          "affiliations": [
+            "Department of Pathology, Matsuyama Shimin Hospital, Matsuyama, Japan."
+          ]
+        },
+        {
+          "last_name": "Kahila",
+          "fore_name": "Mohamed",
+          "affiliations": [
+            "Department of Pathology, Yale School of Medicine, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Kos",
+          "fore_name": "Zuzana",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, University of British Columbia, BC Cancer, Vancouver, British Columbia, Canada."
+          ]
+        },
+        {
+          "last_name": "van Diest",
+          "fore_name": "Paul J",
+          "affiliations": [
+            "Department of Pathology, University Medical Center Utrecht, Utrecht, The Netherlands.",
+            "Johns Hopkins Oncology Center, Baltimore, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Verbandt",
+          "fore_name": "Sara",
+          "affiliations": [
+            "Digestive Oncology, Department of Oncology, KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Thagaard",
+          "fore_name": "Jeppe",
+          "affiliations": [
+            "Technical University of Denmark, Kgs. Lyngby, Denmark.",
+            "Visiopharm A/S, H\u00f8rsholm, Denmark."
+          ]
+        },
+        {
+          "last_name": "Khiroya",
+          "fore_name": "Reena",
+          "affiliations": [
+            "Department of Cellular Pathology, University College Hospital, London, UK."
+          ]
+        },
+        {
+          "last_name": "Abduljabbar",
+          "fore_name": "Khalid",
+          "affiliations": [
+            "Centre for Evolution and Cancer, The Institute of Cancer Research, London, UK."
+          ]
+        },
+        {
+          "last_name": "Acosta Haab",
+          "fore_name": "Gabriela",
+          "affiliations": [
+            "Hospital Maria Curie, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "last_name": "Acs",
+          "fore_name": "Balazs",
+          "affiliations": [
+            "Department of Oncology and Pathology, Karolinska Institutet, Stockholm, Sweden.",
+            "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Adams",
+          "fore_name": "Sylvia",
+          "affiliations": [
+            "Perlmutter Cancer Center, NYU Langone Health, New York, NY, USA.",
+            "Department of Medicine, NYU Grossman School of Medicine, Manhattan, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Almeida",
+          "fore_name": "Jonas S",
+          "affiliations": [
+            "Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute (NCI), Rockville, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Alvarado-Cabrero",
+          "fore_name": "Isabel",
+          "affiliations": [
+            "Oncology Hospital, Star Medica Centro, Juarez City, Mexico."
+          ]
+        },
+        {
+          "last_name": "Azmoudeh-Ardalan",
+          "fore_name": "Farid",
+          "affiliations": [
+            "Tehran University of Medical Sciences, Tehran, Iran."
+          ]
+        },
+        {
+          "last_name": "Badve",
+          "fore_name": "Sunil",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Emory University Winship Cancer Institute, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Baharun",
+          "fore_name": "Nurkhairul Bariyah",
+          "affiliations": [
+            "The National University of Malaysia, Kuala Lumpur, Malaysia."
+          ]
+        },
+        {
+          "last_name": "Bellolio",
+          "fore_name": "Enrique R",
+          "affiliations": [
+            "Departamento de Anatom\u00eda Patol\u00f3gica, Facultad de Medicina, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "last_name": "Bheemaraju",
+          "fore_name": "Vydehi",
+          "affiliations": [
+            "Department of Pathology, Narayana Medical College, Nellore, India."
+          ]
+        },
+        {
+          "last_name": "Blenman",
+          "fore_name": "Kim Rm",
+          "affiliations": [
+            "Department of Internal Medicine Section of Medical Oncology and Yale Cancer Center, Yale School of Medicine, New Haven, CT, USA.",
+            "Department of Computer Science, Yale School of Engineering and Applied Science, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Botinelly Mendon\u00e7a Fujimoto",
+          "fore_name": "Luciana",
+          "affiliations": [
+            "Amazonas Federal University, Manaus, Brazil."
+          ]
+        },
+        {
+          "last_name": "Burgues",
+          "fore_name": "Octavio",
+          "affiliations": [
+            "Pathology Department, Hospital Clin\u00edco Universitario de Valencia/Incliva, Valencia, Spain."
+          ]
+        },
+        {
+          "last_name": "Chardas",
+          "fore_name": "Alexandros",
+          "affiliations": [
+            "Department of Pathobiology & Population Sciences, The Royal Veterinary College, London, UK."
+          ]
+        },
+        {
+          "last_name": "Cheang",
+          "fore_name": "Maggie Chon U",
+          "affiliations": [
+            "Head of Integrative Genomics Analysis in Clinical Trials, ICR-CTSU, Division of Clinical Studies, The Institute of Cancer Research, London, UK."
+          ]
+        },
+        {
+          "last_name": "Ciompi",
+          "fore_name": "Francesco",
+          "affiliations": [
+            "Department of Pathology, Radboud University Medical Center, Nijmegen, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Cooper",
+          "fore_name": "Lee Ad",
+          "affiliations": [
+            "Department of Pathology, Northwestern Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Coosemans",
+          "fore_name": "An",
+          "affiliations": [
+            "Department of Oncology, Laboratory of Tumor Immunology and Immunotherapy, KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Corredor",
+          "fore_name": "Germ\u00e1n",
+          "affiliations": [
+            "Biomedical Engineering Department, Emory University, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Dantas Portela",
+          "fore_name": "Flavio Luis",
+          "affiliations": [
+            "Hospital Universit\u00e1rio Get\u00falio Vargas, Manaus, Brazil."
+          ]
+        },
+        {
+          "last_name": "Deman",
+          "fore_name": "Frederik",
+          "affiliations": [
+            "Department of Pathology PA2, GZA-ZNA Hospitals, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Demaria",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "Department of Radiation Oncology, Weill Cornell Medical College, New York, NY, USA.",
+            "Department of Pathology, Weill Cornell Medicine, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Dudgeon",
+          "fore_name": "Sarah N",
+          "affiliations": [
+            "Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Elghazawy",
+          "fore_name": "Mahmoud",
+          "affiliations": [
+            "University of Surrey, Guildford, UK.",
+            "Ain Shams University, Cairo, Egypt."
+          ]
+        },
+        {
+          "last_name": "Fernandez-Mart\u00edn",
+          "fore_name": "Claudio",
+          "affiliations": [
+            "Instituto Universitario de Investigaci\u00f3n en Tecnolog\u00eda Centrada en el Ser Humano, HUMAN-tech, Universitat Polit\u00e8cnica de Val\u00e8ncia, Valencia, Spain."
+          ]
+        },
+        {
+          "last_name": "Fineberg",
+          "fore_name": "Susan",
+          "affiliations": [
+            "Montefiore Medical Center and the Albert Einstein College of Medicine, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Fox",
+          "fore_name": "Stephen B",
+          "affiliations": [
+            "Pathology, Peter MacCallum Cancer Centre and Sir Peter MacCallum Department of Oncology, University of Melbourne, Melbourne, Victoria, Australia."
+          ]
+        },
+        {
+          "last_name": "Giltnane",
+          "fore_name": "Jennifer M",
+          "affiliations": [
+            "Genentech, San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Gnjatic",
+          "fore_name": "Sacha",
+          "affiliations": [
+            "Department of Oncological Sciences, Medicine Hem/Onc, and Pathology, Tisch Cancer Institute - Precision Immunology Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Gonzalez-Ericsson",
+          "fore_name": "Paula I",
+          "affiliations": [
+            "Department of Medicine, Vanderbilt University Medical Center, Nashville, TN, USA."
+          ]
+        },
+        {
+          "last_name": "Grigoriadis",
+          "fore_name": "Anita",
+          "affiliations": [
+            "Cancer Bioinformatics, Faculty of Life Sciences and Medicine, School of Cancer & Pharmaceutical Sciences, King's College London, London, UK.",
+            "The Breast Cancer Now Research Unit, Faculty of Life Sciences and Medicine, School of Cancer and Pharmaceutical Sciences, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Halama",
+          "fore_name": "Niels",
+          "affiliations": [
+            "Department of Translational Immunotherapy, German Cancer Research Center, Heidelberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Hanna",
+          "fore_name": "Matthew G",
+          "affiliations": [
+            "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Harbhajanka",
+          "fore_name": "Aparna",
+          "affiliations": [
+            "Case Western University, Cleveland, OH, USA."
+          ]
+        },
+        {
+          "last_name": "Hart",
+          "fore_name": "Steven N",
+          "affiliations": [
+            "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, USA."
+          ]
+        },
+        {
+          "last_name": "Hartman",
+          "fore_name": "Johan",
+          "affiliations": [
+            "Department of Clinical Pathology and Cancer Diagnostics, Karolinska University Hospital, Stockholm, Sweden.",
+            "Department of Oncology-Pathology, Karolinska Institutet, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Hewitt",
+          "fore_name": "Stephen",
+          "affiliations": [
+            "Laboratory of Pathology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Horlings",
+          "fore_name": "Hugo M",
+          "affiliations": [
+            "Division of Pathology, Netherlands Cancer Institute (NKI), Amsterdam, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Husain",
+          "fore_name": "Zaheed",
+          "affiliations": [
+            "Praava Health, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Irshad",
+          "fore_name": "Sheeba",
+          "affiliations": [
+            "King's College London & Guys & St Thomas NHS Trust, London, UK."
+          ]
+        },
+        {
+          "last_name": "Janssen",
+          "fore_name": "Emiel Am",
+          "affiliations": [
+            "Department of Pathology, Stavanger University Hospital, Stavanger, Norway.",
+            "Department of Chemistry, Bioscience and Environmental Technology, University of Stavanger, Stavanger, Norway."
+          ]
+        },
+        {
+          "last_name": "Kataoka",
+          "fore_name": "Tatsuki R",
+          "affiliations": [
+            "Department of Pathology, Iwate Medical University, Morioka, Japan."
+          ]
+        },
+        {
+          "last_name": "Kawaguchi",
+          "fore_name": "Kosuke",
+          "affiliations": [
+            "Department of Breast Surgery, Kyoto University Graduate School of Medicine, Kyoto, Japan."
+          ]
+        },
+        {
+          "last_name": "Khramtsov",
+          "fore_name": "Andrey I",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, Ann & Robert H. Lurie Children's Hospital of Chicago, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Kiraz",
+          "fore_name": "Umay",
+          "affiliations": [
+            "Department of Pathology, Stavanger University Hospital, Stavanger, Norway.",
+            "Department of Chemistry, Bioscience and Environmental Technology, University of Stavanger, Stavanger, Norway."
+          ]
+        },
+        {
+          "last_name": "Kirtani",
+          "fore_name": "Pawan",
+          "affiliations": [
+            "Histopathology, Aakash Healthcare Super Speciality Hospital, New Delhi, India."
+          ]
+        },
+        {
+          "last_name": "Kodach",
+          "fore_name": "Liudmila L",
+          "affiliations": [
+            "Department of Pathology, Netherlands Cancer Institute - Antoni van Leeuwenhoek Hospital, Amsterdam, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Korski",
+          "fore_name": "Konstanty",
+          "affiliations": [
+            "Data, Analytics and Imaging, Product Development, F. Hoffmann-La Roche AG, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Akturk",
+          "fore_name": "Guray",
+          "affiliations": [
+            "Translational Molecular Biomarkers, Merck & Co., Inc., Kenilworth, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Scott",
+          "fore_name": "Ely",
+          "affiliations": [
+            "Translational Medicine, Bristol Myers Squibb, Princeton, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Kov\u00e1cs",
+          "fore_name": "Anik\u00f3",
+          "affiliations": [
+            "Department of Clinical Pathology, Sahlgrenska University Hospital, Gothenburg, Sweden.",
+            "Institute of Biomedicine, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Laenkholm",
+          "fore_name": "Anne-Vibeke",
+          "affiliations": [
+            "Department of Surgical Pathology, Zealand University Hospital, Roskilde, Denmark.",
+            "Department of Surgical Pathology, University of Copenhagen, Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Lang-Schwarz",
+          "fore_name": "Corinna",
+          "affiliations": [
+            "Institute of Pathology, Klinikum Bayreuth GmbH, Friedrich-Alexander-University Erlangen-Nuremberg, Bayreuth, Germany."
+          ]
+        },
+        {
+          "last_name": "Larsimont",
+          "fore_name": "Denis",
+          "affiliations": [
+            "Institut Jules Bordet, Universit\u00e9 Libre de Bruxelles, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Lennerz",
+          "fore_name": "Jochen K",
+          "affiliations": [
+            "Center for Integrated Diagnostics, Massachusetts General Hospital/Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Lerousseau",
+          "fore_name": "Marvin",
+          "affiliations": [
+            "Centre for Computational Biology (CBIO), Mines Paris, PSL University, Paris, France.",
+            "Institut Curie, PSL University, Paris, France.",
+            "INSERM U900, Paris, France."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xiaoxian",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, Emory University, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Madabhushi",
+          "fore_name": "Anant",
+          "affiliations": [
+            "Department of Biomedical Engineering, Radiology and Imaging Sciences, Biomedical Informatics, Pathology, Georgia Institute of Technology and Emory University, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Maley",
+          "fore_name": "Sai K",
+          "affiliations": [
+            "NRG Oncology/NSABP Foundation, Pittsburgh, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Manur Narasimhamurthy",
+          "fore_name": "Vidya",
+          "affiliations": [
+            "Manipal Hospitals, Bangalore, India."
+          ]
+        },
+        {
+          "last_name": "Marks",
+          "fore_name": "Douglas K",
+          "affiliations": [
+            "Perlmutter Cancer Center, NYU Langone Health, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "McDonald",
+          "fore_name": "Elizabeth S",
+          "affiliations": [
+            "Breast Cancer Translational Research Group, University of Pennsylvania, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Mehrotra",
+          "fore_name": "Ravi",
+          "affiliations": [
+            "Indian Cancer Genomic Atlas, Pune, India.",
+            "Centre for Health, Innovation and Policy Foundation, Noida, India."
+          ]
+        },
+        {
+          "last_name": "Michiels",
+          "fore_name": "Stefan",
+          "affiliations": [
+            "Office of Biostatistics and Epidemiology, Gustave Roussy, Oncostat U1018, Inserm, University Paris-Saclay, Ligue Contre le Cancer labeled Team, Villejuif, France."
+          ]
+        },
+        {
+          "last_name": "Kharidehal",
+          "fore_name": "Durga",
+          "affiliations": [
+            "Department of Pathology, Narayana Medical College and Hospital, Nellore, India."
+          ]
+        },
+        {
+          "last_name": "Minhas",
+          "fore_name": "Fayyaz Ul Amir Afsar",
+          "affiliations": [
+            "Tissue Image Analytics Centre, Warwick Cancer Research Centre, PathLAKE Consortium, Department of Computer Science, University of Warwick, Coventry, UK."
+          ]
+        },
+        {
+          "last_name": "Mittal",
+          "fore_name": "Shachi",
+          "affiliations": [
+            "Department of Chemical Engineering, Department of Laboratory Medicine and Pathology, University of Washington, Seattle, Washington, USA."
+          ]
+        },
+        {
+          "last_name": "Moore",
+          "fore_name": "David A",
+          "affiliations": [
+            "CRUK Lung Cancer Centre of Excellence, UCL and Cellular Pathology Department, UCLH, London, UK."
+          ]
+        },
+        {
+          "last_name": "Mushtaq",
+          "fore_name": "Shamim",
+          "affiliations": [
+            "Department of Biochemistry, Ziauddin University, Karachi, Pakistan."
+          ]
+        },
+        {
+          "last_name": "Nighat",
+          "fore_name": "Hussain",
+          "affiliations": [
+            "Pathology and Laboratory Medicine, All India Institute of Medical Sciences, Raipur, India."
+          ]
+        },
+        {
+          "last_name": "Papathomas",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Institute of Metabolism and Systems Research, University of Birmingham, Birmingham, UK.",
+            "Department of Clinical Pathology, Drammen Sykehus, Vestre Viken HF, Drammen, Norway."
+          ]
+        },
+        {
+          "last_name": "Penault-Llorca",
+          "fore_name": "Frederique",
+          "affiliations": [
+            "Service de Pathologie et Biopathologie, Centre Jean PERRIN, INSERM U1240 Imagerie Mol\u00e9culaire et Strat\u00e9gies Th\u00e9ranostiques (IMoST), Universit\u00e9 Clermont Auvergne, Clermont-Ferrand, France."
+          ]
+        },
+        {
+          "last_name": "Perera",
+          "fore_name": "Rashindrie D",
+          "affiliations": [
+            "School of Electrical, Mechanical and Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia.",
+            "Division of Cancer Research, Peter MacCallum Cancer Centre, Melbourne, Victoria, Australia."
+          ]
+        },
+        {
+          "last_name": "Pinard",
+          "fore_name": "Christopher J",
+          "affiliations": [
+            "Radiogenomics Laboratory, Sunnybrook Health Sciences Centre, Toronto, Ontario, Canada.",
+            "Department of Clinical Studies, Ontario Veterinary College, University of Guelph, Guelph, Ontario, Canada.",
+            "Department of Oncology, Lakeshore Animal Health Partners, Mississauga, Ontario, Canada.",
+            "Centre for Advancing Responsible and Ethical Artificial Intelligence (CARE-AI), University of Guelph, Guelph, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Pinto-Cardenas",
+          "fore_name": "Juan Carlos",
+          "affiliations": [
+            "Diagnostico de Salud Animal SA, Ciudad de M\u00e9xico, Mexico."
+          ]
+        },
+        {
+          "last_name": "Pruneri",
+          "fore_name": "Giancarlo",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy.",
+            "Faculty of Medicine and Surgery, University of Milan, Milan, Italy."
+          ]
+        },
+        {
+          "last_name": "Pusztai",
+          "fore_name": "Lajos",
+          "affiliations": [
+            "Yale Cancer Center, Yale University, New Haven, CT, USA.",
+            "Department of Medical Oncology, Yale School of Medicine, Yale University, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Rajpoot",
+          "fore_name": "Nasir Mahmood",
+          "affiliations": [
+            "University of Warwick, Coventry, UK."
+          ]
+        },
+        {
+          "last_name": "Rapoport",
+          "fore_name": "Bernardo Leon",
+          "affiliations": [
+            "The Medical Oncology Centre of Rosebank, Johannesburg, South Africa.",
+            "Department of Immunology, Faculty of Health Sciences, University of Pretoria, Pretoria, South Africa."
+          ]
+        },
+        {
+          "last_name": "Rau",
+          "fore_name": "Tilman T",
+          "affiliations": [
+            "Institute of Pathology, University Hospital D\u00fcsseldorf and Heinrich-Heine-University, D\u00fcsseldorf, Germany."
+          ]
+        },
+        {
+          "last_name": "Ribeiro",
+          "fore_name": "Joana M",
+          "affiliations": [
+            "Breast Unit, Institute Gustave Roussy, Villejuif, France."
+          ]
+        },
+        {
+          "last_name": "Rimm",
+          "fore_name": "David",
+          "affiliations": [
+            "Department of Pathology, Yale University School of Medicine, New Haven, CT, USA.",
+            "Department of Medicine, Yale University School of Medicine, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Vincent-Salomon",
+          "fore_name": "Anne",
+          "affiliations": [
+            "Department of Diagnostic and Theranostic Medicine, Institut Curie, University Paris-Sciences et Lettres, Paris, France."
+          ]
+        },
+        {
+          "last_name": "Saltz",
+          "fore_name": "Joel",
+          "affiliations": [
+            "Department of Biomedical Informatics, Stony Brook Medicine, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Sayed",
+          "fore_name": "Shahin",
+          "affiliations": [
+            "Department of Pathology, Aga Khan University, Nairobi, Kenya."
+          ]
+        },
+        {
+          "last_name": "Hytopoulos",
+          "fore_name": "Evangelos",
+          "affiliations": [
+            "Department of Pathology, Aga Khan University, Nairobi, Kenya.",
+            "iRhythm Technologies Inc., San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Mahon",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "Mater Misericordiae University Hospital, Dublin, Ireland."
+          ]
+        },
+        {
+          "last_name": "Siziopikou",
+          "fore_name": "Kalliopi P",
+          "affiliations": [
+            "Department of Pathology, Section of Breast Pathology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Sotiriou",
+          "fore_name": "Christos",
+          "affiliations": [
+            "Breast Cancer Translational Research Laboratory J.-C. Heuson, Institut Jules Bordet, H\u00f4pital Universitaire de Bruxelles (H.U.B), Universit\u00e9 Libre de Bruxelles (ULB), Brussels, Belgium.",
+            "Medical Oncology Department, Institut Jules Bordet, H\u00f4pital Universitaire de Bruxelles (H.U.B), Universit\u00e9 Libre de Bruxelles (ULB), Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Stenzinger",
+          "fore_name": "Albrecht",
+          "affiliations": [
+            "Institute of Pathology, University Hospital Heidelberg, Centers for Personalized Medicine (ZPM), Heidelberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Sughayer",
+          "fore_name": "Maher A",
+          "affiliations": [
+            "King Hussein Cancer Center, Amman, Jordan."
+          ]
+        },
+        {
+          "last_name": "Sur",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Department of Medical Oncology, University of Medicine and Pharmacy \"Iuliu Hatieganu\", Cluj-Napoca, Romania."
+          ]
+        },
+        {
+          "last_name": "Symmans",
+          "fore_name": "Fraser",
+          "affiliations": [
+            "University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Tanaka",
+          "fore_name": "Sunao",
+          "affiliations": [
+            "Kyoto University, Kyoto, Japan."
+          ]
+        },
+        {
+          "last_name": "Taxter",
+          "fore_name": "Timothy",
+          "affiliations": [
+            "Tempus Labs, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Tejpar",
+          "fore_name": "Sabine",
+          "affiliations": [
+            "Digestive Oncology, Department of Oncology, KU Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Teuwen",
+          "fore_name": "Jonas",
+          "affiliations": [
+            "AI for Oncology Lab, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Thompson",
+          "fore_name": "E Aubrey",
+          "affiliations": [
+            "Mayo Clinic, Jacksonville, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Tramm",
+          "fore_name": "Trine",
+          "affiliations": [
+            "Department of Pathology, Institute of Clinical Medicine, Aarhus University Hospital, Aarhus, Denmark."
+          ]
+        },
+        {
+          "last_name": "Tran",
+          "fore_name": "William T",
+          "affiliations": [
+            "Department of Radiation Oncology, University of Toronto and Sunnybrook Health Sciences Centre, Toronto, Canada."
+          ]
+        },
+        {
+          "last_name": "van der Laak",
+          "fore_name": "Jeroen",
+          "affiliations": [
+            "Head of Integrative Genomics Analysis in Clinical Trials, ICR-CTSU, Division of Clinical Studies, The Institute of Cancer Research, London, UK."
+          ]
+        },
+        {
+          "last_name": "Verghese",
+          "fore_name": "Gregory E",
+          "affiliations": [
+            "Cancer Bioinformatics, Faculty of Life Sciences and Medicine, School of Cancer & Pharmaceutical Sciences, King's College London, London, UK.",
+            "The Breast Cancer Now Research Unit, Faculty of Life Sciences and Medicine, School of Cancer and Pharmaceutical Sciences, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Viale",
+          "fore_name": "Giuseppe",
+          "affiliations": [
+            "Department of Pathology, European Institute of Oncology & University of Milan, Milan, Italy."
+          ]
+        },
+        {
+          "last_name": "Wahab",
+          "fore_name": "Noorul",
+          "affiliations": [
+            "Tissue Image Analytics Centre, Department of Computer Science, University of Warwick, Coventry, UK."
+          ]
+        },
+        {
+          "last_name": "Walter",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Centre for Computational Biology (CBIO), Mines Paris, PSL University, Paris, France.",
+            "Institut Curie, PSL University, Paris, France.",
+            "INSERM U900, Paris, France."
+          ]
+        },
+        {
+          "last_name": "Waumans",
+          "fore_name": "Yannick",
+          "affiliations": [
+            "CellCarta NV, Antwerp, Belgium."
+          ]
+        },
+        {
+          "last_name": "Wen",
+          "fore_name": "Hannah Y",
+          "affiliations": [
+            "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Wentao",
+          "affiliations": [
+            "Fudan Medical University Shanghai Cancer Center, Shanghai, PR China."
+          ]
+        },
+        {
+          "last_name": "Yuan",
+          "fore_name": "Yinyin",
+          "affiliations": [
+            "Department of Translational Molecular Pathology, Division of Pathology and Laboratory Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Bartlett",
+          "fore_name": "John",
+          "affiliations": [
+            "University of Edinburgh, Edinburgh, UK."
+          ]
+        },
+        {
+          "last_name": "Loibl",
+          "fore_name": "Sibylle",
+          "affiliations": [
+            "Department of Medicine and Research, German Breast Group, Neu-Isenburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Denkert",
+          "fore_name": "Carsten",
+          "affiliations": [
+            "Institut f\u00fcr Pathologie, Philipps-Universit\u00e4t Marburg und Universit\u00e4tsklinikum Marburg, Marburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Savas",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Division of Cancer Research, Peter MacCallum Cancer Centre, Melbourne, Victoria, Australia.",
+            "The Sir Peter MacCallum Department of Medical Oncology, University of Melbourne, Melbourne, Victoria, Australia."
+          ]
+        },
+        {
+          "last_name": "Loi",
+          "fore_name": "Sherene",
+          "affiliations": [
+            "Division of Cancer Research, Peter MacCallum Cancer Centre, Melbourne, Victoria, Australia.",
+            "Sir Peter MacCallum Department of Oncology, The University of Melbourne, Melbourne, Victoria, Australia."
+          ]
+        },
+        {
+          "last_name": "Specht Stovgaard",
+          "fore_name": "Elisabeth",
+          "affiliations": [
+            "Department of Pathology, Herlev and Gentofte Hospital, Herlev, Denmark."
+          ]
+        },
+        {
+          "last_name": "Salgado",
+          "fore_name": "Roberto",
+          "affiliations": [
+            "Department of Pathology PA2, GZA-ZNA Hospitals, Antwerp, Belgium.",
+            "Division of Cancer Research, Peter MacCallum Cancer Centre, Melbourne, Victoria, Australia."
+          ]
+        },
+        {
+          "last_name": "Gallagher",
+          "fore_name": "William M",
+          "affiliations": [
+            "UCD School of Biomolecular and Biomedical Science, UCD Conway Institute, University College Dublin, Dublin, Ireland."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Arman",
+          "affiliations": [
+            "UCD School of Medicine, UCD Conway Institute, University College Dublin, Dublin, Ireland."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Breast Neoplasms",
+        "Biomarkers, Tumor",
+        "Prognosis",
+        "Phenotype",
+        "United Kingdom",
+        "Tumor Microenvironment"
+      ],
+      "keywords": [
+        "cancer prognosis",
+        "clinical integration",
+        "digital image analysis",
+        "multiplex imaging",
+        "multiplex immunofluorescence",
+        "multiplex immunohistochemistry",
+        "therapy response",
+        "tumour immune profiling",
+        "tumour infiltrating lymphocytes"
+      ]
+    }
+  ]
+}

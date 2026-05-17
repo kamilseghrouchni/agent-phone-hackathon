@@ -1,0 +1,159 @@
+{
+  "bundle_id": "cll-leukemia-pbmc-plasma-tissue",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "cll_specific": {
+      "total_specimens": 188,
+      "total_donors": 58
+    },
+    "broader_leukemia": {
+      "total_specimens": 231,
+      "total_donors": 88
+    },
+    "organizations": [
+      "France Tissue Bank",
+      "Ukraine Research Group",
+      "JLR Life Sciences",
+      "ProteoGenex",
+      "C-BIG",
+      "CHTN Eastern",
+      "CSD Bio",
+      "Medical Gate",
+      "Reference Medicine",
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 0
+  },
+  "specimen_breakdown": {
+    "Tissue": 115,
+    "Plasma": 28,
+    "PBMC": 13,
+    "Serum": 11,
+    "note": "Breakdown across CLL + broader leukemia pool"
+  },
+  "organizations": [
+    {
+      "name": "France Tissue Bank",
+      "organization_id": "24896abd-fc2c-4310-a02e-d5fbd211562e",
+      "country": ["FRA"],
+      "website": "https://francetissuebank.com/en",
+      "contact_email": "contact@francetissuebank.com",
+      "address": "",
+      "description": "France Tissue Bank \u2014 Your trusted partner for high-quality, responsive biospecimen sourcing.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "PBMC": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {"mean_age": null, "countries": ["FRA"]}
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": ["UKR"],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "PBMC": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {"mean_age": null, "countries": ["UKR"]}
+    },
+    {
+      "name": "JLR Life Sciences",
+      "organization_id": "235e6ec4-ad5e-4ed8-9fa9-3f566c045ff8",
+      "country": [null],
+      "website": "https://jlrlifesciences.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "High-quality biospecimens. Precision lab services. One trusted partner.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "PBMC": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {"mean_age": null, "countries": [null]}
+    },
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": ["USA"],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "PBMC": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {"mean_age": null, "countries": ["USA"]}
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": ["USA"],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "PBMC": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {"mean_age": null, "countries": ["USA"]}
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": ["UKR"],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "PBMC": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {"mean_age": null, "countries": ["UKR"]}
+    }
+  ],
+  "coverage_gaps": {
+    "ighv_mutation_status": "not tracked in any biospecimen registry \u2014 requires molecular testing or clinical record linkage",
+    "treatment_naive_flag": "not reliably tracked \u2014 treatment-naive CLL enrolled in trials, not commercial biobanks",
+    "pbmc_cryopreservation_protocol": "not tracked in AminoChain data \u2014 critical for PBMC viability; requires direct inquiry",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data",
+    "bone_marrow_biopsy_availability": "very limited in commercial biobanks \u2014 structural scarcity"
+  }
+}

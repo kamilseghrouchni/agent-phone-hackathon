@@ -1,0 +1,413 @@
+{
+  "bundle_id": "gastric-ffpe",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 1605,
+    "total_secondary_specimens": 0,
+    "total_donors": 1182,
+    "organizations": [
+      "ProteoGenex",
+      "BIOMEDICA CRO",
+      "Ukraine Research Group",
+      "France Tissue Bank",
+      "CHTN Eastern",
+      "CSD Bio",
+      "Reference Medicine",
+      "NDRI"
+    ],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 1024,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {
+        "HER2": 5,
+        "ER": 386,
+        "PR": 386,
+        "Ki67": 36
+      },
+      "tnm_staged": 882,
+      "treatment_naive": 1024,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 59.4,
+        "n_with_age": 1024,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 227,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 225,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 65.1,
+        "n_with_age": 227,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": [
+        "UKR"
+      ],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research. We focus on the development of biobanks and the use of high-quality ",
+      "specimens": {
+        "primary": {
+          "count": 140,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 117,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 64.2,
+        "n_with_age": 136,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "France Tissue Bank",
+      "organization_id": "24896abd-fc2c-4310-a02e-d5fbd211562e",
+      "country": [
+        "FRA"
+      ],
+      "website": "https://francetissuebank.com/en",
+      "contact_email": "contact@francetissuebank.com",
+      "address": "",
+      "description": "France Tissue Bank \u2013 Your trusted partner for high-quality, responsive biospecimen sourcing\n\nLooking for high-standard, reliable samples with fast turnaround times? France Tissue Bank (FTB) is your id",
+      "specimens": {
+        "primary": {
+          "count": 137,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 118,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 73.2,
+        "n_with_age": 137,
+        "countries": [
+          "FRA"
+        ]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "primary": {
+          "count": 52,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 54.4,
+        "n_with_age": 52,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "CSD Bio",
+      "organization_id": "fe7fb818-c267-4388-8e7c-3f5fd6f8edc2",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://www.csdbio.com.ua/",
+      "contact_email": "d.obukhov@csd.com.ua",
+      "address": "",
+      "description": "CSD BIO is Ukrainian Biobank prone to empower researchers with the tools for advancing precision medicine\u200b. Our biorepository offers an extensive inventory of biospecimens as well as an exclusive labo",
+      "specimens": {
+        "primary": {
+          "count": 23,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 23,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 68.2,
+        "n_with_age": 23,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Reference Medicine",
+      "organization_id": "59472417-e35a-4f24-8491-f46679319297",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.referencemedicine.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "Designed by researchers, for researchers.",
+      "specimens": {
+        "primary": {
+          "count": 1,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 1,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 70.0,
+        "n_with_age": 1,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "NDRI",
+      "organization_id": "a8ee3e47-6144-4e75-8870-1ec8c132f9f8",
+      "country": [
+        "USA"
+      ],
+      "website": "https://ndriresource.org/",
+      "contact_email": "info@ndriresource.org",
+      "address": "Three Parkway 1601 Cherry Street, Suite 1700 Philadelphia, PA 19102 USA",
+      "description": "We provide human biospecimens worldwide to advance biomedical/bioscience research & development.",
+      "specimens": {
+        "primary": {
+          "count": 1,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 72.0,
+        "n_with_age": 1,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "0500ed7eb39a...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": 52,
+      "diagnoses": [
+        "Liver cancer (hepatocellular carcinoma)",
+        "Cirrhosis",
+        "Gastrointestinal disorder",
+        "Atherosclerosis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 4.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "0c1370e893cb...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": 52,
+      "diagnoses": [
+        "Liver cancer (hepatocellular carcinoma)",
+        "Cirrhosis",
+        "Gastrointestinal disorder",
+        "Atherosclerosis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 4.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "0cdfe97aa1d2...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": 52,
+      "diagnoses": [
+        "Liver cancer (hepatocellular carcinoma)",
+        "Cirrhosis",
+        "Gastrointestinal disorder",
+        "Atherosclerosis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 4.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "024854ed4fd0...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Prostate",
+      "sex": "Male",
+      "age": 47,
+      "diagnoses": [
+        "Atherosclerosis",
+        "Neurological condition",
+        "Gastrointestinal disorder",
+        "Encephalopathy",
+        "Pneumonia (PNA)",
+        "Cirrhosis",
+        "Prostate cancer"
+      ],
+      "biomarkers": {
+        "ER": "negative",
+        "PR": "negative"
+      },
+      "tnm": null,
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "10155a1fffe1...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Prostate",
+      "sex": "Male",
+      "age": 47,
+      "diagnoses": [
+        "Atherosclerosis",
+        "Neurological condition",
+        "Gastrointestinal disorder",
+        "Encephalopathy",
+        "Pneumonia (PNA)",
+        "Cirrhosis",
+        "Prostate cancer"
+      ],
+      "biomarkers": {
+        "ER": "negative",
+        "PR": "negative"
+      },
+      "tnm": null,
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.3% annotated \u2014 effectively not available",
+    "ki67": "2.2% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

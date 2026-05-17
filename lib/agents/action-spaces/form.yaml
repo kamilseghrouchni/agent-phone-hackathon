@@ -1,0 +1,99 @@
+# Form channel — Browser Use cloud session OR direct HTTP POST. Action
+# channels use a `parameters` map (form_field_id → slot) instead of an
+# utterance_template.
+#
+# Per § 4 of the spec: prefer direct POST (wpcf7, Jotform, Gravity Forms
+# endpoints are stable) and fall back to Chromium with third-party
+# scripts blocked when CAPTCHA is in the way.
+
+channel: form
+agent_persona_required: false      # forms identify the agent via the email field
+actions:
+
+  - id: submit_quote_form
+    category: action
+    prerequisites: []
+    extracts:
+      - field: submission_id
+        type: string
+      - field: confirmation_message
+        type: string
+      - field: redirect_url
+        type: string
+    parameters:
+      # Common field map — adapters resolve these against the supplier's
+      # actual form schema (Jotform / wpcf7 / Squarespace / Gravity).
+      name:              { source: agent_identity.name }
+      email:             { source: agent_identity.email }
+      phone:             { source: agent_identity.phone }
+      company:           { source: agent_identity.company }
+      role:              { literal: "Procurement / Sourcing" }
+      country:           { source: agent_identity.country }
+      sample_type:       { source: "parsed_query.specimens[0].type" }
+      sample_count:      { source: "parsed_query.specimens[0].n_cases", format: count }
+      indication:        { source: "parsed_query.diseases[0]" }
+      use_case:          { source: parsed_query.use_case }
+      project_brief:     { source: parsed_query.raw_query }
+      timeline:          { source: parsed_query.turnaround_max_weeks, format: weeks, fallback: "flexible" }
+      budget_band:       { source: parsed_query.price_cap_usd, format: budget_band, fallback: "TBD" }
+    submission_method: direct_post_with_browser_fallback
+    success_criteria: "extracts.submission_id != null OR extracts.confirmation_message != null"
+    next_action_hints: [confirm_submission, escalate_to_email]
+
+  - id: submit_inquiry_form
+    category: action
+    prerequisites: []
+    extracts:
+      - field: submission_id
+        type: string
+      - field: confirmation_message
+        type: string
+    parameters:
+      name:              { source: agent_identity.name }
+      email:             { source: agent_identity.email }
+      message:           { source: parsed_query.raw_query }
+    submission_method: direct_post_with_browser_fallback
+    success_criteria: "extracts.submission_id != null OR extracts.confirmation_message != null"
+    next_action_hints: [confirm_submission, escalate_to_email]
+
+  - id: retry_form
+    category: action
+    prerequisites: [submit_quote_form]
+    extracts:
+      - field: submission_id
+        type: string
+      - field: retry_error
+        type: string
+    parameters:
+      retry_of:          { source: prior.submit_quote_form.submission_id, fallback: "" }
+    submission_method: browser_with_third_party_blocked
+    success_criteria: "extracts.submission_id != null"
+    next_action_hints: [confirm_submission, escalate_to_email]
+
+  - id: confirm_submission
+    category: confirmation
+    prerequisites: [submit_quote_form]
+    extracts:
+      - field: submission_verified
+        type: boolean
+      - field: ticket_or_ref
+        type: string
+    parameters:
+      check_method:      { literal: "auto_email_or_dom_text" }
+    submission_method: none
+    success_criteria: "extracts.submission_verified != null"
+    next_action_hints: []
+
+  - id: escalate_to_email
+    category: escalate
+    prerequisites: []
+    extracts:
+      - field: escalation_thread_id
+        type: string
+    parameters:
+      reason:            { literal: "form blocked or unverifiable; switching to email" }
+      target_email:      { source: supplier.contact.email }
+    submission_method: handoff_to_correspond_agent
+    success_criteria: "extracts.escalation_thread_id != null"
+    next_action_hints: []
+    fallback_for: captcha_or_form_blocked

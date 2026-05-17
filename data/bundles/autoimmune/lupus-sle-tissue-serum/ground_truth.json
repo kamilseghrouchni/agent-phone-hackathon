@@ -1,0 +1,97 @@
+{
+  "bundle_id": "lupus-sle-tissue-serum",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_specimens": 203,
+    "total_donors": 102,
+    "organizations": [
+      "CHTN Eastern",
+      "NDRI",
+      "Shlok Superspecialty Care"
+    ],
+    "matched_pair_donors": 0
+  },
+  "specimen_breakdown": {
+    "Tissue": 103,
+    "Serum": 100
+  },
+  "organizations": [
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["USA"]
+      }
+    },
+    {
+      "name": "NDRI",
+      "organization_id": "ndri-org-id",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.ndriresource.org/",
+      "contact_email": "info@ndriresource.org",
+      "address": "",
+      "description": "NDRI is a nonprofit human tissue and organ procurement organization providing high-quality biospecimens to the research community.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["USA"]
+      }
+    },
+    {
+      "name": "Shlok Superspecialty Care",
+      "organization_id": "shlok-org-id",
+      "country": [
+        "IND"
+      ],
+      "website": null,
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "Clinical research organization providing specialized biospecimen collection services.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["IND"]
+      }
+    }
+  ],
+  "coverage_gaps": {
+    "isn_rps_class": "not tracked in AminoChain specimen registries \u2014 requires nephropathology report linkage",
+    "ana_status": "not tracked in specimen registries \u2014 requires clinical record linkage",
+    "anti_dsdna_status": "not tracked in specimen registries \u2014 requires clinical record linkage",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

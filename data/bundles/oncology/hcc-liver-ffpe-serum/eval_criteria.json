@@ -1,0 +1,187 @@
+{
+  "bundle_id": "hcc-liver-ffpe-serum",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "BIOMEDICA CRO",
+        "CSD Bio",
+        "ProteoGenex"
+      ],
+      "pass": "find >= 1 of 3 ground truth orgs OR find >= 1 org with matching HCC specimens",
+      "notes": "Only 3 orgs in AminoChain for HCC — very thin commercial supply. Academic HCC biobanks (TCGA-LIHC cohort, CAIRO consortium, National Cancer Centre Singapore) are valid and important finds. Pipeline MUST NOT infer etiology (HBV/HCV/NASH) from org country alone — Ukraine-sourced specimens are predominantly HBV/HCV but this requires explicit documentation."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data",
+        "etiology (HBV/HCV/alcohol/NASH) not inferred from country of origin — must be explicitly annotated",
+        "Child-Pugh score not assumed — must be explicitly stated or labeled [not_stated]"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted",
+        "etiology labeled [not_stated] when absent rather than inferred",
+        "Child-Pugh labeled [not_stated] in all commercial biobank sources"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "BIOMEDICA CRO": {
+          "expected_scores": {
+            "SI": "4-5",
+            "CR": "4-5",
+            "CF": "1-2",
+            "MD": "2-3"
+          },
+          "specimen_count": 148,
+          "has_contact": true,
+          "has_biomarkers": false
+        },
+        "CSD Bio": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "1-2",
+            "MD": "2-3"
+          },
+          "specimen_count": 52,
+          "has_contact": true,
+          "has_biomarkers": false
+        },
+        "ProteoGenex": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "4-5",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "specimen_count": 28,
+          "has_contact": true,
+          "has_biomarkers": true
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "etiology_documentation",
+          "reason": "HBV/HCV/NASH/alcohol status annotated in <10% of commercial specimens — must be flagged as critical gap"
+        },
+        {
+          "field": "Child_Pugh_score",
+          "reason": "not annotated in any AminoChain HCC listing — requires direct clinical inquiry; system must not guess"
+        },
+        {
+          "field": "matched_serum",
+          "reason": "only 4 confirmed matched pairs (BIOMEDICA CRO) — well below N=30 threshold; must be prominently flagged"
+        },
+        {
+          "field": "resection_vs_transplant",
+          "reason": "transplant explant exclusion not systematically tracked — must confirm collection procedure per specimen"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not in any public registry — requires direct inquiry"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "BIOMEDICA CRO": 148,
+        "CSD Bio": 52,
+        "ProteoGenex": 28
+      },
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented specimen counts — every N cites a source",
+        "no invented contacts — every email traces to paper/website/registry",
+        "no training-data fills for cost or biomarker data",
+        "etiology not fabricated from country-of-origin inference",
+        "Child-Pugh not asserted as available without explicit source"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "AFP": "annotated at ProteoGenex only (6 specimens) — not available at scale",
+    "HBsAg": "annotated at ProteoGenex only (4 specimens) — not systematically tracked",
+    "HCV_antibody": "0 specimens annotated across all orgs"
+  }
+}

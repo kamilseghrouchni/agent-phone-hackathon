@@ -1,0 +1,15 @@
+{
+  "bundle_id": "hiv-pbmc-tissue",
+  "difficulty": "impossible",
+  "factors": {
+    "data_availability": "none",
+    "org_discoverability": "medium \u2014 mix of academic and commercial sources",
+    "biomarker_specificity": "low \u2014 no specific biomarker filtering required",
+    "specimen_count": 0,
+    "org_count": 0
+  },
+  "expected_failure_modes": [
+    "Thin data \u2014 system should honestly report scarcity, not hallucinate sources",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

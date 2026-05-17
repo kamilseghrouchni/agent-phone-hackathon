@@ -1,0 +1,277 @@
+{
+  "bundle_id": "cholangiocarcinoma-ffpe",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 200,
+    "total_secondary_specimens": 0,
+    "total_donors": 117,
+    "organizations": [
+      "ProteoGenex",
+      "France Tissue Bank",
+      "CHTN Eastern",
+      "Ukraine Research Group"
+    ],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 176,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {
+        "HER2": 3,
+        "ER": 61,
+        "PR": 61,
+        "Ki67": 19
+      },
+      "tnm_staged": 167,
+      "treatment_naive": 176,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 58.6,
+        "n_with_age": 176,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "France Tissue Bank",
+      "organization_id": "24896abd-fc2c-4310-a02e-d5fbd211562e",
+      "country": [
+        "FRA"
+      ],
+      "website": "https://francetissuebank.com/en",
+      "contact_email": "contact@francetissuebank.com",
+      "address": "",
+      "description": "France Tissue Bank \u2013 Your trusted partner for high-quality, responsive biospecimen sourcing\n\nLooking for high-standard, reliable samples with fast turnaround times? France Tissue Bank (FTB) is your id",
+      "specimens": {
+        "primary": {
+          "count": 9,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 6,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 72.0,
+        "n_with_age": 9,
+        "countries": [
+          "FRA"
+        ]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "primary": {
+          "count": 9,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 55.6,
+        "n_with_age": 9,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": [
+        "UKR"
+      ],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research. We focus on the development of biobanks and the use of high-quality ",
+      "specimens": {
+        "primary": {
+          "count": 6,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 5,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 62.5,
+        "n_with_age": 2,
+        "countries": [
+          "UKR"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "045cd13c0a08...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": 66,
+      "diagnoses": [
+        "Liver cancer (hepatocellular carcinoma)",
+        "Cholangiocarcinoma",
+        "Gastrointestinal disorder"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": 2.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "0547bc5a2cce...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Female",
+      "age": 73,
+      "diagnoses": [
+        "Liver cancer (hepatocellular carcinoma)",
+        "Cholangiocarcinoma",
+        "Gastrointestinal disorder"
+      ],
+      "biomarkers": {
+        "Ki67": 40
+      },
+      "tnm": {
+        "T": 3.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "076e291ad8ee...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Female",
+      "age": 55,
+      "diagnoses": [
+        "Liver cancer (hepatocellular carcinoma)",
+        "Cholangiocarcinoma",
+        "Gastrointestinal disorder"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 3.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "0548ced9e40d...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Female",
+      "age": 55,
+      "diagnoses": [
+        "Liver cancer (hepatocellular carcinoma)",
+        "Cholangiocarcinoma",
+        "Gastrointestinal disorder"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 3.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "02ae44028a72...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Female",
+      "age": 78,
+      "diagnoses": [
+        "Liver cancer (hepatocellular carcinoma)",
+        "Cholangiocarcinoma",
+        "Gastrointestinal disorder"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": 3.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "1.5% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

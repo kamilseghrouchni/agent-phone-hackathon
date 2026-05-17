@@ -1,0 +1,2814 @@
+[
+  {
+    "pmid": "36526993",
+    "pmc_id": "PMC9756582",
+    "doi": "10.1186/s12885-022-10380-4",
+    "title": "Zimbabwe cervical cancer biorepository: FFPE specimens with HIV documentation",
+    "year": 2022,
+    "journal": "BMC Cancer",
+    "institution": "Parirenyatwa Group of Hospitals / University of Zimbabwe",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "DNA"
+      ],
+      "n": 410,
+      "storage": "room temperature (paraffin)",
+      "matched": false,
+      "treatment_naive": null
+    },
+    "access_route": "Collaborative agreement with University of Zimbabwe College of Health Sciences; IRB and MTA required; contact corresponding author",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=410 FFPE cervical cancer; HIV status documented (serology); squamous cell carcinoma and adenocarcinoma; FIGO stage I-II dominant; young patient population (median age <45); HPV type on subset",
+    "_bundle_id": "cervical-young-t1-ffpe-hiv-screened",
+    "_tags": {
+      "indication": [
+        "cervical cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "34582476",
+    "pmc_id": "PMC8478215",
+    "doi": "10.1186/s12879-021-06718-3",
+    "title": "HIV-HPV co-infection and cervical cancer risk in Zimbabwe",
+    "year": 2021,
+    "journal": "BMC Infectious Diseases",
+    "institution": "Parirenyatwa Group of Hospitals / University of Zimbabwe",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "cervical swabs"
+      ],
+      "n": null,
+      "storage": "room temperature (paraffin)",
+      "matched": false,
+      "treatment_naive": null
+    },
+    "access_route": "Same institutional access as primary biorepository paper; collaborative research with UZ",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "Draws from same Zimbabwe biorepository; HPV genotyping and HIV serology documented; confirms HIV screening approach; FIGO stage I-II in majority; young women (20-44) dominant",
+    "_bundle_id": "cervical-young-t1-ffpe-hiv-screened",
+    "_tags": {
+      "indication": [
+        "cervical cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "29568184",
+    "pmc_id": "PMC5872529",
+    "doi": "10.1200/JCO.2017.75.1387",
+    "title": "COEUR: a Canadian multisite ovarian cancer biobank",
+    "year": 2018,
+    "journal": "Journal of Clinical Oncology",
+    "institution": "COEUR / CRCHUM / Canadian Cancer Trials Group",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "serum",
+        "plasma",
+        "ascites",
+        "fresh frozen tissue"
+      ],
+      "n": 1246,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Application to COEUR Scientific Committee; coordinated through CRCHUM Montreal; 12 contributing Canadian biobanks",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=1246 HGSC (high-grade serous carcinoma); FFPE + serum matched; ER/PR annotation available on subset; FIGO stage III dominates; 12 biobanks contributing; longitudinal serum at surgery and recurrence",
+    "_bundle_id": "ovarian-t3-ffpe-plasma-er-annotated",
+    "_tags": {
+      "indication": [
+        "ovarian cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "38971004",
+    "pmc_id": "PMC12052217",
+    "doi": "10.1158/1055-9965.EPI-23-1374",
+    "title": "Washington University Gynecologic Oncology Tissue Bank: ovarian cancer specimens with matched plasma",
+    "year": 2024,
+    "journal": "Cancer Epidemiology, Biomarkers & Prevention",
+    "institution": "Washington University in St. Louis Gynecologic Oncology Tissue Bank",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "plasma",
+        "ascites",
+        "fresh frozen tissue"
+      ],
+      "n": 227,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Collaborative research agreement with WashU GynOnc; IRB and MTA required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=227 ovarian cancer; FFPE + plasma matched; ER annotation documented; Stage III/IV dominant; HER2 status available on subset; detailed treatment history (platinum, taxane) recorded",
+    "_bundle_id": "ovarian-t3-ffpe-plasma-er-annotated",
+    "_tags": {
+      "indication": [
+        "ovarian cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "27139372",
+    "pmc_id": null,
+    "doi": "10.1093/annonc/mdw119",
+    "title": "Estrogen receptor expression in high-grade serous ovarian cancer: an HGSC TMAs study",
+    "year": 2016,
+    "journal": "Annals of Oncology",
+    "institution": "Multiple European centers (TMA consortium)",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "FFPE TMA sections"
+      ],
+      "n": 875,
+      "storage": "room temperature (paraffin)",
+      "matched": false,
+      "treatment_naive": false
+    },
+    "access_route": "TMA slides available through consortium agreement; contact corresponding author",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "n=875 HGSC FFPE TMAs with ER/PR IHC scoring; no matched plasma; validates ER annotation approach; useful as annotation reference; FIGO stage III predominant",
+    "_bundle_id": "ovarian-t3-ffpe-plasma-er-annotated",
+    "_tags": {
+      "indication": [
+        "ovarian cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": null,
+    "doi": null,
+    "title": "NRG Biospecimen Bank (GOG legacy): ovarian cancer FFPE, plasma, and serum archive",
+    "year": 2020,
+    "journal": "NRG Oncology institutional resource",
+    "institution": "NRG Oncology Biospecimen Bank / UCSF",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "plasma",
+        "serum",
+        "frozen tissue"
+      ],
+      "n": 3500000,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "NRG Oncology correlative science committee application; nrgoncology.org/biospecimen-bank",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": ">3.5 million specimens from GOG legacy trials; ovarian cancer dominant; FFPE + plasma + serum from randomised trial participants; ER/PR annotation from trial protocols; access requires NRG membership or collaboration",
+    "_bundle_id": "ovarian-t3-ffpe-plasma-er-annotated",
+    "_tags": {
+      "indication": [
+        "ovarian cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "34010280",
+    "pmc_id": null,
+    "doi": "10.1016/j.xcrm.2021.100273",
+    "title": "BQC19: a Quebec COVID-19 biobank",
+    "year": 2021,
+    "journal": "Cell Reports Medicine",
+    "institution": "BQC19 / McGill University Health Centre",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "plasma",
+        "serum",
+        "PBMC",
+        "nasopharyngeal swab",
+        "RNA"
+      ],
+      "n": 6200,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "BQC19 data/sample access application at bqc19.ca; ethics approval required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n>6200 at publication; vaccinated subsets documented with vaccine type and dates; longitudinal plasma/serum; PBMC cryopreserved; multi-hospital Quebec consortium; COVID severity and outcomes annotated",
+    "_bundle_id": "covid-vaccinated-2024-plasma-serum-buffy",
+    "_tags": {
+      "indication": [
+        "coronavirus (covid)"
+      ],
+      "specimen_types": [
+        "plasma",
+        "serum",
+        "buffy coat"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "36822809",
+    "pmc_id": null,
+    "doi": "10.1111/trf.17267",
+    "title": "PlasCoV: a large Canadian COVID-19 convalescent plasma biobank with vaccinated donor subsets",
+    "year": 2023,
+    "journal": "Transfusion",
+    "institution": "Hema-Quebec / PlasCoV",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "plasma",
+        "serum"
+      ],
+      "n": 15502,
+      "storage": "-80C",
+      "matched": false,
+      "treatment_naive": null
+    },
+    "access_route": "Contact BiobanqueCOVID@hema-quebec.qc.ca; application-based; 86,000+ samples available",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=15,502 donors; 86,000+ individual samples; vaccinated donors with vaccine type documented; convalescent plasma focus but serum also available; direct contact email published in paper",
+    "_bundle_id": "covid-vaccinated-2024-plasma-serum-buffy",
+    "_tags": {
+      "indication": [
+        "coronavirus (covid)"
+      ],
+      "specimen_types": [
+        "plasma",
+        "serum",
+        "buffy coat"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "33175565",
+    "pmc_id": null,
+    "doi": "10.3390/v12111259",
+    "title": "LPCE Nice biobank: COVID-19 plasma, serum, and cellular biospecimens",
+    "year": 2020,
+    "journal": "Viruses",
+    "institution": "LPCE / Universite Cote d'Azur / CHU Nice",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "plasma",
+        "serum",
+        "buffy coat",
+        "PBMC"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Collaboration with LPCE biobank, CHU Nice; IRB approval required; contact via corresponding author",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "K2EDTA plasma, serum, and buffy coat at -80C; French single-center COVID biobank; vaccinated subsets documented from 2021 onward; detailed clinical severity annotation",
+    "_bundle_id": "covid-vaccinated-2024-plasma-serum-buffy",
+    "_tags": {
+      "indication": [
+        "coronavirus (covid)"
+      ],
+      "specimen_types": [
+        "plasma",
+        "serum",
+        "buffy coat"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": null,
+    "doi": null,
+    "title": "CARI / Khon Kaen University cholangiocarcinoma biobank: world's largest CCA collection",
+    "year": 2019,
+    "journal": "Asian Pacific Journal of Cancer Prevention",
+    "institution": "Cholangiocarcinoma Research Institute (CARI) / Khon Kaen University",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "plasma",
+        "FFPE blocks",
+        "fresh frozen tissue",
+        "bile"
+      ],
+      "n": 179,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Collaborative research agreement with CARI, Khon Kaen University, Thailand; contact via PI Prof. Banchob Sripa or institute email",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "World's largest CCA biobank; n=101 plasma + n=78 FFPE documented in substudy publications; T-stage annotation available; endemic region (liver fluke-associated CCA); MTA required for international collaboration",
+    "_bundle_id": "cholangiocarcinoma-t2n1-ffpe-plasma",
+    "_tags": {
+      "indication": [
+        "cholangiocarcinoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": "PMC8369938",
+    "doi": "10.1002/hep.31975",
+    "title": "Mayo Clinic Hepatobiliary Registry: molecular characterisation of cholangiocarcinoma",
+    "year": 2021,
+    "journal": "Hepatology",
+    "institution": "Mayo Clinic (Rochester) Hepatobiliary Registry",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "plasma",
+        "serum"
+      ],
+      "n": 80,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Collaborative research through Mayo Clinic Hepatobiliary Research Program; IRB and MTA required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "~80 CCA patients with matched FFPE + plasma; T2N1 staging documented; surgical resection specimens; western CCA population (non-fluke); pathology review confirmed; IHC panel available",
+    "_bundle_id": "cholangiocarcinoma-t2n1-ffpe-plasma",
+    "_tags": {
+      "indication": [
+        "cholangiocarcinoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": null,
+    "doi": "10.3390/diagnostics11060999",
+    "title": "Matched FFPE and plasma cfDNA for liquid biopsy in cholangiocarcinoma",
+    "year": 2021,
+    "journal": "Diagnostics",
+    "institution": "Multiple European centers (pilot study)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "plasma cfDNA"
+      ],
+      "n": 10,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Contact corresponding author; small pilot \u2014 institutional collaboration required",
+    "contact_extractable": true,
+    "depth_confidence": "low",
+    "notes": "Pilot study n=10 matched FFPE + plasma cfDNA; proof-of-concept for liquid biopsy; demonstrates cfDNA extraction feasibility from archived samples; not a biobank resource per se but demonstrates methodology",
+    "_bundle_id": "cholangiocarcinoma-t2n1-ffpe-plasma",
+    "_tags": {
+      "indication": [
+        "cholangiocarcinoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "31014363",
+    "pmc_id": null,
+    "doi": "10.1093/neuonc/noz060",
+    "title": "The French Glioblastoma Biobank (FGB): a nationwide infrastructure for GBM research",
+    "year": 2019,
+    "journal": "Neuro-Oncology",
+    "institution": "French Glioblastoma Biobank (FGB) / INSERM / INCa",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "fresh frozen tumor",
+        "FFPE blocks",
+        "plasma",
+        "serum",
+        "CSF"
+      ],
+      "n": 1087,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Application to FGB steering committee; coordinated by INSERM with 24 contributing French centers; contact fgb@inserm.fr",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=1087 patients from 24 centers; fresh frozen + FFPE paired; plasma and serum available; IDH status, MGMT methylation, and EGFR amplification documented; age at diagnosis available \u2014 young patient subset identifiable; multisectorial sampling for ITH studies",
+    "_bundle_id": "glioblastoma-frozen-plasma-young",
+    "_tags": {
+      "indication": [
+        "glioblastoma"
+      ],
+      "specimen_types": [
+        "tissue (frozen)",
+        "plasma"
+      ],
+      "preservation": "frozen",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "36428604",
+    "pmc_id": null,
+    "doi": "10.1093/neuonc/noac258",
+    "title": "Recurrent glioblastoma: molecular landscape in the French Glioblastoma Biobank",
+    "year": 2022,
+    "journal": "Neuro-Oncology",
+    "institution": "French Glioblastoma Biobank (FGB) / INSERM",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "fresh frozen tumor",
+        "plasma"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Application to FGB steering committee (same access route as primary biobank)",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Recurrent GBM subset of FGB; paired primary and recurrence specimens; plasma longitudinal; temozolomide treatment history documented; useful for treatment-failure cohort enrichment",
+    "_bundle_id": "glioblastoma-frozen-plasma-young",
+    "_tags": {
+      "indication": [
+        "glioblastoma"
+      ],
+      "specimen_types": [
+        "tissue (frozen)",
+        "plasma"
+      ],
+      "preservation": "frozen",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "36945517",
+    "pmc_id": null,
+    "doi": "10.3390/cancers15051602",
+    "title": "Pilot metabolomics study of fresh/frozen GBM tissue and matched plasma",
+    "year": 2023,
+    "journal": "Cancers",
+    "institution": "FGB-affiliated center / INSERM",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "fresh frozen tumor",
+        "plasma"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Contact corresponding author; FGB affiliate",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "Pilot metabolomics study; fresh/frozen GBM + matched plasma; demonstrates metabolite extraction feasibility from frozen GBM; IDH1 wild-type confirmed; small n but validates pre-analytical protocol",
+    "_bundle_id": "glioblastoma-frozen-plasma-young",
+    "_tags": {
+      "indication": [
+        "glioblastoma"
+      ],
+      "specimen_types": [
+        "tissue (frozen)",
+        "plasma"
+      ],
+      "preservation": "frozen",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "28866107",
+    "pmc_id": "PMC5832534",
+    "doi": "10.1164/rccm.201702-0352OC",
+    "title": "Characterization of participants in the Severe Asthma Research Program (SARP III)",
+    "year": 2018,
+    "journal": "American Journal of Respiratory and Critical Care Medicine",
+    "institution": "SARP / NHLBI",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "plasma",
+        "PBMC",
+        "sputum",
+        "urine"
+      ],
+      "n": 714,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov); SARP III specimens available via NHLBI BioLINCC",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "ICS, OCS, and biologic medication fully documented per subject; severe asthma focus; PBMC, serum, and plasma paired; multi-site US; n=714 with longitudinal visits",
+    "_bundle_id": "asthma-medication-documented-serum-plasma",
+    "_tags": {
+      "indication": [
+        "asthma"
+      ],
+      "specimen_types": [
+        "serum",
+        "plasma"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "19892860",
+    "pmc_id": "PMC2822971",
+    "doi": "10.1164/rccm.200905-0764OC",
+    "title": "SARP I and II: clinical features of severe asthma",
+    "year": 2010,
+    "journal": "American Journal of Respiratory and Critical Care Medicine",
+    "institution": "SARP / NHLBI",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "plasma",
+        "sputum"
+      ],
+      "n": 726,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov)",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "SARP I+II combined n=726; medication documented including ICS dose, OCS use, and controller regimen; sputum differential cell count available; serum IgE and eosinophil counts documented",
+    "_bundle_id": "asthma-medication-documented-serum-plasma",
+    "_tags": {
+      "indication": [
+        "asthma"
+      ],
+      "specimen_types": [
+        "serum",
+        "plasma"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "32284828",
+    "pmc_id": "PMC7144315",
+    "doi": "10.1183/13993003.01556-2019",
+    "title": "BREATHE: a large-scale multi-centre cohort study of adult asthma in Denmark and Sweden",
+    "year": 2020,
+    "journal": "European Respiratory Journal",
+    "institution": "BREATHE / Copenhagen University Hospital / Karolinska",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "plasma"
+      ],
+      "n": 1403,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Application to BREATHE steering committee; contact via corresponding author at Copenhagen University Hospital",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=1403 adults; ICS, LABA, OCS, and biologic therapy documented; serum and plasma paired; Scandinavian population; registry linkage with national prescription databases for medication verification",
+    "_bundle_id": "asthma-medication-documented-serum-plasma",
+    "_tags": {
+      "indication": [
+        "asthma"
+      ],
+      "specimen_types": [
+        "serum",
+        "plasma"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "24029743",
+    "pmc_id": "PMC3954445",
+    "doi": "10.1164/rccm.201309-1638OC",
+    "title": "SPIROMICS: design and protocol for a multi-site study of COPD",
+    "year": 2014,
+    "journal": "American Journal of Respiratory and Critical Care Medicine",
+    "institution": "SPIROMICS / BioLINCC (NHLBI)",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "K2EDTA plasma",
+        "buffy coat",
+        "BAL",
+        "endobronchial biopsy",
+        "serum"
+      ],
+      "n": 2900,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov); SPIROMICS materials available via request to NHLBI",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=2900 main cohort; ~250 underwent bronchoscopy with BAL collection; K2EDTA plasma + buffy at -80C; multi-site US; GOLD stage 0-4 documented; smoking history detailed",
+    "_bundle_id": "copd-k2edta-plasma-buffy-bal",
+    "_tags": {
+      "indication": [
+        "chronic obstructive pulmonary disease (copd)"
+      ],
+      "specimen_types": [
+        "plasma",
+        "buffy coat",
+        "bronchoalveolar lavage fluid"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "25622723",
+    "pmc_id": "PMC4314767",
+    "doi": "10.1164/rccm.201408-1495OC",
+    "title": "Characterization of the lower airway microbiota and inflammatory response in COPD: a SPIROMICS study",
+    "year": 2015,
+    "journal": "American Journal of Respiratory and Critical Care Medicine",
+    "institution": "SPIROMICS / BioLINCC (NHLBI)",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "K2EDTA blood",
+        "BAL",
+        "bronchial brushings"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov)",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Blood and BAL matched from same visit; immunophenotyping by flow cytometry; microbiome profiling from BAL; SPIROMICS bronchoscopy sub-cohort",
+    "_bundle_id": "copd-k2edta-plasma-buffy-bal",
+    "_tags": {
+      "indication": [
+        "chronic obstructive pulmonary disease (copd)"
+      ],
+      "specimen_types": [
+        "plasma",
+        "buffy coat",
+        "bronchoalveolar lavage fluid"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "31349744",
+    "pmc_id": "PMC6724137",
+    "doi": "10.1164/rccm.201812-2293OC",
+    "title": "BAL metabolomics in COPD: a SPIROMICS substudy",
+    "year": 2019,
+    "journal": "American Journal of Respiratory and Critical Care Medicine",
+    "institution": "SPIROMICS / BioLINCC (NHLBI)",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "BAL",
+        "plasma"
+      ],
+      "n": 115,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov)",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Matched BAL + plasma from n=115 SPIROMICS participants; metabolomics assay performed; demonstrates BAL metabolite readout feasibility; GOLD stage and FEV1 documented",
+    "_bundle_id": "copd-k2edta-plasma-buffy-bal",
+    "_tags": {
+      "indication": [
+        "chronic obstructive pulmonary disease (copd)"
+      ],
+      "specimen_types": [
+        "plasma",
+        "buffy coat",
+        "bronchoalveolar lavage fluid"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "24889057",
+    "pmc_id": "PMC5439804",
+    "doi": "10.1186/s12931-014-0062-0",
+    "title": "UAB Pulmonary Biorepository: design and initial results",
+    "year": 2014,
+    "journal": "Respiratory Research",
+    "institution": "University of Alabama at Birmingham (UAB) Pulmonary Biorepository",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "BAL",
+        "plasma",
+        "buffy coat",
+        "endobronchial biopsy"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Collaborative agreement with UAB Division of Pulmonary, Allergy and Critical Care Medicine; IRB required",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "Single-center biorepository with BAL, plasma, and buffy coat matched per subject; COPD and asthma subjects; spirometry and imaging documented; contact via Dr. J. Edwin Blalock or successors",
+    "_bundle_id": "copd-k2edta-plasma-buffy-bal",
+    "_tags": {
+      "indication": [
+        "chronic obstructive pulmonary disease (copd)"
+      ],
+      "specimen_types": [
+        "plasma",
+        "buffy coat",
+        "bronchoalveolar lavage fluid"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "41961636",
+    "pmc_id": "PMC13070655",
+    "doi": "10.1093/eurheartj/ehaf180",
+    "title": "The Swedish Heart Failure Registry biobank: rationale, design, and initial findings",
+    "year": 2026,
+    "journal": "European Heart Journal",
+    "institution": "Karolinska Institutet / Swedish Heart Failure Registry",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "EDTA plasma",
+        "DNA",
+        "RNA",
+        "cardiac tissue"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Swedish HF Registry biobank committee application; linked to SwedeHF national registry",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Cardiac tissue paired with plasma and omics layers; comorbidity burden (including atherosclerosis) documented via national registry linkage; longitudinal follow-up with mortality endpoints",
+    "_bundle_id": "chf-atherosclerosis-comorbid-plasma-tissue",
+    "_tags": {
+      "indication": [
+        "congestive heart failure (chf)",
+        "atherosclerosis"
+      ],
+      "specimen_types": [
+        "plasma",
+        "tissue"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "30251587",
+    "pmc_id": "PMC6450505",
+    "doi": "10.1093/eurheartj/ehy530",
+    "title": "SWEDEHEART: a national quality registry and research platform for cardiovascular disease",
+    "year": 2019,
+    "journal": "European Heart Journal",
+    "institution": "Uppsala Clinical Research Center / SWEDEHEART",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "EDTA plasma"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": false,
+      "treatment_naive": false
+    },
+    "access_route": "SWEDEHEART data access committee; Uppsala Biobank for specimens; national registry linkage standard",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "EDTA plasma at -80C; large national registry with atherosclerosis and CHF subsets; detailed medication and comorbidity annotation; specimen availability depends on subset enrollment",
+    "_bundle_id": "chf-atherosclerosis-comorbid-plasma-tissue",
+    "_tags": {
+      "indication": [
+        "congestive heart failure (chf)",
+        "atherosclerosis"
+      ],
+      "specimen_types": [
+        "plasma",
+        "tissue"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "36856044",
+    "pmc_id": "PMC11059242",
+    "doi": "10.1161/CIRCULATIONAHA.122.063434",
+    "title": "Endomyocardial biopsy-derived transcriptomic signatures identify subtypes of dilated cardiomyopathy",
+    "year": 2023,
+    "journal": "Circulation",
+    "institution": "Johns Hopkins University",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "endomyocardial biopsy",
+        "plasma"
+      ],
+      "n": 88,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Collaborative research agreement with JHU cardiology; IRB approval required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Matched endomyocardial biopsy + plasma from 88 HF patients; atherosclerosis comorbidity documented; RNA extraction from biopsy confirmed; small n limits statistical power but high tissue quality",
+    "_bundle_id": "chf-atherosclerosis-comorbid-plasma-tissue",
+    "_tags": {
+      "indication": [
+        "congestive heart failure (chf)",
+        "atherosclerosis"
+      ],
+      "specimen_types": [
+        "plasma",
+        "tissue"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "34931483",
+    "pmc_id": "PMC8787984",
+    "doi": "10.1016/j.yjmcc.2021.12.010",
+    "title": "Human heart biobanks: the cornerstone of basic and translational cardiac research",
+    "year": 2022,
+    "journal": "Journal of Molecular and Cellular Cardiology",
+    "institution": "Sydney Heart Bank / BMCB Vancouver",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "cardiac tissue",
+        "plasma",
+        "DNA"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Sydney Heart Bank: sydneyheartbank.org.au; BMCB: collaborative agreement with UBC",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "Review describing two major cardiac biobanks; Sydney Heart Bank has >2700 cardiac samples; BMCB (British Columbia Molecular Biomarker Consortium) plasma + tissue matched; both accessible via application",
+    "_bundle_id": "chf-atherosclerosis-comorbid-plasma-tissue",
+    "_tags": {
+      "indication": [
+        "congestive heart failure (chf)",
+        "atherosclerosis"
+      ],
+      "specimen_types": [
+        "plasma",
+        "tissue"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "27799821",
+    "pmc_id": "PMC5085288",
+    "doi": "10.1371/journal.pone.0165572",
+    "title": "The Vejle Diabetes Biobank: a resource for studies of the aetiological heterogeneity of type 2 diabetes",
+    "year": 2016,
+    "journal": "PLOS ONE",
+    "institution": "Vejle Hospital / Steno Diabetes Center Odense",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "EDTA plasma",
+        "morning urine",
+        "DNA"
+      ],
+      "n": 7575,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Material Transfer Agreement with Vejle Hospital biobank; contact via corresponding author",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "BMI, HbA1c, and lipid panel documented per subject; longitudinal design with up to 10-year follow-up; EDTA plasma collected fasting",
+    "_bundle_id": "diabetes-bmi-documented-edta-urine-plasma",
+    "_tags": {
+      "indication": [
+        "diabetes",
+        "congestive heart failure (chf)"
+      ],
+      "specimen_types": [
+        "urine",
+        "plasma"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "23071400",
+    "pmc_id": "PMC3470454",
+    "doi": "10.1111/j.1399-5448.2012.00911.x",
+    "title": "The Danish Centre for Strategic Research in Type 2 Diabetes (DD2) cohort: characteristics of the first patients",
+    "year": 2012,
+    "journal": "Pediatric Diabetes",
+    "institution": "DD2 / Aarhus University Hospital",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "EDTA plasma",
+        "urine",
+        "DNA",
+        "serum"
+      ],
+      "n": 10000,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Application to DD2 steering committee (www.dd2.nu); national Danish research biobank",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "National incident T2D cohort; medication fully documented; BMI, eGFR, albuminuria captured at baseline; urine albumin-creatinine ratio available",
+    "_bundle_id": "diabetes-bmi-documented-edta-urine-plasma",
+    "_tags": {
+      "indication": [
+        "diabetes",
+        "congestive heart failure (chf)"
+      ],
+      "specimen_types": [
+        "urine",
+        "plasma"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "12819321",
+    "pmc_id": null,
+    "doi": "10.1097/01.asn.0000070145.88276.4a",
+    "title": "Chronic Renal Insufficiency Cohort (CRIC) Study: design and methods",
+    "year": 2003,
+    "journal": "Journal of the American Society of Nephrology",
+    "institution": "NIDDK Central Repository (CRIC consortium)",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "plasma",
+        "urine",
+        "DNA",
+        "serum"
+      ],
+      "n": 3612,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "repository.niddk.nih.gov; application-based access with IRB and DUA required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "47% of participants diabetic; annual biospecimen collection; urine and plasma available longitudinally; BMI documented at each visit; multi-site US cohort",
+    "_bundle_id": "diabetes-bmi-documented-edta-urine-plasma",
+    "_tags": {
+      "indication": [
+        "diabetes",
+        "congestive heart failure (chf)"
+      ],
+      "specimen_types": [
+        "urine",
+        "plasma"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "40075679",
+    "pmc_id": "PMC11899103",
+    "doi": null,
+    "title": "Circulating Cell-Free DNA and Tumor Tissue Profiling in Metastatic Melanoma: A Comparative Study",
+    "year": 2025,
+    "journal": "Cancers",
+    "institution": "Semmelweis University / Lund University",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "K2-EDTA plasma",
+        "tumor tissue"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": true
+    },
+    "access_route": "corresponding author / institutional biobank request",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Treatment-naive metastatic melanoma cohort. Paired EDTA plasma and tumor tissue collected at baseline before systemic therapy. Multi-institutional collaboration between Semmelweis (Budapest) and Lund.",
+    "_bundle_id": "melanoma-high-grade-tissue-k2edta-plasma",
+    "_tags": {
+      "indication": [
+        "melanoma",
+        "skin cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "19966936",
+    "pmc_id": "PMC2776290",
+    "doi": null,
+    "title": "Establishment of a Melanoma Biospecimen Repository at NYU Langone Medical Center",
+    "year": 2009,
+    "journal": "American Journal of Translational Research",
+    "institution": "NYU Langone Medical Center / Interdisciplinary Melanoma Cooperative Group (IMCG)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "EDTA blood",
+        "FFPE tissue blocks"
+      ],
+      "n": 974,
+      "storage": "FFPE blocks + frozen blood",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "IMCG biobank request / MTA",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "974 blood specimens (EDTA) and 1142 FFPE blocks from melanoma patients. Large established biobank with formal access route via NYU IMCG. Treatment-naive status not uniformly documented for all specimens.",
+    "_bundle_id": "melanoma-high-grade-tissue-k2edta-plasma",
+    "_tags": {
+      "indication": [
+        "melanoma",
+        "skin cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "30123920",
+    "pmc_id": "PMC6098996",
+    "doi": null,
+    "title": "The Lund Melanoma Biobank: A Resource for Translational Research",
+    "year": 2018,
+    "journal": "Journal of Investigative Dermatology",
+    "institution": "Lund University / Skane University Hospital",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "tumor tissue",
+        "blood"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Lund University biobank / Cancer Moonshot collaboration request",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "Lund Cancer Moonshot melanoma biobank. Tissue and blood stored at -80C. Formal biobank infrastructure with multi-institutional access potential. Exact N not specified in abstract.",
+    "_bundle_id": "melanoma-high-grade-tissue-k2edta-plasma",
+    "_tags": {
+      "indication": [
+        "melanoma",
+        "skin cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "40841414",
+    "pmc_id": "PMC12370905",
+    "doi": null,
+    "title": "epiMelanoma: Epigenomic Characterisation of Melanoma Using K2-EDTA Plasma cfDNA",
+    "year": 2025,
+    "journal": "Scientific Reports",
+    "institution": "epiMelanoma Consortium",
+    "institution_type": "consortium",
+    "specimens_described": {
+      "types": [
+        "K2-EDTA plasma"
+      ],
+      "n": 199,
+      "storage": null,
+      "matched": false,
+      "treatment_naive": null
+    },
+    "access_route": "consortium data access request / corresponding author",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "199 participants with K2-EDTA plasma for cfDNA epigenomics. Consortium study \u2014 access route requires contact with lead PI. Storage conditions not specified in available metadata.",
+    "_bundle_id": "melanoma-high-grade-tissue-k2edta-plasma",
+    "_tags": {
+      "indication": [
+        "melanoma",
+        "skin cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "38677880",
+    "pmc_id": "PMC11057279",
+    "doi": null,
+    "title": "Stage III Melanoma FFPE Biobank at the Netherlands Cancer Institute",
+    "year": 2024,
+    "journal": "European Journal of Cancer",
+    "institution": "Netherlands Cancer Institute (NKI) Amsterdam",
+    "institution_type": "cancer_center",
+    "specimens_described": {
+      "types": [
+        "FFPE tissue"
+      ],
+      "n": null,
+      "storage": "FFPE",
+      "matched": false,
+      "treatment_naive": true
+    },
+    "access_route": "NKI biobank / MTA required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Stage III melanoma treatment-naive FFPE specimens at NKI Amsterdam. Well-documented biobank with formal MTA-based access. Blood/plasma not mentioned \u2014 tissue only.",
+    "_bundle_id": "melanoma-high-grade-tissue-k2edta-plasma",
+    "_tags": {
+      "indication": [
+        "melanoma",
+        "skin cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "38410586",
+    "pmc_id": "PMC10894382",
+    "doi": null,
+    "title": "Streck Cell-Free DNA BCT Tubes for cfDNA Preservation in Lung Squamous Cell Carcinoma",
+    "year": 2024,
+    "journal": "Frontiers in Oncology",
+    "institution": "Academic research site (not disclosed)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "Streck BCT cfDNA"
+      ],
+      "n": 49,
+      "storage": "Streck BCT (room temperature)",
+      "matched": false,
+      "treatment_naive": null
+    },
+    "access_route": "not_available \u2014 research use only, not banked for external access",
+    "contact_extractable": false,
+    "depth_confidence": "high",
+    "notes": "CONFIRMED NOT BANKED. Study used Streck BCT as collection method for a research protocol; specimens were processed and consumed for the study. No biobank infrastructure described. n=49 LUSC cases \u2014 not available for external sourcing.",
+    "_bundle_id": "lung-scc-streck-bct-liquid-biopsy",
+    "_tags": {
+      "indication": [
+        "squamous cell cancer (scc)",
+        "lung cancer",
+        "non-small cell lung cancer (nsclc)"
+      ],
+      "specimen_types": [
+        "other (streck bct)",
+        "tissue (ffpe)"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "32317009",
+    "pmc_id": "PMC7175544",
+    "doi": null,
+    "title": "Shallow Whole-Genome Sequencing of cfDNA from Streck BCT Tubes in Lung Cancer",
+    "year": 2020,
+    "journal": "Clinical Chemistry",
+    "institution": "Academic research site",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "Streck BCT cfDNA"
+      ],
+      "n": 16,
+      "storage": "Streck BCT (room temperature)",
+      "matched": false,
+      "treatment_naive": null
+    },
+    "access_route": "not_available \u2014 research use only, not banked for external access",
+    "contact_extractable": false,
+    "depth_confidence": "high",
+    "notes": "CONFIRMED NOT BANKED. 16 SCC cases collected in Streck BCT for sWGS research. Specimens processed for the study, not retained in biobank. Small n, no access route described.",
+    "_bundle_id": "lung-scc-streck-bct-liquid-biopsy",
+    "_tags": {
+      "indication": [
+        "squamous cell cancer (scc)",
+        "lung cancer",
+        "non-small cell lung cancer (nsclc)"
+      ],
+      "specimen_types": [
+        "other (streck bct)",
+        "tissue (ffpe)"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "34264761",
+    "pmc_id": "PMC9082877",
+    "doi": null,
+    "title": "The National ALS Biorepository: A CDC-Funded Resource for ALS Research",
+    "year": 2021,
+    "journal": "Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration",
+    "institution": "National ALS Biorepository (CDC / ATSDR)",
+    "institution_type": "government_biorepository",
+    "specimens_described": {
+      "types": [
+        "DNA",
+        "blood",
+        "serum",
+        "CSF"
+      ],
+      "n": 1721,
+      "storage": "frozen (-80C)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "CDC/ATSDR formal application; biorepository.cdc.gov",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "1721 enrolled participants with DNA, blood, serum, and CSF collected longitudinally. CDC-funded with formal public access mechanism. This is the largest and most accessible ALS biorepository in the US with the full trio (CSF+serum+DNA). Access requires CDC application process.",
+    "_bundle_id": "als-csf-serum-dna-trio",
+    "_tags": {
+      "indication": [
+        "amyotrophic lateral sclerosis (als)"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum",
+        "dna"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "35224491",
+    "pmc_id": "PMC8870425",
+    "doi": null,
+    "title": "AMBRoSIA: A Multi-Site UK ALS Biomarker Study with Longitudinal CSF and Serum Collection",
+    "year": 2022,
+    "journal": "Brain",
+    "institution": "AMBRoSIA Consortium (Oxford / Sheffield / UCL London)",
+    "institution_type": "consortium",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "CSF"
+      ],
+      "n": 338,
+      "storage": "frozen (-80C)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "AMBRoSIA consortium data/sample access request via lead site (Oxford)",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "258 ALS cases + 80 controls, serum and CSF collected longitudinally. UK multi-site consortium with Oxford as lead. DNA not listed among collected specimen types \u2014 partial trio. Longitudinal design adds value for biomarker trajectory studies. Access via Oxford lead PI.",
+    "_bundle_id": "als-csf-serum-dna-trio",
+    "_tags": {
+      "indication": [
+        "amyotrophic lateral sclerosis (als)"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum",
+        "dna"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": null,
+    "doi": "https://neals.org/research/sample-repository",
+    "title": "NEALS Sample Repository",
+    "year": null,
+    "journal": null,
+    "institution": "NEALS / Massachusetts General Hospital (Harvard)",
+    "institution_type": "consortium_repository",
+    "specimens_described": {
+      "types": [
+        "CSF",
+        "serum",
+        "DNA",
+        "PBMC"
+      ],
+      "n": null,
+      "storage": "frozen (-80C)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "neals.org sample access application; MGH-coordinated",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "Non-paper source. NEALS Sample Repository offers CSF, serum, DNA, and PBMC \u2014 the full requested trio plus PBMC. Coordinated through MGH/Harvard. Application process at neals.org. N not publicly specified; inventory varies by specimen type. Strong access infrastructure for academic researchers.",
+    "_bundle_id": "als-csf-serum-dna-trio",
+    "_tags": {
+      "indication": [
+        "amyotrophic lateral sclerosis (als)"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum",
+        "dna"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": null,
+    "doi": "https://targetals.org",
+    "title": "Target ALS Biorepository",
+    "year": null,
+    "journal": null,
+    "institution": "Target ALS Foundation (18 US sites)",
+    "institution_type": "foundation_repository",
+    "specimens_described": {
+      "types": [
+        "CSF",
+        "plasma",
+        "serum"
+      ],
+      "n": 113,
+      "storage": "frozen",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Target ALS data/sample access request; targetals.org",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "62 ALS cases + 51 controls across 18 US sites. CSF, plasma, and serum collected. DNA not explicitly listed as banked specimen type. Nonprofit foundation with formal access process. Multi-site collection increases generalizability. N is smaller than National Biorepository.",
+    "_bundle_id": "als-csf-serum-dna-trio",
+    "_tags": {
+      "indication": [
+        "amyotrophic lateral sclerosis (als)"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum",
+        "dna"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "38368354",
+    "pmc_id": "PMC10874571",
+    "doi": null,
+    "title": "Paired CSF and Serum Proteomics in Multiple Sclerosis: A Welsh Neuroscience Biobank Study",
+    "year": 2024,
+    "journal": "Annals of Clinical and Translational Neurology",
+    "institution": "Cardiff University / Welsh Neuroscience Research Initiative (WNRI)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "CSF",
+        "serum"
+      ],
+      "n": 157,
+      "storage": "frozen (-80C)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Welsh Neuroscience Research Initiative biobank / corresponding author",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "157 participants with paired CSF and serum. Recent collection (2024 publication). Welsh Neuroscience biobank infrastructure. Subtype breakdown (RRMS, SPMS, PPMS) not specified in abstract. Strong candidate for recent-collection criterion given 2024 publication date.",
+    "_bundle_id": "ms-csf-serum-recent-collection",
+    "_tags": {
+      "indication": [
+        "multiple sclerosis (ms)",
+        "neurological condition"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "33403120",
+    "pmc_id": "PMC7747124",
+    "doi": null,
+    "title": "Matched CSF and Serum Biomarker Profiles in MS Subtypes at Dartmouth-Hitchcock",
+    "year": 2021,
+    "journal": "Multiple Sclerosis Journal",
+    "institution": "Dartmouth-Hitchcock Medical Center",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "CSF",
+        "serum"
+      ],
+      "n": 67,
+      "storage": "frozen",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "corresponding author / institutional biobank request",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "67 matched CSF and serum samples from MS patients. 2021 publication. Smaller cohort. Access via corresponding author. MS subtype breakdown likely available in full paper. Recent-collection criterion marginally met (2021).",
+    "_bundle_id": "ms-csf-serum-recent-collection",
+    "_tags": {
+      "indication": [
+        "multiple sclerosis (ms)",
+        "neurological condition"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "38420772",
+    "pmc_id": "PMC11586083",
+    "doi": null,
+    "title": "CSF and Serum Multi-Omics in Progressive MS: A University of Nebraska Lincoln Study",
+    "year": 2024,
+    "journal": "Journal of Neuroinflammation",
+    "institution": "University of Nebraska Lincoln (UNL)",
+    "institution_type": "academic_research_university",
+    "specimens_described": {
+      "types": [
+        "CSF",
+        "serum",
+        "urine"
+      ],
+      "n": 252,
+      "storage": "frozen (-80C)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "corresponding author / institutional biobank request",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "206 progressive MS + 46 RRMS with CSF, serum, and urine. Recent collection (2024). Large n for an academic MS cohort. Progressive MS overrepresented \u2014 useful for progressive subtypes specifically. Access via corresponding author.",
+    "_bundle_id": "ms-csf-serum-recent-collection",
+    "_tags": {
+      "indication": [
+        "multiple sclerosis (ms)",
+        "neurological condition"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "36972440",
+    "pmc_id": "PMC9990127",
+    "doi": null,
+    "title": "Serum and CSF Neurofilament Dynamics in MS: A Seville Hospital Longitudinal Study",
+    "year": 2023,
+    "journal": "Frontiers in Neurology",
+    "institution": "Hospital Universitario Virgen del Rocio (Seville)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "CSF",
+        "serum"
+      ],
+      "n": 40,
+      "storage": "frozen",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "corresponding author / Spanish biobank network (ISCIII)",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "40 MS patients with paired CSF and serum. 2023 publication. Small cohort. Spanish hospital with potential access via ISCIII biobank network. Longitudinal design adds value but small n limits usability as primary source.",
+    "_bundle_id": "ms-csf-serum-recent-collection",
+    "_tags": {
+      "indication": [
+        "multiple sclerosis (ms)",
+        "neurological condition"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": "PMC12295370",
+    "doi": null,
+    "title": "Large-Scale MS Biobank at IRYCIS Madrid: 535 Participants with Paired CSF and Serum",
+    "year": 2025,
+    "journal": "Multiple Sclerosis and Related Disorders",
+    "institution": "IRYCIS / Hospital Ramon y Cajal (Madrid)",
+    "institution_type": "research_institute_hospital",
+    "specimens_described": {
+      "types": [
+        "CSF",
+        "serum"
+      ],
+      "n": 535,
+      "storage": "frozen (-80C)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "IRYCIS biobank / ISCIII biobank network / corresponding author",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "535 MS participants with paired CSF and serum. Largest cohort in this bundle. 2025 publication \u2014 most recent collection. IRYCIS (Instituto Ramon y Cajal de Investigacion Sanitaria) has institutional biobank infrastructure. Access via ISCIII network or direct IRYCIS request. PMID not available at time of writing (PMC-only).",
+    "_bundle_id": "ms-csf-serum-recent-collection",
+    "_tags": {
+      "indication": [
+        "multiple sclerosis (ms)",
+        "neurological condition"
+      ],
+      "specimen_types": [
+        "cerebrospinal fluid (csf)",
+        "serum"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "30564614",
+    "pmc_id": "PMC6292383",
+    "doi": null,
+    "title": "The Parkinson's Progression Markers Initiative (PPMI): A Decade of Progress",
+    "year": 2018,
+    "journal": "Journal of Parkinson's Disease",
+    "institution": "PPMI / Michael J. Fox Foundation (50 sites worldwide)",
+    "institution_type": "foundation_consortium",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "PBMC",
+        "DNA",
+        "CSF",
+        "urine"
+      ],
+      "n": 4200,
+      "storage": "frozen (-80C)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "ppmi-info.org data/sample access; Coriell biorepository for specimens",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "4200+ participants at 50 sites with serum, PBMC, DNA, CSF, and urine. Full trio (serum+PBMC+DNA) confirmed. Age distribution spans broad PD range \u2014 age >75 subset needs filtering from the full cohort; not a dedicated elderly-onset PD collection. Specimens distributed via Coriell Institute. Well-documented access process through PPMI portal.",
+    "_bundle_id": "pd-age-over-75-serum-pbmc-dna",
+    "_tags": {
+      "indication": [
+        "parkinson's disease (pd)",
+        "neurological condition"
+      ],
+      "specimen_types": [
+        "serum",
+        "pbmcs",
+        "dna"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "26442452",
+    "pmc_id": "PMC4824671",
+    "doi": null,
+    "title": "The Parkinson's Disease Biomarkers Program (PDBP): A Resource for PD Research",
+    "year": 2016,
+    "journal": "Journal of Parkinson's Disease",
+    "institution": "PDBP / NINDS (Coriell Institute as biorepository)",
+    "institution_type": "government_consortium",
+    "specimens_described": {
+      "types": [
+        "CSF",
+        "DNA",
+        "PBMC",
+        "serum"
+      ],
+      "n": 1082,
+      "storage": "frozen (-80C)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "NINDS PDBP data access; contact PDBP-OPS@mail.nih.gov; specimens via Coriell",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "1082 participants with CSF, DNA, PBMC, and serum. Full trio confirmed. NINDS-funded with formal access via Coriell Institute. Direct operations contact: PDBP-OPS@mail.nih.gov. Age >75 subset available but requires cohort filtering \u2014 not pre-stratified by age. Established access infrastructure with NIH backing.",
+    "_bundle_id": "pd-age-over-75-serum-pbmc-dna",
+    "_tags": {
+      "indication": [
+        "parkinson's disease (pd)",
+        "neurological condition"
+      ],
+      "specimen_types": [
+        "serum",
+        "pbmcs",
+        "dna"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "32934108",
+    "pmc_id": null,
+    "doi": null,
+    "title": "Parkinson's Disease within the UK Biobank: Genetic and Phenotypic Characteristics",
+    "year": 2020,
+    "journal": "Movement Disorders",
+    "institution": "UK Biobank",
+    "institution_type": "national_biobank",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "DNA"
+      ],
+      "n": null,
+      "storage": "frozen",
+      "matched": false,
+      "treatment_naive": null
+    },
+    "access_route": "UK Biobank access application; ukbiobank.ac.uk",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "PD cases within 500K participant UK Biobank. Serum and DNA available; PBMC not confirmed as banked specimen type for UK Biobank. Age >75 cases available given UK Biobank age range (40-69 at recruitment, now older with follow-up). PBMC gap is the key limitation for this bundle. Formal application-based access with processing fees.",
+    "_bundle_id": "pd-age-over-75-serum-pbmc-dna",
+    "_tags": {
+      "indication": [
+        "parkinson's disease (pd)",
+        "neurological condition"
+      ],
+      "specimen_types": [
+        "serum",
+        "pbmcs",
+        "dna"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "39483518",
+    "pmc_id": "PMC11525467",
+    "doi": null,
+    "title": "The ProCaB biobank: a prospective collection of bladder and prostate cancer biospecimens at UZ Leuven",
+    "year": 2024,
+    "journal": "BJU International",
+    "institution": "UZ Leuven (University Hospitals Leuven)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "urine",
+        "blood"
+      ],
+      "n": null,
+      "storage": "FFPE archival, urine and blood at -80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "ProCaB biobank access request via UZ Leuven Biobank; Belgian ethics committee approval required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Bladder cancer including T2+ MIBC with matched FFPE + urine + blood. Biobank explicitly described with named infrastructure (ProCaB). Prospective collection is a strong quality signal for pre-analytical consistency.",
+    "_bundle_id": "bladder-t2plus-ffpe-urine",
+    "_tags": {
+      "indication": [
+        "bladder cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "urine"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "36540001",
+    "pmc_id": null,
+    "doi": null,
+    "title": "The UROSCAN cohort: a Swedish population-based bladder cancer biobank with long-term follow-up",
+    "year": 2022,
+    "journal": "Scandinavian Journal of Urology",
+    "institution": "Lund University / UROSCAN Sweden",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "blood"
+      ],
+      "n": 1825,
+      "storage": "FFPE archival + blood, long-term storage",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "UROSCAN consortium access request; Swedish ethical review board approval; population-based registry linkage",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Large n=1825 population-based bladder cancer biobank. FFPE + blood with long-term follow-up is a major scale signal. Urine not described in this cohort \u2014 partial match on specimen type. UROSCAN is well-indexed and access-route clear.",
+    "_bundle_id": "bladder-t2plus-ffpe-urine",
+    "_tags": {
+      "indication": [
+        "bladder cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "urine"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": null,
+    "doi": "10.1038/s41467-022-33980-9",
+    "title": "Multi-omic analysis of the urothelial carcinoma genome reveals oncogenic subtypes with therapeutic implications",
+    "year": 2022,
+    "journal": "Nature Communications",
+    "institution": "BCAN (Bladder Cancer Advocacy Network) / UC-GENOME consortium",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "plasma",
+        "PBMCs"
+      ],
+      "n": 218,
+      "storage": "FFPE + plasma + PBMCs (storage conditions in methods)",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "BCAN data access request; UC-GENOME consortium data sharing agreement; dbGaP deposition possible",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "n=218 metastatic urothelial carcinoma with FFPE + plasma + PBMCs. Multi-omic data available. Urine not described \u2014 partial match. DOI-only citation; verify PMID and PMC indexing for pipeline recall testing.",
+    "_bundle_id": "bladder-t2plus-ffpe-urine",
+    "_tags": {
+      "indication": [
+        "bladder cancer"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "urine"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "32953480",
+    "pmc_id": "PMC7481602",
+    "doi": null,
+    "title": "Lung Biobank Heidelberg: A Collection of Non-Small Cell Lung Cancer Biospecimens for Translational Research",
+    "year": 2020,
+    "journal": "Translational Lung Cancer Research",
+    "institution": "Heidelberg University Hospital / DZL (German Center for Lung Research)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "FFPE"
+      ],
+      "n": 205,
+      "storage": "serum at -80C, FFPE archival blocks",
+      "matched": true,
+      "treatment_naive": true
+    },
+    "access_route": "Lung Biobank Heidelberg formal application process; DZL consortium governance; IRB approval required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Stage IIIB/IV NSCLC with matched serum + FFPE at -80C. Biobank infrastructure explicitly described. DZL consortium membership may be required for access. Treatment-naive cohort clearly documented.",
+    "_bundle_id": "nsclc-metastatic-t4-or-m1-serum",
+    "_tags": {
+      "indication": [
+        "non-small cell lung cancer (nsclc)",
+        "lung cancer"
+      ],
+      "specimen_types": [
+        "serum",
+        "buffy coat"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "29858028",
+    "pmc_id": null,
+    "doi": null,
+    "title": "Profiling of cfDNA and circulating tumor DNA in treatment-naive advanced non-small cell lung cancer",
+    "year": 2018,
+    "journal": "Journal of Thoracic Oncology",
+    "institution": "Multicenter (China)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "plasma cfDNA"
+      ],
+      "n": null,
+      "storage": "FFPE archival + plasma cfDNA",
+      "matched": true,
+      "treatment_naive": true
+    },
+    "access_route": "Corresponding author contact; Chinese multicenter IRB approval; specimen availability not guaranteed",
+    "contact_extractable": true,
+    "depth_confidence": "low",
+    "notes": "Treatment-naive advanced NSCLC. Exact n not specified here \u2014 verify from abstract. Chinese multicenter cohort; cross-border specimen transfer may be restricted. Serum not described \u2014 FFPE + plasma cfDNA only, which partially matches the bundle's serum requirement.",
+    "_bundle_id": "nsclc-metastatic-t4-or-m1-serum",
+    "_tags": {
+      "indication": [
+        "non-small cell lung cancer (nsclc)",
+        "lung cancer"
+      ],
+      "specimen_types": [
+        "serum",
+        "buffy coat"
+      ],
+      "preservation": "",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "31070691",
+    "pmc_id": null,
+    "doi": null,
+    "title": "Detection and Prognostic Value of Circulating Tumor DNA in Patients With Colorectal Cancer",
+    "year": 2019,
+    "journal": "JAMA Oncology",
+    "institution": "Aarhus University Hospital / Danish multicenter",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "preoperative plasma"
+      ],
+      "n": null,
+      "storage": "FFPE archival + preoperative plasma at -80C",
+      "matched": true,
+      "treatment_naive": true
+    },
+    "access_route": "Corresponding author at Aarhus University Hospital; Danish Data Protection Agency approval; institutional MTA required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Stages I-III CRC with matched FFPE + preoperative plasma. JAMA Oncology publication = high indexing confidence. Danish multicenter = access may require coordination across sites. Treatment-naive preoperative collection is a strong quality signal for ADC biomarker work.",
+    "_bundle_id": "crc-t3n1-ffpe-plasma-matched",
+    "_tags": {
+      "indication": [
+        "colon cancer",
+        "gastrointestinal disorder"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "35636041",
+    "pmc_id": null,
+    "doi": null,
+    "title": "Circulating tumor DNA dynamics predict outcomes in stage III colon cancer treated with adjuvant chemotherapy",
+    "year": 2022,
+    "journal": "European Journal of Cancer",
+    "institution": "Fudan University Shanghai Cancer Center",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "serial plasma"
+      ],
+      "n": 165,
+      "storage": "FFPE archival + serial plasma at -80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Corresponding author at Fudan University; Chinese ethics committee approval; cross-border specimen transfer subject to Chinese regulations",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "n=165 stage III colon with FFPE + serial plasma. Adjuvant chemotherapy cohort \u2014 not treatment-naive. Serial plasma is a differentiating feature. Cross-border specimen transfer from China is a real access barrier; consider data-only collaboration as alternative.",
+    "_bundle_id": "crc-t3n1-ffpe-plasma-matched",
+    "_tags": {
+      "indication": [
+        "colon cancer",
+        "gastrointestinal disorder"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "34625408",
+    "pmc_id": "PMC9401484",
+    "doi": null,
+    "title": "ctDNA as a biomarker for adjuvant chemotherapy in colorectal cancer: a prospective multicenter study",
+    "year": 2022,
+    "journal": "Clinical Cancer Research",
+    "institution": "Danish and Spanish multicenter consortium",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "plasma"
+      ],
+      "n": 168,
+      "storage": "FFPE archival + plasma at -80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Multi-country access: Danish PI contact + Spanish ethics approval; GDPR compliance required for EU-based cohort",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=168 stage III CRC with FFPE + plasma. Danish+Spanish multicenter = broader geographic representation. PMC indexed = high recall probability. GDPR-compliant access pathway required for EU institutions.",
+    "_bundle_id": "crc-t3n1-ffpe-plasma-matched",
+    "_tags": {
+      "indication": [
+        "colon cancer",
+        "gastrointestinal disorder"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "27635065",
+    "pmc_id": "PMC5135604",
+    "doi": null,
+    "title": "A population-based study of PLCO colorectal cancer specimens: matched FFPE tumor and blood",
+    "year": 2016,
+    "journal": "Cancer Epidemiology, Biomarkers & Prevention",
+    "institution": "PLCO (Prostate, Lung, Colorectal, and Ovarian) Screening Trial / NCI",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "blood"
+      ],
+      "n": null,
+      "storage": "FFPE archival + blood (NCI biorepository)",
+      "matched": true,
+      "treatment_naive": true
+    },
+    "access_route": "NCI Cancer Data Access System (CDAS) formal application; IRB approval; PLCO data sharing agreement",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "PLCO NCI tissue resource with matched FFPE + blood. Large population-based screening trial. Plasma specifically not described \u2014 blood specimens may be serum/plasma/buffy coat; verify matrix in CDAS data dictionary. NCI CDAS access is structured but slower (3-6 months typical).",
+    "_bundle_id": "crc-t3n1-ffpe-plasma-matched",
+    "_tags": {
+      "indication": [
+        "colon cancer",
+        "gastrointestinal disorder"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "40801311",
+    "pmc_id": null,
+    "doi": null,
+    "title": "Neoadjuvant Pembrolizumab plus Chemotherapy in Early Triple-Negative Breast Cancer: ARTEMIS Trial",
+    "year": 2025,
+    "journal": "Cancer Research",
+    "institution": "MD Anderson Cancer Center",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "pre-NACT blood"
+      ],
+      "n": 75,
+      "storage": "FFPE blocks + peripheral blood pre-treatment",
+      "matched": true,
+      "treatment_naive": true
+    },
+    "access_route": "Corresponding author contact; MD Anderson tissue procurement core",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Treatment-naive TNBC, pre-NACT collection. Paired FFPE + blood makes this high-value for ADC biomarker development.",
+    "_bundle_id": "tnbc-er-neg-pr-neg-ffpe",
+    "_tags": {
+      "indication": [
+        "breast cancer",
+        "invasive ductal cancer (idc)"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "38182588",
+    "pmc_id": null,
+    "doi": null,
+    "title": "Genomic and transcriptomic characterization of triple-negative breast cancer reveals molecular subtypes and subtype-specific therapeutic vulnerabilities",
+    "year": 2024,
+    "journal": "npj Breast Cancer",
+    "institution": "BC Cancer Agency",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "plasma cfDNA"
+      ],
+      "n": 130,
+      "storage": "FFPE + plasma at -80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "BC Cancer biobank request via corresponding author; BC Cancer Research Ethics Board approval required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Large TNBC cohort with matched FFPE + plasma cfDNA. Treatment naive status mixed \u2014 verify per patient metadata.",
+    "_bundle_id": "tnbc-er-neg-pr-neg-ffpe",
+    "_tags": {
+      "indication": [
+        "breast cancer",
+        "invasive ductal cancer (idc)"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "33743331",
+    "pmc_id": "PMC8010400",
+    "doi": null,
+    "title": "Serial liquid biopsies and tumor mutational evolution in metastatic triple-negative breast cancer",
+    "year": 2021,
+    "journal": "Clinical Cancer Research",
+    "institution": "MD Anderson Cancer Center",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "serial plasma"
+      ],
+      "n": 42,
+      "storage": "FFPE archival + serial plasma at -80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "MD Anderson tissue procurement; corresponding author for plasma aliquots",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "Smaller n=42 with serial plasma \u2014 valuable for longitudinal biomarker questions. FFPE archival; treatment history present in cohort.",
+    "_bundle_id": "tnbc-er-neg-pr-neg-ffpe",
+    "_tags": {
+      "indication": [
+        "breast cancer",
+        "invasive ductal cancer (idc)"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "38029961",
+    "pmc_id": null,
+    "doi": null,
+    "title": "Proteomics of paired pancreatic tissue and serum samples reveals biomarkers for pancreatic ductal adenocarcinoma",
+    "year": 2023,
+    "journal": "Molecular & Cellular Proteomics",
+    "institution": "Lund University / CEBMMS (Center for Biobank, Epidemiology, and Biobanking)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "serum"
+      ],
+      "n": 82,
+      "storage": "matched tissue + serum (n=29 pairs) + 53 additional serum; storage conditions in methods",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Lund University Biobank (CEBMMS) formal application; Swedish regional ethics approval (Region Skane); MTA required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=29 matched PDAC tissue+serum pairs + 53 standalone serum. CEBMMS is a named biobank with established access process. Proteomics context = strong pre-analytical documentation expected. Treat n=29 as the matched pairs count, n=82 total serum-accessible.",
+    "_bundle_id": "pancreatic-late-stage-ffpe-serum",
+    "_tags": {
+      "indication": [
+        "pancreatic cancer",
+        "gastrointestinal disorder"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": "PMC9818842",
+    "doi": null,
+    "title": "The Barts Pancreas Tissue Bank: a repository of pancreatic cancer biospecimens with linked clinical data",
+    "year": 2022,
+    "journal": "Pancreatology",
+    "institution": "Barts Cancer Institute / Barts Pancreas Tissue Bank (BPTB)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE",
+        "serum",
+        "plasma",
+        "urine"
+      ],
+      "n": 340,
+      "storage": "FFPE archival + serum/plasma/urine at -80C",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "BPTB formal access request via Barts Cancer Institute; NHS Research Ethics Committee approval; data sharing agreement; UK Biobank-style governance",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=340 PDAC with the broadest specimen diversity in this bundle: FFPE + serum + plasma + urine + linked clinical data. BPTB is a named, published biobank with established governance. PMC-indexed = high recall. This is the strongest overall match for the bundle's FFPE+serum requirement at scale.",
+    "_bundle_id": "pancreatic-late-stage-ffpe-serum",
+    "_tags": {
+      "indication": [
+        "pancreatic cancer",
+        "gastrointestinal disorder"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "34290990",
+    "pmc_id": "PMC8287202",
+    "doi": null,
+    "title": "Serum proteomics and FFPE IHC validation identifies diagnostic markers for pancreatic ductal adenocarcinoma",
+    "year": 2021,
+    "journal": "Theranostics",
+    "institution": "Multicenter (institution not uniquely identified in title \u2014 verify from full text)",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "FFPE"
+      ],
+      "n": 120,
+      "storage": "serum at -80C + FFPE for IHC validation",
+      "matched": false,
+      "treatment_naive": null
+    },
+    "access_route": "Corresponding author contact; institutional ethics approval; specimen availability unclear without full-text review",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "n=120 PDAC serum + FFPE IHC validation. Serum and FFPE present but not matched per-patient (FFPE used for IHC validation cohort, not paired with serum). PMC-indexed (PMC8287202) = reliable retrieval. Exact institution requires full-text verification. Theranostics journal = likely Chinese or international multicenter.",
+    "_bundle_id": "pancreatic-late-stage-ffpe-serum",
+    "_tags": {
+      "indication": [
+        "pancreatic cancer",
+        "gastrointestinal disorder"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": null,
+    "pmc_id": "PMC5700705",
+    "doi": "10.1186/s12967-017-1362-9",
+    "title": "King's Health Partners Prostate Cancer BioBank (KHP PCaBB): design and initial cohort",
+    "year": 2017,
+    "journal": "Journal of Translational Medicine",
+    "institution": "King's Health Partners Prostate Cancer BioBank (KHP PCaBB) / King's College London",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "serum",
+        "FFPE blocks",
+        "fresh frozen tissue",
+        "plasma",
+        "urine"
+      ],
+      "n": 1553,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Application to KHP PCaBB access committee (prostatecancerbiobank.org.uk); IRB and MTA required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=489 serum at -80C + n=1064 FFPE; Gleason score documented on all cases; acinar adenocarcinoma confirmed histologically; radical prostatectomy and biopsy specimens; PSA trajectory documented; London-based UK collection",
+    "_bundle_id": "prostate-acinar-high-grade-ffpe-serum",
+    "_tags": {
+      "indication": [
+        "prostate cancer",
+        "acinar adenocarcinoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "24115205",
+    "pmc_id": null,
+    "doi": "10.1158/1940-6207.CAPR-13-0001",
+    "title": "Prostate Cancer Biorepository Network (PCBN): a DoD-funded multi-site biobank",
+    "year": 2013,
+    "journal": "Cancer Prevention Research",
+    "institution": "Prostate Cancer Biorepository Network (PCBN) / WashU / DoD",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "serum",
+        "plasma",
+        "fresh frozen tissue"
+      ],
+      "n": null,
+      "storage": "-80C and room temperature (paraffin)",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "Application to PCBN; DoD-funded network; coordinated through WashU; contact pcbn@wustl.edu",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "FFPE + serum from radical prostatectomy; Gleason documented; multi-site US network; DoD-funded; acinar adenocarcinoma focus; pathology review centralized at WashU; access via application",
+    "_bundle_id": "prostate-acinar-high-grade-ffpe-serum",
+    "_tags": {
+      "indication": [
+        "prostate cancer",
+        "acinar adenocarcinoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "35490048",
+    "pmc_id": "PMC9117451",
+    "doi": "10.1007/s11912-022-01259-3",
+    "title": "Weill Cornell Medicine SPORE in Prostate Cancer: biobank and clinical resource",
+    "year": 2022,
+    "journal": "Current Oncology Reports",
+    "institution": "Weill Cornell Medicine SPORE / Englander Institute for Precision Medicine",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "plasma",
+        "serum",
+        "fresh frozen tissue",
+        "urine"
+      ],
+      "n": null,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "WCM SPORE collaborative access; NCI SPORE program; IRB and MTA required; contact SPORE administrative core",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "Radical prostatectomy biobank with FFPE, plasma, serum, and urine; Gleason and ISUP grade group documented; acinar adenocarcinoma confirmed; genomic data (WGS, RNA-seq) linked on subset; longitudinal plasma at recurrence",
+    "_bundle_id": "prostate-acinar-high-grade-ffpe-serum",
+    "_tags": {
+      "indication": [
+        "prostate cancer",
+        "acinar adenocarcinoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "34098400",
+    "pmc_id": null,
+    "doi": "10.1007/s12282-021-01262-x",
+    "title": "Clinicopathological profile of invasive ductal carcinoma with full IHC panel at Prashanti Cancer Care Pune",
+    "year": 2021,
+    "journal": "Breast Cancer",
+    "institution": "Prashanti Cancer Care / Ruby Hall Clinic Pune",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks"
+      ],
+      "n": 434,
+      "storage": "room temperature (paraffin)",
+      "matched": false,
+      "treatment_naive": false
+    },
+    "access_route": "Collaborative research agreement with Prashanti Cancer Care Institute, Pune, India; contact corresponding author for MTA",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=434 IDC FFPE; full IHC panel (ER, PR, HER2, Ki67) documented on all cases; FISH for HER2 equivocal cases; grade and stage annotated; Indian population; treatment history (NAC) documented",
+    "_bundle_id": "breast-idc-her2-er-pr-ki67-full-panel",
+    "_tags": {
+      "indication": [
+        "breast cancer",
+        "invasive ductal cancer (idc)"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "26319120",
+    "pmc_id": "PMC4721565",
+    "doi": "10.1371/journal.pone.0136840",
+    "title": "Women's Health Initiative Observational Study: ER+/PR+ breast cancer plasma biobank with HER2 adjudication",
+    "year": 2015,
+    "journal": "PLOS ONE",
+    "institution": "Women's Health Initiative (WHI-OS) / Fred Hutchinson Cancer Center",
+    "institution_type": "nci_network",
+    "specimens_described": {
+      "types": [
+        "plasma",
+        "serum",
+        "FFPE blocks"
+      ],
+      "n": 121,
+      "storage": "-80C",
+      "matched": true,
+      "treatment_naive": false
+    },
+    "access_route": "WHI data and specimens via NHLBI BioLINCC (biolincc.nhlbi.nih.gov); application with IRB required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "n=121 ER+/PR+ IDC with matched plasma at two time points; HER2 centrally adjudicated; Ki67 index available; FFPE + plasma matched per case; postmenopausal US women; part of larger WHI biospecimen collection via BioLINCC",
+    "_bundle_id": "breast-idc-her2-er-pr-ki67-full-panel",
+    "_tags": {
+      "indication": [
+        "breast cancer",
+        "invasive ductal cancer (idc)"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "plasma"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "35841694",
+    "pmc_id": "PMC9250824",
+    "doi": "10.1038/s41379-022-01110-5",
+    "title": "Baden-Wurttemberg autopsy COVID-19 registry: a multisite FFPE and cryo-tissue biobank",
+    "year": 2022,
+    "journal": "Modern Pathology",
+    "institution": "Baden-Wurttemberg COVID Autopsy Registry / BBMRI-Eric Germany",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "cryopreserved tissue"
+      ],
+      "n": 12149,
+      "storage": "-80C and room temperature (paraffin)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "BBMRI-Eric sample locator; application to registry coordinating center; contact via GCS-Netz (German COVID autopsy network)",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "4383 FFPE + 7766 cryopreserved tissue blocks from COVID-19 autopsies; cancer comorbidity documented (oncologic history at death); multi-organ sampling; linked to BBMRI-Eric infrastructure; de-identified with clinical metadata",
+    "_bundle_id": "multi-cancer-comorbid-covid-tissue",
+    "_tags": {
+      "indication": [
+        "coronavirus (covid)",
+        "any solid tumor"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": false
+    }
+  },
+  {
+    "pmid": "38691298",
+    "pmc_id": "PMC11493920",
+    "doi": "10.3390/cancers16091727",
+    "title": "Cancer and COVID-19 co-occurrence: autopsy findings from Semmelweis University Budapest",
+    "year": 2024,
+    "journal": "Cancers",
+    "institution": "Semmelweis University / 2nd Department of Pathology Budapest",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "cryopreserved tissue"
+      ],
+      "n": 100,
+      "storage": "-80C and room temperature (paraffin)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Collaborative agreement with Semmelweis University 2nd Pathology; IRB required; contact corresponding author",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "100 cancer + COVID autopsy cases; multiple cancer types (lung, colorectal, hematologic); FFPE and frozen matched; COVID PCR status and severity documented; detailed oncologic history",
+    "_bundle_id": "multi-cancer-comorbid-covid-tissue",
+    "_tags": {
+      "indication": [
+        "coronavirus (covid)",
+        "any solid tumor"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": false
+    }
+  },
+  {
+    "pmid": "35531493",
+    "pmc_id": "PMC9073019",
+    "doi": "10.1038/s41467-022-30982-7",
+    "title": "DeRegCOVID: a German autopsy registry for COVID-19 tissue research",
+    "year": 2022,
+    "journal": "Nature Communications",
+    "institution": "DeRegCOVID / German COVID Autopsy Network (GCS-Netz)",
+    "institution_type": "biobank_consortium",
+    "specimens_described": {
+      "types": [
+        "FFPE blocks",
+        "fresh frozen tissue"
+      ],
+      "n": 18674,
+      "storage": "-80C and room temperature (paraffin)",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Application via DeRegCOVID portal (deregcovid.de); BBMRI-Eric linked; IRB and DUA required",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "18,674 tissue samples from 1,129 autopsies across 12 German institutions; multi-organ; cancer comorbidity documented; COVID PCR confirmed; linked to clinical records; largest German COVID autopsy collection",
+    "_bundle_id": "multi-cancer-comorbid-covid-tissue",
+    "_tags": {
+      "indication": [
+        "coronavirus (covid)",
+        "any solid tumor"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": false
+    }
+  },
+  {
+    "pmid": "37511690",
+    "pmc_id": "PMC10381579",
+    "doi": null,
+    "title": "Biobank Cote d'Azur: A Lymphoid Malignancy Tissue Repository in Nice, France",
+    "year": 2023,
+    "journal": "Cancers",
+    "institution": "Nice University Hospital / Biobank Cote d'Azur",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE tissue",
+        "blood"
+      ],
+      "n": 363,
+      "storage": "FFPE blocks + frozen blood",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "Biobank Cote d'Azur formal request / MTA",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "363 lymphoid malignancy cases with paired FFPE and blood. Includes follicular lymphoma, DLBCL, and other B-cell lymphomas. Grade 3 FL cases likely included in the 363 \u2014 grade stratification needs clarification with biobank. Formal biobank with established access process.",
+    "_bundle_id": "lymphoma-ffpe-grade3-serum-matched",
+    "_tags": {
+      "indication": [
+        "lymphoma",
+        "non-hodgkin lymphoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "38428430",
+    "pmc_id": "PMC10983045",
+    "doi": null,
+    "title": "Mayo Clinic Lymphoma SPORE Biobank: Follicular Lymphoma Grade 3 Cohort",
+    "year": 2024,
+    "journal": "Blood Advances",
+    "institution": "Mayo Clinic Lymphoma SPORE",
+    "institution_type": "cancer_center",
+    "specimens_described": {
+      "types": [
+        "FFPE tissue",
+        "serum"
+      ],
+      "n": 129,
+      "storage": "FFPE + frozen serum",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "SPORE tissue core / contact: Novak.Anne@mayo.edu",
+    "contact_extractable": true,
+    "depth_confidence": "high",
+    "notes": "129 follicular lymphoma cases with matched FFPE and serum. Direct contact available: Novak.Anne@mayo.edu (SPORE biospecimen coordinator). Grade 3 FL enriched in this cohort per study design. Strongest match for this bundle given matched FFPE+serum and grade specificity.",
+    "_bundle_id": "lymphoma-ffpe-grade3-serum-matched",
+    "_tags": {
+      "indication": [
+        "lymphoma",
+        "non-hodgkin lymphoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "37954086",
+    "pmc_id": "PMC10634215",
+    "doi": null,
+    "title": "FFPE and Plasma Biomarker Profiling in DLBCL and PMBCL at Ghent University Hospital",
+    "year": 2023,
+    "journal": "Leukemia",
+    "institution": "Ghent University Hospital",
+    "institution_type": "academic_medical_center",
+    "specimens_described": {
+      "types": [
+        "FFPE tissue",
+        "plasma"
+      ],
+      "n": 55,
+      "storage": "FFPE + frozen plasma",
+      "matched": true,
+      "treatment_naive": null
+    },
+    "access_route": "corresponding author / institutional biobank request",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "55 DLBCL/PMBCL cases with matched FFPE and plasma. Not strictly grade 3 FL \u2014 aggressive B-cell lymphomas. May satisfy bundled FFPE+liquid requirement but disease subtype diverges from grade 3 specification. Access route via corresponding author.",
+    "_bundle_id": "lymphoma-ffpe-grade3-serum-matched",
+    "_tags": {
+      "indication": [
+        "lymphoma",
+        "non-hodgkin lymphoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  },
+  {
+    "pmid": "35795062",
+    "pmc_id": "PMC9252432",
+    "doi": null,
+    "title": "Circulating Tumor DNA in Treatment-Naive Follicular Lymphoma: FFPE and Plasma Paired Analysis",
+    "year": 2022,
+    "journal": "Blood",
+    "institution": "Multi-institutional (not specified)",
+    "institution_type": "consortium",
+    "specimens_described": {
+      "types": [
+        "FFPE tissue",
+        "plasma"
+      ],
+      "n": null,
+      "storage": "FFPE + frozen plasma",
+      "matched": true,
+      "treatment_naive": true
+    },
+    "access_route": "corresponding author / consortium access",
+    "contact_extractable": true,
+    "depth_confidence": "medium",
+    "notes": "Treatment-naive FL with matched FFPE+plasma cfDNA. Treatment-naive status confirmed \u2014 valuable for pre-treatment biomarker work. N not extractable from abstract. Multi-institutional; access requires corresponding author contact. Grade not explicitly specified as grade 3.",
+    "_bundle_id": "lymphoma-ffpe-grade3-serum-matched",
+    "_tags": {
+      "indication": [
+        "lymphoma",
+        "non-hodgkin lymphoma"
+      ],
+      "specimen_types": [
+        "tissue (ffpe)",
+        "serum"
+      ],
+      "preservation": "fixed",
+      "matched_pairs": true
+    }
+  }
+]

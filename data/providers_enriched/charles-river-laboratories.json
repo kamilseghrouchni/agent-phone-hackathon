@@ -1,0 +1,256 @@
+{
+  "id": "charles-river-laboratories",
+  "name": "Charles River Laboratories",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Charles River Laboratories"
+  ],
+  "search_queries": [
+    "\"Charles River Laboratories\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 566,
+  "publications_indexed": 25,
+  "address_hints": [
+    "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K",
+    "Charles River Laboratories International, Inc, United States",
+    "Charles River Laboratories United Kingdom",
+    "Charles River Laboratories Evreux, Miserey, France",
+    "Charles River Laboratories Den Bosch B.V., Hertogenbosch, Netherlands"
+  ],
+  "contact_emails": [
+    "Alan.hoberman@crl.com",
+    "aleks@digitalpathologyplace.com",
+    "edward.marsden@crl.com",
+    "joyce.hereijgers36@gmail.com",
+    "keustermansken@gmail.com",
+    "krisztina.herediszabo@crl.com",
+    "laura.lotfi@crl.com"
+  ],
+  "sample_types": [
+    {
+      "type": "cell lines",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "41763018",
+        "41872184"
+      ]
+    },
+    {
+      "type": "organoids",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41763018"
+      ]
+    },
+    {
+      "type": "PDX",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41872184"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "COVID-19",
+      "n_papers": 2
+    },
+    {
+      "area": "Pregnancy",
+      "n_papers": 2
+    },
+    {
+      "area": "Imaging, Three-Dimensional",
+      "n_papers": 1
+    },
+    {
+      "area": "Hemangiosarcoma",
+      "n_papers": 1
+    },
+    {
+      "area": "Lung Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Abdominal Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "COVID-19 Drug Treatment",
+      "n_papers": 1
+    },
+    {
+      "area": "Idiopathic Pulmonary Fibrosis",
+      "n_papers": 1
+    },
+    {
+      "area": "Cholangiocarcinoma",
+      "n_papers": 1
+    },
+    {
+      "area": "Bile Duct Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Biomarkers, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Xenograft Model Antitumor Assays",
+      "n_papers": 1
+    },
+    {
+      "area": "Cell Line, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Neoplasm Recurrence, Local",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Toxicology & Safety Pharmacology",
+      "co_pubs": 2
+    },
+    {
+      "name": "Novartis Biomedical Research",
+      "co_pubs": 2
+    },
+    {
+      "name": "AstraZeneca",
+      "co_pubs": 2
+    },
+    {
+      "name": "Johnson & Johnson",
+      "co_pubs": 2
+    },
+    {
+      "name": "StageBio",
+      "co_pubs": 2
+    },
+    {
+      "name": "Sanofi US Services",
+      "co_pubs": 1
+    },
+    {
+      "name": "Bayer Crop Science",
+      "co_pubs": 1
+    },
+    {
+      "name": "Toxiqua Ltd. . Worcester",
+      "co_pubs": 1
+    },
+    {
+      "name": "Corteva Agriscience",
+      "co_pubs": 1
+    },
+    {
+      "name": "Merck & Co. Inc.",
+      "co_pubs": 1
+    },
+    {
+      "name": "The Health and Environmental Sciences Institute",
+      "co_pubs": 1
+    },
+    {
+      "name": "Freelance Consultant",
+      "co_pubs": 1
+    },
+    {
+      "name": "St. Vincent's University Hospital & University College Dublin",
+      "co_pubs": 1
+    },
+    {
+      "name": "Center for Infectious Medicine",
+      "co_pubs": 1
+    },
+    {
+      "name": "Royal Orthopaedic Hospital",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41765277",
+      "doi": "10.1016/j.yrtph.2026.106077",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Regul Toxicol Pharmacol",
+      "title": "Virtual control groups in nonclinical research: A Re-analysis of 20 studies using virtual control group data."
+    },
+    {
+      "pmid": "41730494",
+      "doi": "10.1016/j.yrtph.2026.106062",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Regul Toxicol Pharmacol",
+      "title": "Use of whole slide images for primary pathology evaluation of non-clinical toxicology studies in a GLP-validated environment."
+    },
+    {
+      "pmid": "41794307",
+      "doi": "10.1016/j.reprotox.2026.109210",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Reprod Toxicol",
+      "title": "Editorial: Potential developmental toxicity induced by antidepressant drugs."
+    },
+    {
+      "pmid": "41765210",
+      "doi": "10.1016/j.reprotox.2026.109206",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Reprod Toxicol",
+      "title": "Identifying and reporting dystocia in laboratory rodents."
+    },
+    {
+      "pmid": "42067074",
+      "doi": "10.1016/j.reprotox.2026.109256",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Reprod Toxicol",
+      "title": "An Overview of Current and Potential Use of the Minipig in Developmental and Reproductive Toxicity Testing."
+    },
+    {
+      "pmid": "42045443",
+      "doi": "10.1038/cmi.2017.36",
+      "pmc": "1948080",
+      "year": 2026,
+      "journal": "EMBO Rep",
+      "title": "DNA methylation-mediated memory of obesity in CD4 T lymphocytes perpetuates immune dysregulation."
+    },
+    {
+      "pmid": "42035988",
+      "doi": "10.1016/j.kint.2026.03.016",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Kidney Int",
+      "title": "Reversal of advanced diabetic kidney disease in mice treated with a monoclonal anti-VEGFR1 antibody."
+    },
+    {
+      "pmid": "42031077",
+      "doi": "10.1016/j.vascn.2026.108424",
+      "pmc": null,
+      "year": 2026,
+      "journal": "J Pharmacol Toxicol Methods",
+      "title": "The emerging use of artificial intelligence in safety pharmacology & toxicology."
+    },
+    {
+      "pmid": "42013405",
+      "doi": "10.1158/2159-8290.CD-26-0003",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Cancer Discov",
+      "title": "Pharmacological inhibition of PMS2 induces MMR deficiency and response to immune checkpoint blockade."
+    },
+    {
+      "pmid": "42007617",
+      "doi": "10.1080/17576180.2026.2652757",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Bioanalysis",
+      "title": "An update on the European Bioanalysis Forum recommendation on singlicate analysis for ligand binding assays: biomarker and anti-drug-antibody assays."
+    }
+  ]
+}

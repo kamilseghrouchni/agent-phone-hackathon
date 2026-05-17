@@ -1,0 +1,54 @@
+{
+  "bundle_id": "nsclc-metastatic-t4-or-m1-serum",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "32953480",
+      "pmc_id": "PMC7481602",
+      "doi": null,
+      "title": "Lung Biobank Heidelberg: A Collection of Non-Small Cell Lung Cancer Biospecimens for Translational Research",
+      "year": 2020,
+      "journal": "Translational Lung Cancer Research",
+      "specimens_described": {
+        "types": ["serum", "FFPE"],
+        "n": 205,
+        "storage": "serum at -80C, FFPE archival blocks",
+        "matched": true,
+        "treatment_naive": true
+      },
+      "institution": "Heidelberg University Hospital / DZL (German Center for Lung Research)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Lung Biobank Heidelberg formal application process; DZL consortium governance; IRB approval required",
+      "depth_confidence": "high",
+      "notes": "Stage IIIB/IV NSCLC with matched serum + FFPE at -80C. Biobank infrastructure explicitly described. DZL consortium membership may be required for access. Treatment-naive cohort clearly documented."
+    },
+    {
+      "pmid": "29858028",
+      "pmc_id": null,
+      "doi": null,
+      "title": "Profiling of cfDNA and circulating tumor DNA in treatment-naive advanced non-small cell lung cancer",
+      "year": 2018,
+      "journal": "Journal of Thoracic Oncology",
+      "specimens_described": {
+        "types": ["FFPE", "plasma cfDNA"],
+        "n": null,
+        "storage": "FFPE archival + plasma cfDNA",
+        "matched": true,
+        "treatment_naive": true
+      },
+      "institution": "Multicenter (China)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Corresponding author contact; Chinese multicenter IRB approval; specimen availability not guaranteed",
+      "depth_confidence": "low",
+      "notes": "Treatment-naive advanced NSCLC. Exact n not specified here — verify from abstract. Chinese multicenter cohort; cross-border specimen transfer may be restricted. Serum not described — FFPE + plasma cfDNA only, which partially matches the bundle's serum requirement."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Heidelberg University Hospital",
+    "German Center for Lung Research (DZL)"
+  ],
+  "notes": "Heidelberg / DZL (PMC7481602) is the primary high-confidence retrieval target — well-indexed, biobank explicitly named, infrastructure described. The Chinese multicenter paper (PMID 29858028) is a secondary match: treatment-naive and FFPE+plasma, but serum not the primary matrix and international access barriers are real. Pipeline should retrieve Heidelberg on queries combining NSCLC + serum + stage IV + biobank. DZL keyword is load-bearing for recall."
+}

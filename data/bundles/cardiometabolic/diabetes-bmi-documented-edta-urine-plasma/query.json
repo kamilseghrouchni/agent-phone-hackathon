@@ -1,0 +1,30 @@
+{
+  "bundle_id": "diabetes-bmi-documented-edta-urine-plasma",
+  "therapeutic_area": "cardiometabolic",
+  "query_text": "Type 2 diabetes patients with documented BMI > 30 and weight in kg. Need EDTA urine (morning collection, simple spin) + matched plasma at -20C. Patients with documented cardiac comorbidities (CHF, hypertension, arrhythmia) preferred. Collected 2023+. N >= 40.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Diabetes",
+      "Congestive Heart Failure (CHF)"
+    ],
+    "specimen_types": [
+      "Urine",
+      "Plasma"
+    ],
+    "matched_pairs": true,
+    "min_n": 40,
+    "collection_date_minimum": 2023,
+    "clinical_data_required": [
+      "BMI",
+      "weight_kg",
+      "cardiac_comorbidities"
+    ],
+    "preanalytical": {
+      "urine_type": "morning collection",
+      "urine_tube": "EDTA/Azide/Glycerol",
+      "plasma_storage": "-20C"
+    },
+    "assay_context": "Tirzepatide (GLP-1/GIP dual agonist) \u2014 renal biomarker panel for diabetic nephropathy"
+  }
+}

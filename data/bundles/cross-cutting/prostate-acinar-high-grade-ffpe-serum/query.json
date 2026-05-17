@@ -1,0 +1,27 @@
+{
+  "bundle_id": "prostate-acinar-high-grade-ffpe-serum",
+  "therapeutic_area": "cross-cutting",
+  "query_text": "Prostate acinar adenocarcinoma, Gleason grade 3+4 or higher (grade 2+ in structured data), T2+ staging. FFPE tissue with matched serum. Need documented PSA level or any tumor marker. Treatment-naive only \u2014 no prior hormonal therapy. Age 55-75. N >= 25.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Prostate cancer",
+      "Acinar adenocarcinoma"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "grade_minimum": 2,
+    "staging_required": "T2+",
+    "preservation": "Fixed",
+    "min_n": 25,
+    "treatment_status": "treatment-naive, no hormonal therapy",
+    "matched_pairs": true,
+    "age_range": "55-75",
+    "clinical_data_required": [
+      "PSA_or_tumor_marker"
+    ],
+    "assay_context": "PSMA-targeted ADC \u2014 PSMA expression vs circulating biomarker correlation"
+  }
+}

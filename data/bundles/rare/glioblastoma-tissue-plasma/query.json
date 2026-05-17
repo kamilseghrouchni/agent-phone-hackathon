@@ -1,0 +1,24 @@
+{
+  "bundle_id": "glioblastoma-tissue-plasma",
+  "therapeutic_area": "rare",
+  "query_text": "Glioblastoma fresh frozen tissue + matched plasma for ctDNA detection. IDH mutation status preferred. N >= 20.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Glioblastoma"
+    ],
+    "specimen_types": [
+      "Tissue (Frozen)",
+      "Plasma"
+    ],
+    "biomarkers_desired": [
+      "IDH1",
+      "IDH2",
+      "MGMT"
+    ],
+    "preservation": "Frozen",
+    "min_n": 20,
+    "matched_pairs": true,
+    "assay_context": "GBM liquid biopsy ctDNA detection validation"
+  }
+}

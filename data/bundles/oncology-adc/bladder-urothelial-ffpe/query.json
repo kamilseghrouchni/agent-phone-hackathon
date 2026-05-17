@@ -1,0 +1,23 @@
+{
+  "bundle_id": "bladder-urothelial-ffpe",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "Urothelial/bladder cancer FFPE tissue for Nectin-4 expression profiling. Urine samples from same patients a plus. N >= 40.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Bladder Cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Urine"
+    ],
+    "biomarkers_required": [],
+    "biomarkers_desired": [
+      "Nectin-4"
+    ],
+    "preservation": "Fixed",
+    "min_n": 40,
+    "matched_pairs": true,
+    "assay_context": "Nectin-4 expression profiling for enfortumab vedotin companion diagnostic"
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "bundle_id": "uterine-endometrial-ffpe-plasma-staged",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 457,
+    "total_secondary_specimens": 347,
+    "total_donors": 825,
+    "organizations": [
+      "ProteoGenex",
+      "BIOMEDICA CRO",
+      "France Tissue Bank",
+      "CSD Bio",
+      "Ukraine Research Group",
+      "CHTN Eastern",
+      "Medical Gate",
+      "Reference Medicine",
+      "Stibion"
+    ],
+    "matched_pair_donors": 21,
+    "tnm_staged_pct": 0.83
+  },
+  "organizations": [
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": ["USA"],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 162,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 98,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {
+        "ER": 42,
+        "PR": 42,
+        "p53": 18,
+        "MMR": 11
+      },
+      "tnm_staged": 141,
+      "treatment_naive": 162,
+      "matched_pair_donors": 8,
+      "demographics": {
+        "mean_age": 63.2,
+        "n_with_age": 162,
+        "countries": ["USA"]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": ["UKR"],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally.",
+      "specimens": {
+        "primary": {
+          "count": 88,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 112,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 181,
+      "treatment_naive": 0,
+      "matched_pair_donors": 9,
+      "demographics": {
+        "mean_age": 61.5,
+        "n_with_age": 200,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "France Tissue Bank",
+      "organization_id": "24896abd-fc2c-4310-a02e-d5fbd211562e",
+      "country": ["FRA"],
+      "website": "https://francetissuebank.com/en",
+      "contact_email": "contact@francetissuebank.com",
+      "address": "",
+      "description": "France Tissue Bank — Your trusted partner for high-quality, responsive biospecimen sourcing.",
+      "specimens": {
+        "primary": {
+          "count": 74,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 67,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 68.4,
+        "n_with_age": 74,
+        "countries": ["FRA"]
+      }
+    },
+    {
+      "name": "CSD Bio",
+      "organization_id": "fe7fb818-c267-4388-8e7c-3f5fd6f8edc2",
+      "country": ["UKR"],
+      "website": "https://www.csdbio.com.ua/",
+      "contact_email": "d.obukhov@csd.com.ua",
+      "address": "",
+      "description": "CSD BIO is Ukrainian Biobank prone to empower researchers with the tools for advancing precision medicine.",
+      "specimens": {
+        "primary": {
+          "count": 22,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 68,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 87,
+      "treatment_naive": 0,
+      "matched_pair_donors": 4,
+      "demographics": {
+        "mean_age": 62.0,
+        "n_with_age": 90,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": ["UKR"],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research.",
+      "specimens": {
+        "primary": {
+          "count": 44,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 32,
+          "type": "Buffy coat"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 44,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 64.1,
+        "n_with_age": 44,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": ["USA"],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "primary": {
+          "count": 31,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 61.8,
+        "n_with_age": 31,
+        "countries": ["USA"]
+      }
+    },
+    {
+      "name": "Medical Gate",
+      "organization_id": "0d6ee50f-4b67-468c-8385-8687c24030dc",
+      "country": ["TUR"],
+      "website": "http://www.medicalgatebio.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "MEDICAL GATE has a staff specialized in every stage of clinical research.",
+      "specimens": {
+        "primary": {
+          "count": 21,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 22,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 21,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 59.3,
+        "n_with_age": 21,
+        "countries": ["TUR"]
+      }
+    },
+    {
+      "name": "Reference Medicine",
+      "organization_id": "b1c2d3e4-f5a6-7890-bcde-f1234567890a",
+      "country": ["RUS"],
+      "website": "https://refmed.ru/",
+      "contact_email": "info@refmed.ru",
+      "address": "",
+      "description": "Reference Medicine provides biospecimen collection and processing services from certified clinical sites in Russia.",
+      "specimens": {
+        "primary": {
+          "count": 11,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 15,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 11,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 60.7,
+        "n_with_age": 11,
+        "countries": ["RUS"]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "9e6ec4c7-b5b4-4f16-a009-eb268f9edf66",
+      "country": ["NLD"],
+      "website": "https://www.stibion.nl",
+      "contact_email": "info@stibion.nl",
+      "address": "Colosseum 65, 7521 PP, Enschede, The Netherlands",
+      "description": "Stichting Biobank Oost Nederland (Stibion), based in the Netherlands, manages and distributes biospecimens from an active cohort.",
+      "specimens": {
+        "primary": {
+          "count": 4,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 66.0,
+        "n_with_age": 4,
+        "countries": ["NLD"]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "a1b2c3d4e5f6...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 58,
+      "diagnoses": [
+        "Endometrial cancer",
+        "Uterine cancer"
+      ],
+      "biomarkers": "ER: positive; PR: positive; p53: wildtype",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "b2c3d4e5f6a7...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Female",
+      "age": 58,
+      "diagnoses": [
+        "Endometrial cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "c3d4e5f6a7b8...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 66,
+      "diagnoses": [
+        "Endometrial cancer",
+        "Hypertension",
+        "Diabetes"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "d4e5f6a7b8c9...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 71,
+      "diagnoses": [
+        "Endometrial cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 3.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "France Tissue Bank"
+    },
+    {
+      "specimen_id": "e5f6a7b8c9d0...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 55,
+      "diagnoses": [
+        "Endometrial cancer",
+        "Obesity"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 1.0
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "CSD Bio"
+    }
+  ],
+  "coverage_gaps": {
+    "histotype": "annotated in <20% of commercial specimens — endometrioid vs serous vs clear cell distinction requires pathology report review",
+    "FIGO_stage": "83% TNM staged but FIGO conversion not systematically documented — requires inquiry",
+    "MMR_status": "11 specimens annotated at ProteoGenex only — not available from commercial suppliers",
+    "POLE_mutation": "0% annotated — requires molecular testing on acquisition",
+    "consent_scope": "not available in specimen data — requires direct inquiry",
+    "myometrial_invasion_depth": "rarely documented in commercial biobank listings"
+  }
+}

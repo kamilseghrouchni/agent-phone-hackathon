@@ -1,0 +1,27 @@
+{
+  "bundle_id": "rheumatoid-arthritis-synovial-serum-urine",
+  "therapeutic_area": "autoimmune",
+  "query_text": "Rheumatoid arthritis synovial fluid or synovial tissue biopsy with matched serum and urine. RF and anti-CCP status documented. Medication history required. Treatment-naive preferred. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Rheumatoid arthritis",
+      "RA"
+    ],
+    "specimen_types": [
+      "Synovial fluid",
+      "Tissue (synovial biopsy)",
+      "Serum",
+      "Urine"
+    ],
+    "min_n": 30,
+    "matched_pairs": true,
+    "treatment_status": "treatment-naive preferred",
+    "clinical_data_required": [
+      "RF_status",
+      "anti_CCP_status",
+      "medication_history"
+    ],
+    "assay_context": "RA synovial and systemic biomarker profiling, treatment response prediction"
+  }
+}

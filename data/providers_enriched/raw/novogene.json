@@ -1,0 +1,3649 @@
+{
+  "name": "Novogene",
+  "cleaned_name": "Novogene",
+  "aliases_tried": [
+    "Novogene"
+  ],
+  "publication_total": 156,
+  "search_queries": [
+    "\"Novogene\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "42050196",
+      "doi": "10.1038/nbt.3192",
+      "pmc": "4430369",
+      "title": "Single-cell chromatin accessibility and cis-regulatory element analyses in plants using the scPlantReg platform.",
+      "abstract": "Understanding gene regulation is fundamental to plant improvement. However, the lack of plant-specific single-cell assay for transposase-accessible chromatin using sequencing (scATAC-seq) frameworks and cross-species databases has limited insights into cell-type-specific cellular regulation. Here we present 'scPlantReg', an integrated framework and database for plant scATAC-seq data. scPlantReg supports end-to-end analyses from raw data processing to biological interpretation and features 'scATACtor', a supervised machine-learning approach that outperforms existing tools for cell-type annotation. We applied scPlantReg to pearl millet to characterize cell-type-specific chromatin accessibility and identify validated activating and repressing accessible chromatin regions (ACRs), revealing WRKY transcription factors as potential regulators of xylem development. Furthermore, we reanalysed scATAC-seq datasets from 8 plant species, spanning 11 tissues and multiple developmental stages, enabling cross-species comparisons. These analyses uncovered conserved regulatory programmes, including AP2/EREBP-associated ACRs linked to cell wall development and cell-type-conserved TFs across grasses. Collectively, scPlantReg provides a general framework and resource for comparative regulatory analysis in plants.",
+      "journal": "Nat Plants",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Yan",
+          "fore_name": "Haidong",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China. yanhaidong1991@163.com."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Yarong",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Chengran",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xinxin",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Jia",
+          "fore_name": "Jiyuan",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Xiaofang",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Marand",
+          "fore_name": "Alexandre P",
+          "affiliations": [
+            "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA."
+          ]
+        },
+        {
+          "last_name": "Xia",
+          "fore_name": "Mao",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xuan",
+          "affiliations": [
+            "Department of Genetics, University of Georgia, Athens, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Zhong",
+          "fore_name": "Yun",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Xin",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Zhai",
+          "fore_name": "Qiang",
+          "affiliations": [
+            "College of Information Engineering, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Tao",
+          "affiliations": [
+            "College of Information Engineering, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Tian",
+          "fore_name": "Shilin",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xiaoqin",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xiang",
+          "affiliations": [
+            "Department of Genetics, University of Georgia, Athens, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Yao",
+          "fore_name": "Jie",
+          "affiliations": [
+            "Department of Genetics, University of Georgia, Athens, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Schmitz",
+          "fore_name": "Robert J",
+          "affiliations": [
+            "Department of Genetics, University of Georgia, Athens, GA, USA. schmitz@uga.edu."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Zhaoming",
+          "affiliations": [
+            "National Technology Innovation Center for Prataculture, Inner Mongolia Pratacultural Technology Innovation Center Co. Ltd, Hohhot, China. wzm_mcst2025@163.com."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Linkai",
+          "affiliations": [
+            "College of Grassland Science and Technology, Sichuan Agricultural University, Chengdu, China. huanglinkai@sicau.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41942648",
+      "doi": "10.1038/s41598-026-46618-3",
+      "title": "RNA-based next-generation sequencing strategy for screening MDM2-amplified sarcomas.",
+      "abstract": "The accurate diagnosis of soft tissue sarcomas and bone tumors poses persistent challenges in pathological practice. While targeted RNA-based next-generation sequencing (NGS) has enhanced diagnostic precision through fusion gene detection, its clinical utility remains limited for dedifferentiated liposarcoma (DDLPS) due to the inability to identify MDM2 copy number variations - a critical diagnostic feature. This limitation is particularly clinically relevant as morphologically atypical DDLPS cases may undergo targeted RNA NGS testing. Through retrospective analysis of 150 patients undergoing RNA NGS and validation with TCGA-SARC data, we developed a novel screening algorithm for DDLPS using RNA NGS data, specifically the number of fusion events within the 12q13-15 chromosomal region and MDM2 transcript levels. Both metrics were significantly elevated in DDLPS compared to non-DDLPS cases in our institutional cohort (p\u2009<\u20090.001). ROC analysis established optimal diagnostic thresholds: \u22653 fusions in 12q13-15 region achieved 100% sensitivity (95% CI: [73.53%-100%]; 12/12) and 95.65% specificity (95% CI: [90.78%-98.39%]; 132/138). Similarly, MDM2 RNA expression\u2009\u2265\u2009100 TPM showed 100% sensitivity (95% CI: [63.1%-100%]; 8/8) and 97.37% specificity (95% CI: [90.8%-99.7%]; 74/76). The algorithm also performed robustly in the TCGA-SARC data, although with a slightly different optimal cutoff, likely due to differences in gene panels, depth of sequencing, gene coverage, and bioinformatics pipelines. This study presents an effective strategy for screening DDLPS and potentially other MDM2-amplified sarcomas.",
+      "journal": "Sci Rep",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Lei",
+          "fore_name": "Cheng",
+          "affiliations": [
+            "Department of Pathology, The Second Xiangya Hospital, Central South University, Changsha, 410011, Hunan, China.",
+            "Hunan Clinical Medical Research Center for Cancer Pathogenic Genes Testing and Diagnosis, Changsha, 410011, Hunan, China."
+          ]
+        },
+        {
+          "last_name": "Zang",
+          "fore_name": "Hongjing",
+          "affiliations": [
+            "Department of Pathology, The Second Xiangya Hospital, Central South University, Changsha, 410011, Hunan, China.",
+            "Hunan Clinical Medical Research Center for Cancer Pathogenic Genes Testing and Diagnosis, Changsha, 410011, Hunan, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Haixia",
+          "affiliations": [
+            "Department of Oncology, Central South University, Changsha, 410011, Hunan, China."
+          ]
+        },
+        {
+          "last_name": "He",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Department of Radiology, Central South University, Changsha, 410011, Hunan, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Min",
+          "affiliations": [
+            "Beijing Novogene Technology Co., Ltd, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Yi",
+          "affiliations": [
+            "Department of Pathology, The Second Xiangya Hospital, Central South University, Changsha, 410011, Hunan, China.",
+            "Hunan Clinical Medical Research Center for Cancer Pathogenic Genes Testing and Diagnosis, Changsha, 410011, Hunan, China."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "Songqing",
+          "affiliations": [
+            "Department of Pathology, The Second Xiangya Hospital, Central South University, Changsha, 410011, Hunan, China.",
+            "Hunan Clinical Medical Research Center for Cancer Pathogenic Genes Testing and Diagnosis, Changsha, 410011, Hunan, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Peng",
+          "affiliations": [
+            "Department of Pathology, The Second Xiangya Hospital, Central South University, Changsha, 410011, Hunan, China. zhouzipeng@csu.edu.cn.",
+            "Hunan Clinical Medical Research Center for Cancer Pathogenic Genes Testing and Diagnosis, Changsha, 410011, Hunan, China. zhouzipeng@csu.edu.cn.",
+            "The Second Xiangya Hospital, Central South University, 139 Renmin Middle Road, Furong District, Changsha, 410011, Hunan, People's Republic of China. zhouzipeng@csu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "DDLPS",
+        "Fusion",
+        "MDM2",
+        "RNA NGS",
+        "Sarcoma"
+      ]
+    },
+    {
+      "pmid": "41862752",
+      "doi": "10.1038/s41588-026-02523-z",
+      "pmc": "2928508",
+      "title": "A pangenome reference and population studies link structural variants with breeding traits in Gossypium hirsutum.",
+      "abstract": "Limited pangenome and ambiguous genomic architecture constrain comprehensive genetic variation discovery and cotton improvement. Here we assembled a telomere-to-telomere (T2T) genome for elite cultivar NDM13 and near-T2T genomes for 27 additional representatives of Gossypium hirsutum over the recent century, with transcriptomic profiling of 15 distinct tissues from each. We uncovered 51,551 one-to-one conserved orthologs across all genomes and landscapes of telomere, centromere, 45S rDNA, segmental duplication and copy number variant. We revealed hotspots of structural variation (SV) and impacts of SV, segmental duplication and copy number variant on gene expression or content alteration, as well as adversity resistances. We identified thousands of divergent SVs and genes implicated in modern breeding evolution. Combining T2T-reference-based pangenome construction and 761,536 SVs identified across 1,671 worldwide accessions with phenotypic data from 22 environments, we captured a number of hidden SVs that potentially influence critical breeding traits. These will boost genetic study and biotechnological improvement of the crop.",
+      "journal": "Nat Genet",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yan",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "State Key Laboratory of North China Crop Improvement and Regulation, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Zhengwen",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "State Key Laboratory of North China Crop Improvement and Regulation, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Tian",
+          "fore_name": "Shilin",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Liqiang",
+          "affiliations": [
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Gu",
+          "fore_name": "Qishen",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Ke",
+          "fore_name": "Huifeng",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Guiyin",
+          "affiliations": [
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Zhicheng",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Jin",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xinyu",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Ziming",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Jun",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xiangkong",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Yafei",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Kaijian",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Jinhua",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Guoning",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Dongmei",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xingyi",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Meng",
+          "fore_name": "Chengsheng",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Yanbin",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Zixu",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Weiyi",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Jiao",
+          "fore_name": "Mengjia",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Jia",
+          "fore_name": "Hao",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jing",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Zuo",
+          "fore_name": "Haonan",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yan",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Gu",
+          "fore_name": "Man",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Meixia",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Lizhu",
+          "affiliations": [
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Zhikun",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Yuanyuan",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "State Key Laboratory of North China Crop Improvement and Regulation, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Cui",
+          "fore_name": "Yanru",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Jie",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xingfen",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China. cotton@hebau.edu.cn.",
+            "State Key Laboratory of North China Crop Improvement and Regulation, Hebei Agricultural University, Baoding, China. cotton@hebau.edu.cn.",
+            "Collaborative Innovation Center for Cotton Industry of Hebei Province, Hebei Agricultural University, Baoding, China. cotton@hebau.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "Zhiying",
+          "affiliations": [
+            "North China Key Laboratory for Crop Germplasm Resources of Education Ministry, Hebei Agricultural University, Baoding, China. mzhy@hebau.edu.cn.",
+            "State Key Laboratory of North China Crop Improvement and Regulation, Hebei Agricultural University, Baoding, China. mzhy@hebau.edu.cn.",
+            "Key Laboratory for Crop Germplasm Resources of Hebei Province, Hebei Agricultural University, Baoding, China. mzhy@hebau.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Gossypium",
+        "Genome, Plant",
+        "Plant Breeding",
+        "DNA Copy Number Variations",
+        "Phenotype",
+        "Genomic Structural Variation",
+        "Genetic Variation"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41669844",
+      "doi": "10.1161/HYPERTENSIONAHA.125.25388",
+      "title": "DNA Methylation Markers for Pregnancy Hypertension via Machine Learning Methods.",
+      "abstract": "This study aims to develop a prediction model to identify individuals at risk of hypertensive disorders of pregnancy (HDPs), including gestational hypertension and preeclampsia, by integrating epigenetic biomarkers and clinical factors in the first trimester of pregnancy. A 2-stage nested case-control study, matched by age and body mass index, was conducted with 618 pregnant women in China, with peripheral blood samples collected in the first trimester to evaluate the average methylation levels of differentially methylated regions (DMRs) between controls and HDP cases. In stage 1 (discovery set), 24 controls and 27 cases were used to identify the differential DMRs. In stage 2, 294 controls and 273 cases were used to validate the previously identified DMRs. DMRs selected from the intersectional results of lasso regression, XGBoost, random forest, and Shapley Additive Explanations models were further combined with women's clinical risk factors to construct prediction models using logistic regression. In stage 1, 52 differential DMRs were identified with a false-positive rate <0.05. In stage 2, 12 differential DMRs were consistently observed, and 3 DMRs located in the Findings of this study offer potential opportunities to identify high-risk patients with HDP in early pregnancy through DMRs identified in peripheral blood and provide new insights into the epigenetic cause of HDP.",
+      "journal": "Hypertension",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Lei",
+          "fore_name": "Jueming",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Research Institute for Family Planning, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.M., Y.Y.).",
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.)."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Hanbin",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Research Institute for Family Planning, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.M., Y.Y.).",
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.).",
+            "Department of Obstetrics and Gynaecology, Prince of Wales Hospital (H.W., L.C.P., C.C.W.), The Chinese University of Hong Kong."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Haiyan",
+          "affiliations": [
+            "Department of Gynaecology and Obstetrics (H.L.), Haidian District Maternal and Child Health Care Hospital, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Poon",
+          "fore_name": "Liona C",
+          "affiliations": [
+            "Department of Obstetrics and Gynaecology, Prince of Wales Hospital (H.W., L.C.P., C.C.W.), The Chinese University of Hong Kong.",
+            "Shenzhen Research Institute (L.C.P., C.C.W.), The Chinese University of Hong Kong."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Chi Chiu",
+          "affiliations": [
+            "Department of Obstetrics and Gynaecology, Prince of Wales Hospital (H.W., L.C.P., C.C.W.), The Chinese University of Hong Kong.",
+            "Shenzhen Research Institute (L.C.P., C.C.W.), The Chinese University of Hong Kong.",
+            "Li Ka Shing Institute of Health Science, Prince of Wales Hospital (C.C.W.), The Chinese University of Hong Kong.",
+            "School of Biomedical Sciences (C.C.W.), The Chinese University of Hong Kong."
+          ]
+        },
+        {
+          "last_name": "Cai",
+          "fore_name": "Ruikun",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Research Institute for Family Planning, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.M., Y.Y.).",
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.).",
+            "Department of Epidemiology and Public Health, Graduate School of Peking Union Medical College, Beijing, China (R.C., D.S., J. Li, X.M., Y.Y.)."
+          ]
+        },
+        {
+          "last_name": "Su",
+          "fore_name": "Dongmei",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Research Institute for Family Planning, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.M., Y.Y.).",
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.).",
+            "Department of Epidemiology and Public Health, Graduate School of Peking Union Medical College, Beijing, China (R.C., D.S., J. Li, X.M., Y.Y.)."
+          ]
+        },
+        {
+          "last_name": "Jia",
+          "fore_name": "Jiajing",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Research Institute for Family Planning, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.M., Y.Y.).",
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.)."
+          ]
+        },
+        {
+          "last_name": "Zou",
+          "fore_name": "Xiaoxuan",
+          "affiliations": [
+            "Department of Information (X.Z., S.W.), Haidian District Maternal and Child Health Care Hospital, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Haishan",
+          "affiliations": [
+            "Department of Laboratory Medicine (H.Y.), Haidian District Maternal and Child Health Care Hospital, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Shuo",
+          "affiliations": [
+            "Department of Information (X.Z., S.W.), Haidian District Maternal and Child Health Care Hospital, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jiaxin",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Research Institute for Family Planning, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.M., Y.Y.).",
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.).",
+            "Department of Epidemiology and Public Health, Graduate School of Peking Union Medical College, Beijing, China (R.C., D.S., J. Li, X.M., Y.Y.)."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Department of Bioinformatic Analysis, Novogene Co. Ltd., Beijing, China (Y.Z.)."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xingyu",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.)."
+          ]
+        },
+        {
+          "last_name": "Shang",
+          "fore_name": "Tao",
+          "affiliations": [
+            "School of Cyber Science and Technology, Beihang University, Beijing, China (T.S.)."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "Xu",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Research Institute for Family Planning, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.M., Y.Y.).",
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.).",
+            "Department of Epidemiology and Public Health, Graduate School of Peking Union Medical College, Beijing, China (R.C., D.S., J. Li, X.M., Y.Y.)."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Ying",
+          "affiliations": [
+            "Department of Reproductive Health Research, National Research Institute for Family Planning, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.M., Y.Y.).",
+            "Department of Reproductive Health Research, National Human Genetic Resources Center, Beijing, China (J. Lei, H.W., R.C., D.S., J.J., J. Li, X.W., X.M., Y.Y.).",
+            "Department of Epidemiology and Public Health, Graduate School of Peking Union Medical College, Beijing, China (R.C., D.S., J. Li, X.M., Y.Y.)."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Pregnancy",
+        "Machine Learning",
+        "DNA Methylation",
+        "Hypertension, Pregnancy-Induced",
+        "Adult",
+        "Case-Control Studies",
+        "Pregnancy Trimester, First",
+        "Biomarkers",
+        "Pre-Eclampsia",
+        "China",
+        "Epigenesis, Genetic",
+        "Risk Factors"
+      ],
+      "keywords": [
+        "DNA methylation",
+        "cardiovascular diseases",
+        "case-control studies",
+        "hypertension, pregnancy-induced",
+        "pregnancy trimester, first"
+      ]
+    },
+    {
+      "pmid": "41576511",
+      "doi": "10.1016/j.cancergen.2026.01.007",
+      "title": "Genome-wide cfDNA Methylation Profiling of Pleural Effusion Reveals an Immuno-epigenetic Signature for Differentiating Malignant from Benign Cases.",
+      "abstract": "Distinguishing malignant pleural effusion (MPE) from benign pleural effusion (BPE) remains clinically challenging because conventional cytology has limited sensitivity. We investigated whether cfDNA methylation profiling of pleural effusion supernatant could provide a non\u2011invasive diagnostic alternative. Patients with pleural effusion were consecutively and prospectively recruited from Beijing Chest Hospital between November 2022 and March 2024. We conducted genome-wide cfDNA methylation profiling on qualified pleural effusion samples. A mechanistically relevant diagnostic signature was developed using a knowledge-driven approach, integrating probes involving immune pathways and immune cell deconvolution data from the training set. The final signature's performance was subsequently tested in an internal validation cohort and benchmarked against conventional cytology. A total of 101 participants were enrolled, including 45 MPE and 56 BPE according to the composite reference standard. We observed a distinct methylation landscape between MPE and BPE, identifying 3,119 hypermethylated and 232 hypomethylated DMPs in MPE that were enriched in immune\u2011related pathways (such as T cell activation). Deconvolution indicated significant differences in immune cell-derived cfDNA (including CD8+ T cells, B cells, eosinophils) between groups. A 7\u2011CpG-model based on LASSO classifier achieved an AUC of 0.980 (95% CI: 0.954-1.000) in the training set and 0.963 (95% CI: 0.896-1.000) in the internal validation set. The classifier substantially improved MPE detection in cytology\u2011negative or indeterminate cases and identified MPEs missed by conventional methods. A 7\u2011CpG-model from pleural effusion cfDNA reliably discriminates MPE from BPE and shows promise as a reflex test for resolving cytologic uncertainty.",
+      "journal": "Cancer Genet",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Sun",
+          "fore_name": "Zuyu",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Fudong",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Jiemin",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Nana",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Fang",
+          "affiliations": [
+            "Novogene Co., Ltd., Beijing 100015, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Xiaojie",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Zichen",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Xing",
+          "fore_name": "Xuya",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Kun",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Xuejing",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Lili",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Che",
+          "fore_name": "Nanying",
+          "affiliations": [
+            "Department of Pathology, Beijing Chest Hospital, Capital Medical University, Beijing Tuberculosis & Thoracic Tumor Research Institute, Tongzhou District, 101149 Beijing, China. Electronic address: cheny0448@163.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Male",
+        "Female",
+        "DNA Methylation",
+        "Pleural Effusion, Malignant",
+        "Middle Aged",
+        "Pleural Effusion",
+        "Aged",
+        "Cell-Free Nucleic Acids",
+        "Diagnosis, Differential",
+        "Biomarkers, Tumor",
+        "Epigenesis, Genetic",
+        "Prospective Studies",
+        "Adult"
+      ],
+      "keywords": [
+        "Biomarker",
+        "Cell-free DNA",
+        "DNA methylation",
+        "Liquid biopsy",
+        "Malignant pleural effusion",
+        "Pleural effusion"
+      ]
+    },
+    {
+      "pmid": "41851457",
+      "doi": "10.1038/s41592-023-02139-9",
+      "pmc": "10864184",
+      "title": "Proteasome-guided haem signalling axis contributes to T cell exhaustion.",
+      "abstract": "The accumulation of depolarized mitochondria commits T cells to exhaustion",
+      "journal": "Nature",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Xu",
+          "fore_name": "Yingxi",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland. xuyingxi@ihcams.ac.cn.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland. xuyingxi@ihcams.ac.cn.",
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China. xuyingxi@ihcams.ac.cn.",
+            "Tianjin Institutes of Health Science, Tianjin, China. xuyingxi@ihcams.ac.cn."
+          ]
+        },
+        {
+          "last_name": "Shangguan",
+          "fore_name": "Yangtao",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China.",
+            "Tianjin Institutes of Health Science, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Chuang",
+          "fore_name": "Yu-Ming",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Chang",
+          "fore_name": "Tzu-Hsuan",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Wenbing",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China.",
+            "Tianjin Institutes of Health Science, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Jhan-Jie",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland.",
+            "Graduate Institute of Clinical Medical Sciences, Chang Gung University, Taoyuan, Taiwan.",
+            "Center for Molecular and Clinical Immunology, Chang Gung University, Taoyuan, Taiwan."
+          ]
+        },
+        {
+          "last_name": "Garnica",
+          "fore_name": "Josep",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland.",
+            "Swiss Institute of Bioinformatics, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Leling",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China.",
+            "Tianjin Institutes of Health Science, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Hsueh",
+          "fore_name": "Pei-Chun",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Mei-Chun",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland.",
+            "Department of Otolaryngology, National Taiwan University Hospital, Taipei, Taiwan."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yi-Hao",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Hajdu",
+          "fore_name": "Karina Lobo",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Yibo",
+          "affiliations": [
+            "Chemical Biology Mass Spectrometry Platform (CHEMBIOMS), Faculty of Sciences, University of Geneva, Geneva, Switzerland.",
+            "Department of Biomedical Sciences, University of Lausanne, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Akrami",
+          "fore_name": "Maryam",
+          "affiliations": [
+            "Laboratory of Cancer Immunology, Department of Biomedicine, University of Basel and University Hospital of Basel, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Chen",
+          "affiliations": [
+            "Department of Pathology and Immunology, Faculty of Medicine, University of Geneva, Geneva, Switzerland.",
+            "Geneva Centre for Inflammation Research, Geneva, Switzerland.",
+            "National Key Laboratory of Immunity and Inflammation, Suzhou Institute of Systems Medicine, Chinese Academy of Medical Sciences & Peking Union Medical College, Suzhou, China."
+          ]
+        },
+        {
+          "last_name": "Kohl",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Zippelius",
+          "fore_name": "Alfred",
+          "affiliations": [
+            "Laboratory of Cancer Immunology, Department of Biomedicine, University of Basel and University Hospital of Basel, Basel, Switzerland.",
+            "Medical Oncology, University Hospital Basel, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Qi",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Novogene Co. Ltd, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Min",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China.",
+            "Tianjin Institutes of Health Science, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Budiarto",
+          "fore_name": "Bugi Ratno",
+          "affiliations": [
+            "Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan.",
+            "Taiwan International Graduate Program in Molecular Medicine, National Yang Ming Chiao Tung University and Academia Sinica, Taipei, Taiwan."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Shih-Yu",
+          "affiliations": [
+            "Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Zhengtao",
+          "affiliations": [
+            "School of Basic Medical Sciences, Xi'an Jiaotong University, Xi'an, China."
+          ]
+        },
+        {
+          "last_name": "Vardaka",
+          "fore_name": "Panagiota",
+          "affiliations": [
+            "Department of Pathology, University of Cambridge, Cambridge, UK.",
+            "Laboratory of Lymphocyte Signaling and Development, Babraham Institute, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Roychoudhuri",
+          "fore_name": "Rahul",
+          "affiliations": [
+            "Department of Pathology, University of Cambridge, Cambridge, UK.",
+            "Laboratory of Lymphocyte Signaling and Development, Babraham Institute, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Bai",
+          "fore_name": "Zhiliang",
+          "affiliations": [
+            "Department of Biomedical Engineering, Yale University, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "Rong",
+          "affiliations": [
+            "Department of Biomedical Engineering, Yale University, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Carmona",
+          "fore_name": "Santiago",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland.",
+            "Swiss Institute of Bioinformatics, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Yi-Ru",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Scheiermann",
+          "fore_name": "Christoph",
+          "affiliations": [
+            "Department of Pathology and Immunology, Faculty of Medicine, University of Geneva, Geneva, Switzerland.",
+            "Geneva Centre for Inflammation Research, Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Jianxiang",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China. wangjx@ihcams.ac.cn.",
+            "Tianjin Institutes of Health Science, Tianjin, China. wangjx@ihcams.ac.cn."
+          ]
+        },
+        {
+          "last_name": "Ho",
+          "fore_name": "Ping-Chih",
+          "affiliations": [
+            "Department of Oncology, University of Lausanne, Lausanne, Switzerland. ping-chih.ho@unil.ch.",
+            "Ludwig Institute for Cancer Research Lausanne branch, Lausanne, Switzerland. ping-chih.ho@unil.ch.",
+            "College of Medical Science and Technology, Taipei Medical University, Taipei, Taiwan. ping-chih.ho@unil.ch."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41820523",
+      "doi": "10.1038/s41698-026-01360-x",
+      "title": "BET inhibition disrupts the FOXM1-MYC axis to induce BRCAness and enhance PARP inhibitor response.",
+      "abstract": "Homologous recombination (HR) proficiency underlies intrinsic and acquired resistance to PARP inhibitors (PARPi). We identify a BRD4-dependent FOXM1-MYC transcriptional axis that sustains HR gene expression and limits PARPi response. ENCODE analyses revealed extensive co-occupancy of FOXM1 and MYC at regulatory regions of DNA repair genes, including BRCA1/2 and RAD51 paralogs, suggesting a shared HR program. Functionally, transient knockdown of FOXM1 or MYC reduced BRCA1/RAD51 transcripts, whereas sustained FOXM1 silencing triggered adaptive MYC upregulation that preserved HR output, indicating compensatory control. BET inhibition with (+)-JQ1 diminished FOXM1/MYC promoter occupancy at BRCA1 and RAD51, downregulated HR genes, and synergized with PARPi in viability and clonogenic assays. A BRD4 degrader (ZBC260) achieved potent BRD4 depletion at low nanomolar doses, suppressed FOXM1/MYC and HR gene expression, enhanced PARP1 trapping, and produced strong synergy with olaparib, including in patient-derived cancer cells. Clinically, BRD4 is highly expressed in ovarian cancer and independently predicts poor survival, outperforming FOXM1 and MYC. These data establish BRD4-directed disruption of the FOXM1-MYC axis as a strategy to induce \"BRCAness\" and broaden PARPi efficacy.",
+      "journal": "NPJ Precis Oncol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Fang",
+          "fore_name": "Pingping",
+          "affiliations": [
+            "Department of Pharmacology, Toxicology, and Therapeutics, University of Kansas Medical Center, Kansas City, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Saunders",
+          "fore_name": "Anais",
+          "affiliations": [
+            "Department of Biochemistry and Molecular Medicine, University of California Davis, Sacramento, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Minn",
+          "fore_name": "Kay",
+          "affiliations": [
+            "Novogene, Sacramento, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Chua",
+          "fore_name": "Katherine Jane",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, University of California Davis, Sacramento, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Brooks",
+          "fore_name": "Rebecca A",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, University of California Davis, Sacramento, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Bakke",
+          "fore_name": "Danika",
+          "affiliations": [
+            "Caris Life Sciences, Phoenix, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Leiserowitz",
+          "fore_name": "Gary S",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, University of California Davis, Sacramento, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Johnson",
+          "fore_name": "Neil",
+          "affiliations": [
+            "Nuclear Dynamics and Cancer Program, Fox Chase Cancer Center, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Shaomeng",
+          "affiliations": [
+            "Department of Internal Medicine, Pharmacology and Medicinal Chemistry, University of Michigan, Ann Arbor, MI, USA."
+          ]
+        },
+        {
+          "last_name": "Chien",
+          "fore_name": "Jeremy",
+          "affiliations": [
+            "Department of Biochemistry and Molecular Medicine, University of California Davis, Sacramento, CA, USA. jrchien@health.ucdavis.edu.",
+            "Department of Obstetrics and Gynecology, University of California Davis, Sacramento, CA, USA. jrchien@health.ucdavis.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "42058499",
+      "pmc": "PMC7691323",
+      "doi": "10.1159/000550945",
+      "title": "Integrated Multi-Omics Profiling Identifies an Immunotherapy Vulnerable and Prognostic Associated Subtype in Cholangiocarcinoma.",
+      "abstract": "Cholangiocarcinoma (CCA) is an aggressive malignancy with poor prognosis and limited treatment options. Molecular heterogeneity and the tumor immune microenvironment play crucial roles in CCA progression and therapeutic response, but comprehensive stratification remains insufficient for guiding treatment decisions. This study performed integrated multi-omics profiling as well as immunohistochemical validation on 424 CCA patients. Multidimensional data, including genomic, epigenomic, transcriptomic, and immune profiling, were analyzed to identify clinically relevant molecular subtypes. Four distinct molecular subtypes of CCA were identified, each exhibiting unique clinical and immunological features: C1 (proliferation): driven by We validated ATP2B1 as a novel prognostic biomarker and developed a 160-gene classifier for subtype prediction. The C3 subtype's exceptional ICB response, independent of conventional biomarkers (PD-L1/microsatellite instability/tumor mutational burden), highlights the clinical utility of this classification system in guiding precision immunotherapy for CCA.",
+      "journal": "Liver Cancer",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Chen",
+          "fore_name": "Lu",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "He",
+          "fore_name": "Yuchao",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Tumor Cell Biology, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Su",
+          "fore_name": "Hong",
+          "affiliations": [
+            "Novogene Bioinformatics Technology Co., Ltd, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Tian",
+          "fore_name": "Xiangdong",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Endoscopy, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Liao",
+          "fore_name": "Haotian",
+          "affiliations": [
+            "Division of Liver Surgery, Department of General Surgery and Laboratory of Liver Surgery, West China Hospital, Sichuan University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Dongming",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Meng",
+          "affiliations": [
+            "Novogene Bioinformatics Technology Co., Ltd, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Huichuan",
+          "affiliations": [
+            "Department of Liver Surgery and Transplantation, Liver Cancer Institute and Zhongshan Hospital, Fudan University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Qi",
+          "fore_name": "Lisha",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Pathology, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Manqing",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Breast Surgery, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Zhiyong",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Tumor Cell Biology, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Lin",
+          "affiliations": [
+            "Department of Genetics, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Guangtao",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Chenhao",
+          "affiliations": [
+            "Department of Liver Surgery and Transplantation, Liver Cancer Institute and Zhongshan Hospital, Fudan University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Yi",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Tumor Cell Biology, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Liwei",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Tumor Cell Biology, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Qiang",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Cui",
+          "fore_name": "Yunlong",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Huikai",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Xiaolin",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Feng",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Shaojun",
+          "affiliations": [
+            "Medical Research Institute, Guangdong Provincial People's Hospital, Guangdong Academy of Medical Sciences, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Tianqiang",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Hepatobiliary Cancer, Liver Cancer Research Center, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Hua",
+          "affiliations": [
+            "Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, State Key Laboratory of Druggability Evaluation and Systematic Translational Medicine, Tianjin Key Laboratory of Digestive Cancer, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+            "Department of Tumor Cell Biology, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Biomarkers",
+        "Cholangiocarcinoma",
+        "Immunotherapy",
+        "Molecular subtypes",
+        "Multi-omics"
+      ]
+    },
+    {
+      "pmid": "41629458",
+      "pmc": "PMC7717906",
+      "doi": "10.1038/s41598-026-36940-1",
+      "title": "Orbitrap Astral-based proteome and phosphoproteome analysis identifies candidate proteins associated with the phosphatidate phosphatase MoPah1 in Magnaporthe oryzae.",
+      "abstract": "Previous studies have shown that the phosphatidate phosphatase MoPah1 plays a critical role in Magnaporthe oryzae development and pathogenicity. The gene deletion mutant exhibits reduced virulence on rice leaves; however, the MoPah1 regulatory network remains unclear. In this study, we applied a quantitative data-independent acquisition approach using the Orbitrap Astral instrument to analyze the gene deletion mutant. We identified 6,799 proteins and 15,682 phosphorylation sites in M. oryzae, with differentially abundant proteins primarily enriched in metabolic and autophagy pathways. Integrating phosphoproteomic and proteomic analyses, we found 72 overlapping proteins. Additionally, we employed glutathione S-transferase pull-down and yeast two-hybrid assays to screen and verify MoPah1-interacting proteins, identifying Pmk1. Our findings reveal candidate proteins in the MoPah1 regulatory network and the interaction between MoPah1 and Pmk1 in M. oryzae.",
+      "journal": "Sci Rep",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Zhao",
+          "fore_name": "Juan",
+          "affiliations": [
+            "College of Chemistry and Life Sciences, Sichuan Provincial Key Laboratory for Development and Utilization of Characteristic Horticultural Biological Resources, Chengdu Normal University, Chengdu, 611130, China. zhaojuan201809@163.com."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lili",
+          "affiliations": [
+            "Novogene Corporation Incorporated Company, Beijing, 100000, China."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Xinyi",
+          "affiliations": [
+            "College of Chemistry and Life Sciences, Sichuan Provincial Key Laboratory for Development and Utilization of Characteristic Horticultural Biological Resources, Chengdu Normal University, Chengdu, 611130, China."
+          ]
+        },
+        {
+          "last_name": "Zou",
+          "fore_name": "Xinmei",
+          "affiliations": [
+            "College of Chemistry and Life Sciences, Sichuan Provincial Key Laboratory for Development and Utilization of Characteristic Horticultural Biological Resources, Chengdu Normal University, Chengdu, 611130, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Bo",
+          "affiliations": [
+            "College of Chemistry and Life Sciences, Sichuan Provincial Key Laboratory for Development and Utilization of Characteristic Horticultural Biological Resources, Chengdu Normal University, Chengdu, 611130, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Yong",
+          "affiliations": [
+            "College of Chemistry and Life Sciences, Sichuan Provincial Key Laboratory for Development and Utilization of Characteristic Horticultural Biological Resources, Chengdu Normal University, Chengdu, 611130, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Chengming",
+          "affiliations": [
+            "College of Chemistry and Life Sciences, Sichuan Provincial Key Laboratory for Development and Utilization of Characteristic Horticultural Biological Resources, Chengdu Normal University, Chengdu, 611130, China."
+          ]
+        },
+        {
+          "last_name": "Xiang",
+          "fore_name": "Lan",
+          "affiliations": [
+            "College of Chemistry and Life Sciences, Sichuan Provincial Key Laboratory for Development and Utilization of Characteristic Horticultural Biological Resources, Chengdu Normal University, Chengdu, 611130, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Proteome",
+        "Fungal Proteins",
+        "Proteomics",
+        "Phosphatidate Phosphatase",
+        "Oryza",
+        "Ascomycota",
+        "Phosphoproteins",
+        "Phosphorylation",
+        "Magnaporthe",
+        "Plant Diseases"
+      ],
+      "keywords": [
+        "Magnaporthe oryzae",
+        "Phosphatidate phosphatase",
+        "Phosphoproteomics",
+        "Proteomic"
+      ]
+    },
+    {
+      "pmid": "41290542",
+      "pmc": "PMC8728233",
+      "doi": "10.1002/advs.202509259",
+      "title": "Single-Cell Dissection Reveals Immune Dysregulation After CD5 or CD7-Directed Chimeric Antigen Receptor T-Cell Therapy.",
+      "abstract": "CD5- and CD7-directed chimeric antigen receptor T-cell (5CAR and 7CAR) therapies for T-cell malignancies carry the risk of life-threatening infection. Although depletion of target-positive lymphocytes is expected, the contribution of residual cell dysfunction to infection risk remains unclear. This work uses single-cell sequencing to investigate immune dysregulation after 5CAR or 7CAR therapy in patients with T-cell acute lymphoblastic leukemia. 5CAR induces marked T-cell exhaustion linked to CD5 loss and B lymphocyte-induced maturation protein 1 upregulation. This is accompanied by reduced frequency and diversity of Epstein-Barr virus (EBV)-associated T-cell receptors, potentially contributing to the high incidence of severe EBV infection. 5CAR therapy also impairs B-cell function and diversity while enhancing natural killer cell function and monocyte activation. In contrast, 7CAR reduces the frequency and diversity of multiple pathogen-associated T-cell receptors, but causes less T-cell exhaustion. 7CAR also substantially impairs innate immunity by decreasing monocyte activation and eliminating dendritic cells, which may contribute to the high risk of infection. Thus, unlike CD19 and CD22 CAR therapy, which primarily affects B cells, 5CAR and 7CAR therapies result in broad dysregulation across multiple immune cell types, providing a basis for infection prevention and safer CAR-T therapy.",
+      "journal": "Adv Sci (Weinh)",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Luo",
+          "fore_name": "Yuechen",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Haixiao",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Kaiting",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yiming",
+          "affiliations": [
+            "Novogene Co., Ltd., Beijing, 100015, China."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Huajiang",
+          "affiliations": [
+            "Logistics University of Chinese People's Armed Police Forces, Tianjin, 300309, China."
+          ]
+        },
+        {
+          "last_name": "Qi",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Novogene Co., Ltd., Beijing, 100015, China."
+          ]
+        },
+        {
+          "last_name": "Shan",
+          "fore_name": "Lingling",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Yue",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Liping",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Jun",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Erlie",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China."
+          ]
+        },
+        {
+          "last_name": "Pan",
+          "fore_name": "Jing",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, Department of Hemato-oncology and Immunotherapy, Beijing GoBroad Hospital, Beijing, 102206, China."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Xiaoming",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, 300020, China.",
+            "Tianjin Institutes of Health Science, Tianjin, 301600, China.",
+            "Central laboratory, Fujian Medical Union Hospital, Fuzhou, 350001, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Receptors, Chimeric Antigen",
+        "CD5 Antigens",
+        "Antigens, CD7",
+        "Single-Cell Analysis",
+        "Immunotherapy, Adoptive",
+        "T-Lymphocytes",
+        "B-Lymphocytes"
+      ],
+      "keywords": [
+        "CAR T cells",
+        "immunodeficiency",
+        "single\u2010cell sequencing"
+      ]
+    },
+    {
+      "pmid": "41348117",
+      "pmc": "PMC4294202",
+      "doi": "10.3389/fmicb.2014.00782",
+      "title": "Cas9 modulates",
+      "abstract": "The CRISPR-associated protein 9 (Cas9) produced by disease-associated strains of",
+      "journal": "Microbiology (Reading)",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Saha",
+          "fore_name": "Chinmoy",
+          "affiliations": [
+            "Department of Medical Microbiology and Infectious Diseases, Erasmus MC University Medical Center Rotterdam, Rotterdam, Netherlands.",
+            "Present address: Novogene Europe, Leiden, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Beerens",
+          "fore_name": "Dior",
+          "affiliations": [
+            "Department of Medical Microbiology and Infectious Diseases, Erasmus MC University Medical Center Rotterdam, Rotterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "van Baarlen",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Host-Microbe Interactomics Group, Wageningen University, Wageningen, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Louwen",
+          "fore_name": "Rogier",
+          "affiliations": [
+            "Department of Medical Microbiology and Infectious Diseases, Erasmus MC University Medical Center Rotterdam, Rotterdam, Netherlands."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Campylobacter jejuni",
+        "Humans",
+        "Caco-2 Cells",
+        "Virulence",
+        "Epithelial Cells",
+        "CRISPR-Associated Protein 9",
+        "Toll-Like Receptor 2",
+        "Campylobacter Infections",
+        "Bacterial Proteins",
+        "Anti-Bacterial Agents",
+        "Ciprofloxacin",
+        "Lipopolysaccharides",
+        "Virulence Factors"
+      ],
+      "keywords": [
+        "Caco-2",
+        "Campylobacter jejuni",
+        "Cas9",
+        "TLR-2",
+        "cell envelope",
+        "ciprofloxacin",
+        "survival"
+      ]
+    },
+    {
+      "pmid": "40623122",
+      "pmc": "PMC4794248",
+      "doi": "10.1080/22221751.2025.2531178",
+      "title": "A novel immunocompetent transgenic mouse model of DHF reveals Syk-mediated Th2-polarized cytokine storm as a key driver of vascular leakage.",
+      "abstract": "Dengue virus (DENV) infection remains a critical global health threat, with DENV-2 being the most virulent serotype capable of causing lethal dengue hemorrhagic fever (DHF), a severe complication characterized by plasma leakage and hemorrhagic manifestations. While the search for viral receptors and immunocompetent animal models has persisted since the first recorded outbreak in 1779, significant gaps remain. Here, we establish the first immunocompetent murine model of DHF with intact innate/adaptive immunity by generating hTim4-transgenic C57BL/6J mice. This model recapitulates fatal DHF complications seen in humans, including systemic hemorrhage, dengue encephalitis and intestinal ischemia/gangrene. Integrated single-cell RNA sequencing and spatial transcriptomics analysis of hemorrhagic gut lesions demonstrated that DENV-2 infection induces Syk protein overexpression, leading to enhanced Th2 cytokine secretion and impaired hemostatic regulation. This cascade enhances vascular permeability, promotes plasma leakage, and drives multiorgan hemorrhage, a mechanism corroborated by parallel analyses of human DHF tissues. Critically, Th2-biased cytokine storm mirrors clinical findings in severe human dengue cases. Our work not only identifies hTim4 as a functional DENV-2 receptor but also provides a mechanistically grounded platform for DHF pathogenesis studies, bridging critical gaps between preclinical models and human immunopathology.",
+      "journal": "Emerg Microbes Infect",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "YuYa",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Basic School for Medical Science, Capital Medical University, Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "YuanSong",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Cheng",
+          "fore_name": "HuiHui",
+          "affiliations": [
+            "Novogene Co., Ltd., Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Xiong",
+          "fore_name": "Rui",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China.",
+            "Department of Microbiology & Infectious Disease Center, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Xi",
+          "affiliations": [
+            "Division of HIV/AIDS and Sexually Transmitted Virus Vaccines, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Nan",
+          "affiliations": [
+            "Division of HIV/AIDS and Sexually Transmitted Virus Vaccines, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "ShuNan",
+          "affiliations": [
+            "Institute of Virology and AIDS Research, First Hospital, Jilin University, Changchun, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Qu",
+          "fore_name": "Zhe",
+          "affiliations": [
+            "National Center for Safety Evaluation of Drugs, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Ling",
+          "fore_name": "Chen",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China.",
+            "College of Life Science school, Northwest university; Provincial Key Laboratory of Biotechnology of Shaanxi Province, Xi'an, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Yuan",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Yanwei",
+          "affiliations": [
+            "College of Life Science school, Northwest university; Provincial Key Laboratory of Biotechnology of Shaanxi Province, Xi'an, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "HaoYang",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Gu",
+          "fore_name": "WenDa",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Yong",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "SuSu",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yining",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "SanLong",
+          "affiliations": [
+            "College of Life Science school, Northwest university; Provincial Key Laboratory of Biotechnology of Shaanxi Province, Xi'an, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Fu",
+          "fore_name": "Rui",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "WeiJin",
+          "affiliations": [
+            "Division of HIV/AIDS and Sexually Transmitted Virus Vaccines, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Hongning",
+          "affiliations": [
+            "Yunan Institute of Parasitic Diseases, Yunan, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Wei",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Institute of Virology and AIDS Research, First Hospital, Jilin University, Changchun, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "An",
+          "fore_name": "Jing",
+          "affiliations": [
+            "Basic School for Medical Science, Capital Medical University, Beijing, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "YouChun",
+          "affiliations": [
+            "Institute of Medical Biology, Chinese Academy of Medical Sciences and Peking Union Medical College, Kunming, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "ChangFa",
+          "affiliations": [
+            "Institute for Laboratory Animal Resources, National Institutes for Food and Drug Control (NIFDC), Beijing, People's Republic of China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Disease Models, Animal",
+        "Syk Kinase",
+        "Mice",
+        "Mice, Transgenic",
+        "Mice, Inbred C57BL",
+        "Humans",
+        "Cytokines",
+        "Th2 Cells",
+        "Severe Dengue",
+        "Cytokine Release Syndrome",
+        "Dengue Virus",
+        "Capillary Permeability",
+        "Female"
+      ],
+      "keywords": [
+        "Dengue virus",
+        "Htim4 receptor",
+        "cytokine storm",
+        "dengue hemorrhagic fever",
+        "hemorrhage",
+        "th2-bias"
+      ]
+    },
+    {
+      "pmid": "39415355",
+      "doi": "10.1111/1749-4877.12915",
+      "title": "Comparative analysis of chromosome-level genomes provides insights into chromosomal evolution in Chiroptera.",
+      "abstract": "Chiroptera (bats) presents a fascinating model due to its remarkable variation in chromosome numbers, which range from 14 to 62. This astonishing diversity makes bats an excellent subject for studying chromosome evolution. The black-bearded tomb bat (Taphozous melanopogon) occupies a pivotal phylogenetic position within Chiroptera, emphasizing its crucial role in the systematic examination of bat chromosome evolution. In this study, we present the first chromosome-level genome of T. melanopogon within the family Emballonuridae. Together with previously published genomes, we construct a strongly supported phylogenetic tree of bats, which supports that Emballonuridae forms a basal group within Yangochiroptera. Furthermore, we reconstruct ancestral karyotypes at key nodes along the bat phylogeny and conduct a synteny analysis among the genomes of 12 bat species. Our findings identified evolutionary breakpoint regions (EBRs) that are of particular interest. Notably, some bat genomes exhibit an enrichment of genes related to host defense against microbial pathogens within EBRs. Remarkably, one species possesses multiple copies of some \u03b2-defensin genes, while six other species have experienced the loss of some \u03b2-defensin genes due to EBRs. Furthermore, some olfactory receptor genes are located in EBRs of 12 species, 4 of which have a significant enrichment in sensory perception of smell. Together, our comparative genomic analysis underscores the potential link between chromosome rearrangements and the adaptation of bats to defend against microbial pathogens.",
+      "journal": "Integr Zool",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "Zerong",
+          "affiliations": [
+            "Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau of the Ministry of Education, Frontier Science Center for Immunology and Metabolism, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Tian",
+          "fore_name": "Shilin",
+          "affiliations": [
+            "Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau of the Ministry of Education, Frontier Science Center for Immunology and Metabolism, College of Life Sciences, Wuhan University, Wuhan, China.",
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Pang",
+          "fore_name": "Jiaxin",
+          "affiliations": [
+            "Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau of the Ministry of Education, Frontier Science Center for Immunology and Metabolism, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xiangyi",
+          "affiliations": [
+            "Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau of the Ministry of Education, Frontier Science Center for Immunology and Metabolism, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Hao",
+          "fore_name": "Xiangyu",
+          "affiliations": [
+            "College of Plant Protection, Northwest A&F University, Yangling, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Libiao",
+          "affiliations": [
+            "Institute of Zoology, Guangdong Academy of Sciences, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Huabin",
+          "affiliations": [
+            "Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau of the Ministry of Education, Frontier Science Center for Immunology and Metabolism, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Chiroptera",
+        "Phylogeny",
+        "Genome",
+        "Evolution, Molecular",
+        "Chromosomes"
+      ],
+      "keywords": [
+        "bats",
+        "chromosomal evolution",
+        "chromosome\u2010level genome",
+        "evolutionary breakpoint region"
+      ]
+    },
+    {
+      "pmid": "41103432",
+      "pmc": "PMC10812636",
+      "doi": "10.3390/antiox13010132",
+      "title": "High-content stimulated Raman pathology imaging and transcriptomics reveal leukemia subtype-specific lipid metabolic heterogeneity.",
+      "abstract": "Leukemia, a heterogeneous group of hematological malignancies, is characterized by abnormal proliferation of immature hematopoietic cells. Current diagnostics primarily rely on morphological evaluation for subtype classification, methods that are subjective and labor-intensive. To overcome these limitations, a High-Content Spectral Raman Pathology Imaging platform (H-SRPI) was introduced. H-SRPI imaging enables profiling of proteins, nucleic acids, saturated and unsaturated lipids in leukemia. We analyzed leukemia samples from 12 patients with six distinct subtypes, alongside CD34 The single-cell phenotyping algorithm to distinguish leukemia subtypes, achieving 88.21% accuracy. H-SRPI and RNA-seq transcriptomes revealed elevated saturated and unsaturated lipid levels in acute myeloid leukemia (AML); AML-M3 favored lipid desaturation, whereas AML-M5 upregulated saturated lipid synthesis and elongation. ALL had weaker lipid metabolism characteristics than AML. Our study establishes H-SRPI as a label-free tool for metabolic profiling, enabling precise leukemia subclassification and revealing lipid metabolic heterogeneity as a potential therapeutic target.",
+      "journal": "Front Immunol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Cheng",
+          "fore_name": "Xuelian",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, Institute of Hematology and Hospital of Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin,\u00a0China.",
+            "Tianjin Institutes of Health Science, Tianjin,\u00a0China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Jing",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, Institute of Hematology and Hospital of Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin,\u00a0China.",
+            "Tianjin Institutes of Health Science, Tianjin,\u00a0China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Ming",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing,\u00a0China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Haoyu",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, Institute of Hematology and Hospital of Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin,\u00a0China.",
+            "Tianjin Institutes of Health Science, Tianjin,\u00a0China."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Shuxu",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, Institute of Hematology and Hospital of Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin,\u00a0China.",
+            "Tianjin Institutes of Health Science, Tianjin,\u00a0China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Yuan",
+          "affiliations": [
+            "State Key Laboratory of Experimental Hematology, Institute of Hematology and Hospital of Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin,\u00a0China.",
+            "Tianjin Institutes of Health Science, Tianjin,\u00a0China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Spectrum Analysis, Raman",
+        "Lipid Metabolism",
+        "Transcriptome",
+        "Leukemia",
+        "Single-Cell Analysis",
+        "Gene Expression Profiling",
+        "Female",
+        "Male"
+      ],
+      "keywords": [
+        "RNA sequencing",
+        "Raman imaging",
+        "leukemia",
+        "lipid metabolism",
+        "stimulated Raman scattering"
+      ]
+    },
+    {
+      "pmid": "40974098",
+      "pmc": "PMC1540095",
+      "doi": "10.1093/molbev/msw150",
+      "title": "Multiomic Analyses Reveal the Molecular Mechanisms of Arid Adaptation in a Desert Rodent Species.",
+      "abstract": "Organisms living in desert habitats face multiple simultaneous pressures, such as high temperatures and arid, and the population dynamics and community diversity of small rodents are strongly affected by climate extremes. However, the potential mechanisms by which desert rodents adapt to arid remain largely unexplored. Here, we assembled a 3.18\u2005Gb genome, including 25,812 protein-encoding genes, for Orientallactaga sibirica, which is widely distributed across both arid and semihumid environments in Eurasia. Orientallactaga sibirica has longer ears and hind limbs to enhance heat dissipation, which may be related to the positively selected genes, such as Fgf10, Fgf11, Hoxc4, Hoxd1, and Bmp4. The renal transcriptome revealed increased fat and carbohydrate metabolism for metabolic water production in O. sibirica residing in arid habitats. Pathways such as material metabolism, oxidative stress response, osmoregulation, and water and salt reabsorption were enriched in candidate genes, such as Avp, Ang, and Ace, under positive selection in O. sibirica. Moreover, amino acid replacement was observed in the protein sequences of seven candidate genes, including Aldh7a1, Lnpep, Wnk4, C1qc, and Awat2, and these specific amino acid replacements of genes such as Umod and Scnn1a were related to unique osmoregulation, osmotic protection, and water retention compensation mechanisms. Water deprivation under laboratory conditions induced the upregulation of Umod and Aldh7a1 expression, further supporting the results observed in the wild population. These findings demonstrate that the positively selected genes related to limb development and specific amino acid replacements in the genes Umod and Scnn1a for unique osmoregulation in the renal vascular system may contribute to arid adaptation in the desert rodent species O. sibirica. This study provides novel insights into the adaptive evolution of desert small mammals and can serve as a reference for future research on renal damage-related diseases, such as human kidney stones and salt-sensitive hypertension.",
+      "journal": "Mol Biol Evol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Yuan",
+          "fore_name": "Shuai",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China.",
+            "State Key Laboratory of Animal Biodiversity Conservation and Integrated Pest Management, Institute of Zoology, Chinese Academy of Sciences, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Rong",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Yongling",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xin",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Linlin",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Dong",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China."
+          ]
+        },
+        {
+          "last_name": "Ling",
+          "fore_name": "Yu",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Kaijian",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Xiaodong",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xueying",
+          "affiliations": [
+            "State Key Laboratory of Animal Biodiversity Conservation and Integrated Pest Management, Institute of Zoology, Chinese Academy of Sciences, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Fu",
+          "fore_name": "Heping",
+          "affiliations": [
+            "College of Grassland Science, Inner Mongolia Agricultural University, Inner Mongolia, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Desert Climate",
+        "Adaptation, Physiological",
+        "Rodentia",
+        "Transcriptome",
+        "Selection, Genetic"
+      ],
+      "keywords": [
+        "arid adaptation",
+        "convergent evolution",
+        "desert rodents",
+        "genome",
+        "metabolic water production"
+      ]
+    },
+    {
+      "pmid": "41014012",
+      "doi": "10.1093/gpbjnl/qzaf088",
+      "title": "Two Isatis Genomes Reveal the Biosynthesis and Evolutionary Origin of Indigo in Plants.",
+      "abstract": "Indigo, a plant-originated blue dye, has a long and well-documented history of extensive human use. The Isatis genus has long been a key source for indigo production, however, the biosynthetic pathway responsible for indigo within Isatis has remained elusive. Here, we conducted phylogenetic and metabolic analyses of various Isatis taxa, revealing that the capacity to produce indigo was apparently lost in some of these taxa. Following de novo genome sequencing, assembly, and comparative genomic analysis between Isatis indigotica and Isatis cappadocica, we delved into the origins and evolution of indigo biosynthesis. Homologous expression of candidate genes in Nicotiana benthamiana identified multiple oxidase families, including flavin-containing monooxygenase (FMO) and cytochrome P450 (CYP) protein that catalyze the oxidation steps leading to the indigo biosynthesis, indicating a metabolic innovation derived from the oxime pathway in plants. The evolutionary aspects concerning the neofunctionalization of CYPs-catalyzed biosynthesis of glucosides and FMOs-catalyzed oxime in Isatis taxa provide new insights into the evolution of these metabolic pathways in plants.",
+      "journal": "Genomics Proteomics Bioinformatics",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Chen",
+          "fore_name": "Junfeng",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China.",
+            "Department of Pharmacy, Changzheng Hospital, Second Military Medical University, Shanghai 200003, China."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Hexin",
+          "affiliations": [
+            "School of Pharmacy, Second Military Medical University, Shanghai 200433, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Jun",
+          "affiliations": [
+            "Shanghai Key Laboratory of Plant Functional Genomics and Resources, Shanghai Chenshan Plant Science Research Center, Chinese Academy of Sciences, Shanghai Chenshan Botanical Garden, Shanghai 201602, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Kaijian",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing 100083, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Rongrong",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Qiu",
+          "fore_name": "Shi",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Doudou",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Lv",
+          "fore_name": "Zongyou",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Zhichao",
+          "affiliations": [
+            "College of Life Science, Northeast Forestry University, Harbin 150040, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Qing",
+          "affiliations": [
+            "Department of Pharmacy, Changzheng Hospital, Second Military Medical University, Shanghai 200003, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Zhongmin",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing 100083, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Ping",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Jingxian",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Yajing",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Key Laboratory of Beijing for Identification and Safety Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Fei",
+          "affiliations": [
+            "School of Pharmacy, Second Military Medical University, Shanghai 200433, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Rufeng",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Lei",
+          "affiliations": [
+            "School of Pharmacy, Second Military Medical University, Shanghai 200433, China."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Ying",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Wansheng",
+          "affiliations": [
+            "The SATCM Key Laboratory for New Resources & Quality Evaluation of Chinese Medicine, Institute of Chinese Materia Medica, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China.",
+            "Department of Pharmacy, Changzheng Hospital, Second Military Medical University, Shanghai 200003, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CYP79B2",
+        "Flavin monooxygenase",
+        "Genus Isatis",
+        "Indigo biosynthesis",
+        "Oxime pathway evolution"
+      ]
+    },
+    {
+      "pmid": "41006581",
+      "pmc": "PMC3325408",
+      "doi": "10.1007/s00439-011-1118-2",
+      "title": "Demography and adaptation of a species specific pollinator associated with an invasive fig tree.",
+      "abstract": "Some fig species introduced outside of their native range have become invasive when colonized by their obligate pollinating wasps, but how these pollinators migrated and adapted to novel environments are less studied. Here, we focus on Eupristina verticillata, the obligate pollinating wasp of an invasive fig tree species (Ficus microcarpa), to uncover its demography and the molecular basis for adaptations to novel environments. We find that only one of the three cryptic species colonized in the sampling locations outside of its native range. This dominant cryptic species migrated simultaneously from the native range to the Americas and to the Mediterranean c. 130 years ago. Moreover, selective sweep analyses reveal several positively selected genes associated with adaptations to the nonnative range. Genome-wide association detect a nonsynonymous substitution in a dopamine N-acetyltransferase gene significantly linked with brood size. Our study outlines the route to colonization and genetic adaptations of an invasive mutualism.",
+      "journal": "Commun Biol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Wu",
+          "fore_name": "Li-Hua",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Zou",
+          "fore_name": "Jie",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Yu-Ting",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Ling",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Kai",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China.",
+            "Shanghai Key Laboratory of Plant Functional Genomics and Resources, Shanghai Chenshan Botanical Garden, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Kai-Jian",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Wei-Chao",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Xiang",
+          "fore_name": "Wei-Min",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Gang",
+          "affiliations": [
+            "CAS Key Laboratory of Tropical Forest Ecology, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Mengla, Yunnan Province, China."
+          ]
+        },
+        {
+          "last_name": "Segar",
+          "fore_name": "Simon T",
+          "affiliations": [
+            "Agriculture & Environment Department, Harper Adams University, Newport, UK."
+          ]
+        },
+        {
+          "last_name": "van Noort",
+          "fore_name": "Simon",
+          "affiliations": [
+            "Research and Exhibitions Department, South African Museum, Iziko Museums of South Africa, Cape Town, South Africa.",
+            "Department of Biological Sciences, University of Cape Town, Cape Town, South Africa."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Yuan-Yuan",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yuan-Ye",
+          "affiliations": [
+            "Key Laboratory of the Ministry of Education for Coastal and Wetland Ecosystems, College of the Environment and Ecology, Xiamen University, Xiamen, Fujian Province, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Xiao-Yong",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Compton",
+          "fore_name": "Stephen G",
+          "affiliations": [
+            "School of Biology, University of Leeds, Leeds, UK."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Rong",
+          "affiliations": [
+            "Zhejiang Tiantong Forest Ecosystem National Observation and Research Station, Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China. rwang@des.ecnu.edu.cn.",
+            "Institute of Eco-Chongming, Shanghai, China. rwang@des.ecnu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Pollination",
+        "Animals",
+        "Ficus",
+        "Introduced Species",
+        "Wasps",
+        "Adaptation, Physiological",
+        "Species Specificity"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40691143",
+      "pmc": "PMC7757858",
+      "doi": "10.1038/s41467-025-61691-4",
+      "title": "Constitutive inflammation and epithelial-mesenchymal transition dictate sensitivity to nivolumab in CONFIRM: a placebo-controlled, randomised phase III trial.",
+      "abstract": "Leveraging adaptive tumour immunity to control mesothelioma via immune checkpoint blockade is now a standard therapeutic approach. However, the determinants of sensitivity remain elusive. Low non-synonymous mutation burden and programmed death-ligand 1 expression, an abundance of immunosuppressive immune cell infiltration, and 9p21 deletion should all mitigate responses to therapy. To address this knowledge gap, we conducted a double blind, placebo-controlled, randomized phase III trial of the PD1 inhibitor, nivolumab (ClinicalTrial.gov registration: NCT03063450). After 37.2 months of follow-up, the primary endpoint of progression free-survival, but not overall survival was met. The nivolumab response rate was 10.3%, and related grade 3 or above adverse events occurred in 20.4% versus 7.2% for placebo. Progression-free and overall survival were longer in nivolumab-treated responders versus non-responders. In an exploratory multiomic\u00a0analysis, blinded whole exome, transcriptome and multiplex immune profiling were used to interrogate R- versus NR-subgroups. Non-synonymous and neoantigen mutation burden were no different between groups, however R-mesotheliomas were infiltrated with activated CD8",
+      "journal": "Nat Commun",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Fennell",
+          "fore_name": "Dean A",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK. df132@le.ac.uk.",
+            "Department of Oncology, University Hospitals of Leicester NHS Trust, Leicester, UK. df132@le.ac.uk."
+          ]
+        },
+        {
+          "last_name": "Hill",
+          "fore_name": "Kayleigh",
+          "affiliations": [
+            "Cancer Research UK Southampton Clinical Trials Unit & NIHR Southampton Biomedical Research Centre UK, University of Southampton, Southampton, UK."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Min",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK.",
+            "Novogene Co. Limited, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Poile",
+          "fore_name": "Charlotte",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Ewings",
+          "fore_name": "Sean",
+          "affiliations": [
+            "Cancer Research UK Southampton Clinical Trials Unit & NIHR Southampton Biomedical Research Centre UK, University of Southampton, Southampton, UK."
+          ]
+        },
+        {
+          "last_name": "Baitei",
+          "fore_name": "Essa Y",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK.",
+            "Center for Genomic Medicine, King Faisal Specialist Hospital & Research Centre, Riyadh, Saudi Arabia."
+          ]
+        },
+        {
+          "last_name": "Dzialo",
+          "fore_name": "Joanna",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Nusrat",
+          "fore_name": "Nada",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK.",
+            "Faculty of Medicine, University of Tripoli, Tripoli, Libya."
+          ]
+        },
+        {
+          "last_name": "Rogel",
+          "fore_name": "Jan",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Faulkner",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Ottensmeier",
+          "fore_name": "Christian",
+          "affiliations": [
+            "Department of Molecular & Clinical Cancer Medicine, University of Liverpool, Liverpool, UK."
+          ]
+        },
+        {
+          "last_name": "Califano",
+          "fore_name": "Raffaele",
+          "affiliations": [
+            "Department of Medical Oncology, Wythenshawe Hospital, Manchester, UK."
+          ]
+        },
+        {
+          "last_name": "Hanna",
+          "fore_name": "Gerard G",
+          "affiliations": [
+            "Patrick G. Johnston Centre for Cancer Research, Queens University Belfast, Northern Ireland, UK."
+          ]
+        },
+        {
+          "last_name": "Danson",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "Department of Oncology, Sheffield Teaching Hospitals NHS Foundation, Sheffield, UK."
+          ]
+        },
+        {
+          "last_name": "Steele",
+          "fore_name": "Nicola",
+          "affiliations": [
+            "Beatson West of Scotland Cancer Centre, Glasgow, Scotland, UK."
+          ]
+        },
+        {
+          "last_name": "Nye",
+          "fore_name": "Mavis",
+          "affiliations": [
+            "Mavis Nye Foundation, c/o University of Southampton, Southampton, UK."
+          ]
+        },
+        {
+          "last_name": "Johnson",
+          "fore_name": "Lucy",
+          "affiliations": [
+            "Cancer Research UK Southampton Clinical Trials Unit & NIHR Southampton Biomedical Research Centre UK, University of Southampton, Southampton, UK."
+          ]
+        },
+        {
+          "last_name": "Mallard",
+          "fore_name": "Kim",
+          "affiliations": [
+            "Cancer Research UK Southampton Clinical Trials Unit & NIHR Southampton Biomedical Research Centre UK, University of Southampton, Southampton, UK."
+          ]
+        },
+        {
+          "last_name": "Lord",
+          "fore_name": "Joanne",
+          "affiliations": [
+            "Cancer Research UK Southampton Clinical Trials Unit & NIHR Southampton Biomedical Research Centre UK, University of Southampton, Southampton, UK."
+          ]
+        },
+        {
+          "last_name": "Middleton",
+          "fore_name": "Calley",
+          "affiliations": [
+            "Cancer Research UK Southampton Clinical Trials Unit & NIHR Southampton Biomedical Research Centre UK, University of Southampton, Southampton, UK."
+          ]
+        },
+        {
+          "last_name": "Szlosarek",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Cancer Research UK Barts Cancer Institute, Queen Mary University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Chan",
+          "fore_name": "Sam",
+          "affiliations": [
+            "York Teaching Hospital NHS Foundation Trust, York, UK."
+          ]
+        },
+        {
+          "last_name": "Darlison",
+          "fore_name": "Liz",
+          "affiliations": [
+            "Mesothelioma UK, Loughborough, UK."
+          ]
+        },
+        {
+          "last_name": "Wells-Jordan",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK.",
+            "Department of Oncology, University Hospitals of Leicester NHS Trust, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Richards",
+          "fore_name": "Cathy",
+          "affiliations": [
+            "Department of Oncology, University Hospitals of Leicester NHS Trust, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Harber",
+          "fore_name": "James",
+          "affiliations": [
+            "UWA Centre for Medical Research & Harry Perkins Institute of Medical Research, Perth, Australia."
+          ]
+        },
+        {
+          "last_name": "Bzura",
+          "fore_name": "Aleksandra",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Spicer",
+          "fore_name": "Jake",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Pritchard",
+          "fore_name": "Catrin",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Kamata",
+          "fore_name": "Tamihiro",
+          "affiliations": [
+            "MRC Toxicology Unit, University of Cambridge, Gleeson Building, Tennis Court Road, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Hahne",
+          "fore_name": "Jens C",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Jama",
+          "fore_name": "Maymun",
+          "affiliations": [
+            "Mesothelioma Research Programme, CRUK Experimental Cancer Centre & NIHR Biomedical Research Centre, University of Leicester, UK Robert Kilpatrick Clinical Sciences Building, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Hollox",
+          "fore_name": "Edward J",
+          "affiliations": [
+            "Department of Genetics and Genome Biology, University of Leicester, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Lester",
+          "fore_name": "Jason F",
+          "affiliations": [
+            "Singleton & Morrison Hospitals, South Wales, UK."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Jin-Li",
+          "affiliations": [
+            "Bioinformatics Analysis Support Hub, University of Leicester, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Zisen",
+          "affiliations": [
+            "School of Computing and Mathematical Sciences, University of Leicester, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Hongji",
+          "affiliations": [
+            "School of Computing and Mathematical Sciences, University of Leicester, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Huiyu",
+          "affiliations": [
+            "School of Computing and Mathematical Sciences, University of Leicester, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Klampatsa",
+          "fore_name": "Astero",
+          "affiliations": [
+            "Thoracic Oncology Immunotherapy Group, The Institute of Cancer Research, Sutton, London, UK."
+          ]
+        },
+        {
+          "last_name": "Griffiths",
+          "fore_name": "Gareth O",
+          "affiliations": [
+            "Cancer Research UK Southampton Clinical Trials Unit & NIHR Southampton Biomedical Research Centre UK, University of Southampton, Southampton, UK."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Nivolumab",
+        "Epithelial-Mesenchymal Transition",
+        "Male",
+        "Female",
+        "Double-Blind Method",
+        "Inflammation",
+        "Middle Aged",
+        "Aged",
+        "Immune Checkpoint Inhibitors",
+        "Progression-Free Survival",
+        "Antineoplastic Agents, Immunological",
+        "Adult",
+        "Mutation",
+        "Programmed Cell Death 1 Receptor"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40247620",
+      "pmc": "PMC3219148",
+      "doi": "10.1111/j.1558-5646.2011.01553.x",
+      "title": "Transposable elements drive the subgenomic divergence of homoeologous genes to shape wheat domestication and improvement.",
+      "abstract": "Polyploidization is a fundamental evolutionary process in plants, including bread wheat. In the present study, we performed a comprehensive genome-wide analysis of dynamic homoeologous gene divergence in Aikang58 (AK58), a modern elite polyploid wheat cultivar with a recently released reference genome, and in other wheat genomes, including landraces, synthetic wheat, and several breeding lines. Over 40% of transposable element (TE) families exhibit biased distribution across the three wheat subgenomes. Approximately 95.0% (113 421) of genes are co-located with TEs, and these variable TEs significantly contribute to homoeologous divergence. We found that about 80% of triad homoeologs are divergent due to differences in expression or sub-functionalization. In addition, subgenome divergence potentially promote polyploid wheat domestication and improvement by increasing favorable homoeoallele combinations. Our findings suggest that homoeolog divergence contributes to the adaptation, domestication, and improvement of hexaploid wheat. The contribution of subgenomic divergence to polyploid heterosis is also discussed. This study provides a valuable resource for the investigation of how TEs drive homoeologous divergence during wheat domestication and improvement.",
+      "journal": "Plant Commun",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Jia",
+          "fore_name": "Jizeng",
+          "affiliations": [
+            "College of Agronomy, Collaborative Innovation Center of Henan Grain Crops, Henan Agricultural University, Longzi Lake Campus, Zhengzhou, China; The National Key Facility for Crop Gene Resources and Genetic Improvement, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China. Electronic address: jiajizeng@caas.cn."
+          ]
+        },
+        {
+          "last_name": "Deng",
+          "fore_name": "Pingchuan",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Crop Genetic Resources, College of Agriculture and Biotechnology, Zhejiang University, Hangzhou 310058, China; State Key Laboratory of Crop Stress Biology in Arid Areas, College of Agronomy, Northwest A&F University, Yangling, Shaanxi 712100, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Tianbao",
+          "affiliations": [
+            "College of Agronomy, Collaborative Innovation Center of Henan Grain Crops, Henan Agricultural University, Longzi Lake Campus, Zhengzhou, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Kai",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Gao",
+          "fore_name": "Lifeng",
+          "affiliations": [
+            "The National Key Facility for Crop Gene Resources and Genetic Improvement, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Guangyao",
+          "affiliations": [
+            "The National Key Facility for Crop Gene Resources and Genetic Improvement, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Cui",
+          "fore_name": "Dangqun",
+          "affiliations": [
+            "College of Agronomy, Collaborative Innovation Center of Henan Grain Crops, Henan Agricultural University, Longzi Lake Campus, Zhengzhou, China."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Zhongdong",
+          "affiliations": [
+            "College of Agronomy, Collaborative Innovation Center of Henan Grain Crops, Henan Agricultural University, Longzi Lake Campus, Zhengzhou, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Chengdao",
+          "affiliations": [
+            "Western Crop Genetics Alliance, College of Science, Health, Engineering and Education, Murdoch University, Perth, WA, Australia."
+          ]
+        },
+        {
+          "last_name": "Zhan",
+          "fore_name": "Kehui",
+          "affiliations": [
+            "College of Agronomy, Collaborative Innovation Center of Henan Grain Crops, Henan Agricultural University, Longzi Lake Campus, Zhengzhou, China."
+          ]
+        },
+        {
+          "last_name": "Ji",
+          "fore_name": "Wanquan",
+          "affiliations": [
+            "State Key Laboratory of Crop Stress Biology in Arid Areas, College of Agronomy, Northwest A&F University, Yangling, Shaanxi 712100, China."
+          ]
+        },
+        {
+          "last_name": "Ru",
+          "fore_name": "Zhengang",
+          "affiliations": [
+            "School of Life Science and Technology, Henan Institute of Science and Technology, Xinxiang, Henan, China. Electronic address: rzgh58@163.com."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Daowen",
+          "affiliations": [
+            "College of Agronomy, Collaborative Innovation Center of Henan Grain Crops, Henan Agricultural University, Longzi Lake Campus, Zhengzhou, China. Electronic address: dwwang@henau.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Liang",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Crop Genetic Resources, College of Agriculture and Biotechnology, Zhejiang University, Hangzhou 310058, China; Zhongyuan Institute, Zhejiang University, Zhengzhou, China. Electronic address: liangwu@zju.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Triticum",
+        "DNA Transposable Elements",
+        "Domestication",
+        "Genome, Plant",
+        "Polyploidy",
+        "Genes, Plant"
+      ],
+      "keywords": [
+        "polyploidy",
+        "subgenome gene divergence",
+        "transposable elements",
+        "wheat"
+      ]
+    },
+    {
+      "pmid": "40410196",
+      "pmc": "PMC9877435",
+      "doi": "10.3389/fmicb.2022.1103836",
+      "title": "Multiomic analysis of different horse breeds reveals that gut microbial butyrate enhances racehorse athletic performance.",
+      "abstract": "Gut microbes play a vital role in host physiology, but whether specific bacterial functions contribute to the exceptional athletic performance of racehorses needs to be better understood. Here, we identify an association of gut butyrate-producing bacteria with athletic performance in racehorses (Thoroughbred horse). Butyrate-producing bacteria and microbial butyrate synthesis genes were significantly enriched in the racehorse gut, and the GC-MS results confirmed this conclusion. Using a mouse model, we demonstrated that sodium butyrate is sufficient to increase treadmill run time performance. We also show that butyrate improves the host response to exercise, significantly altering muscle fibre type in skeletal muscle, and increasing muscle mitochondrial function and activity. In addition, in-depth analysis of the published data showed that the gene for the synthesis of butyrate was also significantly enriched in the gut microbes of human athletes. Overall, our study indicates that gut microbial butyrate improves run time via the gut-muscle axis, providing novel insights into gut microbial functions and paving the way for improving athletic performance by targeted gut microbiome manipulation.",
+      "journal": "NPJ Biofilms Microbiomes",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Li",
+          "fore_name": "Cunyuan",
+          "affiliations": [
+            "College of Life Science, Shihezi University, Shihezi, Xinjiang, China.",
+            "State Key Laboratory of Sheep Genetic Improvement and Healthy Production, Xinjiang Academy of Agricultural and Reclamation Science, Shihezi, Xinjiang, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xiaoyue",
+          "affiliations": [
+            "College of Life Science, Shihezi University, Shihezi, Xinjiang, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Kaiping",
+          "affiliations": [
+            "College of Life Science, Shihezi University, Shihezi, Xinjiang, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Junli",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Jinming",
+          "affiliations": [
+            "College of Life Science, Shihezi University, Shihezi, Xinjiang, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Zhuang",
+          "affiliations": [
+            "College of Life Science, Shihezi University, Shihezi, Xinjiang, China."
+          ]
+        },
+        {
+          "last_name": "Mach",
+          "fore_name": "N\u00faria",
+          "affiliations": [
+            "IHAP, Universit\u00e9 de Toulouse, INRAE, ENVT, Toulouse, France."
+          ]
+        },
+        {
+          "last_name": "Ni",
+          "fore_name": "Wei",
+          "affiliations": [
+            "College of Life Science, Shihezi University, Shihezi, Xinjiang, China. niweiwonderful@sina.com.",
+            "State Key Laboratory of Sheep Genetic Improvement and Healthy Production, Xinjiang Academy of Agricultural and Reclamation Science, Shihezi, Xinjiang, China. niweiwonderful@sina.com."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Chen",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Ping",
+          "affiliations": [
+            "State Key Laboratory of Sheep Genetic Improvement and Healthy Production, Xinjiang Academy of Agricultural and Reclamation Science, Shihezi, Xinjiang, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Limin",
+          "affiliations": [
+            "State Key Laboratory of Sheep Genetic Improvement and Healthy Production, Xinjiang Academy of Agricultural and Reclamation Science, Shihezi, Xinjiang, China."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Shengwei",
+          "affiliations": [
+            "College of Life Science, Shihezi University, Shihezi, Xinjiang, China. hushengwei@163.com.",
+            "State Key Laboratory of Sheep Genetic Improvement and Healthy Production, Xinjiang Academy of Agricultural and Reclamation Science, Shihezi, Xinjiang, China. hushengwei@163.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Gastrointestinal Microbiome",
+        "Horses",
+        "Mice",
+        "Bacteria",
+        "Butyrates",
+        "Athletic Performance",
+        "Physical Conditioning, Animal",
+        "Butyric Acid",
+        "Muscle, Skeletal",
+        "Humans",
+        "Male"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40207985",
+      "pmc": "PMC8967722",
+      "doi": "10.1016/j.trsl.2022.04.001",
+      "title": "Diagnostic value of metagenomic next-generation sequencing in patients with osteoarticular infections: a prospective study.",
+      "abstract": "Due to the limits of traditional microbiological methods and the complexity of osteoarthritis pathogens, only a few pathogens can be detected. We evaluated metagenomic next-generation sequencing (mNGS) for detecting pathogens in osteoarthritis infection samples. We prospectively included 150 patients with osteoarthritis infection who visited the Orthopedics Department of Shandong Provincial Public Health Center from 2023 to 2024, including 124 cases of primary osteoarthritis (POI) and 26 cases of invasive osteoarthritis (IOI). The most common pathogenic bacteria were",
+      "journal": "Microbiol Spectr",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Zhang",
+          "fore_name": "Qiang",
+          "affiliations": [
+            "Department of Orthopedics, Shandong Public Health Clinical Center, Jinan, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Qiushi",
+          "affiliations": [
+            "Infection Business Unit, Tianjin Novogene Med LAB Co., Ltd., Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Feng",
+          "affiliations": [
+            "Department of Orthopedics, Shandong Public Health Clinical Center, Jinan, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xiuping",
+          "affiliations": [
+            "Department of Orthopedics, Shandong Public Health Clinical Center, Jinan, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Yuhong",
+          "affiliations": [
+            "Department of Orthopedics, Shandong Public Health Clinical Center, Jinan, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Li",
+          "affiliations": [
+            "Department of Orthopedics, Shandong Public Health Clinical Center, Jinan, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Zhongfa",
+          "affiliations": [
+            "Department of Respiratory Medicine, Shandong Public Health Clinical Center, Jinan, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "High-Throughput Nucleotide Sequencing",
+        "Prospective Studies",
+        "Osteoarthritis",
+        "Male",
+        "Female",
+        "Metagenomics",
+        "Middle Aged",
+        "Aged",
+        "Bacteria",
+        "Adult",
+        "Aged, 80 and over"
+      ],
+      "keywords": [
+        "diagnosis",
+        "infection",
+        "invasion",
+        "osteoarticular infections",
+        "primary",
+        "tuberculosis"
+      ]
+    },
+    {
+      "pmid": "40217144",
+      "pmc": "PMC2840981",
+      "doi": "10.1101/gr.100545.109",
+      "title": "Population genomics of sika deer reveals recent speciation and genetic selective signatures during evolution and domestication.",
+      "abstract": "Population genomic analysis can reconstruct the phylogenetic relationship and demographic history, and identify genomic selective signatures of a species. To date, fundamental aspects of population genomic analyses, such as intraspecies taxonomy, evolutionary history, and adaptive evolution, of sika deer have not been systematically investigated. Furthermore, accumulating lines of evidences have illustrated that incorrect species delimitation will mislead conservation decisions, and even lead to irreversible mistakes in threatened species. In this study, we resequenced 81 wild and 71 domesticated sika deer representing 10 main geographic populations and two farms to clarify the species delimitation, demographic and divergence histories, and adaptive evolution of this species. First, our analyses of whole genomes, Y chromosomes and mitochondrial genomes revealed substantial genetic differentiation between the continental and Japanese lineages of sika deer, representing two phylogenetically distinct species. Second, sika deer in Japan were inferred to have experienced a \"divergence-mixing-isolation\" evolutionary scenario. Third, we identified four candidate genes (XKR4, NPAS3, CTNNA3, and CNTNAP5) possibly involved in body size regulation of sika deer by selective sweep analysis. Furthermore, we also detected two candidate genes (NRP2 and EDIL3) that may be associated with an important economic trait (antler weight) were under selection during the process of domestication. Population genomic analyses revealed that the continental and Japanese lineages represent distinct phylogenetic species. Moreover, our results provide insights into the genetic selection signatures related to body size differences and a valuable genomic resource for future genetic studies and genomics-informed breeding of sika deer.",
+      "journal": "BMC Genomics",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Liu",
+          "fore_name": "Huamiao",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Bo",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, 100083, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Tianjiao",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Yimeng",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Ju",
+          "fore_name": "Yan",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Yang",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Su",
+          "fore_name": "Weilin",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Ranran",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Shiwu",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Hongliang",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Yongna",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Yanmin",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Lei",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Zhengyi",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Pei",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Shuyan",
+          "affiliations": [
+            "Administration of Zhejiang Qingliangfeng National Nature Reserve, Hangzhou, 310000, China."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Rui",
+          "affiliations": [
+            "Administration of Zhejiang Qingliangfeng National Nature Reserve, Hangzhou, 310000, China."
+          ]
+        },
+        {
+          "last_name": "A",
+          "fore_name": "E",
+          "affiliations": [
+            "Sichuan Tiebu Sika Deer Nature Reserve, Aba, 624000, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yuwen",
+          "affiliations": [
+            "Administrative Office of Liugong Island National Forest Park, Weihai, 264200, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Xin",
+          "affiliations": [
+            "Northeast Forestry University, Harbin, 150006, China."
+          ]
+        },
+        {
+          "last_name": "Tamate",
+          "fore_name": "Hidetoshi B",
+          "affiliations": [
+            "Faculty of Science, Yamagata University, Yamagata, 9908560, Japan. tamate@sci.kj.yamagata-u.ac.jp."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Qiqi",
+          "affiliations": [
+            "Glbizzia Bioinformatics Institute, Beijing, 102208, China. qiqi.liang@glbizzia.com."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "De",
+          "affiliations": [
+            "Novogene Bioinformatics Institute, Beijing, 100083, China. made08@mails.ucas.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Xing",
+          "fore_name": "Xiumei",
+          "affiliations": [
+            "State Key Laboratory for Molecular Biology of Special Economic Animals, Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, 130112, China. xingxiumei@caas.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Deer",
+        "Domestication",
+        "Phylogeny",
+        "Selection, Genetic",
+        "Genetic Speciation",
+        "Evolution, Molecular",
+        "Genetics, Population",
+        "Genomics"
+      ],
+      "keywords": [
+        "Cervus nippon",
+        "Domestication",
+        "Genetic selective signature",
+        "Population genomics",
+        "Sika deer",
+        "Species delimitation"
+      ]
+    },
+    {
+      "pmid": "39920351",
+      "doi": "10.1093/molbev/msu269",
+      "pmc": "4302049",
+      "title": "Comparative genomics provides insights into chromosomal evolution and immunological adaptation in horseshoe bats.",
+      "abstract": "Horseshoe bats are natural hosts of zoonotic viruses, yet the genetic basis of their antiviral immunity is poorly understood. Here we generated two new chromosomal-level genome assemblies for horseshoe bat species (Rhinolophus) and three close relatives, and show that, during their diversification, horseshoe bats underwent extensive chromosomal rearrangements and gene expansions linked to segmental duplications. These expansions have generated new adaptive variations in type I interferons and the interferon-stimulated gene ANXA2R, which potentially enhance antiviral states, as suggested by our functional assays. Genome-wide selection screens, including of candidate introgressed regions, uncover numerous putative molecular adaptations linked to immunity, including in viral receptors. By expanding taxon coverage to ten horseshoe bat species, we identify new variants of the SARS-CoV-2 receptor ACE2, and report convergent functionally important residues that could explain wider patterns of susceptibility across mammals. We conclude that horseshoe bats have numerous signatures of adaptation, including some potentially related to immune response to viruses, in genomic regions with diverse and multiscale mutational changes.",
+      "journal": "Nat Ecol Evol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Tian",
+          "fore_name": "Shilin",
+          "affiliations": [
+            "State Key Laboratory of Virology and Biosafety, Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau, Ministry of Education, Frontier Science Center for Immunology and Metabolism, Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, China.",
+            "Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Si",
+          "fore_name": "Junyu",
+          "affiliations": [
+            "State Key Laboratory of Virology and Biosafety, Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau, Ministry of Education, Frontier Science Center for Immunology and Metabolism, Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Libiao",
+          "affiliations": [
+            "Guangdong Key Laboratory of Animal Conservation and Resource Utilization, Guangdong Public Laboratory of Wild Animal Conservation and Utilization, Institute of Zoology, Guangdong Academy of Sciences, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Zeng",
+          "fore_name": "Jiaming",
+          "affiliations": [
+            "State Key Laboratory of Virology and Biosafety, Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau, Ministry of Education, Frontier Science Center for Immunology and Metabolism, Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xiangyi",
+          "affiliations": [
+            "State Key Laboratory of Virology and Biosafety, Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau, Ministry of Education, Frontier Science Center for Immunology and Metabolism, Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Chen",
+          "affiliations": [
+            "State Key Laboratory of Virology and Biosafety, Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau, Ministry of Education, Frontier Science Center for Immunology and Metabolism, Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Gang",
+          "affiliations": [
+            "College of Life Sciences, Shaanxi Normal University, Xi'an, China."
+          ]
+        },
+        {
+          "last_name": "Lei",
+          "fore_name": "Caoqi",
+          "affiliations": [
+            "State Key Laboratory of Virology and Biosafety, Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau, Ministry of Education, Frontier Science Center for Immunology and Metabolism, Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Xuming",
+          "affiliations": [
+            "CAS Key Laboratory of Animal Ecology and Conservation Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Geng",
+          "fore_name": "Rong",
+          "affiliations": [
+            "Guangzhou National Laboratory, Guangzhou International Bio Island, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Peng",
+          "affiliations": [
+            "Guangzhou National Laboratory, Guangzhou International Bio Island, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Huan",
+          "affiliations": [
+            "State Key Laboratory of Virology and Biosafety, Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau, Ministry of Education, Frontier Science Center for Immunology and Metabolism, Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Rossiter",
+          "fore_name": "Stephen J",
+          "affiliations": [
+            "School of Biological and Behavioural Sciences, Queen Mary University of London, London, UK. s.j.rossiter@qmul.ac.uk."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Huabin",
+          "affiliations": [
+            "State Key Laboratory of Virology and Biosafety, Key Laboratory of Biodiversity and Environment on the Qinghai-Tibetan Plateau, Ministry of Education, Frontier Science Center for Immunology and Metabolism, Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, China. huabinzhao@whu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Chiroptera",
+        "Evolution, Molecular",
+        "Genomics",
+        "Angiotensin-Converting Enzyme 2",
+        "Genome",
+        "Adaptation, Physiological",
+        "SARS-CoV-2"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "39837058",
+      "pmc": "PMC4618247",
+      "doi": "10.1016/j.tranon.2025.102275",
+      "title": "Comprehensive analysis of protein post-translational modifications reveals PTPN2-STAT1-AOX axis-mediated tumor progression in hepatocellular carcinomas.",
+      "abstract": "Hepatocellular carcinoma (HCC) is a common malignant tumor. Although the proteomics of HCC is well studied, the landscape of post-translational modifications (PTMs) in HCC is poorly understood. The PTMs themselves and their crosstalk might be deeply involved in HCC development and progression. Herein, we investigated nine types of PTMs in paired tumor and normal tissues from nine patients with HCC using the label-free quantitative liquid chromatography with tandem mass spectrometry (LC-MS)-based technique. We identified >60,000 modified sites, and found that phosphorylation and ubiquitination were two most frequently changed PTMs between tumor and normal tissues. Crosstalk between malonylation-ubiquitination, phosphorylation-ubiquitination, and succinylation-propionylation were most significant among all PTMs. Further analysis revealed that Thr-160 of CDK2 regulated EZH2 via H3K27me3, and proposed a PTPN2-STAT1-AOX1 axis for HCC development through driver PTM exploration. In conclusion, our study provides a database of multiple PTMs in HCC, which might help to understand the biology of HCC and reveal novel targets for drug development.",
+      "journal": "Transl Oncol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "Junli",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Lou",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Xiaojun",
+          "affiliations": [
+            "Cosmos Wisdom Biotechnology Co. Ltd., Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Ye",
+          "fore_name": "Mao",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Wanyue",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Jiangchao",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Zhihui",
+          "affiliations": [
+            "Novogene Inc., Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Xiaowen",
+          "affiliations": [
+            "Novogene Inc., Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Zheng",
+          "fore_name": "Chenlei",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Wei",
+          "fore_name": "Xiaobao",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Qitai",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Chengyang",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Mingxuan",
+          "affiliations": [
+            "Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Qu",
+          "fore_name": "Lanqing",
+          "affiliations": [
+            "Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Zeshe",
+          "affiliations": [
+            "Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Fu",
+          "fore_name": "Qihan",
+          "affiliations": [
+            "Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Clinical Research Center of Hepatobiliary and Pancreatic Diseases, Zhejiang Province, China; Department of Medical Oncology, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Weixin",
+          "affiliations": [
+            "Cosmos Wisdom Biotechnology Co. Ltd., Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jingsong",
+          "affiliations": [
+            "Research Center for Healthcare Data Science, Zhejiang Lab, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Qi",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Clinical Research Center of Hepatobiliary and Pancreatic Diseases, Zhejiang Province, China; Zhejiang University Cancer Center, Hangzhou, China. Electronic address: qi.zhang@zju.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Tingbo",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China; Clinical Research Center of Hepatobiliary and Pancreatic Diseases, Zhejiang Province, China; Zhejiang University Cancer Center, Hangzhou, China. Electronic address: liangtingbo@zju.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CDK2",
+        "Histone",
+        "Liver cancer",
+        "Post-translational modification",
+        "Proteomic"
+      ]
+    },
+    {
+      "pmid": "39634272",
+      "pmc": "PMC5353601",
+      "doi": "10.1038/ncomms14718",
+      "title": "Comparative study of the three-dimensional genomes of granulosa cells in germinal vesicle and metaphase II follicles.",
+      "abstract": "Follicle development is a critical process in the female reproductive system, with significant implications for fertility and reproductive health. Germinal vesicle (GV) oocytes are primary oocytes that are arrested in the dictyate stage, also known as the diplotene stage of meiotic prophase I. Metaphase II (MII) is the stage at which the oocyte is typically retrieved for assisted reproductive technologies such as In this study, we investigated 3D chromatin organization in granulosacells from GV and MII follicles, which is essential for understanding the regulatory mechanisms governing oocyte development. The results revealed distinct compartmentalization patterns,including stable genomic regions and transitions during oocyte maturation. Notably, there was a significant shift in functional gene activation, particularly in processes related to hormone metabolic pathways. Furthermore, alterations in topologically associating domains (TADs) were observed, with differential expression observed in genes that are involved in crucial biological processes. The analysis also identified a subset of genes with altered promoter-enhancer interactions (PEIs), reflecting a regulatory shift in gene expression related to reproductive processes. These findings provide valuable insights into 3D genome organization in granulosa cells with implications for reproductive health and the development of assisted reproductive technologies. Understanding spatial genome organization at different stages of follicular development may help realize novel strategies for enhancing success rates in assisted reproductive technologies.",
+      "journal": "Front Genet",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Mao",
+          "fore_name": "Rurong",
+          "affiliations": [
+            "Jinxin Research Institute for Reproductive Medicine and Genetics, Sichuan Jinxin Xi'nan Women's and Children's Hospital, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Cai",
+          "fore_name": "Zhongkun",
+          "affiliations": [
+            "Antibiotics Research and Re-evaluation Key Laboratory of Sichuan Province, Sichuan Industrial Institute of Antibiotics, School of Pharmacy, Chengdu University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Antibiotics Research and Re-evaluation Key Laboratory of Sichuan Province, Sichuan Industrial Institute of Antibiotics, School of Pharmacy, Chengdu University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Yan",
+          "affiliations": [
+            "Sichuan Key Laboratory of Conservation Biology on Endangered Wildlife, Chengdu Research Base of Giant Panda Breeding, Chengdu, Sichuan, China."
+          ]
+        },
+        {
+          "last_name": "Tian",
+          "fore_name": "Shilin",
+          "affiliations": [
+            "Global Product Center, Novogene Bioinformatics Institute, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Diyan",
+          "affiliations": [
+            "Antibiotics Research and Re-evaluation Key Laboratory of Sichuan Province, Sichuan Industrial Institute of Antibiotics, School of Pharmacy, Chengdu University, Chengdu, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Penghao",
+          "affiliations": [
+            "Jinxin Research Institute for Reproductive Medicine and Genetics, Sichuan Jinxin Xi'nan Women's and Children's Hospital, Chengdu, China.",
+            "Assisted Reproductive Center, Yunnan Jinxin Jiuzhou Hospital, Kunming, Yunnan, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "GV follicles",
+        "MII follicles",
+        "TAD",
+        "chromatin compartments",
+        "granulosa cells",
+        "three-dimensional genome organization"
+      ]
+    }
+  ]
+}

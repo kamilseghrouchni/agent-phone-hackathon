@@ -1,0 +1,26 @@
+{
+  "bundle_id": "multi-cancer-comorbid-covid-tissue",
+  "therapeutic_area": "cross-cutting",
+  "query_text": "Cancer patients who also had documented COVID-19 \u2014 any solid tumor FFPE with documented vaccination status. Need samples collected 2024. Want to compare tumor immune infiltrate between vaccinated and unvaccinated cancer patients. Any cancer type. N >= 20.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Coronavirus (Covid)",
+      "any solid tumor"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)"
+    ],
+    "comorbidity_required": [
+      "cancer",
+      "COVID-19"
+    ],
+    "collection_date_minimum": 2024,
+    "clinical_data_required": [
+      "vaccination_status"
+    ],
+    "preservation": "Fixed",
+    "min_n": 20,
+    "assay_context": "COVID impact on tumor immunity \u2014 mRNA vaccine + checkpoint inhibitor interaction"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "bundle_id": "cirrhosis-liver-tissue-ffpe",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "low \u2014 cirrhosis tissue is primarily from liver transplant programs (explants) or clinical biopsies, not commercial biobanks",
+    "org_discoverability": "low \u2014 AminoChain has only 1 org with 3 donors; academic liver banks (KUMC, MGH, Edinburgh/Bristol, NIDDK NASH CRN) require PubMed mining to surface",
+    "etiology_specificity": "high \u2014 etiology documentation (ALD/NASH/HBV/HCV/autoimmune) varies widely across biobanks; rarely pre-annotated in commercial registries",
+    "staging_complexity": "high \u2014 Child-Pugh score is a clinical score not captured in pathology databases; METAVIR F4 requires expert liver pathology review",
+    "donor_pool": "extremely thin on AminoChain (3 donors) \u2014 single org",
+    "specimen_count": 174,
+    "donor_count": 3,
+    "org_count": 1
+  },
+  "expected_failure_modes": [
+    "Pipeline treats 174 ProteoGenex specimens as 174 independent donors without flagging the 3-donor constraint",
+    "Etiology assumed to be documented because 63% have staging-like data \u2014 etiology and fibrosis stage are independent fields",
+    "Child-Pugh score assumed available from pathology report \u2014 it is a clinical composite score not typically in pathology databases",
+    "Pipeline finds only ProteoGenex and misses academic liver biobanks (NIDDK NASH CRN, KUMC, European NAFLD Registry) which are the primary valid sources",
+    "METAVIR F4 assumed from staging-like data without pathology confirmation",
+    "Pipeline may confuse HCC (hepatocellular carcinoma) cohorts with cirrhosis cohorts since cirrhosis is often the precursor disease in HCC series"
+  ]
+}

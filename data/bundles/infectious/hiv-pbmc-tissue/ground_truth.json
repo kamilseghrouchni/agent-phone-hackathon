@@ -1,0 +1,56 @@
+{
+  "bundle_id": "hiv-pbmc-tissue",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 0,
+    "total_secondary_specimens": 69,
+    "total_donors": 13,
+    "organizations": [],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "NDRI",
+      "organization_id": "a8ee3e47-6144-4e75-8870-1ec8c132f9f8",
+      "country": [
+        "USA"
+      ],
+      "website": "https://ndriresource.org/",
+      "contact_email": "info@ndriresource.org",
+      "address": "Three Parkway 1601 Cherry Street, Suite 1700 Philadelphia, PA 19102 USA",
+      "description": "We provide human biospecimens worldwide to advance biomedical/bioscience research & development.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Peripheral blood mononuclear cells (PBMCs)"
+        },
+        "secondary": {
+          "count": 69,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 47.2,
+        "n_with_age": 69,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [],
+  "coverage_gaps": {
+    "her2": "0% annotated \u2014 effectively not available",
+    "er": "0% annotated \u2014 effectively not available",
+    "pr": "0% annotated \u2014 effectively not available",
+    "ki67": "0% annotated \u2014 effectively not available",
+    "pd-l1": "0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

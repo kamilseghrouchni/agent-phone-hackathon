@@ -1,0 +1,233 @@
+{
+  "bundle_id": "alzheimers-tissue-serum-csf",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 300,
+    "total_secondary_specimens": 196,
+    "total_donors": 289,
+    "organizations": [
+      "CHTN Eastern",
+      "BIOMEDICA CRO",
+      "Stibion",
+      "NDRI"
+    ],
+    "matched_pair_donors": 30
+  },
+  "organizations": [
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "chtn-eastern-001",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.chtn.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "University of Pennsylvania, Philadelphia, PA, USA",
+      "description": "The Cooperative Human Tissue Network (CHTN) Eastern Division collects and distributes human tissue for biomedical research, including brain tissue from autopsy programs with neuropathological assessment.",
+      "specimens": {
+        "primary": {
+          "count": 180,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 80,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 20,
+      "demographics": {
+        "mean_age": 78.4,
+        "n_with_age": 180,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 40,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 30,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 5,
+      "demographics": {
+        "mean_age": 74.0,
+        "n_with_age": 40,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "stibion-001",
+      "country": [
+        "NLD"
+      ],
+      "website": "https://www.stibion.nl/",
+      "contact_email": "info@stibion.nl",
+      "address": "Netherlands",
+      "description": "Stibion is a European biobank specializing in neurological disease specimens, including brain tissue and matched fluid samples from autopsy programs.",
+      "specimens": {
+        "primary": {
+          "count": 50,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 50,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 3,
+      "demographics": {
+        "mean_age": 80.1,
+        "n_with_age": 50,
+        "countries": [
+          "NLD"
+        ]
+      }
+    },
+    {
+      "name": "NDRI",
+      "organization_id": "ndri-001",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.ndriresource.org/",
+      "contact_email": "info@ndriresource.org",
+      "address": "National Disease Research Interchange, Philadelphia, PA, USA",
+      "description": "NDRI procures and distributes human tissues for biomedical research, including brain tissue from donors with documented neurological diagnoses.",
+      "specimens": {
+        "primary": {
+          "count": 30,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 36,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 2,
+      "demographics": {
+        "mean_age": 77.6,
+        "n_with_age": 30,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "ad-tissue-001a...",
+      "specimen_type": "Tissue",
+      "preservation": "Frozen",
+      "source_site": "Brain (frontal cortex)",
+      "sex": "Female",
+      "age": 82,
+      "diagnoses": [
+        "Alzheimer's Disease (AD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "CHTN Eastern"
+    },
+    {
+      "specimen_id": "ad-tissue-002a...",
+      "specimen_type": "Tissue",
+      "preservation": "FFPE",
+      "source_site": "Brain (hippocampus)",
+      "sex": "Male",
+      "age": 79,
+      "diagnoses": [
+        "Alzheimer's Disease (AD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "CHTN Eastern"
+    },
+    {
+      "specimen_id": "ad-serum-001a...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Female",
+      "age": 82,
+      "diagnoses": [
+        "Alzheimer's Disease (AD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "CHTN Eastern"
+    },
+    {
+      "specimen_id": "ad-tissue-003a...",
+      "specimen_type": "Tissue",
+      "preservation": "Frozen",
+      "source_site": "Brain (temporal cortex)",
+      "sex": "Female",
+      "age": 84,
+      "diagnoses": [
+        "Alzheimer's Disease (AD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "NDRI"
+    },
+    {
+      "specimen_id": "ad-tissue-004a...",
+      "specimen_type": "Tissue",
+      "preservation": "Frozen",
+      "source_site": "Brain (parietal cortex)",
+      "sex": "Male",
+      "age": 76,
+      "diagnoses": [
+        "Alzheimer's Disease (AD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "Stibion"
+    }
+  ],
+  "coverage_gaps": {
+    "braak_stage": "not indexed in AminoChain — requires direct inquiry with each organization",
+    "cerad_score": "not indexed — requires neuropathology report from source institution",
+    "neuropathological_confirmation": "not systematically indexed — must be confirmed per organization",
+    "csf_availability": "28 urine specimens present; CSF not confirmed separately — requires inquiry",
+    "consent_scope": "not available in specimen data — requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data",
+    "tnm": "not applicable for neurodegenerative disease — 0.0% annotated"
+  }
+}

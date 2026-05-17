@@ -1,0 +1,17 @@
+{
+  "bundle_id": "ovarian-t3-ffpe-plasma-er-annotated",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium",
+    "org_discoverability": "medium \u2014 mix of academic and commercial sources",
+    "biomarker_specificity": "medium \u2014 ER, PR annotated in 370 specimens",
+    "specimen_count": 462,
+    "org_count": 6
+  },
+  "expected_failure_modes": [
+    "May not find commercial biobanks (ProteoGenex, BIOMEDICA CRO, CSD Bio) through PubMed \u2014 they publish less than academic centers",
+    "Matched pair discovery requires cross-referencing donor IDs \u2014 hard without registry access",
+    "Treatment-naive filtering depends on parsing free-text treatment fields \u2014 may miss nuance",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "bundle_id": "lymphoma-ffpe-grade3-serum-matched",
+  "therapeutic_area": "heme",
+  "query_text": "Non-Hodgkin lymphoma FFPE tissue, grade 3+, with matched serum at -80C. Need documented tumor size and pathological grade. Exclude patients with prior radiation. Age 50+. N >= 20 paired.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Lymphoma",
+      "Non-Hodgkin lymphoma"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "grade_minimum": 3,
+    "preservation": "Fixed",
+    "min_n": 20,
+    "treatment_status": "no prior radiation",
+    "matched_pairs": true,
+    "age_minimum": 50,
+    "preanalytical": {
+      "serum_storage": "-80C"
+    },
+    "clinical_data_required": [
+      "tumor_size",
+      "pathological_grade"
+    ],
+    "assay_context": "Loncastuximab tesirine (CD19 ADC) \u2014 tumor microenvironment spatial profiling"
+  }
+}

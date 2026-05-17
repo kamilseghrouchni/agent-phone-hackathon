@@ -1,0 +1,23 @@
+{
+  "bundle_id": "ad-csf-plasma-paired",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "Alzheimer's disease CSF + matched plasma for blood-based biomarker validation (p-tau, NfL). Longitudinal preferred. ApoE genotype data needed. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Alzheimer's disease (AD)"
+    ],
+    "specimen_types": [
+      "Cerebrospinal fluid (CSF)",
+      "Plasma"
+    ],
+    "biomarkers_desired": [
+      "p-tau",
+      "NfL",
+      "ApoE"
+    ],
+    "matched_pairs": true,
+    "min_n": 30,
+    "assay_context": "Blood-based AD biomarker validation against CSF gold standard"
+  }
+}

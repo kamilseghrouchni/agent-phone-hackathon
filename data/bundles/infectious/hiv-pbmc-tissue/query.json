@@ -1,0 +1,17 @@
+{
+  "bundle_id": "hiv-pbmc-tissue",
+  "therapeutic_area": "infectious",
+  "query_text": "HIV+ PBMCs + tissue for reservoir quantification. ART-treated and treatment-naive. N >= 20.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "HIV/AIDS"
+    ],
+    "specimen_types": [
+      "PBMCs",
+      "Tissue"
+    ],
+    "min_n": 20,
+    "assay_context": "HIV reservoir and latency studies"
+  }
+}

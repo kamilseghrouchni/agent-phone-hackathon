@@ -1,0 +1,99 @@
+{
+  "bundle_id": "chf-atherosclerosis-comorbid-plasma-tissue",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "41961636",
+      "pmc_id": "PMC13070655",
+      "doi": "10.1093/eurheartj/ehaf180",
+      "title": "The Swedish Heart Failure Registry biobank: rationale, design, and initial findings",
+      "year": 2026,
+      "journal": "European Heart Journal",
+      "specimens_described": {
+        "types": ["EDTA plasma", "DNA", "RNA", "cardiac tissue"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Karolinska Institutet / Swedish Heart Failure Registry",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Swedish HF Registry biobank committee application; linked to SwedeHF national registry",
+      "depth_confidence": "high",
+      "notes": "Cardiac tissue paired with plasma and omics layers; comorbidity burden (including atherosclerosis) documented via national registry linkage; longitudinal follow-up with mortality endpoints"
+    },
+    {
+      "pmid": "30251587",
+      "pmc_id": "PMC6450505",
+      "doi": "10.1093/eurheartj/ehy530",
+      "title": "SWEDEHEART: a national quality registry and research platform for cardiovascular disease",
+      "year": 2019,
+      "journal": "European Heart Journal",
+      "specimens_described": {
+        "types": ["EDTA plasma"],
+        "n": null,
+        "storage": "-80C",
+        "matched": false,
+        "treatment_naive": false
+      },
+      "institution": "Uppsala Clinical Research Center / SWEDEHEART",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "SWEDEHEART data access committee; Uppsala Biobank for specimens; national registry linkage standard",
+      "depth_confidence": "medium",
+      "notes": "EDTA plasma at -80C; large national registry with atherosclerosis and CHF subsets; detailed medication and comorbidity annotation; specimen availability depends on subset enrollment"
+    },
+    {
+      "pmid": "36856044",
+      "pmc_id": "PMC11059242",
+      "doi": "10.1161/CIRCULATIONAHA.122.063434",
+      "title": "Endomyocardial biopsy-derived transcriptomic signatures identify subtypes of dilated cardiomyopathy",
+      "year": 2023,
+      "journal": "Circulation",
+      "specimens_described": {
+        "types": ["endomyocardial biopsy", "plasma"],
+        "n": 88,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Johns Hopkins University",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaborative research agreement with JHU cardiology; IRB approval required",
+      "depth_confidence": "high",
+      "notes": "Matched endomyocardial biopsy + plasma from 88 HF patients; atherosclerosis comorbidity documented; RNA extraction from biopsy confirmed; small n limits statistical power but high tissue quality"
+    },
+    {
+      "pmid": "34931483",
+      "pmc_id": "PMC8787984",
+      "doi": "10.1016/j.yjmcc.2021.12.010",
+      "title": "Human heart biobanks: the cornerstone of basic and translational cardiac research",
+      "year": 2022,
+      "journal": "Journal of Molecular and Cellular Cardiology",
+      "specimens_described": {
+        "types": ["cardiac tissue", "plasma", "DNA"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Sydney Heart Bank / BMCB Vancouver",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Sydney Heart Bank: sydneyheartbank.org.au; BMCB: collaborative agreement with UBC",
+      "depth_confidence": "medium",
+      "notes": "Review describing two major cardiac biobanks; Sydney Heart Bank has >2700 cardiac samples; BMCB (British Columbia Molecular Biomarker Consortium) plasma + tissue matched; both accessible via application"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Karolinska Institutet / Swedish Heart Failure Registry",
+    "Uppsala Clinical Research Center / SWEDEHEART",
+    "Johns Hopkins University",
+    "Sydney Heart Bank",
+    "BMCB Vancouver / UBC"
+  ],
+  "notes": "Three European registry-linked biobanks with plasma; JHU provides the only matched endomyocardial biopsy + plasma collection with n<100 but high depth. Sydney Heart Bank / BMCB are accessible via application and provide cardiac tissue + plasma."
+}

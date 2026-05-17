@@ -1,0 +1,20 @@
+{
+  "bundle_id": "melanoma-tissue-pbmc-io",
+  "therapeutic_area": "immuno-oncology",
+  "query_text": "Melanoma tumor tissue + matched PBMCs for immune profiling. Pre/post ICI treatment pairs ideal. PD-L1 status needed.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Melanoma"
+    ],
+    "specimen_types": [
+      "Tissue",
+      "PBMCs"
+    ],
+    "biomarkers_required": [
+      "PD-L1"
+    ],
+    "matched_pairs": true,
+    "assay_context": "Tumor immune microenvironment profiling, ICI response prediction"
+  }
+}

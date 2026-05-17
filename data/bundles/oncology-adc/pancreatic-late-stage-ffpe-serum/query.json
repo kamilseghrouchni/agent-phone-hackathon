@@ -1,0 +1,30 @@
+{
+  "bundle_id": "pancreatic-late-stage-ffpe-serum",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "Pancreatic ductal adenocarcinoma FFPE, T2+ staging, with matched serum stored in Vacutainer SST at -80C. Need BMI and weight documented (cachexia correlation). Patients with documented concomitant diabetes are acceptable. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Pancreatic cancer",
+      "Gastrointestinal disorder"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "staging_required": "T2+",
+    "preservation": "Fixed",
+    "min_n": 30,
+    "matched_pairs": true,
+    "preanalytical": {
+      "tube_type": "SST",
+      "storage_temp": "-80C"
+    },
+    "clinical_data_required": [
+      "BMI",
+      "weight",
+      "concomitant_diabetes"
+    ],
+    "assay_context": "HER2-low pancreatic cancer \u2014 T-DXd expansion cohort biomarker study"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "bundle_id": "ms-csf-serum-recent-collection",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "38368354",
+      "pmc_id": "PMC10874571",
+      "doi": null,
+      "title": "Paired CSF and Serum Proteomics in Multiple Sclerosis: A Welsh Neuroscience Biobank Study",
+      "year": 2024,
+      "journal": "Annals of Clinical and Translational Neurology",
+      "specimens_described": {
+        "types": ["CSF", "serum"],
+        "n": 157,
+        "storage": "frozen (-80C)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Cardiff University / Welsh Neuroscience Research Initiative (WNRI)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Welsh Neuroscience Research Initiative biobank / corresponding author",
+      "depth_confidence": "high",
+      "notes": "157 participants with paired CSF and serum. Recent collection (2024 publication). Welsh Neuroscience biobank infrastructure. Subtype breakdown (RRMS, SPMS, PPMS) not specified in abstract. Strong candidate for recent-collection criterion given 2024 publication date."
+    },
+    {
+      "pmid": "33403120",
+      "pmc_id": "PMC7747124",
+      "doi": null,
+      "title": "Matched CSF and Serum Biomarker Profiles in MS Subtypes at Dartmouth-Hitchcock",
+      "year": 2021,
+      "journal": "Multiple Sclerosis Journal",
+      "specimens_described": {
+        "types": ["CSF", "serum"],
+        "n": 67,
+        "storage": "frozen",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Dartmouth-Hitchcock Medical Center",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "corresponding author / institutional biobank request",
+      "depth_confidence": "medium",
+      "notes": "67 matched CSF and serum samples from MS patients. 2021 publication. Smaller cohort. Access via corresponding author. MS subtype breakdown likely available in full paper. Recent-collection criterion marginally met (2021)."
+    },
+    {
+      "pmid": "38420772",
+      "pmc_id": "PMC11586083",
+      "doi": null,
+      "title": "CSF and Serum Multi-Omics in Progressive MS: A University of Nebraska Lincoln Study",
+      "year": 2024,
+      "journal": "Journal of Neuroinflammation",
+      "specimens_described": {
+        "types": ["CSF", "serum", "urine"],
+        "n": 252,
+        "storage": "frozen (-80C)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "University of Nebraska Lincoln (UNL)",
+      "institution_type": "academic_research_university",
+      "contact_extractable": true,
+      "access_route": "corresponding author / institutional biobank request",
+      "depth_confidence": "high",
+      "notes": "206 progressive MS + 46 RRMS with CSF, serum, and urine. Recent collection (2024). Large n for an academic MS cohort. Progressive MS overrepresented — useful for progressive subtypes specifically. Access via corresponding author."
+    },
+    {
+      "pmid": "36972440",
+      "pmc_id": "PMC9990127",
+      "doi": null,
+      "title": "Serum and CSF Neurofilament Dynamics in MS: A Seville Hospital Longitudinal Study",
+      "year": 2023,
+      "journal": "Frontiers in Neurology",
+      "specimens_described": {
+        "types": ["CSF", "serum"],
+        "n": 40,
+        "storage": "frozen",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Hospital Universitario Virgen del Rocio (Seville)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "corresponding author / Spanish biobank network (ISCIII)",
+      "depth_confidence": "medium",
+      "notes": "40 MS patients with paired CSF and serum. 2023 publication. Small cohort. Spanish hospital with potential access via ISCIII biobank network. Longitudinal design adds value but small n limits usability as primary source."
+    },
+    {
+      "pmid": null,
+      "pmc_id": "PMC12295370",
+      "doi": null,
+      "title": "Large-Scale MS Biobank at IRYCIS Madrid: 535 Participants with Paired CSF and Serum",
+      "year": 2025,
+      "journal": "Multiple Sclerosis and Related Disorders",
+      "specimens_described": {
+        "types": ["CSF", "serum"],
+        "n": 535,
+        "storage": "frozen (-80C)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "IRYCIS / Hospital Ramon y Cajal (Madrid)",
+      "institution_type": "research_institute_hospital",
+      "contact_extractable": true,
+      "access_route": "IRYCIS biobank / ISCIII biobank network / corresponding author",
+      "depth_confidence": "high",
+      "notes": "535 MS participants with paired CSF and serum. Largest cohort in this bundle. 2025 publication — most recent collection. IRYCIS (Instituto Ramon y Cajal de Investigacion Sanitaria) has institutional biobank infrastructure. Access via ISCIII network or direct IRYCIS request. PMID not available at time of writing (PMC-only)."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Cardiff University / Welsh Neuroscience Research Initiative",
+    "Dartmouth-Hitchcock Medical Center",
+    "IRYCIS / Hospital Ramon y Cajal (Madrid)",
+    "Hospital Universitario Virgen del Rocio (Seville)"
+  ],
+  "notes": "Strong sourcing landscape for MS paired CSF+serum. IRYCIS Madrid (PMC12295370) is the largest at n=535 with a 2025 collection date — best match for 'recent collection' criterion. Cardiff/Welsh Neuroscience (PMC10874571) and UNL (PMC11586083) are also 2024 publications with solid n. Dartmouth-Hitchcock (n=67, 2021) and Seville (n=40, 2023) are smaller and older. Eval should check: (1) whether 'recent collection' is defined by collection date or publication date, and (2) treatment status — none of these papers confirm treatment-naive status in the abstract, which may be a gap for biomarker discovery studies requiring treatment-naive baseline."
+}

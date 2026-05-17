@@ -1,0 +1,2956 @@
+{
+  "name": "PPD Laboratories (Thermo Fisher)",
+  "cleaned_name": "PPD Laboratories",
+  "aliases_tried": [
+    "PPD Laboratories",
+    "Thermo Fisher"
+  ],
+  "publication_total": 1261,
+  "search_queries": [
+    "\"PPD Laboratories\"[Affiliation] AND 2022:3000[pdat]",
+    "\"Thermo Fisher\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "36269894",
+      "pmc": "PMC9448003",
+      "doi": "10.1152/ajplung.00476.2016",
+      "title": "Multiplex Hybrid Antigen-Capture LC-MRM Quantification in Sera and Nasal Lining Fluid of AZD7442, a SARS-CoV-2-Targeting Antibody Combination.",
+      "abstract": "AZD7442 (tixagevimab [AZD8895]/cilgavimab [AZD1061]) is a monoclonal antibody (mAb) combination in development for the prevention and treatment of coronavirus disease 2019. Traditionally, bioanalysis of mAbs is performed using ligand binding assays (LBAs), which offer sensitivity, robustness, and ease of implementation. However, LBAs frequently require generation of critical reagents that typically take several months. Instead, we developed a highly sensitive (5 ng/mL limit of quantification) method using a hybrid LBA-liquid chromatography coupled with tandem mass spectrometry (LC-MS/MS) approach for quantification of the two codosed antibodies in serum and nasal lining fluid (NLF), a rare matrix. The method was optimized by careful selection of multiple reaction monitoring, capture reagents, magnetic beads, chromatographic conditions, evaluations of selectivity, and matrix effect. The final assay used viral spike protein receptor-binding domain as capture reagent and signature proteotypic peptides from the complementarity-determining region of each mAb for detection. In contrast to other methods of similar/superior sensitivity, our approach did not require multidimensional separations and can be operated in an analytical flow regime, ensuring high throughput and robustness required for clinical analysis at scale. The sensitivity of this method significantly exceeds typical sensitivity of \u223c100 ng/mL for analytical flow 1D LBA-LC-MS/MS methods for large macromolecules, such as antibodies. Furthermore, infection and vaccination status did not impact method performance, ensuring method robustness and applicability to a broad patient population. This report demonstrated the general applicability of the hybrid LBA-LC-MS/MS approach to platform quantification of antibodies with high sensitivity and reproducibility, with specialized extension to matrices of increasing interest, such as NLF.",
+      "journal": "Anal Chem",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Mu",
+          "fore_name": "Ruipeng",
+          "affiliations": [
+            "Integrated Bioanalysis, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, South San Francisco, California 94080, United States."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Yue",
+          "affiliations": [
+            "Integrated Bioanalysis, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, South San Francisco, California 94080, United States."
+          ]
+        },
+        {
+          "last_name": "Bouquet",
+          "fore_name": "Jerome",
+          "affiliations": [
+            "Integrated Bioanalysis, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, South San Francisco, California 94080, United States."
+          ]
+        },
+        {
+          "last_name": "Yuan",
+          "fore_name": "Jiaqi",
+          "affiliations": [
+            "Integrated Bioanalysis, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, South San Francisco, California 94080, United States."
+          ]
+        },
+        {
+          "last_name": "Kubiak",
+          "fore_name": "Robert J",
+          "affiliations": [
+            "Clinical Pharmacology and Quantitative Pharmacology, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, Gaithersburg, Maryland 20878, United States."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States."
+          ]
+        },
+        {
+          "last_name": "Naser",
+          "fore_name": "Sami",
+          "affiliations": [
+            "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States."
+          ]
+        },
+        {
+          "last_name": "Mylott",
+          "fore_name": "William R",
+          "affiliations": [
+            "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States."
+          ]
+        },
+        {
+          "last_name": "Ismaiel",
+          "fore_name": "Omnia A",
+          "affiliations": [
+            "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States.",
+            "Faculty of Pharmacy, Zagazig University, Zagazig 2, Zagazig, Egypt."
+          ]
+        },
+        {
+          "last_name": "Wheeler",
+          "fore_name": "Aaron M",
+          "affiliations": [
+            "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States."
+          ]
+        },
+        {
+          "last_name": "Burkart",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States."
+          ]
+        },
+        {
+          "last_name": "Cortes",
+          "fore_name": "Diego F",
+          "affiliations": [
+            "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States."
+          ]
+        },
+        {
+          "last_name": "Bruton",
+          "fore_name": "James",
+          "affiliations": [
+            "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States."
+          ]
+        },
+        {
+          "last_name": "Arends",
+          "fore_name": "Rosalinda H",
+          "affiliations": [
+            "Clinical Pharmacology and Quantitative Pharmacology, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, Gaithersburg, Maryland 20878, United States."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Meina",
+          "affiliations": [
+            "Integrated Bioanalysis, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, South San Francisco, California 94080, United States."
+          ]
+        },
+        {
+          "last_name": "Rosenbaum",
+          "fore_name": "Anton I",
+          "affiliations": [
+            "Integrated Bioanalysis, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, South San Francisco, California 94080, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Chromatography, Liquid",
+        "Tandem Mass Spectrometry",
+        "SARS-CoV-2",
+        "Reproducibility of Results",
+        "COVID-19",
+        "Antibodies, Monoclonal",
+        "Indicators and Reagents",
+        "Antibodies, Viral",
+        "Drug Combinations",
+        "Antibodies, Neutralizing"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "35576733",
+      "doi": "10.1016/j.jpba.2022.114823",
+      "title": "Comparison of methods for quantitative analysis of ranibizumab and bevacizumab in human plasma using various bioanalytical techniques, including microfluidic immunoassay, triple quadrupole, and high-resolution liquid chromatography-tandem mass spectrometry approaches.",
+      "abstract": "With the ever-growing abundance of complex therapeutic proteins reaching clinical trials and post-marketing, it is vital to develop highly accurate and robust bioanalytical methods for their quantitative analysis in matrices, to support clinical trial data as well as therapeutic drug monitoring. In bioanalysis, proteins have traditionally been evaluated using ligand binding assays (LBAs). However, in recent years, bottom-up LC-MS/MS methods have begun to gain recognition as an alternative to LBAs in situations where either there is a desire to reduce lengthy development times, or where selectivity issues prevent the immunoassay from reaching the desired outcome. In our study, a microfluidic immunoassay was compared to two bottom-up LC-MS/MS methods, including triple quadrupole and high-resolution mass spectrometry methods. The methods were designed to quantitatively analyze a monoclonal antibody, bevacizumab, and its related fab fragment, ranibizumab, in human plasma after intravitreal administration. All three methods were validated (or cross-validated) according to the 2018 Food and Drug Administration (FDA) guidance, and were then compared by quantitating eighteen patient samples on each platform. The concentrations values obtained from each method were compared using percent variability, as well as Bland-Altman and Pearson Correlation plots, to determine agreeability and linear correlation between methods. Based on the results of the validations and comparison studies, all three methods aligned well with each other. However, the LC-MS/MS methods were able to achieve significantly improve sensitivity, with a lower limit of quantitation (LLOQ) of 0.300\u00a0ng/mL, compared to 6.00\u00a0ng/mL for the LBA, due to the reduction of interferences at lower concentrations using the LC-MS/MS technique (increased selectivity). Therefore, for this specific study, we were able to establish the correlation between methods, while also demonstrating increased value in using LC-MS/MS as an alternative approach to LBAs in bioanalysis.",
+      "journal": "J Pharm Biomed Anal",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "DelGuidice",
+          "fore_name": "Catherine E",
+          "affiliations": [
+            "Department of Pharmaceutics, School of Pharmacy, Virginia Commonwealth University, Richmond, VA, USA; PPD Laboratories, Richmond, VA, USA. Electronic address: catherine.delguidice@ppd.com."
+          ]
+        },
+        {
+          "last_name": "Ismaiel",
+          "fore_name": "Omnia A",
+          "affiliations": [
+            "Department of Analytical Chemistry, Faculty of Pharmacy, Zagazig University, Egypt."
+          ]
+        },
+        {
+          "last_name": "Mylott",
+          "fore_name": "William R",
+          "affiliations": [
+            "PPD Laboratories, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Halquist",
+          "fore_name": "Matthew S",
+          "affiliations": [
+            "Department of Pharmaceutics, School of Pharmacy, Virginia Commonwealth University, Richmond, VA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Antibodies, Monoclonal",
+        "Bevacizumab",
+        "Chromatography, Liquid",
+        "Humans",
+        "Immunoassay",
+        "Microfluidics",
+        "Pharmaceutical Preparations",
+        "Ranibizumab",
+        "Tandem Mass Spectrometry"
+      ],
+      "keywords": [
+        "Bevacizumab",
+        "Bioanalytical method development",
+        "LC-MS/MS",
+        "Method comparison",
+        "Microfluidic Immunoassay",
+        "Monoclonal antibody",
+        "Ranibizumab",
+        "VEGF"
+      ]
+    },
+    {
+      "pmid": "35703321",
+      "doi": "10.4155/bio-2022-0109",
+      "title": "Recommendations on qPCR/ddPCR assay validation by GCC.",
+      "abstract": "Gene therapy, cell therapy and vaccine research have led to an increased use of qPCR/ddPCR in bioanalytical laboratories. CROs are progressively undertaking the development and validation of qPCR and ddPCR assays. Currently, however, there is limited regulatory guidance for the use of qPCR and a complete lack of any regulatory guidelines for the use of the newer ddPCR to support regulated bioanalysis. Hence, the Global CRO Council in Bioanalysis (GCC) has issued this White Paper to provide; 1) a consensus on the different validation parameters required to support qPCR/ddPCR assays; 2) a harmonized approach to their validation and 3) a consistent development of standard operating procedures (SOPs) for all the bioanalytical laboratories using these techniques.",
+      "journal": "Bioanalysis",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Wissel",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Eurofins Viracor BioPharma, Lenexa,Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Poirier",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Altasciences, Everett, Washington, USA."
+          ]
+        },
+        {
+          "last_name": "Satterwhite",
+          "fore_name": "Christina",
+          "affiliations": [
+            "Charles River Laboratories, Reno, Nevada, USA."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "John",
+          "affiliations": [
+            "Frontage Laboratories, Exton, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Islam",
+          "fore_name": "Rafiq",
+          "affiliations": [
+            "Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Zimmer",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Alturas Analytics, Moscow, Idaho, USA."
+          ]
+        },
+        {
+          "last_name": "Khadang",
+          "fore_name": "Ardeshir",
+          "affiliations": [
+            "Axis Clinical, Dilworth, Minnesota, USA."
+          ]
+        },
+        {
+          "last_name": "Zemo",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Lester",
+          "fore_name": "Todd",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Fjording",
+          "fore_name": "Marianne",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Hughes",
+          "fore_name": "Nicola",
+          "affiliations": [
+            "Biopharmaservices, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Fabio",
+          "affiliations": [
+            "BRI - a Frontage Company, Vancouver, British Columbia, Canada."
+          ]
+        },
+        {
+          "last_name": "Guilbaud",
+          "fore_name": "Rudolf",
+          "affiliations": [
+            "CellCarta, Montreal, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Groeber",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Charles River Laboratories, Ashland, Ohio, USA."
+          ]
+        },
+        {
+          "last_name": "Renfrew",
+          "fore_name": "Heidi",
+          "affiliations": [
+            "Charles River Laboratories, Shrewsbury, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Colletti",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "Charles River Laboratories, Reno, Nevada, USA."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Mathilde",
+          "affiliations": [
+            "CIRION, Montreal, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Jenny",
+          "affiliations": [
+            "CMIC, Hoffman Estates, Illinois, USA."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Xinping",
+          "affiliations": [
+            "CR Medicon, Piscataway, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Shah",
+          "fore_name": "Santosh",
+          "affiliations": [
+            "Frontage Laboratories, Exton, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Wei",
+          "affiliations": [
+            "GCC, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Kar",
+          "fore_name": "Sumit",
+          "affiliations": [
+            "GCC, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Hayes",
+          "fore_name": "Roger",
+          "affiliations": [
+            "ICON Laboratory Services, Whitesboro, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Pirro",
+          "fore_name": "John",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Shawnee Mission, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Kane",
+          "fore_name": "Cheikh",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Shawnee Mission, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Luna",
+          "fore_name": "Marsha",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Shawnee Mission, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Allan",
+          "affiliations": [
+            "Keystone Bioanalytical, Lansdale, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Cape",
+          "fore_name": "Stephanie",
+          "affiliations": [
+            "Labcorp, Madison, Wisconsin, USA."
+          ]
+        },
+        {
+          "last_name": "O'Dell",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Labcorp, Indianapolis, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "Wheller",
+          "fore_name": "Robert",
+          "affiliations": [
+            "LGC, Ely, UK."
+          ]
+        },
+        {
+          "last_name": "Ritzen",
+          "fore_name": "Hanna",
+          "affiliations": [
+            "Mercodia, Uppsala, Sweden."
+          ]
+        },
+        {
+          "last_name": "Vance",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Nexelis - a Q2 Solutions Company, Seattle, Washington, USA."
+          ]
+        },
+        {
+          "last_name": "Farley",
+          "fore_name": "Esme",
+          "affiliations": [
+            "Pharmaron, Germantown, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Matys",
+          "fore_name": "Katie",
+          "affiliations": [
+            "PPD Laboratories, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Tabler",
+          "fore_name": "Edward",
+          "affiliations": [
+            "PPD Laboratories, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Mylott",
+          "fore_name": "William",
+          "affiliations": [
+            "PPD Laboratories, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Yuan",
+          "fore_name": "Moucun",
+          "affiliations": [
+            "PPD Laboratories, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Karnik",
+          "fore_name": "Shane",
+          "affiliations": [
+            "Pyxant Labs, Colorado Springs, Colorado, USA."
+          ]
+        },
+        {
+          "last_name": "Voelker",
+          "fore_name": "Troy",
+          "affiliations": [
+            "Pyxant Labs, Salt Lake City, Utah, USA."
+          ]
+        },
+        {
+          "last_name": "DuBey",
+          "fore_name": "Ira",
+          "affiliations": [
+            "Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Williard",
+          "fore_name": "Clark",
+          "affiliations": [
+            "Syneos Health, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Jing",
+          "affiliations": [
+            "WuXi AppTec, Plainsboro, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Yamashita",
+          "fore_name": "Jim",
+          "affiliations": [
+            "WuXi AppTec, Plainsboro, New Jersey, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Biological Assay",
+        "Real-Time Polymerase Chain Reaction"
+      ],
+      "keywords": [
+        "GCC",
+        "cell therapy",
+        "ddPCR",
+        "digital droplet polymerase chain reaction",
+        "gene therapy",
+        "global CRO council in bioanalysis",
+        "qPCR",
+        "quantitative polymerase chain reaction",
+        "regulated bioanalysis",
+        "vaccine validation"
+      ]
+    },
+    {
+      "pmid": "35451621",
+      "doi": "10.1016/j.ophtha.2008.04.023",
+      "pmc": "6855484",
+      "title": "Intact quantitative bioanalytical method development and fit-for-purpose validation of a monoclonal antibody and its related fab fragment in human vitreous and aqueous humor using LC-HRMS.",
+      "abstract": "Ranibizumab is an FDA-approved drug used to treat wet age-related macular degeneration (AMD), diabetic retinopathy, macular edema, and myopic choroidal neovascularization. Bevacizumab is another drug often used off-label to treat wet AMD. In order to reduce unwanted angiogenesis, ranibizumab and bevacizumab target circulating VEGF-A in the eye. Concentration levels in human vitreous and aqueous humor can be used to provide valuable efficacy information. However, vitreous and aqueous humor's aqueous environment, and vitreous humor's viscosity, as well as the stickiness of the analytes can provide bioanalytical challenges. In this manuscript, we describe the development, optimization, and fit-for-purpose validation of an LC-HRMS method designed for intact quantitative bioanalysis of ranibizumab and bevacizumab in human vitreous and aqueous humor following intravitreal administration. In order to fully develop this method, evaluations were conducted to optimize the conditions, including the data processing model (extracted ion chromatograms (XICs) vs deconvolution), carryover mitigation, sample preparation scheme optimization for surrogate and primary matrices, use of internal standard/immunocapture/deglycosylation, and optimization of the extraction and dilution procedure, as well as optimization of the liquid chromatography and mass spectrometry conditions. Once the method was fully optimized, a fit-for-purpose validation was conducted, including matrix parallelism, with a linear calibration range of 10 to 200\u00a0\u00b5g/mL. The development of this intact quantitative method using LC-HRMS provides a proof-of-concept template for challenging, but valuable new and exciting bioanalytical techniques.",
+      "journal": "Anal Bioanal Chem",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "DelGuidice",
+          "fore_name": "Catherine E",
+          "affiliations": [
+            "Department of Pharmaceutics, School of Pharmacy, Virginia Commonwealth University, Richmond, VA, USA. delguidicece@vcu.edu.",
+            "PPD Laboratories, Richmond, VA, USA. delguidicece@vcu.edu."
+          ]
+        },
+        {
+          "last_name": "Ismaiel",
+          "fore_name": "Omnia A",
+          "affiliations": [
+            "Department of Analytical Chemistry, Faculty of Pharmacy, Zagazig University, Zagazig, Egypt."
+          ]
+        },
+        {
+          "last_name": "Mylott",
+          "fore_name": "William R",
+          "affiliations": [
+            "PPD Laboratories, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Yuan",
+          "fore_name": "Moucun",
+          "affiliations": [
+            "PPD Laboratories, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Halquist",
+          "fore_name": "Matthew S",
+          "affiliations": [
+            "Department of Pharmaceutics, School of Pharmacy, Virginia Commonwealth University, Richmond, VA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Angiogenesis Inhibitors",
+        "Antibodies, Monoclonal",
+        "Aqueous Humor",
+        "Bevacizumab",
+        "Humans",
+        "Immunoglobulin Fab Fragments",
+        "Ranibizumab",
+        "Vascular Endothelial Growth Factor A",
+        "Vitreous Body"
+      ],
+      "keywords": [
+        "Bevacizumab",
+        "Bioanalytical method development",
+        "Deconvolution",
+        "Intact protein quantitation",
+        "LC-HRMS",
+        "Monoclonal antibody",
+        "Orbitrap",
+        "Ranibizumab",
+        "Top-down",
+        "VEGF"
+      ]
+    },
+    {
+      "pmid": "35495877",
+      "pmc": "PMC7165447",
+      "doi": "10.1002/cti2.1385",
+      "title": "Validation and performance of a multiplex serology assay to quantify antibody responses following SARS-CoV-2 infection or vaccination.",
+      "abstract": "Robust, quantitative serology assays are required to accurately measure antibody levels following vaccination and natural infection. We present validation of a quantitative, multiplex, SARS-CoV-2, electrochemiluminescent (ECL) serology assay; show correlation with two established SARS-CoV-2 immunoassays; and present calibration results for two SARS-CoV-2 reference standards. Precision, dilutional linearity, ruggedness, analytical sensitivity and specificity were evaluated. Clinical sensitivity and specificity were assessed using serum from prepandemic and SARS-CoV-2 polymerase chain reaction (PCR)-positive patient samples. Assay concordance to the established Roche Elecsys\u00ae Anti-SARS-CoV-2 immunoassay and a live-virus microneutralisation (MN) assay was evaluated. Standard curves demonstrated the assay can quantify SARS-CoV-2 antibody levels over a broad range. Assay precision (10.2-15.1% variability), dilutional linearity (\u2264\u20091.16-fold bias per 10-fold increase in dilution), ruggedness (0.89-1.18 overall fold difference), relative accuracy (107-118%) and robust selectivity (102-104%) were demonstrated. Analytical sensitivity was 7, 13 and 7 arbitrary units mL The multiplex SARS-CoV-2 ECL serology assay is suitable for efficient, reproducible measurement of antibodies to SARS-CoV-2 antigens in human sera, supporting its use in clinical trials and sero-epidemiology studies.",
+      "journal": "Clin Transl Immunology",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Wilkins",
+          "fore_name": "Deidre",
+          "affiliations": [
+            "Translational Medicine, Vaccines and Immune Therapies BioPharmaceuticals Medical AstraZeneca Gaithersburg MD USA."
+          ]
+        },
+        {
+          "last_name": "Aksyuk",
+          "fore_name": "Anastasia A",
+          "affiliations": [
+            "Translational Medicine, Vaccines and Immune Therapies BioPharmaceuticals Medical AstraZeneca Gaithersburg MD USA."
+          ]
+        },
+        {
+          "last_name": "Ruzin",
+          "fore_name": "Alexey",
+          "affiliations": [
+            "Translational Medicine, Vaccines and Immune Therapies BioPharmaceuticals Medical AstraZeneca Gaithersburg MD USA."
+          ]
+        },
+        {
+          "last_name": "Tuffy",
+          "fore_name": "Kevin M",
+          "affiliations": [
+            "Translational Medicine, Vaccines and Immune Therapies BioPharmaceuticals Medical AstraZeneca Gaithersburg MD USA."
+          ]
+        },
+        {
+          "last_name": "Green",
+          "fore_name": "Tina",
+          "affiliations": [
+            "PPD\u00ae Laboratories Vaccine Sciences Lab Richmond VA USA."
+          ]
+        },
+        {
+          "last_name": "Greway",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "PPD\u00ae Laboratories Vaccine Sciences Lab Richmond VA USA."
+          ]
+        },
+        {
+          "last_name": "Fikes",
+          "fore_name": "Brittany",
+          "affiliations": [
+            "PPD\u00ae Laboratories Vaccine Sciences Lab Richmond VA USA."
+          ]
+        },
+        {
+          "last_name": "Bonhomme",
+          "fore_name": "Cyrille J",
+          "affiliations": [
+            "PPD\u00ae Laboratories Vaccine Sciences Lab Richmond VA USA."
+          ]
+        },
+        {
+          "last_name": "Esser",
+          "fore_name": "Mark T",
+          "affiliations": [
+            "Translational Medicine, Vaccines and Immune Therapies BioPharmaceuticals Medical AstraZeneca Gaithersburg MD USA."
+          ]
+        },
+        {
+          "last_name": "Kelly",
+          "fore_name": "Elizabeth J",
+          "affiliations": [
+            "Translational Medicine, Vaccines and Immune Therapies BioPharmaceuticals Medical AstraZeneca Gaithersburg MD USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "COVID\u201019",
+        "SARS\u2010CoV\u20102",
+        "antibodies",
+        "electrochemiluminescence",
+        "immunoassay",
+        "serology"
+      ]
+    },
+    {
+      "pmid": "35135309",
+      "doi": "10.4155/bio-2022-0010",
+      "title": "Recommendations on ELISpot assay validation by the GCC.",
+      "abstract": "Gene therapy, cell therapy and vaccine research have led to an increased need to perform cellular immunity testing in a regulated environment to ensure the safety and efficacy of these treatments. The most common method for the measurement of cellular immunity has been Enzyme-Linked Immunospot assays. However, there is a lack of regulatory guidance available discussing the recommendations for developing and validating these types of assays. Hence, the Global CRO Council has issued this white paper to provide a consensus on the different validation parameters required to support Enzyme-Linked Immunospot assays and a harmonized and consistent approach to Enzyme-Linked Immunospot validation among contract research organizations.",
+      "journal": "Bioanalysis",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Islam",
+          "fore_name": "Rafiq",
+          "affiliations": [
+            "Smithers, Gaithersburg, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Vance",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "AIT Bioscience - a Nexelis Company, Seattle, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Poirier",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Altasciences, Everett, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Zimmer",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Alturas Analytics, Moscow, ID, USA."
+          ]
+        },
+        {
+          "last_name": "Khadang",
+          "fore_name": "Ardeshir",
+          "affiliations": [
+            "Axis Clinical, Dilworth, MN, USA."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "Dave",
+          "affiliations": [
+            "BioAgilytix, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Zemo",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "BioAgilytix, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Lester",
+          "fore_name": "Todd",
+          "affiliations": [
+            "BioAgilytix, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Fjording",
+          "fore_name": "Marianne",
+          "affiliations": [
+            "BioAgilytix, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Hughes",
+          "fore_name": "Nicola",
+          "affiliations": [
+            "Biopharmaservices, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Fabio",
+          "affiliations": [
+            "BRI - a Frontage Company, Vancouver, BC, Canada."
+          ]
+        },
+        {
+          "last_name": "Sheldon",
+          "fore_name": "Curtis",
+          "affiliations": [
+            "Celerion, Lincoln, NE, USA."
+          ]
+        },
+        {
+          "last_name": "Guilbaud",
+          "fore_name": "Rudolf",
+          "affiliations": [
+            "CellCarta, Montreal, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Satterwhite",
+          "fore_name": "Christina",
+          "affiliations": [
+            "Charles River Laboratories, Reno, NV, USA."
+          ]
+        },
+        {
+          "last_name": "Colletti",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "Charles River Laboratories, Reno, NV, USA."
+          ]
+        },
+        {
+          "last_name": "Groeber",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Charles River Laboratories, Ashland, OH, USA."
+          ]
+        },
+        {
+          "last_name": "Renfrew",
+          "fore_name": "Heidi",
+          "affiliations": [
+            "Charles River Laboratories, Shrewsbury, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Mathilde",
+          "affiliations": [
+            "CIRION, Montreal, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Jenny",
+          "affiliations": [
+            "CMIC, Hoffman Estates, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Xinping",
+          "affiliations": [
+            "CR Medicon, Piscataway, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Wissel",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Eurofins Virocor, Lee's Summit, MO, USA."
+          ]
+        },
+        {
+          "last_name": "Beadnell",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Eurofins Virocor, Lee's Summit, MO, USA."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "John",
+          "affiliations": [
+            "Frontage Laboratories, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Shah",
+          "fore_name": "Santosh",
+          "affiliations": [
+            "Frontage Laboratories, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Wei",
+          "affiliations": [
+            "GCC, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Savoie",
+          "fore_name": "Natasha",
+          "affiliations": [
+            "GCC, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Hayes",
+          "fore_name": "Roger",
+          "affiliations": [
+            "ICON Laboratory Services, Whitesboro, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Pirro",
+          "fore_name": "John",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Shawnee Mission, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Kane",
+          "fore_name": "Cheikh",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Shawnee Mission, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Luna",
+          "fore_name": "Marsha",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Shawnee Mission, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Allan",
+          "affiliations": [
+            "Keystone Bioanalytical, Lansdale, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Cape",
+          "fore_name": "Stephanie",
+          "affiliations": [
+            "Labcorp, Madison, WI, USA."
+          ]
+        },
+        {
+          "last_name": "O'Dell",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Labcorp, Indianapolis, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Wheller",
+          "fore_name": "Robert",
+          "affiliations": [
+            "LGC, Ely, UK."
+          ]
+        },
+        {
+          "last_name": "Ritzen",
+          "fore_name": "Hanna",
+          "affiliations": [
+            "Mercodia, Uppsala, Sweden."
+          ]
+        },
+        {
+          "last_name": "Farley",
+          "fore_name": "Esme",
+          "affiliations": [
+            "Pharmaron, Germantown, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Kierstead",
+          "fore_name": "Lisa",
+          "affiliations": [
+            "PPD Laboratories, Wayne, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Mylott",
+          "fore_name": "William",
+          "affiliations": [
+            "PPD Laboratories, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Tabler",
+          "fore_name": "Edward",
+          "affiliations": [
+            "PPD Laboratories, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Yuan",
+          "fore_name": "Moucun",
+          "affiliations": [
+            "PPD Laboratories, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Karnik",
+          "fore_name": "Shane",
+          "affiliations": [
+            "Pyxant Labs, Colorado Springs, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Voelker",
+          "fore_name": "Troy",
+          "affiliations": [
+            "Pyxant Labs, Salt Lake City, UT, USA."
+          ]
+        },
+        {
+          "last_name": "DuBey",
+          "fore_name": "Ira",
+          "affiliations": [
+            "Smithers, Gaithersburg, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Williard",
+          "fore_name": "Clark",
+          "affiliations": [
+            "Syneos Health, Princeton, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "United-Power Pharma, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Jing",
+          "affiliations": [
+            "WuXi AppTec, Plainsboro, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Yamashita",
+          "fore_name": "Jim",
+          "affiliations": [
+            "WuXi AppTec, Plainsboro, NJ, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Biological Assay",
+        "Cell- and Tissue-Based Therapy",
+        "Enzyme-Linked Immunospot Assay",
+        "Genetic Therapy",
+        "Humans"
+      ],
+      "keywords": [
+        "ELISpot",
+        "Enzyme-Linked Immunospot",
+        "GCC",
+        "cell therapy",
+        "cellular immunity",
+        "gene therapy",
+        "global CRO council in bioanalysis",
+        "regulated bioanalysis",
+        "vaccine",
+        "validation"
+      ]
+    },
+    {
+      "pmid": "41190976",
+      "doi": "10.1016/j.jval.2025.09.3055",
+      "title": "Health Economics and Outcomes Research in the New Era of Artificial Intelligence: Catch Me If You Can.",
+      "abstract": "",
+      "journal": "Value Health",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Caro",
+          "fore_name": "Jaime",
+          "affiliations": [
+            "Thermo Fisher, Waltham, MA, USA; McGill University, Montreal, Quebec, Canada. Electronic address: jaime.caro@mcgill.ca."
+          ]
+        },
+        {
+          "last_name": "Chhatwal",
+          "fore_name": "Jagpreet",
+          "affiliations": [
+            "Institute for Technology Assessment, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Fleurence",
+          "fore_name": "Rachael L",
+          "affiliations": [
+            "Value Analytics Labs, Boston, MA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41972211",
+      "pmc": "PMC10343045",
+      "doi": "10.1101/2022.04.05.486988",
+      "title": "Electroencephalography during acute painful procedures in neonates: a scoping review.",
+      "abstract": "Although electroencephalography (EEG) is used to assess neonatal pain in research settings, EEG assessments have not been sufficiently characterized for use as end points to assess the efficacy of analgesics in regulatory-endorsed, industry-sponsored trials. We aimed to identify all studies conducted in neonates with EEG recordings during acute somatic nociceptive skin-breaking procedures, and to create a network of authors who will be invited to contribute their individual participant data (IPD) to an IPD meta-analysis to establish the validity, reliability, and clinical interpretability of an EEG-based neonatal pain measure. To identify literature, we searched MEDLINE, Embase, CINAHL, Web of Science, Scopus, Google Scholar, ClinicalTrials.gov, and the WHO ICTRP from database inception to July 2, 2025. Eligible studies were primary empirical studies that included neonates with EEG recordings during acute skin-breaking procedures. We identified 55 studies across 11 countries. Heel lance was the most common painful procedure; others included venipuncture, immunization, and lumbar puncture. The impact of 12 analgesic interventions has been studied to date, mostly nonpharmacological interventions. Individual-electrode EEG is more common than EEG caps. We noted relatively high data loss due to EEG data-quality concerns. A wide range of non-EEG pain-relevant measures have been recorded alongside EEG (eg, behavior, vital signs). Coauthorship network analysis highlighted that authors commonly work within discrete authorship hubs, with limited coauthorship across hubs. The predominance of studies was from European and American institutions, which limits generalizability. We conclude that sufficient data are available to undertake an IPD meta-analysis.",
+      "journal": "Pain Rep",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Gunawan",
+          "fore_name": "Patricia Y",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom.",
+            "Department of Pediatrics, Faculty of Medicine, Pelita Harapan University, Tangerang, Indonesia."
+          ]
+        },
+        {
+          "last_name": "Baxter",
+          "fore_name": "Luke",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Cobo",
+          "fore_name": "Maria M",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom.",
+            "Colegio de Ciencias Biologicas y Ambientales, Universidad San Francisco de Quito USFQ, Quito, Ecuador."
+          ]
+        },
+        {
+          "last_name": "van der Vaart",
+          "fore_name": "Marianne",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Iyer",
+          "fore_name": "Samyuktha",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Monk",
+          "fore_name": "Vaneesha",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Anand",
+          "fore_name": "Kanwaljeet J S",
+          "affiliations": [
+            "Stanford Child Wellness Lab, Maternal & Child Health Research Institute, Stanford University School of Medicine, Stanford, CA, USA.",
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA, USA.",
+            "Department of Anesthesiology, Perioperative and Pain Medicine, Stanford University School of Medicine, Stanford, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Berde",
+          "fore_name": "Charles B",
+          "affiliations": [
+            "Department of Anesthesiology, Critical Care and Pain Medicine, Boston Children's Hospital, Harvard Medical School, Boston, MA, USA.",
+            "Department of Anaesthesia, Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Coviello",
+          "fore_name": "Caterina",
+          "affiliations": [
+            "Division of Neonatology, Careggi University Hospital of Florence, Florence, Italy."
+          ]
+        },
+        {
+          "last_name": "Daliri",
+          "fore_name": "Mohammad Reza",
+          "affiliations": [
+            "Biomedical Engineering Department, School of Electrical Engineering, Iran University of Science and Technology, Tehran, Iran."
+          ]
+        },
+        {
+          "last_name": "Dumont",
+          "fore_name": "Guy",
+          "affiliations": [
+            "Department of Electrical & Computer Engineering, The University of British Columbia, Vancouver, Canada.",
+            "British Columbia Children's Hospital Research Institute, Vancouver, Canada."
+          ]
+        },
+        {
+          "last_name": "Fellman",
+          "fore_name": "Vineta",
+          "affiliations": [
+            "Paediatrics, Department of Clinical Sciences, Lund University, Sk\u00e5ne University Hospital, Lund, Sweden.",
+            "Children's Hospital, University of Helsinki, Helsinki, Finland."
+          ]
+        },
+        {
+          "last_name": "Gholami",
+          "fore_name": "Behnood",
+          "affiliations": [
+            "Autonomous Healthcare, Santa Clara, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Hartley",
+          "fore_name": "Caroline",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Kuhn",
+          "fore_name": "Pierre",
+          "affiliations": [
+            "Department of Neonatology, University of Strasbourg, Strasbourg, France."
+          ]
+        },
+        {
+          "last_name": "Maitre",
+          "fore_name": "Nathalie L",
+          "affiliations": [
+            "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA, USA.",
+            "Children's Healthcare of Atlanta Inc, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Mansfield",
+          "fore_name": "Roshni C",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Marchant",
+          "fore_name": "Simon",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Nilsson",
+          "fore_name": "Sofie",
+          "affiliations": [
+            "Paediatrics, Department of Clinical Sciences, Lund University, Sk\u00e5ne University Hospital, Lund, Sweden."
+          ]
+        },
+        {
+          "last_name": "Norman",
+          "fore_name": "Elisabeth",
+          "affiliations": [
+            "Paediatrics, Department of Clinical Sciences, Lund University, Sk\u00e5ne University Hospital, Lund, Sweden.",
+            "Department of Neonatology, Sk\u00e5ne University Hospital, Lund, Sweden."
+          ]
+        },
+        {
+          "last_name": "Talebi",
+          "fore_name": "Safa",
+          "affiliations": [
+            "Faculty of Electrical and Computer Engineering, University of Tabriz, Tabriz, Iran."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Sonya",
+          "affiliations": [
+            "Departments of Neurology and.",
+            "Pediatrics, University of Minnesota Medical School, Minneapolis, MN, USA."
+          ]
+        },
+        {
+          "last_name": "Allegaert",
+          "fore_name": "Karel",
+          "affiliations": [
+            "Department of Development and Regeneration, KU Leuven, Leuven, Belgium.",
+            "Department of Pharmaceutical and Pharmacological Sciences, KU Leuven, Leuven, Belgium.",
+            "Department of Hospital Pharmacy, Erasmus Medical Center, Rotterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Davis",
+          "fore_name": "Jonathan M",
+          "affiliations": [
+            "Department of Pediatrics, Tufts Medical Center, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Turner",
+          "fore_name": "Mark A",
+          "affiliations": [
+            "Department of Women's and Children's Health, University of Liverpool, Liverpool, United Kingdom.",
+            "Conect4children Stichting, Utrecht, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Ward",
+          "fore_name": "Robert M",
+          "affiliations": [
+            "Department of Pediatrics, University of Utah School of Medicine, Salt Lake City, UT, USA."
+          ]
+        },
+        {
+          "last_name": "Darsey",
+          "fore_name": "Edress",
+          "affiliations": [
+            "Pediatric Development Strategy, Clinical Research Group, Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Sheppard",
+          "fore_name": "James P",
+          "affiliations": [
+            "Nuffield Department of Primary Care Health Sciences, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Bhatt",
+          "fore_name": "Aomesh",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "van den Anker",
+          "fore_name": "John",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom.",
+            "Center for Translational Research, Children's National Hospital, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Massaro",
+          "fore_name": "An N",
+          "affiliations": [
+            "Office of Pediatric Therapeutics, Food and Drug Administration (FDA), Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Singh",
+          "fore_name": "Kanwaljit",
+          "affiliations": [
+            "INC, Critical Path Institute (C-Path), Tucson, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Slater",
+          "fore_name": "Rebeccah",
+          "affiliations": [
+            "Department of Paediatrics, University of Oxford, Oxford, United Kingdom."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "EEG",
+        "Evidence synthesis",
+        "Neonate",
+        "Pain"
+      ]
+    },
+    {
+      "pmid": "41969623",
+      "pmc": "PMC9469483",
+      "doi": "10.1002/acr2.11477",
+      "title": "Diversity in clinical Trials: The example of systemic lupus erythematosus.",
+      "abstract": "The FDA requires clinical trials to reflect real-world diversity. Systemic lupus erythematosus (SLE) is a disease that disproportionately affects individuals of Black African descent that has not been assessed for diversity in clinical trials to date. This study compared demographics from two real-world data (RWD) sources and proposes parameters for representative trial populations. Demographics of United States (US) SLE patients were extracted from electronic health records (EHR) and registry data. These were used to model statistically representative hypothetical trial cohorts and compared with completed SLE trials using statistical tests. Compared with both EHR and registry-derived populations, male participants were significantly underrepresented in US SLE trials (median z-score -1.04 and -0.82; This study demonstrates demographic disparities in SLE trials and offers actionable benchmarks for diversity planning per FDA guidance.",
+      "journal": "Contemp Clin Trials Commun",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Bevan",
+          "fore_name": "Andrew",
+          "affiliations": [
+            "Neuroscience, PPD Part of Thermo Fisher Scientific, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Carroll",
+          "fore_name": "Nora",
+          "affiliations": [
+            "Internal Medicine, PPD Part of Thermo Fisher Scientific, Athlone, Ireland."
+          ]
+        },
+        {
+          "last_name": "Wallstrom",
+          "fore_name": "Garrick",
+          "affiliations": [
+            "Biostatistics Statistical Science, PPD Part of Thermo Fisher Scientific, Austin, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Sridharan",
+          "fore_name": "Sudhakar",
+          "affiliations": [
+            "Medical Science and Strategy, PPD, Part of Thermo Fisher Scientific, Norristown, PA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Clinical trial protocols",
+        "Diversity",
+        "Equality",
+        "Inclusion",
+        "Lupus erythematosus",
+        "Systemic"
+      ]
+    },
+    {
+      "pmid": "41875590",
+      "doi": "10.1016/j.jchromb.2026.125020",
+      "title": "Multi-laboratory development of bioanalytical methods for two cyclic peptides, cyclorasin9A5 and 3003pep.",
+      "abstract": "Cyclic peptides exhibit highly desirable characteristics for therapeutic applications, including selectivity toward specific target molecules and extended half-lives, compared to linear peptides. Due to the intricate nature of cyclic peptide structures, liquid chromatography coupled with mass spectrometry (LC-MS) is preferred for their quantitative bioanalysis. However, a suitable bioanalytical method based on LC-MS faces several challenges, such as the resistance of the precursor ions to fragmentation and the presence of multiple charge states in the target ions. In practice, variations in LC-MS systems are common among different laboratories; however, the effects of such variations on bioanalytical methods for cyclic peptides remain unclear. Therefore, in the present study, LC-MS-based bioanalytical methods were simultaneously developed in different laboratories for the analysis of two cyclic peptides, namely cyclorasin9A5 and 3003pep. Notably, upon application of the methods developed in seven laboratories under different sample preparation conditions and LC-MS parameters, all validation parameters, except the carry-over for cyclorasin9A5, met the acceptance criteria outlined in the ICH M10 guidelines. These findings imply that in the analyses of cyclic peptides, the optimal conditions for the developed LC-MS bioanalytical methods vary depending on the system employed; however, following optimization, the methods exhibit comparable performances regardless of the laboratory setup. Additionally, a putative systemic bias was observed in the surrogate sample analysis of one analyte peptide, highlighting a challenge in comparing data between different laboratories.",
+      "journal": "J Chromatogr B Analyt Technol Biomed Life Sci",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Ishikawa",
+          "fore_name": "Rika",
+          "affiliations": [
+            "Division of Medicinal Safety Science, National Institute of Health Sciences, Kawasaki, Kanagawa 210-9501, Japan."
+          ]
+        },
+        {
+          "last_name": "Shirasaki",
+          "fore_name": "Mikio",
+          "affiliations": [
+            "DMPK Business Unit, Axcelead Drug Discovery Partners, Inc., Fujisawa, Kanagawa 251-0012, Japan."
+          ]
+        },
+        {
+          "last_name": "Shiga",
+          "fore_name": "Koichi",
+          "affiliations": [
+            "DMPK Business Unit, Axcelead Drug Discovery Partners, Inc., Fujisawa, Kanagawa 251-0012, Japan."
+          ]
+        },
+        {
+          "last_name": "Goda",
+          "fore_name": "Ryoya",
+          "affiliations": [
+            "Drug Metabolism and Pharmacokinetics Research Laboratories, Daiichi Sankyo Co., Ltd, Shinagawa-ku, Tokyo 140-8710, Japan; Future Peak Co., Ltd., Kawasaki, Kanagawa 211-0065, Japan."
+          ]
+        },
+        {
+          "last_name": "Kishino",
+          "fore_name": "Yuki",
+          "affiliations": [
+            "Drug Metabolism and Pharmacokinetics Research Laboratories, Daiichi Sankyo Co., Ltd, Shinagawa-ku, Tokyo 140-8710, Japan."
+          ]
+        },
+        {
+          "last_name": "Shimoda",
+          "fore_name": "Hitomi",
+          "affiliations": [
+            "Drug Metabolism and Pharmacokinetics Research Laboratories, Daiichi Sankyo Co., Ltd, Shinagawa-ku, Tokyo 140-8710, Japan."
+          ]
+        },
+        {
+          "last_name": "Hotta",
+          "fore_name": "Koichiro",
+          "affiliations": [
+            "Global DMPK, Biopharmaceutical Assessment, DHBL, Eisai Co., Ltd, Tsukuba, Ibaraki 300-2635, Japan."
+          ]
+        },
+        {
+          "last_name": "Kikuchi",
+          "fore_name": "Kiyomi",
+          "affiliations": [
+            "Global DMPK, Biopharmaceutical Assessment, DHBL, Eisai Co., Ltd, Tsukuba, Ibaraki 300-2635, Japan."
+          ]
+        },
+        {
+          "last_name": "Inoue",
+          "fore_name": "Kazuko",
+          "affiliations": [
+            "Global DMPK, Biopharmaceutical Assessment, DHBL, Eisai Co., Ltd, Tsukuba, Ibaraki 300-2635, Japan."
+          ]
+        },
+        {
+          "last_name": "Saito",
+          "fore_name": "Masayoshi",
+          "affiliations": [
+            "DMPK Research Laboratories, Mitsubishi Tanabe Pharma Corporation, Yokohama, Kanagawa 227-0033, Japan."
+          ]
+        },
+        {
+          "last_name": "Sugawara",
+          "fore_name": "Yukiko",
+          "affiliations": [
+            "DMPK Research Laboratories, Mitsubishi Tanabe Pharma Corporation, Yokohama, Kanagawa 227-0033, Japan."
+          ]
+        },
+        {
+          "last_name": "Shigeyama",
+          "fore_name": "Takuma",
+          "affiliations": [
+            "Osaka Laboratory, Sumika Chemical Analysis Service, Ltd., Osaka, Osaka, Japan."
+          ]
+        },
+        {
+          "last_name": "Hamada",
+          "fore_name": "Risa",
+          "affiliations": [
+            "Osaka Laboratory, Sumika Chemical Analysis Service, Ltd., Osaka, Osaka, Japan."
+          ]
+        },
+        {
+          "last_name": "Yamaguchi",
+          "fore_name": "Takeru",
+          "affiliations": [
+            "Osaka Laboratory, Sumika Chemical Analysis Service, Ltd., Osaka, Osaka, Japan."
+          ]
+        },
+        {
+          "last_name": "Murata",
+          "fore_name": "Kazuyuki",
+          "affiliations": [
+            "Osaka Laboratory, Sumika Chemical Analysis Service, Ltd., Osaka, Osaka, Japan."
+          ]
+        },
+        {
+          "last_name": "Fujita",
+          "fore_name": "Hisashi",
+          "affiliations": [
+            "Center of Excellence for Drug Metabolism, Pharmacokinetics and Modeling, Takeda Pharmaceutical Co., Ltd., Fujisawa, Kanagawa 251-8555, Japan."
+          ]
+        },
+        {
+          "last_name": "Kakehi",
+          "fore_name": "Masaaki",
+          "affiliations": [
+            "Center of Excellence for Drug Metabolism, Pharmacokinetics and Modeling, Takeda Pharmaceutical Co., Ltd., Fujisawa, Kanagawa 251-8555, Japan."
+          ]
+        },
+        {
+          "last_name": "Yamamoto",
+          "fore_name": "Ryoma",
+          "affiliations": [
+            "Thermo Fisher Scientific, Yokohama, Kanagawa 221-0022, Japan."
+          ]
+        },
+        {
+          "last_name": "Takahara",
+          "fore_name": "Kentaro",
+          "affiliations": [
+            "Thermo Fisher Scientific, Yokohama, Kanagawa 221-0022, Japan."
+          ]
+        },
+        {
+          "last_name": "Arashida",
+          "fore_name": "Naoko",
+          "affiliations": [
+            "Research Institute for Bioscience Products & Fine Chemicals, Ajinomoto Co., Inc., Kawasaki, Kanagawa 210-8681, Japan."
+          ]
+        },
+        {
+          "last_name": "Yamamoto",
+          "fore_name": "Kazuki",
+          "affiliations": [
+            "Research Institute for Bioscience Products & Fine Chemicals, Ajinomoto Co., Inc., Kawasaki, Kanagawa 210-8681, Japan."
+          ]
+        },
+        {
+          "last_name": "Mizuochi",
+          "fore_name": "Masayoshi",
+          "affiliations": [
+            "Bioanalysis Research Department, CMIC Pharma Science Co., Ltd., Nishiwaki, Hyogo 677-0032, Japan."
+          ]
+        },
+        {
+          "last_name": "Koyama",
+          "fore_name": "Aki",
+          "affiliations": [
+            "Bioanalysis Research Department, CMIC Pharma Science Co., Ltd., Nishiwaki, Hyogo 677-0032, Japan."
+          ]
+        },
+        {
+          "last_name": "Yamato",
+          "fore_name": "Ryo",
+          "affiliations": [
+            "Bioanalysis Department, Mediford Corporation, Itabashi, Tokyo 174-0056, Japan."
+          ]
+        },
+        {
+          "last_name": "Iwasaki",
+          "fore_name": "Kayo",
+          "affiliations": [
+            "Drug Safety Research Laboratories, Wakayama Laboratory, Shin Nippon Biomedical Laboratories, Ltd, Kainan, Wakayama 642-0017, Japan."
+          ]
+        },
+        {
+          "last_name": "Fukuda",
+          "fore_name": "Suguru",
+          "affiliations": [
+            "Drug Safety Research Laboratories, Wakayama Laboratory, Shin Nippon Biomedical Laboratories, Ltd, Kainan, Wakayama 642-0017, Japan."
+          ]
+        },
+        {
+          "last_name": "Kawabata",
+          "fore_name": "Mitsuhiko",
+          "affiliations": [
+            "Drug Safety Research Laboratories, Wakayama Laboratory, Shin Nippon Biomedical Laboratories, Ltd, Kainan, Wakayama 642-0017, Japan."
+          ]
+        },
+        {
+          "last_name": "Ieki",
+          "fore_name": "Katsunori",
+          "affiliations": [
+            "Drug Safety Research Laboratories, Wakayama Laboratory, Shin Nippon Biomedical Laboratories, Ltd, Kainan, Wakayama 642-0017, Japan."
+          ]
+        },
+        {
+          "last_name": "Uchiyama",
+          "fore_name": "Hitoshi",
+          "affiliations": [
+            "Research & Development Department, Towa Pharmaceutical Co., Ltd, Settsu, Osaka 566-0002, Japan."
+          ]
+        },
+        {
+          "last_name": "Une",
+          "fore_name": "Rikako",
+          "affiliations": [
+            "Research & Development Department, Towa Pharmaceutical Co., Ltd, Settsu, Osaka 566-0002, Japan."
+          ]
+        },
+        {
+          "last_name": "Yamaoka",
+          "fore_name": "Mariko",
+          "affiliations": [
+            "Research & Development Department, Towa Pharmaceutical Co., Ltd, Settsu, Osaka 566-0002, Japan."
+          ]
+        },
+        {
+          "last_name": "Tachiki",
+          "fore_name": "Hidehisa",
+          "affiliations": [
+            "Research & Development Department, Towa Pharmaceutical Co., Ltd, Settsu, Osaka 566-0002, Japan."
+          ]
+        },
+        {
+          "last_name": "Misawa",
+          "fore_name": "Takashi",
+          "affiliations": [
+            "Division of Organic Chemistry, National Institute of Health Sciences, Kawasaki, Kanagawa 210-9501, Japan."
+          ]
+        },
+        {
+          "last_name": "Demizu",
+          "fore_name": "Yosuke",
+          "affiliations": [
+            "Division of Organic Chemistry, National Institute of Health Sciences, Kawasaki, Kanagawa 210-9501, Japan."
+          ]
+        },
+        {
+          "last_name": "Saito",
+          "fore_name": "Yoshiro",
+          "affiliations": [
+            "Director General, National Institute of Health Sciences, Kawasaki, Kanagawa 210-9501, Japan."
+          ]
+        },
+        {
+          "last_name": "Kikura-Hanajiri",
+          "fore_name": "Ruri",
+          "affiliations": [
+            "Division of Medicinal Safety Science, National Institute of Health Sciences, Kawasaki, Kanagawa 210-9501, Japan."
+          ]
+        },
+        {
+          "last_name": "Saito",
+          "fore_name": "Kosuke",
+          "affiliations": [
+            "Division of Medicinal Safety Science, National Institute of Health Sciences, Kawasaki, Kanagawa 210-9501, Japan. Electronic address: saitok2@nihs.go.jp."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Peptides, Cyclic",
+        "Reproducibility of Results",
+        "Chromatography, Liquid",
+        "Limit of Detection",
+        "Linear Models",
+        "Tandem Mass Spectrometry",
+        "Chromatography, High Pressure Liquid",
+        "Mass Spectrometry"
+      ],
+      "keywords": [
+        "Bioanalytical method",
+        "Cyclic peptides",
+        "Interlaboratory study",
+        "Liquid chromatography\u2013mass spectrometry"
+      ]
+    },
+    {
+      "pmid": "42070190",
+      "doi": "10.1186/s13023-019-1171-9",
+      "pmc": "6688231",
+      "title": "Experiences and treatment perspectives of adolescents and young adults with achondroplasia and caregivers: a qualitative interview study.",
+      "abstract": "",
+      "journal": "Qual Life Res",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Maher",
+          "fore_name": "Joshua",
+          "affiliations": [
+            "Patient Informed Development and Health Value Translation, Sanofi-Aventis Ltd, Reading, UK."
+          ]
+        },
+        {
+          "last_name": "Fernandez",
+          "fore_name": "Gabriela S",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, Waltham, MA, USA. gabriela.fernandez@thermofisher.com."
+          ]
+        },
+        {
+          "last_name": "Robinson",
+          "fore_name": "Cemre",
+          "affiliations": [
+            "Clinical, Sanofi-Aventis U.S. LLC, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Berger",
+          "fore_name": "Kenneth I",
+          "affiliations": [
+            "Global Medical Affairs, Sanofi-Aventis U.S. LLC, Rare Diseases, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Cutts",
+          "fore_name": "Katelyn",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Quaife",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, London, UK."
+          ]
+        },
+        {
+          "last_name": "Bascle",
+          "fore_name": "St\u00e9phanie",
+          "affiliations": [
+            "Patient Informed Development and Health Value Translation, Sanofi-Aventis Recherche et D\u00e9veloppement (SARD), Gentilly, France."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Achondroplasia",
+        "Caregivers",
+        "Patient experiences",
+        "Skeletal dysplasia",
+        "Symptoms"
+      ]
+    },
+    {
+      "pmid": "42070002",
+      "doi": "10.1016/j.ijwd.2021.02.005",
+      "pmc": "8484951",
+      "title": "Understanding Social Drivers of Health, Burden, and Impact of Hidradenitis Suppurativa among Different Racial and Ethnic Groups in the USA.",
+      "abstract": "Hidradenitis suppurativa (HS), an inflammatory skin disorder characterized by painful nodules and abscesses, has varying prevalence among different races/ethnicities. This study explored the social drivers of health, burden, and impact of HS among different racial and ethnic groups. An online, cross-sectional survey was conducted among adult patients with HS (September 2023-December 2023) in the USA. Patients were recruited through HS Connect (patient advocacy group) and AmeriSpeak (US national sample panel). Descriptive data were collected using patient-reported outcome measures and de novo questions about patients' disease knowledge and perception, healthcare access and utilization, impact on quality of life (QoL), and social impact. All analyses were descriptive and stratified by racial/ethnic groups. The study included 583 patients (mean age, 34.8\u00a0years; 95.5% female) representing a range of racial backgrounds: Black or African American (n\u2009=\u2009273; 46.8%), white (n\u2009=\u2009236; 40.5%), Two or More Races (n\u2009=\u200947; 8.1%), American Indian or Alaska Native (n\u2009=\u200918; 3.1%), Asian (n\u2009=\u20097; 1.2%), and Native Hawaiian and Other Pacific Islander (n\u2009=\u20092; 0.3%). Ethnic representation also varied (Hispanic/Latino\u2009=\u2009n\u2009=\u200976; 13.0%). Patients of all races and ethnicities reported considerable QoL impact (Dermatology Life Quality Index, EQ-5D-5L), with results for smaller subgroups (n\u2009<\u200910) included for descriptive completeness only and not intended for comparison with other groups. During flaring, most patients used over-the-counter products/medications (54.2%) or nonmedical intervention/home remedy (56.9%) Up to 36.5% of patients reported challenges in procuring food, utilities, medicine/healthcare, phone, clothing, or childcare when needed in the past year. Among those who paid out-of-pocket for their HS treatment, 55.6% reported that it stopped them from visiting a healthcare provider for treatment. The findings indicate a high burden and impact of HS across all races and ethnicities. Patients reported social drivers of health and challenges with healthcare utilization, indicating the need for integrating social workers and care management teams in dermatology practice, which could facilitate improved care of patients with HS.",
+      "journal": "Dermatol Ther (Heidelb)",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Jaleel",
+          "fore_name": "Tarannum",
+          "affiliations": [
+            "Duke Dermatology, Durham, NC, USA. tarannum.jaleel@duke.edu.",
+            "Department of Dermatology, Duke University School of Medicine, Durham, USA. tarannum.jaleel@duke.edu."
+          ]
+        },
+        {
+          "last_name": "Chovatiya",
+          "fore_name": "Raj",
+          "affiliations": [
+            "Chicago Medical School, Rosalind Franklin University of Medicine and Science, North Chicago, IL, USA.",
+            "Center for Medical Dermatology + Immunology Research, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Bacci",
+          "fore_name": "Elizabeth D",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Pierce",
+          "fore_name": "Evangeline",
+          "affiliations": [
+            "Eli Lilly and Company, Indianapolis, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Constantine",
+          "fore_name": "Melissa L",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Correll",
+          "fore_name": "Julia R",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Mitchell",
+          "fore_name": "Beth",
+          "affiliations": [
+            "Eli Lilly and Company, Indianapolis, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Dipak R",
+          "affiliations": [
+            "Eli Lilly and Company, Indianapolis, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Brooks",
+          "fore_name": "Brindley",
+          "affiliations": [
+            "HS Connect, Puyallup, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Heath",
+          "fore_name": "Candrice",
+          "affiliations": [
+            "Dermatology Lewis Katz School of Medicine, Temple University, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Vivian Y",
+          "affiliations": [
+            "University of Washington, Seattle, WA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Ethnicity",
+        "Healthcare",
+        "Hidradenitis suppurativa",
+        "Race",
+        "Social impact"
+      ]
+    },
+    {
+      "pmid": "42043318",
+      "pmc": "PMC5494038",
+      "doi": "10.1016/j.jbc.2023.105612",
+      "title": "Multivalent recognition of ferritin by full-length NCOA4 enables robust ferritinophagy.",
+      "abstract": "Ferritinophagy is a central pathway in cellular iron homeostasis, yet the molecular basis by which the selective autophagy receptor NCOA4 recognizes and engages ferritin remains poorly defined, largely due to the long-standing inability of working with a soluble form of the full-length human NCOA4 (NCOA4",
+      "journal": "Protein Sci",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Srivastava",
+          "fore_name": "Ayush K",
+          "affiliations": [
+            "Department of Chemistry, State University of New York, Potsdam, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Terashi",
+          "fore_name": "Genki",
+          "affiliations": [
+            "Department of Biological Sciences, Purdue University, West Lafayette, Indiana, USA.",
+            "Department of Computer Science, Purdue University, West Lafayette, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "Viner",
+          "fore_name": "Rosa",
+          "affiliations": [
+            "Thermo Fisher Scientific, San Jose, California, USA."
+          ]
+        },
+        {
+          "last_name": "Kishishita",
+          "fore_name": "Audrey",
+          "affiliations": [
+            "Department of Laboratory Medicine, University of California San Francisco, San Francisco, California, USA."
+          ]
+        },
+        {
+          "last_name": "Wiita",
+          "fore_name": "Arun P",
+          "affiliations": [
+            "Department of Laboratory Medicine, University of California San Francisco, San Francisco, California, USA."
+          ]
+        },
+        {
+          "last_name": "Rajendran",
+          "fore_name": "Anitha",
+          "affiliations": [
+            "Department of Chemistry, State University of New York, Potsdam, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Zoo",
+          "fore_name": "Yeonni",
+          "affiliations": [
+            "Department of Physics, Villanova University, Villanova, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Papaefthymiou",
+          "fore_name": "Georgia C",
+          "affiliations": [
+            "Department of Physics, Villanova University, Villanova, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Kihara",
+          "fore_name": "Daisuke",
+          "affiliations": [
+            "Department of Biological Sciences, Purdue University, West Lafayette, Indiana, USA.",
+            "Department of Computer Science, Purdue University, West Lafayette, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "Bou-Abdallah",
+          "fore_name": "Fadi",
+          "affiliations": [
+            "Department of Chemistry, State University of New York, Potsdam, New York, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Nuclear Receptor Coactivators",
+        "Humans",
+        "Ferritins",
+        "Autophagy",
+        "Models, Molecular",
+        "Protein Binding"
+      ],
+      "keywords": [
+        "NCOA4",
+        "ferritin",
+        "ferritinophagy",
+        "intrinsically disordered protein (IDP)",
+        "multivalent binding"
+      ]
+    },
+    {
+      "pmid": "41896400",
+      "pmc": "PMC11912969",
+      "doi": "10.1093/cid/ciae547",
+      "title": "Post-COVID-19 Burden of Severe Influenza in England Among Overall Population and High-Risk Groups: Results From the INFORM Study, 2022-2023.",
+      "abstract": "We describe the burden of severe influenza in England overall, and in risk groups (as defined by age, immunocompromise, and other comorbidities) and those with recent COVID-19. The INFORM (INvestigation oF cOvid-19 Risk among iMmunocompromised populations) cohort uses pseudonymised, routinely collected electronic health records of individuals aged\u2009\u2265\u200912\u00a0years from a random 25% sample of England's population (N\u2009=\u200912.1 million). In this analysis, during 1 July 2022 to 30 June 2023, crude incidence rates (IRs) and age- and sex-adjusted IR ratios were estimated for severe influenza outcomes of hospitalisation, intensive care unit (ICU) admission and death. The analyses were repeated for outcomes of severe influenza with recent COVID-19 (<\u20096\u00a0months). The analysis sample comprised 12,075,920 individuals aged\u2009\u2265\u200912\u00a0years; 3.9% were immunocompromised. Overall, IRs of severe influenza were 10.51 (hospitalisations), 0.35 (ICU admissions) and 0.73 (deaths) per 10,000 person-years. Of those with influenza hospitalisation, 13.1% had recent COVID-19. Overall, influenza hospitalisation IRs per 10,000 person-years increased with advancing age, from 3.56 for adolescents aged 12-17\u00a0years to 58.43 for adults aged\u2009\u2265\u200980\u00a0years. Compared with other age groups, among hospitalised individuals, the highest intensity of management occurred in adolescents aged 12-17\u00a0years, based on the proportion of influenza hospitalisations that involved ICU admission (6.2%) or mechanical ventilation (3.0%) in this age group. Increased age- and sex-adjusted risk of severe influenza outcomes was observed among individuals with immunocompromise and other comorbidities. Seasonal severe influenza was observed in the general population aged\u2009\u2265\u200912\u00a0years in England in 2022-2023, with a disproportionately higher burden recorded in risk groups (as defined by age, immunocompromise, recent COVID-19 and other comorbidities). These data reinforce continued efforts to immunise individuals against seasonal influenza. International Standard Randomised Controlled Trial Number Registry: ISRCTN53375662.",
+      "journal": "Infect Dis Ther",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Meeraus",
+          "fore_name": "Wilhelmine",
+          "affiliations": [
+            "Medical Evidence, Vaccines & Immune Therapies, AstraZeneca, Eastbrook House, Shaftesbury Road, Cambridge, CB2 8DU, UK. wilhelmine.meeraus@astrazeneca.com."
+          ]
+        },
+        {
+          "last_name": "Carty",
+          "fore_name": "Lucy",
+          "affiliations": [
+            "BPM Evidence Statistics, Real World Science and Analytics, BioPharmaceuticals Medical, AstraZeneca, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Dube",
+          "fore_name": "Sabada",
+          "affiliations": [
+            "Medical Evidence, Vaccines & Immune Therapies, AstraZeneca, Eastbrook House, Shaftesbury Road, Cambridge, CB2 8DU, UK."
+          ]
+        },
+        {
+          "last_name": "Evans",
+          "fore_name": "Kathryn",
+          "affiliations": [
+            "Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Evans",
+          "fore_name": "Rachael A",
+          "affiliations": [
+            "Department of Respiratory Sciences, NIHR Biomedical Research Centre-Respiratory Theme, University of Leicester, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Goios",
+          "fore_name": "Ana",
+          "affiliations": [
+            "P95 Clinical and Epidemiology Services, Louvain, Belgium."
+          ]
+        },
+        {
+          "last_name": "Justo",
+          "fore_name": "Nahila",
+          "affiliations": [
+            "Thermo Fisher Scientific, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Yi",
+          "affiliations": [
+            "Thermo Fisher Scientific, London, UK."
+          ]
+        },
+        {
+          "last_name": "Quint",
+          "fore_name": "Jennifer K",
+          "affiliations": [
+            "School of Public Health, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Taylor",
+          "fore_name": "Sylvia",
+          "affiliations": [
+            "Medical Evidence, Vaccines & Immune Therapies, AstraZeneca, Eastbrook House, Shaftesbury Road, Cambridge, CB2 8DU, UK."
+          ]
+        },
+        {
+          "last_name": "Venkatesan",
+          "fore_name": "Sudhir",
+          "affiliations": [
+            "BPM Evidence Statistics, Real World Science and Analytics, BioPharmaceuticals Medical, AstraZeneca, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Turtle",
+          "fore_name": "Lance",
+          "affiliations": [
+            "Department of Clinical Infection, Microbiology and Immunology, Institute of Infection, Veterinary and Ecological Sciences, University of Liverpool, Liverpool, UK."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Age",
+        "Comorbidity",
+        "High risk",
+        "Immunocompromised",
+        "Influenza"
+      ]
+    },
+    {
+      "pmid": "41801661",
+      "pmc": "PMC8592394",
+      "doi": "10.1016/s1470-2045(24)00152-9",
+      "title": "Challenges in Conducting Quantitative Patient-Centered Benefit-Risk Assessments: A Case Study in Ph\u2009+\u2009ALL with Immature Efficacy Data.",
+      "abstract": "Quantitative benefit-risk assessment (qBRA) can reveal how patients balance benefits and risks of cancer treatments. To align with qBRA good practice guidelines, researchers must address challenges including attribute value dependence, double counting, attribute dominance, and uncertainty associated with immature clinical trial outcomes. We present a case study illustrating these challenges in a qBRA of treatment preferences among patients with Philadelphia chromosome-positive acute lymphoblastic leukemia. Preferences were elicited using a discrete choice experiment (DCE). First, we explain how we mitigated potential dominance of survival outcomes by narrowing the range of overall survival (OS) durations that each participant considered. Second, we describe how we acknowledged the conceptual interaction between OS and duration of remission (DOR) attributes and tested for a statistical interaction. Third, we detail how we conducted qBRA with uncertain efficacy data using bivariate sensitivity analysis. Bivariate sensitivity analysis based on DCE-elicited preferences and head-to-head clinical performance data showed that if the considered treatments - ponatinib\u2009+\u2009chemotherapy and imatinib\u2009+\u2009chemotherapy - had equivalent efficacy, 52.9% (95% CI: 52.5%-53.4%) of DCE participants would be expected to choose ponatinib over imatinib. If ponatinib offered 10-month longer DOR and 20-month longer OS vs. imatinib, 71.6% (95% CI: 67.2%-76.0%) would choose ponatinib. Probabilistic sensitivity analyses showed that the probability of\u2009 \u2265\u200970% of patients preferring ponatinib is 77.5% if ponatinib offers 15-month longer OS and DOR and 93.0% if it offers 45-month longer OS and DOR. Preference heterogeneity analyses identified that the overall choice probability results hold for all subgroups in nearly all scenarios.",
+      "journal": "Ther Innov Regul Sci",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Ashaye",
+          "fore_name": "Ajibade",
+          "affiliations": [
+            "Takeda Development Center Americas, Inc., 500 Kendall Street, Cambridge, MA, 02142, USA. ajibade.ashaye@takeda.com."
+          ]
+        },
+        {
+          "last_name": "Thomas",
+          "fore_name": "Caitlin",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, London, UK."
+          ]
+        },
+        {
+          "last_name": "Kota",
+          "fore_name": "Vamsi",
+          "affiliations": [
+            "Section of Hematology & Oncology, Georgia Cancer Center at Augusta University, Augusta, GA, USA."
+          ]
+        },
+        {
+          "last_name": "Krucien",
+          "fore_name": "Nicolas",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, London, UK."
+          ]
+        },
+        {
+          "last_name": "Marsh",
+          "fore_name": "Kevin",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, London, UK."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+        "Risk Assessment",
+        "Imatinib Mesylate",
+        "Imidazoles",
+        "Pyridazines",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Patient Preference",
+        "Philadelphia Chromosome"
+      ],
+      "keywords": [
+        "Benefit-risk assessment",
+        "Discrete choice experiment",
+        "Leukemia, lymphoblastic, acute, philadelphia-positive",
+        "Patient preference",
+        "Patient-centered outcomes research"
+      ]
+    },
+    {
+      "pmid": "41627652",
+      "pmc": "PMC3669723",
+      "doi": "10.1007/s40271-024-00683-w",
+      "title": "Beyond Numbers: Uses and Value of In-Trial Interview Data for Regulatory and Health Technology Assessment (HTA) Decision Making.",
+      "abstract": "This research explores the growing importance of qualitative in-trial research (ITR) in regulatory and health technology assessment (HTA) decision making. Since 2020, the Food and Drug Administration (FDA) and European Medicines Agency (EMA) have emphasized incorporating patient experience data into drug development and approval. We reviewed regulatory guidance documents, drug approval records, and HTA reports from January 2017 to March 2025. This included labels and reviews for new drug applications from the FDA and EMA, the Patient-Focused Drug Development guidance series, guidance on rare diseases, oncology, and gene therapy, and methodological guidance from HTA bodies in Scotland, the UK, France, Germany, Italy, and Spain. From more than 1000 drug applications assessed by both regulatory agencies, only ten and eight products (from the FDA and EMA, respectively) included ITR, with 55% of these for rare diseases. Both agencies used ITR data to gain insights into symptoms and patient experiences, the relevance of patient-reported outcome concepts, and meaningful changes in symptoms or treatment benefits; and to support the interpretation of meaningful score or endpoint changes. Two products included ITR data in both FDA and EMA reviews/labels. Three HTA bodies published guidance documents on qualitative research, with only two products out of eight reviewed including qualitative data in HTA reports.Despite increasing use, ITR in regulatory submissions and HTA reviews remains limited. Early planning and alignment of ITR objectives with regulatory and HTA requirements are needed to enhance the relevance and impact of qualitative evidence in drug development and healthcare decision making.",
+      "journal": "Patient",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Dias-Barbosa",
+          "fore_name": "Carla",
+          "affiliations": [
+            "PPD\u2122 Evidera\u2122 Patient-Centered Research, Thermo Fisher Scientific, London, UK. carla.dias-barbosa@thermofisher.com."
+          ]
+        },
+        {
+          "last_name": "Kimel",
+          "fore_name": "Miriam",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Rolska-Wojcik",
+          "fore_name": "Paulina",
+          "affiliations": [
+            "PPD\u2122 Evidera\u2122 Patient-Centered Research, Thermo Fisher Scientific, London, UK."
+          ]
+        },
+        {
+          "last_name": "Bailey",
+          "fore_name": "Karen",
+          "affiliations": [
+            "PPD\u2122 Evidera\u2122 Patient-Centered Research, Thermo Fisher Scientific, London, UK."
+          ]
+        },
+        {
+          "last_name": "Eseyin",
+          "fore_name": "Olabimpe R",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Martin",
+          "fore_name": "Mona L",
+          "affiliations": [
+            "PPD Evidera Patient-Centered Research, Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Technology Assessment, Biomedical",
+        "Humans",
+        "Decision Making",
+        "United States Food and Drug Administration",
+        "Drug Approval",
+        "United States",
+        "Qualitative Research",
+        "Europe",
+        "Interviews as Topic"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41950519",
+      "pmc": "PMC10683059",
+      "doi": "10.1080/21663831.2017.1337050",
+      "title": "Cross-Sectional Imaging of the WS",
+      "abstract": "Recent elucidation of the synthesis mechanism of WS",
+      "journal": "Nano Lett",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Bukvisova",
+          "fore_name": "Kristyna",
+          "affiliations": [
+            "Thermo Fisher Scientific, Vlastimila Pecha 12, 62700 Brno, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Novak",
+          "fore_name": "Libor",
+          "affiliations": [
+            "Thermo Fisher Scientific, Vlastimila Pecha 12, 62700 Brno, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Kundrat",
+          "fore_name": "Vojtech",
+          "affiliations": [
+            "Thermo Fisher Scientific, Vlastimila Pecha 12, 62700 Brno, Czech Republic.",
+            "Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, Brno 62500, Czech Republic."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "WS2 nanotube",
+        "cross-section",
+        "electron microscopy",
+        "lamella",
+        "reaction mechanism",
+        "sulfidation"
+      ]
+    },
+    {
+      "pmid": "42055356",
+      "doi": "10.1016/j.gene.2026.150189",
+      "title": "Assessing the potential of Bari1 transposon arrays to induce ectopic heterochromatin in Drosophila melanogaster.",
+      "abstract": "Transposable elements (TEs) impact genes and genomes in different ways. In Drosophila, TEs play a critical role in establishing heterochromatic loci, such as centromeric and pericentromeric regions, and contribute to ectopic heterochromatin formation especially when found in a tandem repeat configuration. The Bari transposon family belongs to the Tc1/mariner superfamily. Bari1 is featured by a unique tandem repeat arrangement in the heterochromatin of D. melanogaster. Despite its conservation could suggest a structural role in both natural and laboratory populations, little is known about the role of the Bari1 repeat in the heterochromatin. In this paper, we have studied the impact of the Bari1 transposon clusters on chromatin. We obtained transgenic strains of D. melanogaster carrying arrays of either three or seven copies of the Bari1 transposon in a typical heterochromatic tandem repeat configuration. We performed qualitative and quantitative phenotypic assays to evaluate the impact of these arrays on the chromatin status. Our results suggest that Bari1 arrays probably act poorly as heterochromatin seeding sites. Our findings expand the knowledge on the structural and functional impact of TEs, whose potentially neutral, beneficial, or detrimental effect cannot be envisioned without experimental validation.",
+      "journal": "Gene",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Berloco",
+          "fore_name": "Maria Francesca",
+          "affiliations": [
+            "Dipartimento di Bioscienze, Biotecnologie e Ambiente, Universit\u00e0 degli Studi di Bari \"Aldo Moro\", Bari, Italy. Electronic address: mariafrancesca.berloco@uniba.it."
+          ]
+        },
+        {
+          "last_name": "Moschetti",
+          "fore_name": "Roberta",
+          "affiliations": [
+            "Dipartimento di Bioscienze, Biotecnologie e Ambiente, Universit\u00e0 degli Studi di Bari \"Aldo Moro\", Bari, Italy. Electronic address: roberta.moschetti@uniba.it."
+          ]
+        },
+        {
+          "last_name": "Chlamydas",
+          "fore_name": "Sarantis",
+          "affiliations": [
+            "Dipartimento di Bioscienze, Biotecnologie e Ambiente, Universit\u00e0 degli Studi di Bari \"Aldo Moro\", Bari, Italy; Proteomic Sciences, Olink, part of Thermo Fisher Scientific, Sweden. Electronic address: sarantis.chlamydas@olink.com."
+          ]
+        },
+        {
+          "last_name": "Pignataro",
+          "fore_name": "Eugenia",
+          "affiliations": [
+            "Dipartimento di Bioscienze, Biotecnologie e Ambiente, Universit\u00e0 degli Studi di Bari \"Aldo Moro\", Bari, Italy. Electronic address: eugenia.pignataro@uniba.it."
+          ]
+        },
+        {
+          "last_name": "Palazzo",
+          "fore_name": "Antonio",
+          "affiliations": [
+            "Dipartimento di Bioscienze, Biotecnologie e Ambiente, Universit\u00e0 degli Studi di Bari \"Aldo Moro\", Bari, Italy. Electronic address: antonio.palazzo@uniba.it."
+          ]
+        },
+        {
+          "last_name": "Caizzi",
+          "fore_name": "Ruggiero",
+          "affiliations": [
+            "Dipartimento di Bioscienze, Biotecnologie e Ambiente, Universit\u00e0 degli Studi di Bari \"Aldo Moro\", Bari, Italy. Electronic address: ruggiero.caizzi@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Marsano",
+          "fore_name": "Ren\u00e9 Massimiliano",
+          "affiliations": [
+            "Dipartimento di Bioscienze, Biotecnologie e Ambiente, Universit\u00e0 degli Studi di Bari \"Aldo Moro\", Bari, Italy. Electronic address: renemassimiliano.marsano@uniba.it."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Bari1",
+        "Heterochromatin",
+        "Position effect variegation",
+        "Transgenesis",
+        "Transposable element"
+      ]
+    },
+    {
+      "pmid": "42046414",
+      "doi": "10.1002/anie.8045649",
+      "title": "High-Throughput Single-Cell-Resolved Spatial Proteomics Enabled by an Ordered Colloidal Crystal Column.",
+      "abstract": "Spatial proteomics is essential to elucidate biological function and pathogenesis, for which nanoLC-MS coupled with tissue microdissection is a powerful tool. However, the throughput is limited by the time-consuming nanoLC-MS analysis of numerous microdissected slices. Herein, to boost the throughput of spatial proteomics, an ordered colloidal crystal column was developed for fast nanoLC-MS analysis of microdissected slices with low-input amounts, down to single-cell resolution. Contributed by a highly ordered arrangement of 800\u00a0nm colloidal particles, the column efficiency reached 2 560 000 plates\u00b7m",
+      "journal": "Angew Chem Int Ed Engl",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Sun",
+          "fore_name": "Haofei",
+          "affiliations": [
+            "State Key Laboratory of Medical Proteomics, National Chromatographic Research & Analysis Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China.",
+            "University of Chinese Academy of Sciences, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Chao",
+          "affiliations": [
+            "State Key Laboratory of Medical Proteomics, National Chromatographic Research & Analysis Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China.",
+            "University of Chinese Academy of Sciences, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Kun",
+          "affiliations": [
+            "The Second Affiliated Hospital of Dalian Medical University, Dalian, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Shan",
+          "affiliations": [
+            "Thermo Fisher Scientific, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Jianhong",
+          "affiliations": [
+            "Thermo Fisher Scientific, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Liming",
+          "affiliations": [
+            "The Second Affiliated Hospital of Dalian Medical University, Dalian, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Baofeng",
+          "affiliations": [
+            "State Key Laboratory of Medical Proteomics, National Chromatographic Research & Analysis Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Zhen",
+          "affiliations": [
+            "State Key Laboratory of Medical Proteomics, National Chromatographic Research & Analysis Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Yu",
+          "affiliations": [
+            "State Key Laboratory of Medical Proteomics, National Chromatographic Research & Analysis Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Lihua",
+          "affiliations": [
+            "State Key Laboratory of Medical Proteomics, National Chromatographic Research & Analysis Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yukui",
+          "affiliations": [
+            "State Key Laboratory of Medical Proteomics, National Chromatographic Research & Analysis Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "colloidal crystal",
+        "high\u2010throughput",
+        "liquid chromatography",
+        "single cell",
+        "spatial proteomics"
+      ]
+    },
+    {
+      "pmid": "42037172",
+      "doi": "10.1021/jasms.6c00016",
+      "title": "From Congestion to Clarity: On the Complementarity of Resolving Power and Spectral Simplification for Intact Protein Characterization.",
+      "abstract": "Top-down mass spectrometry (TDMS) is a powerful platform for the structural and functional analysis of intact proteins, enabling the detailed characterization of proteoforms and precise localization of post-translational modifications. The incorporation of alternative fragmentation techniques, such as electron transfer dissociation, electron transfer higher-energy collisional dissociation, and ultraviolet photodissociation, in instruments such as Tribrid Orbitrap mass spectrometers enhances sequence coverage and improves the confidence in PTM assignment. However, tandem mass spectrometry of intact proteins >30 kDa presents substantial challenges. The resulting spectra are often highly complex with overlapping product ion signals that complicate spectral interpretation. Although increasing the mass resolution can help resolve closely spaced product ions, it is often insufficient to fully alleviate spectral congestion for large proteins. In such cases, proton transfer charge reduction (PTCR) can simplify mass spectra by dispersing product ions across a wider mass-over-charge (",
+      "journal": "J Am Soc Mass Spectrom",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Lieu",
+          "fore_name": "Linda B",
+          "affiliations": [
+            "Department of Chemistry and Biochemistry, University of Oklahoma, Norman, Oklahoma 73019, United States."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Jingjing",
+          "affiliations": [
+            "Thermo Fisher Scientific, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "Kline",
+          "fore_name": "Jake T",
+          "affiliations": [
+            "School of Biological Sciences, University of Oklahoma, Norman, Oklahoma 73019, United States."
+          ]
+        },
+        {
+          "last_name": "Bergen",
+          "fore_name": "David",
+          "affiliations": [
+            "Thermo Fisher Scientific, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "McAlister",
+          "fore_name": "Graeme C",
+          "affiliations": [
+            "Thermo Fisher Scientific, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "Durbin",
+          "fore_name": "Kenneth R",
+          "affiliations": [
+            "Thermo Fisher Scientific, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "Mullen",
+          "fore_name": "Christopher",
+          "affiliations": [
+            "Thermo Fisher Scientific, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "Melani",
+          "fore_name": "Rafael D",
+          "affiliations": [
+            "Thermo Fisher Scientific, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "Fornelli",
+          "fore_name": "Luca",
+          "affiliations": [
+            "Department of Chemistry and Biochemistry, University of Oklahoma, Norman, Oklahoma 73019, United States.",
+            "School of Biological Sciences, University of Oklahoma, Norman, Oklahoma 73019, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "42033786",
+      "doi": "10.1093/gpbjnl/qzag033",
+      "title": "OBC: Optimized Batch Correction with Dual-level Quality Control for Scalable Proteomics and Metabolomics.",
+      "abstract": "The technological advancements in mass spectrometry-based proteomics and metabolomics have enabled large-scale studies, in which hundreds to thousands of samples are analyzed in batches across multiple instruments over extended periods. Consequently, there are inevitable technical variations introduced as batch effects in the results. To address these issues, we developed a pipeline named \"omics batch correct (OBC)\" that integrates optimized data preprocessing steps, including normalization, handling of missing values, and batch correction, with a two-tier quality control (QC) system designed for both proteomic and metabolomic data. The first-tier QC incorporates methods such as principal component analysis, t-distributed stochastic neighbor embedding, uniform manifold approximation and projection, relative standard deviation analysis, Pearson correlation, and principal variance component analysis. The second-tier QC focuses on comparing differentially expressed molecules, particularly those with known regulatory roles, before and after batch correction. We validated the OBC through comprehensive cross-validation using clinical proteomic and metabolomic datasets, demonstrating its superior performance in mitigating batch effects while preserving biologically significant variations. The OBC pipeline is accessible via a user-friendly web interface at https://zhljude.shinyapps.io/OBC-app.",
+      "journal": "Genomics Proteomics Bioinformatics",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Zheng",
+          "fore_name": "Helong",
+          "affiliations": [
+            "College of Life Sciences, Northwest University, Xi'an 710069, China."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Zengqi",
+          "affiliations": [
+            "College of Life Sciences, Northwest University, Xi'an 710069, China."
+          ]
+        },
+        {
+          "last_name": "Xue",
+          "fore_name": "Peng",
+          "affiliations": [
+            "Guangzhou National Laboratory, Guangzhou 510005, China."
+          ]
+        },
+        {
+          "last_name": "Guan",
+          "fore_name": "Feng",
+          "affiliations": [
+            "College of Life Sciences, Northwest University, Xi'an 710069, China."
+          ]
+        },
+        {
+          "last_name": "Xuan",
+          "fore_name": "Yue",
+          "affiliations": [
+            "Thermo Fisher Scientific Inc., 28199 Bremen, Germany."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Yue",
+          "affiliations": [
+            "College of Life Sciences, Northwest University, Xi'an 710069, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Batch effect",
+        "Bioinformatics",
+        "ComBat",
+        "Metabolomics",
+        "Proteomics"
+      ]
+    },
+    {
+      "pmid": "42030522",
+      "doi": "10.1021/acs.analchem.5c06918",
+      "title": "Best Practices in GC-MS and GC \u00d7 GC-MS-Based Metabolomics and Volatile Analyses: An International Survey.",
+      "abstract": "Standardized quality assurance and quality control (QA/QC) practices are essential for reproducible GC-MS metabolomics, yet systematic documentation of current laboratory practices has been lacking. Here, as part of the Metabolomic Quality Assurance and Quality Control Consortium (mQACC), we surveyed 85 laboratories from 27 countries to characterize QA/QC implementation and establish evidence-based recommendations. Respondents represented diverse applications, with 79% performing untargeted analysis, 60% conducting targeted analyses, and 44% conducting both. While single column chromatography is clearly the norm, 24% of the participants used multidimensional chromatography to improve the separation of complex mixtures. Electron ionization with autotuning dominated >95% of the respondents, but more than 30% of the laboratories at least occasionally also used chemical ionization. While most laboratories used low-resolution mass spectrometers, almost half of the laboratories also performed GC-MS analyses on high-resolution QTOF or Orbitrap instruments. A strong consensus emerged on critical QA/QC practices: >90% of laboratories use internal standards for quality control, perform regular leak checks, and maintain injector systems through routine component replacement, spanning column (exchange/cuts), liners, syringes, and septa. Routine monitoring (>50%) involves method blanks, peak shape assessments, and systematic evaluation of intensity drifts, carryovers, and contamination. Retention indices coupled with mass spectral library matching served as the primary annotation approach (60%). Overall, a consensus of best practices in QA/QC and reporting emerged, providing evidence-based recommendations for high-quality GC-MS metabolomics.",
+      "journal": "Anal Chem",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Giebelhaus",
+          "fore_name": "Ryland T",
+          "affiliations": [
+            "Department of Chemistry, University of Victoria, Elliott Building Room 313, 3800 Finnerty Road, Victoria, BCV8P 5C2, Canada."
+          ]
+        },
+        {
+          "last_name": "Herold",
+          "fore_name": "Michael",
+          "affiliations": [
+            "BASF Metabolome Solutions GmbH, Tegeler Weg 33, Berlin10589, Germany."
+          ]
+        },
+        {
+          "last_name": "Harynuk",
+          "fore_name": "James J",
+          "affiliations": [
+            "Department of Chemistry, University of Alberta, 11227 Saskatchewan Dr NW, Edmonton, ABT6G 2N4, Canada.",
+            "The Metabolomics Innovation Centre (TMIC), Edmonton, ABT6G 2N4, Canada."
+          ]
+        },
+        {
+          "last_name": "Alonso",
+          "fore_name": "David E",
+          "affiliations": [
+            "LECO Corporation, 3000 Lakeview Ave., St. Joseph, Michigan49085, United States."
+          ]
+        },
+        {
+          "last_name": "Amer",
+          "fore_name": "Bashar",
+          "affiliations": [
+            "Thermo Fisher Scientific Incorporated, 168 Third Avenue,Waltham, Massachusetts02451, United States."
+          ]
+        },
+        {
+          "last_name": "Broeckling",
+          "fore_name": "Corey D",
+          "affiliations": [
+            "Analytical Resources Core, Colorado State, Chemistry Building, Rooms C3-C5 1301 Center Ave Mall, Fort Collins, Colorado80523, United States."
+          ]
+        },
+        {
+          "last_name": "Charisiadis",
+          "fore_name": "Pantelis",
+          "affiliations": [
+            "Precision Exposomics & Health Laboratory, Cyprus International Institute for Environmental and Public Health, School of Health Sciences, Cyprus University of Technology, 3 Archiepiskopou Kyprianou Str, Limassol3036, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Cumeras",
+          "fore_name": "Raquel",
+          "affiliations": [
+            "Oncology Department, Institut d'Investigaci\u00f3 Sanit\u00e0ria Pere Virgili (IISPV), CERCA, Reus43204, Spain.",
+            "Engineering Department, Universitat Rovira i Virgili, Tarragona43003, Spain."
+          ]
+        },
+        {
+          "last_name": "de la Mata",
+          "fore_name": "A Paulina",
+          "affiliations": [
+            "Department of Chemistry, University of Alberta, 11227 Saskatchewan Dr NW, Edmonton, ABT6G 2N4, Canada.",
+            "The Metabolomics Innovation Centre (TMIC), Edmonton, ABT6G 2N4, Canada.",
+            "LECO Corporation, 3000 Lakeview Ave., St. Joseph, Michigan49085, United States."
+          ]
+        },
+        {
+          "last_name": "Dunn",
+          "fore_name": "Warwick",
+          "affiliations": [
+            "Department of Biochemistry, Cell and Systems Biology, Centre for Metabolomics Research, Institute of Systems, Molecular, and Integrative Biology, University of Liverpool, LiverpoolL69 7ZB, U.K."
+          ]
+        },
+        {
+          "last_name": "Franchina",
+          "fore_name": "Flavio A",
+          "affiliations": [
+            "Department of Chemical, Pharmaceutical, and Agricultural Sciences, University of Ferrara, Via L. Borsari 46, Ferrara44121, Italy."
+          ]
+        },
+        {
+          "last_name": "Gika",
+          "fore_name": "Helen",
+          "affiliations": [
+            "Department of Medicine, Aristotle University of Thessaloniki, Thessaloniki54124, Greece."
+          ]
+        },
+        {
+          "last_name": "Kirwan",
+          "fore_name": "Jennifer A",
+          "affiliations": [
+            "Metabolomics Unit, University of Veterinary Medicine, Vienna Veterin\u00e4rplatz 1, Wien1210, Austria.",
+            "Metabolomics, Berlin Institute of Health at Charit\u00e9 Universit\u00e4tsmedizin, Anna-Louisa-Karsch-Stra\u00dfe 2, Berlin10178, Germany.",
+            "Metabolomics Platform, Max Delbr\u00fcck Center for Molecular Medicine in the Helmholtz Association, Robert R\u00f6ssle Strasse 10, Berlin13125, Germany."
+          ]
+        },
+        {
+          "last_name": "Muti",
+          "fore_name": "Isabella H",
+          "affiliations": [
+            "Department of Pathology, Massachusetts General Hospital, Harvard Medical School, Boston, Massachusetts02115, United States."
+          ]
+        },
+        {
+          "last_name": "Najdekr",
+          "fore_name": "Luk\u00e1\u0161",
+          "affiliations": [
+            "Faculty of Medicine and Dentistry, Institute of Molecular and Translational Medicine, Palack\u00fd University Olomouc, Olomouc779 00, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Pujos-Guillot",
+          "fore_name": "Estelle",
+          "affiliations": [
+            "Plateforme d'Exploration du M\u00e9tabolisme, MetaboHUB Clermont, Universit\u00e9 Clermont Auvergne, INRAE, UNH, Clermont-Ferrand63000, France."
+          ]
+        },
+        {
+          "last_name": "Stefanuto",
+          "fore_name": "Pierre-Hugues",
+          "affiliations": [
+            "Organic and Biological Analytical Chemistry Group, MolSys Research Unit, University of Li\u00e8ge, All\u00e9e du 6 aout, 11, Li\u00e8geB4000, Belgium."
+          ]
+        },
+        {
+          "last_name": "Steininger-Mairinger",
+          "fore_name": "Teresa",
+          "affiliations": [
+            "Institute of Analytical Chemistry, BOKU University, Muthgasse 18, Vienna1190, Austria."
+          ]
+        },
+        {
+          "last_name": "Thakker",
+          "fore_name": "Alpesh",
+          "affiliations": [
+            "Department of Metabolism and Systems Science, School of Medical Sciences, College of Medicine and Health, University of Birmingham, BirminghamB15 2TT, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Fiehn",
+          "fore_name": "Oliver",
+          "affiliations": [
+            "University of California, 451 Health Sciences Drive, Davis, California95616, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "42029864",
+      "doi": "10.1158/2159-8290.CD-17-0151",
+      "pmc": "6232402",
+      "title": "Introducing the J-CONNECT database: a real-world oncology resource for Japan.",
+      "abstract": "Real-world data (RWD) and real-world evidence (RWE) are increasingly important in oncology, where randomized controlled trials often exclude elderly patients, those with comorbidities, and rare cancer subtypes. To meet the need for high-quality oncology RWD in Japan, the J-CONNECT Consortium was launched to build a multiinstitutional database of chemotherapy-treated solid cancer patients using electronic medical records (EMRs). Data were collected from 12 Ministry of Health, Labour and Welfare-designated cancer care hospitals, with expansion to 15 institutions planned by 2026. J-CONNECT links hospital cancer registry information with EMRs, capturing demographics, staging, treatments, laboratory results, and biomarkers. Coverage and distributional characteristics were evaluated by comparing distributions with the National Hospital-based Cancer Registry by cancer site, age, and sex. The database included 51,497 patients diagnosed after 2018. Major cancer groups were breast (12,363), lung (6743), prostate (5235), colorectal (4012), pancreas (3720), stomach (2383), esophagus (1960), and liver (1731). Sex distributions were consistent with national data, while some variability was observed by age. J-CONNECT is a robust oncology database in which clinical and biomarker variables are available, although completeness may vary; fitness-for-purpose should be assessed on a study-by-study basis. Coverage and distributional characteristics and also regulatory acceptance highlight its value for research, PMS, and policy. Future directions include expansion to 25 hospitals, integration of outcome and resource-use data, and adoption of common data models for broader collaboration. We believe J-CONNECT provides valuable oncology data supporting research, post-marketing surveillance, and public health policy in Japan.",
+      "journal": "Int J Clin Oncol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Okada",
+          "fore_name": "Masafumi",
+          "affiliations": [
+            "Prime Research Institute for Medical RWD, Inc., Kyoto, Japan."
+          ]
+        },
+        {
+          "last_name": "Matsumoto",
+          "fore_name": "Shigemi",
+          "affiliations": [
+            "Department of Real World Data R&D, Graduate School of Medicine, Kyoto University, Kyoto, Japan."
+          ]
+        },
+        {
+          "last_name": "Maehara",
+          "fore_name": "Yuriko",
+          "affiliations": [
+            "Prime Research Institute for Medical RWD, Inc., Kyoto, Japan."
+          ]
+        },
+        {
+          "last_name": "Kanayama",
+          "fore_name": "Tomoko",
+          "affiliations": [
+            "Prime Research Institute for Medical RWD, Inc., Kyoto, Japan."
+          ]
+        },
+        {
+          "last_name": "Lambrelli",
+          "fore_name": "Dimitra",
+          "affiliations": [
+            "PPD Evidera Real-World Data & Scientific Solutions, Thermo Fisher Scientific, London, UK."
+          ]
+        },
+        {
+          "last_name": "Koga",
+          "fore_name": "Tadashi",
+          "affiliations": [
+            "Clinical Study Support, Inc., Nagoya, Japan."
+          ]
+        },
+        {
+          "last_name": "Muto",
+          "fore_name": "Manabu",
+          "affiliations": [
+            "Department of Medical Oncology, Graduate School of Medicine, Kyoto University, Kyoto, Japan. mmuto@kuhp.kyoto-u.ac.jp."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Electronic medical records",
+        "Japan",
+        "Oncology",
+        "Real-world data"
+      ]
+    },
+    {
+      "pmid": "42034110",
+      "doi": "10.1016/S2665-9913(26)00046-9",
+      "title": "Effectiveness and persistence of biological and targeted synthetic treatment in patients with rheumatoid arthritis and chronic kidney disease: a multicentre, prospective cohort study.",
+      "abstract": "Chronic kidney disease is a common comorbidity of rheumatoid arthritis. Because there has been scarce and conflicting evidence on the use of biological and targeted synthetic therapy in patients with rheumatoid arthritis and chronic kidney disease, we aimed to examine the effectiveness and persistence of biological and targeted synthetic disease-modifying antirheumatic drugs (DMARDs) for patients with rheumatoid arthritis and chronic kidney disease. This multicentre, prospective cohort study used data from the CorEvitas Rheumatoid Arthritis registry on patients with rheumatoid arthritis who initiated each type of biological and targeted synthetic DMARD (TNF inhibitors, CTLA4 immunoglobulin, IL-6 inhibitors, B-cell depletion therapy, and JAK inhibitors) recruited from 160 rheumatology practices in the USA. Patients were required to have moderate or high disease activity according to the Clinical Disease Activity Index (CDAI; score >10). Chronic kidney disease was defined as an estimated glomerular filtration rate (eGFR) of less than 60 mL/min per 1\u00b773 m Between Oct 1, 2001, and Dec 31, 2023, 12\u2009123 biological and targeted synthetic DMARD treatment initiations in 9601 patients with rheumatoid arthritis, with 51\u2009931 person-years of follow-up, were identified. Of 12\u2009123 eligible biological and targeted synthetic DMARD treatment initiations, 10\u2009857 (89\u00b76%) were in patients with preserved eGFR and 1266 (10\u00b74%) were in patients with reduced eGFR. Across both groups, median age was 59\u00b70 years (IQR 50\u00b70-67\u00b70), 9720 (80\u00b72%) of 12\u2009123 treatment initiations were in female patients and 2403 (19\u00b78%) were in male patients, and 9908 (81\u00b77%) were in non-Hispanic White patients. 3025 (27\u00b79%) of 10\u2009857 treatment initiations in patients with preserved eGFR resulted in CDAI-based remission versus 246 (19\u00b74%) of 1266 treatment initiations in patients with reduced eGFR. Reduced eGFR was associated with a lower likelihood of attaining CDAI-based remission (unadjusted HR 0\u00b771 [95% CI 0\u00b762-0\u00b782], adjusted HR 0\u00b776 [0\u00b766-0\u00b788]) compared with preserved eGFR. Although biological and targeted synthetic DMARDs are generally well tolerated and effective options, patients with rheumatoid arthritis and reduced eGFR have lower likelihood of attaining remission. Tailored treatment strategies for this high-risk population should be established. National Institute of Arthritis and Musculoskeletal and Skin Diseases.",
+      "journal": "Lancet Rheumatol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Fukui",
+          "fore_name": "Sho",
+          "affiliations": [
+            "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA; Department of Emergency and General Medicine, Kyorin University School of Medicine, Tokyo, Japan; Department of Nephrology and Rheumatology, Kyorin University School of Medicine, Tokyo, Japan; Immuno-Rheumatology Center, St Luke's International Hospital, Tokyo, Japan. Electronic address: sho-fukui@ks.kyorin-u.ac.jp."
+          ]
+        },
+        {
+          "last_name": "\u00d8rbo",
+          "fore_name": "Hilde S",
+          "affiliations": [
+            "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Tedeschi",
+          "fore_name": "Sara K",
+          "affiliations": [
+            "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Tuzun",
+          "fore_name": "Zeynep S",
+          "affiliations": [
+            "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Guan",
+          "fore_name": "Hongshu",
+          "affiliations": [
+            "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Harrold",
+          "fore_name": "Leslie R",
+          "affiliations": [
+            "Thermo Fisher Scientific, Waltham, MA, USA; Department of Medicine, University of Massachusetts Medical School, Worcester, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Litman",
+          "fore_name": "Heather J",
+          "affiliations": [
+            "Thermo Fisher Scientific, Waltham, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Shinozaki",
+          "fore_name": "Tomohiro",
+          "affiliations": [
+            "Interfaculty Initiative in Information Studies, University of Tokyo, Japan."
+          ]
+        },
+        {
+          "last_name": "Kishimoto",
+          "fore_name": "Mitsumasa",
+          "affiliations": [
+            "Department of Nephrology and Rheumatology, Kyorin University School of Medicine, Tokyo, Japan."
+          ]
+        },
+        {
+          "last_name": "Komagata",
+          "fore_name": "Yoshinori",
+          "affiliations": [
+            "Department of Nephrology and Rheumatology, Kyorin University School of Medicine, Tokyo, Japan."
+          ]
+        },
+        {
+          "last_name": "Matsuda",
+          "fore_name": "Takeaki",
+          "affiliations": [
+            "Department of Emergency and General Medicine, Kyorin University School of Medicine, Tokyo, Japan."
+          ]
+        },
+        {
+          "last_name": "Winkelmayer",
+          "fore_name": "Wolfgang C",
+          "affiliations": [
+            "Selzman Institute for Kidney Health, Section of Nephrology, Department of Medicine, Baylor College of Medicine, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Solomon",
+          "fore_name": "Daniel H",
+          "affiliations": [
+            "Division of Rheumatology, Inflammation, and Immunity, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA. Electronic address: dsolomon@bwh.harvard.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "42011740",
+      "doi": "10.1021/acs.analchem.5c06791",
+      "title": "Fragmentation Pathways and Enhanced Detection Sensitivity of OH-PBDEs via LC-ESI-MS",
+      "abstract": "The fragmentation behavior of isomeric hydroxylated polybrominated diphenyl ethers (OH-PBDEs) remains poorly elucidated, although LC-MS/MS is essential for their analysis. This study systematically characterizes their fragmentation behavior by LC-ESI-MS",
+      "journal": "Anal Chem",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Fu",
+          "fore_name": "Bairong",
+          "affiliations": [
+            "College of Environmental Science and Engineering, Dalian Maritime University, Dalian 116026, Liaoning Province, China.",
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Dongqin",
+          "affiliations": [
+            "College of Environmental Science and Engineering, Dalian Maritime University, Dalian 116026, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Jing",
+          "affiliations": [
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Tong",
+          "fore_name": "Lei",
+          "affiliations": [
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Longxing",
+          "affiliations": [
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Yihou",
+          "affiliations": [
+            "Thermo Fisher Scientific, Shanghai 200120, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Geng",
+          "fore_name": "Ningbo",
+          "affiliations": [
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Lidong",
+          "affiliations": [
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "Huilian",
+          "affiliations": [
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Ni",
+          "fore_name": "Yuwen",
+          "affiliations": [
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Jiping",
+          "affiliations": [
+            "Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian 116023, Liaoning Province, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    }
+  ]
+}

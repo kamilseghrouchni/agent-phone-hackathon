@@ -1,0 +1,146 @@
+{
+  "q-solutions": {
+    "name": "Q\u00b2 Solutions (IQVIA Labs)",
+    "publication_total": 39,
+    "publications_indexed": 25,
+    "n_sample_types": 4,
+    "n_partners": 15,
+    "n_emails": 0
+  },
+  "labcorp-central-laboratory-services": {
+    "name": "Labcorp Central Laboratory Services",
+    "publication_total": 2,
+    "publications_indexed": 2,
+    "n_sample_types": 0,
+    "n_partners": 4,
+    "n_emails": 0
+  },
+  "icon-central-laboratories": {
+    "name": "ICON Central Laboratories",
+    "publication_total": 4,
+    "publications_indexed": 4,
+    "n_sample_types": 1,
+    "n_partners": 11,
+    "n_emails": 0
+  },
+  "ppd-laboratories": {
+    "name": "PPD Laboratories (Thermo Fisher)",
+    "publication_total": 1261,
+    "publications_indexed": 25,
+    "n_sample_types": 2,
+    "n_partners": 15,
+    "n_emails": 2
+  },
+  "charles-river-laboratories": {
+    "name": "Charles River Laboratories",
+    "publication_total": 566,
+    "publications_indexed": 25,
+    "n_sample_types": 3,
+    "n_partners": 15,
+    "n_emails": 7
+  },
+  "bioagilytix-labs": {
+    "name": "BioAgilytix Labs",
+    "publication_total": 18,
+    "publications_indexed": 18,
+    "n_sample_types": 2,
+    "n_partners": 15,
+    "n_emails": 2
+  },
+  "frontage-laboratories": {
+    "name": "Frontage Laboratories",
+    "publication_total": 32,
+    "publications_indexed": 25,
+    "n_sample_types": 5,
+    "n_partners": 15,
+    "n_emails": 2
+  },
+  "eurofins-genomics-biopharma": {
+    "name": "Eurofins Genomics + Biopharma",
+    "publication_total": 1529,
+    "publications_indexed": 25,
+    "n_sample_types": 5,
+    "n_partners": 15,
+    "n_emails": 0
+  },
+  "novogene": {
+    "name": "Novogene",
+    "publication_total": 156,
+    "publications_indexed": 25,
+    "n_sample_types": 1,
+    "n_partners": 15,
+    "n_emails": 1
+  },
+  "bgi-genomics": {
+    "name": "BGI Genomics",
+    "publication_total": 354,
+    "publications_indexed": 25,
+    "n_sample_types": 5,
+    "n_partners": 15,
+    "n_emails": 7
+  },
+  "genewiz-from-azenta": {
+    "name": "GENEWIZ from Azenta",
+    "publication_total": 11,
+    "publications_indexed": 14,
+    "n_sample_types": 2,
+    "n_partners": 15,
+    "n_emails": 0
+  },
+  "diagenode": {
+    "name": "Diagenode",
+    "publication_total": 11,
+    "publications_indexed": 11,
+    "n_sample_types": 2,
+    "n_partners": 15,
+    "n_emails": 1
+  },
+  "active-motif": {
+    "name": "Active Motif",
+    "publication_total": 8,
+    "publications_indexed": 8,
+    "n_sample_types": 2,
+    "n_partners": 15,
+    "n_emails": 1
+  },
+  "epigendx": {
+    "name": "EpigenDx",
+    "publication_total": 5,
+    "publications_indexed": 5,
+    "n_sample_types": 1,
+    "n_partners": 15,
+    "n_emails": 0
+  },
+  "metabolon": {
+    "name": "Metabolon",
+    "publication_total": 107,
+    "publications_indexed": 25,
+    "n_sample_types": 10,
+    "n_partners": 15,
+    "n_emails": 1
+  },
+  "biognosys": {
+    "name": "Biognosys",
+    "publication_total": 38,
+    "publications_indexed": 25,
+    "n_sample_types": 5,
+    "n_partners": 15,
+    "n_emails": 1
+  },
+  "eve-technologies": {
+    "name": "Eve Technologies",
+    "publication_total": 2,
+    "publications_indexed": 2,
+    "n_sample_types": 1,
+    "n_partners": 3,
+    "n_emails": 0
+  },
+  "caprion": {
+    "name": "Caprion (CellCarta)",
+    "publication_total": 50,
+    "publications_indexed": 25,
+    "n_sample_types": 7,
+    "n_partners": 15,
+    "n_emails": 0
+  }
+}

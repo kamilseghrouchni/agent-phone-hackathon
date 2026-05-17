@@ -1,0 +1,101 @@
+{
+  "bundle_id": "psoriasis-skin-biopsy-plasma-serum",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_specimens": 562,
+    "total_donors": 132,
+    "organizations": [
+      "BIOMEDICA CRO",
+      "France Tissue Bank",
+      "Ukraine Research Group"
+    ],
+    "matched_pair_donors": 0
+  },
+  "specimen_breakdown": {
+    "Tissue": 208,
+    "Plasma": 201,
+    "Serum": 150,
+    "Buffy coat": 3
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "France Tissue Bank",
+      "organization_id": "24896abd-fc2c-4310-a02e-d5fbd211562e",
+      "country": [
+        "FRA"
+      ],
+      "website": "https://francetissuebank.com/en",
+      "contact_email": "contact@francetissuebank.com",
+      "address": "",
+      "description": "France Tissue Bank \u2014 Your trusted partner for high-quality, responsive biospecimen sourcing.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["FRA"]
+      }
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": [
+        "UKR"
+      ],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research.",
+      "specimens": {
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["UKR"]
+      }
+    }
+  ],
+  "coverage_gaps": {
+    "lesional_vs_nonlesional_annotation": "not tracked in AminoChain data \u2014 requires direct inquiry per donor",
+    "pasi_score": "not tracked in specimen registries \u2014 requires clinical record linkage",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

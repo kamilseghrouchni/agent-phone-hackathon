@@ -1,0 +1,116 @@
+# Email channel — AgentMail send + inbound webhook. Slower than call but
+# carries structured RFQ tables and counter-quote evidence well.
+
+channel: email
+agent_persona_required: true
+actions:
+
+  - id: send_initial_request
+    category: outreach
+    prerequisites: []
+    extracts:
+      - field: thread_id
+        type: string
+        description: AgentMail thread id (assigned at send time).
+    utterance_template: |
+      Subject: RFQ — {primary_disease} {primary_specimen} cohort
+
+      Hi {bd_recipient_name},
+
+      We're sourcing biospecimens for a {use_case} program. Specific ask:
+
+        • {primary_disease} ({stage_phrase}{treatment_phrase})
+        • {specimens_block}
+        • Biomarker layer: {biomarker_phrase}
+        • Target turnaround: {turnaround_phrase}
+
+      A few things would help us scope quickly:
+        1. Availability against the above
+        2. Per-case pricing band
+        3. Earliest realistic shipment date
+
+      Happy to jump on a 15-min call if that's faster.
+
+      Best,
+      {agent_name}
+      {agent_company}
+    slots:
+      bd_recipient_name:   { source: supplier.contact.bd_name, fallback: "team" }
+      primary_disease:     { source: "parsed_query.diseases[0]", format: title_case }
+      primary_specimen:    { source: "parsed_query.specimens[0].type" }
+      stage_phrase:        { source: parsed_query.stages, format: stage_phrase, fallback: "any stage" }
+      treatment_phrase:    { source: parsed_query.treatment_status, format: treatment_phrase, fallback: "" }
+      specimens_block:     { source: parsed_query.specimens, format: rfq_bullets }
+      biomarker_phrase:    { source: parsed_query.biomarkers, format: comma_join, fallback: "none stated yet" }
+      turnaround_phrase:   { source: parsed_query.turnaround_max_weeks, format: weeks, fallback: "flexible" }
+      agent_name:          { source: agent_identity.name }
+      agent_company:       { source: agent_identity.company }
+    success_criteria: "extracts.thread_id != null"
+    next_action_hints: [ask_biomarker_followup, request_formal_quote, wrap_thank_you]
+
+  - id: ask_biomarker_followup
+    category: question
+    prerequisites: [send_initial_request]
+    extracts:
+      - field: biomarker_breakdown
+        type: "dict<string, ratio>"
+      - field: ngs_panel_available
+        type: boolean
+    utterance_template: |
+      Thanks {bd_recipient_name} — one follow-up. For the cases you have
+      available, do you have NGS or IHC results for {biomarkers} in the
+      metadata? Even partial coverage would be useful to know.
+    slots:
+      bd_recipient_name:   { source: supplier.contact.bd_name, fallback: "" }
+      biomarkers:          { source: parsed_query.biomarkers, format: comma_join, fallback: "the panel above" }
+    success_criteria: "extracts.biomarker_breakdown != null OR extracts.ngs_panel_available != null"
+    next_action_hints: [request_formal_quote, counter_quote_email]
+
+  - id: counter_quote_email
+    category: escalate
+    prerequisites: [send_initial_request]
+    extracts:
+      - field: price_match_offered
+        type: boolean
+      - field: revised_price_usd
+        type: number
+    utterance_template: |
+      Quick context — {competitor_name} came back at
+      {competitor_price}/case for the same panel and turnaround. If
+      there's room to match we'd love to consolidate with you.
+    slots:
+      competitor_name:     { source: cross_channel.competitor_name }
+      competitor_price:    { source: cross_channel.competitor_price_usd, format: currency }
+    cross_channel_required: true
+    success_criteria: "extracts.price_match_offered != null"
+    next_action_hints: [request_formal_quote]
+
+  - id: request_formal_quote
+    category: action
+    prerequisites: [send_initial_request]
+    extracts:
+      - field: formal_quote_promised
+        type: boolean
+      - field: quote_eta_days
+        type: number
+    utterance_template: |
+      Could you send a formal quote (per-case + total) covering the spec
+      below? Even a one-pager works — we'll route it through
+      procurement on our end.
+    slots: {}
+    success_criteria: "extracts.formal_quote_promised != null"
+    next_action_hints: [wrap_thank_you]
+
+  - id: wrap_thank_you
+    category: wrap
+    prerequisites: [send_initial_request]
+    extracts:
+      - field: closed_loop
+        type: boolean
+    utterance_template: |
+      Thanks {bd_recipient_name} — appreciate the quick turn. I'll come
+      back once we've decided which suppliers we're moving forward with.
+    slots:
+      bd_recipient_name:   { source: supplier.contact.bd_name, fallback: "" }
+    success_criteria: "extracts.closed_loop != null"
+    next_action_hints: []

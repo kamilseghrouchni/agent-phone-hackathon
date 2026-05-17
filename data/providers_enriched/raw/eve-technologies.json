@@ -1,0 +1,158 @@
+{
+  "name": "Eve Technologies",
+  "cleaned_name": "Eve Technologies",
+  "aliases_tried": [
+    "Eve Technologies"
+  ],
+  "publication_total": 2,
+  "search_queries": [
+    "\"Eve Technologies\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "42063755",
+      "pmc": "PMC85128",
+      "doi": "10.3389/fcimb.2013.00048",
+      "title": "Probable European-profile",
+      "abstract": "Tick-associated illnesses are increasingly recognised in Australia, yet the epidemiology and clinical manifestations of",
+      "journal": "Front Med (Lausanne)",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Mitsakos",
+          "fore_name": "Katerina",
+          "affiliations": [
+            "Division of Medicine, Department of Infectious Diseases, Royal North Shore Hospital, Northern Sydney Local Health District, Sydney, NSW, Australia.",
+            "Faculty of Medicine and Health, The University of Sydney, Sydney, NSW, Australia."
+          ]
+        },
+        {
+          "last_name": "Heuer",
+          "fore_name": "Pamela E",
+          "affiliations": [
+            "Division of Medicine, Department of Infectious Diseases, Royal North Shore Hospital, Northern Sydney Local Health District, Sydney, NSW, Australia."
+          ]
+        },
+        {
+          "last_name": "Beninati",
+          "fore_name": "Tiziana",
+          "affiliations": [
+            "Division of Medicine, Department of Infectious Diseases, Royal North Shore Hospital, Northern Sydney Local Health District, Sydney, NSW, Australia."
+          ]
+        },
+        {
+          "last_name": "Polley",
+          "fore_name": "Daniel J",
+          "affiliations": [
+            "Eve Technologies Corporation, Calgary, AB, Canada."
+          ]
+        },
+        {
+          "last_name": "Schloeffel",
+          "fore_name": "Richard J",
+          "affiliations": [
+            "Royal North Shore Hospital, Northern Sydney Local Health District, Sydney, NSW, Australia."
+          ]
+        },
+        {
+          "last_name": "Hudson",
+          "fore_name": "Bernard J",
+          "affiliations": [
+            "Faculty of Medicine and Health, The University of Sydney, Sydney, NSW, Australia.",
+            "Department of Microbiology, NSW Health Pathology, Royal North Shore Hospital, Sydney, NSW, Australia."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Australia",
+        "Lyme-like illness",
+        "antimicrobial therapy",
+        "borreliosis",
+        "immune signatures",
+        "myocarditis",
+        "serology",
+        "tick-borne disease"
+      ]
+    },
+    {
+      "pmid": "37600813",
+      "pmc": "PMC7711564",
+      "doi": "10.1001/jamacardio.2020.6041",
+      "title": "Identification of novel clusters of co-expressing cytokines in a diagnostic cytokine multiplex test.",
+      "abstract": "Cytokines are mediators of the immune system that are essential for the maintenance, development and resolution of immune responses. Beneficial immune responses depend on complex, interdependent networks of signaling and regulatory events in which individual cytokines influence the production and release of others. Since disruptions in these signaling networks are associated with a wide spectrum of diseases, cytokines have gained considerable interest as diagnostic, prognostic and precision therapy-relevant biomarkers. However, currently individual cytokines testing has limited value because the wider immune response context is often overlooked. The aim of this study was to identify specific cytokine signaling patterns associated with different diseases. Unbiased clustering analyses were performed on a clinical cytokine multiplex test using a cohort of human plasma specimens drawn from individuals with known or suspected diseases for which cytokine profiling was considered clinically indicated by the attending physician. Seven clusters of co-expressing cytokines were identified, representing common patterns of immune activation. Common expression profiles of the cytokine clusters and preliminary associations of these profiles with specific diseases or disease categories were also identified. These findings increase our understanding of the immune environments underlying the clinical presentations of patients of inflammatory, autoimmune and neoplastic diseases, which could then improve diagnoses and the identification of evidence-based treatment targets.",
+      "journal": "Front Immunol",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Polley",
+          "fore_name": "Daniel J",
+          "affiliations": [
+            "Eve Technologies Corporation, Calgary, AB, Canada."
+          ]
+        },
+        {
+          "last_name": "Latham",
+          "fore_name": "Penny",
+          "affiliations": [
+            "Eve Technologies Corporation, Calgary, AB, Canada."
+          ]
+        },
+        {
+          "last_name": "Choi",
+          "fore_name": "May Y",
+          "affiliations": [
+            "Department of Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada."
+          ]
+        },
+        {
+          "last_name": "Buhler",
+          "fore_name": "Katherine A",
+          "affiliations": [
+            "Department of Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada."
+          ]
+        },
+        {
+          "last_name": "Fritzler",
+          "fore_name": "Marvin J",
+          "affiliations": [
+            "Department of Medicine, Cumming School of Medicine, University of Calgary, Calgary, AB, Canada."
+          ]
+        },
+        {
+          "last_name": "Fritzler",
+          "fore_name": "Mark L",
+          "affiliations": [
+            "Eve Technologies Corporation, Calgary, AB, Canada."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Cytokines",
+        "Signal Transduction",
+        "Humans",
+        "Cluster Analysis",
+        "Infant, Newborn",
+        "Infant",
+        "Child, Preschool",
+        "Child",
+        "Adolescent",
+        "Young Adult",
+        "Adult",
+        "Middle Aged",
+        "Male",
+        "Female",
+        "Disease"
+      ],
+      "keywords": [
+        "clustering",
+        "cytokine storm",
+        "cytokines",
+        "diagnostic test",
+        "immune activation",
+        "inflammation",
+        "multiplex assay"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "bundle_id": "lung-scc-streck-bct-liquid-biopsy",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "38410586",
+      "pmc_id": "PMC10894382",
+      "doi": null,
+      "title": "Streck Cell-Free DNA BCT Tubes for cfDNA Preservation in Lung Squamous Cell Carcinoma",
+      "year": 2024,
+      "journal": "Frontiers in Oncology",
+      "specimens_described": {
+        "types": ["Streck BCT cfDNA"],
+        "n": 49,
+        "storage": "Streck BCT (room temperature)",
+        "matched": false,
+        "treatment_naive": null
+      },
+      "institution": "Academic research site (not disclosed)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": false,
+      "access_route": "not_available — research use only, not banked for external access",
+      "depth_confidence": "high",
+      "notes": "CONFIRMED NOT BANKED. Study used Streck BCT as collection method for a research protocol; specimens were processed and consumed for the study. No biobank infrastructure described. n=49 LUSC cases — not available for external sourcing."
+    },
+    {
+      "pmid": "32317009",
+      "pmc_id": "PMC7175544",
+      "doi": null,
+      "title": "Shallow Whole-Genome Sequencing of cfDNA from Streck BCT Tubes in Lung Cancer",
+      "year": 2020,
+      "journal": "Clinical Chemistry",
+      "specimens_described": {
+        "types": ["Streck BCT cfDNA"],
+        "n": 16,
+        "storage": "Streck BCT (room temperature)",
+        "matched": false,
+        "treatment_naive": null
+      },
+      "institution": "Academic research site",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": false,
+      "access_route": "not_available — research use only, not banked for external access",
+      "depth_confidence": "high",
+      "notes": "CONFIRMED NOT BANKED. 16 SCC cases collected in Streck BCT for sWGS research. Specimens processed for the study, not retained in biobank. Small n, no access route described."
+    }
+  ],
+  "expected_retrievable_institutions": [],
+  "notes": "IMPOSSIBLE bundle. Confirmed through systematic literature search: no published biobank offers banked Streck BCT LUSC liquid biopsy specimens for external access. Both papers in scope describe research-use collections that were consumed in the study. Streck BCT is a collection tube technology; biobanks that use it as a collection method do not appear to advertise Streck-specific inventories in the literature. A sourcing agent should classify this bundle as BLOCKED with recommendation to contact large lung cancer biobanks (LCBB, SPORE programs) about collection protocol flexibility — they may be able to prospectively collect in Streck BCT but no banked inventory exists."
+}

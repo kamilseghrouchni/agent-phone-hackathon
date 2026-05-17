@@ -1,0 +1,63 @@
+# Runtime store (cached papers, run artifacts, embeddings)
+store/runs/
+store/sources/
+store/cohorts/
+store/index/
+
+# Specimen DB (2GB) + derived views
+data/specimens.db
+data/specimens.db-shm
+data/specimens.db-wal
+data/enriched/views.db
+
+# Secrets
+.notion-token
+.openai-key
+.env
+.env.*
+!.env.example
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Claude Code local settings (permissions, memory)
+.claude/settings.local.json
+.claude/projects/
+.claude/plans/
+
+# Node / Next.js
+node_modules/
+.next/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+.backups/
+
+# Local browser-automation cache
+.playwright-mcp/
+test-*.png
+
+# Local dev logs
+/tmp/devserver*.log
+
+# Local data path config (per-machine)
+.data-paths.local
+
+# Videos (kept local, never committed)
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+
+# Dev screenshots and root-level handoff notes (kept local)
+/*.png
+/HANDOFF.md

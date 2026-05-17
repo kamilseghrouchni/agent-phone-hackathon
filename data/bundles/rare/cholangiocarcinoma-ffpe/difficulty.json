@@ -1,0 +1,15 @@
+{
+  "bundle_id": "cholangiocarcinoma-ffpe",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium",
+    "org_discoverability": "medium \u2014 mix of academic and commercial sources",
+    "biomarker_specificity": "low \u2014 no specific biomarker filtering required",
+    "specimen_count": 200,
+    "org_count": 4
+  },
+  "expected_failure_modes": [
+    "May not find commercial biobanks (ProteoGenex) through PubMed \u2014 they publish less than academic centers",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "pd-age-over-75",
+  "status": "audit_complete",
+  "title": "PD age 75+ · serum + PBMC + DNA · multi-visit",
+  "indication": "Parkinson's disease, age ≥ 75",
+  "program": "LRRK2 kinase inhibitor — translational biomarkers",
+  "path_chosen": {
+    "code": "A",
+    "label": "Path A · single-leg, relax longitudinal",
+    "rationale": "Single DUA, 12–20 weeks to specimen, all costs land on one provider. The 248-donor cross-section clears the brief; the 20-donor multi-visit subset rides along."
+  },
+  "sponsor": {
+    "org": "Aulus Therapeutics",
+    "people": [
+      { "name": "Dr. Rohan Banerjee", "role": "Head, Translational Biomarkers", "email": "rohan.banerjee@aulustx.com" },
+      { "name": "Lena Vázquez", "role": "Senior Counsel — DUA contact", "email": "lena.vazquez@aulustx.com" }
+    ]
+  },
+  "coordinator": {
+    "org": "Crovi",
+    "people": [
+      { "name": "Mira Halverson", "role": "Project manager — orchestration", "email": "mira@crovi.ai" },
+      { "name": "Crovi agent suite", "role": "Outreach · scheduling · QC dispatch", "email": "ops@crovi.ai" }
+    ]
+  },
+  "specimens_summary": {
+    "headline": "248 donors · serum + PBMC · 20 with ≥ 2 visit-years",
+    "report_path": "/audit-demo/pd-age-over-75-audit-report.html",
+    "totals": {
+      "donors_total": 248,
+      "donors_multivisit": 20,
+      "specimens_total": 6832,
+      "specimens_recent_2020plus": 2362
+    },
+    "type_mix_recent": [
+      { "type": "Serum",  "n": 1671 },
+      { "type": "PBMC",   "n": 967 },
+      { "type": "DNA",    "n": 294 },
+      { "type": "Plasma", "n": 397 },
+      { "type": "RNA",    "n": 16 },
+      { "type": "iPSC",   "n": 17 }
+    ],
+    "gates": [
+      { "label": "N ≥ 30 donors at 75+ with serum + PBMC", "status": "pass", "evidence": "248 donors" },
+      { "label": "Collection window ≥ 2020", "status": "pass", "evidence": "299 donors meet" },
+      { "label": "DNA available for genotyping arm", "status": "pass", "evidence": "294 aliquots since 2020" },
+      { "label": "Multi-visit ≥ 2 distinct years", "status": "partial", "evidence": "20 donors — under strict reading" },
+      { "label": "Residual volume per donor", "status": "open", "evidence": "Steward to confirm before ship" },
+      { "label": "Commercial-use consent for LRRK2 program", "status": "open", "evidence": "Open-biobank framing — case-by-case" }
+    ]
+  },
+  "assays_summary": {
+    "headline": "Metabolon HD4 untargeted serum metabolomics — bridge to the existing report",
+    "report_path": "/audit-demo/pd-age-over-75-metabolon-audit-report.html",
+    "platform": "Metabolon HD4 ®",
+    "scope": "248 serum samples · untargeted panel · cohort comparability bridge",
+    "deliverables": [
+      "Raw HD4 metabolite intensities",
+      "Normalized matrix (median-centered, log-transformed)",
+      "Cohort-bridge statistical report against prior elderly-PD set",
+      "QC report (CV%, blanks, batch effects)"
+    ],
+    "gates": [
+      { "label": "Tube-type comparability with prior cohort", "status": "open", "evidence": "Steward to confirm SST vs EDTA" },
+      { "label": "Cold-chain continuity (≤ −70 °C)", "status": "open", "evidence": "Steward to confirm" },
+      { "label": "Volume ≥ 250 µL per draw", "status": "partial", "evidence": "Lower bound — verify per donor" },
+      { "label": "Fasting status documented", "status": "open", "evidence": "Not in catalog" },
+      { "label": "Storage age ≤ 5 years (preferred 2022–2025 sub-cohort)", "status": "pass", "evidence": "1,720 specimens in window" },
+      { "label": "Bridge statistical plan", "status": "pass", "evidence": "Metabolon SOP pre-registered" }
+    ]
+  },
+  "providers": [
+    {
+      "id": "neuro-cbig",
+      "kind": "Biobank",
+      "name": "The Neuro C-BIG Repository",
+      "org": "Montreal Neurological Institute / McGill University",
+      "country": "Canada (Quebec)",
+      "people": [
+        { "name": "Prof. Hélène Beaudoin", "role": "Scientific Director, C-BIG", "email": "helene.beaudoin@mcgill.ca" },
+        { "name": "Camille Trottier",            "role": "Operations Director — sample release", "email": "camille.trottier@mcgill.ca" },
+        { "name": "C-BIG Access Committee",      "role": "DUA + commercial-use review", "email": "cbig.mni@mcgill.ca" }
+      ],
+      "quote": {
+        "currency": "USD",
+        "negotiated_on": "",
+        "valid_until": "",
+        "lines": [
+          { "label": "Access committee + DUA review", "qty": 1,   "unit": "fee",     "unit_price": 4500, "amount": 4500 },
+          { "label": "Serum aliquots (248 donors × 2 visits avg)", "qty": 496, "unit": "aliquot", "unit_price": 22, "amount": 10912 },
+          { "label": "PBMC aliquots (248 donors)",     "qty": 248, "unit": "aliquot", "unit_price": 28, "amount": 6944 },
+          { "label": "DNA aliquots (genotyping arm)",  "qty": 248, "unit": "aliquot", "unit_price": 30, "amount": 7440 },
+          { "label": "Per-donor reserve commitment",   "qty": 1,   "unit": "fee",     "unit_price": 1500, "amount": 1500 },
+          { "label": "Cold-chain shipping (Montreal → RTP)", "qty": 1, "unit": "shipment", "unit_price": 1800, "amount": 1800 },
+          { "label": "PBMC viability pre-ship test",   "qty": 1,   "unit": "fee",     "unit_price": 2200, "amount": 2200 }
+        ],
+        "subtotal": 35296,
+        "responsibilities": [
+          "Pull 248-donor manifest from C-BIG against the agreed query",
+          "Run viability pre-ship on cryopreserved PBMC (2016–2018 vintage)",
+          "Confirm tube type and time-to-freeze SOP per aliquot",
+          "Ship under continuous ≤ −70 °C cold chain to Metabolon RTP"
+        ]
+      },
+      "timeline": [
+        { "milestone": "DUA draft to sponsor counsel",      "date": "", "owner": "C-BIG Access Committee + Lena Vázquez" },
+        { "milestone": "Commercial-use clause negotiated",  "date": "", "owner": "Lena Vázquez + access committee" },
+        { "milestone": "DUA countersigned",                  "date": "", "owner": "Both parties" },
+        { "milestone": "Donor manifest + residual confirm",  "date": "", "owner": "Camille Trottier" },
+        { "milestone": "PBMC viability test cleared",        "date": "", "owner": "Camille Trottier" },
+        { "milestone": "Specimens shipped to Metabolon",     "date": "", "owner": "Camille Trottier" }
+      ]
+    },
+    {
+      "id": "metabolon",
+      "kind": "Assay platform",
+      "name": "Metabolon Inc.",
+      "org": "Metabolon, Inc. — Research Triangle Park, NC",
+      "country": "United States",
+      "people": [
+        { "name": "Dr. Priya Iyer",   "role": "Principal Investigator, Neurodegeneration", "email": "piyer@metabolon.com" },
+        { "name": "James O'Connor",   "role": "Senior Director, Strategic Accounts",       "email": "joconnor@metabolon.com" },
+        { "name": "Dr. Ming Zhao",    "role": "Lead Biostatistician — bridge analysis",    "email": "mzhao@metabolon.com" }
+      ],
+      "quote": {
+        "currency": "USD",
+        "negotiated_on": "",
+        "valid_until": "",
+        "lines": [
+          { "label": "HD4 untargeted metabolomics (248 serum)", "qty": 248, "unit": "sample", "unit_price": 395, "amount": 97960 },
+          { "label": "Tube-type bridge sub-study (10 paired)",  "qty": 10,  "unit": "sample", "unit_price": 410, "amount": 4100 },
+          { "label": "Cohort comparability statistical report", "qty": 1,   "unit": "report", "unit_price": 12000, "amount": 12000 },
+          { "label": "QC + batch-effect package",               "qty": 1,   "unit": "report", "unit_price": 3500, "amount": 3500 },
+          { "label": "Inbound cold-chain receiving + intake",   "qty": 1,   "unit": "fee",    "unit_price": 1200, "amount": 1200 }
+        ],
+        "subtotal": 118760,
+        "responsibilities": [
+          "Run HD4 platform on the 248-sample cohort with internal QC pools",
+          "Bridge analysis vs prior elderly-PD discovery report (different cohort)",
+          "Deliver normalized metabolite matrix and statistical report",
+          "Retain raw data for 7 years per Metabolon SOP"
+        ]
+      },
+      "timeline": [
+        { "milestone": "MSA + SOW countersigned",             "date": "", "owner": "James O'Connor + Lena Vázquez" },
+        { "milestone": "Sample receipt at RTP intake",         "date": "", "owner": "Metabolon intake team" },
+        { "milestone": "HD4 platform run complete",            "date": "", "owner": "Dr. Priya Iyer" },
+        { "milestone": "QC + bridge analysis delivered",        "date": "", "owner": "Dr. Ming Zhao" },
+        { "milestone": "Final report + data package release",   "date": "", "owner": "Dr. Priya Iyer" }
+      ]
+    }
+  ],
+  "totals": {
+    "biobank_subtotal": 35296,
+    "assay_subtotal": 118760,
+    "coordinator_fee": 14500,
+    "grand_total": 168556,
+    "currency": "USD",
+    "estimated_kickoff": "",
+    "estimated_data_delivery": ""
+  },
+  "contract": {
+    "title": "Cohort Acquisition + Assay Services Agreement (mock)",
+    "version": "v0.4 · pre-signature",
+    "parties": [
+      { "role": "Sponsor",     "entity": "Aulus Therapeutics", "signatory": "Dr. Rohan Banerjee" },
+      { "role": "Provider 1",  "entity": "Montreal Neurological Institute / McGill (C-BIG)", "signatory": "Prof. Hélène Beaudoin" },
+      { "role": "Provider 2",  "entity": "Metabolon, Inc.", "signatory": "James O'Connor" },
+      { "role": "Coordinator", "entity": "Crovi", "signatory": "Mira Halverson" }
+    ],
+    "term": "9 months from kickoff (plus 30-day data clarification window)",
+    "scope_of_work": [
+      "C-BIG retrieves 248-donor cohort (serum + PBMC + DNA), runs viability pre-ship, ships to Metabolon under cold chain.",
+      "Metabolon runs HD4 untargeted metabolomics on serum, performs tube-type bridge sub-study, delivers normalized matrix and bridge statistical report.",
+      "Crovi orchestrates outreach, scheduling, QC checkpoints, and delivers a final dossier to Sponsor."
+    ],
+    "responsibilities": [
+      { "party": "Sponsor",     "items": ["Authorize budget cap and DUA terms", "Approve commercial-use clause language", "Receive deliverables and own derived data"] },
+      { "party": "C-BIG",       "items": ["Donor manifest + residual confirmation", "Cold-chain shipment", "Per-donor reserve commitment for 12 months"] },
+      { "party": "Metabolon",   "items": ["HD4 platform run + QC", "Bridge analysis vs prior cohort", "Raw + normalized data delivery"] },
+      { "party": "Crovi",       "items": ["DUA + MSA tracking", "Milestone gating + status updates", "Single point of contact for sponsor"] }
+    ],
+    "ip_and_data": [
+      "Sponsor owns derived data and any IP arising from analysis.",
+      "C-BIG retains ownership of unused biospecimens; samples not consumed return to bank or are destroyed per Sponsor instruction.",
+      "Metabolon retains rights to internal QC reference data only; no sponsor data reused for catalog products."
+    ],
+    "payment_terms": "30 % at kickoff · 40 % at sample-ship milestone · 30 % at final report",
+    "data_retention": "Sponsor copy: indefinite. Provider mirrors: 7 years post-delivery.",
+    "confidentiality": "Two-way NDA, 5-year tail beyond term.",
+    "governing_law": "State of Delaware, USA",
+    "open_items": [
+      "Commercial-use clause for LRRK2 program (C-BIG access committee review)",
+      "Tube-type confirmation before Metabolon SOW lock",
+      "Per-donor residual volume cap"
+    ]
+  },
+  "email": {
+    "thread_id": "CRV-2026-0504-PD75",
+    "from": { "name": "Crovi Operations", "email": "ops@crovi.ai" },
+    "to":   { "name": "Dr. Rohan Banerjee", "email": "rohan.banerjee@aulustx.com" },
+    "cc":   [{ "name": "Lena Vázquez", "email": "lena.vazquez@aulustx.com" }],
+    "date": "Mon, May 4, 2026, 9:14 AM",
+    "subject": "Audit complete — PD age 75+ · Neuro C-BIG + Metabolon · ready for your authorisation",
+    "body_paragraphs": [
+      "Rohan — the audit pass on the PD age 75+ brief is in. Two reports attached, plus the cohort summary spreadsheet your team asked for last week.",
+      "Headline: one in-bank match (Neuro C-BIG, McGill) clears five of six gates. The 248-donor cross-section meets N. The 20-donor multi-visit subset is the only soft point under the strict reading. Metabolon HD4 carries the assay leg with a tube-type bridge sub-study we recommend you green-light.",
+      "Negotiated quote total: USD 168,556 across both providers + coordination. Earliest data delivery follows DUA signature. Open items — commercial-use clause, tube type, per-donor residual — are tracked on the dashboard.",
+      "Open the opportunity dashboard to see specimens, assays, quotes by provider, the contract draft, and the launch button. The agent suite is staged and waiting on your authorisation."
+    ],
+    "signoff": [
+      "Mira Halverson",
+      "Project manager · Crovi",
+      "mira@crovi.ai · +1 (415) 555-0118"
+    ],
+    "attachments": [
+      { "name": "Audit-PD-75-NeuroCBIG.html",   "size": "44 KB", "kind": "html",  "path": "/audit-demo/pd-age-over-75-audit-report.html" },
+      { "name": "Audit-PD-75-Metabolon.html",   "size": "48 KB", "kind": "html",  "path": "/audit-demo/pd-age-over-75-metabolon-audit-report.html" },
+      { "name": "PD75-Cohort-Summary.xlsx",      "size": "4 KB",  "kind": "xlsx",  "path": "/audit-demo/pd-age-over-75-cohort-summary.xlsx" }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "bundle_id": "thymoma-ffpe-plasma-staged",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "BIOMEDICA CRO",
+        "CSD Bio",
+        "ProteoGenex",
+        "Medical Gate"
+      ],
+      "pass": "find >= 30% of ground truth orgs OR find >= 2 orgs with matching specimens",
+      "notes": "Pipeline searches PubMed/CTgov/web \u2014 may find orgs not in AminoChain (e.g. ITMIG network institutions, Mayo Clinic thoracic surgery biobank). Those are valid, not errors. TCGA-THYM is a valid academic find but provides genomics data, not physical specimens \u2014 must not be scored as a specimen source."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "ProteoGenex": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "specimen_count": 53,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "Only org with FFPE tissue; no WHO histotype annotation; serum not plasma"
+        },
+        "BIOMEDICA CRO": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "1-2",
+            "MD": "unknown"
+          },
+          "specimen_count": 79,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "Plasma only; no tissue; TNM staged but Masaoka-Koga unconfirmed"
+        },
+        "CSD Bio": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "3-4",
+            "CF": "1-2",
+            "MD": "unknown"
+          },
+          "specimen_count": 67,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "Buffy coat not plasma; does not satisfy matched plasma requirement"
+        },
+        "Medical Gate": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "unknown"
+          },
+          "specimen_count": 24,
+          "has_contact": false,
+          "has_biomarkers": false,
+          "notes": "Contact is aminochain placeholder; whole blood not plasma"
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "WHO_histological_classification",
+          "reason": "not annotated in any AminoChain source \u2014 requires pathology re-review; critical for query requirement"
+        },
+        {
+          "field": "Masaoka-Koga_stage",
+          "reason": "TNM and Masaoka-Koga are not equivalent staging systems \u2014 pipeline must not conflate them"
+        },
+        {
+          "field": "matched_tissue_plasma_same_donor",
+          "reason": "no confirmed matched pairs in AminoChain data despite both specimen types existing across orgs"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not in any public registry \u2014 requires direct inquiry"
+        },
+        {
+          "field": "commercial_use_terms",
+          "reason": "not documented publicly \u2014 requires negotiation"
+        },
+        {
+          "field": "freeze_thaw_count",
+          "reason": "not tracked in specimen registries"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    },
+    "staging_system_discrimination": {
+      "check": "pipeline must distinguish Masaoka-Koga from TNM and flag the gap explicitly",
+      "pass": "Masaoka-Koga vs TNM conflation is flagged as [not_stated] or [open_question]",
+      "fail": "pipeline asserts TNM stage satisfies Masaoka-Koga requirement without flagging the distinction",
+      "hard_gate": true
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "BIOMEDICA CRO": 79,
+        "CSD Bio": 67,
+        "ProteoGenex": 53,
+        "Medical Gate": 24
+      },
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs",
+      "notes": "Academic sources (ITMIG consortia institutions, Mayo, MD Anderson) are valid additional finds not covered by this ground truth"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented specimen counts \u2014 every N cites a source",
+        "no invented contacts \u2014 every email traces to paper/website/registry",
+        "no training-data fills for cost or biomarker data",
+        "TCGA-THYM must not be listed as a physical specimen source"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "WHO_histotype": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    },
+    "Masaoka-Koga_stage": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed \u2014 TNM present but not equivalent"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "bundle_id": "cirrhosis-liver-tissue-ffpe",
+  "therapeutic_area": "hepatology",
+  "query_text": "Liver cirrhosis tissue (FFPE or frozen) from biopsy or explant. Any etiology (alcohol, NASH, HBV, HCV, autoimmune). Etiology documented. Fibrosis stage (METAVIR F4) or Child-Pugh score documented. N >= 20.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Liver cirrhosis"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Tissue (frozen)"
+    ],
+    "specimen_source": [
+      "biopsy",
+      "explant"
+    ],
+    "etiology_required": [
+      "alcoholic liver disease",
+      "NASH/NAFLD",
+      "HBV",
+      "HCV",
+      "autoimmune hepatitis",
+      "primary biliary cholangitis",
+      "primary sclerosing cholangitis"
+    ],
+    "staging_required": "METAVIR F4 OR Child-Pugh A/B/C",
+    "preservation": "Fixed or frozen",
+    "matched_pairs": false,
+    "clinical_data_required": [
+      "etiology",
+      "fibrosis_stage_or_Child-Pugh",
+      "biopsy_or_explant_source"
+    ],
+    "assay_context": "Liver fibrosis and cirrhosis biomarker development \u2014 etiology-stratified analysis"
+  }
+}

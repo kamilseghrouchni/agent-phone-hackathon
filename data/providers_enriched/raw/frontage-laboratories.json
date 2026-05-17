@@ -1,0 +1,2378 @@
+{
+  "name": "Frontage Laboratories",
+  "cleaned_name": "Frontage Laboratories",
+  "aliases_tried": [
+    "Frontage Laboratories"
+  ],
+  "publication_total": 32,
+  "search_queries": [
+    "\"Frontage Laboratories\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41678029",
+      "doi": "10.1002/bit.24999",
+      "pmc": "9102488",
+      "title": "Viral Clearance: Safety and Efficiency of Biopharmaceuticals.",
+      "abstract": "Viral clearance is a vital procedure in the pharma industry,\u00a0safeguarding the well-being of drug products by eradicating or inactivating possible viral toxins while manufacturing.\u00a0This includes a multifaceted method, along with laborious testing of raw materials, process design, optimization, and validation studies to demonstrate the effectiveness of viral clearance steps. Nowadays, this topic has become more challenging and versatile with the development of new viruses in the environment. This manuscript focuses on the potential routes of viral contamination, including viral impurities present in the master cell bank, and contaminated virus introduced during manufacturing, adventitious viruses from raw materials, principles of viral clearance, regulatory framework, design of viral clearance studies interpretation and limitations, emerging technologies and trends, viral clearance strategies such as inactivation methods: low pH, solvent/detergent, heat treatment and removal methods like chromatography, nanofiltration, precipitation and related case studies.",
+      "journal": "Ther Innov Regul Sci",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Vahora",
+          "fore_name": "Shahin",
+          "affiliations": [
+            "Navinta LLC, 1499 Lower Ferry Road, Ewing, NJ, 08618, USA. shahin121190@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Bhavesh",
+          "affiliations": [
+            "Product Development, Frontage Laboratories, Inc., Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Talati",
+          "fore_name": "Nishant",
+          "affiliations": [
+            "College of Pharmacy, Nova Southeastern University, Fort Lauderdale, FL, 33328, USA."
+          ]
+        },
+        {
+          "last_name": "Morker",
+          "fore_name": "Krupalkumar",
+          "affiliations": [
+            "Product Development, Frontage Laboratories, Inc., Exton, PA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Drug Contamination",
+        "Biological Products",
+        "Viruses",
+        "Humans",
+        "Virus Inactivation"
+      ],
+      "keywords": [
+        "Biopharmaceuticals",
+        "Efficacy",
+        "Nanofiltration",
+        "Safety",
+        "Viral clearance",
+        "Viral contamination"
+      ]
+    },
+    {
+      "pmid": "41780665",
+      "doi": "10.1016/j.chemphyslip.2026.105574",
+      "title": "Lipid-based nanocarriers for antiviral drug delivery: A review of the advances, manufacturing technologies, therapeutic mechanisms, and clinical applications.",
+      "abstract": "The persistent global burden of viral infections, compounded by the emergence of resistance and suboptimal therapeutic efficacy, underscores the urgency for innovative treatment strategies. Recent viral outbreaks such as COVID-19, Human metapneumovirus (HMPV), Zika, Ebola, Nipah, and various influenza viral strains have highlighted the limitations of conventional antivirals. This necessitates the need for targeted, adaptable, and innovative drug delivery platforms. In light of this, LNCs have emerged as versatile systems capable of enhancing drug stability, biodistribution, and cellular uptake. With their tunable architecture and ability to encapsulate diverse antiviral agents, these nanocarriers offer a promising avenue to overcome pharmacological barriers, improve therapeutic efficacy, and enable effective intervention against both established and emerging viral pathogens. To gather supporting evidence, publications were identified on Google Scholar, PubMed, and ScienceDirect with specific search terms such as \"antivirals\", \"drug loading\", \"encapsulation efficiency\", \"lipid nanocarriers\", \"liposomes\", \"solid lipid nanoparticles (SLNs)\", \"nanostructured lipid carriers (NLCs)\", \"cubosomes\", \"virus\", \"viral disease\", and \"resistance\". We did not impose any restrictions on the publication date during the selection of papers. However, it is imperative to highlight that the initial reports containing specified keywords began publication in 1964; it is noteworthy that a majority of these publications were 2000 or beyond. LNCs, including SLNs, NLCs, liposomes, and cubosomes, etc, demonstrated improved antiviral efficacy by enhancing drug stability, targeted delivery, and bioavailability. Several formulations showed superior pharmacokinetics and reduced toxicity compared to conventional therapies. Additionally, in vivo studies supported enhanced lymphatic uptake and therapeutic outcomes across multiple viral models. Despite notable progress, challenges in scalability, stability, and regulatory compliance limit their clinical translation. Hence, techniques such as microfluidics and other continuous manufacturing approaches improve reproducibility and process control. Moreover, artificial intelligence is revolutionizing LNC development by enabling rapid optimization, in silico prediction of pharmacokinetics, and real-time quality monitoring. Incorporating AI-enabled quality-by-design frameworks with state-of-the-art analytics may streamline regulatory approval. Moving forward, translating LNC technologies from bench to bedside will require scalable production methods, standardized characterization, and regulatory alignment.",
+      "journal": "Chem Phys Lipids",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Maithania",
+          "fore_name": "Heena",
+          "affiliations": [
+            "Frontage Laboratories Inc, 75E Uwchlan Ave, Exton, PA 19341, USA. Electronic address: hmaithania@frontagelab.com."
+          ]
+        },
+        {
+          "last_name": "Tiwary",
+          "fore_name": "Pooja",
+          "affiliations": [
+            "Department of Pharmacy Practice, Poona College of Pharmacy, Bharati Vidyapeeth (Deemed to be) University, Pune 411038, India. Electronic address: poojatiwary455@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Oswal",
+          "fore_name": "Krishil",
+          "affiliations": [
+            "Department of Pharmacy Practice, Poona College of Pharmacy, Bharati Vidyapeeth (Deemed to be) University, Pune 411038, India. Electronic address: krishiloswal@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Varghese",
+          "fore_name": "Ryan",
+          "affiliations": [
+            "Department of Pharmaceutical Sciences, Philadelphia College of Pharmacy, Saint Joseph's University, Philadelphia, PA 19104, USA. Electronic address: ryanvarghese14@gmail.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Antiviral Agents",
+        "Lipids",
+        "Nanoparticles",
+        "Drug Carriers",
+        "Animals",
+        "Drug Delivery Systems",
+        "Virus Diseases"
+      ],
+      "keywords": [
+        "Antivirals",
+        "and resistance",
+        "antiviral activity",
+        "drug loading",
+        "encapsulation efficiency",
+        "lipid nanocarriers",
+        "liposomes",
+        "nanostructured lipid carriers (NLCs)",
+        "solid lipid nanoparticles (SLNs)",
+        "viral disease",
+        "viral inhibition",
+        "virus"
+      ]
+    },
+    {
+      "pmid": "40785213",
+      "doi": "10.1080/09205063.2025.2545089",
+      "title": "Overcoming resistance: targeted nanomedicine solutions for cancer therapy.",
+      "abstract": "Multidrug resistance (MDR), or tumor drug resistance, is still one of the most serious issues in the treatment of cancer, which directly affects the efficacy of cancer therapies and the survival of patients. This review focuses on describing how nanotechnology in medicine may help to address MDR and presents novel approaches that may revolutionize targeted cancer treatment. In this review, we discuss the potential of different types of nanoparticles, such as liposomes, polymeric nanoparticles and metallic nanoparticles for targeted delivery, and the use of these nanoparticles to kill tumor cells without damaging the normal cells. Further, we discuss emerging approaches, including RNA interference, CRISPR-Cas9 gene editing, and stimuli-responsive nanoparticles, all of which indicate future directions for MDR combat. Based on such developments, nanomedicine turns out to be a crucial handle in oncology, end-user for superior and refine style of managing cancer. This review establishes the imperative practicing of transdisciplinary integration in order to attain the optimum advancement of nanomedicine in combating MDR and enhancing the survival prognosis of different forms of cancer in patients all over the world.",
+      "journal": "J Biomater Sci Polym Ed",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Patel",
+          "fore_name": "Bhaveshkumar",
+          "affiliations": [
+            "Product Development, Frontage Laboratories Inc., Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Vashi",
+          "fore_name": "Ankur",
+          "affiliations": [
+            "Flamma USA Group, Flamma USA, Phoenixville Pike-Malvern, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Kumar Kuril",
+          "fore_name": "Akhilesh",
+          "affiliations": [
+            "Department of Pharmacy, Bhagwant University, Ajmer, India."
+          ]
+        },
+        {
+          "last_name": "Kumar Subbappa",
+          "fore_name": "Praveen",
+          "affiliations": [
+            "R&D and Alliance Management, Slayback Pharma LLC, Princeton, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Borra",
+          "fore_name": "Ramakrishna",
+          "affiliations": [
+            "American Regent, New Albany, OH, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Nanomedicine",
+        "Neoplasms",
+        "Drug Resistance, Neoplasm",
+        "Animals",
+        "Antineoplastic Agents",
+        "Nanoparticles",
+        "Drug Delivery Systems"
+      ],
+      "keywords": [
+        "Nanomedicine",
+        "cancer",
+        "nanoparticle",
+        "resistance",
+        "targeted therapy"
+      ]
+    },
+    {
+      "pmid": "41741857",
+      "doi": "10.1002/jcb.10405",
+      "pmc": "12378134",
+      "title": "Radiopharmaceuticals: Status, Regulatory Landscape and Future Perspective.",
+      "abstract": "Radiopharmaceuticals are biologically active molecules labeled with radionuclides that have advanced the possibility of the nuclear medicine. They support non-invasive, high-resolution diagnostic imaging of molecular and physiological processes in vivo. The techniques such as positron emission tomography (PET) and single-photon emission computed tomography (SPECT) utilize short-lived \u03b2\u207a and \u03b3-emitting isotopes to generate highly sensitive, three-dimensional assessments of biological function. In therapeutic applications, radionuclides that emit \u03b2\u207b particles, \u03b1 particles, or Auger electrons enable targeted delivery of cytotoxic radiation to diseased tissues, while limiting off-target exposure to the healthy cells. The choice of radionuclide is guided by decay characteristics, half-life, production feasibility, and cost, and is coupled to a small molecule, peptide, antibody, or nanoparticle via bifunctional chelators that ensure in-vivo stability and precise biodistribution. Recent approvals highlight this clinical momentum, including Copper-64/Copper-67, a chemically matched theranostic radionuclide pair that reduces chelator-related variability and streamlines diagnostic therapeutic supply chains, Lutetium Lu-177 dotatate, an FDA approved radioligand therapy, and Lutetium Lu-177 vipivotide tetraxetan, a prostate cancer targeted radioligand therapy illustrate the clinical momentum of this field, yet hurdles remain in large-scale isotope supply, formulation robustness, and regulatory harmonization. This review highlights key innovations in vector design, radionuclide production, and formulation; explores how artificial intelligence is transforming imaging and therapy planning; and clarifies the shifting regulatory landscape for clinical translation. By highlighting both current achievements and future research priorities, we provide a comprehensive framework by integrating productions challenges, formulation considerations, and regulatory harmonization into a unified perspective that deliver precision imaging and personalized therapy.",
+      "journal": "AAPS PharmSciTech",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Maithania",
+          "fore_name": "Heena",
+          "affiliations": [
+            "Product Development, Frontage Laboratories, Inc., 75 E Uwchlan Ave, Exton, Pennsylvania, 19341, USA."
+          ]
+        },
+        {
+          "last_name": "John",
+          "fore_name": "Rijo",
+          "affiliations": [
+            "Department of Pharmaceutical Sciences, Philadelphia College of Pharmacy, Saint Joseph's University, Philadelphia, Pennsylvania, 19104, USA. rijotaurus@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Painoori",
+          "fore_name": "Raghunandhan",
+          "affiliations": [
+            "Regulatory Affairs, Odin Pharmaceuticals, Somerset, New Jersey, 08873, USA."
+          ]
+        },
+        {
+          "last_name": "Monpara",
+          "fore_name": "Jasmin",
+          "affiliations": [
+            "Department of Pharmaceutical Sciences, Philadelphia College of Pharmacy, Saint Joseph's University, Philadelphia, Pennsylvania, 19104, USA."
+          ]
+        },
+        {
+          "last_name": "Swaminathan",
+          "fore_name": "Shankar",
+          "affiliations": [
+            "Drug Product Development, Astellas Institute of Regenerative Medicine, Westborough, Massachusetts, 01581, USA."
+          ]
+        },
+        {
+          "last_name": "Kalhapure",
+          "fore_name": "Rahul",
+          "affiliations": [
+            "Product Development, Odin Pharmaceuticals, Somerset, New Jersey, 08873, USA. rahul.kalhapure@gmail.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "nuclear medicine",
+        "positron emission tomography (PET)",
+        "radiopharmaceuticals",
+        "targeted radionuclide therapy",
+        "theranostics"
+      ]
+    },
+    {
+      "pmid": "41533999",
+      "pmc": "PMC7390822",
+      "doi": "10.1200/PO-25-00462",
+      "title": "Gemogenovatucel-T Advantage in Clonal Tumor Mutation Burden-High Ovarian Cancer.",
+      "abstract": "Frontline ovarian cancer treatment protocols involving bevacizumab, poly (ADP-ribose) polymerase inhibitors, and PD-1/PD-L1 inhibitors have failed to improve overall survival (OS) in patients with homologous recombination-proficient (HRP) tumors. To determine mechanistic mutation signatures associated with OS advantage, we constructed a whole-exome sequencing bioinformatic pipeline assay to analyze all 91 patients enrolled in the double-blind randomized placebo-controlled phase II VITAL trial. We hypothesized that patients with stage IIIb-IV ovarian cancer who have HRP profile and high clonal tumor mutation burden (cTMB-H) will achieve greater response when undergoing maintenance therapy with gemogenovatucel-T. Our primary objective was assessment of OS using the Kaplan-Meier method among randomly assigned patients receiving either gemogenovatucel-T or placebo. The median OS in cTMB-H/HRP patients treated with gemogenovatucel-T was 68 months versus 19 months in those treated with placebo (hazard ratio [HR], 0.23; 95% CI, 0.06 to 0.83; 1-sided These results demonstrate OS advantage for maintenance treatment of adult females with newly diagnosed, advanced stage IIIb-IV ovarian cancer with HRP status and cTMB-H profile who are in complete response after debulking surgery and frontline platinum-based doublet chemotherapy.",
+      "journal": "JCO Precis Oncol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Coleman",
+          "fore_name": "Robert L",
+          "affiliations": [
+            "Texas Oncology, Shenandoah, TX."
+          ]
+        },
+        {
+          "last_name": "Rocconi",
+          "fore_name": "Rodney",
+          "affiliations": [
+            "University of Mississippi Medical Center, Cancer Center and Research Institute, Jackson, MS."
+          ]
+        },
+        {
+          "last_name": "Monk",
+          "fore_name": "Bradley J",
+          "affiliations": [
+            "Florida Cancer Specialists and Research Institute, West Palm Beach, FL."
+          ]
+        },
+        {
+          "last_name": "Walter",
+          "fore_name": "Adam",
+          "affiliations": [
+            "Gradalis, Inc, Dallas, TX."
+          ]
+        },
+        {
+          "last_name": "Stanbery",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Gradalis, Inc, Dallas, TX."
+          ]
+        },
+        {
+          "last_name": "Willoughby",
+          "fore_name": "David",
+          "affiliations": [
+            "Frontage Laboratories, Inc, Deerfield Beach, FL."
+          ]
+        },
+        {
+          "last_name": "Nagel",
+          "fore_name": "Casey",
+          "affiliations": [
+            "Frontage Laboratories, Inc, Deerfield Beach, FL."
+          ]
+        },
+        {
+          "last_name": "Wei",
+          "fore_name": "Qi",
+          "affiliations": [
+            "Frontage Laboratories, Inc, Deerfield Beach, FL."
+          ]
+        },
+        {
+          "last_name": "Wallraven",
+          "fore_name": "Gladice",
+          "affiliations": [
+            "Gradalis, Inc, Dallas, TX."
+          ]
+        },
+        {
+          "last_name": "Horvath",
+          "fore_name": "Staci",
+          "affiliations": [
+            "Gradalis, Inc, Dallas, TX."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Min",
+          "affiliations": [
+            "Stat-Beyond Consulting, Irvine, CA."
+          ]
+        },
+        {
+          "last_name": "Rao",
+          "fore_name": "Donald",
+          "affiliations": [
+            "Gradalis, Inc, Dallas, TX."
+          ]
+        },
+        {
+          "last_name": "Bognar",
+          "fore_name": "Ernest",
+          "affiliations": [
+            "Gradalis, Inc, Dallas, TX."
+          ]
+        },
+        {
+          "last_name": "Nemunaitis",
+          "fore_name": "John",
+          "affiliations": [
+            "Gradalis, Inc, Dallas, TX."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Ovarian Neoplasms",
+        "Middle Aged",
+        "Mutation",
+        "Double-Blind Method",
+        "Aged",
+        "Adult"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41407979",
+      "doi": "10.1016/j.jcis.2023.09.162",
+      "pmc": "3608844",
+      "title": "Implementing Synthetic Multi-Transmembrane Receptor Protein in a Duplex Immunoassay for Assessment of Neutralizing Antibody to a Bispecific Biotherapeutic.",
+      "abstract": "The development of multi-specific biotherapeutics has revolutionized targeted therapy by simultaneously engaging multiple receptors or pathways, thereby enhancing therapeutic efficacy and specificity. However, evaluating the immunogenic potential of these complex molecules remains a significant challenge, particularly in the reliable detection of neutralizing antibodies (NAbs). To support the development of a bispecific biotherapeutic, we initially established a cell-based bioassay utilizing a cytotoxicity assay platform for NAb assessment. This traditional approach faced significant limitations due to severely limited drug tolerance which prevented accurate NAb classification. To address this hurdle, we developed a non-cell based competitive ligand binding (CLB) assay. The primary obstacle was the multi-transmembrane receptor target, which lacks a soluble form suitable for conventional immunoassays. We successfully addressed this challenge by leveraging a novel synthetic version of the multi-transmembrane receptor as the surrogate target. This enabled the development of a duplex competitive ligand binding assay utilizing a homogeneous bead-based AlphaLISA\u2122 assay platform. This innovative duplex NAb assay significantly increased drug tolerance by at least 170-fold when compared to the cell-based assay, enabling sensitive and specific detection of NAb against each drug target binding domain. The AlphaLISA\u2122 based CLB NAb exhibited negligible matrix interference and generated excellent intra-assay and inter-assay precision, with data concordant across different reagent lots and plate readers. Our results demonstrate that the AlphaLISA\u2122 assay platform offers a robust, sensitive, and drug-tolerant alternative to traditional cell-based NAb assays. This approach provides a superior solution for assessment of NAb against multi-specific biotherapeutics targeting multi-transmembrane receptors.",
+      "journal": "AAPS J",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Wu",
+          "fore_name": "Bonnie",
+          "affiliations": [
+            "Bioanalytical Discovery and Development Sciences, Johnson & Johnson, 1400 McKean Rd, Spring House, PA, 19477, USA. bwu23@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Devlin",
+          "fore_name": "James",
+          "affiliations": [
+            "Bioanalytical Discovery and Development Sciences, Johnson & Johnson, 1400 McKean Rd, Spring House, PA, 19477, USA."
+          ]
+        },
+        {
+          "last_name": "Schnarr",
+          "fore_name": "Megan",
+          "affiliations": [
+            "Bioanalytical Discovery and Development Sciences, Johnson & Johnson, 1400 McKean Rd, Spring House, PA, 19477, USA."
+          ]
+        },
+        {
+          "last_name": "Ji",
+          "fore_name": "Yingbiao",
+          "affiliations": [
+            "Frontage Laboratories, 700 Pennsylvania Dr , Exton, PA, 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Biwei",
+          "affiliations": [
+            "Frontage Laboratories, 700 Pennsylvania Dr , Exton, PA, 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Yong",
+          "affiliations": [
+            "Bioanalytical Discovery and Development Sciences, Johnson & Johnson, 1400 McKean Rd, Spring House, PA, 19477, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Tong-Yuan",
+          "affiliations": [
+            "Bioanalytical Discovery and Development Sciences, Johnson & Johnson, 1400 McKean Rd, Spring House, PA, 19477, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Antibodies, Bispecific",
+        "Humans",
+        "Antibodies, Neutralizing",
+        "Immunoassay",
+        "Animals",
+        "Ligands",
+        "Binding, Competitive"
+      ],
+      "keywords": [
+        "AlphaLISA\u2122",
+        "Bispecific biotherapeutic",
+        "Cell-based assay",
+        "Competitive ligand binding (CLB) assay",
+        "Duplex NAb assay",
+        "Nanodisc",
+        "Neutralizing antibody (NAb)"
+      ]
+    },
+    {
+      "pmid": "41293187",
+      "pmc": "PMC9161695",
+      "doi": "10.3389/fimmu.2022.848279",
+      "title": "The anti-allergic effect of",
+      "abstract": "Current treatment strategies for Allergic rhinitis (AR) are often limited by adverse effects and less efficacy. This study aims to evaluate the therapeutic effect of Mice were sensitized intraperitoneally with RAGW or HDM on days 0, 7, and 14, followed by daily intranasal challenges with the respective allergen from day 21 to day 49. The treatment group mice were orally administered cetirizine (10\u202fmg/kg) as positive control or three different doses of In both RAGW- and HDM-induced AR models, This study demonstrated the",
+      "journal": "Front Nutr",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Zhao",
+          "fore_name": "Pei",
+          "affiliations": [
+            "College of Life Sciences, Shanxi Agricultural University-Taigu Campus, Jinzhong, China.",
+            "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Bin",
+          "affiliations": [
+            "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Lian S",
+          "affiliations": [
+            "Frontage Laboratories Inc., Suzhou, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Zhongli",
+          "affiliations": [
+            "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Ming D",
+          "affiliations": [
+            "College of Life Sciences, Shanxi Agricultural University-Taigu Campus, Jinzhong, China.",
+            "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "IgE",
+        "Lactobacillus plantarum GUANKE",
+        "Th2 cytokines",
+        "allergic rhinitis",
+        "treatment"
+      ]
+    },
+    {
+      "pmid": "40829890",
+      "pmc": "PMC10985467",
+      "doi": "10.1158/1535-7163.Mct-23-0506",
+      "title": "Bioanalysis for PK for antibody drug conjugates using ligand binding assay-challenges and bioanalytical strategies.",
+      "abstract": "Antibody-drug conjugates (ADCs) represent a rapidly advancing class of biotherapeutics for oncology and immunological indications. Comprehensive pharmacokinetic (PK) characterization is critical for assessing ADCs efficacy, safety, and overall therapeutic performance. Ligand binding assays (LBAs) are widely employed in both academic and industrial settings for the quantitative and semi-quantitative analysis of biologics. These assays rely on specific molecular interactions - commonly between antigens and antibodies or ligands and receptors - and offer high sensitivity, robustness, and cost-efficiency. In ADC bioanalysis, LBAs are utilized to quantify multiple types of analytes, including total antibody and antibody-drug conjugate. However, the development of LBA methods for ADCs is challenged by the structural heterogeneity of these molecules, analyte instability, and the need for high selectivity and sensitivity. This review summarizes the application of LBAs in ADC PK studies, outlines common methodological challenges, and discusses strategic considerations for assay development to ensure accurate and reliable bioanalytical measurements.",
+      "journal": "Bioanalysis",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Liu",
+          "fore_name": "Xiaonan",
+          "affiliations": [
+            "Frontage Laboratories, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Frontage Laboratories, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Nan",
+          "affiliations": [
+            "Frontage Laboratories, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "John Zhongping",
+          "affiliations": [
+            "Frontage Laboratories, Exton, PA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Immunoconjugates",
+        "Humans",
+        "Ligands",
+        "Animals"
+      ],
+      "keywords": [
+        "ADC drug",
+        "PK",
+        "bioanalysis",
+        "ligand binding assays",
+        "payload",
+        "total antibody"
+      ]
+    },
+    {
+      "pmid": "40389100",
+      "doi": "10.1016/j.tiv.2025.106080",
+      "title": "In vitro metabolic clearance of malathion in rats and humans.",
+      "abstract": "In vitro intrinsic clearance of malathion was determined in adult and juvenile rat and human liver microsomes. Due to rapid elimination with no detectable levels of the parent, clearance rates of malathion were calculated from formation kinetics of its metabolites: malathion monocarboxylic acid (MMCA) and malaoxon. To correlate in vitro data to in vivo exposure, pharmacokinetics (PK) study was performed in adult rats following a single i.v. (10\u00a0mg/kg bw) or oral dose (150\u00a0mg/kg bw). The in vitro kinetics data indicate that the metabolic clearance of malathion via formation of MMCA was at the same rate in adult and juvenile human liver microsomes (HLM), but in rat liver microsomes (RLM) the rate was about 10-fold higher in adults compared to juveniles. The rate of formation of malaoxon among the two species and age groups was within 3.5-fold difference. The formation kinetics of malaoxon represented <0.5\u00a0% of that observed for MMCA in both rats and humans. As seen in the in vitro results, following i.v. or oral dosing in rats, malathion was not detectable with MMCA being the major metabolite. The kinetics data from this study were useful for the development of a PBPK model for malathion.",
+      "journal": "Toxicol In Vitro",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Nallani",
+          "fore_name": "Gopinath",
+          "affiliations": [
+            "FMC Corporation, 2929 Walnut St, Philadelphia, PA 19104, USA. Electronic address: Gopinath.Nallani@fmc.com."
+          ]
+        },
+        {
+          "last_name": "Chandrasekaran",
+          "fore_name": "Appavu",
+          "affiliations": [
+            "Frontage Laboratories Inc., 700 Pennsylvania Dr, Exton, PA 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Kassahun",
+          "fore_name": "Kelem",
+          "affiliations": [
+            "Frontage Laboratories Inc., 700 Pennsylvania Dr, Exton, PA 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Shen",
+          "fore_name": "Li",
+          "affiliations": [
+            "Frontage Laboratories Inc., 700 Pennsylvania Dr, Exton, PA 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Reiss",
+          "fore_name": "Rick",
+          "affiliations": [
+            "Exponent, 1800 Diagonal Rd, Suite 500, Alexandria, VA 22314, USA."
+          ]
+        },
+        {
+          "last_name": "Whatling",
+          "fore_name": "Paul",
+          "affiliations": [
+            "FMC Corporation, 2929 Walnut St, Philadelphia, PA 19104, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Malathion",
+        "Microsomes, Liver",
+        "Humans",
+        "Male",
+        "Insecticides",
+        "Rats, Sprague-Dawley",
+        "Metabolic Clearance Rate",
+        "Rats",
+        "Administration, Oral",
+        "Adult"
+      ],
+      "keywords": [
+        "In vitro clearance",
+        "Liver microsomes",
+        "MMCA",
+        "Malaoxon",
+        "Malathion",
+        "PBPK"
+      ]
+    },
+    {
+      "pmid": "40739687",
+      "doi": "10.2174/0113892010352443250402184623",
+      "title": "Spray Drying: A Promising Technique for Inhalable Vaccine Development.",
+      "abstract": "In the pursuit of innovative vaccine delivery methods, this review explores the potential of spray drying for formulating inhalable vaccines. Traditional vaccine approaches face challenges in administration, storage, and accessibility, especially in resource-limited settings. Inhalable vaccines, utilizing techniques like spray drying, offer a promising solution. By bypassing systemic circulation and directly targeting the respiratory mucosa, inhalable vaccines can induce robust mucosal and systemic immune responses. Spray drying, a versatile technique, is particularly well-suited for formulating inhalable vaccines. It transforms liquid vaccine formulations into finely dispersed powders, enabling efficient delivery to the lungs. This review delves into the unique characteristics of spray-dried particles, their impact on immune system activation, and their role in overcoming traditional vaccine limitations. The exploration emphasizes the potential for spray drying to revolutionize vaccine development, providing a comprehensive overview of its applications and contributions to improving global public health.",
+      "journal": "Curr Pharm Biotechnol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Vemulapalli",
+          "fore_name": "Sridhar",
+          "affiliations": [
+            "Department of Pharmaceutical Sciences, University of Nebraska Medical Center, Omaha, NE, 68198-6025, USA."
+          ]
+        },
+        {
+          "last_name": "Rojekar",
+          "fore_name": "Satish",
+          "affiliations": [
+            "Mount Sinai Center of Translational Medicine and Pharmacology, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Gandhi",
+          "fore_name": "Manit",
+          "affiliations": [
+            "Faculty of Pharmacy, The Maharaja Sayajirao University of Baroda, Kalabhavan, Vadodara, Gujarat 390 001, India."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Bhavesh",
+          "affiliations": [
+            "Frontage Laboratories, Inc. 75 E Uwchlan Ave. Suite 100, Exton, PA 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Virani",
+          "fore_name": "Amitkumar",
+          "affiliations": [
+            "Ernest Mario School of Pharmacy, Rutgers-The State University of New Jersey, 160 Frelinghuysen Road, Piscataway, NJ 08854, USA."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Purva",
+          "affiliations": [
+            "The Arnold & Marie Schwartz College of Pharmacy and Health Sciences, Long Island University, 1 University Plaza, Brooklyn, New York 11201, USA."
+          ]
+        },
+        {
+          "last_name": "Parikh",
+          "fore_name": "Kinjal",
+          "affiliations": [
+            "Maharaja Sayajirao University of Baroda Pharmacy Vadodara India."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Inhalable vaccine",
+        "dry powder vaccine",
+        "immune response",
+        "particle characteristics",
+        "pulmonary delivery",
+        "respiratory mucosa",
+        "spray drying",
+        "systemic immune response."
+      ]
+    },
+    {
+      "pmid": "40248960",
+      "pmc": "PMC11216500",
+      "doi": "10.4155/bio-2023-0167",
+      "title": "Recommendations on biomarker assay validation (BAV) in tissues by GCC.",
+      "abstract": "Biomarker analysis enables a deep understanding of physiological and biological processes and offers insights into pathological disease states and conditions. When measured in tissues, the spatial distribution of biomarkers may be evaluated. To meet regulatory and sponsor requirements, guidance on the approach to validation and the parameters to be evaluated is essential. The main goals of this GCC white paper are to disseminate the survey results discussed during the 16",
+      "journal": "Bioanalysis",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Yuan",
+          "fore_name": "Moucun",
+          "affiliations": [
+            "PPD, part of Thermo Fisher Scientific, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Aihua",
+          "affiliations": [
+            "Resolian, Malvern, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Accurant Biotech, Cranbury, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Sales",
+          "fore_name": "Kurt",
+          "affiliations": [
+            "Agilex Biolabs, Adelaide, Australia."
+          ]
+        },
+        {
+          "last_name": "Karnik",
+          "fore_name": "Shane",
+          "affiliations": [
+            "Aliri Bioanalysis, Colorado Springs, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Voelker",
+          "fore_name": "Troy",
+          "affiliations": [
+            "Aliri Bioanalysis, Salt Lake City, UT, USA."
+          ]
+        },
+        {
+          "last_name": "Salha",
+          "fore_name": "Danielle",
+          "affiliations": [
+            "Altasciences, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Zimmer",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Alturas Analytics, Moscow, ID, USA."
+          ]
+        },
+        {
+          "last_name": "O'Dell",
+          "fore_name": "Mark",
+          "affiliations": [
+            "B2S Life Sciences, Franklin, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Gorityala",
+          "fore_name": "Shashank",
+          "affiliations": [
+            "BioAgilytix, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Lester",
+          "fore_name": "Todd",
+          "affiliations": [
+            "BioAgilytix, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Reynolds",
+          "fore_name": "Gregory",
+          "affiliations": [
+            "BioAgilytix, San Diego, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Tary-Lehmann",
+          "fore_name": "Magdalena",
+          "affiliations": [
+            "Cellular Technology Ltd, Beachwood, OH, USA."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Mathilde",
+          "affiliations": [
+            "Cerba Research Canada Formally CIRION BioPharma Research Inc, a Cerba Research Company, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Roberge",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Cerba Research Canada Formally CIRION BioPharma Research Inc, a Cerba Research Company, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Malone",
+          "fore_name": "Katherine",
+          "affiliations": [
+            "Charles River Laboratories, Reno, NV, USA."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Vimal",
+          "affiliations": [
+            "Charles River Laboratories, Reno, NV, USA."
+          ]
+        },
+        {
+          "last_name": "Love",
+          "fore_name": "Iain",
+          "affiliations": [
+            "Charles River Laboratories, EdinburgTranent, UK."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Jenny",
+          "affiliations": [
+            "CMIC, Hoffman Estates, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Diaz",
+          "fore_name": "Manisha",
+          "affiliations": [
+            "Eurofins Viracor BioPharma Services, Lenexa, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Frontage Laboratories, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Wei",
+          "affiliations": [
+            "GCC, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "McGregor",
+          "fore_name": "Jessica",
+          "affiliations": [
+            "GCC, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Leskovar",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "ICON, Whitesboro, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Kernstock",
+          "fore_name": "Robert",
+          "affiliations": [
+            "ICON, Whitesboro, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Pellerin",
+          "fore_name": "Mario",
+          "affiliations": [
+            "ICON, Whitesboro, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Brown",
+          "fore_name": "Michael",
+          "affiliations": [
+            "IQVIA Laboratories, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Spytko",
+          "fore_name": "Adriane",
+          "affiliations": [
+            "IQVIA Laboratories, Ithaca, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Lowes",
+          "fore_name": "Stephen",
+          "affiliations": [
+            "IQVIA Laboratories, Ithaca, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Ambrose",
+          "fore_name": "David",
+          "affiliations": [
+            "KCAS Bio, Olathe, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Dufield",
+          "fore_name": "Dawn",
+          "affiliations": [
+            "KCAS Bio, Olathe, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Kane",
+          "fore_name": "Cheikh",
+          "affiliations": [
+            "KCAS Bio, Olathe, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Veeramachaneni",
+          "fore_name": "Rathna",
+          "affiliations": [
+            "KCAS Bio, Olathe, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Luna",
+          "fore_name": "Marsha",
+          "affiliations": [
+            "KCAS Bio, Olathe, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Warrino",
+          "fore_name": "Dominic",
+          "affiliations": [
+            "KCAS Bio, Olathe, KS, USA."
+          ]
+        },
+        {
+          "last_name": "Dwivedi",
+          "fore_name": "Varun",
+          "affiliations": [
+            "KCAS Bio, Spring House, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Allan",
+          "affiliations": [
+            "Keystone Bioanalytical, North Wales, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Hyer",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Labcorp, Madison, WI, USA."
+          ]
+        },
+        {
+          "last_name": "Iles",
+          "fore_name": "Tracy",
+          "affiliations": [
+            "Labcorp, Harrogate, UK."
+          ]
+        },
+        {
+          "last_name": "Majumdar",
+          "fore_name": "Ritankar",
+          "affiliations": [
+            "Labcorp, Chantilly, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Sikkema",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Labcorp, Chantilly, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Thomas",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Labcorp, Indianapolis, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Carlsson",
+          "fore_name": "Annika",
+          "affiliations": [
+            "Mercodia AB, Uppsala, Sweden."
+          ]
+        },
+        {
+          "last_name": "Dakappagari",
+          "fore_name": "Naveen",
+          "affiliations": [
+            "Navigate BioPharma Services, Inc. (A Novartis Subsidiary), Carlsbad, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Riccitelli",
+          "fore_name": "Nathan",
+          "affiliations": [
+            "Navigate BioPharma Services, Inc. (A Novartis Subsidiary), Carlsbad, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Marco",
+          "fore_name": "Chantal Di",
+          "affiliations": [
+            "Pharma Medica Research, Mississauga, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Bouhajib",
+          "fore_name": "Mohammed",
+          "affiliations": [
+            "Pharma Medica Research, Mississauga, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Iordachescu",
+          "fore_name": "Adriana",
+          "affiliations": [
+            "Pharma Serv International, Bucharest, Romania."
+          ]
+        },
+        {
+          "last_name": "Sanghvi",
+          "fore_name": "Mitesh",
+          "affiliations": [
+            "Pharmaron, Germantown, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Barton",
+          "fore_name": "Hollie",
+          "affiliations": [
+            "PPD, part of Thermo Fisher Scientific, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Lavelle",
+          "fore_name": "Amy",
+          "affiliations": [
+            "PPD, part of Thermo Fisher Scientific, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Dompkowski",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "PPD, part of Thermo Fisher Scientific, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Rundlett",
+          "fore_name": "Stephen",
+          "affiliations": [
+            "Precision for Medicine, Redwood City, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Matys",
+          "fore_name": "Katie",
+          "affiliations": [
+            "Resolian, Malvern, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Sangster",
+          "fore_name": "Tim",
+          "affiliations": [
+            "Resolian, Fordham, UK."
+          ]
+        },
+        {
+          "last_name": "Turksma",
+          "fore_name": "Annelies",
+          "affiliations": [
+            "Sanquin Diagnostic Services, Amsterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Gu",
+          "fore_name": "Weihua",
+          "affiliations": [
+            "Shanghai Xihua Scientific Co, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Jia",
+          "affiliations": [
+            "Shanghai Xihua Scientific Co, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Hoffpauir",
+          "fore_name": "Brian",
+          "affiliations": [
+            "Smithers, Gaithersburg, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Rocha",
+          "fore_name": "Agostinho",
+          "affiliations": [
+            "Smithers, Ewing, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Pirro",
+          "fore_name": "John",
+          "affiliations": [
+            "Sword Bio, Long Branch, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Bergeron",
+          "fore_name": "Jerome",
+          "affiliations": [
+            "Syneos Health, Quebec City, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "O'Brien",
+          "fore_name": "Kyla",
+          "affiliations": [
+            "Syneos Health, Princeton, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Xinping",
+          "affiliations": [
+            "Tri-Apex Inc, Plainsboro, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "United-Power Pharma Tech Co, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Yamashita",
+          "fore_name": "Jim",
+          "affiliations": [
+            "WuXi AppTec, Plainsboro, NJ, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Biomarkers",
+        "Humans",
+        "Validation Studies as Topic",
+        "Biological Assay"
+      ],
+      "keywords": [
+        "BAV",
+        "Biomarkers",
+        "GCC",
+        "biomarker assay validation",
+        "global CRO council in bioanalysis",
+        "tissues"
+      ]
+    },
+    {
+      "pmid": "39522102",
+      "doi": "10.1080/09205063.2024.2422704",
+      "title": "Preparation, optimization, and evaluation of ligand-tethered atovaquone-proguanil-loaded nanoparticles for malaria treatment.",
+      "abstract": "This work focused on improving antimalarial therapy through the development and characterization of Atovaquone-Proguanil-loaded nanoparticles employing a 3",
+      "journal": "J Biomater Sci Polym Ed",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Patil",
+          "fore_name": "Anasuya",
+          "affiliations": [
+            "Department of Pharmaceutics, KLE College of Pharmacy, Bengaluru, Karnataka, India."
+          ]
+        },
+        {
+          "last_name": "Singh",
+          "fore_name": "Gurinderdeep",
+          "affiliations": [
+            "Department of Pharmaceutical Sciences and Drug Research, Punjabi University Patiala, Punjab, India."
+          ]
+        },
+        {
+          "last_name": "Dighe",
+          "fore_name": "Rajendra Dnyandeo",
+          "affiliations": [
+            "Department of Pharmaceutical Chemistry, K.B.H.S.S Trust's, Institute of Pharmacy, Malegaon, Nashik, Maharashtra, India."
+          ]
+        },
+        {
+          "last_name": "Dev",
+          "fore_name": "Dhruv",
+          "affiliations": [
+            "Department of Pharmacy, Shivalik College of Pharmacy Nangal, Rupnagar, Punjab, India."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Bhaveshkumar A",
+          "affiliations": [
+            "Group Leader- Product Development, Frontage laboratories Inc., Exton, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Rudrangi",
+          "fore_name": "Samatha",
+          "affiliations": [
+            "Department of Pharmacy Practice, Lifecare Pharmacy of Austin, Bexar, Texas, USA."
+          ]
+        },
+        {
+          "last_name": "Tiwari",
+          "fore_name": "Gaurav",
+          "affiliations": [
+            "PSIT-Pranveer Singh Institute of Technology (Pharmacy), Kanpur, Uttar Pradesh, India."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Atovaquone",
+        "Antimalarials",
+        "Animals",
+        "Proguanil",
+        "Nanoparticles",
+        "Malaria",
+        "Drug Carriers",
+        "Mice",
+        "Drug Liberation",
+        "Polylactic Acid-Polyglycolic Acid Copolymer",
+        "Particle Size",
+        "Ligands",
+        "Drug Combinations",
+        "Polyvinyl Alcohol",
+        "Cell Survival",
+        "Plasmodium berghei"
+      ],
+      "keywords": [
+        "Atovaquone-Proguanil",
+        "Eudragit L100",
+        "Nanoparticles",
+        "PLGA",
+        "cytotoxicity"
+      ]
+    },
+    {
+      "pmid": "40082566",
+      "pmc": "PMC4893825",
+      "doi": "10.1016/j.cels.2020.09.001",
+      "title": "Exome sequencing shows same pattern of clonal tumor mutational burden, intratumor heterogenicity and clonal neoantigen between autologous tumor and Vigil product.",
+      "abstract": "Retrospective data support overall survival (OS) advantage to high clonal tumor mutation burden (cTMB), high clonal neoantigen load (cNEO) and low intratumor heterogeneity (ITH) in cancer patients who receive immunotherapy. In order to explore this relationship prospectively with Vigil, a triple function targeted immunotherapy involving ovarian cancer patients in long term follow up of the Phase 2b VITAL trial, we developed an exome sequencing procedure and associated bioinformatics pipeline to determine clonal signal patterns. DNA libraries containing exome sequences tagged with unique molecular identifiers (UMI) were prepared from paired samples and sequenced on Illumina sequencers to high coverage depths of\u2009~\u2009930X (tumor) and\u2009~\u2009130X (normal). Raw sequence reads were processed into optimized binary alignment map (BAM) files, using the UMI information. The BAM files were inputted into modules for calling MHC-I alleles, annotating single nucleotide variants (SNVs) and small insertions/deletions (InDels), and for determination of allelic copy number. The outputs were used to predict the sequence of peptide neoantigens and to perform clonality analysis in order to assign each SNV and InDel in a patient tumor sample to a primary clone or subclone. The Clonal Neoantigen pipeline was further assessed using whole exome Illumina sequencing data from three previously published studies. Evaluation of the pipeline using synthetic sequencing data from a sub-clonal deconvolution tool benchmarking study, showed positive predictive value (PPV) and positive percent agreement (PPA) of\u2009>\u200997.5% and\u2009>\u200996.5%, respectively, for SNV and InDel detection with minimum requirements for variant density and allele fraction. Haplotype calls from the Clonal Neoantigen pipeline MHC-I/ MHC-II typing module matched a published benchmark for 91.5% of the calls in a sample of 99 patients. Analysis of exome sequencing data from 14 patients with advanced melanoma revealed a strong correlation between cTMB values determined by the Clonal Neoantigen pipeline as compared to those calculated from the published data (R",
+      "journal": "Sci Rep",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Willoughby",
+          "fore_name": "David",
+          "affiliations": [
+            "Frontage Laboratories, Inc, Deerfield Beach, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Bognar",
+          "fore_name": "Ernest",
+          "affiliations": [
+            "Gradalis, Inc, 2545 Golden Bear Dr., Suite 110, Carrollton, Dallas, TX, 75006, USA."
+          ]
+        },
+        {
+          "last_name": "Stanbery",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Gradalis, Inc, 2545 Golden Bear Dr., Suite 110, Carrollton, Dallas, TX, 75006, USA."
+          ]
+        },
+        {
+          "last_name": "Nagel",
+          "fore_name": "Casey",
+          "affiliations": [
+            "Frontage Laboratories, Inc, Deerfield Beach, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Wallraven",
+          "fore_name": "Gladice",
+          "affiliations": [
+            "Gradalis, Inc, 2545 Golden Bear Dr., Suite 110, Carrollton, Dallas, TX, 75006, USA."
+          ]
+        },
+        {
+          "last_name": "Pruthi",
+          "fore_name": "Aman",
+          "affiliations": [
+            "Frontage Laboratories, Inc, Deerfield Beach, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Bild",
+          "fore_name": "Nicholas",
+          "affiliations": [
+            "Frontage Laboratories, Inc, Deerfield Beach, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Stamper",
+          "fore_name": "Ericca",
+          "affiliations": [
+            "Frontage Laboratories, Inc, Deerfield Beach, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Rao",
+          "fore_name": "Donald",
+          "affiliations": [
+            "Gradalis, Inc, 2545 Golden Bear Dr., Suite 110, Carrollton, Dallas, TX, 75006, USA."
+          ]
+        },
+        {
+          "last_name": "Walter",
+          "fore_name": "Adam",
+          "affiliations": [
+            "Gradalis, Inc, 2545 Golden Bear Dr., Suite 110, Carrollton, Dallas, TX, 75006, USA."
+          ]
+        },
+        {
+          "last_name": "Nemunaitis",
+          "fore_name": "John",
+          "affiliations": [
+            "Gradalis, Inc, 2545 Golden Bear Dr., Suite 110, Carrollton, Dallas, TX, 75006, USA. Johnnemunaitis@gmail.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Exome Sequencing",
+        "Antigens, Neoplasm",
+        "Female",
+        "Mutation",
+        "Ovarian Neoplasms",
+        "Exome",
+        "Immunotherapy",
+        "High-Throughput Nucleotide Sequencing",
+        "Neoplasms"
+      ],
+      "keywords": [
+        "Autologous tumor",
+        "Clonal tumor mutation burden",
+        "Intratumor heterogeneity",
+        "Neoantigen",
+        "Tumor mutation burden",
+        "Vigil"
+      ]
+    },
+    {
+      "pmid": "39838662",
+      "doi": "10.2174/0113892010344931241220042746",
+      "title": "Niosomal Encapsulation of Anti-Cancer Peptides: A Revolutionary Strategy in Cancer Therapy.",
+      "abstract": "Cancer treatment has evolved significantly over the years, incorporating a range of modalities including surgery, radiation, chemotherapy, and immunotherapy. However, challenges such as drug resistance, systemic toxicity, and poor targeting necessitate innovative approaches. Peptides have gained attention in cancer therapy due to their specificity, potency, and ability to modulate various biological pathways. Peptide-based drugs can act as hormones, enzyme inhibitors, or targeting ligands, contributing to their versatile role in cancer treatment. However, peptides face several challenges, including instability, rapid degradation, and poor bioavailability. One promising strategy is the use of niosomal delivery systems for peptidebased therapies. Niosomes, which resemble liposomes in structure, are vesicles based on nonionic surfactants. They are composed of a bilayer created through the self-assembly of non-ionic surfactants in water, enabling them to encapsulate hydrophilic, lipophilic, and amphiphilic drugs. Their unique properties, such as biocompatibility, biodegradability, and ability to encapsulate diverse therapeutic agents, make them suitable for drug delivery applications. This review aims to explore how the niosomal preparation of peptides can revolutionize oncology drugs by overcoming critical challenges like drug resistance, systemic toxicity, poor targeting, instability, rapid degradation, and low bioavailability. This review aims to explore how niosomes can specifically address key limitations in cancer therapy, including targeting, bioavailability, and stability of peptide-based drugs. By consolidating recent advancements, the review sheds light on how niosomal encapsulation can overcome barriers in cancer treatment and improve therapeutic outcomes for patients.",
+      "journal": "Curr Pharm Biotechnol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Patel",
+          "fore_name": "Bhaveshkumar A",
+          "affiliations": [
+            "Product Development, Frontage Laboratories Inc, 700, Pennsylvania Dr, Exton, PA, 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Vashi",
+          "fore_name": "Ankur",
+          "affiliations": [
+            "Analytical Department, Flamma USA, Phoenixville Pike-Malvern, PA 19355."
+          ]
+        },
+        {
+          "last_name": "Borra",
+          "fore_name": "Ramakrishna",
+          "affiliations": [
+            "R&D Technical Project, American Regent, 6610 New Albany, OH 43054, USA."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Mehul",
+          "affiliations": [
+            "Department of Pharmaceutical Chemistry and Analysis, Ramanbhai Patel College of Pharmacy, Charotar University of Science & Technology, CHARUSAT At- Changa, Dist- Anand, Ta- Petlad, Pin-388421."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Anti-Cancer Peptides",
+        "Bioavailability",
+        "Nanovesicles",
+        "Niosomes",
+        "Targeted Drug Delivery"
+      ]
+    },
+    {
+      "pmid": "39426236",
+      "doi": "10.1016/j.intimp.2024.113395",
+      "title": "Monoclonal antibody targeting CEACAM1 enhanced the response to anti-PD1 immunotherapy in non-small cell lung cancer.",
+      "abstract": "Carcinoembryonic antigen-related cellular adhesion molecule 1 (CEACAM1), an extensively studied cell surface molecule, mainly expressed by certain epithelial, endothelial, lymphoid and myeloid cells, and is an attractive target for cancer immunotherapy. Here, to investigate the anti-tumor effects and mechanisms of CEACAM1 antibody, we prepared the antibody and explored its anti-tumor effects on Non-small Cell Lung Cancer (NSCLC) in vitro and in vivo. Firstly, antigen of human CEACAM1 recombinant protein was immunized on BALB/c mice and the high-affinity mouse anti-human monoclonal antibody 3C11 was selected by hybridoma technique. Next, ELISA was applied to detect the blocking effects of 3C11 on CEACAM1-CEACAM1 and CEACAM1-CEACAM5. Then, cell assays and ELISA were used to evaluate the role of 3C11 in blocking CEACAM1-CEACAM1 immunosuppressive signal transduction between dendritic cells (DCs) and T cells or natural killer cells (NK) and tumor cells. Finally, the synergistic anti-tumor effect of 3C11 combined with anti-PD-1 antibody was evaluated through cell stimulation assays and NCI-H358-induced tumor models in mice. The results showed the EC50 of 3C11 binding to NCI-H358 or exhausted T cells were 0.04971\u00a0\u03bcg/mL and 0.03475\u00a0\u03bcg/mL, respectively. 3C11 activated the exhausted T cells and enhanced the killing effect of NK by blocking CEACAM1-CEACAM1. In addition, the combination of 3C11 and anti-PD1 antibody produced synergistic anti-tumor effect on NSCLC. Its improved tumor growth inhibition value (TGI) of anti-PD-1 from 18\u00a0% to 85\u00a0% in vivo. These findings suggest that 3C11 can be considered an effective immunotherapy drug for NSCLC.",
+      "journal": "Int Immunopharmacol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Zhao",
+          "fore_name": "Lianqi",
+          "affiliations": [
+            "School of Pharmacy, Nantong University, Nantong, Jiangsu 226001, PR China; Ouyue Biotech. Inc, Suzhou, Jiangsu 215400, PR China; In Vivo Pharmacology, Frontage Laboratories, Suzhou, Jiangsu 215400, PR China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Tingting",
+          "affiliations": [
+            "School of Pharmacy, Nantong University, Nantong, Jiangsu 226001, PR China; Ouyue Biotech. Inc, Suzhou, Jiangsu 215400, PR China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Yinwei",
+          "affiliations": [
+            "School of Pharmacy, Nantong University, Nantong, Jiangsu 226001, PR China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Pengbo",
+          "affiliations": [
+            "Department of Respiratory and Critical Care Medicine, Affiliated Hospital of Nantong University, Nantong 226001, Jiangsu, PR China. Electronic address: pengbow611@163.com."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Lin",
+          "affiliations": [
+            "School of Pharmacy, Nantong University, Nantong, Jiangsu 226001, PR China. Electronic address: luolin@ntu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Humans",
+        "Lung Neoplasms",
+        "Mice, Inbred BALB C",
+        "Antigens, CD",
+        "Antibodies, Monoclonal",
+        "Immunotherapy",
+        "Cell Adhesion Molecules",
+        "Programmed Cell Death 1 Receptor",
+        "Mice",
+        "Cell Line, Tumor",
+        "Killer Cells, Natural",
+        "Female",
+        "Immune Checkpoint Inhibitors",
+        "Dendritic Cells",
+        "T-Lymphocytes",
+        "Xenograft Model Antitumor Assays",
+        "Carcinoembryonic Antigen"
+      ],
+      "keywords": [
+        "CEACAM1",
+        "Exhausted T cell",
+        "NK",
+        "Non-small cell lung cancer",
+        "Targeting the IgV domain"
+      ]
+    },
+    {
+      "pmid": "38957394",
+      "pmc": "PMC11217764",
+      "doi": "10.3389/fphar.2024.1439156",
+      "title": "Editorial: Ion channels and transporters as drug targets in immune disorders.",
+      "abstract": "",
+      "journal": "Front Pharmacol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Gawali",
+          "fore_name": "Vaibhavkumar S",
+          "affiliations": [
+            "Frontage Laboratories, Concord, OH, United States."
+          ]
+        },
+        {
+          "last_name": "Narkhede",
+          "fore_name": "Yogesh B",
+          "affiliations": [
+            "University of Notre Dame, Notre Dame, IN, United States."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Sachin",
+          "affiliations": [
+            "Central Drug Research Institute, Lucknow, India."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "channelopathies",
+        "immune cells",
+        "immune disorders",
+        "inflammation",
+        "ion channels",
+        "molecular drug targets",
+        "pharmacology"
+      ]
+    },
+    {
+      "pmid": "38734151",
+      "doi": "10.1016/j.taap.2024.116959",
+      "title": "Effects of pethoxamid treatment on the disposition of thyroxine in rats.",
+      "abstract": "Pethoxamid (PXA) is a chloroacetamide herbicide that works by inhibiting the germination of target weeds in crops. PXA is not a genotoxic agent, however, in a two-year chronic toxicity study, incidence of thyroid follicular cell hyperplasia was observed in male rats treated at a high dose. Many non-mutagenic chemicals, including agrochemicals are known to produce thyroid hyperplasia in rodents through a hepatic metabolizing enzyme induction mode of action (MoA). In this study, the effects of oral gavage PXA treatment at 300\u00a0mg/kg for 7\u00a0days on the disposition of intravenously (iv) administered radio-labeled thyroxine ([",
+      "journal": "Toxicol Appl Pharmacol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Chandrasekaran",
+          "fore_name": "Appavu",
+          "affiliations": [
+            "FMC Corporation, 2929 Walnut St, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Bentley",
+          "fore_name": "Karin",
+          "affiliations": [
+            "FMC Corporation, 2929 Walnut St, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "McClanahan",
+          "fore_name": "Robert",
+          "affiliations": [
+            "Frontage Laboratories, 10845 Wellness Way, Concord, OH 44077, USA."
+          ]
+        },
+        {
+          "last_name": "Nallani",
+          "fore_name": "Gopinath",
+          "affiliations": [
+            "FMC Corporation, 2929 Walnut St, Philadelphia, PA, USA. Electronic address: Gopinath.Nallani@fmc.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Thyroxine",
+        "Male",
+        "Rats",
+        "Liver",
+        "Rats, Sprague-Dawley",
+        "Herbicides",
+        "Iodine Radioisotopes",
+        "Organ Size",
+        "Phenobarbital",
+        "Thyroid Gland"
+      ],
+      "keywords": [
+        "Biliary Excretion",
+        "Pethoxamid",
+        "Phenobarbital",
+        "T4-Glucuronidation",
+        "Thyroxine"
+      ]
+    },
+    {
+      "pmid": "38408729",
+      "doi": "10.1016/j.tjnut.2024.01.032",
+      "title": "Comparison of a Daily Steviol Glycoside Beverage compared with a Sucrose Beverage for Four Weeks on Gut Microbiome in Healthy Adults.",
+      "abstract": "Recent studies suggest that some nonnutritive sweeteners (NNS) have deleterious effects on the human gut microbiome (HGM). The effect of steviol glycosides on the HGM has not been well studied. We aimed to evaluate the effects of stevia- compared with sucrose-sweetened beverages on the HGM and fecal short-chain fatty acid (SCFA) profiles. Using a randomized, double-blinded, parallel-design study, n = 59 healthy adults [female/male, n = 36/23, aged 31\u00b19 y, body mass index (BMI): 22.6\u00b11.7 kg/m There were no significant differences in the HGM or fecal SCFA between the stevia and sucrose groups at baseline (P > 0.05). At week 4 (after intervention), there were no significant differences in the HGM at the phylum, family, genus, or species level between the stevia and sucrose groups and no significant differences in fecal SCFA. At week 4, BMI had increased by 0.3 kg/m Daily consumption of a beverage sweetened with 25% of the ADI of stevia for 4 weeks had no significant effects on the HGM, fecal SCFA, or fasting cardiometabolic measures, compared with daily consumption of a beverage sweetened with 30 g of sucrose. clinicaltrials.gov as NCT05264636.",
+      "journal": "J Nutr",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Kwok",
+          "fore_name": "David",
+          "affiliations": [
+            "Frontage Laboratories (BRI), Vancouver, British Columbia, Canada."
+          ]
+        },
+        {
+          "last_name": "Scott",
+          "fore_name": "Corey",
+          "affiliations": [
+            "Cargill R&D Center, Plymouth, Minnesota, USA. Electronic address: corey_scott@cargill.com."
+          ]
+        },
+        {
+          "last_name": "Strom",
+          "fore_name": "Noah",
+          "affiliations": [
+            "Diversigen, New Brighton, Minnesota, USA."
+          ]
+        },
+        {
+          "last_name": "Au-Yeung",
+          "fore_name": "Fei",
+          "affiliations": [
+            "INQUIS Clinical Research, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Lam",
+          "fore_name": "Caanan",
+          "affiliations": [
+            "Frontage Laboratories (BRI), Vancouver, British Columbia, Canada."
+          ]
+        },
+        {
+          "last_name": "Chakrabarti",
+          "fore_name": "Anirikh",
+          "affiliations": [
+            "Cargill R&D Centre Europe, Vilvoorde, Belgium."
+          ]
+        },
+        {
+          "last_name": "Hutton",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Cargill R&D Center, Plymouth, Minnesota, USA."
+          ]
+        },
+        {
+          "last_name": "Wolever",
+          "fore_name": "Thomas Ms",
+          "affiliations": [
+            "INQUIS Clinical Research, Toronto, Ontario, Canada."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Humans",
+        "Male",
+        "Female",
+        "Sucrose",
+        "Gastrointestinal Microbiome",
+        "Beverages",
+        "Stevia",
+        "Cardiovascular Diseases",
+        "Non-Nutritive Sweeteners",
+        "Glucosides",
+        "Diterpenes, Kaurane"
+      ],
+      "keywords": [
+        "gut microflora",
+        "non-nutritive sweeteners",
+        "short-chain fatty acids",
+        "stevia",
+        "sucrose"
+      ]
+    },
+    {
+      "pmid": "37646667",
+      "pmc": "PMC5605365",
+      "doi": "10.3324/haematol.2023.283211",
+      "title": "Quantitative evaluation of the clinical severity of hemoglobin H disease in a cohort of 591 patients using a scoring system based on regression analysis.",
+      "abstract": "",
+      "journal": "Haematologica",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Liu",
+          "fore_name": "Yumeng",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Zhuang",
+          "fore_name": "Yuan",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Jianhong",
+          "affiliations": [
+            "Department of Medical Genetics and Prenatal Diagnosis, Huizhou First Maternal and Child Health Care Hospital, Huizhou, Guangdong, 516001."
+          ]
+        },
+        {
+          "last_name": "Zhong",
+          "fore_name": "Zeyan",
+          "affiliations": [
+            "Department of Medical Genetics and Prenatal Diagnosis, Huizhou First Maternal and Child Health Care Hospital, Huizhou, Guangdong, 516001."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Jianpei",
+          "affiliations": [
+            "Department of Pediatric Hematology/Oncology, Children's Medical Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xinyu",
+          "affiliations": [
+            "Department of Pediatric Hematology/Oncology, Children's Medical Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou 510120."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Department of Hematology, 923(rd) Hospital of the People's Liberation Army, Nanning, Guangxi 530021."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Pingping",
+          "affiliations": [
+            "Department of Hematology, 923(rd) Hospital of the People's Liberation Army, Nanning, Guangxi 530021."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Guangzhou Huayin Healthcare Group Co., Ltd., Guangzhou 510663, Guangdong, China; Guangzhou Jiexu Gene Technology Co., Ltd., Guangzhou 510530, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Tao",
+          "fore_name": "Zhenzhong",
+          "affiliations": [
+            "Guangzhou Huayin Healthcare Group Co., Ltd., Guangzhou 510663, Guangdong, China; Guangzhou Jiexu Gene Technology Co., Ltd., Guangzhou 510530, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Yidan",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Peng",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xingmin",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Mengyang",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Hualei",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Qin",
+          "fore_name": "Lang",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Li",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Jufang",
+          "affiliations": [
+            "Prenatal Diagnosis Center, Chenzhou First People's Hospital Chenzhou 423000, Hunan."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Hailiang",
+          "affiliations": [
+            "Department of Laboratory Hematology, The First Affiliated Hospital of Gannan Medical University, Ganzhou 341000, Jiangxi."
+          ]
+        },
+        {
+          "last_name": "Zhong",
+          "fore_name": "Tianyu",
+          "affiliations": [
+            "Department of Laboratory Medicine, The First Affiliated Hospital of Gannan Medical University, Ganzhou 341000, Jiangxi."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Lian",
+          "affiliations": [
+            "Department of Hematology and Rheumatology, Longyan First Hospital, Affiliated to Fujian Medical University, Longyan 364000."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Zhixiang",
+          "affiliations": [
+            "Department of Medical Dispute, Maternal and Child Health Hospital, Heyuan517000."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Deguo",
+          "affiliations": [
+            "Maternal and Child Health Hospital of Yongzhou City, Yongzhou, Hunan 425000."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Yongzhong",
+          "affiliations": [
+            "Biologics,Gene and Cell Therapy, Frontage Laboratories, 760 Pennsylvania Dr, Exton, PA, 19341."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xinhua",
+          "affiliations": [
+            "Department of Hematology, 923(rd) Hospital of the People's Liberation Army, Nanning, Guangxi 530021. zxh303xy@163.com."
+          ]
+        },
+        {
+          "last_name": "Ye",
+          "fore_name": "Yuhua",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong. yeyuhua_genetics@163.com."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Xiangmin",
+          "affiliations": [
+            "Innovation Center for Diagnostics and Treatment of Thalassemia, Nanfang Hospital, Southern Medical University, Guangzhou 510515, Guangdong, China; Department of Medical Genetics, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, Guangdong. xixm@smu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "alpha-Thalassemia",
+        "Retrospective Studies",
+        "Severity of Illness Index",
+        "Regression Analysis"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "39350365",
+      "doi": "10.14283/jpad.2024.155",
+      "title": "Validation of an Ultra-Sensitive Method for Quantitation of Phospho-Tau 217 (pTau217) in Human Plasma, Serum, and CSF using the ALZpath pTau217 Assay on the Quanterix HD-X Platform.",
+      "abstract": "Both blood (plasma and serum) and CSF tau phosphorylated at Threonine 217 (pTau217) have been shown to be able to discriminate early to mild Alzheimer's disease (AD) from non-AD neurodegenerative disorders and healthy controls with high sensitivity and specificity. We report the full validation of the ALZpath ultra-sensitive pTau217 research-use only (RUO) assays for human EDTA plasma, serum, and CSF using the Quanterix Simoa HD-X platform, in support of clinical trials and early diagnosis of Alzheimer's disease. The ALZpath pTau217 Simoa Advantage v2 kit from ALZpath/Quanterix was used for method development and validation of pTau217 in human plasma, serum, and CSF. All three method validations have followed the 2018 FDA BMV and 2022 ICH M10 guidelines. Validation of pTau217 quantitation in human plasma, serum, and CSF demonstrated that the validated pTau217 assay has an analytical LLOQ of 0.00977 pg/mL. It is one of the most sensitive assays with a minimal required sample volume of 33.3 \u00b5l for plasma and serum, and 5 \u00b5l for CSF, and is relatively cost-effective, compared to the currently published data. The minimum required dilution (MRD) for plasma, serum, and CSF were determined. The analyte passed short-term stability tests. It was also tolerant of moderate hemolytic, and lipemic interferences in plasma and serum. pTau217 was detected in 100% of tested healthy control plasma, 90.0% of healthy control serum, 92.3% of healthy control CSF samples, and 100% of AD plasma and CSF samples. The validated assay was successfully applied in the analysis of AD samples, with data showing dramatic differences in the pTau217 levels between healthy control subjects and AD patients in both plasma and CSF. Validation of the ALZpath pTau217 Simoa assay in human plasma, serum, and CSF demonstrates ultra sensitivity, high accuracy, and assay robustness. Together with other established and sensitive assays for pTau181, GFAP, and NfL, these assays have immediate utility for application in clinical trials and can play a role in the early diagnosis of neurodegenerative diseases.",
+      "journal": "J Prev Alzheimers Dis",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Zhang",
+          "fore_name": "H",
+          "affiliations": [
+            "Zhongping John Lin, Frontage Laboratories Inc., 700 Pennsylvania Drive, Exton, Pennsylvania 19341, USA, Email: JLin@frontagelab.com."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "J",
+          "affiliations": []
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "N",
+          "affiliations": []
+        },
+        {
+          "last_name": "Jeromin",
+          "fore_name": "A",
+          "affiliations": []
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Z J",
+          "affiliations": []
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "tau Proteins",
+        "Alzheimer Disease",
+        "Phosphorylation",
+        "Biomarkers",
+        "Sensitivity and Specificity",
+        "Reproducibility of Results"
+      ],
+      "keywords": [
+        "CSF",
+        "human plasma",
+        "method validation",
+        "pTau217",
+        "serum"
+      ]
+    },
+    {
+      "pmid": "38114736",
+      "doi": "10.1126/science.1154315",
+      "pmc": "2409116",
+      "title": "Novel Selective Quantification of Zinpentraxin Alfa Biotherapeutic in the Presence of Endogenous Isomer in Plasma Samples of Idiopathic Pulmonary Fibrosis Patients Using Immunoaffinity LC-MS.",
+      "abstract": "Idiopathic pulmonary fibrosis (IPF) is a progressive fatal interstitial lung disease that affects three million patients worldwide and currently without an effective cure. Zinpentraxin alfa, a recombinant human pentraxin-2 (rhPTX-2) protein, has been evaluated as a potential drug candidate for the treatment of IPF. Clinical pharmacokinetic analysis of zinpentraxin alfa has been challenging historically due to interference from serum amyloid P component (SAP), an endogenous human pentraxin-2 protein. These molecules share an identical primary amino acid sequence and glycan composition; however, zinpentraxin alfa possesses \u03b12,3-linked terminal sialic acid residues while SAP is an \u03b12,6-linked isomer. By taking advantage of this only structural difference, we developed a novel assay strategy where \u03b12,3-sialidase was used to selectively hydrolyze \u03b12,3-linked sialic acid residues, resulting in desialylated zinpentraxin alfa versus unchanged\u00a0sialylated SAP, following an immunoaffinity capture step. Subsequent tryptic digestion produced a unique surrogate asialo-glycopeptide from zinpentraxin alfa and allowed specific quantification of the biotherapeutic in human plasma. In addition, a common peptide shared by both molecules was selected as a surrogate to determine total hPTX-2 concentrations, i.e., sum of zinpentraxin alfa and SAP. The quantification methods for both zinpentraxin alfa and total hPTX-2 were validated and used in pharmacokinetic assessment in IPF patients. The preliminary results suggest that endogenous SAP levels remained largely constant in IPF patients throughout the treatment with zinpentraxin alfa. Our novel approach provides a general bioanalytical strategy to selectively quantify \u03b12,3-sialylated glycoproteins in the presence of their corresponding \u03b12,6-linked isomers.",
+      "journal": "AAPS J",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Li",
+          "fore_name": "Maoyin",
+          "affiliations": [
+            "BioAnalytical Sciences, Genentech Inc., South San Francisco, California, 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Arjomandi",
+          "fore_name": "Audrey",
+          "affiliations": [
+            "BioAnalytical Sciences, Genentech Inc., South San Francisco, California, 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Xiaowei",
+          "affiliations": [
+            "Bioanalytical Services, Frontage Laboratories, Inc., 700 Pennsylvania Drive, Exton, Pennsylvania, 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Erhu",
+          "affiliations": [
+            "Bioanalytical Services, Frontage Laboratories, Inc., 700 Pennsylvania Drive, Exton, Pennsylvania, 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Tyagi",
+          "fore_name": "Tulika",
+          "affiliations": [
+            "Antibody Engineering, Genentech Inc., South San Francisco, California, 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "WeiYu",
+          "affiliations": [
+            "Antibody Engineering, Genentech Inc., South San Francisco, California, 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Fischer",
+          "fore_name": "Saloumeh K",
+          "affiliations": [
+            "BioAnalytical Sciences, Genentech Inc., South San Francisco, California, 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Kaur",
+          "fore_name": "Surinder",
+          "affiliations": [
+            "BioAnalytical Sciences, Genentech Inc., South San Francisco, California, 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Keyang",
+          "affiliations": [
+            "BioAnalytical Sciences, Genentech Inc., South San Francisco, California, 94080, USA. xu.keyang@gene.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Liquid Chromatography-Mass Spectrometry",
+        "Chromatography, Liquid",
+        "N-Acetylneuraminic Acid",
+        "Tandem Mass Spectrometry",
+        "Idiopathic Pulmonary Fibrosis"
+      ],
+      "keywords": [
+        "LC\u2013MS",
+        "human pentraxin-2",
+        "quantification",
+        "zinpentraxin alfa",
+        "\u03b12,3-sialidase"
+      ]
+    },
+    {
+      "pmid": "38067319",
+      "pmc": "PMC9424215",
+      "doi": "10.1038/s43856-022-00163-y",
+      "title": "Clonal Neoantigen: Emerging \"Mechanism-based\" Biomarker of Immunotherapy Response.",
+      "abstract": "Clonal mutations represent the initiating molecular defects related to cellular transition of a normal phenotype to a malignant phenotype. Molecular genomic assessment utilizing next generation and whole exome sequencing is now being increasingly applied to biomarker determination to refine the use of targeted immune therapies. Case examples followed by retrospective study assessment have convincingly demonstrated clonal neoantigens provide a relevant predictor of response to checkpoint inhibition. A meta-analysis, by Litchfield et al., of over 1000 cancer patients from 12 landmark trials demonstrated no clinical benefit to checkpoint inhibitor (CPI) therapy in correlation to high subclonal tumor mutational burden (TMB), whereas high clonal TMB was found to be significantly correlated with better overall survival (",
+      "journal": "Cancers (Basel)",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Nemunaitis",
+          "fore_name": "John",
+          "affiliations": [
+            "Gradalis, Inc., Dallas, TX 75225, USA."
+          ]
+        },
+        {
+          "last_name": "Stanbery",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Gradalis, Inc., Dallas, TX 75225, USA."
+          ]
+        },
+        {
+          "last_name": "Willoughby",
+          "fore_name": "David",
+          "affiliations": [
+            "Frontage Laboratories Inc., Deerfield Beach, FL 33442, USA."
+          ]
+        },
+        {
+          "last_name": "Bognar",
+          "fore_name": "Ernest",
+          "affiliations": [
+            "Gradalis, Inc., Dallas, TX 75225, USA."
+          ]
+        },
+        {
+          "last_name": "Brun",
+          "fore_name": "Scott",
+          "affiliations": [
+            "Gold Mast Consulting, LLC, The Woodlands, TX 77380, USA."
+          ]
+        },
+        {
+          "last_name": "Walter",
+          "fore_name": "Adam",
+          "affiliations": [
+            "Gradalis, Inc., Dallas, TX 75225, USA."
+          ]
+        },
+        {
+          "last_name": "Monk",
+          "fore_name": "Bradley J",
+          "affiliations": [
+            "HonorHealth Research Institute, College of Medicine, University of Arizona, Phoenix, AZ 85012, USA.",
+            "School of Medicine, Creighton University, Phoenix, AZ 85012, USA."
+          ]
+        },
+        {
+          "last_name": "Rocconi",
+          "fore_name": "Rodney P",
+          "affiliations": [
+            "University of Mississippi Medical Center, Jackson, MS 39216, USA."
+          ]
+        },
+        {
+          "last_name": "Choucair",
+          "fore_name": "Khalil",
+          "affiliations": [
+            "Department of Medical Oncology, Barbara Ann Karmanos Cancer Institute, Wayne State University, Detroit, MI 48201, USA."
+          ]
+        },
+        {
+          "last_name": "Coleman",
+          "fore_name": "Robert L",
+          "affiliations": [
+            "US Oncology Research, The Woodlands, TX 77380, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Vigil",
+        "biomarker",
+        "cancer",
+        "clonal neoantigen",
+        "immunotherapy"
+      ]
+    },
+    {
+      "pmid": "36807892",
+      "doi": "10.1002/jeq2.20465",
+      "title": "Fate of",
+      "abstract": "Monosodium methanearsonate (MSMA), a selective contact herbicide, is a sodium salt of monomethyl arsenic acid (MMA or MAA). This paper focuses on the environmental fate of MMA. Decades of research have shown that a significant portion of applied MSMA drips to soil and is sorbed quickly. The fraction available for leaching or biological uptake decreases at a biphasic rate, first rapidly and then at a slower rate. A soil column study was designed to obtain quantitative information about MMA sorption and transformation and the effects of different environmental variables on these processes, in conditions simulating the environment of MSMA use on cotton and turf. Using",
+      "journal": "J Environ Qual",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Miner",
+          "fore_name": "Penny",
+          "affiliations": [
+            "Frontage Laboratories, Concord, OH, USA."
+          ]
+        },
+        {
+          "last_name": "Cohen",
+          "fore_name": "Stuart",
+          "affiliations": [
+            "Environmental & Turf Services, Inc., Wheaton, MD, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Arsenic",
+        "Soil",
+        "Arsenicals",
+        "Herbicides",
+        "Soil Pollutants",
+        "Water",
+        "Arsenates"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "37347282",
+      "doi": "10.1080/00498254.2023.2228904",
+      "title": "Determination of enzymatic kinetics of metabolism of dimethoate and omethoate in rats and humans.",
+      "abstract": "1. Dimethoate is an organophosphate insecticide. The objective of this work was to determine the enzymatic kinetics of metabolism of dimethoate and its active metabolite omethoate in rats and humans and obtain key input parameters for physiologically based pharmacokinetic (PBPK) model.2. First, the intrinsic clearance of dimethoate expressed as formation rate of omethoate was determined to be \u223c42-fold lower in human liver microsomes (HLM) (0.39\u2009\u00b5L/min/mg) than in rat liver microsomes (RLM) (16.6\u2009\u00b5L/min/mg) by an LC/MS/MS method. Next, dimethoate clearance in liver microsomes was determined using parent depletion and total [",
+      "journal": "Xenobiotica",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Nallani",
+          "fore_name": "Gopinath",
+          "affiliations": [
+            "FMC Corporation, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Chandrasekaran",
+          "fore_name": "Appavu",
+          "affiliations": [
+            "FMC Corporation, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Kassahun",
+          "fore_name": "Kelem",
+          "affiliations": [
+            "Frontage Laboratories Inc, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Shen",
+          "fore_name": "Li",
+          "affiliations": [
+            "Frontage Laboratories Inc, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Reiss",
+          "fore_name": "Rick",
+          "affiliations": [
+            "Exponent, Alexandria, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Whatling",
+          "fore_name": "Paul",
+          "affiliations": [
+            "FMC Corporation, Philadelphia, PA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Rats",
+        "Animals",
+        "Dimethoate",
+        "Tandem Mass Spectrometry",
+        "Kinetics",
+        "Insecticides"
+      ],
+      "keywords": [
+        "14C-dimethoate",
+        "Dimethoate",
+        "formation kinetics",
+        "in\u00a0vitro metabolism",
+        "omethoate"
+      ]
+    },
+    {
+      "pmid": "36539405",
+      "pmc": "PMC9150929",
+      "doi": "10.1016/j.expneurol.2007.06.010",
+      "title": "Restoring mitochondrial cardiolipin homeostasis reduces cell death and promotes recovery after spinal cord injury.",
+      "abstract": "Alterations in phospholipids have long been associated with spinal cord injury (SCI). However, their specific roles and signaling cascades in mediating cell death and tissue repair remain unclear. Here we investigated whether alterations of cardiolipin (CL), a family of mitochondrion-specific phospholipids, play a crucial role in mitochondrial dysfunction and neuronal death following SCI. Lipidomic analysis was used to determine the profile of CL alteration in the adult rat spinal cord following a moderate contusive SCI at the 10th thoracic (T10) level. Cellular, molecular, and genetic assessments were performed to determine whether CL alterations mediate mitochondrial dysfunction and neuronal death after SCI, and, if so, whether reversing CL alteration leads to neuroprotection after SCI. Using lipidomic analysis, we uncovered CL alterations at an early stage of SCI. Over 50 distinct CL species were identified, of which 50% showed significantly decreased abundance after SCI. The decreased CL species contained mainly polyunsaturated fatty acids that are highly susceptible to peroxidation. In parallel, 4-HNE, a lipid peroxidation marker, significantly increased after SCI. We found that mitochondrial oxidative stress not only induced CL oxidation, but also resulted in CL loss by activating cPLA",
+      "journal": "Cell Death Dis",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Liu",
+          "fore_name": "Nai-Kui",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA. nailiu@iupui.edu."
+          ]
+        },
+        {
+          "last_name": "Deng",
+          "fore_name": "Ling-Xiao",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Miao",
+          "affiliations": [
+            "Frontage Laboratories, Exton, PA, 19341, USA."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Qing-Bo",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Chunyan",
+          "affiliations": [
+            "Department of Medicine, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Xiangbing",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Ying",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Qu",
+          "fore_name": "Wenrui",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Han",
+          "fore_name": "Qi",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Xia",
+          "fore_name": "Yongzhi",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Ravenscraft",
+          "fore_name": "Baylen",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jin-Lian",
+          "affiliations": [
+            "Department of Anatomy and K.K. Leung Brain Research Centre, Preclinical School of Medicine, The Fourth Military Medical University, Xi'an, 710032, P. R. China."
+          ]
+        },
+        {
+          "last_name": "You",
+          "fore_name": "Si-Wei",
+          "affiliations": [
+            "Institute of Neuroscience, The Fourth Military Medical University, Xi'an, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Wipf",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Department of Chemistry, University of Pittsburgh, Pittsburgh, PA, 15260, USA."
+          ]
+        },
+        {
+          "last_name": "Han",
+          "fore_name": "Xianlin",
+          "affiliations": [
+            "Department of Medicine, University of Texas Health Science Center at San Antonio, San Antonio, TX, 78229, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Xiao-Ming",
+          "affiliations": [
+            "Spinal Cord and Brain Injury Research Group, Stark Neurosciences Research Institute, Department of Neurological Surgery, Indiana University School of Medicine, Indianapolis, IN, 46202, USA. xu26@iupui.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Rats",
+        "Animals",
+        "Cardiolipins",
+        "Spinal Cord",
+        "Spinal Cord Injuries",
+        "Cell Death",
+        "Mitochondria",
+        "Phospholipids",
+        "Homeostasis"
+      ],
+      "keywords": []
+    }
+  ]
+}

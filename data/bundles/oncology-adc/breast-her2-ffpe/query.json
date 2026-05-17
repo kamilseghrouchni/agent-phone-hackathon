@@ -1,0 +1,28 @@
+{
+  "bundle_id": "breast-her2-ffpe",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "We need FFPE breast cancer tissue with confirmed HER2 status (IHC or FISH) for ADC target validation. Matched plasma for ctDNA is preferred. Treatment-naive cohorts preferred. N >= 50.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Breast cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "biomarkers_required": [
+      "HER2"
+    ],
+    "biomarkers_desired": [
+      "ER",
+      "PR",
+      "Ki67"
+    ],
+    "preservation": "Fixed",
+    "min_n": 50,
+    "treatment_status": "treatment-naive preferred",
+    "matched_pairs": true,
+    "assay_context": "ADC target validation (IHC, companion diagnostic development)"
+  }
+}

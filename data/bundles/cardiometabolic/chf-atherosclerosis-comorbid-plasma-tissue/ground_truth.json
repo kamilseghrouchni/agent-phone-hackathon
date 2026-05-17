@@ -1,0 +1,230 @@
+{
+  "bundle_id": "chf-atherosclerosis-comorbid-plasma-tissue",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 700,
+    "total_secondary_specimens": 399,
+    "total_donors": 550,
+    "organizations": [
+      "BIOMEDICA CRO",
+      "Stibion"
+    ],
+    "matched_pair_donors": 93
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 662,
+          "type": "Plasma"
+        },
+        "secondary": {
+          "count": 390,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 934,
+      "treatment_naive": 18,
+      "matched_pair_donors": 93,
+      "demographics": {
+        "mean_age": 66.7,
+        "n_with_age": 1052,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "9e6ec4c7-b5b4-4f16-a009-eb268f9edf66",
+      "country": [
+        "NLD"
+      ],
+      "website": "https://www.stibion.nl",
+      "contact_email": "info@stibion.nl",
+      "address": "Colosseum 65, 7521 PP, Enschede, The Netherlands",
+      "description": "Stichting Biobank Oost Nederland (Stibion), based in the Netherlands, manages and distributes urine and plasma samples from an active cohort of individuals aged 45 and older. The study collects urine ",
+      "specimens": {
+        "primary": {
+          "count": 38,
+          "type": "Plasma"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 64.2,
+        "n_with_age": 38,
+        "countries": [
+          "NLD"
+        ]
+      }
+    },
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Plasma"
+        },
+        "secondary": {
+          "count": 9,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {
+        "ER": 9,
+        "PR": 9
+      },
+      "tnm_staged": 0,
+      "treatment_naive": 9,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 70.2,
+        "n_with_age": 9,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "0a9ea2da560b...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Plasma",
+      "sex": "Female",
+      "age": 69,
+      "diagnoses": [
+        "Congestive Heart Failure (CHF)",
+        "Cardiomyopathy",
+        "Lymphoma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Medications: Available; Medicine Use Since participation: Yes",
+      "organization": "Stibion"
+    },
+    {
+      "specimen_id": "225d664ce0b5...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Plasma",
+      "sex": "Male",
+      "age": 51,
+      "diagnoses": [
+        "Congestive Heart Failure (CHF)",
+        "Neurological condition",
+        "Lymphoma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Medications: Available; Medicine Use Since participation: Yes",
+      "organization": "Stibion"
+    },
+    {
+      "specimen_id": "23addaf5adfe...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Plasma",
+      "sex": "Male",
+      "age": 49,
+      "diagnoses": [
+        "Congestive Heart Failure (CHF)",
+        "Neurological condition",
+        "Lymphoma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Medications: Available; Medicine Use Since participation: Yes",
+      "organization": "Stibion"
+    },
+    {
+      "specimen_id": "26312deb9df8...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 66,
+      "diagnoses": [
+        "Coronavirus (Covid)",
+        "Congestive Heart Failure (CHF)",
+        "Lymphoma",
+        "Squamous cell cancer (SCC)",
+        "Skin cancer",
+        "Non-hodgkin lymphoma (NHL)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "2a9f6e1b00b8...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 66,
+      "diagnoses": [
+        "Coronavirus (Covid)",
+        "Congestive Heart Failure (CHF)",
+        "Lymphoma",
+        "Squamous cell cancer (SCC)",
+        "Skin cancer",
+        "Non-hodgkin lymphoma (NHL)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

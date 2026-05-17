@@ -1,0 +1,273 @@
+{
+  "id": "biognosys",
+  "name": "Biognosys",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Biognosys"
+  ],
+  "search_queries": [
+    "\"Biognosys\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 38,
+  "publications_indexed": 25,
+  "address_hints": [
+    "Biognosys AG, Schlieren, Switzerland",
+    "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland",
+    "Biognosys, Schlieren, Switzerland",
+    "Biognosys AG, Schlieren, Zurich, Switzerland",
+    "Biognosys, Wagistrasse 21, Schlieren 8952, Switzerland"
+  ],
+  "contact_emails": [
+    "roland.bruderer@biognosys.com"
+  ],
+  "sample_types": [
+    {
+      "type": "cell lines",
+      "n_papers": 4,
+      "evidence_pmids": [
+        "41380996",
+        "41002294",
+        "40447611"
+      ]
+    },
+    {
+      "type": "plasma",
+      "n_papers": 3,
+      "evidence_pmids": [
+        "41254360",
+        "40748658",
+        "38353833"
+      ]
+    },
+    {
+      "type": "serum",
+      "n_papers": 3,
+      "evidence_pmids": [
+        "40235590",
+        "39352225",
+        "38353833"
+      ]
+    },
+    {
+      "type": "CSF",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41254360"
+      ]
+    },
+    {
+      "type": "exosomes",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "40748658"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Aging",
+      "n_papers": 2
+    },
+    {
+      "area": "Drug Resistance, Neoplasm",
+      "n_papers": 2
+    },
+    {
+      "area": "Cell Line, Tumor",
+      "n_papers": 2
+    },
+    {
+      "area": "Melanoma",
+      "n_papers": 2
+    },
+    {
+      "area": "Pregnancy",
+      "n_papers": 1
+    },
+    {
+      "area": "Maternal-Fetal Exchange",
+      "n_papers": 1
+    },
+    {
+      "area": "Pregnancy Trimester, First",
+      "n_papers": 1
+    },
+    {
+      "area": "Cellular Senescence",
+      "n_papers": 1
+    },
+    {
+      "area": "Senescence-Associated Secretory Phenotype",
+      "n_papers": 1
+    },
+    {
+      "area": "Neoplasm Proteins",
+      "n_papers": 1
+    },
+    {
+      "area": "Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "COVID-19",
+      "n_papers": 1
+    },
+    {
+      "area": "COVID-19 Drug Treatment",
+      "n_papers": 1
+    },
+    {
+      "area": "Biomarkers, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Skin Neoplasms",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Yale University School of Medicine",
+      "co_pubs": 2
+    },
+    {
+      "name": "Department of Pharmacology",
+      "co_pubs": 2
+    },
+    {
+      "name": "Cancer Biology Institute",
+      "co_pubs": 2
+    },
+    {
+      "name": "Institute for Neuroscience",
+      "co_pubs": 2
+    },
+    {
+      "name": "Blue Brain Project",
+      "co_pubs": 2
+    },
+    {
+      "name": "Swiss Institute of Bioinformatics (SIB)",
+      "co_pubs": 2
+    },
+    {
+      "name": "University of Michigan",
+      "co_pubs": 2
+    },
+    {
+      "name": "University Hospital Zurich",
+      "co_pubs": 2
+    },
+    {
+      "name": "Bruker Ltd",
+      "co_pubs": 1
+    },
+    {
+      "name": "Bruker Belgium NV",
+      "co_pubs": 1
+    },
+    {
+      "name": "Bruker Daltonics GmbH & Co. KG",
+      "co_pubs": 1
+    },
+    {
+      "name": "Duke University School of Medicine",
+      "co_pubs": 1
+    },
+    {
+      "name": "Johns Hopkins University School of Medicine",
+      "co_pubs": 1
+    },
+    {
+      "name": "Sygnature Discovery",
+      "co_pubs": 1
+    },
+    {
+      "name": "Sz\u00e9chenyi Istv\u00e1n University",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41380996",
+      "doi": "10.1101/2023.01.30.526204",
+      "pmc": "PMC12240826",
+      "year": 2026,
+      "journal": "Mol Cell Proteomics",
+      "title": "Enhanced Identifications and Quantification Through Retention Time Down-Sampling in Fast-Cycling Diagonal-PASEF Methods."
+    },
+    {
+      "pmid": "41254360",
+      "doi": "10.1016/j.critrevonc.2013.01.005",
+      "pmc": "PMC4095988",
+      "year": 2025,
+      "journal": "Commun Med (Lond)",
+      "title": "Unveiling proteomic and peptide-level modifications in cerebrospinal fluid and plasma in normal cognitive aging."
+    },
+    {
+      "pmid": "41002294",
+      "doi": "10.1093/nar/gkac1040",
+      "pmc": "PMC9825490",
+      "year": 2025,
+      "journal": "Anal Chem",
+      "title": "A Flexible End-to-End Automated Sample Preparation Workflow Enables Standardized and Scalable Bottom-up Proteomics."
+    },
+    {
+      "pmid": "40948775",
+      "doi": "10.1111/acel.12799",
+      "pmc": "PMC6156492",
+      "year": 2025,
+      "journal": "Front Immunol",
+      "title": "Novel proteomics biomarkers of recurrent pregnancy loss reflect the dysregulation of immune interactions at the maternal-fetal interface."
+    },
+    {
+      "pmid": "40748658",
+      "doi": "10.1371/journal.pone.0011541",
+      "pmc": "PMC2902522",
+      "year": 2025,
+      "journal": "Aging (Albany NY)",
+      "title": "Exosomes released from senescent cells and circulatory exosomes isolated from human plasma reveal aging-associated proteomic and lipid signatures."
+    },
+    {
+      "pmid": "40497334",
+      "doi": "10.1021/acs.analchem.5c00897",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Anal Chem",
+      "title": "Enhancing Sensitivity in Low-Load Proteomics Orbitrap Workflows via SLIM Integration."
+    },
+    {
+      "pmid": "40447611",
+      "doi": "10.1093/nar/gky1106",
+      "pmc": "PMC6323896",
+      "year": 2025,
+      "journal": "Nat Commun",
+      "title": "A robust multiplex-DIA workflow profiles protein turnover regulations associated with cisplatin resistance and aneuploidy."
+    },
+    {
+      "pmid": "40393041",
+      "doi": "10.1002/glia.22683",
+      "pmc": "PMC6516149",
+      "year": 2025,
+      "journal": "PLoS Comput Biol",
+      "title": "A multiscale electro-metabolic model of a rat neocortical circuit reveals the impact of ageing on central cortical layers."
+    },
+    {
+      "pmid": "40235590",
+      "doi": "10.1002/imt2.43",
+      "pmc": "PMC4824408",
+      "year": 2025,
+      "journal": "iScience",
+      "title": "Serum proteomics reveals survival-associated biomarkers in pancreatic cancer patients treated with chemoimmunotherapy."
+    },
+    {
+      "pmid": "40332396",
+      "doi": "10.3390/biom11101534",
+      "pmc": "PMC8534154",
+      "year": 2025,
+      "journal": "Int J Mol Sci",
+      "title": "Inhibition of ABCG2 by SCO-101 Enhances Chemotherapy Efficacy in Cancer."
+    }
+  ]
+}

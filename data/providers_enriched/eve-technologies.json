@@ -1,0 +1,60 @@
+{
+  "id": "eve-technologies",
+  "name": "Eve Technologies",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Eve Technologies"
+  ],
+  "search_queries": [
+    "\"Eve Technologies\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 2,
+  "publications_indexed": 2,
+  "address_hints": [
+    "Eve Technologies Corporation, Calgary, AB, Canada"
+  ],
+  "contact_emails": [],
+  "sample_types": [
+    {
+      "type": "plasma",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "37600813"
+      ]
+    }
+  ],
+  "indication_areas": [],
+  "academic_partners": [
+    {
+      "name": "Royal North Shore Hospital",
+      "co_pubs": 1
+    },
+    {
+      "name": "The University of Sydney",
+      "co_pubs": 1
+    },
+    {
+      "name": "Cumming School of Medicine",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "42063755",
+      "doi": "10.3389/fcimb.2013.00048",
+      "pmc": "PMC85128",
+      "year": 2026,
+      "journal": "Front Med (Lausanne)",
+      "title": "Probable European-profile"
+    },
+    {
+      "pmid": "37600813",
+      "doi": "10.1001/jamacardio.2020.6041",
+      "pmc": "PMC7711564",
+      "year": 2023,
+      "journal": "Front Immunol",
+      "title": "Identification of novel clusters of co-expressing cytokines in a diagnostic cytokine multiplex test."
+    }
+  ]
+}

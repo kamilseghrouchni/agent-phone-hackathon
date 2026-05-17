@@ -1,0 +1,27 @@
+{
+  "bundle_id": "cervical-young-t1-ffpe-hiv-screened",
+  "therapeutic_area": "womens-health",
+  "query_text": "Cervical cancer in patients under 40, T1N0 staging, FFPE tissue. Must have documented HIV/HepB/HepC negative status. Need serum with documented hemolysis level (must be non-hemolyzed). Squamous cell or adenocarcinoma histology. N >= 15.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Cervical cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "staging_required": "T1N0",
+    "preservation": "Fixed",
+    "min_n": 15,
+    "age_maximum": 40,
+    "matched_pairs": true,
+    "clinical_data_required": [
+      "HIV_negative",
+      "HepB_negative",
+      "HepC_negative",
+      "hemolysis_level"
+    ],
+    "assay_context": "Tisotumab vedotin \u2014 tissue factor expression in early-stage cervical cancer"
+  }
+}

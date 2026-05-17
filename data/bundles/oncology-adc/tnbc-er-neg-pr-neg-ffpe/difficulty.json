@@ -1,0 +1,18 @@
+{
+  "bundle_id": "tnbc-er-neg-pr-neg-ffpe",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "high",
+    "org_discoverability": "medium \u2014 mix of academic and commercial sources",
+    "biomarker_specificity": "very high \u2014 ER negative, PR negative not indexed in registry, needs retrospective testing",
+    "specimen_count": 576,
+    "org_count": 7
+  },
+  "expected_failure_modes": [
+    "May not find commercial biobanks (ProteoGenex, BIOMEDICA CRO, Medical Gate) through PubMed \u2014 they publish less than academic centers",
+    "May overestimate ER negative/PR negative availability if system infers 'standard practice' instead of checking",
+    "Matched pair discovery requires cross-referencing donor IDs \u2014 hard without registry access",
+    "Treatment-naive filtering depends on parsing free-text treatment fields \u2014 may miss nuance",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

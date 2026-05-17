@@ -1,0 +1,26 @@
+{
+  "bundle_id": "cll-leukemia-pbmc-plasma-tissue",
+  "therapeutic_area": "heme",
+  "query_text": "Chronic lymphocytic leukemia (CLL) PBMC + plasma from peripheral blood. Lymph node or bone marrow biopsy tissue if available. Treatment-naive at collection. IGHV mutation status documented. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Chronic lymphocytic leukemia",
+      "CLL",
+      "Leukemia"
+    ],
+    "specimen_types": [
+      "PBMC",
+      "Plasma",
+      "Tissue (lymph node biopsy)",
+      "Tissue (bone marrow biopsy)"
+    ],
+    "min_n": 30,
+    "matched_pairs": true,
+    "treatment_status": "treatment-naive at collection",
+    "clinical_data_required": [
+      "IGHV_mutation_status"
+    ],
+    "assay_context": "CLL immune cell characterization, IGHV-stratified biomarker discovery, treatment response prediction"
+  }
+}

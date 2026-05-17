@@ -1,0 +1,98 @@
+{
+  "bundle_id": "als-csf-serum-dna-trio",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "34264761",
+      "pmc_id": "PMC9082877",
+      "doi": null,
+      "title": "The National ALS Biorepository: A CDC-Funded Resource for ALS Research",
+      "year": 2021,
+      "journal": "Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration",
+      "specimens_described": {
+        "types": ["DNA", "blood", "serum", "CSF"],
+        "n": 1721,
+        "storage": "frozen (-80C)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "National ALS Biorepository (CDC / ATSDR)",
+      "institution_type": "government_biorepository",
+      "contact_extractable": true,
+      "access_route": "CDC/ATSDR formal application; biorepository.cdc.gov",
+      "depth_confidence": "high",
+      "notes": "1721 enrolled participants with DNA, blood, serum, and CSF collected longitudinally. CDC-funded with formal public access mechanism. This is the largest and most accessible ALS biorepository in the US with the full trio (CSF+serum+DNA). Access requires CDC application process."
+    },
+    {
+      "pmid": "35224491",
+      "pmc_id": "PMC8870425",
+      "doi": null,
+      "title": "AMBRoSIA: A Multi-Site UK ALS Biomarker Study with Longitudinal CSF and Serum Collection",
+      "year": 2022,
+      "journal": "Brain",
+      "specimens_described": {
+        "types": ["serum", "CSF"],
+        "n": 338,
+        "storage": "frozen (-80C)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "AMBRoSIA Consortium (Oxford / Sheffield / UCL London)",
+      "institution_type": "consortium",
+      "contact_extractable": true,
+      "access_route": "AMBRoSIA consortium data/sample access request via lead site (Oxford)",
+      "depth_confidence": "high",
+      "notes": "258 ALS cases + 80 controls, serum and CSF collected longitudinally. UK multi-site consortium with Oxford as lead. DNA not listed among collected specimen types — partial trio. Longitudinal design adds value for biomarker trajectory studies. Access via Oxford lead PI."
+    },
+    {
+      "pmid": null,
+      "pmc_id": null,
+      "doi": "https://neals.org/research/sample-repository",
+      "title": "NEALS Sample Repository",
+      "year": null,
+      "journal": null,
+      "specimens_described": {
+        "types": ["CSF", "serum", "DNA", "PBMC"],
+        "n": null,
+        "storage": "frozen (-80C)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "NEALS / Massachusetts General Hospital (Harvard)",
+      "institution_type": "consortium_repository",
+      "contact_extractable": true,
+      "access_route": "neals.org sample access application; MGH-coordinated",
+      "depth_confidence": "medium",
+      "notes": "Non-paper source. NEALS Sample Repository offers CSF, serum, DNA, and PBMC — the full requested trio plus PBMC. Coordinated through MGH/Harvard. Application process at neals.org. N not publicly specified; inventory varies by specimen type. Strong access infrastructure for academic researchers."
+    },
+    {
+      "pmid": null,
+      "pmc_id": null,
+      "doi": "https://targetals.org",
+      "title": "Target ALS Biorepository",
+      "year": null,
+      "journal": null,
+      "specimens_described": {
+        "types": ["CSF", "plasma", "serum"],
+        "n": 113,
+        "storage": "frozen",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Target ALS Foundation (18 US sites)",
+      "institution_type": "foundation_repository",
+      "contact_extractable": true,
+      "access_route": "Target ALS data/sample access request; targetals.org",
+      "depth_confidence": "medium",
+      "notes": "62 ALS cases + 51 controls across 18 US sites. CSF, plasma, and serum collected. DNA not explicitly listed as banked specimen type. Nonprofit foundation with formal access process. Multi-site collection increases generalizability. N is smaller than National Biorepository."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "National ALS Biorepository (CDC/ATSDR)",
+    "AMBRoSIA Consortium (Oxford/Sheffield/UCL)",
+    "NEALS / Massachusetts General Hospital",
+    "Target ALS Foundation"
+  ],
+  "notes": "Strong sourcing landscape for ALS CSF+serum+DNA trio. National ALS Biorepository (CDC) is the gold standard with n=1721 and confirmed full trio. NEALS also offers the full trio with formal access. AMBRoSIA is CSF+serum without confirmed DNA — partial trio. Target ALS has CSF+serum but DNA not confirmed. Eval should check: (1) whether each institution has confirmed DNA availability in addition to CSF+serum, and (2) whether AMBRoSIA and Target ALS DNA can be requested separately from stored PBMC."
+}

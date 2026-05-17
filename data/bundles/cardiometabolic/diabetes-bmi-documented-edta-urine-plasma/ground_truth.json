@@ -1,0 +1,172 @@
+{
+  "bundle_id": "diabetes-bmi-documented-edta-urine-plasma",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 266,
+    "total_secondary_specimens": 230,
+    "total_donors": 218,
+    "organizations": [
+      "Stibion",
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 46
+  },
+  "organizations": [
+    {
+      "name": "Stibion",
+      "organization_id": "9e6ec4c7-b5b4-4f16-a009-eb268f9edf66",
+      "country": [
+        "NLD"
+      ],
+      "website": "https://www.stibion.nl",
+      "contact_email": "info@stibion.nl",
+      "address": "Colosseum 65, 7521 PP, Enschede, The Netherlands",
+      "description": "Stichting Biobank Oost Nederland (Stibion), based in the Netherlands, manages and distributes urine and plasma samples from an active cohort of individuals aged 45 and older. The study collects urine ",
+      "specimens": {
+        "primary": {
+          "count": 260,
+          "type": "Urine"
+        },
+        "secondary": {
+          "count": 84,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 46,
+      "demographics": {
+        "mean_age": 66.0,
+        "n_with_age": 344,
+        "countries": [
+          "NLD"
+        ]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 6,
+          "type": "Urine"
+        },
+        "secondary": {
+          "count": 146,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 96,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 64.6,
+        "n_with_age": 152,
+        "countries": [
+          "UKR"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "020ec41f3dad...",
+      "specimen_type": "Urine",
+      "preservation": "Frozen",
+      "source_site": "Urine",
+      "sex": "Male",
+      "age": 51,
+      "diagnoses": [
+        "Diabetes",
+        "Diabetes Type 2"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Medications: Available; Medicine Use Since participation: Yes",
+      "organization": "Stibion"
+    },
+    {
+      "specimen_id": "002fe9aef744...",
+      "specimen_type": "Urine",
+      "preservation": "Frozen",
+      "source_site": "Urine",
+      "sex": "Female",
+      "age": 72,
+      "diagnoses": [
+        "Diabetes",
+        "Diabetes Type 2"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Medications: Available; Medicine Use Since participation: Yes",
+      "organization": "Stibion"
+    },
+    {
+      "specimen_id": "003600ed2712...",
+      "specimen_type": "Urine",
+      "preservation": "Frozen",
+      "source_site": "Urine",
+      "sex": "Male",
+      "age": 76,
+      "diagnoses": [
+        "Congestive Heart Failure (CHF)",
+        "Diabetes"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Medications: Available; Medicine Use Since participation: Yes",
+      "organization": "Stibion"
+    },
+    {
+      "specimen_id": "012969685b07...",
+      "specimen_type": "Urine",
+      "preservation": "Frozen",
+      "source_site": "Urine",
+      "sex": "Female",
+      "age": 70,
+      "diagnoses": [
+        "Diabetes",
+        "Diabetes Type 2"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Medications: Available; Medicine Use Since participation: Yes",
+      "organization": "Stibion"
+    },
+    {
+      "specimen_id": "0120b2d9bda9...",
+      "specimen_type": "Urine",
+      "preservation": "Frozen",
+      "source_site": "Urine",
+      "sex": "Male",
+      "age": 67,
+      "diagnoses": [
+        "Diabetes",
+        "Diabetes Type 2"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Medications: Available; Medicine Use Since participation: Yes",
+      "organization": "Stibion"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

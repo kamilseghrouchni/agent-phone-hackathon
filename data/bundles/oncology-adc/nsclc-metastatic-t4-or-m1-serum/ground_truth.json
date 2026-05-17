@@ -1,0 +1,255 @@
+{
+  "bundle_id": "nsclc-metastatic-t4-or-m1-serum",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 209,
+    "total_secondary_specimens": 272,
+    "total_donors": 205,
+    "organizations": [
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 26
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 209,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 251,
+          "type": "Buffy coat"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 451,
+      "treatment_naive": 0,
+      "matched_pair_donors": 26,
+      "demographics": {
+        "mean_age": 63.0,
+        "n_with_age": 460,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Medical Gate",
+      "organization_id": "0d6ee50f-4b67-468c-8385-8687c24030dc",
+      "country": [
+        "TUR"
+      ],
+      "website": "http://www.medicalgatebio.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "MEDICAL GATE has a staff specialized in every stage of clinical research.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 18,
+          "type": "Buffy coat"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 18,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 64.2,
+        "n_with_age": 18,
+        "countries": [
+          "TUR"
+        ]
+      }
+    },
+    {
+      "name": "Reference Medicine",
+      "organization_id": "59472417-e35a-4f24-8491-f46679319297",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.referencemedicine.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "Designed by researchers, for researchers.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 3,
+          "type": "Buffy coat"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 3,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 67.0,
+        "n_with_age": 3,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "02bb0efa97c1...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "1d873ec6e47a...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "48124e30f9b7...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "7334cdbcea51...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "006f252e6e0b...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Serum",
+      "sex": "Female",
+      "age": 76,
+      "diagnoses": [
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Lung cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0
+      },
+      "treatments": "Treatment of the Main Diagnosis: Not treated; Treatment of Concomitant Diseases: No",
+      "organization": "BIOMEDICA CRO"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "bundle_id": "pd-dna-blood",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "low",
+    "org_discoverability": "medium \u2014 mix of academic and commercial sources",
+    "biomarker_specificity": "low \u2014 no specific biomarker filtering required",
+    "specimen_count": 451,
+    "org_count": 1
+  },
+  "expected_failure_modes": [
+    "May not find commercial biobanks (BIOMEDICA CRO) through PubMed \u2014 they publish less than academic centers",
+    "Thin data \u2014 system should honestly report scarcity, not hallucinate sources",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

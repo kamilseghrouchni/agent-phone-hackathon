@@ -1,0 +1,88 @@
+{
+  "bundle_id": "ad-csf-plasma-paired",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 0,
+    "total_secondary_specimens": 31,
+    "total_donors": 14,
+    "organizations": [],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Cerebrospinal fluid (CSF)"
+        },
+        "secondary": {
+          "count": 17,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 74.8,
+        "n_with_age": 17,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "9e6ec4c7-b5b4-4f16-a009-eb268f9edf66",
+      "country": [
+        "NLD"
+      ],
+      "website": "https://www.stibion.nl",
+      "contact_email": "info@stibion.nl",
+      "address": "Colosseum 65, 7521 PP, Enschede, The Netherlands",
+      "description": "Stichting Biobank Oost Nederland (Stibion), based in the Netherlands, manages and distributes urine and plasma samples from an active cohort of individuals aged 45 and older. The study collects urine ",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Cerebrospinal fluid (CSF)"
+        },
+        "secondary": {
+          "count": 14,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 70.4,
+        "n_with_age": 14,
+        "countries": [
+          "NLD"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [],
+  "coverage_gaps": {
+    "her2": "0% annotated \u2014 effectively not available",
+    "er": "0% annotated \u2014 effectively not available",
+    "pr": "0% annotated \u2014 effectively not available",
+    "ki67": "0% annotated \u2014 effectively not available",
+    "pd-l1": "0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

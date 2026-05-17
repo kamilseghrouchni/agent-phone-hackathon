@@ -1,0 +1,97 @@
+{
+  "bundle_id": "crc-t3n1-ffpe-plasma-matched",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "31070691",
+      "pmc_id": null,
+      "doi": null,
+      "title": "Detection and Prognostic Value of Circulating Tumor DNA in Patients With Colorectal Cancer",
+      "year": 2019,
+      "journal": "JAMA Oncology",
+      "specimens_described": {
+        "types": ["FFPE", "preoperative plasma"],
+        "n": null,
+        "storage": "FFPE archival + preoperative plasma at -80C",
+        "matched": true,
+        "treatment_naive": true
+      },
+      "institution": "Aarhus University Hospital / Danish multicenter",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Corresponding author at Aarhus University Hospital; Danish Data Protection Agency approval; institutional MTA required",
+      "depth_confidence": "high",
+      "notes": "Stages I-III CRC with matched FFPE + preoperative plasma. JAMA Oncology publication = high indexing confidence. Danish multicenter = access may require coordination across sites. Treatment-naive preoperative collection is a strong quality signal for ADC biomarker work."
+    },
+    {
+      "pmid": "35636041",
+      "pmc_id": null,
+      "doi": null,
+      "title": "Circulating tumor DNA dynamics predict outcomes in stage III colon cancer treated with adjuvant chemotherapy",
+      "year": 2022,
+      "journal": "European Journal of Cancer",
+      "specimens_described": {
+        "types": ["FFPE", "serial plasma"],
+        "n": 165,
+        "storage": "FFPE archival + serial plasma at -80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Fudan University Shanghai Cancer Center",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Corresponding author at Fudan University; Chinese ethics committee approval; cross-border specimen transfer subject to Chinese regulations",
+      "depth_confidence": "medium",
+      "notes": "n=165 stage III colon with FFPE + serial plasma. Adjuvant chemotherapy cohort — not treatment-naive. Serial plasma is a differentiating feature. Cross-border specimen transfer from China is a real access barrier; consider data-only collaboration as alternative."
+    },
+    {
+      "pmid": "34625408",
+      "pmc_id": "PMC9401484",
+      "doi": null,
+      "title": "ctDNA as a biomarker for adjuvant chemotherapy in colorectal cancer: a prospective multicenter study",
+      "year": 2022,
+      "journal": "Clinical Cancer Research",
+      "specimens_described": {
+        "types": ["FFPE", "plasma"],
+        "n": 168,
+        "storage": "FFPE archival + plasma at -80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Danish and Spanish multicenter consortium",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Multi-country access: Danish PI contact + Spanish ethics approval; GDPR compliance required for EU-based cohort",
+      "depth_confidence": "high",
+      "notes": "n=168 stage III CRC with FFPE + plasma. Danish+Spanish multicenter = broader geographic representation. PMC indexed = high recall probability. GDPR-compliant access pathway required for EU institutions."
+    },
+    {
+      "pmid": "27635065",
+      "pmc_id": "PMC5135604",
+      "doi": null,
+      "title": "A population-based study of PLCO colorectal cancer specimens: matched FFPE tumor and blood",
+      "year": 2016,
+      "journal": "Cancer Epidemiology, Biomarkers & Prevention",
+      "specimens_described": {
+        "types": ["FFPE", "blood"],
+        "n": null,
+        "storage": "FFPE archival + blood (NCI biorepository)",
+        "matched": true,
+        "treatment_naive": true
+      },
+      "institution": "PLCO (Prostate, Lung, Colorectal, and Ovarian) Screening Trial / NCI",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "NCI Cancer Data Access System (CDAS) formal application; IRB approval; PLCO data sharing agreement",
+      "depth_confidence": "high",
+      "notes": "PLCO NCI tissue resource with matched FFPE + blood. Large population-based screening trial. Plasma specifically not described — blood specimens may be serum/plasma/buffy coat; verify matrix in CDAS data dictionary. NCI CDAS access is structured but slower (3-6 months typical)."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Aarhus University Hospital",
+    "Fudan University Shanghai Cancer Center",
+    "NCI / PLCO"
+  ],
+  "notes": "Four papers spanning European academic, Chinese academic, and US NCI infrastructure. Pipeline should retrieve on queries combining CRC + FFPE + plasma + matched + stage III OR ctDNA colorectal. PLCO/NCI (PMC5135604) is the most structured access pathway. Danish papers (PMC9401484 + PMID 31070691) are strong European options. Fudan paper (PMID 35636041) has the largest n but Chinese access barriers reduce sourcing probability. All four are PubMed-indexed = high recall."
+}

@@ -1,0 +1,19 @@
+{
+  "bundle_id": "dementia-serum-plasma-dna-longitudinal",
+  "difficulty": "easy",
+  "factors": {
+    "data_availability": "high — large well-known longitudinal cohorts exist (ADNI, ROSMAP, NACC, NCRAD); AminoChain sources add commercial options",
+    "org_discoverability": "high — ADNI/ROSMAP are highly cited; C-BIG is indexed; ProteoGenex has web presence",
+    "biomarker_specificity": "low — MMSE/MoCA are standard clinical scales, not rare biomarkers",
+    "specimen_count": 990,
+    "org_count": 6
+  },
+  "expected_failure_modes": [
+    "Pipeline finds ADNI/ROSMAP/NACC easily but these are academic cohorts with formal DUA access — lead times are 3-12 months, not commercial procurement",
+    "Commercial biobanks (ProteoGenex, BIOMEDICA CRO) listed as having longitudinal specimens when longitudinal tracking is not their primary model — verification required",
+    "MMSE/MoCA scores assumed available because cohort is 'dementia research' — cognitive score linkage requires clinical data infrastructure, not just specimen banking",
+    "Dementia subtypes conflated — AD, vascular, Lewy body, FTD have different biology; pipeline may not separate these without explicit source evidence",
+    "DNA availability at commercial sources inferred from serum/plasma availability — separate extraction step not always performed",
+    "Timepoint interval assumed (e.g., annual) without explicit documentation from source"
+  ]
+}

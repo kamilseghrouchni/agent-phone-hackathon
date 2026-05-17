@@ -1,0 +1,211 @@
+{
+  "id": "novogene",
+  "name": "Novogene",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Novogene"
+  ],
+  "search_queries": [
+    "\"Novogene\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 156,
+  "publications_indexed": 25,
+  "address_hints": [
+    "Novogene Bioinformatics Institute, Beijing, China",
+    "Novogene Bioinformatics Technology Co., Ltd, Beijing, China",
+    "Novogene Co., Ltd., Beijing, 100015, China",
+    "Novogene Bioinformatics Institute, Beijing 100083, China",
+    "Novogene Bioinformatics Institute, Beijing, 100083, China"
+  ],
+  "contact_emails": [
+    "made08@mails.ucas.edu.cn"
+  ],
+  "sample_types": [
+    {
+      "type": "plasma",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "40623122"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Pregnancy",
+      "n_papers": 1
+    },
+    {
+      "area": "Hypertension, Pregnancy-Induced",
+      "n_papers": 1
+    },
+    {
+      "area": "Pregnancy Trimester, First",
+      "n_papers": 1
+    },
+    {
+      "area": "Biomarkers, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Campylobacter Infections",
+      "n_papers": 1
+    },
+    {
+      "area": "Leukemia",
+      "n_papers": 1
+    },
+    {
+      "area": "Inflammation",
+      "n_papers": 1
+    },
+    {
+      "area": "Osteoarthritis",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "State Key Laboratory of Experimental Hematology",
+      "co_pubs": 3
+    },
+    {
+      "name": "Tianjin Institutes of Health Science",
+      "co_pubs": 3
+    },
+    {
+      "name": "School of Basic Medical Sciences",
+      "co_pubs": 2
+    },
+    {
+      "name": "College of Life Science",
+      "co_pubs": 2
+    },
+    {
+      "name": "Shanghai Key Laboratory of Plant Functional Genomics and Resources",
+      "co_pubs": 2
+    },
+    {
+      "name": "National Technology Innovation Center for Prataculture",
+      "co_pubs": 1
+    },
+    {
+      "name": "College of Information Engineering",
+      "co_pubs": 1
+    },
+    {
+      "name": "University of Michigan",
+      "co_pubs": 1
+    },
+    {
+      "name": "College of Grassland Science and Technology",
+      "co_pubs": 1
+    },
+    {
+      "name": "University of Georgia",
+      "co_pubs": 1
+    },
+    {
+      "name": "Central South University",
+      "co_pubs": 1
+    },
+    {
+      "name": "Hunan Clinical Medical Research Center for Cancer Pathogenic Genes Testing and Diagnosis",
+      "co_pubs": 1
+    },
+    {
+      "name": "The Second Xiangya Hospital",
+      "co_pubs": 1
+    },
+    {
+      "name": "State Key Laboratory of North China Crop Improvement and Regulation",
+      "co_pubs": 1
+    },
+    {
+      "name": "Collaborative Innovation Center for Cotton Industry of Hebei Province",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "42050196",
+      "doi": "10.1038/nbt.3192",
+      "pmc": "4430369",
+      "year": 2026,
+      "journal": "Nat Plants",
+      "title": "Single-cell chromatin accessibility and cis-regulatory element analyses in plants using the scPlantReg platform."
+    },
+    {
+      "pmid": "41942648",
+      "doi": "10.1038/s41598-026-46618-3",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Sci Rep",
+      "title": "RNA-based next-generation sequencing strategy for screening MDM2-amplified sarcomas."
+    },
+    {
+      "pmid": "41862752",
+      "doi": "10.1038/s41588-026-02523-z",
+      "pmc": "2928508",
+      "year": 2026,
+      "journal": "Nat Genet",
+      "title": "A pangenome reference and population studies link structural variants with breeding traits in Gossypium hirsutum."
+    },
+    {
+      "pmid": "41669844",
+      "doi": "10.1161/HYPERTENSIONAHA.125.25388",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Hypertension",
+      "title": "DNA Methylation Markers for Pregnancy Hypertension via Machine Learning Methods."
+    },
+    {
+      "pmid": "41576511",
+      "doi": "10.1016/j.cancergen.2026.01.007",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Cancer Genet",
+      "title": "Genome-wide cfDNA Methylation Profiling of Pleural Effusion Reveals an Immuno-epigenetic Signature for Differentiating Malignant from Benign Cases."
+    },
+    {
+      "pmid": "41851457",
+      "doi": "10.1038/s41592-023-02139-9",
+      "pmc": "10864184",
+      "year": 2026,
+      "journal": "Nature",
+      "title": "Proteasome-guided haem signalling axis contributes to T cell exhaustion."
+    },
+    {
+      "pmid": "41820523",
+      "doi": "10.1038/s41698-026-01360-x",
+      "pmc": null,
+      "year": 2026,
+      "journal": "NPJ Precis Oncol",
+      "title": "BET inhibition disrupts the FOXM1-MYC axis to induce BRCAness and enhance PARP inhibitor response."
+    },
+    {
+      "pmid": "42058499",
+      "doi": "10.1159/000550945",
+      "pmc": "PMC7691323",
+      "year": 2026,
+      "journal": "Liver Cancer",
+      "title": "Integrated Multi-Omics Profiling Identifies an Immunotherapy Vulnerable and Prognostic Associated Subtype in Cholangiocarcinoma."
+    },
+    {
+      "pmid": "41629458",
+      "doi": "10.1038/s41598-026-36940-1",
+      "pmc": "PMC7717906",
+      "year": 2026,
+      "journal": "Sci Rep",
+      "title": "Orbitrap Astral-based proteome and phosphoproteome analysis identifies candidate proteins associated with the phosphatidate phosphatase MoPah1 in Magnaporthe oryzae."
+    },
+    {
+      "pmid": "41290542",
+      "doi": "10.1002/advs.202509259",
+      "pmc": "PMC8728233",
+      "year": 2026,
+      "journal": "Adv Sci (Weinh)",
+      "title": "Single-Cell Dissection Reveals Immune Dysregulation After CD5 or CD7-Directed Chimeric Antigen Receptor T-Cell Therapy."
+    }
+  ]
+}

@@ -1,0 +1,3309 @@
+[
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Fixed"
+        ]
+      }
+    ],
+    "count": 61148,
+    "depth": 4,
+    "asc_desc": true,
+    "partial": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Cryopreservation"
+        ]
+      }
+    ],
+    "count": 2286,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 5515,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Other"
+        ]
+      }
+    ],
+    "count": 5,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "RNA-stabilizing Solution"
+        ]
+      }
+    ],
+    "count": 2,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 1082,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Cryopreservation"
+        ]
+      }
+    ],
+    "count": 10899,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 5,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 9573,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Cryopreservation"
+        ]
+      }
+    ],
+    "count": 11182,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Fresh"
+        ]
+      }
+    ],
+    "count": 92,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "RNA-stabilizing Solution"
+        ]
+      }
+    ],
+    "count": 1307,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 9519,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Other"
+        ]
+      }
+    ],
+    "count": 550,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Buffy coat"
+        ]
+      }
+    ],
+    "count": 114,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "RNA"
+        ]
+      }
+    ],
+    "count": 2275,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Aqueous humor"
+        ]
+      }
+    ],
+    "count": 322,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Vitreous humor"
+        ]
+      }
+    ],
+    "count": 392,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Whole globe"
+        ]
+      }
+    ],
+    "count": 375,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Red blood cell (RBC)/Buffy coat mixture"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Cryopreservation"
+        ]
+      }
+    ],
+    "count": 11270,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Red blood cell (RBC)/Buffy coat mixture"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 98,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Fixed"
+        ]
+      }
+    ],
+    "count": 42718,
+    "depth": 4,
+    "asc_desc": true,
+    "partial": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Cryopreservation"
+        ]
+      }
+    ],
+    "count": 454,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 3447,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Other"
+        ]
+      }
+    ],
+    "count": 6,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "RNA-stabilizing Solution"
+        ]
+      }
+    ],
+    "count": 2,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 1125,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Cryopreservation"
+        ]
+      }
+    ],
+    "count": 7338,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 7413,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Cryopreservation"
+        ]
+      }
+    ],
+    "count": 7422,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Fresh"
+        ]
+      }
+    ],
+    "count": 76,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "RNA-stabilizing Solution"
+        ]
+      }
+    ],
+    "count": 1407,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 6944,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Other"
+        ]
+      }
+    ],
+    "count": 449,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Whole blood"
+        ]
+      }
+    ],
+    "count": 1,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Buffy coat"
+        ]
+      }
+    ],
+    "count": 94,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "RNA"
+        ]
+      }
+    ],
+    "count": 1583,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Aqueous humor"
+        ]
+      }
+    ],
+    "count": 336,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Vitreous humor"
+        ]
+      }
+    ],
+    "count": 467,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Whole globe"
+        ]
+      }
+    ],
+    "count": 427,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Red blood cell (RBC)/Buffy coat mixture"
+        ]
+      }
+    ],
+    "count": 7440,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      }
+    ],
+    "count": 147,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      }
+    ],
+    "count": 5341,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      }
+    ],
+    "count": 4945,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "RNA"
+        ]
+      }
+    ],
+    "count": 32,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "USA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Red blood cell (RBC)/Buffy coat mixture"
+        ]
+      }
+    ],
+    "count": 225,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 12228,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      }
+    ],
+    "count": 4379,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "DNA"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 10301,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "DNA"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Other"
+        ]
+      }
+    ],
+    "count": 1,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Peripheral blood mononuclear cells (PBMCs)"
+        ]
+      }
+    ],
+    "count": 6997,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "RNA"
+        ]
+      }
+    ],
+    "count": 52,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Cerebrospinal fluid (CSF)"
+        ]
+      }
+    ],
+    "count": 1313,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Fibroblast"
+        ]
+      }
+    ],
+    "count": 48,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Induced pluripotent stem cells (iPSCs)"
+        ]
+      }
+    ],
+    "count": 290,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 13118,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      }
+    ],
+    "count": 3819,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "DNA"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 12392,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Peripheral blood mononuclear cells (PBMCs)"
+        ]
+      }
+    ],
+    "count": 7914,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "RNA"
+        ]
+      }
+    ],
+    "count": 64,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Cerebrospinal fluid (CSF)"
+        ]
+      }
+    ],
+    "count": 1383,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Fibroblast"
+        ]
+      }
+    ],
+    "count": 85,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "CAN"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Induced pluripotent stem cells (iPSCs)"
+        ]
+      }
+    ],
+    "count": 663,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      }
+    ],
+    "count": 6540,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 12490,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 50,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 15893,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "RNA-stabilizing Solution"
+        ]
+      }
+    ],
+    "count": 8,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 20,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Other"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 19927,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Urine"
+        ]
+      }
+    ],
+    "count": 63,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Whole blood"
+        ]
+      }
+    ],
+    "count": 1278,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Buffy coat"
+        ]
+      }
+    ],
+    "count": 1727,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Peripheral blood mononuclear cells (PBMCs)"
+        ]
+      }
+    ],
+    "count": 119,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Saliva"
+        ]
+      }
+    ],
+    "count": 5,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Synovial fluid"
+        ]
+      }
+    ],
+    "count": 44,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Bone marrow mononuclear cells (BMMCs)"
+        ]
+      }
+    ],
+    "count": 41,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Nasal secretions"
+        ]
+      }
+    ],
+    "count": 9,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      }
+    ],
+    "count": 6409,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      }
+    ],
+    "count": 9019,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 16577,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "RNA-stabilizing Solution"
+        ]
+      }
+    ],
+    "count": 32,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 22,
+    "depth": 4
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Other"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 15034,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Urine"
+        ]
+      }
+    ],
+    "count": 139,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Whole blood"
+        ]
+      }
+    ],
+    "count": 219,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Buffy coat"
+        ]
+      }
+    ],
+    "count": 1534,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Peripheral blood mononuclear cells (PBMCs)"
+        ]
+      }
+    ],
+    "count": 11,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Saliva"
+        ]
+      }
+    ],
+    "count": 4,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Synovial fluid"
+        ]
+      }
+    ],
+    "count": 11,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Bone marrow mononuclear cells (BMMCs)"
+        ]
+      }
+    ],
+    "count": 32,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Nasal secretions"
+        ]
+      }
+    ],
+    "count": 2,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "UKR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 2833,
+    "depth": 2
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "NLD"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      }
+    ],
+    "count": 6621,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "NLD"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Urine"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 16563,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "NLD"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      }
+    ],
+    "count": 5746,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "NLD"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Urine"
+        ]
+      },
+      {
+        "key": "preservation_category",
+        "operator": "equals",
+        "value": [
+          "Frozen"
+        ]
+      }
+    ],
+    "count": 15085,
+    "depth": 4,
+    "asc_desc": true
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "FRA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      }
+    ],
+    "count": 5982,
+    "depth": 2
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "FRA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      }
+    ],
+    "count": 5855,
+    "depth": 2
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "FRA"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 40,
+    "depth": 2
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Female"
+        ]
+      }
+    ],
+    "count": 6764,
+    "depth": 2
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Tissue"
+        ]
+      }
+    ],
+    "count": 456,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Serum"
+        ]
+      }
+    ],
+    "count": 1060,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Plasma"
+        ]
+      }
+    ],
+    "count": 5760,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Other"
+        ]
+      }
+    ],
+    "count": 2,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Urine"
+        ]
+      }
+    ],
+    "count": 319,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Whole blood"
+        ]
+      }
+    ],
+    "count": 99,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Buffy coat"
+        ]
+      }
+    ],
+    "count": 2786,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Peripheral blood mononuclear cells (PBMCs)"
+        ]
+      }
+    ],
+    "count": 10,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Male"
+        ]
+      },
+      {
+        "key": "specimen_type",
+        "operator": "equals",
+        "value": [
+          "Saliva"
+        ]
+      }
+    ],
+    "count": 3,
+    "depth": 3
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "TUR"
+        ]
+      },
+      {
+        "key": "sex",
+        "operator": "equals",
+        "value": [
+          "Unknown"
+        ]
+      }
+    ],
+    "count": 181,
+    "depth": 2
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "IND"
+        ]
+      }
+    ],
+    "count": 1112,
+    "depth": 1
+  },
+  {
+    "filters": [
+      {
+        "key": "country_of_origin",
+        "operator": "equals",
+        "value": [
+          "NGA"
+        ]
+      }
+    ],
+    "count": 283,
+    "depth": 1
+  }
+]

@@ -1,0 +1,848 @@
+{
+  "Waldenstr\u00f6m macroglobulinemia (WM)": {
+    "total": 21,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Non-hodgkin lymphoma (NHL)": {
+    "total": 453,
+    "her2": 0,
+    "er": 58,
+    "pr": 58,
+    "ki67": 88,
+    "pdl1": 0,
+    "tnm": 27
+  },
+  "Lymphoma": {
+    "total": 933,
+    "her2": 0,
+    "er": 71,
+    "pr": 71,
+    "ki67": 88,
+    "pdl1": 0,
+    "tnm": 37
+  },
+  "Chronic Lymphocytic Leukemia (CLL)": {
+    "total": 188,
+    "her2": 0,
+    "er": 15,
+    "pr": 15,
+    "ki67": 23,
+    "pdl1": 0,
+    "tnm": 3
+  },
+  "Leukemia": {
+    "total": 231,
+    "her2": 0,
+    "er": 26,
+    "pr": 26,
+    "ki67": 23,
+    "pdl1": 0,
+    "tnm": 3
+  },
+  "Neurological condition": {
+    "total": 6688,
+    "her2": 0,
+    "er": 95,
+    "pr": 95,
+    "ki67": 1,
+    "pdl1": 0,
+    "tnm": 19
+  },
+  "T-cell lymphoma": {
+    "total": 44,
+    "her2": 0,
+    "er": 14,
+    "pr": 14,
+    "ki67": 10,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Thyroid cancer": {
+    "total": 891,
+    "her2": 5,
+    "er": 100,
+    "pr": 100,
+    "ki67": 11,
+    "pdl1": 0,
+    "tnm": 691
+  },
+  "Anaplastic cancer": {
+    "total": 154,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 88
+  },
+  "Skin cancer": {
+    "total": 5017,
+    "her2": 0,
+    "er": 722,
+    "pr": 722,
+    "ki67": 22,
+    "pdl1": 0,
+    "tnm": 3700
+  },
+  "Squamous cell cancer (SCC)": {
+    "total": 3498,
+    "her2": 0,
+    "er": 481,
+    "pr": 481,
+    "ki67": 12,
+    "pdl1": 0,
+    "tnm": 3043
+  },
+  "Acute myeloid leukemia (AML)": {
+    "total": 21,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Diabetes": {
+    "total": 1133,
+    "her2": 0,
+    "er": 23,
+    "pr": 23,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 536
+  },
+  "Lung cancer": {
+    "total": 2966,
+    "her2": 0,
+    "er": 332,
+    "pr": 332,
+    "ki67": 22,
+    "pdl1": 0,
+    "tnm": 2628
+  },
+  "Coronavirus (Covid)": {
+    "total": 4257,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 3689
+  },
+  "Non-Small cell lung cancer (NSCLC)": {
+    "total": 1133,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 1111
+  },
+  "Congestive Heart Failure (CHF)": {
+    "total": 2481,
+    "her2": 0,
+    "er": 9,
+    "pr": 9,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 2010
+  },
+  "Alzheimer's disease (AD)": {
+    "total": 496,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Dementia": {
+    "total": 990,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Arthritis": {
+    "total": 284,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 6
+  },
+  "Basal cell cancer": {
+    "total": 306,
+    "her2": 0,
+    "er": 5,
+    "pr": 5,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 25
+  },
+  "Bladder Cancer": {
+    "total": 1248,
+    "her2": 0,
+    "er": 89,
+    "pr": 89,
+    "ki67": 4,
+    "pdl1": 0,
+    "tnm": 885
+  },
+  "Melanoma": {
+    "total": 1299,
+    "her2": 0,
+    "er": 235,
+    "pr": 235,
+    "ki67": 9,
+    "pdl1": 0,
+    "tnm": 624
+  },
+  "Cardiomyopathy": {
+    "total": 38,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 14
+  },
+  "Thymoma": {
+    "total": 260,
+    "her2": 0,
+    "er": 1,
+    "pr": 1,
+    "ki67": 1,
+    "pdl1": 0,
+    "tnm": 248
+  },
+  "Chronic Obstructive Pulmonary Disease (COPD)": {
+    "total": 1689,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 1080
+  },
+  "Testicular cancer": {
+    "total": 29,
+    "her2": 0,
+    "er": 3,
+    "pr": 3,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 27
+  },
+  "Lupus": {
+    "total": 203,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Psoriasis": {
+    "total": 562,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 11
+  },
+  "Asthma": {
+    "total": 525,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 53
+  },
+  "Gastrointestinal disorder": {
+    "total": 5202,
+    "her2": 7,
+    "er": 461,
+    "pr": 461,
+    "ki67": 43,
+    "pdl1": 0,
+    "tnm": 4256
+  },
+  "Diabetes Type 2": {
+    "total": 335,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 66
+  },
+  "Scleroderma": {
+    "total": 143,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Cholecystitis": {
+    "total": 698,
+    "her2": 1,
+    "er": 1,
+    "pr": 1,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 596
+  },
+  "Uterine cancer": {
+    "total": 1543,
+    "her2": 0,
+    "er": 145,
+    "pr": 145,
+    "ki67": 3,
+    "pdl1": 0,
+    "tnm": 1283
+  },
+  "Ovarian cancer": {
+    "total": 1332,
+    "her2": 0,
+    "er": 214,
+    "pr": 214,
+    "ki67": 14,
+    "pdl1": 0,
+    "tnm": 1043
+  },
+  "Multiple Sclerosis (MS)": {
+    "total": 1213,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Atherosclerosis": {
+    "total": 393,
+    "her2": 0,
+    "er": 95,
+    "pr": 95,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 88
+  },
+  "Kidney cancer": {
+    "total": 136,
+    "her2": 0,
+    "er": 14,
+    "pr": 14,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 107
+  },
+  "Diabetes Type 1": {
+    "total": 50,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Pneumonia (PNA)": {
+    "total": 89,
+    "her2": 0,
+    "er": 65,
+    "pr": 65,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 5
+  },
+  "Prostate cancer": {
+    "total": 1512,
+    "her2": 0,
+    "er": 191,
+    "pr": 191,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 1061
+  },
+  "Liver cancer (hepatocellular carcinoma)": {
+    "total": 291,
+    "her2": 3,
+    "er": 59,
+    "pr": 59,
+    "ki67": 19,
+    "pdl1": 0,
+    "tnm": 282
+  },
+  "Cirrhosis": {
+    "total": 174,
+    "her2": 0,
+    "er": 65,
+    "pr": 65,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 109
+  },
+  "Encephalopathy": {
+    "total": 66,
+    "her2": 0,
+    "er": 65,
+    "pr": 65,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Invasive ductal cancer (IDC)": {
+    "total": 681,
+    "her2": 231,
+    "er": 474,
+    "pr": 472,
+    "ki67": 344,
+    "pdl1": 0,
+    "tnm": 527
+  },
+  "Breast cancer": {
+    "total": 1683,
+    "her2": 285,
+    "er": 584,
+    "pr": 582,
+    "ki67": 413,
+    "pdl1": 0,
+    "tnm": 1222
+  },
+  "Pancreatic cancer": {
+    "total": 1376,
+    "her2": 0,
+    "er": 63,
+    "pr": 63,
+    "ki67": 18,
+    "pdl1": 0,
+    "tnm": 1228
+  },
+  "Chronic kidney disease (CKD)": {
+    "total": 81,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 60
+  },
+  "Acinar adenocarcinoma": {
+    "total": 823,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 797
+  },
+  "Brain tumor": {
+    "total": 839,
+    "her2": 0,
+    "er": 102,
+    "pr": 102,
+    "ki67": 5,
+    "pdl1": 0,
+    "tnm": 18
+  },
+  "Colon cancer": {
+    "total": 1525,
+    "her2": 2,
+    "er": 135,
+    "pr": 135,
+    "ki67": 1,
+    "pdl1": 0,
+    "tnm": 1157
+  },
+  "Liposarcoma": {
+    "total": 10,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 10
+  },
+  "Glioblastoma": {
+    "total": 683,
+    "her2": 0,
+    "er": 101,
+    "pr": 101,
+    "ki67": 5,
+    "pdl1": 0,
+    "tnm": 3
+  },
+  "Rectum cancer": {
+    "total": 146,
+    "her2": 0,
+    "er": 3,
+    "pr": 3,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 139
+  },
+  "Sarcoidosis": {
+    "total": 7,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 4
+  },
+  "Esophageal cancer": {
+    "total": 640,
+    "her2": 0,
+    "er": 125,
+    "pr": 125,
+    "ki67": 4,
+    "pdl1": 0,
+    "tnm": 598
+  },
+  "Cervical cancer": {
+    "total": 1001,
+    "her2": 0,
+    "er": 90,
+    "pr": 90,
+    "ki67": 11,
+    "pdl1": 0,
+    "tnm": 749
+  },
+  "Diabetic retinopathy": {
+    "total": 1,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Pyelonephritis": {
+    "total": 34,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 34
+  },
+  "Pulmonary Fibrosis": {
+    "total": 62,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 5
+  },
+  "Multiple Myeloma": {
+    "total": 3,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Cataract": {
+    "total": 1,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Age-related macular degeneration (AMD)": {
+    "total": 1,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Cholangiocarcinoma": {
+    "total": 538,
+    "her2": 3,
+    "er": 67,
+    "pr": 67,
+    "ki67": 20,
+    "pdl1": 0,
+    "tnm": 489
+  },
+  "Astrocytoma": {
+    "total": 52,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Hepatitis": {
+    "total": 5,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 3
+  },
+  "Leukodystrophies": {
+    "total": 392,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Amyotrophic Lateral Sclerosis (ALS)": {
+    "total": 1687,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Primary Lateral Sclerosis (PLS)": {
+    "total": 529,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Parkinson's disease (PD)": {
+    "total": 1650,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Paraplegia": {
+    "total": 54,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Meningioma": {
+    "total": 43,
+    "her2": 0,
+    "er": 1,
+    "pr": 1,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Schwannoma": {
+    "total": 10,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Spindle cell cancer": {
+    "total": 68,
+    "her2": 0,
+    "er": 31,
+    "pr": 31,
+    "ki67": 6,
+    "pdl1": 0,
+    "tnm": 25
+  },
+  "Small cell lung cancer (SCLC)": {
+    "total": 132,
+    "her2": 0,
+    "er": 1,
+    "pr": 1,
+    "ki67": 6,
+    "pdl1": 0,
+    "tnm": 123
+  },
+  "Medullary cancer": {
+    "total": 104,
+    "her2": 5,
+    "er": 19,
+    "pr": 19,
+    "ki67": 8,
+    "pdl1": 0,
+    "tnm": 81
+  },
+  "Oligodendroglioma": {
+    "total": 10,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Merkel cell cancer (MCC)": {
+    "total": 4,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 1
+  },
+  "Hashimoto's Thyroiditis": {
+    "total": 1,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Appendicitis": {
+    "total": 2,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 2
+  },
+  "Adrenal gland tumors": {
+    "total": 5,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 5
+  },
+  "Tubular adenoma": {
+    "total": 27,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 18
+  },
+  "Human papilloma virus (HPV)": {
+    "total": 2,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 1
+  },
+  "Hemangioma": {
+    "total": 7,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 7
+  },
+  "Wegener's Granulomatosis (GPA)": {
+    "total": 6,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Glaucoma": {
+    "total": 1,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 1
+  },
+  "Seborrheic Keratosis": {
+    "total": 7,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 6
+  },
+  "HIV/AIDS": {
+    "total": 69,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  },
+  "Chondrosarcoma": {
+    "total": 4,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 4
+  },
+  "Germ cell cancer": {
+    "total": 25,
+    "her2": 0,
+    "er": 3,
+    "pr": 3,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 24
+  },
+  "Seminoma": {
+    "total": 20,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 20
+  },
+  "Yolk sac tumor (YST)": {
+    "total": 1,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 1
+  },
+  "Phyllode tumor": {
+    "total": 2,
+    "her2": 0,
+    "er": 0,
+    "pr": 0,
+    "ki67": 0,
+    "pdl1": 0,
+    "tnm": 0
+  }
+}

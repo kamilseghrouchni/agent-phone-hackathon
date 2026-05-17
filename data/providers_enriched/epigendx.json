@@ -1,0 +1,149 @@
+{
+  "id": "epigendx",
+  "name": "EpigenDx",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "EpigenDx"
+  ],
+  "search_queries": [
+    "\"EpigenDx\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 5,
+  "publications_indexed": 5,
+  "address_hints": [
+    "EpigenDx, Inc.,\u00a0Hopkinton,\u00a0MA,\u00a0USA",
+    "EpigenDx Inc., Hopkinton, MA, USA",
+    "EpigenDx, Inc., Hopkinton, MA USA",
+    "EpigenDx, Inc., Hopkinton, Massachusetts, USA",
+    "EpigenDx, Inc, Hopkinton, MA, 01748, USA"
+  ],
+  "contact_emails": [],
+  "sample_types": [
+    {
+      "type": "saliva",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "38522372"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Pituitary-Adrenal System",
+      "n_papers": 1
+    },
+    {
+      "area": "Hand Disinfection",
+      "n_papers": 1
+    },
+    {
+      "area": "Pregnancy",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "University of California",
+      "co_pubs": 5
+    },
+    {
+      "name": "International Centre for Diarrhoeal Disease Research",
+      "co_pubs": 3
+    },
+    {
+      "name": "Pennsylvania State University",
+      "co_pubs": 3
+    },
+    {
+      "name": "Institute for Interdisciplinary Salivary Bioscience Research",
+      "co_pubs": 3
+    },
+    {
+      "name": "School of Public Health",
+      "co_pubs": 3
+    },
+    {
+      "name": "Stanford University",
+      "co_pubs": 3
+    },
+    {
+      "name": "Duke University School of Medicine",
+      "co_pubs": 2
+    },
+    {
+      "name": "Johns Hopkins University School of Medicine",
+      "co_pubs": 2
+    },
+    {
+      "name": "St. Mary's College of Maryland",
+      "co_pubs": 2
+    },
+    {
+      "name": "PK/PD Core Laboratory",
+      "co_pubs": 1
+    },
+    {
+      "name": "Duke University",
+      "co_pubs": 1
+    },
+    {
+      "name": "Institute for Global Nutrition",
+      "co_pubs": 1
+    },
+    {
+      "name": "Johns Hopkins University",
+      "co_pubs": 1
+    },
+    {
+      "name": "Francis I. Proctor Foundation",
+      "co_pubs": 1
+    },
+    {
+      "name": "Neuroscience Research Institute",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "38522372",
+      "doi": "10.1038/npp.2012.149",
+      "pmc": "PMC3521971",
+      "year": 2024,
+      "journal": "Psychoneuroendocrinology",
+      "title": "Stress biomarkers and child development in young children in Bangladesh."
+    },
+    {
+      "pmid": "38670986",
+      "doi": "10.1136/bmjopen-2016-011094",
+      "pmc": "PMC5013424",
+      "year": 2024,
+      "journal": "Nat Commun",
+      "title": "A cluster-randomized trial of water, sanitation, handwashing and nutritional interventions on stress and epigenetic programming."
+    },
+    {
+      "pmid": "37519068",
+      "doi": "10.1111/gbb.12858",
+      "pmc": "PMC4773593",
+      "year": 2023,
+      "journal": "Genes Brain Behav",
+      "title": "Maternal upbringing and selective breeding for voluntary exercise behavior modify patterns of DNA methylation and expression of genes in the mouse brain."
+    },
+    {
+      "pmid": "37745503",
+      "doi": "10.1038/npp.2012.149",
+      "pmc": "PMC3521971",
+      "year": 2023,
+      "journal": "medRxiv",
+      "title": "Stress Biomarkers and Child Development in Young Children in Bangladesh."
+    },
+    {
+      "pmid": "35988119",
+      "doi": "10.1038/ng709",
+      "pmc": "PMC6072066",
+      "year": 2022,
+      "journal": "Behav Genet",
+      "title": "DNA Methylation Analysis of Imprinted Genes in the Cortex and Hippocampus of Cross-Fostered Mice Selectively Bred for Increased Voluntary Wheel-Running."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "bundle_id": "obesity-plasma-serum",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 0,
+    "total_secondary_specimens": 0,
+    "total_donors": 0,
+    "organizations": [],
+    "matched_pair_donors": 0
+  },
+  "organizations": [],
+  "specimen_sample": [],
+  "coverage_gaps": {
+    "her2": "0% annotated \u2014 effectively not available",
+    "er": "0% annotated \u2014 effectively not available",
+    "pr": "0% annotated \u2014 effectively not available",
+    "ki67": "0% annotated \u2014 effectively not available",
+    "pd-l1": "0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

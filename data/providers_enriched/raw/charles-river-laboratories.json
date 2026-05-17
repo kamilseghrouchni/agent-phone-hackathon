@@ -1,0 +1,2769 @@
+{
+  "name": "Charles River Laboratories",
+  "cleaned_name": "Charles River Laboratories",
+  "aliases_tried": [
+    "Charles River Laboratories"
+  ],
+  "publication_total": 566,
+  "search_queries": [
+    "\"Charles River Laboratories\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41765277",
+      "doi": "10.1016/j.yrtph.2026.106077",
+      "title": "Virtual control groups in nonclinical research: A Re-analysis of 20 studies using virtual control group data.",
+      "abstract": "Animal models are crucial in biomedical research, particularly in pharmaceutical discovery and safety testing. Recent legislative updates and regulatory shifts, such as the FDA Modernization Act 2.0 and European Parliament Resolution 2021/2784 (RSP), have opened new avenues for innovative nonclinical research. Among these innovations is the use of Virtual Control Groups (VCGs), a method which can significantly reduce animal usage and improve experimental designs. VCGs utilize historical control data and machine learning algorithms to replicate traditional control groups' statistical power and address preanalytical and analytical variations. We applied VCG data retrospectively to 20 pilot studies. The VCG and concurrent control group (CCG) data were compared to assess statistical alignment as well as biological relevance. The findings highlight the effectiveness of VCGs in maintaining toxicological study integrity and underscore the importance of specific selection criteria in ensuring accurate toxicological outcomes. This work supports the potential of VCGs in advancing the 3Rs and improving nonclinical research methodologies.",
+      "journal": "Regul Toxicol Pharmacol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Lotfi",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Charles River Laboratories, 251 Ballardvale St., Wilmington, MA, 01887, USA. Electronic address: laura.lotfi@crl.com."
+          ]
+        },
+        {
+          "last_name": "O'Neill",
+          "fore_name": "T William",
+          "affiliations": [
+            "Charles River Laboratories, 54943 N Main St., Mattawan, MI, 49071, USA."
+          ]
+        },
+        {
+          "last_name": "Wilcox",
+          "fore_name": "Angela",
+          "affiliations": [
+            "Charles River Laboratories, 6995 Longley Ln., Reno, NV, 89511, USA."
+          ]
+        },
+        {
+          "last_name": "Bulera",
+          "fore_name": "Steven",
+          "affiliations": [
+            "Charles River Laboratories, 6995 Longley Ln., Reno, NV, 89511, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Research Design",
+        "Control Groups",
+        "Machine Learning",
+        "Toxicity Tests"
+      ],
+      "keywords": [
+        "3Rs",
+        "Advanced analytics",
+        "Animal testing alternatives",
+        "Drug development",
+        "New approach methods (NAMs)",
+        "Nonclinical",
+        "Reduction",
+        "Refinement",
+        "Replacement",
+        "Safety assessment",
+        "Toxicology"
+      ]
+    },
+    {
+      "pmid": "41730494",
+      "doi": "10.1016/j.yrtph.2026.106062",
+      "title": "Use of whole slide images for primary pathology evaluation of non-clinical toxicology studies in a GLP-validated environment.",
+      "abstract": "Histopathology evaluation is a key element of non-clinical toxicology studies and digitizing the histopathology workflow has the potential to support efficiency improvements in part by reducing requirements for travel and/or shipping and making remote global collaboration easier. The standardization and user acceptance of digital pathology in medical and toxicologic pathology fields was accelerated by the COVID-19 pandemic, which has resulted in increased adoption. In toxicologic pathology, slide scanners have been validated for use in Good Laboratory Practice (GLP), and whole slide images (WSI) are now essential in drug development, enabling tissue image analysis and aiding in biomarker discovery. This article outlines the GLP validation of a cloud-based digital pathology platform at a multisite non-clinical contract research organization for primary pathology evaluation. Validation encompasses upload, download, microscopic evaluation of tissues, and archiving of digital study materials. This approach supports global collaboration and data mining, optimizing and accelerating the drug development process.",
+      "journal": "Regul Toxicol Pharmacol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "\u017buraw",
+          "fore_name": "Aleksandra",
+          "affiliations": [
+            "Charles River Laboratories International, Inc, United States. Electronic address: aleks@digitalpathologyplace.com."
+          ]
+        },
+        {
+          "last_name": "Staup",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Charles River Laboratories International, Inc, United States."
+          ]
+        },
+        {
+          "last_name": "Bertrand",
+          "fore_name": "Lise",
+          "affiliations": [
+            "Charles River Laboratories International, Inc, United States."
+          ]
+        },
+        {
+          "last_name": "Cyr",
+          "fore_name": "Fran\u00e7ois",
+          "affiliations": [
+            "Charles River Laboratories International, Inc, United States."
+          ]
+        },
+        {
+          "last_name": "Deiters",
+          "fore_name": "Joshua",
+          "affiliations": [
+            "Charles River Laboratories International, Inc, United States."
+          ]
+        },
+        {
+          "last_name": "Rudmann",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Sanofi US Services, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "COVID-19",
+        "Image Processing, Computer-Assisted",
+        "Toxicology",
+        "Animals",
+        "Cloud Computing",
+        "Pathology"
+      ],
+      "keywords": [
+        "Digital pathology",
+        "Good laboratory practice",
+        "Histopathology",
+        "Toxicologic pathology",
+        "Validation",
+        "Whole slide imaging"
+      ]
+    },
+    {
+      "pmid": "41794307",
+      "doi": "10.1016/j.reprotox.2026.109210",
+      "title": "Editorial: Potential developmental toxicity induced by antidepressant drugs.",
+      "abstract": "",
+      "journal": "Reprod Toxicol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Faqi",
+          "fore_name": "Ali S",
+          "affiliations": [
+            "ASF Scientific Solutions, LLC, Grove City, OH, USA. Electronic address: issrali2013@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Hoberman",
+          "fore_name": "Alan",
+          "affiliations": [
+            "Charles River Laboratories, Wilmington, MA, USA. Electronic address: Alan.hoberman@crl.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Antidepressants",
+        "Developmental toxicity",
+        "Fertility",
+        "Neonatal physiology",
+        "Pregnancy",
+        "Reproductive toxicity",
+        "SNRI",
+        "SSRI"
+      ]
+    },
+    {
+      "pmid": "41765210",
+      "doi": "10.1016/j.reprotox.2026.109206",
+      "title": "Identifying and reporting dystocia in laboratory rodents.",
+      "abstract": "Dystocia (prolonged, difficult, and/or delayed parturition) results from a variety of potential clinical conditions including uterine inertia, hormonal imbalances, oversized fetuses, abnormal orientation of fetuses in the birth canal, etc. In the laboratory, dystocia frequently results in euthanasia. In 2020, the Health and Environmental Sciences Institute's Developmental and Reproductive Toxicology committee formed a working group to discuss anecdotal reports of increased incidence of dystocia amongst laboratory rodents. Based on an initial survey completed by contributing laboratories, it became apparent that there is significant disparity in how various laboratories define, record, report, and interpret dystocia in laboratory animals. This report highlights the key findings from a survey of performing laboratories conducted by this working group and proposes best practices and recommendations for the monitoring and recording of parturition and dystocia in reproductive toxicity studies in rodents. Implementing consistent definitions, observation strategies, and documentation standards will strengthen data comparability and enhance the scientific foundation on which regulatory decisions are made. Furthermore, consistent reporting of dystocia across industry laboratories will improve the transparency and reliability of evidence used in hazard identification and risk assessment and thereby help reduce discrepancies in regulatory outcomes and facilitate regulatory decision-making for chemicals, plant protection products, biocides, and pharmaceuticals.",
+      "journal": "Reprod Toxicol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Barrow",
+          "fore_name": "Paul",
+          "affiliations": [
+            "Freelance Consultant, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Coder",
+          "fore_name": "Pr\u00e4gati S",
+          "affiliations": [
+            "Charles River Laboratories, Ashland, OH, USA."
+          ]
+        },
+        {
+          "last_name": "Ghaffari",
+          "fore_name": "Rashin",
+          "affiliations": [
+            "Corteva Agriscience, Newark, DE, USA."
+          ]
+        },
+        {
+          "last_name": "Zorrilla",
+          "fore_name": "Leah",
+          "affiliations": [
+            "Bayer Crop Science, Chesterfield, MO, USA."
+          ]
+        },
+        {
+          "last_name": "Bowman",
+          "fore_name": "Christopher J",
+          "affiliations": [
+            "Pfizer, Inc., Groton, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Grace",
+          "fore_name": "Curtis E",
+          "affiliations": [
+            "Merck & Co. Inc., Rahway, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Manton",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Toxiqua Ltd. . Worcester, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Hoberman",
+          "fore_name": "Alan",
+          "affiliations": [
+            "Charles River Laboratories, Horsham, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Barraclough",
+          "fore_name": "Narinder",
+          "affiliations": [
+            "Labcorp Harrogate, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Leconte",
+          "fore_name": "Isabelle",
+          "affiliations": [
+            "Charles River Laboratories, Lyon, France."
+          ]
+        },
+        {
+          "last_name": "Powles-Glover",
+          "fore_name": "Nicola",
+          "affiliations": [
+            "ExxonMobil Technology and Engineering Company, ExxonMobil Biomedical Sciences, Inc., TX, USA."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Connie",
+          "affiliations": [
+            "The Health and Environmental Sciences Institute, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Mitchell-Ryan",
+          "fore_name": "Shermaine",
+          "affiliations": [
+            "The Health and Environmental Sciences Institute, Washington, DC, USA. Electronic address: smitchell-ryan@hesiglobal.org."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Dystocia",
+        "Pregnancy",
+        "Female",
+        "Rodentia",
+        "Animals, Laboratory"
+      ],
+      "keywords": [
+        "Dystocia",
+        "Gestation",
+        "Parturition",
+        "Rat",
+        "Rodent"
+      ]
+    },
+    {
+      "pmid": "42067074",
+      "doi": "10.1016/j.reprotox.2026.109256",
+      "title": "An Overview of Current and Potential Use of the Minipig in Developmental and Reproductive Toxicity Testing.",
+      "abstract": "Although the minipig is recognized as a non-routine species in the latest revision of the International Council for Harmonization guideline on detection of reproductive and developmental toxicity for human pharmaceuticals (ICH S5(R3)), its practical use remains relatively limited in drug development programs. Concerns identified by pharmaceutical companies such as large active pharmaceutical ingredient (API) requirements, limited number of experienced laboratories, less extensive historical control datasets, a long gestation period, and minimal to no prenatal transfer of antibodies contribute to hesitancy in adopting the minipig. In addition, to date, the lack of any regulatory-approved drug with data from a minipig embryo-fetal developmental study, is an additional indicator of a reluctance to accept and develop this alternative model. The principal objectives of this manuscript are to address these concerns and to propose alternative non-clinical strategies that could expand the use of the minipig in developmental and reproductive toxicology testing. By encouraging broader dialogue with pharmaceutical companies and health authorities, the goal is to facilitate acceptance of alternative strategies and study designs.",
+      "journal": "Reprod Toxicol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Marsden",
+          "fore_name": "Edward",
+          "affiliations": [
+            "Charles River Laboratories France Safety Assessment SAS, France. Electronic address: edward.marsden@crl.com."
+          ]
+        },
+        {
+          "last_name": "Bouressam",
+          "fore_name": "Marie",
+          "affiliations": [
+            "Charles River Laboratories France Safety Assessment SAS, France."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "developmental",
+        "minipig",
+        "nonclinical strategies",
+        "reproductive",
+        "toxicology"
+      ]
+    },
+    {
+      "pmid": "42045443",
+      "doi": "10.1038/cmi.2017.36",
+      "pmc": "1948080",
+      "title": "DNA methylation-mediated memory of obesity in CD4 T lymphocytes perpetuates immune dysregulation.",
+      "abstract": "Obesity represents a major global healthcare crisis, with childhood obesity rising at an alarming rate. Children with obesity are highly likely to carry it into adulthood, bringing numerous associated health risks. Even more troubling is the emerging understanding of \"obesity memory\", which contributes to the frequent issue of weight regain. Here, we show that obesity imprints CD4 T cells through DNA methylation, leading to a long-time lag, spanning years, before adaptive immune homeostasis is restored after weight loss. Differential DNA methylation analysis highlights autophagy and immune senescence as potential key mechanisms underpinning this memory of obesity in CD4 T cells. In addition, particularly palmitate could be a key saturated fatty acid that can contribute to epigenetic alterations in CD4 T cells, potentially perpetuating this altered state. We identify molecular candidates (i.e., Stk26 and Cdkn1c) underpinning key cell functions (autophagy and immune senescence) that could be targeted to promote a return to immune homeostasis alongside weight loss. These findings raise the possibility that targeting such pathways could support the restoration of immune homeostasis alongside weight loss therapies.",
+      "journal": "EMBO Rep",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Niven",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Kucuk",
+          "fore_name": "Salih",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Gope",
+          "fore_name": "Atrayee",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Certo",
+          "fore_name": "Michelangelo",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Cassidy",
+          "fore_name": "Fearon C",
+          "affiliations": [
+            "Human Health Institute, Maynooth University, Kildare, Ireland.",
+            "Center for Infectious Medicine, Department of Medicine Huddinge, Karolinska Institutet, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Arana Echarri",
+          "fore_name": "Ainhoa",
+          "affiliations": [
+            "Centre for Nutrition, Exercise and Metabolism, Department for Health, University of Bath, Bath, UK."
+          ]
+        },
+        {
+          "last_name": "Ali",
+          "fore_name": "Sadaf",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK.",
+            "University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Ladoukakis",
+          "fore_name": "Efthymios",
+          "affiliations": [
+            "Wolfson Institute of Preventive Medicine, Centre for Cancer Prevention, Barts and the London School of Medicine, Queen Mary University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Vidali",
+          "fore_name": "Sofia",
+          "affiliations": [
+            "Wolfson Institute of Preventive Medicine, Centre for Cancer Prevention, Barts and the London School of Medicine, Queen Mary University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Macchi",
+          "fore_name": "Chiara",
+          "affiliations": [
+            "Department of Pharmacological and Biomolecular Sciences \"Rodolfo Paoletti\", Universit\u00e0 Degli Studi di Milano, Milan, Italy."
+          ]
+        },
+        {
+          "last_name": "Amir",
+          "fore_name": "Sayeda S",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Bergin",
+          "fore_name": "Ronan",
+          "affiliations": [
+            "Human Health Institute, Maynooth University, Kildare, Ireland."
+          ]
+        },
+        {
+          "last_name": "Davies",
+          "fore_name": "Sophie",
+          "affiliations": [
+            "Centre for Nutrition, Exercise and Metabolism, Department for Health, University of Bath, Bath, UK."
+          ]
+        },
+        {
+          "last_name": "Perkin",
+          "fore_name": "Oliver J",
+          "affiliations": [
+            "Centre for Nutrition, Exercise and Metabolism, Department for Health, University of Bath, Bath, UK."
+          ]
+        },
+        {
+          "last_name": "Smith",
+          "fore_name": "Joanne",
+          "affiliations": [
+            "William Harvey Research Institute, Barts and the London School of Medicine, Queen Mary University of London, London, UK.",
+            "Reaction Biology Europe GmbH, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Cucchi",
+          "fore_name": "Danilo",
+          "affiliations": [
+            "William Harvey Research Institute, Barts and the London School of Medicine, Queen Mary University of London, London, UK.",
+            "ADC Therapeutics UK (Ltd), London, UK."
+          ]
+        },
+        {
+          "last_name": "Heneghan",
+          "fore_name": "Helen",
+          "affiliations": [
+            "Human Health Institute, Maynooth University, Kildare, Ireland."
+          ]
+        },
+        {
+          "last_name": "Wijesinghe",
+          "fore_name": "Susanne",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Jenkins",
+          "fore_name": "Benjamin J",
+          "affiliations": [
+            "Institute of Life Science, Swansea University Medical School, Swansea University, Swansea, UK."
+          ]
+        },
+        {
+          "last_name": "Baig",
+          "fore_name": "Shanat",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK.",
+            "University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Mahony",
+          "fore_name": "Christopher",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Chidomere",
+          "fore_name": "Chiamaka",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK.",
+            "Charles River Laboratories, Portishead, Bristol, UK."
+          ]
+        },
+        {
+          "last_name": "Sarkar",
+          "fore_name": "Sovan",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Nicolaou",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Laboratory for Lipidomics and Lipid Biology, Division of Pharmacy and Optometry, School of Health Sciences, The University of Manchester, Manchester, UK.",
+            "Lydia Becker Institute of Immunology and Inflammation, Faculty of Biology, Medicine and Health, The University of Manchester, Manchester, UK."
+          ]
+        },
+        {
+          "last_name": "Caama\u00f1o",
+          "fore_name": "Jorge",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Croft",
+          "fore_name": "Adam",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Davies",
+          "fore_name": "Edward",
+          "affiliations": [
+            "Royal Orthopaedic Hospital, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Thompson",
+          "fore_name": "Dylan",
+          "affiliations": [
+            "Centre for Nutrition, Exercise and Metabolism, Department for Health, University of Bath, Bath, UK."
+          ]
+        },
+        {
+          "last_name": "O'Shea",
+          "fore_name": "Donal",
+          "affiliations": [
+            "Human Health Institute, Maynooth University, Kildare, Ireland.",
+            "Department of Endocrinology, St. Vincent's University Hospital & University College Dublin, Dublin, Ireland."
+          ]
+        },
+        {
+          "last_name": "Jones",
+          "fore_name": "Simon W",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK.",
+            "NIHR Birmingham Biomedical Research Centre (Women's Metabolic Health Theme; Sarcopenia and Multimorbidity Theme), Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Duggal",
+          "fore_name": "Niharika A",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Ruscica",
+          "fore_name": "Massimiliano",
+          "affiliations": [
+            "Department of Pharmacological and Biomolecular Sciences \"Rodolfo Paoletti\", Universit\u00e0 Degli Studi di Milano, Milan, Italy.",
+            "Department of Cardio-Thoracic-Vascular Diseases, Foundation IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy."
+          ]
+        },
+        {
+          "last_name": "Makarova",
+          "fore_name": "Maria",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Jones",
+          "fore_name": "Nicholas",
+          "affiliations": [
+            "Institute of Life Science, Swansea University Medical School, Swansea University, Swansea, UK."
+          ]
+        },
+        {
+          "last_name": "Da Silva Xavier",
+          "fore_name": "Gabriela",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK.",
+            "NIHR Birmingham Biomedical Research Centre (Women's Metabolic Health Theme; Sarcopenia and Multimorbidity Theme), Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Geberhiwot",
+          "fore_name": "Tarekegn",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK.",
+            "University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Turner",
+          "fore_name": "James E",
+          "affiliations": [
+            "Centre for Nutrition, Exercise and Metabolism, Department for Health, University of Bath, Bath, UK.",
+            "School of Sport, Exercise and Rehabilitation Sciences, University of Birmingham, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Hogan",
+          "fore_name": "Andrew E",
+          "affiliations": [
+            "Human Health Institute, Maynooth University, Kildare, Ireland."
+          ]
+        },
+        {
+          "last_name": "Nedjai",
+          "fore_name": "Belinda",
+          "affiliations": [
+            "Wolfson Institute of Preventive Medicine, Centre for Cancer Prevention, Barts and the London School of Medicine, Queen Mary University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Mauro",
+          "fore_name": "Claudio",
+          "affiliations": [
+            "College of Medicine and Health, University of Birmingham, Birmingham, UK. c.mauro@bham.ac.uk.",
+            "William Harvey Research Institute, Barts and the London School of Medicine, Queen Mary University of London, London, UK. c.mauro@bham.ac.uk.",
+            "NIHR Birmingham Biomedical Research Centre (Women's Metabolic Health Theme; Sarcopenia and Multimorbidity Theme), Birmingham, UK. c.mauro@bham.ac.uk."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "42035988",
+      "doi": "10.1016/j.kint.2026.03.016",
+      "title": "Reversal of advanced diabetic kidney disease in mice treated with a monoclonal anti-VEGFR1 antibody.",
+      "abstract": "Diabetic kidney disease (DKD) continues to be the major cause of kidney failure, and its treatment is of key importance. Targeting VEGF-A has yielded conflicting results in DKD models. Here, we investigated the potential benefit of targeting VEGF-A or its receptors for the treatment of advanced mouse DKD. Our studies tested the effects of neutralizing antibodies targeting VEGF-A, VEGFR2 and VEGFR1 on kidney function and histopathology, in four different mouse models of DKD and chronic kidney disease (CKD). Unlike previous reports, blocking VEGF-A using an anti-VEGF-A monoclonal antibody worsened albuminuria and kidney injury in uninephrectomized (unix) diabetic db/db mice. Similar results were seen with the anti-VEGFR2 antibody (DC101). In contrast, antibody MF1, a VEGFR1 selective monoclonal blocking antibody dramatically decreased albuminuria, improved kidney function and histological injury in the mouse remnant kidney or unix db/db mice with or without renin-AAV injection or eNOS Our studies demonstrate that blocking VEGFR1 improved kidney function and microvascular structure in models of progressive CKD. VEGFR1 blockade provided a promising novel therapeutic approach to reverse DKD progression.",
+      "journal": "Kidney Int",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Qi",
+          "fore_name": "Zhonghua",
+          "affiliations": [
+            "Eli Lilly and Company,. Electronic address: Qi_zhonghua@lilly.com."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Ying",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Croy",
+          "fore_name": "Johnny Eugene",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Wilson",
+          "fore_name": "Jonathan M",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Heinz-Taheny",
+          "fore_name": "Kathleen M",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Credille",
+          "fore_name": "Kelly M",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Dey",
+          "fore_name": "Asim Bikash",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Coskun",
+          "fore_name": "Tamer",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Ding",
+          "fore_name": "Yan",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Jaqua",
+          "fore_name": "Dianna",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Su",
+          "fore_name": "Yuan",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Vitale",
+          "fore_name": "Olivia Hope",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Hamang",
+          "fore_name": "Matthew J",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Majumdar",
+          "fore_name": "Arindam",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Conner",
+          "fore_name": "Elaine M",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Schiessl",
+          "fore_name": "Ina Maria",
+          "affiliations": [
+            "University of Southern California."
+          ]
+        },
+        {
+          "last_name": "Peti-Peterdi",
+          "fore_name": "Janos",
+          "affiliations": [
+            "University of Southern California."
+          ]
+        },
+        {
+          "last_name": "Gyarmati",
+          "fore_name": "Georgina",
+          "affiliations": [
+            "University of Southern California."
+          ]
+        },
+        {
+          "last_name": "Raymond",
+          "fore_name": "James T",
+          "affiliations": [
+            "Charles River Laboratories."
+          ]
+        },
+        {
+          "last_name": "Duffin",
+          "fore_name": "Kevin L",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Ling",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        },
+        {
+          "last_name": "Breyer",
+          "fore_name": "Matthew D",
+          "affiliations": [
+            "Eli Lilly and Company."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "animal model",
+        "diabetic nephropathy",
+        "endothelial cells",
+        "translational"
+      ]
+    },
+    {
+      "pmid": "42031077",
+      "doi": "10.1016/j.vascn.2026.108424",
+      "title": "The emerging use of artificial intelligence in safety pharmacology & toxicology.",
+      "abstract": "Safety pharmacology is concerned with the identification and characterization of adverse effects of drug candidates on vital organ systems. The emergence of artificial intelligence (AI) and machine learning (ML) has prompted growing interest in their potential application to nonclinical drug safety evaluation across the core battery cardiovascular, central nervous, and respiratory systems. This review traces the historical development and technical foundations of AI, from early neural network research and backpropagation algorithms to the emergence of modern frontier large language models, and examines how these technologies are being applied to safety pharmacology study endpoints including proarrhythmic risk assessment consistent with International Council for Harmonisation (ICH) S7B and Comprehensive in vitro Proarrhythmia Assay (CiPA) frameworks, seizure liability detection via microelectrode array analysis, and respiratory function monitoring through whole-body plethysmography. The applications of AI in a broader toxicological assessment, including multi-endpoint toxicity prediction, digital pathology, and federated learning consortia, are also reviewed. To gauge current adoption and attitudes within the discipline, a survey of Safety Pharmacology Society (SPS) members was conducted at the 2024 annual meeting (N\u202f=\u202f89). The survey revealed that 57% of respondents were not currently using AI tools, although 44% of non-users planned adoption within the following year; 84% of respondents intended to apply AI in preclinical safety development. The evolving regulatory landscape, including the 2025 United States Food and Drug Administration (FDA) draft guidance on AI credibility and the 2026 FDA/European Medicines Agency (EMA) joint guiding principles, is discussed alongside challenges related to data quality, model interpretability, and validation requirements. The findings indicate that while AI tools show promise for specific applications such as structure-based toxicity prediction and automated signal analysis, the safety pharmacology community appropriately demands rigorous validation before integration into regulated workflows. The challenges of model interpretability, data quality, and the absence of prospective validation studies represent substantive barriers that must be addressed through collaborative effort among industry, academia, regulatory agencies, and scientific societies. AI in safety pharmacology is currently best positioned as a complementary analytical tool that may help avoid investing resources in compounds with predictable safety liabilities, rather than as a replacement for expert scientific judgment.",
+      "journal": "J Pharmacol Toxicol Methods",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Miller",
+          "fore_name": "Lutfiya",
+          "affiliations": [
+            "Toxicology, Strategy & Development, Intertek Assuris, Mississauga, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Treleaven",
+          "fore_name": "Ian",
+          "affiliations": [
+            "Azure Cloud + AI High Performance Computing Group, Microsoft, Vancouver, BC, Canada."
+          ]
+        },
+        {
+          "last_name": "El Amrani",
+          "fore_name": "Abdel-Ilah",
+          "affiliations": [
+            "Charles River Laboratories, Evreux, France."
+          ]
+        },
+        {
+          "last_name": "Rossman",
+          "fore_name": "Eric I",
+          "affiliations": [
+            "GSK, Collegeville, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Winters",
+          "fore_name": "Brett R",
+          "affiliations": [
+            "Toxicology & Safety Pharmacology, Cytokinetics, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Pugsley",
+          "fore_name": "Michael K",
+          "affiliations": [
+            "Toxicology & Safety Pharmacology, Cytokinetics, South San Francisco, CA, USA. Electronic address: mpugsley@cytokinetics.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Artificial intelligence",
+        "Drug development",
+        "Machine learning",
+        "Regulatory science",
+        "Risk assessment",
+        "Safety pharmacology",
+        "Survey"
+      ]
+    },
+    {
+      "pmid": "42013405",
+      "doi": "10.1158/2159-8290.CD-26-0003",
+      "title": "Pharmacological inhibition of PMS2 induces MMR deficiency and response to immune checkpoint blockade.",
+      "abstract": "DNA mismatch repair (MMR) detects and corrects post-replicative DNA alterations; it is deregulated in up to 20% of human cancers. MMR-deficient (MMR-d) cancers display increased tumour mutational burden (TMB), microsatellite instability (MSI) and are eligible for checkpoint inhibitor (CPI) immunotherapy which commonly elicits durable responses. We reasoned that pharmacological blockade of MMR could broaden the patient population eligible for immunotherapy. Here we reveal MMR protein PMS2 as a druggable target and describe the discovery and characterisation of first-in-class small molecule MMR pathway modulator NP1867. In vitro treatment of murine cancer cells abrogates MMR function and elicits an MMR-d genotype including increased TMB, MMR-d mutational signatures, and MSI-High (MSI- H) status. Inoculation of syngeneic immunocompetent mice with cancer cells pretreated with NP1867 leads to CPI sensitivity, tumour growth delay, and complete responses. For the first time, we demonstrate pharmacological targeting of MMR to proactively rewire the tumour-host relationship for therapeutic purposes.",
+      "journal": "Cancer Discov",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Blagg",
+          "fore_name": "Julian",
+          "affiliations": [
+            "NeoPhore Ltd Altrincham United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Riou",
+          "fore_name": "Philippe",
+          "affiliations": [
+            "NeoPhore Ltd Altrincham United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Hervieu",
+          "fore_name": "Alexia",
+          "affiliations": [
+            "NeoPhore Ltd Altrincham United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Piumatti",
+          "fore_name": "Eleonora",
+          "affiliations": [
+            "University of Turin Turin Italy."
+          ]
+        },
+        {
+          "last_name": "Rodriguez-Plata",
+          "fore_name": "Maria T",
+          "affiliations": [
+            "NeoPhore Ltd Altrincham United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Battuello",
+          "fore_name": "Paolo",
+          "affiliations": [
+            "University of Turin Turin Italy."
+          ]
+        },
+        {
+          "last_name": "Peall",
+          "fore_name": "Adam",
+          "affiliations": [
+            "Charnwood Discovery United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Amodio",
+          "fore_name": "Vito",
+          "affiliations": [
+            "FIRC Institute of Molecular Oncology Italy."
+          ]
+        },
+        {
+          "last_name": "Vitiello",
+          "fore_name": "Pietro Paolo",
+          "affiliations": [
+            "University of Turin Torino Italy."
+          ]
+        },
+        {
+          "last_name": "Nightingale",
+          "fore_name": "Daniel J H",
+          "affiliations": [
+            "Charles River Laboratories United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Bago",
+          "fore_name": "Ruzica",
+          "affiliations": [
+            "Charles River Laboratories United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Tongue",
+          "fore_name": "Paige",
+          "affiliations": [
+            "Charnwood Discovery United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Slater",
+          "fore_name": "Tessa",
+          "affiliations": [
+            "Charnwood Discovery United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Parmar",
+          "fore_name": "Kalpesh",
+          "affiliations": [
+            "o2h Discovery Pvt Ltd Ahmedabad India."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Pradip",
+          "affiliations": [
+            "o2h Discovery Pvt Ltd India."
+          ]
+        },
+        {
+          "last_name": "Rodr\u00edguez Gonz\u00e1lez",
+          "fore_name": "Javier",
+          "affiliations": [
+            "McGill University Montreal, QC Canada."
+          ]
+        },
+        {
+          "last_name": "Clark",
+          "fore_name": "David E",
+          "affiliations": [
+            "Charles River Laboratories Harlow United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Langley",
+          "fore_name": "Gareth W",
+          "affiliations": [
+            "Charles River Laboratories United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Nichols",
+          "fore_name": "Charles",
+          "affiliations": [
+            "Charles River Laboratories United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Guarne",
+          "fore_name": "Alba",
+          "affiliations": [
+            "McGill University Montreal, Quebec Canada."
+          ]
+        },
+        {
+          "last_name": "Winship",
+          "fore_name": "Paul C M",
+          "affiliations": [
+            "Charles River Laboratories United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Baker",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "NeoPhore Ltd Altrincham United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Drysdale",
+          "fore_name": "Martin",
+          "affiliations": [
+            "NeoPhore Ltd Altrincham United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Germano",
+          "fore_name": "Giovanni",
+          "affiliations": [
+            "University of Milan Milano Italy."
+          ]
+        },
+        {
+          "last_name": "Bardelli",
+          "fore_name": "Alberto",
+          "affiliations": [
+            "University of Turin Orbassano, TO Italy."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "42007617",
+      "doi": "10.1080/17576180.2026.2652757",
+      "title": "An update on the European Bioanalysis Forum recommendation on singlicate analysis for ligand binding assays: biomarker and anti-drug-antibody assays.",
+      "abstract": "Duplicate measurements have long been used in regulated ligand-binding assays, particularly for pharmacokinetic assays. The European Bioanalysis Forum has previously shown that single-well analysis can be suitable for pharmacokinetic endpoints when supported by appropriate method development and validation. This paper extends that evaluation to biomarker and anti-drug antibody assays. A collaborative project involving multiple companies assessed whether single-well measurements provide outcomes comparable to duplicate formats across a wide range of assay types and platforms. The combined data showed strong agreement between both approaches and indicated that duplicate measurement seldom adds scientific value. The European Bioanalysis Forum therefore recommends a data-driven strategy in which replicate number is defined during method development and justified for the intended use of the data. Where performance supports it, single-well analysis should be considered the default approach.",
+      "journal": "Bioanalysis",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Wright",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Biomarker and Bioanalytical Platforms, GSK, Stevenage, UK."
+          ]
+        },
+        {
+          "last_name": "Hughes",
+          "fore_name": "Richard",
+          "affiliations": [
+            "Alchemab Therapeutics, London, UK."
+          ]
+        },
+        {
+          "last_name": "Satchell",
+          "fore_name": "Gareth",
+          "affiliations": [
+            "Biomarker and Bioanalytical Platforms, GSK, Stevenage, UK."
+          ]
+        },
+        {
+          "last_name": "Adolfsson",
+          "fore_name": "Sofia",
+          "affiliations": [
+            "TATAA Biocenter, Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Bamford",
+          "fore_name": "Ross",
+          "affiliations": [
+            "Immunochemistry, Labcorp, Harrogate, UK."
+          ]
+        },
+        {
+          "last_name": "Bax-Seigers",
+          "fore_name": "Riejanne",
+          "affiliations": [
+            "Bioanalytical Laboratory, ICON plc, Assen, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "von Berg",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Scientific Operations, BioAgilytix Laboratories, Hamburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Biemans",
+          "fore_name": "Esther",
+          "affiliations": [
+            "Ardena Bioanalysis, Assen, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "van Boekel",
+          "fore_name": "Tinie",
+          "affiliations": [
+            "Department of Bioanalytics & DMPK, Byondis, Nijmegen, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Britten",
+          "fore_name": "Charles",
+          "affiliations": [
+            "Bioanalytical Sciences, ADC Therapeutics, Epalinges, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Castagna",
+          "fore_name": "Valeria",
+          "affiliations": [
+            "NBE-DMPK Innovative BioAnalytics, RBM S.P.A. an Affiliate of Merck KGaA, Giacosa, Italy."
+          ]
+        },
+        {
+          "last_name": "De Cauwer",
+          "fore_name": "Lode",
+          "affiliations": [
+            "Bioanalytics, Argenx BV, Zwijnaarde, Belgium."
+          ]
+        },
+        {
+          "last_name": "Cook",
+          "fore_name": "John",
+          "affiliations": [
+            "Global Laboratory Sciences, Charles River Laboratories, Edinburgh, UK."
+          ]
+        },
+        {
+          "last_name": "Krogh-Meibom",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Bioanalysis-Biologics, H.Lundbeck A/S, Valby, Denmark."
+          ]
+        },
+        {
+          "last_name": "Lawrence",
+          "fore_name": "James",
+          "affiliations": [
+            "Integrated Bioanalysis, Clinical Pharmacology & Safety Sciences, R&D, AstraZeneca, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "van der Linden",
+          "fore_name": "Marcel",
+          "affiliations": [
+            "Bioanalytical Science, Genmab B.V., Utrecht, Netherlands."
+          ]
+        },
+        {
+          "last_name": "McManus",
+          "fore_name": "Deborah",
+          "affiliations": [
+            "Bioanalysis, Intertek Pharmaceutical Services, Manchester, UK."
+          ]
+        },
+        {
+          "last_name": "Bandi",
+          "fore_name": "Deepa Reddy",
+          "affiliations": [
+            "Precision Medicine, UCB, Braine-l'Alleud, Belgium."
+          ]
+        },
+        {
+          "last_name": "Sklodowski",
+          "fore_name": "Kamil",
+          "affiliations": [
+            "Roche Pharma Research and Early Development, Pharmaceutical Sciences, Regulated Bioanalysis and Biosample Operations, Roche Innovation Center Basel, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Watson",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "Jazz Pharmaceuticals, Kent, UK."
+          ]
+        },
+        {
+          "last_name": "Wirth",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Bioanalytics, Bayer Pharma AG, Wuppertal, Germany."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xichen",
+          "affiliations": [
+            "Non-clinical & Clinical Assay Sciences, NovoNordisk, A/S, M\u00e5l\u00f8v, Denmark."
+          ]
+        },
+        {
+          "last_name": "Timmerman",
+          "fore_name": "Philip",
+          "affiliations": [
+            "European Bioanalysis Forum vzw, Brussels, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "ADC",
+        "ADME",
+        "assay",
+        "automation",
+        "biomarkers",
+        "biotherapeutics"
+      ]
+    },
+    {
+      "pmid": "41985869",
+      "doi": "10.1016/j.yrtph.2026.106098",
+      "title": "Advancing nonclinical blood pressure assessment: Current practices and future directions in drug development.",
+      "abstract": "Drug-induced hypertension or hypotension can have significant clinical consequences, yet BP regulation involves complex, multi-level mechanisms, making translational assessment of pressor effects more challenging than for endpoints such as cardiac repolarization (hERG/QT). Current nonclinical BP studies primarily use telemetry in conscious, freely moving non-rodents, enabling continuous high-fidelity hemodynamic monitoring. These models show reasonable concordance with human data, but some translational challenges exist. The Health and Environmental Sciences Institute (HESI) Global Integrative Strategies Working Group (WG) was established to improve nonclinical cardiovascular (CV) safety assessment through more informative, translational preclinical models. After earlier success characterizing drug-induced effects on cardiac contractility, the WG focused on drug-associated blood pressure (BP) changes. Provided here is the importance of nonclinical models in predicting BP changes and associated challenges. A HESI Global multi-site study focused on addressing these gaps is also introduced. The study aimed to evaluate the reproducibility and translatability of the standard telemetered dog model using compounds with well-characterized mechanisms (midodrine, nifedipine, hydralazine, prazosin, milrinone). Early results show consistent hemodynamic profiles across laboratories, with final results published separately, showing utility of this model for BP liability assessment.",
+      "journal": "Regul Toxicol Pharmacol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Pugsley",
+          "fore_name": "Michael K",
+          "affiliations": [
+            "Cytokinetics, Toxicology & Safety Pharmacology, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Bhatt",
+          "fore_name": "Siddhartha",
+          "affiliations": [
+            "Pfizer, Safety Sciences, Drug Safety Research and Development, Groton, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Gottfridsson",
+          "fore_name": "Christer",
+          "affiliations": [
+            "AstraZeneca, Cardiovascular Safety Center of Excellence, CMO, Patient Safety, Oncology R&D, Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Hoffmann",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Independent, Beaufort, SC, USA."
+          ]
+        },
+        {
+          "last_name": "Koshman",
+          "fore_name": "Yevgeniya E",
+          "affiliations": [
+            "AbbVie, Safety Pharmacology, North Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Norton",
+          "fore_name": "Kevin",
+          "affiliations": [
+            "Charles River Laboratories, Safety Pharmacology, Senneville, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "O'Brien",
+          "fore_name": "Claire E",
+          "affiliations": [
+            "Health and Environmental Sciences Institute, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Pierson",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Health and Environmental Sciences Institute, Washington, DC, USA. Electronic address: jpierson@hesiglobal.org."
+          ]
+        },
+        {
+          "last_name": "Rossman",
+          "fore_name": "Eric I",
+          "affiliations": [
+            "GSK, Safety Pharmacology, Collegeville, PA, 19426, USA."
+          ]
+        },
+        {
+          "last_name": "Taraboletti",
+          "fore_name": "Alexandra",
+          "affiliations": [
+            "Health and Environmental Sciences Institute, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Zabka",
+          "fore_name": "Tanja S",
+          "affiliations": [
+            "Genentech, Development Sciences-Safety Assessment, San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Foley",
+          "fore_name": "C Michael",
+          "affiliations": [
+            "AbbVie, Safety Pharmacology, North Chicago, IL, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Ambulatory blood pressure monitoring",
+        "Blood pressure",
+        "Cardiovascular",
+        "ICH S7A",
+        "Nonclinical",
+        "Pressor",
+        "Regulatory"
+      ]
+    },
+    {
+      "pmid": "42023049",
+      "pmc": "PMC11320333",
+      "doi": "10.1016/j.yrtph.2017.02.007",
+      "title": "An",
+      "abstract": "The genotoxic potential of a mixture of short-, medium-, and long-chain triacylglycerides (SMLCT), a novel synthetic fat intended as a non-animal alternative for food applications, was evaluated using a standard battery of",
+      "journal": "Front Toxicol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Schreppler",
+          "fore_name": "Sydney",
+          "affiliations": [
+            "Savor Foods Limited, San Jose, CA, United States."
+          ]
+        },
+        {
+          "last_name": "Lazouski",
+          "fore_name": "Nikifar",
+          "affiliations": [
+            "Savor Foods Limited, San Jose, CA, United States."
+          ]
+        },
+        {
+          "last_name": "Damen",
+          "fore_name": "Lars",
+          "affiliations": [
+            "Charles River Laboratories Den Bosch B.V., Hertogenbosch, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Hoffmans",
+          "fore_name": "Roy",
+          "affiliations": [
+            "Charles River Laboratories Den Bosch B.V., Hertogenbosch, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Petrovic",
+          "fore_name": "Dejan",
+          "affiliations": [
+            "Charles River Laboratories Den Bosch B.V., Hertogenbosch, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Alexander",
+          "fore_name": "Kathleen C",
+          "affiliations": [
+            "Savor Foods Limited, San Jose, CA, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "genotoxicity",
+        "long-chain triacylglycerides",
+        "medium-chain triacylglycerides",
+        "mutagenicity",
+        "saturated fatty acids",
+        "short-chain triacylglycerides",
+        "synthetic fat",
+        "triacylglycerides"
+      ]
+    },
+    {
+      "pmid": "41949973",
+      "doi": "10.1177/01926233261435939",
+      "title": "Carcinogenicity in the 21st Century: Data Interpretation-Session 4.",
+      "abstract": "The 2025 joint British Society of Toxicologic Pathology (BSTP) and European Society of Toxicologic Pathology (ESTP) Congress included a session on data interpretation, which can be complex and is a critical aspect of carcinogenicity studies. In addition to statistical analysis, consistency in nomenclature, high-quality peer review, the appropriate use of historical control data, knowledge on compound- and target-related information, and literature can contribute to high-quality data, optimal interpretation of biological relevance, and safety assessment. The speakers covered several of these aspects which are critical in data interpretation of carcinogenicity studies. Based on experience and case examples, recommendations for updating International Harmonization of Nomenclature and Diagnostic Criteria (INHAND) terminology for some proliferative findings in exocrine pancreas, liver, and ovaries were presented, including a case example of human relevance and risk assessment of endocrine and reproductive system tumors.",
+      "journal": "Toxicol Pathol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "De Jonghe",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "Johnson & Johnson Innovative Medicine, Beerse, Belgium."
+          ]
+        },
+        {
+          "last_name": "Jacobsen",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "AstraZeneca, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Saul",
+          "fore_name": "Jim",
+          "affiliations": [
+            "Labcorp, Harrogate, UK."
+          ]
+        },
+        {
+          "last_name": "Bradley",
+          "fore_name": "Alys",
+          "affiliations": [
+            "Charles River Laboratories, Edinburgh, UK."
+          ]
+        },
+        {
+          "last_name": "Foster",
+          "fore_name": "John R",
+          "affiliations": [
+            "ToxPath Sciences Ltd, Congleton, UK."
+          ]
+        },
+        {
+          "last_name": "Dincer",
+          "fore_name": "Zuhal",
+          "affiliations": [
+            "Sequani Ltd, Ledbury, UK."
+          ]
+        },
+        {
+          "last_name": "Bach",
+          "fore_name": "Ute",
+          "affiliations": [
+            "Bayer AG, Wuppertal, Germany."
+          ]
+        },
+        {
+          "last_name": "Osborne",
+          "fore_name": "Tanasa",
+          "affiliations": [
+            "Novartis Biomedical Research, East Hanover, New Jersey, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "INHAND",
+        "carcinogenicity",
+        "combining tumors",
+        "historical control data"
+      ]
+    },
+    {
+      "pmid": "41763018",
+      "doi": "10.1016/j.dmpk.2026.101528",
+      "title": "Applications of in vitro transporter assays for mechanistic characterization and prediction of clinical drug-drug interactions.",
+      "abstract": "Drug transporters play essential roles in governing the absorption, distribution, metabolism, and excretion (ADME) of therapeutic drugs. Transporter modulation frequently contributes to clinically significant drug-drug interactions (DDIs). This review provides a comprehensive overview of in vitro transporter assay systems and their applications in mechanistic characterization and prediction of transporter-mediated DDIs. Current global regulatory guidelines, including ICH M12, highlight key transporters requiring evaluation and emphasize the need for mechanistic insight to support risk assessment. A broad range of in vitro platforms-membrane vesicles, transporter-overexpressing cell lines, polarized monolayers, primary human hepatocytes and kidney cells, induced pluripotent stem cell (iPSC)-derived systems, organoids, and organ-on-chip models-are described, with discussion of their advantages, limitations, and translational relevance. These systems enable the determination of kinetic parameters, the evaluation of vectorial transport, and the integration of transporter-enzyme interplay. Challenges in in vitro-to-in vivo extrapolation (IVIVE), including substrate-dependent inhibition, nonspecific binding, and variability in assay conditions, are addressed alongside emerging strategies such as biomarker-informed modeling, quantitative proteomics, and physiologically based pharmacokinetic (PBPK) modeling. Collectively, the review provides guidance on the effective application of transporter assays in drug discovery and development to improve DDI prediction, support regulatory decision-making, and advance precision medicine.",
+      "journal": "Drug Metab Pharmacokinet",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Her\u00e9di-Szab\u00f3",
+          "fore_name": "Krisztina",
+          "affiliations": [
+            "Charles River Laboratories Hungary Kft. Szadads\u00e1gpuszta hrsz 028/1, Veszpr\u00e9m, H-8200, Hungary. Electronic address: krisztina.herediszabo@crl.com."
+          ]
+        },
+        {
+          "last_name": "Ito",
+          "fore_name": "Sumito",
+          "affiliations": [
+            "GenoMembrane Co., Ltd. 2-3-18 Namamugi, Tsurumi-ku, Yokohama, Kanagawa, 230-0052, Japan. Electronic address: s.ito@genomembrane.com."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Xiaomin",
+          "affiliations": [
+            "Drug Metabolism, Gilead Sciences Inc, 333 Lakeside Dr, Foster City, CA, 94404, USA. Electronic address: xiaomin.liang@gilead.com."
+          ]
+        },
+        {
+          "last_name": "Park",
+          "fore_name": "Yeojin",
+          "affiliations": [
+            "Drug Metabolism, Gilead Sciences Inc, 333 Lakeside Dr, Foster City, CA, 94404, USA. Electronic address: yeojin.park@gilead.com."
+          ]
+        },
+        {
+          "last_name": "Parvez",
+          "fore_name": "Masud",
+          "affiliations": [
+            "Department of Quantitative, Translational, & ADME Sciences (QTAS), Abbvie, South San Francisco, CA, 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Sandoval",
+          "fore_name": "Philip",
+          "affiliations": [
+            "Takeda Development Center Americas, Inc. (TDCA), Lexington, MA, USA. Electronic address: phil.sandoval@takeda.com."
+          ]
+        },
+        {
+          "last_name": "Shen",
+          "fore_name": "Hong",
+          "affiliations": [
+            "Early Development and Clinical Pharmacology, Disc Medicine, 321 Arsenal Street, Ste 101, Watertown, MA, 02472, USA. Electronic address: hshen@discmedicine.com."
+          ]
+        },
+        {
+          "last_name": "Staiger",
+          "fore_name": "Kelly M",
+          "affiliations": [
+            "Drug Metabolism, Gilead Sciences Inc, 333 Lakeside Dr, Foster City, CA, 94404, USA. Electronic address: kelly.staiger@gilead.com."
+          ]
+        },
+        {
+          "last_name": "Tetsuka",
+          "fore_name": "Kazuhiro",
+          "affiliations": [
+            "Translational & Biomedical Science, Astellas Pharma Inc, 21 Miyukigaoka, Tsukuba-shi, Ibaraki, 305-8585, Japan. Electronic address: kazuhiro.tetsuka@astellas.com."
+          ]
+        },
+        {
+          "last_name": "Warren",
+          "fore_name": "Mark S",
+          "affiliations": [
+            "BioIVT, 3010 Kenneth St., Santa Clara, CA, 95054, USA. Electronic address: mwarren3@bioivt.com."
+          ]
+        },
+        {
+          "last_name": "Zou",
+          "fore_name": "Ling",
+          "affiliations": [
+            "Pharmacokinetics, Drug Metabolism & Bioanalytical, Amgen Inc., 750 Gateway Blvd, South San Francisco, CA, USA. Electronic address: lzou@amgen.com."
+          ]
+        },
+        {
+          "last_name": "Lai",
+          "fore_name": "Yurong",
+          "affiliations": [
+            "Drug Metabolism, Gilead Sciences Inc, 333 Lakeside Dr, Foster City, CA, 94404, USA. Electronic address: yurong.lai@gilead.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Drug Interactions",
+        "Membrane Transport Proteins",
+        "Animals",
+        "Pharmaceutical Preparations",
+        "Models, Biological",
+        "Biological Transport",
+        "Hepatocytes"
+      ],
+      "keywords": [
+        "Drug transporters",
+        "Drug-drug interactions",
+        "Endogenous biomarkers",
+        "In vitro to in vivo extrapolation. ADME",
+        "Microphysiological systems",
+        "PBPK",
+        "Pharmacokinetics"
+      ]
+    },
+    {
+      "pmid": "41747840",
+      "doi": "10.1016/j.reprotox.2026.109199",
+      "title": "Fetal imaging with microCT (\u00b5CT) in the age of AI.",
+      "abstract": "Improving chemical and pharmaceutical safety while reducing animal use and development costs is a shared objective of industry, regulators, and the public. We describe a digital imaging pipeline designed to replace the method established by Wilson and Staples using external, visceral, and skeletal imaging of rat fetuses. Gestation day 21 fetuses from timed-mated Crl:CD[SD] rats were euthanized, fixed in formalin, stained with iodine-based contrast agents, embedded in agarose, and scanned using a ZEISS Xradia Versa micro-CT system. Three-dimensional images of the cranium and brain were reconstructed and segmented using Slicer and Dragonfly 3D World software. Key anatomical structures were reviewed by a trained fetal morphologist to confirm accuracy relative to conventionally prepared specimens. Immersion in 5% Lugol's solution for 72-96\u202fh produced uniform soft-tissue contrast. The resulting 3D \u00b5CT datasets enabled high-quality external and visceral assessments that compared favorably with traditional approaches. Skeletal evaluations of unstained specimens were of diagnostic quality whereas segmented skeletal features from stained specimens were not. Overall, CT imaging combined with an explainable AI framework shows promise for streamlining developmental toxicology through quantitative, reproducible assessment while reducing labor and subjectivity. Regulatory acceptance, GLP compliance, and a favorable industry value proposition will be essential for adoption.",
+      "journal": "Reprod Toxicol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Langham",
+          "fore_name": "Max R",
+          "affiliations": [
+            "Tio Companies, Inc., Portland, OR, USA. Electronic address: max@tiocompanies.com."
+          ]
+        },
+        {
+          "last_name": "Miller",
+          "fore_name": "Angela",
+          "affiliations": [
+            "Charles River Laboratories, Inc., Horsham, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Parwani",
+          "fore_name": "Rachna",
+          "affiliations": [
+            "Carl Zeiss X-ray Microscopy Inc., Dublin, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Bhatia",
+          "fore_name": "Kiranjot",
+          "affiliations": [
+            "Tio Companies, Inc., Portland, OR, USA."
+          ]
+        },
+        {
+          "last_name": "Lewis",
+          "fore_name": "Elise",
+          "affiliations": [
+            "Charles River Laboratories, Inc., Horsham, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Srinivasa",
+          "fore_name": "Ganapati",
+          "affiliations": [
+            "Tio Companies, Inc., Portland, OR, USA."
+          ]
+        },
+        {
+          "last_name": "Matlock",
+          "fore_name": "Kevin",
+          "affiliations": [
+            "Tio Companies, Inc., Portland, OR, USA."
+          ]
+        },
+        {
+          "last_name": "Hurtt",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Tio Companies, Inc., Portland, OR, USA."
+          ]
+        },
+        {
+          "last_name": "Hoberman",
+          "fore_name": "Alan",
+          "affiliations": [
+            "Charles River Laboratories, Inc., Horsham, PA, USA; Argus International, Inc., Horsham, PA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "X-Ray Microtomography",
+        "Female",
+        "Rats",
+        "Rats, Sprague-Dawley",
+        "Fetus",
+        "Pregnancy",
+        "Imaging, Three-Dimensional"
+      ],
+      "keywords": [
+        "Developmental toxicology",
+        "Digital images",
+        "Embryo-fetal development",
+        "Fetal morphology",
+        "Microcomputed tomography",
+        "Nonclinical",
+        "Rat",
+        "Segmentation"
+      ]
+    },
+    {
+      "pmid": "41736664",
+      "doi": "10.1177/01926233261419482",
+      "title": "Spontaneous Abdominal Hemangiosarcoma With Metastases to the Lungs in a Control Sprague-Dawley Rat.",
+      "abstract": "This short communication describes a spontaneous hemangiosarcoma within the abdomen, which appeared to have originated from the prostate gland area with infiltration, and that metastasized to the lungs in a 46-week-old male Sprague-Dawley rat. At necropsy, a 90 mm \u00d7 60 mm \u00d7 50 mm dark cystic neoplastic mass was present in the abdomen and the lung lobes had multiple dark cystic neoplastic structures. The abdominal mass was necrotic with a few peripheral areas of plump oval cells and frond-like structures lined by spindle-shaped cells. The lung neoplastic cysts were filled with blood and there were foci of plump oval cells within and peripheral to the cysts, as well as multiple small clusters throughout the lung parenchyma. Neoplastic cells of the abdominal mass and lung cysts stained positively for von Willebrand Factor by immunohistochemistry, indicating a vascular endothelial cell origin and consistent with a diagnosis of hemangiosarcoma. The lung hemangiosarcomas were considered metastases from the abdominal hemangiosarcoma based on their similar cellular morphology and multiple foci throughout the lung lobes.",
+      "journal": "Toxicol Pathol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Hennig",
+          "fore_name": "Gayle",
+          "affiliations": [
+            "Charles River Laboratories, Senneville, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Bienvenu",
+          "fore_name": "Jean-Guy",
+          "affiliations": [
+            "Charles River Laboratories, Senneville, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Al-Haddawi",
+          "fore_name": "Muthafar",
+          "affiliations": [
+            "BMS, New Brunswick, New Jersey, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Hemangiosarcoma",
+        "Male",
+        "Lung Neoplasms",
+        "Rats, Sprague-Dawley",
+        "Rats",
+        "Abdominal Neoplasms"
+      ],
+      "keywords": [
+        "SD rat",
+        "hemangiosarcoma",
+        "metastatic",
+        "prostate",
+        "spontaneous",
+        "tumor"
+      ]
+    },
+    {
+      "pmid": "41709684",
+      "doi": "10.1177/01926233261416818",
+      "title": "Toxicologic Pathology Forum*: Opinion on Remote Digital Toxicologic Pathology in Practice-Lessons From a Digital Team and Approach to Scientific Quality, Flexibility, and Well-Being.",
+      "abstract": "The field of toxicologic pathology is increasingly embracing digital transformation, making remote work a viable and sustainable model. At Charles River Laboratories Evreux, we have developed a fully operational remote digital pathology team working across multiple European countries while maintaining strict regulatory compliance and high scientific standards. This article offers a practical experience-based perspective on how we manage remote toxicologic pathologists by promoting flexibility, fostering collaboration, and ensuring both productivity and well-being (understood here as encompassing work-life balance, mental health, job satisfaction, and social connection). With the right tools, structure, and culture, remote pathology can thrive-bringing new opportunities to individuals and organizations alike.",
+      "journal": "Toxicol Pathol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Gervais",
+          "fore_name": "Frederic",
+          "affiliations": [
+            "Charles River Laboratories Evreux, Miserey, France."
+          ]
+        },
+        {
+          "last_name": "Ciurkiewicz",
+          "fore_name": "Malgorzata",
+          "affiliations": [
+            "Charles River Laboratories Evreux, Miserey, France."
+          ]
+        },
+        {
+          "last_name": "Domenech-Fontanals",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Charles River Laboratories Evreux, Miserey, France."
+          ]
+        },
+        {
+          "last_name": "Garcia",
+          "fore_name": "Begonya",
+          "affiliations": [
+            "Charles River Laboratories Evreux, Miserey, France."
+          ]
+        },
+        {
+          "last_name": "Herrera",
+          "fore_name": "Monica Ronderos",
+          "affiliations": [
+            "Charles River Laboratories Evreux, Miserey, France."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Toxicology",
+        "Pathology",
+        "Teleworking",
+        "Europe",
+        "Organizational Culture",
+        "Job Satisfaction",
+        "Work"
+      ],
+      "keywords": [
+        "digital pathology",
+        "remote working",
+        "toxicologic pathology"
+      ]
+    },
+    {
+      "pmid": "41672106",
+      "doi": "10.1016/j.antiviral.2026.106363",
+      "title": "Optimal preclinical models for human dose projection of SARS-CoV-2 small molecule direct-acting antivirals.",
+      "abstract": "The coronavirus disease 2019 (COVID-19) pandemic, driven by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has highlighted the urgent need for effective therapeutics, particularly as limitations of existing antiviral treatments persist. Establishing the proper strategy to set target concentrations for human dose projection is essential for any novel drug development project. In this study, we investigated the translatability of various preclinical models, specifically in vitro A549-hACE2 cells and air-liquid interface human nasal epithelial cultures, and in vivo Syrian golden hamsters and K18-hACE2 transgenic mice, using 3-chymotrypsin-like protease (3CL",
+      "journal": "Antiviral Res",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Toselli",
+          "fore_name": "Francesca",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: ftoselli@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Jacobs",
+          "fore_name": "Sofie",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: sofiejacobs@live.be."
+          ]
+        },
+        {
+          "last_name": "Scheers",
+          "fore_name": "Els",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: escheer1@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Jacobs",
+          "fore_name": "Tom",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: tjacobs1@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Doijen",
+          "fore_name": "Jordi",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: jdoijen@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Hereijgers",
+          "fore_name": "Joyce",
+          "affiliations": [
+            "Charles River Laboratories, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: joyce.hereijgers36@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Keustermans",
+          "fore_name": "Ken",
+          "affiliations": [
+            "Charles River Laboratories, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: keustermansken@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Aerts",
+          "fore_name": "Liese",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: laerts4@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "van Heerden",
+          "fore_name": "Marjolein",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: mvheerde@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Van Loock",
+          "fore_name": "Marnix",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: mvloock@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Mason",
+          "fore_name": "Stephen",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: steve.mason295@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Monshouwer",
+          "fore_name": "Mario",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: mmonshou@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Van Damme",
+          "fore_name": "Ellen",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: evandamm@its.jnj.com."
+          ]
+        },
+        {
+          "last_name": "Herschke",
+          "fore_name": "Florence",
+          "affiliations": [
+            "Johnson & Johnson, Turnhoutseweg 30, 2340, Beerse, Belgium. Electronic address: florence.herschke@gmx.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Antiviral Agents",
+        "SARS-CoV-2",
+        "COVID-19 Drug Treatment",
+        "Mesocricetus",
+        "Mice",
+        "Mice, Transgenic",
+        "Drug Evaluation, Preclinical",
+        "Cricetinae",
+        "COVID-19",
+        "Disease Models, Animal",
+        "Ritonavir",
+        "Dose-Response Relationship, Drug",
+        "Lactams",
+        "Leucine",
+        "Nitriles",
+        "Proline"
+      ],
+      "keywords": [
+        "Air-liquid interface",
+        "Direct-acting antiviral",
+        "Human dose projection",
+        "K18-hACE2 mouse",
+        "Preclinical model translatability",
+        "SARS-CoV-2"
+      ]
+    },
+    {
+      "pmid": "41470013",
+      "doi": "10.1177/01926233251393154",
+      "title": "Scientific and Regulatory Policy Committee Points to Consider*: Sample Selection, Assay Design, Data Generation and Interpretation, and Reporting Practices for Chromogenic Immunohistochemical (IHC) Assays in Nonclinical Drug Development.",
+      "abstract": "Chromogenic immunohistochemistry (IHC) is an important molecular localization assay in biomedical research and nonclinical drug development, enabling the visualization of specific epitopes within tissues. The methodology is widely used in drug target selection, risk assessment, understanding disease biology, and characterizing histopathological findings in nonclinical studies. The Scientific and Regulatory Policy Committee of the Society of Toxicologic Pathology formed a working group to compile essential information on chromogenic IHC assays not performed in compliance with Good Laboratory Practice (GLP) from nonclinical studies, using relevant literature and the Working Group members' collective expertise. In this \"Points to Consider\" article, emphasis is placed on factors influencing IHC data quality, including sample selection, general assay considerations, data generation and interpretation, and effective reporting. The Working Group members deliberated extensively on pertinent topics, aiming to provide specific and practical guidance for pathologists, histologists, and allied scientists engaged in chromogenic IHC assays. While refraining from an exhaustive exploration of the intricate technical details associated with chromogenic IHC, this article offers insights to enhance the accuracy, credibility, and reproducibility of chromogenic IHC, thereby facilitating informed decision-making in the nonclinical development of biomedical products.",
+      "journal": "Toxicol Pathol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Aeffner",
+          "fore_name": "Famke",
+          "affiliations": [
+            "Amgen Inc., South San Francisco, California, USA."
+          ]
+        },
+        {
+          "last_name": "Bolon",
+          "fore_name": "Brad",
+          "affiliations": [
+            "GEMpath, Inc., Longmont, Colorado, USA."
+          ]
+        },
+        {
+          "last_name": "Boyle",
+          "fore_name": "Molly H",
+          "affiliations": [
+            "Labcorp Inc., Chantilly, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Buetow",
+          "fore_name": "Bernard S",
+          "affiliations": [
+            "Pfizer Inc., San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Forest",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Merck & Co., Inc., Rahway, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Janardhan",
+          "fore_name": "Kyathanahalli",
+          "affiliations": [
+            "Merck & Co., Inc., Rahway, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Mansfield",
+          "fore_name": "Keith",
+          "affiliations": [
+            "Novartis Biomedical Research, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Meyerholz",
+          "fore_name": "David K",
+          "affiliations": [
+            "University of Iowa, Iowa City, Iowa, USA."
+          ]
+        },
+        {
+          "last_name": "Price",
+          "fore_name": "Shari",
+          "affiliations": [
+            "Charles River Laboratories, Frederick, Maryland, USA (formerly)."
+          ]
+        },
+        {
+          "last_name": "Rebelatto",
+          "fore_name": "Marlon C",
+          "affiliations": [
+            "AstraZeneca, Gaithersburg, Maryland, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Immunohistochemistry",
+        "Drug Development",
+        "Research Design",
+        "Animals",
+        "Humans",
+        "Chromogenic Compounds"
+      ],
+      "keywords": [
+        "assay optimization",
+        "assay qualification",
+        "chromogenic",
+        "immunohistochemistry",
+        "molecular pathology",
+        "nonclinical development",
+        "reproducibility",
+        "scoring paradigms"
+      ]
+    },
+    {
+      "pmid": "41363187",
+      "doi": "10.1177/01926233251395000",
+      "title": "Toxicologic Pathology Forum*: Summary of the 2024 Society of Toxicologic Pathology Town Hall and 2025 STP Member Survey on Determining and Communicating Adversity.",
+      "abstract": "In 2016, the publication of the Society of Toxicologic Pathology's (STP) \"best practice\" recommendations on determining and communicating adversity and the European Society of Toxicologic Pathology's (ESTP) expert working group report on adversity were key milestones in addressing adversity determinations for nonclinical studies as translational tools for assessing human risk. Since then, many publications attest to the ongoing difficulty in adversity decision-making posed by unique context-specific challenges. The STP gathered input on current adversity practices from Society members via an open discussion at the 2024 STP Town Hall session (held at the STP 43rd Annual Symposium) and by a subsequent online survey. Most STP pathologists make adversity determinations by applying the STP and/or ESTP recommendations at their discretion. Adversity decisions are generally made for pivotal toxicity studies but occasionally may be assigned for other study types. Adversity determinations are difficult for certain organ systems (immune, reproductive, and endocrine) and product classes (eg, cell and gene therapies, proteins, and small molecules). Most pathologists assign adversity based on direct effects of the test article, but other factors (eg, secondary pharmacology, species relevance, adaptive responses) are also considered. Procedural adversity (eg, effects of administration/implantation) is a key factor in some circumstances.",
+      "journal": "Toxicol Pathol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Funk",
+          "fore_name": "Kathleen A",
+          "affiliations": [
+            "Experimental Pathology Laboratories, Inc., Sterling, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Wancket",
+          "fore_name": "Lyn M",
+          "affiliations": [
+            "Charles River Laboratories, Mattawan, Michigan, USA."
+          ]
+        },
+        {
+          "last_name": "Bolon",
+          "fore_name": "Brad",
+          "affiliations": [
+            "GEMpath, Inc., Longmont, Colorado, USA."
+          ]
+        },
+        {
+          "last_name": "Francke",
+          "fore_name": "Sabine",
+          "affiliations": [
+            "U.S. Food and Drug Administration, College Park, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Hukkanen",
+          "fore_name": "Renee R",
+          "affiliations": [
+            "Amgen, Inc., Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Ramaiah",
+          "fore_name": "Lila",
+          "affiliations": [
+            "Johnson & Johnson, Spring House, Pennsylvania, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Toxicology",
+        "Humans",
+        "Pathology",
+        "Societies, Scientific",
+        "Surveys and Questionnaires",
+        "Animals",
+        "Risk Assessment"
+      ],
+      "keywords": [
+        "adversity",
+        "nonclinical safety testing",
+        "nonclinical toxicity",
+        "risk assessment."
+      ]
+    },
+    {
+      "pmid": "41895399",
+      "doi": "10.1016/j.tvjl.2026.106635",
+      "title": "Laboratory safety evaluations of izenivetmab, a caninized anti-nerve growth factor monoclonal antibody, for three-month alleviation of osteoarthritic pain in dogs.",
+      "abstract": "Canine osteoarthritis is a degenerative joint disease causing impaired mobility, chronic pain, and is a significant factor in euthanasia decisions in dogs. Managing pain is one of the main objectives of medical treatment of osteoarthritis. Nerve growth factor (NGF), a critical mediator of nociception, is an analgesic therapeutic target. Izenivetmab, a caninized monoclonal antibody (mAb), binds to NGF and limits its downstream signaling. As part of the pre-approval safety assessment of izenivetmab, three laboratory studies were conducted in adult laboratory Beagle dogs. Assessments were conducted on general health, body weight, body temperature, food consumption, clinical pathology, toxicokinetics, and anti-drug antibodies (ADA). Study 1 additionally included electrocardiography, neurologic and ophthalmic evaluations, radiographs of joints, routine histopathology and enhanced histopathological evaluation of joints, nervous, and immune tissues. Study 2 evaluated safety of izenivetmab at higher dose multiples, dosed at an increased frequency (monthly), and included additional joint and neurological evaluation. Study 3 was a functional immune assessment. Izenivetmab was well-tolerated when dosed once every three months for three total doses of up to 0.6\u202fmg/kg (6X, six times the upper range of the clinical dose), and when dosed monthly for four total doses of up to 12\u202fmg/kg (120X). Treatment-emergent immunogenicity was observed in 1/24 (4.2%), 2/24 (8.3%), and 1/16 (6.25%) of izenivetmab treated dogs in Studies 1, 2, and 3 respectively, without safety impact. The results from these studies support the safety of izenivetmab in dogs when administered subcutaneously at the intended dose (0.05-0.1\u202fmg/kg) once every three months.",
+      "journal": "Vet J",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Werts",
+          "fore_name": "Adam",
+          "affiliations": [
+            "Zoetis Inc, 333 Portage Street, Kalamazoo, MI 49007, United States."
+          ]
+        },
+        {
+          "last_name": "Saad",
+          "fore_name": "Kayla",
+          "affiliations": [
+            "Zoetis Inc, 333 Portage Street, Kalamazoo, MI 49007, United States."
+          ]
+        },
+        {
+          "last_name": "Hummel",
+          "fore_name": "Bernard",
+          "affiliations": [
+            "Zoetis Inc, 333 Portage Street, Kalamazoo, MI 49007, United States."
+          ]
+        },
+        {
+          "last_name": "Mangus",
+          "fore_name": "Lisa",
+          "affiliations": [
+            "StageBio, Frederick, MD 21701, United States."
+          ]
+        },
+        {
+          "last_name": "Green",
+          "fore_name": "Eric",
+          "affiliations": [
+            "The Ohio State University, Columbus, OH 43210, United States."
+          ]
+        },
+        {
+          "last_name": "Guillot",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Charles River Laboratories Montreal, ULC, Senneville, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Carlson",
+          "fore_name": "Cathy",
+          "affiliations": [
+            "University of Minnesota, Minneapolis, MN 55455, United States."
+          ]
+        },
+        {
+          "last_name": "Bedard",
+          "fore_name": "Agathe",
+          "affiliations": [
+            "Charles River Laboratories Montreal, ULC, Senneville, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Boyce",
+          "fore_name": "Rogely",
+          "affiliations": [
+            "Beechy Ridge ToxPath LLC, Pittsboro, NC 27312, United States."
+          ]
+        },
+        {
+          "last_name": "Knauer",
+          "fore_name": "Christopher S",
+          "affiliations": [
+            "Zoetis Inc, 333 Portage Street, Kalamazoo, MI 49007, United States."
+          ]
+        },
+        {
+          "last_name": "Roode",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "Zoetis Inc, 333 Portage Street, Kalamazoo, MI 49007, United States."
+          ]
+        },
+        {
+          "last_name": "Cole",
+          "fore_name": "Phaedra",
+          "affiliations": [
+            "Zoetis Inc, 333 Portage Street, Kalamazoo, MI 49007, United States. Electronic address: phaedra.cole@zoetis.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Canine",
+        "Degenerative joint disease",
+        "Izenivetmab",
+        "Long-acting",
+        "Monoclonal antibody",
+        "Nerve growth factor (NGF)",
+        "Osteoarthritic pain",
+        "Safety"
+      ]
+    },
+    {
+      "pmid": "41810493",
+      "doi": "10.1021/acs.jmedchem.5c02642",
+      "title": "Accurate Prediction of Core-Hopping Transformations Using Molecular Dynamics-Derived Conformational Ensembles: Application to the Discovery of Novel P2X3 Antagonists.",
+      "abstract": "Traditional three-dimensional core-hopping methods aim to substitute the central core of a reference ligand conformer with alternative scaffolds that exhibit similar pharmacophoric features. As such, these algorithms are not trained to perceive the effect of a new core on the conformational equilibrium of ligand substituents. With the aim of evaluating the ability of a new scaffold to preserve the conformational dynamics of the reference compound, we developed DynaCore, a novel bespoke algorithm designed to compute the similarity of conformer ensembles collected from molecular dynamics simulations of a ligand before and after core replacement. DynaCore was subsequently used to prospectively design novel P2X3 antagonists using privileged fragments from previous medicinal chemistry campaigns. The algorithm recapitulated known conformation-activity relationships and successfully distinguished new scaffold replacements that retained or abolished ligand potency, leading to the identification of multiple potent hit series. DynaCore can potentially be applied to any compound pair sharing a common set of substituents.",
+      "journal": "J Med Chem",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Pala",
+          "fore_name": "Daniele",
+          "affiliations": [
+            "Global Research and Preclinical Development, Research Center, Chiesi Farmaceutici, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Fiorelli",
+          "fore_name": "Claudio",
+          "affiliations": [
+            "Global Research and Preclinical Development, Research Center, Chiesi Farmaceutici, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Bruno",
+          "fore_name": "Paolo",
+          "affiliations": [
+            "Global Research and Preclinical Development, Research Center, Chiesi Farmaceutici, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Baker-Glenn",
+          "fore_name": "Charles",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Van de Po\u00ebl",
+          "fore_name": "Herv\u00e9",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Hirst",
+          "fore_name": "Kim",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Clark",
+          "fore_name": "Gary",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Carlino",
+          "fore_name": "Luca",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Picchi",
+          "fore_name": "Elena",
+          "affiliations": [
+            "Global Research and Preclinical Development, Research Center, Chiesi Farmaceutici, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Pioselli",
+          "fore_name": "Barbara",
+          "affiliations": [
+            "Global Research and Preclinical Development, Research Center, Chiesi Farmaceutici, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Ronchi",
+          "fore_name": "Paolo",
+          "affiliations": [
+            "Global Research and Preclinical Development, Research Center, Chiesi Farmaceutici, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Pizzirani",
+          "fore_name": "Daniela",
+          "affiliations": [
+            "Global Research and Preclinical Development, Research Center, Chiesi Farmaceutici, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Biagetti",
+          "fore_name": "Matteo",
+          "affiliations": [
+            "Global Research and Preclinical Development, Research Center, Chiesi Farmaceutici, 43122 Parma, Italy."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Molecular Dynamics Simulation",
+        "Purinergic P2X Receptor Antagonists",
+        "Humans",
+        "Structure-Activity Relationship",
+        "Receptors, Purinergic P2X3",
+        "Algorithms",
+        "Ligands",
+        "Drug Discovery",
+        "Molecular Conformation"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41715301",
+      "doi": "10.1021/acs.jmedchem.5c02830",
+      "title": "A Journey through Scaffolds: Indolines, Pyrrolidines, and Azetidines in the Quest for Inhaled DDR Inhibitors for IPF.",
+      "abstract": "Idiopathic pulmonary fibrosis (IPF) is a progressive lung disease, with excessive Extracellular Matrix (ECM) deposition impairing gas exchange, leading to lung failure. Current treatments are limited, with lung transplantation as the only cure. Discoidin Domain Receptors (DDR1/2), collagen-activated receptor tyrosine kinases, orchestrate collagen deposition in fibrotic diseases. We report the discovery and optimization of novel DDR1/2 kinase-domain inhibitors suitable for inhaled administration. Starting from a benzylamine scaffold, three chemical series, namely indolines, pyrrolidines, and azetidines, were explored. The first two showed potent DDR1 inhibition and lung retention but faced safety and selectivity challenges. The azetidine compound",
+      "journal": "J Med Chem",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Carzaniga",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Rancati",
+          "fore_name": "Fabio",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Rizzi",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Mazzucato",
+          "fore_name": "Roberta",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Iotti",
+          "fore_name": "Nicol\u00f3",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Ghidini",
+          "fore_name": "Eleonora",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Bertolini",
+          "fore_name": "Serena",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Bignami",
+          "fore_name": "Fabio",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Fioni",
+          "fore_name": "Alessandro",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Mileo",
+          "fore_name": "Valentina",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Vaccaro",
+          "fore_name": "Fabio",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Murgo",
+          "fore_name": "Annalisa",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Freire Bento",
+          "fore_name": "Allisson",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Capelli",
+          "fore_name": "Anna Maria",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        },
+        {
+          "last_name": "Whittaker",
+          "fore_name": "Benjamin Paul",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Levanto",
+          "fore_name": "Stefano",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Chapman",
+          "fore_name": "Robert S L",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Hamasova",
+          "fore_name": "Zuzana",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Hardy",
+          "fore_name": "Charlotte J",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Clark",
+          "fore_name": "David Edward",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Allen",
+          "fore_name": "Ruth",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Briggs",
+          "fore_name": "Mike A",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Hann",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Shannon",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Matthews",
+          "fore_name": "Charlotte",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Todd",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Hawkins",
+          "fore_name": "Julie",
+          "affiliations": [
+            "Charles River Laboratories, Chesterford Research Park, Saffron Walden CB10 1XL, U.K."
+          ]
+        },
+        {
+          "last_name": "Giuliani",
+          "fore_name": "Marta",
+          "affiliations": [
+            "Chiesi Farmaceutici S.p.A., Centro Ricerche, Largo Belloli 11/a, 43122 Parma, Italy."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Pyrrolidines",
+        "Idiopathic Pulmonary Fibrosis",
+        "Humans",
+        "Indoles",
+        "Mice",
+        "Azetidines",
+        "Structure-Activity Relationship",
+        "Protein Kinase Inhibitors",
+        "Administration, Inhalation",
+        "Discoidin Domain Receptor 1",
+        "Discoidin Domain Receptor 2",
+        "Male"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41879506",
+      "doi": "10.1177/01926233261430687",
+      "title": "Toxicologic Pathology Forum: Opinion on Considerations for Determination of Adverse Versus Nonadverse Nerve Fiber Degeneration in Nonclinical Toxicity Studies of Oligonucleotides Delivered Directly Into the Intrathecal Space.",
+      "abstract": "Determination of adversity and the no observed adverse effect level (NOAEL) in nonclinical toxicity studies are important components in the overall assessment of the potential for human risk during pharmaceutical development. Resources exist to guide adversity decisions in general, for findings in ganglia of the peripheral nervous system (PNS), and for gliosis in the central nervous system (CNS). The objective of this opinion article is to describe considerations that may apply when determining the adversity (or lack thereof) of nerve fiber degeneration (NFD) in either the CNS or PNS following intrathecal (IT) administration of oligonucleotide (ON) therapeutics (such as antisense oligonucleotides and short interfering RNAs). It is important to differentiate IT delivery procedure-related NFD effects from ON-related effects or ON-related exacerbation of procedure-related findings. This article presents evidence-based approaches for deciding whether NFD associated with IT ON administration is an adverse microscopic finding in the brain, spinal cord, spinal nerve roots, ganglia, and/or nerves. In the authors' collective experience, nonextensive (i.e., regionally restricted), minimal or mild NFD unaccompanied by functional or behavioral deficits, neuronal necrosis, or a substantial inflammatory response in neural tissue can be interpreted as nonadverse.",
+      "journal": "Toxicol Pathol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Berman-Booty",
+          "fore_name": "Lisa D",
+          "affiliations": [
+            "Ionis Pharmaceuticals, Carlsbad, California, USA."
+          ]
+        },
+        {
+          "last_name": "Pardo",
+          "fore_name": "Ingrid D",
+          "affiliations": [
+            "Biogen, Inc., Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Bolon",
+          "fore_name": "Brad",
+          "affiliations": [
+            "GEMpath, Inc., Longmont, Colorado, USA."
+          ]
+        },
+        {
+          "last_name": "Singh",
+          "fore_name": "Kuldeep",
+          "affiliations": [
+            "Wave Life Sciences, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Morrison",
+          "fore_name": "James P",
+          "affiliations": [
+            "Charles River Laboratories, Shrewsbury, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Patrick",
+          "fore_name": "Shelley",
+          "affiliations": [
+            "Alnylam Pharmaceuticals, Inc., Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Cramer",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "StageBio, Frederick, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Grieves",
+          "fore_name": "Jessica L",
+          "affiliations": [
+            "Ionis Pharmaceuticals, Carlsbad, California, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "adversity",
+        "axonal degeneration",
+        "intrathecal delivery",
+        "nerve fiber degeneration",
+        "nerve root",
+        "oligonucleotide",
+        "safety assessment."
+      ]
+    },
+    {
+      "pmid": "41872184",
+      "pmc": "PMC12849323",
+      "doi": "10.1186/s12014-026-09582-8",
+      "title": "Proteomic characterization of intrahepatic cholangiocarcinoma identifies risk-stratifying subgroups and EIF4A1 as a therapeutic target.",
+      "abstract": "Intrahepatic cholangiocarcinoma (ICC) features poor survival due to frequent recurrences and limited prognostic markers. Using mass spectrometry-based proteomics, we analyze two independent cohorts comprising 80 and 62 treatment-naive ICC tumors, along with 9 independent patient-derived xenografts (PDX). In the first cohort, we identify two subclusters with distinct times-to-recurrence (TTR): An extracellular matrix (ECM)-enriched cluster (mean TTR 859 days) and a proliferation cluster (mean TTR 229 days). A 4-protein classifier trained on our cohort accurately stratifies these clusters in the Dong et al. dataset (2022) and in our second cohort, revealing similar proteomic motifs and clinical outcomes. The translation regulator EIF4A1, enriched in ICCs of both clusters, emerges as a therapeutic target, as its inhibition with eFT226 significantly reduces tumor growth in an ICC PDX model. Proteomic analyses of various PDX models also emphasize the critical role of tumor-stroma interactions in ICC. Overall, this study establishes two prognostic proteomic clusters, validates their relevance across datasets, and highlights EIF4A1 inhibition as a potential therapeutic strategy.",
+      "journal": "Nat Commun",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Werner",
+          "fore_name": "Tilman",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany.",
+            "Faculty of Biology, University of Freiburg, Freiburg, Germany.",
+            "Spemann Graduate School of Biology and Medicine (SGBM), University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Thiery",
+          "fore_name": "Johanna",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany.",
+            "Faculty of Biology, University of Freiburg, Freiburg, Germany.",
+            "German Cancer Consortium (DKTK), Partner Site Freiburg, a Partnership Between German Cancer Research Center (DKFZ) and University Medical Center Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Budau",
+          "fore_name": "Klara-Luisa",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Topitsch",
+          "fore_name": "Annika",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany.",
+            "Faculty of Biology, University of Freiburg, Freiburg, Germany.",
+            "Spemann Graduate School of Biology and Medicine (SGBM), University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Cosenza-Contreras",
+          "fore_name": "Miguel",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany.",
+            "Faculty of Biology, University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Pinter",
+          "fore_name": "Niko",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Hause",
+          "fore_name": "Frank",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany.",
+            "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy and Institute of Molecular Medicine, Martin Luther University Halle-Wittenberg, Halle (Saale), Germany."
+          ]
+        },
+        {
+          "last_name": "R\u00fchlmann",
+          "fore_name": "Julius",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Gentile",
+          "fore_name": "Gaia",
+          "affiliations": [
+            "Charles River Laboratories Germany GmbH, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Heyer",
+          "fore_name": "Jannis",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Kurowski",
+          "fore_name": "Konrad",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Sch\u00fcler",
+          "fore_name": "Julia",
+          "affiliations": [
+            "Charles River Laboratories Germany GmbH, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Holzner",
+          "fore_name": "Philipp Anton",
+          "affiliations": [
+            "Department of General and Visceral Surgery, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Werner",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany.",
+            "German Cancer Consortium (DKTK), Partner Site Freiburg, a Partnership Between German Cancer Research Center (DKFZ) and University Medical Center Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Sigel",
+          "fore_name": "Carlie",
+          "affiliations": [
+            "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Laura H",
+          "affiliations": [
+            "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Bronsert",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Schilling",
+          "fore_name": "Oliver",
+          "affiliations": [
+            "Institute for Surgical Pathology, Medical Center-University of Freiburg, Faculty of Medicine-University of Freiburg, Freiburg, Germany. oliver.schilling@uniklinik-freiburg.de.",
+            "German Cancer Consortium (DKTK), Partner Site Freiburg, a Partnership Between German Cancer Research Center (DKFZ) and University Medical Center Freiburg, Freiburg, Germany. oliver.schilling@uniklinik-freiburg.de."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Cholangiocarcinoma",
+        "Humans",
+        "Eukaryotic Initiation Factor-4A",
+        "Proteomics",
+        "Animals",
+        "Bile Duct Neoplasms",
+        "Mice",
+        "Female",
+        "Prognosis",
+        "Male",
+        "Biomarkers, Tumor",
+        "Xenograft Model Antitumor Assays",
+        "Cell Line, Tumor",
+        "Neoplasm Recurrence, Local",
+        "Middle Aged",
+        "Cell Proliferation"
+      ],
+      "keywords": []
+    }
+  ]
+}

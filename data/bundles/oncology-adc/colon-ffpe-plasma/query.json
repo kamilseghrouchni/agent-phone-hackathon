@@ -1,0 +1,24 @@
+{
+  "bundle_id": "colon-ffpe-plasma",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "Colon cancer FFPE with matched plasma for ctDNA. CLDN18.2 IHC data preferred. Treatment-naive. N >= 50.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Colon cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "biomarkers_required": [],
+    "biomarkers_desired": [
+      "CLDN18.2"
+    ],
+    "preservation": "Fixed",
+    "min_n": 50,
+    "treatment_status": "treatment-naive preferred",
+    "matched_pairs": true,
+    "assay_context": "CLDN18.2 target validation for ADC development"
+  }
+}

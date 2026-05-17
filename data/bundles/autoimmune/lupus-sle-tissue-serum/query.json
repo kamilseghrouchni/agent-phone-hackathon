@@ -1,0 +1,27 @@
+{
+  "bundle_id": "lupus-sle-tissue-serum",
+  "therapeutic_area": "autoimmune",
+  "query_text": "Systemic Lupus Erythematosus kidney biopsy (lupus nephritis class III-V) or skin biopsy with matched serum. ANA and anti-dsDNA documented. ISN/RPS class documented for renal. N >= 20.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Systemic Lupus Erythematosus",
+      "SLE",
+      "Lupus nephritis"
+    ],
+    "specimen_types": [
+      "Tissue (kidney biopsy)",
+      "Tissue (skin biopsy)",
+      "Serum"
+    ],
+    "min_n": 20,
+    "matched_pairs": true,
+    "clinical_data_required": [
+      "ANA_status",
+      "anti_dsDNA_status",
+      "ISN_RPS_class"
+    ],
+    "disease_subtype": "Lupus nephritis class III, IV, or V",
+    "assay_context": "SLE renal and cutaneous tissue biomarker profiling, immune cell infiltrate characterization"
+  }
+}

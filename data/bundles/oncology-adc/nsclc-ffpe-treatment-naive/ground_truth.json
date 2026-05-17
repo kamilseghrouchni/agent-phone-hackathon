@@ -1,0 +1,218 @@
+{
+  "bundle_id": "nsclc-ffpe-treatment-naive",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 214,
+    "total_secondary_specimens": 209,
+    "total_donors": 194,
+    "organizations": [
+      "BIOMEDICA CRO",
+      "Reference Medicine"
+    ],
+    "matched_pair_donors": 35
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 172,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 209,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 373,
+      "treatment_naive": 0,
+      "matched_pair_donors": 35,
+      "demographics": {
+        "mean_age": 62.0,
+        "n_with_age": 381,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Reference Medicine",
+      "organization_id": "59472417-e35a-4f24-8491-f46679319297",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.referencemedicine.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "Designed by researchers, for researchers.",
+      "specimens": {
+        "primary": {
+          "count": 42,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 36,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 63.0,
+        "n_with_age": 42,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "6858b8d41bb6...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 47,
+      "diagnoses": [
+        "Lung cancer",
+        "Coronavirus (Covid)",
+        "Lymphoma",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 1.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "1c24667bc9e2...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "3b20b2a659d5...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "fbf0c66f0880...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "0053694fc641...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 62,
+      "diagnoses": [
+        "Non-Small cell lung cancer (NSCLC)",
+        "Lung cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 2.0
+      },
+      "treatments": null,
+      "organization": "Reference Medicine"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

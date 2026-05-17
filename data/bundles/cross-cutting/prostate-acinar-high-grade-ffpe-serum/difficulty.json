@@ -1,0 +1,17 @@
+{
+  "bundle_id": "prostate-acinar-high-grade-ffpe-serum",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium",
+    "org_discoverability": "hard \u2014 mostly commercial biobanks, less PubMed presence",
+    "biomarker_specificity": "low \u2014 no specific biomarker filtering required",
+    "specimen_count": 427,
+    "org_count": 6
+  },
+  "expected_failure_modes": [
+    "May not find commercial biobanks (ProteoGenex, BIOMEDICA CRO, CSD Bio) through PubMed \u2014 they publish less than academic centers",
+    "Matched pair discovery requires cross-referencing donor IDs \u2014 hard without registry access",
+    "Treatment-naive filtering depends on parsing free-text treatment fields \u2014 may miss nuance",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

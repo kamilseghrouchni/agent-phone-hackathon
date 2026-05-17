@@ -1,0 +1,18 @@
+{
+  "bundle_id": "copd-bal-tissue",
+  "therapeutic_area": "immunology",
+  "query_text": "COPD bronchoalveolar lavage fluid + lung tissue biopsies for airway inflammation profiling. N >= 10.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Chronic Obstructive Pulmonary Disease (COPD)"
+    ],
+    "specimen_types": [
+      "Bronchoalveolar lavage fluid",
+      "Tissue"
+    ],
+    "min_n": 10,
+    "matched_pairs": true,
+    "assay_context": "Airway inflammation cytokine + cell profiling"
+  }
+}

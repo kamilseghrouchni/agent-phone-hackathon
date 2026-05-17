@@ -1,0 +1,19 @@
+{
+  "bundle_id": "cholangiocarcinoma-ffpe",
+  "therapeutic_area": "rare",
+  "query_text": "Cholangiocarcinoma FFPE tissue for FGFR2 fusion screening. Very rare \u2014 any N accepted.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Cholangiocarcinoma"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)"
+    ],
+    "biomarkers_desired": [
+      "FGFR2"
+    ],
+    "preservation": "Fixed",
+    "assay_context": "FGFR2 fusion detection for targeted therapy selection"
+  }
+}

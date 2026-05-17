@@ -1,0 +1,18 @@
+{
+  "bundle_id": "matched-pairs-breast",
+  "therapeutic_area": "cross-cutting",
+  "query_text": "Breast cancer with FFPE tissue AND plasma from same donor for tissue-liquid concordance study. N >= 30 paired.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Breast cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "matched_pairs": true,
+    "min_n": 30,
+    "assay_context": "Tissue vs ctDNA concordance validation"
+  }
+}

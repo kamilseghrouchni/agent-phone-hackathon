@@ -1,0 +1,15 @@
+{
+  "bundle_id": "multi-biomarker-breast",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "high",
+    "org_discoverability": "medium \u2014 mix of academic and commercial sources",
+    "biomarker_specificity": "medium \u2014 HER2, ER, PR, Ki67 annotated in 1233 specimens",
+    "specimen_count": 576,
+    "org_count": 7
+  },
+  "expected_failure_modes": [
+    "May not find commercial biobanks (ProteoGenex, BIOMEDICA CRO, CSD Bio) through PubMed \u2014 they publish less than academic centers",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

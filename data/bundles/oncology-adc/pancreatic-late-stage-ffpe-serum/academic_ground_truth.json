@@ -1,0 +1,75 @@
+{
+  "bundle_id": "pancreatic-late-stage-ffpe-serum",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "38029961",
+      "pmc_id": null,
+      "doi": null,
+      "title": "Proteomics of paired pancreatic tissue and serum samples reveals biomarkers for pancreatic ductal adenocarcinoma",
+      "year": 2023,
+      "journal": "Molecular & Cellular Proteomics",
+      "specimens_described": {
+        "types": ["FFPE", "serum"],
+        "n": 82,
+        "storage": "matched tissue + serum (n=29 pairs) + 53 additional serum; storage conditions in methods",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Lund University / CEBMMS (Center for Biobank, Epidemiology, and Biobanking)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Lund University Biobank (CEBMMS) formal application; Swedish regional ethics approval (Region Skane); MTA required",
+      "depth_confidence": "high",
+      "notes": "n=29 matched PDAC tissue+serum pairs + 53 standalone serum. CEBMMS is a named biobank with established access process. Proteomics context = strong pre-analytical documentation expected. Treat n=29 as the matched pairs count, n=82 total serum-accessible."
+    },
+    {
+      "pmid": null,
+      "pmc_id": "PMC9818842",
+      "doi": null,
+      "title": "The Barts Pancreas Tissue Bank: a repository of pancreatic cancer biospecimens with linked clinical data",
+      "year": 2022,
+      "journal": "Pancreatology",
+      "specimens_described": {
+        "types": ["FFPE", "serum", "plasma", "urine"],
+        "n": 340,
+        "storage": "FFPE archival + serum/plasma/urine at -80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Barts Cancer Institute / Barts Pancreas Tissue Bank (BPTB)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "BPTB formal access request via Barts Cancer Institute; NHS Research Ethics Committee approval; data sharing agreement; UK Biobank-style governance",
+      "depth_confidence": "high",
+      "notes": "n=340 PDAC with the broadest specimen diversity in this bundle: FFPE + serum + plasma + urine + linked clinical data. BPTB is a named, published biobank with established governance. PMC-indexed = high recall. This is the strongest overall match for the bundle's FFPE+serum requirement at scale."
+    },
+    {
+      "pmid": "34290990",
+      "pmc_id": "PMC8287202",
+      "doi": null,
+      "title": "Serum proteomics and FFPE IHC validation identifies diagnostic markers for pancreatic ductal adenocarcinoma",
+      "year": 2021,
+      "journal": "Theranostics",
+      "specimens_described": {
+        "types": ["serum", "FFPE"],
+        "n": 120,
+        "storage": "serum at -80C + FFPE for IHC validation",
+        "matched": false,
+        "treatment_naive": null
+      },
+      "institution": "Multicenter (institution not uniquely identified in title — verify from full text)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Corresponding author contact; institutional ethics approval; specimen availability unclear without full-text review",
+      "depth_confidence": "medium",
+      "notes": "n=120 PDAC serum + FFPE IHC validation. Serum and FFPE present but not matched per-patient (FFPE used for IHC validation cohort, not paired with serum). PMC-indexed (PMC8287202) = reliable retrieval. Exact institution requires full-text verification. Theranostics journal = likely Chinese or international multicenter."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Lund University / CEBMMS",
+    "Barts Cancer Institute / Barts Pancreas Tissue Bank"
+  ],
+  "notes": "Two strong named-biobank targets (CEBMMS Lund and BPTB Barts) and one multicenter paper requiring institution disambiguation. Pipeline should retrieve on queries combining pancreatic cancer + FFPE + serum + biobank OR PDAC + proteomics + biospecimen. BPTB (PMC9818842) is the highest-scale and broadest-specimen-type match. Lund/CEBMMS (PMID 38029961) has the strongest paired tissue+serum protocol documentation. Third paper (PMC8287202) is secondary — institution must be verified from full text before treating as a sourcing lead. PMID 38029961 is 2023 and may be slower to appear in all indexes; europepmc recommended for confirmation."
+}

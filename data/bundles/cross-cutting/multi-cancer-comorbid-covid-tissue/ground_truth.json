@@ -1,0 +1,177 @@
+{
+  "bundle_id": "multi-cancer-comorbid-covid-tissue",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 692,
+    "total_secondary_specimens": 0,
+    "total_donors": 517,
+    "organizations": [
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 692,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 644,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 61.9,
+        "n_with_age": 692,
+        "countries": [
+          "UKR"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "6858b8d41bb6...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 47,
+      "diagnoses": [
+        "Lung cancer",
+        "Coronavirus (Covid)",
+        "Lymphoma",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 1.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "10d26d8d4388...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Ovary",
+      "sex": "Female",
+      "age": 34,
+      "diagnoses": [
+        "Psoriasis",
+        "Ovarian cancer",
+        "Coronavirus (Covid)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": 1.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "8a8e9a23770c...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Ovary",
+      "sex": "Female",
+      "age": 34,
+      "diagnoses": [
+        "Psoriasis",
+        "Ovarian cancer",
+        "Coronavirus (Covid)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": 1.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "f5e1d265de38...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Bladder",
+      "sex": "Male",
+      "age": 66,
+      "diagnoses": [
+        "Bladder Cancer",
+        "Uterine cancer",
+        "Coronavirus (Covid)",
+        "Congestive Heart Failure (CHF)",
+        "Psoriasis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "633f48ef0f84...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Kidney",
+      "sex": "Male",
+      "age": 54,
+      "diagnoses": [
+        "Kidney cancer",
+        "Atherosclerosis",
+        "Coronavirus (Covid)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

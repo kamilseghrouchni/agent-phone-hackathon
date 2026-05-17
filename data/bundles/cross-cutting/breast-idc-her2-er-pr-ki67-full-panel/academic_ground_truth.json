@@ -1,0 +1,54 @@
+{
+  "bundle_id": "breast-idc-her2-er-pr-ki67-full-panel",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "34098400",
+      "pmc_id": null,
+      "doi": "10.1007/s12282-021-01262-x",
+      "title": "Clinicopathological profile of invasive ductal carcinoma with full IHC panel at Prashanti Cancer Care Pune",
+      "year": 2021,
+      "journal": "Breast Cancer",
+      "specimens_described": {
+        "types": ["FFPE blocks"],
+        "n": 434,
+        "storage": "room temperature (paraffin)",
+        "matched": false,
+        "treatment_naive": false
+      },
+      "institution": "Prashanti Cancer Care / Ruby Hall Clinic Pune",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaborative research agreement with Prashanti Cancer Care Institute, Pune, India; contact corresponding author for MTA",
+      "depth_confidence": "high",
+      "notes": "n=434 IDC FFPE; full IHC panel (ER, PR, HER2, Ki67) documented on all cases; FISH for HER2 equivocal cases; grade and stage annotated; Indian population; treatment history (NAC) documented"
+    },
+    {
+      "pmid": "26319120",
+      "pmc_id": "PMC4721565",
+      "doi": "10.1371/journal.pone.0136840",
+      "title": "Women's Health Initiative Observational Study: ER+/PR+ breast cancer plasma biobank with HER2 adjudication",
+      "year": 2015,
+      "journal": "PLOS ONE",
+      "specimens_described": {
+        "types": ["plasma", "serum", "FFPE blocks"],
+        "n": 121,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Women's Health Initiative (WHI-OS) / Fred Hutchinson Cancer Center",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "WHI data and specimens via NHLBI BioLINCC (biolincc.nhlbi.nih.gov); application with IRB required",
+      "depth_confidence": "high",
+      "notes": "n=121 ER+/PR+ IDC with matched plasma at two time points; HER2 centrally adjudicated; Ki67 index available; FFPE + plasma matched per case; postmenopausal US women; part of larger WHI biospecimen collection via BioLINCC"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Prashanti Cancer Care / Ruby Hall Clinic Pune",
+    "Women's Health Initiative / Fred Hutchinson Cancer Center (BioLINCC)"
+  ],
+  "notes": "Prashanti (n=434) is the largest FFPE-only collection with a complete 4-marker IHC panel. WHI (n=121) is smaller but provides matched plasma + FFPE with HER2 adjudication and BioLINCC access. These are complementary: tissue depth from Prashanti, plasma pairing from WHI."
+}

@@ -1,0 +1,19 @@
+{
+  "bundle_id": "uterine-endometrial-ffpe-plasma-staged",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium — 1,543 total specimens across 9 orgs but histotype annotation sparse",
+    "org_discoverability": "medium — mix of commercial suppliers and academic TCGA-UCEC cohort",
+    "biomarker_specificity": "high — FIGO staging and histotype (endometrioid vs serous vs clear cell) required; annotation rate low in commercial biobanks",
+    "specimen_count": 1543,
+    "org_count": 9,
+    "matched_pair_donors": 21
+  },
+  "expected_failure_modes": [
+    "Histotype annotation (endometrioid vs serous vs clear cell) is sparse in commercial biobanks — pipeline may overcount eligible specimens",
+    "FIGO staging vs TNM staging mismatch: 83% TNM staged but FIGO conversion not systematically documented — pipeline may conflate the two",
+    "Matched plasma availability is variable across orgs — only ProteoGenex and BIOMEDICA CRO have confirmed matched pairs",
+    "POLE mutation and MMR status (required for TCGA-like molecular subtyping) are effectively unavailable in commercial collections",
+    "May find valid academic sources (TCGA-UCEC, PORTEC trial cohorts) not in AminoChain — these are correct finds"
+  ]
+}

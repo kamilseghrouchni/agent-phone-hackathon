@@ -1,0 +1,15 @@
+{
+  "bundle_id": "gastric-ffpe",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "high",
+    "org_discoverability": "medium \u2014 mix of academic and commercial sources",
+    "biomarker_specificity": "high \u2014 HER2 sparsely annotated (5 specimens)",
+    "specimen_count": 1605,
+    "org_count": 8
+  },
+  "expected_failure_modes": [
+    "May not find commercial biobanks (ProteoGenex, BIOMEDICA CRO, CSD Bio) through PubMed \u2014 they publish less than academic centers",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "bundle_id": "tnbc-er-neg-pr-neg-ffpe",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "Triple-negative breast cancer FFPE \u2014 must be ER-negative AND PR-negative confirmed by IHC. Need grade 3+ invasive ductal carcinoma, treatment-naive (no prior chemo/radiation/hormonal). Matched K2EDTA plasma stored at -80C for ctDNA. N >= 40 paired.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Breast cancer",
+      "Invasive ductal cancer (IDC)"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "biomarkers_required": [
+      "ER negative",
+      "PR negative"
+    ],
+    "biomarkers_desired": [
+      "HER2",
+      "Ki67"
+    ],
+    "preservation": "Fixed",
+    "min_n": 40,
+    "treatment_status": "strictly treatment-naive",
+    "matched_pairs": true,
+    "grade_minimum": 3,
+    "preanalytical": {
+      "tube_type": "K2EDTA",
+      "storage_temp": "-80C"
+    },
+    "assay_context": "TROP2 ADC patient selection \u2014 sacituzumab govitecan CDx development"
+  }
+}

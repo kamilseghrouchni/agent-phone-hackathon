@@ -1,0 +1,61 @@
+{
+  "id": "labcorp-central-laboratory-services",
+  "name": "Labcorp Central Laboratory Services",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Labcorp Central Laboratory Services"
+  ],
+  "search_queries": [
+    "\"Labcorp Central Laboratory Services\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 2,
+  "publications_indexed": 2,
+  "address_hints": [
+    "Labcorp Central Laboratory Services Limited Partnership, Bangalore, India"
+  ],
+  "contact_emails": [],
+  "sample_types": [],
+  "indication_areas": [
+    {
+      "area": "Cardiovascular Diseases",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Labcorp Early Development\u00a0Laboratories Limited; Otley Road",
+      "co_pubs": 1
+    },
+    {
+      "name": "Labcorp Early Development\u00a0Laboratories",
+      "co_pubs": 1
+    },
+    {
+      "name": "Labcorp Central Laboratory\u00a0Services Limited Partnership;",
+      "co_pubs": 1
+    },
+    {
+      "name": "National Forensic Sciences University",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "38634379",
+      "doi": "10.4155/bio-2024-0007",
+      "pmc": "PMC9967190",
+      "year": 2024,
+      "journal": "Bioanalysis",
+      "title": "Observations from a decade of oligonucleotide bioanalysis by LC-MS."
+    },
+    {
+      "pmid": "36740214",
+      "doi": "10.1016/j.vph.2023.107144",
+      "pmc": null,
+      "year": 2023,
+      "journal": "Vascul Pharmacol",
+      "title": "Long-acting opioids and cardiovascular diseases: Help or hindrance!"
+    }
+  ]
+}

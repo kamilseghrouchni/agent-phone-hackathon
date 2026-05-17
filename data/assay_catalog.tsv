@@ -1,0 +1,31 @@
+assay_family	specific_assay	key_vendors	sample_types	typical_conditions	patient_capable	evidence
+Genomics	Whole genome sequencing (WGS)	Illumina NovaSeq; PacBio Revio; Oxford Nanopore PromethION	whole_blood; saliva; frozen_tissue; FFPE	rare disease; cancer; population genomics	yes	NCT05504772; PMC12324119
+Genomics	Whole exome sequencing (WES)	Illumina; Twist Bioscience; Agilent SureSelect	whole_blood; saliva; FFPE; frozen_tissue	rare disease; cancer; pharmacogenomics	yes	NCT06996561; CT.gov n=314
+Genomics	Targeted gene panel sequencing	Foundation Medicine F1CDx; Caris MI; MSK-IMPACT; Tempus xT	FFPE; frozen_tissue; whole_blood	cancer therapy selection; hereditary cancer	yes	NCT03326479 (Caris, n=10000); CT.gov n=36
+Genomics	Cell-free DNA / liquid biopsy DNA	Guardant360; FoundationOne Liquid; Tempus xF	plasma	MRD; therapy selection; early detection	yes	NCT05702619; CT.gov n=314 (cfDNA)
+Genomics	Long-read sequencing	Oxford Nanopore PromethION/MinION; PacBio Revio (HiFi)	whole_blood; frozen_tissue	structural variants; methylation; phasing	yes	med_73d146e4802d; PMC12324119
+Genomics	SNP genotyping array	Illumina Global Screening Array; Affymetrix Axiom	whole_blood; saliva	GWAS; population; pharmacogenomics	yes	UK Biobank (n=500k); PMC9898515
+Epigenomics	Methylation array (EPIC)	Illumina Infinium MethylationEPIC v1.0/v2.0	whole_blood; PBMCs; FFPE; frozen_tissue	cancer classification; aging; EWAS	yes	PMC11796210; med_73d146e4802d
+Epigenomics	Whole genome bisulfite sequencing (WGBS)	Illumina (with NEB EM-seq or Zymo bisulfite); MGI	frozen_tissue; FFPE	cancer; developmental; reference methylomes	yes	PMC2860480; PMC4344394
+Epigenomics	ctDNA methylation profiling	AnchorDx; Singlera Genomics; Cyted Health; Mayo Clinic MDM	plasma	early cancer detection; MRD; CUP	yes	NCT03181490; NCT05485077; NCT06803927
+Epigenomics	ATAC-seq	Illumina (open protocol); Active Motif; Diagenode	frozen_tissue; PBMCs; sorted cells	chromatin accessibility; immune profiling	yes	CT.gov n=5; standard research method
+Transcriptomics	Bulk RNA sequencing	Illumina NovaSeq; MGI; Element Aviti	frozen_tissue; FFPE; PBMCs; whole_blood (PAXgene)	cancer subtyping; immunology; biomarker	yes	NCT06605417; standard
+Transcriptomics	Single-cell RNA sequencing	10x Genomics Chromium; BD Rhapsody; Parse Biosciences	fresh_tissue; PBMCs; BAL; bone_marrow	tumor heterogeneity; immune profiling	yes	NCT05820802; CT.gov n=47
+Transcriptomics	Spatial transcriptomics	10x Genomics Visium/Xenium; NanoString CosMx; Vizgen MERFISH	FFPE; frozen_tissue	tumor microenvironment; neuro pathology	yes	NCT06605417; NCT05912582; CT.gov n=27
+Transcriptomics	Targeted RNA panel (nCounter)	NanoString nCounter (PAM50, IO360, Tumor Inflammation Signature)	FFPE; frozen_tissue	breast cancer subtyping; IO biomarkers	yes	NCT01974856 (PAM50); CT.gov n=28
+Transcriptomics	miRNA / small RNA sequencing	Illumina (with NEXTflex Small RNA); Qiagen QIAseq	plasma; serum; FFPE; frozen_tissue	cancer biomarker; cardiovascular	yes	NCT01229124; CT.gov n=13
+Proteomics	LC-MS/MS proteomics (DIA/TMT)	Bruker timsTOF; Thermo Orbitrap (Astral, Exploris); SCIEX	plasma; serum; tissue lysate; CSF	biomarker discovery; rare disease	yes	bio_154f6fe16e68 (consensus serum metabolome / CSM); standard
+Proteomics	Olink (PEA panels)	Olink Explore HT; Olink Target 96	plasma; serum; CSF; tissue lysate	cardio; neuro; oncology biomarkers; UK Biobank	yes	NCT07462325; CT.gov n=9 (Olink intervention)
+Proteomics	SomaScan (aptamer)	Standard BioTools (SomaLogic) SomaScan 7k/11k	plasma; serum; CSF; tissue	biomarker discovery; aging	yes	NCT04655729; NCT06642662
+Proteomics	Multiplex immunoassay	Luminex xMAP; Meso Scale Discovery (MSD); BioLegend LEGENDplex	plasma; serum; CSF; cell supernatant	cytokines; HLA antibodies; cardiovascular	yes	NCT06425497 (HLA dnDSA); CT.gov n=36
+Proteomics	Mass cytometry (CyTOF)	Standard BioTools (Fluidigm) Helios	PBMCs; whole_blood; dissociated tumor	immune profiling; immuno-oncology	yes	NCT05518409; NCT01885728; CT.gov n=33
+Metabolomics	Untargeted LC-MS metabolomics	Metabolon HD4; Bruker Evoq; Thermo Orbitrap	plasma; serum; urine; tissue	metabolic; neuro; nutrition	yes	med_d79b877d725a (Metabolon imputation); NCT05322343
+Metabolomics	Targeted metabolomics	Biocrates MxP Quant 500; Biocrates AbsoluteIDQ p400 HR; Owl Lipids	plasma; serum; CSF; tissue; milk	metabolic; rare disease; nutrition	yes	PMC11768157 (MxP Quant 500); bio_f26b84376f33
+Metabolomics	NMR metabolomics	Nightingale Health (250+ markers); Bruker IVDr	plasma; serum; urine	cardiometabolic; population (UK Biobank n=118k)	yes	PMC9898515 (UK Biobank n=118461); med_b95314596c2b
+Metabolomics	Lipidomics	Lipotype; Owl Metabolomics; Metabolon CLP	plasma; serum; tissue	cardiometabolic; NAFLD; neuro	yes	NCT05702619; CT.gov n=100
+Microbiome	16S rRNA gene sequencing	Illumina MiSeq (V3-V4); Oxford Nanopore (full-length 16S)	stool; mucosal swab; saliva; vaginal	IBD; oral; CDI; microbiome-disease	yes	NCT04103242; CT.gov n=106
+Microbiome	Shotgun metagenomics	Illumina NovaSeq; CosmosID; uBiome (legacy)	stool; vaginal; skin; BAL	IBD; oncology response; infectious	yes	NCT06791993; CT.gov n=5
+Immunomics	T-cell receptor sequencing	Adaptive ImmunoSEQ; Adaptive clonoSEQ (FDA-cleared MRD)	whole_blood; PBMCs; tumor; bone_marrow	immuno-oncology; autoimmune; lymphoma MRD	yes	NCT06483100 (clonoSEQ); CT.gov n=10
+Immunomics	Flow cytometry	BD FACSymphony; Beckman CytoFLEX; Cytek Aurora	whole_blood; PBMCs; bone_marrow; dissociated tissue	leukemia/lymphoma diagnosis; immune monitoring	yes	NCT04734470; CT.gov n=551
+Spatial proteomics	Multiplex immunofluorescence	Akoya PhenoCycler (CODEX); Lunaphore COMET; Ultivue	FFPE	tumor microenvironment; IO biomarkers	yes	bio_076fe216720c (PhenoCycler); bio_26c94f3e6fc0 (PRISM)
+Spatial proteomics	Imaging mass cytometry	Standard BioTools Hyperion (IMC); IONpath MIBIscope	FFPE; frozen_tissue	tumor microenvironment; immune phenotyping	yes	med_e383101a6f07; PMC9009368 (Hyperion review)

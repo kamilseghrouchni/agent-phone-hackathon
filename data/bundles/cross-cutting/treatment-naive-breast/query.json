@@ -1,0 +1,17 @@
+{
+  "bundle_id": "treatment-naive-breast",
+  "therapeutic_area": "cross-cutting",
+  "query_text": "Breast cancer specimens, STRICTLY treatment-naive (no prior chemo, radiation, or hormonal therapy). Any specimen type. N >= 50.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Breast cancer"
+    ],
+    "specimen_types": [
+      "any"
+    ],
+    "treatment_status": "strictly treatment-naive",
+    "min_n": 50,
+    "assay_context": "Baseline tumor biology without treatment confounders"
+  }
+}

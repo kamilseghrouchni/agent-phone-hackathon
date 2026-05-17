@@ -1,0 +1,18 @@
+{
+  "bundle_id": "asthma-plasma-serum",
+  "therapeutic_area": "immunology",
+  "query_text": "Asthma plasma + serum, treatment-naive, for Dupixent-class biomarker study. IgE levels preferred. N >= 50.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Asthma"
+    ],
+    "specimen_types": [
+      "Plasma",
+      "Serum"
+    ],
+    "min_n": 50,
+    "treatment_status": "treatment-naive preferred",
+    "assay_context": "IL-4/IL-13 pathway biomarkers for biologic selection"
+  }
+}

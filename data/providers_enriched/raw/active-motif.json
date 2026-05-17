@@ -1,0 +1,793 @@
+{
+  "name": "Active Motif",
+  "cleaned_name": "Active Motif",
+  "aliases_tried": [
+    "Active Motif"
+  ],
+  "publication_total": 8,
+  "search_queries": [
+    "\"Active Motif\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41081756",
+      "pmc": "PMC8555464",
+      "doi": "10.1038/s41586-021-03994-2",
+      "title": "KDM5 demethylases suppress R-loop-mediated 'viral mimicry' and DNA damage in breast cancer cells.",
+      "abstract": "Tumors with low expression of interferon-stimulated genes (ISG) and antigen presentation (AP) genes respond relatively poorly to current immunotherapies. One of the early hallmarks of cancer is DNA hypomethylation in genomic repeat regions that can result in the expression of normally silenced endogenous 'viral' elements. Such epigenetic changes have the potential to augment anti-tumor immune responses as well as reduce tumor cell fitness through the generation of aberrant nucleic acid species (NAS) and consequent activation of NAS-sensing pathways. Therefore, tumor evolution should favor additional selective events that suppress NAS generation, possibly yielding specific therapeutic vulnerabilities. Here, we show that the lysine demethylase 5 (KDM5) family of epigenetic regulatory enzymes suppresses R-loop formation in genomic repeat regions specifically in cancer cells. We find that KDM5 inhibition in luminal breast cancer cells results in R-loop-mediated DNA damage, reduced cell fitness, and an increase in ISG and AP signatures as well as cell surface major histocompatibility complex (MHC) class I, mediated by RNA:DNA hybrid activation of the CGAS/STING pathway. KDM5 inhibition does not result in DNA damage or activation of the CGAS/STING pathway in normal breast epithelial cells, suggesting that KDM5 inhibitors may enable a wide therapeutic window in this setting, compared to STING agonists or type I interferons. These findings provide new insights into the interplay between epigenetic regulation of genomic repeats, R-loop formation, innate immunity, and cell fitness in the context of cancer evolution and therapeutic vulnerability.",
+      "journal": "Elife",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Lau",
+          "fore_name": "Lena",
+          "affiliations": [
+            "Pfizer Center for Therapeutic Innovation, San Francisco, United States."
+          ]
+        },
+        {
+          "last_name": "Henderson",
+          "fore_name": "Kurt",
+          "affiliations": [
+            "Pfizer Center for Therapeutic Innovation, San Francisco, United States."
+          ]
+        },
+        {
+          "last_name": "Turkoz",
+          "fore_name": "Ahu",
+          "affiliations": [
+            "Pfizer Center for Therapeutic Innovation, San Francisco, United States."
+          ]
+        },
+        {
+          "last_name": "Linker",
+          "fore_name": "Sara",
+          "affiliations": [
+            "Pfizer Oncology, La Jolla, United States."
+          ]
+        },
+        {
+          "last_name": "Schlessinger",
+          "fore_name": "Dorte",
+          "affiliations": [
+            "Karolinska Institutet, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Townsley",
+          "fore_name": "Brad",
+          "affiliations": [
+            "Active Motif, Carlsbad, United States."
+          ]
+        },
+        {
+          "last_name": "Egan",
+          "fore_name": "Brian",
+          "affiliations": [
+            "Active Motif, Carlsbad, United States."
+          ]
+        },
+        {
+          "last_name": "Ragunathan",
+          "fore_name": "Shoba",
+          "affiliations": [
+            "Pfizer, New York, United States."
+          ]
+        },
+        {
+          "last_name": "Rollins",
+          "fore_name": "Robert",
+          "affiliations": [
+            "Pfizer Oncology, La Jolla, United States."
+          ]
+        },
+        {
+          "last_name": "Bi",
+          "fore_name": "Xianju",
+          "affiliations": [
+            "The University of Texas Southwestern Medical Center, Dallas, United States."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Zhijian J",
+          "affiliations": [
+            "The University of Texas Southwestern Medical Center, Dallas, United States."
+          ]
+        },
+        {
+          "last_name": "Brodsky",
+          "fore_name": "Oleg",
+          "affiliations": [
+            "Pfizer Oncology, La Jolla, United States."
+          ]
+        },
+        {
+          "last_name": "Restaino",
+          "fore_name": "Clifford",
+          "affiliations": [
+            "Pfizer Oncology, La Jolla, United States."
+          ]
+        },
+        {
+          "last_name": "Gururajan",
+          "fore_name": "Murali",
+          "affiliations": [
+            "Pfizer Oncology, La Jolla, United States."
+          ]
+        },
+        {
+          "last_name": "Jensen-Pergakes",
+          "fore_name": "Kristen",
+          "affiliations": [
+            "Pfizer Oncology, La Jolla, United States."
+          ]
+        },
+        {
+          "last_name": "M\u00e4larstig",
+          "fore_name": "Anders",
+          "affiliations": [
+            "Pfizer, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Kermi",
+          "fore_name": "Chames",
+          "affiliations": [
+            "Pfizer Center for Therapeutic Innovation, San Francisco, United States."
+          ]
+        },
+        {
+          "last_name": "Moore",
+          "fore_name": "Paul",
+          "affiliations": [
+            "Pfizer Center for Therapeutic Innovation, San Francisco, United States."
+          ]
+        },
+        {
+          "last_name": "Classon",
+          "fore_name": "Marie",
+          "affiliations": [
+            "Pfizer Center for Therapeutic Innovation, San Francisco, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "DNA Damage",
+        "Histone Demethylases",
+        "Breast Neoplasms",
+        "Cell Line, Tumor",
+        "Female",
+        "Epigenesis, Genetic",
+        "Retinoblastoma-Binding Protein 2"
+      ],
+      "keywords": [
+        "cancer biology",
+        "histone demethyalse",
+        "human",
+        "oncology",
+        "therapeutics"
+      ]
+    },
+    {
+      "pmid": "38437498",
+      "pmc": "PMC7146021",
+      "doi": "10.1182/blood.2023022832",
+      "title": "BRG1/BRM inhibitor targets AML stem cells and exerts superior preclinical efficacy combined with BET or menin inhibitor.",
+      "abstract": "BRG1 (SMARCA4) and BRM (SMARCA2) are the mutually exclusive core ATPases of the chromatin remodeling BAF (BRG1/BRM-associated factor) complexes. They enable transcription factors/cofactors to access enhancers/promoter and modulate gene expressions responsible for cell growth and differentiation of acute myeloid leukemia (AML) stem/progenitor cells. In AML with MLL1 rearrangement (MLL1r) or mutant NPM1 (mtNPM1), although menin inhibitor (MI) treatment induces clinical remissions, most patients either fail to respond or relapse, some harboring menin mutations. FHD-286 is an orally bioavailable, selective inhibitor of BRG1/BRM under clinical development in AML. Present studies show that FHD-286 induces differentiation and lethality in AML cells with MLL1r or mtNPM1, concomitantly causing perturbed chromatin accessibility and repression of c-Myc, PU.1, and CDK4/6. Cotreatment with FHD-286 and decitabine, BET inhibitor (BETi) or MI, or venetoclax synergistically induced in\u00a0vitro lethality in AML cells with MLL1r or mtNPM1. In models of xenografts derived from patients with AML with MLL1r or mtNPM1, FHD-286 treatment reduced AML burden, improved survival, and attenuated AML-initiating potential of stem-progenitor cells. Compared with each drug, cotreatment with FHD-286 and BETi, MI, decitabine, or venetoclax significantly reduced AML burden and improved survival, without inducing significant toxicity. These findings highlight the FHD-286-based combinations as a promising therapy for AML with MLL1r or mtNPM1.",
+      "journal": "Blood",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Fiskus",
+          "fore_name": "Warren",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Piel",
+          "fore_name": "Jessica",
+          "affiliations": [
+            "Foghorn Therapeutics, Cambridge, MA."
+          ]
+        },
+        {
+          "last_name": "Collins",
+          "fore_name": "Mike",
+          "affiliations": [
+            "Foghorn Therapeutics, Cambridge, MA."
+          ]
+        },
+        {
+          "last_name": "Hentemann",
+          "fore_name": "Murphy",
+          "affiliations": [
+            "Foghorn Therapeutics, Cambridge, MA."
+          ]
+        },
+        {
+          "last_name": "Cuglievan",
+          "fore_name": "Branko",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Mill",
+          "fore_name": "Christopher P",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Birdwell",
+          "fore_name": "Christine E",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Das",
+          "fore_name": "Kaberi",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Davis",
+          "fore_name": "John A",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Hou",
+          "fore_name": "Hanxi",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Jain",
+          "fore_name": "Antrix",
+          "affiliations": [
+            "Baylor College of Medicine, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Malovannaya",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Baylor College of Medicine, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Kadia",
+          "fore_name": "Tapan M",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Daver",
+          "fore_name": "Naval",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Sasaki",
+          "fore_name": "Koji",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Takahashi",
+          "fore_name": "Koichi",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Hammond",
+          "fore_name": "Danielle",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Reville",
+          "fore_name": "Patrick K",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Jian",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Loghavi",
+          "fore_name": "Sanam",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Sen",
+          "fore_name": "Rwik",
+          "affiliations": [
+            "Active Motif, Carlsbad, CA."
+          ]
+        },
+        {
+          "last_name": "Ruan",
+          "fore_name": "Xinjia",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Su",
+          "fore_name": "Xiaoping",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Flores",
+          "fore_name": "Lauren B",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "DiNardo",
+          "fore_name": "Courtney D",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Bhalla",
+          "fore_name": "Kapil N",
+          "affiliations": [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Mice",
+        "Bromodomain Containing Proteins",
+        "Cell Line, Tumor",
+        "DNA Helicases",
+        "Leukemia, Myeloid, Acute",
+        "Neoplastic Stem Cells",
+        "Nuclear Proteins",
+        "Nucleophosmin",
+        "Proto-Oncogene Proteins",
+        "Transcription Factors",
+        "Xenograft Model Antitumor Assays",
+        "Proteins"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "38390960",
+      "pmc": "PMC8492686",
+      "doi": "10.1038/s41598-021-99291-z",
+      "title": "Developmental Impacts of Epigenetics and Metabolism in COVID-19.",
+      "abstract": "Developmental biology is intricately regulated by epigenetics and metabolism but the mechanisms are not completely understood. The situation becomes even more complicated during diseases where all three phenomena are dysregulated. A salient example is COVID-19, where the death toll exceeded 6.96 million in 4 years, while the virus continues to mutate into different variants and infect people. Early evidence during the pandemic showed that the host's immune and inflammatory responses to COVID-19 (like the cytokine storm) impacted the host's metabolism, causing damage to the host's organs and overall physiology. The involvement of angiotensin-converting enzyme 2 (",
+      "journal": "J Dev Biol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Naik",
+          "fore_name": "Noopur",
+          "affiliations": [
+            "Department of Molecular, Cellular & Developmental Biology, University of Colorado Boulder, Boulder, CO 80309, USA."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Mansi",
+          "affiliations": [
+            "Institute of Genomics and Integrative Biology, Delhi 110007, India."
+          ]
+        },
+        {
+          "last_name": "Sen",
+          "fore_name": "Rwik",
+          "affiliations": [
+            "Active Motif, Inc., Carlsbad, CA 92008, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "COVID-19",
+        "diabetes mellitus",
+        "epigenetics",
+        "glucose metabolism",
+        "hyperglycemia",
+        "immunometabolic",
+        "inflammation",
+        "metabolic reprogramming",
+        "systemic toxicity",
+        "vitamin D"
+      ]
+    },
+    {
+      "pmid": "37938830",
+      "pmc": "PMC3124471",
+      "doi": "10.1016/j.molcel.2018.10.017",
+      "title": "Competition for H2A.Z underlies the developmental impacts of repetitive element de-repression.",
+      "abstract": "The histone variant H2A.Z is central to early embryonic development, determining transcriptional competency through chromatin regulation of gene promoters and enhancers. In addition to genic loci, we find that H2A.Z resides at a subset of evolutionarily young repetitive elements, including DNA transposons, long interspersed nuclear elements and long terminal repeats, during early zebrafish development. Moreover, increases in H2A.Z occur when repetitive elements become transcriptionally active. Acquisition of H2A.Z corresponds with a reduction in the levels of the repressive histone modification H3K9me3 and a moderate increase in chromatin accessibility. Notably, however, de-repression of repetitive elements also leads to a significant reduction in H2A.Z over non-repetitive genic loci. Genic loss of H2A.Z is accompanied by transcriptional silencing at adjacent coding sequences, but remarkably, these impacts are mitigated by augmentation of total H2A.Z protein via transgenic overexpression. Our study reveals that levels of H2A.Z protein determine embryonic sensitivity to de-repression of repetitive elements, that repetitive elements can function as a nuclear sink for epigenetic factors and that competition for H2A.Z greatly influences overall transcriptional output during development. These findings uncover general mechanisms in which counteractive biological processes underlie phenotypic outcomes.",
+      "journal": "Development",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Meng",
+          "fore_name": "Fanju W",
+          "affiliations": [
+            "University of Rochester Medical Center, Rochester, NY 14642, USA."
+          ]
+        },
+        {
+          "last_name": "Murphy",
+          "fore_name": "Kristin E",
+          "affiliations": [
+            "University of Rochester Medical Center, Rochester, NY 14642, USA."
+          ]
+        },
+        {
+          "last_name": "Makowski",
+          "fore_name": "Claire E",
+          "affiliations": [
+            "University of Rochester Medical Center, Rochester, NY 14642, USA."
+          ]
+        },
+        {
+          "last_name": "Delatte",
+          "fore_name": "Benjamin",
+          "affiliations": [
+            "Advanced Research Laboratory, Active Motif, 1914 Palomar Oaks Way STE 150, Carlsbad, CA 92008, USA."
+          ]
+        },
+        {
+          "last_name": "Murphy",
+          "fore_name": "Patrick J",
+          "affiliations": [
+            "University of Rochester Medical Center, Rochester, NY 14642, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Histones",
+        "Zebrafish",
+        "Chromatin",
+        "Protein Processing, Post-Translational",
+        "Embryonic Development",
+        "Nucleosomes"
+      ],
+      "keywords": [
+        "Chromatin",
+        "Epigenetics",
+        "Histone H2A.Z",
+        "Repetitive elements",
+        "Transposons",
+        "Zebrafish"
+      ]
+    },
+    {
+      "pmid": "35710818",
+      "pmc": "PMC4544751",
+      "doi": "10.1038/ncomms8211",
+      "title": "Anchor-based bisulfite sequencing determines genome-wide DNA methylation.",
+      "abstract": "Whole Genome Bisulfite Sequencing (WGBS) is the current standard for DNA methylation profiling. However, this approach is costly as it requires sequencing coverage over the entire genome. Here we introduce Anchor-Based Bisulfite Sequencing (ABBS). ABBS captures accurate DNA methylation information in Escherichia coli and mammals, while requiring up to 10 times fewer sequencing reads than WGBS. ABBS interrogates the entire genome and is not restricted to the CpG islands assayed by methods like Reduced Representation Bisulfite Sequencing (RRBS). The ABBS protocol is simple and can be performed in a single day.",
+      "journal": "Commun Biol",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Chapin",
+          "fore_name": "Nathaniel",
+          "affiliations": [
+            "Advanced Research Laboratory, Active Motif, 1914 Palomar Oaks Way STE 150, Carlsbad, CA, 92008, USA."
+          ]
+        },
+        {
+          "last_name": "Fernandez",
+          "fore_name": "Joseph",
+          "affiliations": [
+            "Advanced Research Laboratory, Active Motif, 1914 Palomar Oaks Way STE 150, Carlsbad, CA, 92008, USA."
+          ]
+        },
+        {
+          "last_name": "Poole",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Advanced Research Laboratory, Active Motif, 1914 Palomar Oaks Way STE 150, Carlsbad, CA, 92008, USA."
+          ]
+        },
+        {
+          "last_name": "Delatte",
+          "fore_name": "Benjamin",
+          "affiliations": [
+            "Advanced Research Laboratory, Active Motif, 1914 Palomar Oaks Way STE 150, Carlsbad, CA, 92008, USA. bdelatte@activemotif.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "CpG Islands",
+        "DNA Methylation",
+        "Mammals",
+        "Sequence Analysis, DNA",
+        "Sulfites"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "35645252",
+      "pmc": "PMC8511869",
+      "doi": "10.1016/j.sjbs.2021.10.020",
+      "title": "Insights into Cardiovascular Defects and Cardiac Epigenome in the Context of COVID-19.",
+      "abstract": "Although few in number, studies on epigenome of the heart of COVID-19 patients show that epigenetic signatures such as DNA methylation are significantly altered, leading to changes in expression of several genes. It contributes to pathogenic cardiac phenotypes of COVID-19, e.g., low heart rate, myocardial edema, and myofibrillar disarray. DNA methylation studies reveal changes which likely contribute to cardiac disease through unknown mechanisms. The incidence of severe COVID-19 disease, including hospitalization, requiring respiratory support, morbidity, and mortality, is disproportionately higher in individuals with co-morbidities. This poses unprecedented strains on the global healthcare system. While their underlying conditions make patients more susceptible to severe COVID-19 disease, strained healthcare systems, lack of adequate support, or sedentary lifestyles from ongoing lockdowns have proved detrimental to their underlying health conditions, thus pushing them to severe risk of congenital heart disease (CHD) itself. Prophylactic vaccines against COVID-19 have ushered new hope for CHD. A common connection between COVID-19 and CHD is SARS-CoV-2's host receptor ACE2, because ACE2 regulates and protects organs, including the heart, in various ways. ACE2 is a common therapeutic target against cardiovascular disease and COVID-19 which damages organs. Hence, this review explores the above regarding CHDs, cardiovascular damage, and cardiac epigenetics, in COVID-19 patients.",
+      "journal": "Epigenomes",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Sarkar",
+          "fore_name": "Shreya",
+          "affiliations": [
+            "New Brunswick Heart Centre, Saint John Regional Hospital, Saint John, NB E2L 4L2, Canada."
+          ]
+        },
+        {
+          "last_name": "Sen",
+          "fore_name": "Rwik",
+          "affiliations": [
+            "Active Motif, Inc., 1914 Palomar Oaks Way, Suite 150, Carlsbad, CA 92008, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "ACE2",
+        "Ang1-7",
+        "COVID-19",
+        "DNA methylation",
+        "Mas",
+        "cardiovascular disease",
+        "congenital heart defects",
+        "epigenome",
+        "non-coding RNA",
+        "physiology"
+      ]
+    },
+    {
+      "pmid": "34898263",
+      "pmc": "PMC2245901",
+      "doi": "10.1016/j.jmb.2015.09.014",
+      "title": "Distinct Interaction Mechanism of RNA Polymerase and ResD at Proximal and Distal Subsites for Transcription Activation of Nitrite Reductase in Bacillus subtilis.",
+      "abstract": "The ResD-ResE signal transduction system plays a pivotal role in anaerobic nitrate respiration in Bacillus subtilis. The",
+      "journal": "J Bacteriol",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Jacob",
+          "fore_name": "Hannah",
+          "affiliations": [
+            "Institute of Environmental Health, Oregon Health & Science University, Portland, Oregon, USA.",
+            "Department of Pediatrics, University of Florida, Gainesville, Florida, USA."
+          ]
+        },
+        {
+          "last_name": "Geng",
+          "fore_name": "Hao",
+          "affiliations": [
+            "Institute of Environmental Health, Oregon Health & Science University, Portland, Oregon, USA.",
+            "IEH Laboratories & Consulting Group, Lake Forest Park, Washington, USA."
+          ]
+        },
+        {
+          "last_name": "Shetty",
+          "fore_name": "Dasvit",
+          "affiliations": [
+            "Mechanobiology Institute, National University of Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Halow",
+          "fore_name": "Nathan",
+          "affiliations": [
+            "Institute of Environmental Health, Oregon Health & Science University, Portland, Oregon, USA.",
+            "Active Motif, Carlsbad, California, USA."
+          ]
+        },
+        {
+          "last_name": "Kenney",
+          "fore_name": "Linda J",
+          "affiliations": [
+            "Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, Texas, USA."
+          ]
+        },
+        {
+          "last_name": "Nakano",
+          "fore_name": "Michiko M",
+          "affiliations": [
+            "Institute of Environmental Health, Oregon Health & Science University, Portland, Oregon, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Bacillus subtilis",
+        "Bacterial Proteins",
+        "DNA-Binding Proteins",
+        "DNA-Directed RNA Polymerases",
+        "Gene Expression Regulation, Bacterial",
+        "Nitrite Reductases",
+        "Promoter Regions, Genetic",
+        "Transcription Factors",
+        "Transcriptional Activation"
+      ],
+      "keywords": [
+        "Bacillus subtilis",
+        "RNA polymerase subunits",
+        "ResD-dependent transcription",
+        "UP element",
+        "nitrite reductase"
+      ]
+    },
+    {
+      "pmid": "34999736",
+      "pmc": "PMC3355558",
+      "doi": "10.1038/s41388-021-02169-7",
+      "title": "Elevated expression of the colony-stimulating factor 1 (CSF1) induces prostatic intraepithelial neoplasia dependent of epithelial-Gp130.",
+      "abstract": "Macrophages are increased in human benign prostatic hyperplasia and prostate cancer. We generate a Pb-Csf1 mouse model with prostate-specific overexpression of macrophage colony-stimulating factor (M-Csf/Csf1). Csf1 overexpression promotes immune cell infiltration into the prostate, modulates the macrophage polarity in a lobe-specific manner, and induces senescence and low-grade prostatic intraepithelial neoplasia (PIN). The Pb-Csf1 prostate luminal cells exhibit increased stem cell features and undergo an epithelial-to-mesenchymal transition. Human prostate cancer patients with high CSF-1 expression display similar transcriptional alterations with the Pb-Csf1 model. P53 knockout alleviates senescence but fails to progress PIN lesions. Ablating epithelial Gp130 but not Il1r1 substantially blocks PIN lesion formation. The androgen receptor (AR) is downregulated in Pb-Csf1 mice. ChIP-Seq analysis reveals altered AR binding in 2482 genes although there is no significant widespread change in global AR transcriptional activity. Collectively, our study demonstrates that increased macrophage infiltration causes PIN formation but fails to transform prostate cells.",
+      "journal": "Oncogene",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Kwon",
+          "fore_name": "Oh-Joon",
+          "affiliations": [
+            "Department of Urology, University of Washington, Seattle, WA, 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Boyu",
+          "affiliations": [
+            "Department of Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Jia",
+          "fore_name": "Deyong",
+          "affiliations": [
+            "Department of Urology, University of Washington, Seattle, WA, 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Li",
+          "affiliations": [
+            "Department of Urology, University of Washington, Seattle, WA, 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Wei",
+          "fore_name": "Xing",
+          "affiliations": [
+            "Department of Urology, University of Washington, Seattle, WA, 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Zhicheng",
+          "affiliations": [
+            "Department of Urology, University of Washington, Seattle, WA, 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Deli",
+          "affiliations": [
+            "Sandra and Edward Meyer Cancer Center and Department of Urology, Weill Cornell Medicine, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Huynh",
+          "fore_name": "Khoi Trung",
+          "affiliations": [
+            "Department of Biology, University of Washington, Seattle, WA, 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Kai",
+          "affiliations": [
+            "Department of Urology, University of Washington, Seattle, WA, 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yiqun",
+          "affiliations": [
+            "Dan L. Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Labhart",
+          "fore_name": "Paul",
+          "affiliations": [
+            "Active Motif, San Diego, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Sboner",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Sandra and Edward Meyer Cancer Center and Department of Urology, Weill Cornell Medicine, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Barbieri",
+          "fore_name": "Chris",
+          "affiliations": [
+            "Sandra and Edward Meyer Cancer Center and Department of Urology, Weill Cornell Medicine, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Haffner",
+          "fore_name": "Michael C",
+          "affiliations": [
+            "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Creighton",
+          "fore_name": "Chad J",
+          "affiliations": [
+            "Dan L. Duncan Comprehensive Cancer Center, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Xin",
+          "fore_name": "Li",
+          "affiliations": [
+            "Department of Urology, University of Washington, Seattle, WA, 98109, USA. xin18@uw.edu.",
+            "Institute of Stem Cell and Regenerative Medicine, University of Washington, Seattle, WA, 98109, USA. xin18@uw.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Male",
+        "Animals",
+        "Prostatic Intraepithelial Neoplasia",
+        "Macrophage Colony-Stimulating Factor",
+        "Mice",
+        "Humans",
+        "Receptors, Androgen",
+        "Prostatic Neoplasms",
+        "Macrophages",
+        "Gene Expression Regulation, Neoplastic",
+        "Epithelial-Mesenchymal Transition",
+        "Prostate",
+        "Tumor Suppressor Protein p53",
+        "Disease Models, Animal"
+      ],
+      "keywords": []
+    }
+  ]
+}

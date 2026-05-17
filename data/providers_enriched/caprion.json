@@ -1,0 +1,279 @@
+{
+  "id": "caprion",
+  "name": "Caprion (CellCarta)",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Caprion",
+    "CellCarta"
+  ],
+  "search_queries": [
+    "\"Caprion\"[Affiliation] AND 2022:3000[pdat]",
+    "\"CellCarta\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 50,
+  "publications_indexed": 25,
+  "address_hints": [
+    "Caprion Biosciences, 201 Avenue Pr\u00e9sident Kennedy, Suite 3900, Montr\u00e9al, Qu\u00e9bec H2X 3Y7, Canada",
+    "Caprion Biosciences, Gosselies, Belgium",
+    "Caprion Biosciences, Ghent, Belgium"
+  ],
+  "contact_emails": [],
+  "sample_types": [
+    {
+      "type": "CSF",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41363816"
+      ]
+    },
+    {
+      "type": "serum",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "40570369"
+      ]
+    },
+    {
+      "type": "plasma",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "38564603"
+      ]
+    },
+    {
+      "type": "biopsy",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "38564603"
+      ]
+    },
+    {
+      "type": "cell lines",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "39984111"
+      ]
+    },
+    {
+      "type": "urine",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "39853278"
+      ]
+    },
+    {
+      "type": "tumor tissue",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "39666203"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Biomarkers, Tumor",
+      "n_papers": 5
+    },
+    {
+      "area": "HIV Infections",
+      "n_papers": 3
+    },
+    {
+      "area": "HIV-1",
+      "n_papers": 3
+    },
+    {
+      "area": "Tumor Microenvironment",
+      "n_papers": 2
+    },
+    {
+      "area": "Influenza Vaccines",
+      "n_papers": 1
+    },
+    {
+      "area": "Vaccines, DNA",
+      "n_papers": 1
+    },
+    {
+      "area": "Cytomegalovirus Vaccines",
+      "n_papers": 1
+    },
+    {
+      "area": "Vaccines",
+      "n_papers": 1
+    },
+    {
+      "area": "Inflammatory Breast Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Tumor-Associated Macrophages",
+      "n_papers": 1
+    },
+    {
+      "area": "Lymphocytes, Tumor-Infiltrating",
+      "n_papers": 1
+    },
+    {
+      "area": "Cell Line, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Urinary Bladder Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Urologic Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Colorectal Neoplasms",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Duke Cancer Institute",
+      "co_pubs": 3
+    },
+    {
+      "name": "Center for Oncological Research (CORE)",
+      "co_pubs": 3
+    },
+    {
+      "name": "Genentech",
+      "co_pubs": 3
+    },
+    {
+      "name": "Multidisciplinary Breast Clinic",
+      "co_pubs": 2
+    },
+    {
+      "name": "Translational Cancer Research Unit",
+      "co_pubs": 2
+    },
+    {
+      "name": "AZ Turnhout",
+      "co_pubs": 2
+    },
+    {
+      "name": "Ghent University Hospital",
+      "co_pubs": 2
+    },
+    {
+      "name": "Ghent University",
+      "co_pubs": 2
+    },
+    {
+      "name": "Institut Jules Bordet",
+      "co_pubs": 2
+    },
+    {
+      "name": "Universit\u00e9 de Montr\u00e9al",
+      "co_pubs": 2
+    },
+    {
+      "name": "Research Institute",
+      "co_pubs": 2
+    },
+    {
+      "name": "Washington University School of Medicine",
+      "co_pubs": 2
+    },
+    {
+      "name": "Massachusetts General Hospital",
+      "co_pubs": 2
+    },
+    {
+      "name": "University of Rochester; Rochester",
+      "co_pubs": 1
+    },
+    {
+      "name": "Barinthus Biotherapeutics",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "38729196",
+      "doi": "10.1016/S2666-5247(24)00024-7",
+      "pmc": null,
+      "year": 2024,
+      "journal": "Lancet Microbe",
+      "title": "Assessment of CD8"
+    },
+    {
+      "pmid": "35969710",
+      "doi": "10.1016/j.jmsacl.2022.07.007",
+      "pmc": "PMC9372730",
+      "year": 2022,
+      "journal": "J Mass Spectrom Adv Clin Lab",
+      "title": "Corrigendum to \"Analytical validation of protein biomarkers for risk of spontaneous preterm birth\" [Clin. Mass Spectrom. 3 (2017) 25-38]."
+    },
+    {
+      "pmid": "32313928",
+      "doi": "10.1093/infdis/jiaa121",
+      "pmc": "PMC4731614",
+      "year": 2022,
+      "journal": "J Infect Dis",
+      "title": "A Randomized Dose-Escalating Phase I Trial of a Replication-Deficient Lymphocytic Choriomeningitis Virus Vector-Based Vaccine Against Human Cytomegalovirus."
+    },
+    {
+      "pmid": "41491840",
+      "doi": "10.1186/s13058-024-01774-0",
+      "pmc": "PMC10829369",
+      "year": 2026,
+      "journal": "Breast Cancer Res",
+      "title": "The spatial immune landscape predicts outcome and reveals the central role of tumor-associated macrophages in inflammatory breast cancer biology."
+    },
+    {
+      "pmid": "41363816",
+      "doi": "10.1002/acn3.70272",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Ann Clin Transl Neurol",
+      "title": "Discovery and Targeted Proteomic Studies Reveal Striatal Markers Validated for Huntington's Disease."
+    },
+    {
+      "pmid": "40570369",
+      "doi": "10.3389/fimmu.2020.00239",
+      "pmc": "PMC7046837",
+      "year": 2025,
+      "journal": "Cell Rep",
+      "title": "A hypomorphic Il2rb mutant mouse model recapitulates and reveals mechanisms of human T cell immune dysregulation in IL-2R\u03b2 deficiency."
+    },
+    {
+      "pmid": "38564603",
+      "doi": "10.1101/2021.05.11.442610",
+      "pmc": "PMC7431080",
+      "year": 2025,
+      "journal": "Mol Oncol",
+      "title": "Subpar reporting of pre-analytical variables in RNA-focused blood plasma studies."
+    },
+    {
+      "pmid": "40130537",
+      "doi": "10.1038/srep06780",
+      "pmc": "PMC5381364",
+      "year": 2025,
+      "journal": "G3 (Bethesda)",
+      "title": "Chromosome-level genome assembly of a doubled haploid brook trout (Salvelinus fontinalis)."
+    },
+    {
+      "pmid": "39984111",
+      "doi": "10.1016/j.biochi.2025.02.003",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Biochimie",
+      "title": "The prolyl oligopeptidase and \u03b1-synuclein connection revisited."
+    },
+    {
+      "pmid": "40223099",
+      "doi": "10.1016/j.cell.2022.06.035",
+      "pmc": "PMC9555301",
+      "year": 2025,
+      "journal": "Commun Med (Lond)",
+      "title": "Development of a personalized digital biomarker of vaccine-associated reactogenicity using wearable sensors and digital twin technology."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "bundle_id": "lung-scc-streck-bct-liquid-biopsy",
+  "therapeutic_area": "immuno-oncology",
+  "query_text": "Lung squamous cell carcinoma (SCC) \u2014 need liquid biopsy specimens collected in Streck BCT tubes (cell-free DNA preservation). Patients with documented smoking history (pack-years). Matched FFPE from surgical resection. Any stage. N >= 15.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Squamous cell cancer (SCC)",
+      "Lung cancer",
+      "Non-Small cell lung cancer (NSCLC)"
+    ],
+    "specimen_types": [
+      "Other (Streck BCT)",
+      "Tissue (FFPE)"
+    ],
+    "preanalytical": {
+      "tube_type": "Streck BCT"
+    },
+    "clinical_data_required": [
+      "smoking_history_pack_years"
+    ],
+    "matched_pairs": true,
+    "min_n": 15,
+    "assay_context": "cfDNA-based TMB estimation \u2014 pembrolizumab CDx for lung SCC"
+  }
+}

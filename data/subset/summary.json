@@ -1,0 +1,140 @@
+{
+  "generated_at": "",
+  "total_specimens": 27514,
+  "total_donors": 13866,
+  "matched_pair_donors": 2865,
+  "jsonl_files": 257,
+  "areas": {
+    "heme": 1020,
+    "immuno": 905,
+    "metabolic": 1261,
+    "rare": 1171,
+    "neuro": 6115,
+    "oncology": 10719,
+    "infectious": 1144,
+    "womens-health": 4126,
+    "respiratory": 1053
+  },
+  "top_diseases": [
+    [
+      "Neurological condition",
+      6688
+    ],
+    [
+      "Gastrointestinal disorder",
+      5202
+    ],
+    [
+      "Skin cancer",
+      5017
+    ],
+    [
+      "Coronavirus (Covid)",
+      4257
+    ],
+    [
+      "Squamous cell cancer (SCC)",
+      3498
+    ],
+    [
+      "Lung cancer",
+      2966
+    ],
+    [
+      "Congestive Heart Failure (CHF)",
+      2481
+    ],
+    [
+      "Chronic Obstructive Pulmonary Disease (COPD)",
+      1689
+    ],
+    [
+      "Amyotrophic Lateral Sclerosis (ALS)",
+      1687
+    ],
+    [
+      "Breast cancer",
+      1683
+    ],
+    [
+      "Parkinson's disease (PD)",
+      1650
+    ],
+    [
+      "Uterine cancer",
+      1543
+    ],
+    [
+      "Colon cancer",
+      1525
+    ],
+    [
+      "Prostate cancer",
+      1512
+    ],
+    [
+      "Pancreatic cancer",
+      1376
+    ],
+    [
+      "Ovarian cancer",
+      1332
+    ],
+    [
+      "Melanoma",
+      1299
+    ],
+    [
+      "Bladder Cancer",
+      1248
+    ],
+    [
+      "Multiple Sclerosis (MS)",
+      1213
+    ],
+    [
+      "Diabetes",
+      1133
+    ],
+    [
+      "Non-Small cell lung cancer (NSCLC)",
+      1133
+    ],
+    [
+      "Cervical cancer",
+      1001
+    ],
+    [
+      "Dementia",
+      990
+    ],
+    [
+      "Lymphoma",
+      933
+    ],
+    [
+      "Thyroid cancer",
+      891
+    ],
+    [
+      "Brain tumor",
+      839
+    ],
+    [
+      "Acinar adenocarcinoma",
+      823
+    ],
+    [
+      "Cholecystitis",
+      698
+    ],
+    [
+      "Glioblastoma",
+      683
+    ],
+    [
+      "Invasive ductal cancer (IDC)",
+      681
+    ]
+  ]
+}

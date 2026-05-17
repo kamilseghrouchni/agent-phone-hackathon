@@ -1,0 +1,4431 @@
+{
+  "name": "Metabolon",
+  "cleaned_name": "Metabolon",
+  "aliases_tried": [
+    "Metabolon"
+  ],
+  "publication_total": 107,
+  "search_queries": [
+    "\"Metabolon\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41975099",
+      "doi": "10.1038/nmeth.2019",
+      "pmc": "3855844",
+      "title": "Lipid-trap mass spectrometry identifies lipid-protein interactions in cells.",
+      "abstract": "Cells actively maintain complex lipidomes that encompass thousands of lipids; however, many of the roles of these lipids remain unexplored. Specific interactions between lipids and membrane proteins are a likely reason for lipidome complexity. Here we report the development of a technique, named lipid-trap mass spectrometry (LTMS), to systematically study lipid-protein interactions directly captured from mammalian cells. LTMS uses immunoprecipitation of GFP-tagged proteins expressed in HeLa cells, followed by lipidomic analysis of lipids bound to the GFP-tagged protein. We applied LTMS to cell division to illustrate the technique. We chose this process because membranes regulate their lipid composition as they undergo major changes during cytokinesis, and many cytokinetic proteins, including RACGAP1 and ESCRT-III components CHMP4B and CHMP2A, are membrane-associated. Using LTMS, we found that RACGAP1 and CHMP4B associate with specific lipid species in dividing compared with non-dividing cells. We expand our understanding of lipid diversity during cell division and present a general approach to explore lipid-protein interactions to further our knowledge of the roles of lipids in mammalian cells.",
+      "journal": "Nat Cell Biol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Paquola",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK.",
+            "Department of Chemistry, King's College London, London, UK.",
+            "Department of Pathology and Cell Biology, Columbia University, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Benson",
+          "fore_name": "Clare E",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Desale",
+          "fore_name": "Smita Eknath",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Ozbalci",
+          "fore_name": "Cagakan",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK.",
+            "SCIEX UK, Macclesfield, UK."
+          ]
+        },
+        {
+          "last_name": "Storck",
+          "fore_name": "Elisabeth M",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK.",
+            "Metabolon, London, UK."
+          ]
+        },
+        {
+          "last_name": "Terry",
+          "fore_name": "Stephen J",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK.",
+            "London Centre for Nanotechnology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Rao",
+          "fore_name": "Bhagyashree Dasari",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Nwite",
+          "fore_name": "Kelechi N",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Ferrentino",
+          "fore_name": "Federica",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK.",
+            "Nikon Imaging Centre at King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Eggert",
+          "fore_name": "Ulrike S",
+          "affiliations": [
+            "Randall Centre for Cell and Molecular Biophysics, King's College London, London, UK. ulrike.eggert@kcl.ac.uk.",
+            "Department of Chemistry, King's College London, London, UK. ulrike.eggert@kcl.ac.uk."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41651070",
+      "pmc": "PMC6572224",
+      "doi": "10.3390/metabo9050099",
+      "title": "Untargeted Metabolomics Analysis of Human Milk from Breastfeeding Bangladeshi Women Reveals Amino Acid Metabolic Pathways Associated with Maternal Nutritional Status and Infant Growth.",
+      "abstract": "Human milk (HM) contains bioactive constituents that continuously change throughout lactation and that are critical for optimal infant development. However, the temporal variation of the HM metabolome, its maternal nutritional determinants, and its links to infant outcomes remain insufficiently characterized in low-middle-income countries (LMIC) where childhood disease burden and HM exposure are substantial, and maternal nutritional status is poor. We aimed to 1) characterize temporal changes in the HM metabolome, 2) quantify maternal nutritional status-related differences in HM metabolomic patterns, and 3) determine whether HM metabolomic patterns associated with maternal nutritional status are in turn associated with infant growth, in a cohort of rural Bangladeshi maternal-infant dyads. In a lactation cohort (n = 99, 6% preterm at 34-36 wk), we characterized metabolites in HM samples at 2 (n = 94) and 5 (n = 88) mo postpartum (PP) using untargeted metabolomics profiling. We performed a paired t-test to identify metabolites that differed between timepoints and principal component analysis to consolidate metabolites measured at each timepoint into \"factors,\" representing metabolite patterns. We used linear regression models to determine associations between maternal nutritional predictors, factor scores at 2 and 5 mo, and infant growth outcomes, and performed metabolite set enrichment analysis (MSEA) to characterize relevant pathways. P values were adjusted for multiple comparisons. Among the 51 metabolites that differed in relative abundance across the 2 time points, 37 (73%) metabolites decreased over time, mainly comprising lipids (sphingolipids and phospholipids), and amino acids (AA). MSEA did not reveal specific metabolic pathway alterations over time. HM from mothers in the highest (compared with middle, ref) body mass index (BMI) tertile PP had significantly lower scores for a metabolomic pattern (factor 5) characterized by AA that enriched in 6 critical metabolic pathways (metabolism of glutathione, glutamate, alanine, glycine and serine, and aspartate; and the ammonia recycling pathway). In turn, lower scores for this profile were associated with greater (\u03b2 = 0.22; 95% confidence interval: 0.00, 0.43) infant weight-for-age z-score at 3 mo but not 6 mo. Additionally, HM from undernourished mothers had lower scores for a metabolomic pattern (factor 4) characterized mainly by AA and acylcarnitines involved in branched chain AA and fatty acids metabolism, although MSEA were not significant. This pattern was not associated with infant growth. In this LMIC cohort, the abundance of several lipid and AA metabolites declined over time. Furthermore, HM metabolome differences in mothers with high BMI may underpin early weight gain in their infants. More studies from LMICs are needed to understand maternal nutrition-driven differences in HM composition that may impact infant growth and development to guide interventions in these high-risk breastfeeding populations.",
+      "journal": "J Nutr",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Monthe-Dreze",
+          "fore_name": "Carmen",
+          "affiliations": [
+            "Department Pediatrics, Division of Newborn Medicine, Brigham and Women's Hospital, Boston, MA, United States; Department of Pediatrics, Harvard Medical School, Boston, MA, United States; Department of Pediatrics, Division of Neonatology, Women and Infants Hospital, Providence, RI, United States."
+          ]
+        },
+        {
+          "last_name": "Bhushan",
+          "fore_name": "Brij",
+          "affiliations": [
+            "Department Pediatrics, Division of Newborn Medicine, Brigham and Women's Hospital, Boston, MA, United States."
+          ]
+        },
+        {
+          "last_name": "Andrews",
+          "fore_name": "Chloe",
+          "affiliations": [
+            "Department Pediatrics, Division of Newborn Medicine, Brigham and Women's Hospital, Boston, MA, United States; Department of Pediatrics, Division of Neonatology, Women and Infants Hospital, Providence, RI, United States."
+          ]
+        },
+        {
+          "last_name": "Cherkerzian",
+          "fore_name": "Sara",
+          "affiliations": [
+            "Department Pediatrics, Division of Newborn Medicine, Brigham and Women's Hospital, Boston, MA, United States; Department of Pediatrics, Harvard Medical School, Boston, MA, United States."
+          ]
+        },
+        {
+          "last_name": "Perng",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Department of Epidemiology and the Lifecourse Epidemiology of Adiposity and Diabetes Center, University of Colorado, Anschutz Medical Campus, Aurora, CO, United States."
+          ]
+        },
+        {
+          "last_name": "Ahmed",
+          "fore_name": "Salahuddin",
+          "affiliations": [
+            "Projahnmo Research Foundation, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Baqui",
+          "fore_name": "Abdullah H",
+          "affiliations": [
+            "Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore MD, United States."
+          ]
+        },
+        {
+          "last_name": "Chowdhury",
+          "fore_name": "Nabidul",
+          "affiliations": [
+            "Projahnmo Research Foundation, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Khanam",
+          "fore_name": "Rasheda",
+          "affiliations": [
+            "Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore MD, United States."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Sayedur",
+          "affiliations": [
+            "Projahnmo Research Foundation, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Sheridan",
+          "fore_name": "Patricia A",
+          "affiliations": [
+            "Metabolon, Inc., Morrisville, NC, United States."
+          ]
+        },
+        {
+          "last_name": "Michelotti",
+          "fore_name": "Gregory",
+          "affiliations": [
+            "Metabolon, Inc., Morrisville, NC, United States."
+          ]
+        },
+        {
+          "last_name": "Martin",
+          "fore_name": "Camilia R",
+          "affiliations": [
+            "Division of Neonatology, Weill Cornell Medicine New York, NY, United States."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Anne Cc",
+          "affiliations": [
+            "Department Pediatrics, Division of Newborn Medicine, Brigham and Women's Hospital, Boston, MA, United States; Warren Alpert Medical School, Brown University, Providence, RI, United States."
+          ]
+        },
+        {
+          "last_name": "Sen",
+          "fore_name": "Sarbattama",
+          "affiliations": [
+            "Department Pediatrics, Division of Newborn Medicine, Brigham and Women's Hospital, Boston, MA, United States; Department of Pediatrics, Division of Neonatology, Women and Infants Hospital, Providence, RI, United States; Warren Alpert Medical School, Brown University, Providence, RI, United States. Electronic address: Sarbattama_sen@brown.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Milk, Human",
+        "Amino Acids",
+        "Bangladesh",
+        "Metabolomics",
+        "Infant",
+        "Breast Feeding",
+        "Adult",
+        "Nutritional Status",
+        "Maternal Nutritional Physiological Phenomena",
+        "Child Development",
+        "Infant, Newborn",
+        "Metabolic Networks and Pathways",
+        "Metabolome",
+        "Young Adult"
+      ],
+      "keywords": [
+        "BMI",
+        "LMIC",
+        "amino acids",
+        "human milk metabolomics",
+        "infant growth"
+      ]
+    },
+    {
+      "pmid": "41960328",
+      "pmc": "PMC3014770",
+      "doi": "10.21203/rs.3.rs-9237764/v1",
+      "title": "Metabolic Adaptations to Caloric Restriction: Time- and Group-Dependent Metabolomic Signatures from the CALERIE",
+      "abstract": "Caloric restriction (CR) improves markers of biological aging, yet long-term effects on the human metabolome remain unclear. This study examined the effects of CR (2 years) in healthy adults without obesity on circulating metabolites linked to aging and metabolic adaptations. Untargeted metabolomics was performed using fasted plasma samples collected at baseline, 12, and 24 months (BL, 12M, 24M) from CALERIE Three principal components showed significant group-by-time interactions: PC2 (carbohydrate), PC5 (partially characterized molecules), and PC4 (lipid). Carbohydrate (PC2) and partially characterized metabolites (PC5) decreased from baseline to 12M in both groups; from 12M to 24M, levels stabilized in CR but increased in AL for PC2, while PC5 continued to decline in AL and increased in CR. Lipid metabolites (PC4) decreased in CR and increased in AL at 12M, with the pattern reversing from 12M to 24M. Key contributors included malto-saccharides and related carbohydrate intermediates for PC2, glutamine degradants and lactone sulfates for PC5, and sphingolipids for PC4. Calorie restriction produced distinct, time-dependent shifts in carbohydrate and lipid metabolism, with early reductions during the weight-loss phase followed by stabilization or compensatory responses during weight maintenance. These dynamic metabolic changes may relate to inflammation-linked mechanisms. Further work is needed to distinguish CR-specific adaptations from dietary influences and to clarify the functional significance of these metabolic responses for aging and long-term metabolic health.",
+      "journal": "Res Sq",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Orenduff",
+          "fore_name": "Melissa C",
+          "affiliations": [
+            "Duke Molecular Physiology Institute, Duke University School of Medicine, Durham, NC, USA.",
+            "Department of Medicine, Duke University School of Medicine, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Woolf",
+          "fore_name": "Emily K",
+          "affiliations": [
+            "Reproductive Endocrinology and Women's Health Laboratory, Pennington Biomedical Research Center, Baton Rouge, LA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Ruiqi",
+          "affiliations": [
+            "Department of Medicine, Duke University School of Medicine, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Belsky",
+          "fore_name": "Daniel W",
+          "affiliations": [
+            "Robert N Butler Columbia Aging Center, Columbia University Mailman School of Public Health, New York, NY, USA.",
+            "Department of Epidemiology, Columbia University Mailman School of Public Health, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Das",
+          "fore_name": "Sai Krupa",
+          "affiliations": [
+            "Jean Mayer USDA Human Nutrition Research Center on Aging at Tufts University, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Hastings",
+          "fore_name": "Waylon",
+          "affiliations": [
+            "Department of Nutrition, Texas A&M University, College Station, TX, USA.",
+            "Institute for Advancing Health through Agriculture, Texas A&M AgriLife Research, College Station, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Mucinski",
+          "fore_name": "Justine M",
+          "affiliations": [
+            "AdventHealth Translational Research Institute, AdventHealth Orlando, Orlando, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Racette",
+          "fore_name": "Susan B",
+          "affiliations": [
+            "College of Health Solutions, Arizona State University, Phoenix, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Redman",
+          "fore_name": "Leanne M",
+          "affiliations": [
+            "Reproductive Endocrinology and Women's Health Laboratory, Pennington Biomedical Research Center, Baton Rouge, LA."
+          ]
+        },
+        {
+          "last_name": "Waziry",
+          "fore_name": "Reem",
+          "affiliations": [
+            "Department of Neurology, Vagelos College of Physicians and Surgeons, Columbia University, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari",
+          "affiliations": [
+            "Metabolon, Inc. Morrisville, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Kraus",
+          "fore_name": "William E",
+          "affiliations": [
+            "Duke Molecular Physiology Institute, Duke University School of Medicine, Durham, NC, USA.",
+            "Department of Medicine, Duke University School of Medicine, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Pieper",
+          "fore_name": "Carl F",
+          "affiliations": [
+            "Department of Medicine, Duke University School of Medicine, Durham, NC, USA.",
+            "Center on Aging and Development, Biostatistics and Bioinformatics, Duke University, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Huffman",
+          "fore_name": "Kim M",
+          "affiliations": [
+            "Duke Molecular Physiology Institute, Duke University School of Medicine, Durham, NC, USA.",
+            "Department of Medicine, Duke University School of Medicine, Durham, NC, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CALERIE\u2122",
+        "Caloric Restriction",
+        "Metabolomics",
+        "principal component analysis (PCA)"
+      ]
+    },
+    {
+      "pmid": "41787388",
+      "pmc": "PMC7437589",
+      "doi": "10.4103/1673-5374.276333",
+      "title": "Hypothesis-free evaluation of circulating metabolome provides cell-specific insights regarding the role of energy substrate availability in amyotrophic lateral sclerosis.",
+      "abstract": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease with limited therapeutic options. The circulating metabolome comprises small molecules present in plasma/serum which are the intermediates and end-products of cellular metabolism, and is linked to ALS pathogenesis. We conducted hypothesis-free two-sample Mendelian randomisation (MR) analysis of the concentration of 575 plasma/serum metabolites, to determine which are causally linked to risk of ALS. Significant metabolites were validated in an independent GWAS of plasma/serum metabolite concentrations and evaluated for sex-specific effects. Correlations between directly measured patient biofluid metabolite concentrations and ALS risk/severity were examined in 94 ALS patients and 40 controls. We experimentally assessed metabolic function in a murine neurons and human astrocytes carrying an ALS-associated G4C2-repeat expansion within C9orf72. MR causally associated five metabolites with ALS risk after multiple-testing correction. Higher serum concentration of glycoprotein acetyls (P\u2009=\u20099.7e\u2009-\u20099, \u03b2\u2009=\u20090.21) and the peptide DSGEGDFXAEGGGVR (P\u2009=\u20098.0e\u2009-\u20096, \u03b2\u2009=\u20090.22) was associated with increased ALS risk, whereas higher plasma concentration of phenylalanylserine, isobutyrylcarnitine, and acetylcarnitine was protective (P\u2009<\u20095e\u2009-\u20095, \u03b2\u2009= -\u20090.29 to\u2009-\u20090.72). DSGEGDFXAEGGGVR has been linked to glucose metabolism but we have used genetic fine-mapping to link DSGEGDFXAEGGGVR, neuronal glucose uptake through GLUT3, and ALS risk. Direct measurement of metabolite concentrations in patient biofluids revealed elevated acetylcarnitine levels in patients with ALS, which were associated with delayed symptom onset (Cox regression, P\u2009=\u20090.02, HR\u2009=\u20090.4). Similarly, lactate is elevated in ALS patient CSF (ANOVA, P\u2009=\u20091.3e\u2009-\u20093) and in patients with longer survival time (Cox regression, P\u2009=\u20090.03, HR\u2009=\u20090.3). Plasma fructose is elevated in ALS patients with shorter survival time (Cox regression, P\u2009=\u20090.02, HR\u2009=\u20091.1). In vitro, neurons and astrocytes carrying an ALS-associated G4C2-repeat expansion within C9orf72 demonstrated reduced metabolic flexibility. We provide evidence that impaired energy substrate availability contributes to ALS risk and severity. CNS cell types differ in their use of energy substrates and therefore we postulate the relative importance of different cell types for different stages of disease. Our findings support further investigation of metabolic interventions to treat or prevent ALS.",
+      "journal": "BMC Med",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Alhathli",
+          "fore_name": "Elham",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK.",
+            "Faculty of Nursing, Taif University, Taif, Saudi Arabia."
+          ]
+        },
+        {
+          "last_name": "Cooper-Knock",
+          "fore_name": "Johnathan",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK. j.cooper-knock@sheffield.ac.uk.",
+            "NIHR Sheffield Biomedical Research Centre (BRC), Sheffield Teaching Hospitals NHS Foundation Trust, Glossop Road, Sheffield, S10 2JF, UK. j.cooper-knock@sheffield.ac.uk."
+          ]
+        },
+        {
+          "last_name": "Girach",
+          "fore_name": "Zain-Ul-Abideen",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Julian",
+          "fore_name": "Thomas H",
+          "affiliations": [
+            "Division of Evolution, Infection and Genomics, School of Biological Sciences, The University of Manchester, Manchester, UK.",
+            "Christabel Pankhurst Institute, The University of Manchester, Manchester, UK."
+          ]
+        },
+        {
+          "last_name": "Bauer",
+          "fore_name": "Claudia",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Timmons",
+          "fore_name": "Hannah O",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Ward",
+          "fore_name": "Billie D",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Walker",
+          "fore_name": "Heather",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Azzouz",
+          "fore_name": "Mimoun",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Elrayess",
+          "fore_name": "Mohamed A",
+          "affiliations": [
+            "Biomedical Research Center (BRC), QU Health, Qatar University, P.O. Box 2713, Doha, Qatar."
+          ]
+        },
+        {
+          "last_name": "Al-Khelaifi",
+          "fore_name": "Fatima",
+          "affiliations": [
+            "Anti-Doping Laboratory Qatar, Doha, Qatar."
+          ]
+        },
+        {
+          "last_name": "Yousri",
+          "fore_name": "Noha A",
+          "affiliations": [
+            "Computer and Systems Engineering, Faculty of Engineering, Alexandria University, Alexandria, Egypt."
+          ]
+        },
+        {
+          "last_name": "Gul",
+          "fore_name": "Aytac",
+          "affiliations": [
+            "Department of Medical Biology, Tayfur Ata S\u00f6kmen Medical Faculty, Hatay Mustafa Kemal University, Antakya, Turkey."
+          ]
+        },
+        {
+          "last_name": "Kelsall",
+          "fore_name": "Alan",
+          "affiliations": [
+            "School of Medicine and Population Health, University of Sheffield, Sheffield, UK."
+          ]
+        },
+        {
+          "last_name": "Moll",
+          "fore_name": "Tobias",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Harvey",
+          "fore_name": "Calum",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Gornall",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Allen",
+          "fore_name": "Scott P",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Strange",
+          "fore_name": "Andrew",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK. a.strange@sheffield.ac.uk.",
+            "NIHR Sheffield Biomedical Research Centre (BRC), Sheffield Teaching Hospitals NHS Foundation Trust, Glossop Road, Sheffield, S10 2JF, UK. a.strange@sheffield.ac.uk."
+          ]
+        },
+        {
+          "last_name": "Shaw",
+          "fore_name": "Pamela J",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Glossop Road, Sheffield, S10 2HQ, UK. pamela.shaw@sheffield.ac.uk.",
+            "NIHR Sheffield Biomedical Research Centre (BRC), Sheffield Teaching Hospitals NHS Foundation Trust, Glossop Road, Sheffield, S10 2JF, UK. pamela.shaw@sheffield.ac.uk."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Amyotrophic Lateral Sclerosis",
+        "Humans",
+        "Metabolome",
+        "Male",
+        "Female",
+        "Animals",
+        "Mice",
+        "Mendelian Randomization Analysis",
+        "Middle Aged",
+        "Energy Metabolism",
+        "Astrocytes",
+        "C9orf72 Protein",
+        "Neurons",
+        "Aged",
+        "Genome-Wide Association Study"
+      ],
+      "keywords": [
+        "Acetylcarnitine",
+        "Amyotrophic lateral sclerosis",
+        "Carnitine shuttle",
+        "Cerebrospinal fluid",
+        "Energy metabolism",
+        "GLUT3",
+        "Mendelian randomisation",
+        "Metabolomics",
+        "Neuronal vulnerability"
+      ]
+    },
+    {
+      "pmid": "41752089",
+      "pmc": "PMC10213779",
+      "doi": "10.3389/fnagi.2023.1151848",
+      "title": "Antisense Dipeptide Repeat Proteins Drive Widescale Purine Metabolism Aberration in",
+      "abstract": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterised by the death of motor neurons leading to paralysis and death, generally 3-5 years post-symptom onset. The most frequent genetic cause of ALS is a hexanucleotide repeat expansion (HRE) in the chromosome 9 open reading frame 72 (",
+      "journal": "Int J Mol Sci",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Hall",
+          "fore_name": "Benjamin",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Castelli",
+          "fore_name": "Lydia",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Higginbottom",
+          "fore_name": "Adrian",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "He",
+          "fore_name": "Jingxuan",
+          "affiliations": [
+            "Department of Chemistry, The Pennsylvania State University, University Park, State College, PA 16802, USA."
+          ]
+        },
+        {
+          "last_name": "Zou",
+          "fore_name": "Ling-Nan",
+          "affiliations": [
+            "Department of Chemistry, The Pennsylvania State University, University Park, State College, PA 16802, USA."
+          ]
+        },
+        {
+          "last_name": "Walker",
+          "fore_name": "Heather",
+          "affiliations": [
+            "biOMICS Mass Spectrometry Facility, Alfred Denny Building, Western Bank, University of Sheffield, Sheffield S10 2TN, UK."
+          ]
+        },
+        {
+          "last_name": "Yag\u00fce-Capilla",
+          "fore_name": "Miriam",
+          "affiliations": [
+            "SciLifeLab, Department of Oncology-Pathology, Karolinska Institutet, 171 64 Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari E",
+          "affiliations": [
+            "Metabolon Inc., Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Burrows",
+          "fore_name": "David J",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "George",
+          "fore_name": "Jonathan",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Hamer",
+          "fore_name": "Keaton",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Tanner",
+          "fore_name": "Jenny M",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Kyrgiou-Balli",
+          "fore_name": "Ergita",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Ross",
+          "fore_name": "Rees",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Garland",
+          "fore_name": "Herbie",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Tonkiss",
+          "fore_name": "Erin",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "George",
+          "fore_name": "Rachel",
+          "affiliations": [
+            "biOMICS Mass Spectrometry Facility, Alfred Denny Building, Western Bank, University of Sheffield, Sheffield S10 2TN, UK."
+          ]
+        },
+        {
+          "last_name": "Webster",
+          "fore_name": "Christopher P",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Smith",
+          "fore_name": "Emma F",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Timmons",
+          "fore_name": "Hannah O",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Allsop",
+          "fore_name": "Jess",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Stefanidis",
+          "fore_name": "Nikolas",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Ward",
+          "fore_name": "Billie D",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Ya-Hui",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Highley",
+          "fore_name": "J Robin",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Azzouz",
+          "fore_name": "Mimoun",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "West",
+          "fore_name": "Ryan J H",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Rudd",
+          "fore_name": "Sean G",
+          "affiliations": [
+            "SciLifeLab, Department of Oncology-Pathology, Karolinska Institutet, 171 64 Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Vos",
+          "fore_name": "Kurt J De",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Shaw",
+          "fore_name": "Pamela J",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Hautbergue",
+          "fore_name": "Guillaume M",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        },
+        {
+          "last_name": "Allen",
+          "fore_name": "Scott P",
+          "affiliations": [
+            "Sheffield Institute for Translational Neuroscience, University of Sheffield, Sheffield S10 2HQ, UK."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Amyotrophic Lateral Sclerosis",
+        "C9orf72 Protein",
+        "Humans",
+        "Adenosine Deaminase",
+        "Purines",
+        "Animals",
+        "Mice",
+        "Dipeptides",
+        "Astrocytes",
+        "DNA Repeat Expansion",
+        "Male"
+      ],
+      "keywords": [
+        "ADA",
+        "ALS",
+        "C9orf72",
+        "DPR",
+        "MND",
+        "astrocyte",
+        "metabolomics",
+        "purine metabolism",
+        "purinosome"
+      ]
+    },
+    {
+      "pmid": "41503571",
+      "pmc": "PMC8259255",
+      "doi": "10.1172/jci.insight.133410",
+      "title": "The multi-omic basis for hepatic encephalopathy recurrence: Analysis of the THEMATIC trial.",
+      "abstract": "The THEMATIC trial demonstrated that fecal microbiota transplantation (FMT) reduces recurrence of hepatic encephalopathy (HE) in patients already receiving lactulose and rifaximin. The aim of this analysis was to identify multi-omic predictors of HE recurrence among THEMATIC trial participants. The THEMATIC trial enrolled patients with cirrhosis and HE who received oral or enema FMT HE recurred in 10 of 60 patients (17%), with significantly higher recurrence in the placebo Secondary analysis of the THEMATIC randomized controlled trial indicates that HE recurrence in patients on lactulose and rifaximin is associated with distinct microbiome and metabolomic profiles, particularly involving SCFAs, GABA metabolism, bile acids, and IL-6. Fecal microbiota transplantation (FMT) reduced hepatic encephalopathy (HE) recurrence in patients receiving lactulose and rifaximin in the THEMATIC trial, but the multi-omic mechanisms underlying this effect were unclear. In this secondary analysis, we found that HE recurrence - regardless of FMT or placebo assignment - was associated with distinct multi-omic signatures, including reduced short-chain fatty acid-producing and increased pathobiont taxa, lower urinary and serum short-chain fatty acids, secondary bile acids, and acetaminophen derivatives, and higher GABA-related and nicotine metabolites, along with elevated IL-6 levels. Notably, patients with greater donor microbiota engraftment had lower rates of HE recurrence. These findings suggest that HE recurrence after FMT reflects a multifactorial process involving alterations in gut metagenomics, systemic metabolomics, inflammation, and donor engraftment. www.clinicaltrials.gov: NCT03796598.",
+      "journal": "JHEP Rep",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Bajaj",
+          "fore_name": "Jasmohan S",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Fagan",
+          "fore_name": "Andrew",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Sterling",
+          "fore_name": "Richard K",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Sikaroodi",
+          "fore_name": "Masoumeh",
+          "affiliations": [
+            "Microbiome Analysis Center, George Mason University, Manassas, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Gallagher",
+          "fore_name": "Mary Leslie",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Hannah",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Matherly",
+          "fore_name": "Scott C",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Bartels",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Mousel",
+          "fore_name": "Travis",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Davis",
+          "fore_name": "Brian C",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Puri",
+          "fore_name": "Puneet",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Fuchs",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Division of Gastroenterology, Hepatology, and Nutrition, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Thacker",
+          "fore_name": "Leroy R",
+          "affiliations": [
+            "Department of Population Health, Virginia Commonwealth University, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "McGinley",
+          "fore_name": "Joseph P",
+          "affiliations": [
+            "Metabolon, Inc, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Khoruts",
+          "fore_name": "Alexander",
+          "affiliations": [
+            "Division of Gastroenterology and Hepatology and Center for Immunology, University of Minnesota, Minneapolis, Minnesota, USA."
+          ]
+        },
+        {
+          "last_name": "Gillevet",
+          "fore_name": "Patrick M",
+          "affiliations": [
+            "Microbiome Analysis Center, George Mason University, Manassas, Virginia, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Fecal microbiota transplant",
+        "Rifaximin",
+        "cirrhosis",
+        "inflammation",
+        "lactulose",
+        "latent factor analysis",
+        "metabolomics",
+        "metagenomics",
+        "random forest analysis"
+      ]
+    },
+    {
+      "pmid": "41469377",
+      "pmc": "PMC12764833",
+      "doi": "10.1038/s41467-025-65774-0",
+      "title": "The Health for Life in Singapore (HELIOS) Study: delivering precision medicine research for Asian populations.",
+      "abstract": "Asian people are under-represented in population-based, clinical, and genomic research. To address this gap, we have initiated the Health for Life in Singapore (HELIOS) longitudinal cohort study, comprising comprehensive behavioural, phenotypic, and genomic measurements from 10,004 Asian men and women of Chinese, Indian or Malay background. Phenotyping has been carried out using validated approaches, that are internationally interoperable. Health record linkage enriches both baseline phenotyping and evaluation of prospective outcomes. The integrated multi-omics data include whole-genome and RNA sequencing, quantification of DNA methylation, and metabolomic profiling. Our data reveal extensive lifestyle, physiological, genomic, and molecular diversity between the distinct Asian ethnic groups, and the biological interconnectivity between functional layers. This includes characterisation of divergent patterns of genome regulation between Asian individuals, that correlate with differences in educational attainment, dietary quality, and adiposity, and which overlap transcription factors and DNA methylation sites linked to the development of diabetes and other chronic diseases. Our unique HELIOS Asian Precision Medicine cohort study represents a state-of-the-art platform to enable biomedical researchers to understand the aetiology and pathogenesis of diverse disease outcomes in Asia, and to generate insights that have the potential to improve health outcomes for Asian populations globally.",
+      "journal": "Nat Commun",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "Xiaoyan",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Mina",
+          "fore_name": "Theresia",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Sadhu",
+          "fore_name": "Nilanjana",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Jain",
+          "fore_name": "Pritesh R",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Ng",
+          "fore_name": "Hong Kiat",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Low",
+          "fore_name": "Dorrain Yanwen",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Tay",
+          "fore_name": "Darwin",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Tong",
+          "fore_name": "Terry Yoke Yin",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Choo",
+          "fore_name": "Wee-Lin",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lim",
+          "fore_name": "Liming",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Kerk",
+          "fore_name": "Swat Kim",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Low",
+          "fore_name": "Guo Liang",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": []
+        },
+        {
+          "last_name": "Lam",
+          "fore_name": "Benjamin Chih Chiang",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Khoo Teck Puat Hospital, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Dalan",
+          "fore_name": "Rinkoo",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Endocrinology, Tan Tock Seng Hospital, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Wanseicheong",
+          "fore_name": "Gervais",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Diagnostic Radiology, Tan Tock Seng Hospital, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Yew",
+          "fore_name": "Yik Weng",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "National Skin Centre, Research Division, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "van Dam",
+          "fore_name": "Rob M",
+          "affiliations": [
+            "Saw Swee Hock School of Public Health, National University of Singapore, Singapore, Singapore.",
+            "Department of Exercise and Nutrition Sciences, Milken Institute School of Public Health, The George Washington University, Washington, DC, USA.",
+            "Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Leow",
+          "fore_name": "Ee-J",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Brage",
+          "fore_name": "Soren",
+          "affiliations": [
+            "MRC Epidemiology Unit, University of Cambridge School of Clinical Medicine, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Michelotti",
+          "fore_name": "Gregory A",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari E",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Sheridan",
+          "fore_name": "Patricia A",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Low",
+          "fore_name": "Pin Yan",
+          "affiliations": [
+            "Trusted Research and Real-World Data Utilisation (TRUST), Ministry of Health, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Yeo",
+          "fore_name": "Zhen Xuan",
+          "affiliations": [
+            "Trusted Research and Real-World Data Utilisation (TRUST), Ministry of Health, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Bertin",
+          "fore_name": "Nicolas",
+          "affiliations": [
+            "Precision Health Research (PRECISE), Singapore, Singapore.",
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Bellis",
+          "fore_name": "Claire",
+          "affiliations": [
+            "Precision Health Research (PRECISE), Singapore, Singapore.",
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Hebrard",
+          "fore_name": "Maxime",
+          "affiliations": [
+            "Precision Health Research (PRECISE), Singapore, Singapore.",
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Goy",
+          "fore_name": "Pierre-Alexis Vincent",
+          "affiliations": [
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Tsilidis",
+          "fore_name": "Kostas",
+          "affiliations": [
+            "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Sanikini",
+          "fore_name": "Harinakshi",
+          "affiliations": [
+            "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Guan",
+          "fore_name": "Xue Li",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lim",
+          "fore_name": "Tock Han",
+          "affiliations": [
+            "Department of Ophthalmology, Tan Tock Seng Hospital, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Lionel",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Best",
+          "fore_name": "James D",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Melbourne Medical School, University of Melbourne, Melbourne, VIC, Australia."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Patrick",
+          "affiliations": [
+            "Precision Health Research (PRECISE), Singapore, Singapore.",
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Elliott",
+          "fore_name": "Paul",
+          "affiliations": [
+            "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Eng Sing",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "National Healthcare Group Polyclinics, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Jimmy",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Research Division, Institute of Mental Health, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Ngeow",
+          "fore_name": "Joanne",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Division of Medical Oncology, National Cancer Centre Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Riboli",
+          "fore_name": "Elio",
+          "affiliations": [
+            "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Lam",
+          "fore_name": "Max",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Precision Health Research (PRECISE), Singapore, Singapore.",
+            "Research Division, Institute of Mental Health, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Loh",
+          "fore_name": "Marie",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "National Skin Centre, Research Division, Singapore, Singapore.",
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore.",
+            "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Chambers",
+          "fore_name": "John C",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore. john.chambers@ntu.edu.sg.",
+            "Precision Health Research (PRECISE), Singapore, Singapore. john.chambers@ntu.edu.sg.",
+            "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK. john.chambers@ntu.edu.sg."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Singapore",
+        "Precision Medicine",
+        "Female",
+        "Male",
+        "Asian People",
+        "DNA Methylation",
+        "Middle Aged",
+        "Adult",
+        "Longitudinal Studies",
+        "Life Style",
+        "Cohort Studies",
+        "Aged",
+        "Phenotype"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41590636",
+      "pmc": "PMC3958417",
+      "doi": "10.1371/journal.pone.0091997",
+      "title": "Dried Blood Spots Capture a Wide Range of Metabolic Pathways and Biological Characteristics Associated with Fish Oil Supplementation, Fasting, and the Postprandial State.",
+      "abstract": "Metabolomics is recognized as crucial technology for advancing our ability to diagnose, characterize, and monitor treatment of disease. Yet, metabolomics-based diagnostic testing has not been widely adapted into clinical practice because its technical requirements make it generally incompatible with operation at the point of care. One way to expand the reach of metabolomics-based testing, and its clinical benefits, is to utilize dried blood spots (DBS) as a testing sample type. Their easy collection, ambient storage capability, and cost-effective shipment make DBSs ideal for diagnostic tests that require the use of a centralized technology. To date, relatively few studies have investigated the performance of DBSs at capturing the global metabolome and reporting changes associated with physiological processes. In this study, we investigated those factors by performing global metabolomic profiling on DBSs collected from study volunteers under fasted and postprandial states, with and without dietary fish oil supplementation. DBSs demonstrated broad coverage of metabolic pathways and captured numerous metabolic changes associated with feeding, fasting, and fish oil supplementation that have been reported in plasma and serum. Our findings support the hypothesis that DBSs are a viable sample type for metabolomics-based diagnostic testing and justify follow-up validation studies.",
+      "journal": "Metabolites",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "DeBalsi",
+          "fore_name": "Karen L",
+          "affiliations": [
+            "Metabolon, Inc., 617 Davis Drive, Suite 100, Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Goodman",
+          "fore_name": "Kelli D",
+          "affiliations": [
+            "Metabolon, Inc., 617 Davis Drive, Suite 100, Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Sommerville",
+          "fore_name": "Laura J",
+          "affiliations": [
+            "Metabolon, Inc., 617 Davis Drive, Suite 100, Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Mitchell",
+          "fore_name": "Matthew W",
+          "affiliations": [
+            "Metabolon, Inc., 617 Davis Drive, Suite 100, Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Lane",
+          "fore_name": "Blair A",
+          "affiliations": [
+            "Metabolon, Inc., 617 Davis Drive, Suite 100, Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Evans",
+          "fore_name": "Anne M",
+          "affiliations": [
+            "Metabolon, Inc., 617 Davis Drive, Suite 100, Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Kennedy",
+          "fore_name": "Adam D",
+          "affiliations": [
+            "Metabolon, Inc., 617 Davis Drive, Suite 100, Morrisville, NC 27560, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "energy",
+        "fasting",
+        "metabolomics",
+        "nutrition",
+        "postprandial",
+        "precision medicine"
+      ]
+    },
+    {
+      "pmid": "41430033",
+      "pmc": "PMC6104805",
+      "doi": "10.1038/s41588-018-0135-7",
+      "title": "Dried blood spots capture a wide range of metabolic pathways and biological changes associated with exercise.",
+      "abstract": "Metabolomics is poised to significantly advance our ability to diagnose and characterize disease, identify diagnostic and prognostic biomarkers, and monitor a patient's response to treatment. Despite these benefits, metabolomics-based diagnostic tests have not been adapted into clinical practice primarily because metabolomics technologies, which include high performance liquid chromatography and mass spectrometry, are not conducive to point-of-care. Expanding the reach of metabolomics-based testing requires centralized technology to be more accessible. One way to achieve this is by utilizing dried blood spots (DBS) as a diagnostic testing sample type. Their easy collection, lack of reliance on cold chain, and cost-effective storage and shipment make them the ideal sample type for diagnostic testing that requires a centralized technology. To date, few studies have investigated the ability of DBS to capture the global metabolome and track biological changes in individual subjects. In this feasibilty study, we tested these factors by performing untargeted metabolic profiling on DBS collected from study volunteers before and after exercising. We compared our results in DBS to results in serum and plasma that have been reported in the literature. Overall, our findings closely agreed with published studies, showing that DBS may be a viable sample type for metabolomics-based diagnostic and wellness testing.",
+      "journal": "Metabolomics",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "DeBalsi",
+          "fore_name": "Karen L",
+          "affiliations": [
+            "Metabolon, Inc, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Goodman",
+          "fore_name": "Kelli D",
+          "affiliations": [
+            "Metabolon, Inc, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Sommerville",
+          "fore_name": "Laura J",
+          "affiliations": [
+            "Metabolon, Inc, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Mitchell",
+          "fore_name": "Matthew W",
+          "affiliations": [
+            "Metabolon, Inc, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Lane",
+          "fore_name": "Blair A",
+          "affiliations": [
+            "Metabolon, Inc, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Evans",
+          "fore_name": "Anne M",
+          "affiliations": [
+            "Metabolon, Inc, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Kennedy",
+          "fore_name": "Adam D",
+          "affiliations": [
+            "Metabolon, Inc, Morrisville, NC, USA. AKennedy@metabolon.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Dried Blood Spot Testing",
+        "Metabolomics",
+        "Exercise",
+        "Metabolome",
+        "Metabolic Networks and Pathways",
+        "Male",
+        "Adult",
+        "Biomarkers",
+        "Female"
+      ],
+      "keywords": [
+        "Dried blood spots",
+        "Exercise",
+        "Metabolomics"
+      ]
+    },
+    {
+      "pmid": "41345102",
+      "pmc": "PMC5724768",
+      "doi": "10.3945/jn.114.205476",
+      "title": "Faecal metabolites as a readout of habitual diet capture dietary interactions with the gut microbiome.",
+      "abstract": "The interplay between diet and gut\u00a0microbiome composition is complex. Faecal metabolites, the end products of human and microbial metabolism, provide insights into these interactions. Here, we integrate faecal metabolomics, metagenomics, and habitual dietary data from 1810 individuals from the TwinsUK and 837 from the ZOE PREDICT1 cohorts. Using machine learning models, we find that faecal metabolites accurately predict reported intakes of 20 food groups (area under the curve\u00a0(AUC) > 0.80 for meat, nuts and seeds, wholegrains, tea and coffee, and alcohol) and adherence to seven dietary patterns (AUC from 0.71 for the Plant-based Diet Index to 0.83 for the Dietary Approaches to Stop Hypertension score). Notably, the faecal metabolome is a stronger predictor of atherosclerotic cardiovascular disease risk (AUC\u00a0=\u00a00.86) than the Dietary Approaches to Stop Hypertension score (AUC\u2009=\u20090.66). We identify 414 associations between 19 food groups and 211 metabolites, that significantly correlate with microbial \u03b1-diversity and 217 species. Our findings reveal that faecal metabolites capture mediations between diet and the gut microbiome, advancing our understanding of diet-related disease risk and informing metabolite-based interventions.",
+      "journal": "Nat Commun",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Pope",
+          "fore_name": "Robert",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Visconti",
+          "fore_name": "Alessia",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK.",
+            "Centre for Biostatistics, Epidemiology, and Public Health, Department of Clinical and Biological Sciences, University of Turin, Turin, Italy."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xinyuan",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Louca",
+          "fore_name": "Panayiotis",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK.",
+            "Human Nutrition & Exercise Research Centre, Newcastle University, Newcastle, UK."
+          ]
+        },
+        {
+          "last_name": "Baleanu",
+          "fore_name": "Andrei-Florin",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Asnicar",
+          "fore_name": "Francesco",
+          "affiliations": [
+            "Department CIBIO, University of Trento, Trento, Italy."
+          ]
+        },
+        {
+          "last_name": "Bermingham",
+          "fore_name": "Kate",
+          "affiliations": [
+            "Department of Nutritional Sciences, King's College London, London, UK.",
+            "Zoe Limited, London, UK."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari E",
+          "affiliations": [
+            "Metabolon, Research Triangle Park, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Michelotti",
+          "fore_name": "Gregory A",
+          "affiliations": [
+            "Metabolon, Research Triangle Park, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Wolf",
+          "fore_name": "Jonathan",
+          "affiliations": [
+            "Zoe Limited, London, UK."
+          ]
+        },
+        {
+          "last_name": "Segata",
+          "fore_name": "Nicola",
+          "affiliations": [
+            "Department CIBIO, University of Trento, Trento, Italy."
+          ]
+        },
+        {
+          "last_name": "Berry",
+          "fore_name": "Sarah E",
+          "affiliations": [
+            "Department of Nutritional Sciences, King's College London, London, UK.",
+            "Zoe Limited, London, UK."
+          ]
+        },
+        {
+          "last_name": "Spector",
+          "fore_name": "Tim D",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK.",
+            "Zoe Limited, London, UK."
+          ]
+        },
+        {
+          "last_name": "Leeming",
+          "fore_name": "Emily R",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Gibson",
+          "fore_name": "Rachel",
+          "affiliations": [
+            "Department of Nutritional Sciences, King's College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Menni",
+          "fore_name": "Cristina",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK.",
+            "Department of Pathophysiology and Transplantation, Universit\u00e0 Degli Studi di Milano, Milan, Italy.",
+            "Fondazione IRCCS C\u00e0 Granda Ospedale Maggiore Policlinico, Angelo Bianchi Bonomi Hemophilia and Thrombosis Center, Milan, Italy."
+          ]
+        },
+        {
+          "last_name": "Falchi",
+          "fore_name": "Mario",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London, UK. mario.falchi@kcl.ac.uk."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Feces",
+        "Gastrointestinal Microbiome",
+        "Diet",
+        "Male",
+        "Female",
+        "Metabolome",
+        "Middle Aged",
+        "Metabolomics",
+        "Aged",
+        "Metagenomics",
+        "Adult",
+        "Machine Learning"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41404459",
+      "pmc": "PMC5502363",
+      "doi": "10.1038/sj.ejcn.1601704",
+      "title": "Exploratory analysis of epilepsy biomarkers using untargeted metabolomics across multiple cohorts.",
+      "abstract": "Epilepsy is a common central nervous system disorder characterized by abnormal brain electrical activity. Diagnosing epilepsy can be challenging, as it has various causes and different clinical manifestations. We aimed to analyze whether there are similarities in the metabolic profiles of patients with epilepsy despite different etiology, seizure frequency, seizure type, and patient age. Untargeted metabolomics analysis results were analyzed in three cohorts. The pediatric cohort (PED-C) consisted of 110 pediatric individuals with suspicion of a genetic disorder with unclear etiology; the adult cohort (AD-C) of 250 adults from the Estonian Biobank (EstBB), and the elderly cohort (ELD-C) of 583 adults \u2265 69 years from the EstBB. Epilepsy was diagnosed in 35, 11 and 26 cases, respectively. Significant differences (FDR corrected Several components of cell membranes were among the altered metabolites, indicating that cell membrane fluidity may have a significant role in the mechanism of epilepsy, and changes in lipid balance may indicate epilepsy. However, further studies are needed to evaluate whether untargeted metabolomics analysis could prove helpful in diagnosing epilepsy earlier.",
+      "journal": "Front Neurol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Oja",
+          "fore_name": "Kaisa T",
+          "affiliations": [
+            "Department of Genetics and Personalized Medicine, Institute of Clinical Medicine, University of Tartu, Tartu, Estonia.",
+            "Genetics and Personalized Medicine Clinic, Tartu University Hospital, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Ilisson",
+          "fore_name": "Mihkel",
+          "affiliations": [
+            "Department of Genetics and Personalized Medicine, Institute of Clinical Medicine, University of Tartu, Tartu, Estonia.",
+            "Genetics and Personalized Medicine Clinic, Tartu University Hospital, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Reinson",
+          "fore_name": "Karit",
+          "affiliations": [
+            "Department of Genetics and Personalized Medicine, Institute of Clinical Medicine, University of Tartu, Tartu, Estonia.",
+            "Genetics and Personalized Medicine Clinic, Tartu University Hospital, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Muru",
+          "fore_name": "Kai",
+          "affiliations": [
+            "Department of Genetics and Personalized Medicine, Institute of Clinical Medicine, University of Tartu, Tartu, Estonia.",
+            "Genetics and Personalized Medicine Clinic, Tartu University Hospital, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Reimand",
+          "fore_name": "Tiia",
+          "affiliations": [
+            "Department of Genetics and Personalized Medicine, Institute of Clinical Medicine, University of Tartu, Tartu, Estonia.",
+            "Genetics and Personalized Medicine Clinic, Tartu University Hospital, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Peterson",
+          "fore_name": "Hedi",
+          "affiliations": [
+            "Institute of Computer Science, Faculty of Science and Technology, University of Tartu, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Fishman",
+          "fore_name": "Dmytro",
+          "affiliations": [
+            "Institute of Computer Science, Faculty of Science and Technology, University of Tartu, Tartu, Estonia.",
+            "STACC O\u00dc, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Haller",
+          "fore_name": "Toomas",
+          "affiliations": [
+            "Estonian Genome Centre, Institute of Genomics, University of Tartu, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Kronberg",
+          "fore_name": "Jaanika",
+          "affiliations": [
+            "Estonian Genome Centre, Institute of Genomics, University of Tartu, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Estonian Biobank Research Team",
+          "fore_name": "",
+          "affiliations": [
+            "Estonian Genome Centre, Institute of Genomics, University of Tartu, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Wojcik",
+          "fore_name": "Monica H",
+          "affiliations": [
+            "Center for Mendelian Genomics, Broad Institute of MIT and Harvard, Cambridge, MA, United States.",
+            "Division of Genetics and Genomics, Department of Pediatrics, Boston Children's Hospital, Boston, MA, United States.",
+            "Division of Newborn Medicine, Department of Pediatrics, Boston Children's Hospital, Boston, MA, United States."
+          ]
+        },
+        {
+          "last_name": "Kennedy",
+          "fore_name": "Adam D",
+          "affiliations": [
+            "Metabolon, Morrisville, NC, United States."
+          ]
+        },
+        {
+          "last_name": "Sommerville",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Metabolon, Morrisville, NC, United States."
+          ]
+        },
+        {
+          "last_name": "Michelotti",
+          "fore_name": "Gregory",
+          "affiliations": [
+            "Metabolon, Morrisville, NC, United States."
+          ]
+        },
+        {
+          "last_name": "O'Donnell-Luria",
+          "fore_name": "Anne",
+          "affiliations": [
+            "Center for Mendelian Genomics, Broad Institute of MIT and Harvard, Cambridge, MA, United States.",
+            "Division of Genetics and Genomics, Department of Pediatrics, Boston Children's Hospital, Boston, MA, United States."
+          ]
+        },
+        {
+          "last_name": "\u00d5iglane-Shlik",
+          "fore_name": "Eve",
+          "affiliations": [
+            "Department of Pediatrics, Institute of Clinical Medicine, Faculty of Medicine, University of Tartu, Tartu, Estonia.",
+            "Children's Clinic, Tartu University Hospital, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "Pajusalu",
+          "fore_name": "Sander",
+          "affiliations": [
+            "Department of Genetics and Personalized Medicine, Institute of Clinical Medicine, University of Tartu, Tartu, Estonia.",
+            "Genetics and Personalized Medicine Clinic, Tartu University Hospital, Tartu, Estonia."
+          ]
+        },
+        {
+          "last_name": "\u00d5unap",
+          "fore_name": "Katrin",
+          "affiliations": [
+            "Department of Genetics and Personalized Medicine, Institute of Clinical Medicine, University of Tartu, Tartu, Estonia.",
+            "Genetics and Personalized Medicine Clinic, Tartu University Hospital, Tartu, Estonia."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "epilepsy",
+        "exploratory",
+        "lipidomics",
+        "metabolomics",
+        "phosphatidylcholines"
+      ]
+    },
+    {
+      "pmid": "40972578",
+      "pmc": "PMC5707166",
+      "doi": "10.1172/JCI95995",
+      "title": "Genetic architecture and analysis practices of circulating metabolites in the NHLBI Trans-Omics for Precision Medicine Program.",
+      "abstract": "Circulating metabolite levels partly reflect the state of human health and diseases and can be impacted by genetic determinants. Hundreds of loci associated with circulating metabolites have been identified; however, most findings focus on predominantly European ancestry or single-study analyses. Leveraging the rich metabolomics resources generated by the National Heart, Lung, and Blood Institute (NHLBI) Trans-Omics for Precision Medicine (TOPMed) Program, we harmonized and accessibly cataloged 1,729 circulating metabolites among 25,058 ancestrally diverse samples. From our comparison of multiple methods, we provided a set of reasonable strategies for outlier and imputation handling to process metabolite data and show that inverse normalization by study and half-minimum imputation provide mostly similar results for pooled or meta-analysis. Following the practical analysis framework, we further performed a genome-wide association analysis on 1,135 selected metabolites using whole-genome sequencing data from 16,359 individuals passing the quality-control filters and discovered 1,775 independent loci associated with 667 metabolites. Among 160 unreported locus-metabolite pairs, we identified associations with loci locating within previously implicated metabolite-associated genes, as well as associations with loci locating in genes such as GAB3 and VSIG4 (located on the X chromosome) that may play a role in metabolic regulation. In the sex-stratified analysis, we revealed 85 independent locus-metabolite pairs with evidence of sexual dimorphism, which were located in well-known metabolic genes such as FADS2, D2HGDH, SUGP1, and UGT2B17, strongly supporting the importance of exploring sex difference in the human metabolome. Taken together, our study depicted the genetic contribution to circulating metabolite levels, providing additional insight into the understanding of human health.",
+      "journal": "Am J Hum Genet",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "Nannan",
+          "affiliations": [
+            "Department of Epidemiology, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Ockerman",
+          "fore_name": "Franklin P",
+          "affiliations": [
+            "Department of Biostatistics, University of North Carolina, Chapel Hill, NC 27599, USA."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Laura Y",
+          "affiliations": [
+            "Department of Biostatistics and Health Data Science, Indiana University School of Medicine, Indianapolis, IN, USA."
+          ]
+        },
+        {
+          "last_name": "Grove",
+          "fore_name": "Megan L",
+          "affiliations": [
+            "Department of Epidemiology, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Alkis",
+          "fore_name": "Taryn",
+          "affiliations": [
+            "Department of Epidemiology, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Barnard",
+          "fore_name": "John",
+          "affiliations": [
+            "Department of Quantitative Health Sciences, Cleveland Clinic Research, Cleveland Clinic, Cleveland, OH, USA."
+          ]
+        },
+        {
+          "last_name": "Bowler",
+          "fore_name": "Russell P",
+          "affiliations": [
+            "Department of Medicine, National Jewish Health, Denver, CO, USA."
+          ]
+        },
+        {
+          "last_name": "Clish",
+          "fore_name": "Clary B",
+          "affiliations": [
+            "Division of Cardiovascular Medicine, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Chung",
+          "fore_name": "Shinhye",
+          "affiliations": [
+            "Department of Epidemiology, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Drzymalla",
+          "fore_name": "Emily",
+          "affiliations": [
+            "Department of Epidemiology, University of North Carolina, Chapel Hill, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Evans",
+          "fore_name": "Anne M",
+          "affiliations": [
+            "Metabolon, Inc., Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Franceschini",
+          "fore_name": "Nora",
+          "affiliations": [
+            "Department of Epidemiology, University of North Carolina, Chapel Hill, NC, USA; Department of Genetics, University of North Carolina, Chapel Hill, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Gerszten",
+          "fore_name": "Robert E",
+          "affiliations": [
+            "Division of Cardiovascular Medicine, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Gillman",
+          "fore_name": "Madeline G",
+          "affiliations": [
+            "Department of Genetics, University of North Carolina, Chapel Hill, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Hutton",
+          "fore_name": "Scott R",
+          "affiliations": [
+            "Metabolon, Inc., Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Kelly",
+          "fore_name": "Rachel S",
+          "affiliations": [
+            "Channing Division of Network Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Kooperberg",
+          "fore_name": "Charles",
+          "affiliations": [
+            "Division of Public Health Sciences, Fred Hutchinson Cancer Center, Seattle, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Larson",
+          "fore_name": "Martin G",
+          "affiliations": [
+            "Department of Biostatistics, Boston University, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Lasky-Su",
+          "fore_name": "Jessica",
+          "affiliations": [
+            "Channing Division of Network Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Meyers",
+          "fore_name": "Deborah A",
+          "affiliations": [
+            "Department of Medicine, University of Arizona College of Medicine, Tucson, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Woodruff",
+          "fore_name": "Prescott G",
+          "affiliations": [
+            "Department of Medicine, University of California, San Francisco, San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Reiner",
+          "fore_name": "Alexander P",
+          "affiliations": [
+            "Department of Epidemiology, University of Washington, Seattle, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Rich",
+          "fore_name": "Stephen S",
+          "affiliations": [
+            "Department of Genome Sciences, University of Virginia School of Medicine, Charlottesville, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Rotter",
+          "fore_name": "Jerome I",
+          "affiliations": [
+            "Department of Pediatrics, The Institute for Translational Genomics and Population Sciences, The Lundquist Institute for Biomedical Innovation at Harbor-UCLA Medical Center, Torrance, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Silverman",
+          "fore_name": "Edwin K",
+          "affiliations": [
+            "Channing Division of Network Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Vasan",
+          "fore_name": "Ramachandran S",
+          "affiliations": [
+            "Department of Quantitative and Qualitative Health Sciences, School of Public Health, University of Texas Health Science Center at San Antonio, San Antonio, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Weiss",
+          "fore_name": "Scott T",
+          "affiliations": [
+            "Channing Division of Network Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari E",
+          "affiliations": [
+            "Metabolon, Inc., Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Wood",
+          "fore_name": "Alexis C",
+          "affiliations": [
+            "USDA/ARS Children's Nutrition Center, Baylor College of Medicine, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Lang",
+          "affiliations": [
+            "Cancer Epidemiology Division, Population Sciences in the Pacific Program, University of Hawai'i Cancer Center, University of Hawai'i at M\u0101noa, Honolulu, HI, USA."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": []
+        },
+        {
+          "last_name": "Yarden",
+          "fore_name": "Ronit",
+          "affiliations": [
+            "Epidemiology Branch, Division of Cardiovascular Sciences, National Heart, Lung, and Blood Institute, Bethesda, MD 20817, USA."
+          ]
+        },
+        {
+          "last_name": "Blackwell",
+          "fore_name": "Thomas W",
+          "affiliations": [
+            "Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, USA."
+          ]
+        },
+        {
+          "last_name": "Smith",
+          "fore_name": "Albert V",
+          "affiliations": [
+            "Department of Biostatistics, University of Michigan, Ann Arbor, MI 48109, USA."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Han",
+          "affiliations": [
+            "Department of Epidemiology, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Raffield",
+          "fore_name": "Laura M",
+          "affiliations": [
+            "Department of Genetics, University of North Carolina, Chapel Hill, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Bing",
+          "affiliations": [
+            "Department of Epidemiology, The University of Texas Health Science Center at Houston, Houston, TX, USA. Electronic address: bing.yu@uth.tmc.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Precision Medicine",
+        "Genome-Wide Association Study",
+        "Female",
+        "National Heart, Lung, and Blood Institute (U.S.)",
+        "Male",
+        "Metabolomics",
+        "United States",
+        "Metabolome",
+        "Polymorphism, Single Nucleotide"
+      ],
+      "keywords": [
+        "GWAS",
+        "TOPMed",
+        "circulating metabolites",
+        "half-minimum imputation",
+        "inverse normal transformation",
+        "metQTLs",
+        "metabolite catalog",
+        "multiple studies analysis",
+        "sex-stratified analysis"
+      ]
+    },
+    {
+      "pmid": "40709330",
+      "pmc": "PMC7803150",
+      "doi": "10.1101/2024.07.10.602835",
+      "title": "Type 2 immune responses are associated with less severe COVID-19 in a hospitalized cohort.",
+      "abstract": "The novel coronavirus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spread rapidly after its identification in December 2019 to cause a global pandemic. The respiratory tract is the primary site of infection, and there is a large range in the severity of respiratory illnesses caused by the virus. Defining molecular and cellular factors for protection from severe disease and death has been a goal to better understand and to predict and mitigate the effects of SARS-CoV-2 and future coronaviruses. Despite well-known susceptibilities to respiratory viral infections, respiratory allergy and allergic asthma have not been identified as risk factors for severe coronavirus disease 2019 (COVID-19) in most epidemiologic studies and may be protective. We sought to investigate associations between markers of type 2 (T2) immune responses with SARS-CoV-2 clinical outcomes and virus loads in a cohort of 1164 individuals hospitalized for COVID-19 from May 2020 to March 2021 as part of the IMPACC study. We characterized the clinical outcomes, as defined by severity trajectory groups reflecting the degree of respiratory support required, virus loads, and antibody titers of COVID-19 infections in IMPACC participants in relation to molecular and cellular markers of T2 immune responses through multiple assays, including, (1) IL-4, IL-5, and IL-13 levels in serum Olink data, (2) T2 cellular signatures in blood cytometry by time of flight data, (3) relative quantification of T2 signaling gene pathways in airway RNA sequencing data, and/or (4) T2 pathways in peripheral blood mononuclear cell RNA sequencing data. We also investigated the outcomes of individuals with self-reported asthma and evidence of T2 immune responses. The diagnosis of asthma (odd ratio = 1.27), elevated serum T2 cytokine levels (median fold change = 1.06), and a higher frequency of T T2 immune responses were associated with lower virus loads and more favorable clinical outcomes, suggesting that T2 inflammation related to asthma and allergic diseases may have a direct protective effect against SARS-CoV-2.",
+      "journal": "J Allergy Clin Immunol Glob",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Jayavelu",
+          "fore_name": "Naresh Doni",
+          "affiliations": [
+            "Benaroya Research Institute, University of Washington, Seattle, Wash."
+          ]
+        },
+        {
+          "last_name": "Qi",
+          "fore_name": "Jingjing",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, NY."
+          ]
+        },
+        {
+          "last_name": "Milliren",
+          "fore_name": "Carly E",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC), Precision Vaccines Program, Boston Children's Hospital, Boston, Mass."
+          ]
+        },
+        {
+          "last_name": "Ozonoff",
+          "fore_name": "Al",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC), Precision Vaccines Program, Boston Children's Hospital, Boston, Mass."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Shanshan",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC), Precision Vaccines Program, Boston Children's Hospital, Boston, Mass."
+          ]
+        },
+        {
+          "last_name": "Levy",
+          "fore_name": "Ofer",
+          "affiliations": [
+            "Precision Vaccines Program, Boston Children's Hospital, Harvard Medical School, Boston, Mass."
+          ]
+        },
+        {
+          "last_name": "Baden",
+          "fore_name": "Lindsey R",
+          "affiliations": [
+            "National Institute of Allergy and Infectious Diseases, National Institute of Health, Bethesda, Md."
+          ]
+        },
+        {
+          "last_name": "Melamed",
+          "fore_name": "Esther",
+          "affiliations": [
+            "University of Texas, Austin, Ga."
+          ]
+        },
+        {
+          "last_name": "McComsey",
+          "fore_name": "Grace A",
+          "affiliations": [
+            "Case Western Reserve University and University Hospitals of Cleveland, Cleveland, Ohio."
+          ]
+        },
+        {
+          "last_name": "Cairns",
+          "fore_name": "Charles B",
+          "affiliations": [
+            "Drexel University, Tower Health Hospital, Philadelphia, Pa."
+          ]
+        },
+        {
+          "last_name": "Schaenman",
+          "fore_name": "Joanna",
+          "affiliations": [
+            "David Geffen School of Medicine at the University of California, Los Angeles, Palo."
+          ]
+        },
+        {
+          "last_name": "Shaw",
+          "fore_name": "Albert C",
+          "affiliations": [
+            "Yale School of Medicine, New Haven, Conn."
+          ]
+        },
+        {
+          "last_name": "Hafler",
+          "fore_name": "David A",
+          "affiliations": [
+            "Yale School of Medicine, New Haven, Conn."
+          ]
+        },
+        {
+          "last_name": "Corry",
+          "fore_name": "David B",
+          "affiliations": [
+            "Baylor College of Medicine and the Center for Translational Research on Inflammatory Diseases, Houston, Tex."
+          ]
+        },
+        {
+          "last_name": "Kheradmand",
+          "fore_name": "Farrah",
+          "affiliations": [
+            "Baylor College of Medicine and the Center for Translational Research on Inflammatory Diseases, Houston, Tex."
+          ]
+        },
+        {
+          "last_name": "Atkinson",
+          "fore_name": "Mark A",
+          "affiliations": [
+            "University of Florida, Gainesville, Fla."
+          ]
+        },
+        {
+          "last_name": "Brakenridge",
+          "fore_name": "Scott C",
+          "affiliations": [
+            "University of Florida, Gainesville, Fla."
+          ]
+        },
+        {
+          "last_name": "Agudelo Higuita",
+          "fore_name": "Nelson I",
+          "affiliations": [
+            "Oklahoma University Health Sciences Center, Oklahoma City, Okla."
+          ]
+        },
+        {
+          "last_name": "Metcalf",
+          "fore_name": "Jordan P",
+          "affiliations": [
+            "Oklahoma University Health Sciences Center, Oklahoma City, Okla."
+          ]
+        },
+        {
+          "last_name": "Hough",
+          "fore_name": "Catherine L",
+          "affiliations": [
+            "Oregon Health Sciences University, Portland, Ore."
+          ]
+        },
+        {
+          "last_name": "Messer",
+          "fore_name": "William B",
+          "affiliations": [
+            "Oregon Health Sciences University, Portland, Ore."
+          ]
+        },
+        {
+          "last_name": "Pulendran",
+          "fore_name": "Bali",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, Calif."
+          ]
+        },
+        {
+          "last_name": "Nadeau",
+          "fore_name": "Kari C",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, Calif."
+          ]
+        },
+        {
+          "last_name": "Davis",
+          "fore_name": "Mark M",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, Calif."
+          ]
+        },
+        {
+          "last_name": "Geng",
+          "fore_name": "Linda N",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, Calif."
+          ]
+        },
+        {
+          "last_name": "Sesma",
+          "fore_name": "Ana Fernandez",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, NY."
+          ]
+        },
+        {
+          "last_name": "Simon",
+          "fore_name": "Viviana",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, NY."
+          ]
+        },
+        {
+          "last_name": "Krammer",
+          "fore_name": "Florian",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, NY."
+          ]
+        },
+        {
+          "last_name": "Bime",
+          "fore_name": "Chris",
+          "affiliations": [
+            "University of Arizona, Tucson, Ariz."
+          ]
+        },
+        {
+          "last_name": "Calfee",
+          "fore_name": "Carolyn S",
+          "affiliations": [
+            "University of California San Francisco, San Francisco, Calif."
+          ]
+        },
+        {
+          "last_name": "Bosinger",
+          "fore_name": "Steven E",
+          "affiliations": [
+            "Emory School of Medicine, Atlanta, Ga."
+          ]
+        },
+        {
+          "last_name": "Eckalbar",
+          "fore_name": "Walter",
+          "affiliations": [
+            "University of California San Francisco, San Francisco, Calif."
+          ]
+        },
+        {
+          "last_name": "Steen",
+          "fore_name": "Hanno",
+          "affiliations": [
+            "Precision Vaccines Program, Boston Children's Hospital, Harvard Medical School, Boston, Mass."
+          ]
+        },
+        {
+          "last_name": "Maecker",
+          "fore_name": "Holden T",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, Calif."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": []
+        },
+        {
+          "last_name": "Augustine",
+          "fore_name": "Alison D",
+          "affiliations": [
+            "National Institute of Allergy and Infectious Diseases, National Institute of Health, Bethesda, Md."
+          ]
+        },
+        {
+          "last_name": "Diray-Arce",
+          "fore_name": "Joann",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC), Precision Vaccines Program, Boston Children's Hospital, Boston, Mass."
+          ]
+        },
+        {
+          "last_name": "Haddad",
+          "fore_name": "Elias K",
+          "affiliations": [
+            "Drexel University, Tower Health Hospital, Philadelphia, Pa."
+          ]
+        },
+        {
+          "last_name": "Sekaly",
+          "fore_name": "Rafick-Pierre",
+          "affiliations": [
+            "Case Western Reserve University and University Hospitals of Cleveland, Cleveland, Ohio."
+          ]
+        },
+        {
+          "last_name": "Kraft",
+          "fore_name": "Monica",
+          "affiliations": [
+            "University of Arizona, Tucson, Ariz."
+          ]
+        },
+        {
+          "last_name": "Woodruff",
+          "fore_name": "Prescott G",
+          "affiliations": [
+            "University of California San Francisco, San Francisco, Calif."
+          ]
+        },
+        {
+          "last_name": "Erle",
+          "fore_name": "David J",
+          "affiliations": [
+            "University of California San Francisco, San Francisco, Calif."
+          ]
+        },
+        {
+          "last_name": "Ehrlich",
+          "fore_name": "Lauren I R",
+          "affiliations": [
+            "University of Texas, Austin, Ga."
+          ]
+        },
+        {
+          "last_name": "Montgomery",
+          "fore_name": "Ruth R",
+          "affiliations": [
+            "Yale School of Medicine, New Haven, Conn."
+          ]
+        },
+        {
+          "last_name": "Becker",
+          "fore_name": "Patrice M",
+          "affiliations": [
+            "National Institute of Allergy and Infectious Diseases, National Institute of Health, Bethesda, Md."
+          ]
+        },
+        {
+          "last_name": "Altman",
+          "fore_name": "Matthew C",
+          "affiliations": [
+            "Benaroya Research Institute, University of Washington, Seattle, Wash."
+          ]
+        },
+        {
+          "last_name": "Fourati",
+          "fore_name": "Slim",
+          "affiliations": [
+            "Case Western Reserve University and University Hospitals of Cleveland, Cleveland, Ohio."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Asthma",
+        "IMPACC",
+        "SARS-CoV-2"
+      ]
+    },
+    {
+      "pmid": "40679463",
+      "doi": "10.1016/j.gim.2025.101493",
+      "title": "The emerging role of metabolomics analysis in genetic and genomic testing: A points to consider statement of the American College of Medical Genetics and Genomics (ACMG).",
+      "abstract": "",
+      "journal": "Genet Med",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Miller",
+          "fore_name": "Marcus J",
+          "affiliations": [
+            "Department of Medical and Molecular Genetics, Indiana University School of Medicine, Indianapolis, IN."
+          ]
+        },
+        {
+          "last_name": "Duque Lasio",
+          "fore_name": "Maria Laura",
+          "affiliations": [
+            "Department of Pediatrics and Department of Pathology, Washington University School of Medicine, St. Louis, MO."
+          ]
+        },
+        {
+          "last_name": "Kennedy",
+          "fore_name": "Adam D",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC."
+          ]
+        },
+        {
+          "last_name": "McClellan",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "Johns Hopkins Center for Inherited Heart Diseases, Baltimore, MD; Neurogenetics, Kennedy Krieger Institute, Baltimore, MD."
+          ]
+        },
+        {
+          "last_name": "Oglesbee",
+          "fore_name": "Devin",
+          "affiliations": [
+            "Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN."
+          ]
+        },
+        {
+          "last_name": "Smith",
+          "fore_name": "Wendy E",
+          "affiliations": [
+            "Department of Pediatrics, Maine Medical Center, Portland, ME."
+          ]
+        },
+        {
+          "last_name": "Sutton",
+          "fore_name": "V Reid",
+          "affiliations": [
+            "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX."
+          ]
+        },
+        {
+          "last_name": "Cowan",
+          "fore_name": "Tina",
+          "affiliations": [
+            "Department of Pathology, Stanford University Medical Center, Stanford, CA."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": [
+            "American College of Medical Genetics and Genomics, Bethesda, MD."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Global metabolite profiling",
+        "Metabolomic analyses for inherited disorders",
+        "Small molecule testing in inborn errors of metabolism"
+      ]
+    },
+    {
+      "pmid": "40962943",
+      "doi": "10.1093/nar/gky1131",
+      "pmc": "4342193",
+      "title": "Metabolic variation reflects dietary exposure in a multi-ethnic Asian population.",
+      "abstract": "Understanding how diet shapes metabolism across diverse populations is essential to improving nutrition and health. Biomarkers reflecting diet are explored largely in European and American populations, but the food metabolome is highly complex and varies across region and culture. We assessed 1,055 plasma metabolites and 169 foods/beverages in 8,391 multi-ethnic Asian individuals and carried out diet-metabolite association analyses. Using machine learning, we developed multi-biomarker panels and composite scores for key foods, beverages and overall diet quality. Here we show these biomarker panels can be used to objectively assess dietary intakes in the Asian multi-ethnic population and can explain variances in intake prediction models better than single biomarkers. The identified diet-metabolite relationships are reproducible over time and improve prediction of clinical outcomes (insulin resistance, diabetes, body mass index, carotid intima-media thickness and hypertension), compared to self-reports. Our findings show insights into multi-ethnic diet-related metabolic variations and an opportunity to link exposure to population health outcomes.",
+      "journal": "Nat Metab",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Low",
+          "fore_name": "Dorrain Y",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore. dorrain.low@ntu.edu.sg."
+          ]
+        },
+        {
+          "last_name": "Mina",
+          "fore_name": "Theresia H",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Sadhu",
+          "fore_name": "Nilanjana",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari E",
+          "affiliations": [
+            "Metabolon, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Jain",
+          "fore_name": "Pritesh Rajesh",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Dalan",
+          "fore_name": "Rinkoo",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Endocrinology, Tan Tock Seng Hospital, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Ng",
+          "fore_name": "Hong Kiat",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Wubin",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lam",
+          "fore_name": "Benjamin",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Integrated Care for Obesity & Diabetes, Khoo Teck Puat Hospital, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Tay",
+          "fore_name": "Darwin",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xiaoyan",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Yew",
+          "fore_name": "Yik Weng",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "National Skin Centre, Research Division, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Best",
+          "fore_name": "James D",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Sarangarajan",
+          "fore_name": "Rangaprasad",
+          "affiliations": [
+            "Metabolon, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Elliott",
+          "fore_name": "Paul",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Epidemiology and Biostatistics, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Riboli",
+          "fore_name": "Elio",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Epidemiology and Biostatistics, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Jimmy",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "North Region, Institute of Mental Health, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Eng Sing",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Clinical Research Unit, National Healthcare Group Polyclinic, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Ngeow",
+          "fore_name": "Joanne",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Division of Medical Oncology, National Cancer Centre, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Sheridan",
+          "fore_name": "Patricia A",
+          "affiliations": [
+            "Metabolon, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Guan",
+          "fore_name": "Xue Li",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Michelotti",
+          "fore_name": "Gregory A",
+          "affiliations": [
+            "Metabolon, Morrisville, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Loh",
+          "fore_name": "Marie",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "National Skin Centre, Research Division, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Chambers",
+          "fore_name": "John C",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore. john.chambers@ntu.edu.sg.",
+            "Department of Epidemiology and Biostatistics, Imperial College London, London, UK. john.chambers@ntu.edu.sg."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Diet",
+        "Asian People",
+        "Male",
+        "Biomarkers",
+        "Female",
+        "Middle Aged",
+        "Metabolome",
+        "Adult",
+        "Ethnicity"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40632657",
+      "doi": "10.1097/HEP.0000000000001462",
+      "title": "Salivary microbiome and serum metabolomics add to clinical biomarkers to predict 6-month hospitalizations in a multicenter cirrhosis outpatient cohort.",
+      "abstract": "Prognosticating outcomes such as hospitalizations in outpatients with cirrhosis is challenging, especially with changing etiologies and demographics. This study aims to determine the impact of multi-omic strategies on outcome prediction. NACSELD3 enrolls outpatients with cirrhosis with controlled/eradicated etiologies from 10 centers and follows them systematically. At baseline, clinical/demographic and cirrhosis details were recorded and saliva and serum samples were collected for microbiome and metabolome analysis, respectively. Multi-omic bioinformatic studies to determine the interaction of microbiota and metabolites with the clinical prediction of 6-month hospitalizations were performed. Five hundred sixty-five patients (60.2\u00a0y, 68% men, 35% alcohol, 33% metabolic dysfunction-associated steatohepatitis, 21%, eradicated HCV with MELD 3.0 12) were enrolled. One hundred sixty-three (29%) required 6-month hospitalizations; most (75%) were liver-related. Those hospitalized had worse cirrhosis severity and comorbidity indices but similar demographics and oral health variables. Salivary microbiome alpha-diversity was lower (1.96\u00b10.48 vs. 2.09\u00b10.45, p =0.018) with greater pathobionts ( Streptococcus , Treponema, Enterococcaceae) and lower commensal genhospitalized/noera ( Veillonella, Prevotella, Haemophilus , Lachnospiraceae spp) at baseline. Serum metabolomics showed significant separation at baseline between hospitalized/non-hospitalized patients using supervised analyses with microbial-origin (phenyllactate, secondary bile acids, indoles), choline moieties, and polyamine/GABA (3-ureidopropionate/spermidine) metabolites being most prominent. Area under the curve using random forest for clinical, microbial, and metabolomic variables was higher than that of these individually. Latent factor analysis showed clinical variables (MELD 3.0, hemoglobin, and albumin) with the greatest impact, followed by salivary microbiota and then serum microbiome for hospitalization prediction. In a multicenter North American outpatient cirrhosis cohort with controlled etiologies, serum metabolomics and salivary microbiome add to clinical variables to prognosticate 6-month hospitalization.",
+      "journal": "Hepatology",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Bajaj",
+          "fore_name": "Jasmohan S",
+          "affiliations": [
+            "Department of Population Health, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Reddy",
+          "fore_name": "K Rajender",
+          "affiliations": [
+            "Department of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Tandon",
+          "fore_name": "Puneeta",
+          "affiliations": [
+            "Department of Medicine, University of Alberta, Edmonton, Alberta, Canada."
+          ]
+        },
+        {
+          "last_name": "Lai",
+          "fore_name": "Jennifer C",
+          "affiliations": [
+            "Department of Medicine, University of California, San Francisco, California, USA."
+          ]
+        },
+        {
+          "last_name": "O'Leary",
+          "fore_name": "Jacqueline G",
+          "affiliations": [
+            "Department of Medicine, University of Texas Southwestern and Dallas VA Medical Center, Dallas, Texas, USA."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Florence",
+          "affiliations": [
+            "Department of Medicine, University of Toronto, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Garcia-Tsao",
+          "fore_name": "Guadalupe",
+          "affiliations": [
+            "Department of Medicine, Yale University and West Haven VA Medical Center, West Haven, Connecticut, USA."
+          ]
+        },
+        {
+          "last_name": "Vargas",
+          "fore_name": "Hugo E",
+          "affiliations": [
+            "Department of Medicine, Mayo Clinic Arizona, Phoenix, Arizona, USA."
+          ]
+        },
+        {
+          "last_name": "Kamath",
+          "fore_name": "Patrick S",
+          "affiliations": [
+            "Department of Medicine, Mayo Clinic Rochester, Rochester, Minnesota, USA."
+          ]
+        },
+        {
+          "last_name": "Biggins",
+          "fore_name": "Scott W",
+          "affiliations": [
+            "Department of Medicine, University of Washington, Seattle, Washington, USA."
+          ]
+        },
+        {
+          "last_name": "Vutien",
+          "fore_name": "Phillip",
+          "affiliations": [
+            "Department of Medicine, University of Washington, Seattle, Washington, USA."
+          ]
+        },
+        {
+          "last_name": "Shaw",
+          "fore_name": "Jawaid",
+          "affiliations": [
+            "Department of Population Health, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Limon Miro",
+          "fore_name": "Ana Teresa",
+          "affiliations": [
+            "Department of Medicine, University of Alberta, Edmonton, Alberta, Canada."
+          ]
+        },
+        {
+          "last_name": "Bera",
+          "fore_name": "Chinmay",
+          "affiliations": [
+            "Department of Medicine, University of Toronto, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "McGinley",
+          "fore_name": "Joseph P",
+          "affiliations": [
+            "Metabolon Inc, Morrisville, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Sikaroodi",
+          "fore_name": "Masoumeh",
+          "affiliations": [
+            "Microbiome Analysis Center, George Mason University, Manassas, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Bush",
+          "fore_name": "Brian J",
+          "affiliations": [
+            "Department of Population Health, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Thacker",
+          "fore_name": "Leroy R",
+          "affiliations": [
+            "Department of Population Health, Virginia Commonwealth University and Richmond VA Medical Center, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Gillevet",
+          "fore_name": "Patrick M",
+          "affiliations": [
+            "Microbiome Analysis Center, George Mason University, Manassas, Virginia, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "HE",
+        "NACSELD",
+        "compensated cirrhosis",
+        "etiology control",
+        "oral health"
+      ]
+    },
+    {
+      "pmid": "40221032",
+      "doi": "10.3168/jds.2024-26102",
+      "title": "Preweaning nutrient supply improves lactation productivity and reduces the risk of culling in Holstein cows.",
+      "abstract": "This study aimed to investigate the effects of preweaning nutrient intake on milk production in the 2 first lactations, risk of culling, and metabolomic profiles of dairy cows fed a restricted (RES) or an elevated (ELE) milk supply preweaning. A total of 86 female Holstein Friesian calves were randomly assigned to either 5.4 Mcal of ME in 8 L of milk replacer (MR) per day (ELE) or 2.7 Mcal of ME in 4 L of MR per day (RES) from d 2 after birth until they were stepped down by 50% from d 42 to d 49 and fully weaned at d 50. Starting from d 50, animals from both treatment groups were fed and managed in the same way, with treatments being blinded, for the entire study duration. At 60 DIM in the first lactation, blood samples were taken for metabolomic analysis. Heifers fed the ELE diet exhibited higher ADG (0.79 vs. 0.49 kg/d) in the preweaning period, leading to higher BW at 70 d of age (94 vs. 85 kg). In the first lactation, cows fed the ELE diet preweaning exhibited higher DMI (+0.7 kg/d), higher milk fat yield (+50 g/d), and higher milk fat content (+0.24%) but lower feed efficiency (-0.04) than cows in the RES group. In the second lactation, fat- and protein-corrected milk yield (+1.8 kg/d), milk fat yield (+115 g/d), milk fat content (+0.22%), and feed efficiency (+0.06) were all higher in ELE cows. Throughout these 2 lactations, ELE cows were leaner, as indicated by a lower BCS. Cows fed the ELE diet preweaning had a higher first-service conception rate during the second lactation than cows fed the RES diet (40.7% vs. 13.0%). Moreover, the likelihood to be culled before third, fourth, or fifth calving was halved when calves were fed ELE compared with RES. Metabolomic profiling revealed distinct metabolomic profiles at 60 DIM in response to preweaning milk supply. The major metabolic pathways affected by preweaning nutrient supply at 60 DIM were pyrimidine, sphingosine, guanidino, acetamido, and purine metabolism and the tricarboxylic acid cycle. The metabolic profile differences between the groups describe a metabolic configuration that was sustained into adulthood and that may explain the improved productivity and resilience of cows fed a greater milk supply during the preweaning period.",
+      "journal": "J Dairy Sci",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Leal",
+          "fore_name": "L N",
+          "affiliations": [
+            "Trouw Nutrition Research and Development, Amersfoort, the Netherlands 3800 AG."
+          ]
+        },
+        {
+          "last_name": "Daniel",
+          "fore_name": "J B",
+          "affiliations": [
+            "Trouw Nutrition Research and Development, Amersfoort, the Netherlands 3800 AG. Electronic address: jean-baptiste.daniel@trouwnutrition.com."
+          ]
+        },
+        {
+          "last_name": "Doelman",
+          "fore_name": "J",
+          "affiliations": [
+            "Trouw Nutrition Research and Development, Amersfoort, the Netherlands 3800 AG."
+          ]
+        },
+        {
+          "last_name": "Keppler",
+          "fore_name": "B R",
+          "affiliations": [
+            "Department of Discovery and Translational Sciences, Metabolon Inc., Morrisville, NC 27560."
+          ]
+        },
+        {
+          "last_name": "Steele",
+          "fore_name": "M A",
+          "affiliations": [
+            "Department of Animal Bioscience, Animal Science and Nutrition, University of Guelph, Guelph, Canada ON N1G 1Y2."
+          ]
+        },
+        {
+          "last_name": "Mart\u00edn-Tereso",
+          "fore_name": "J",
+          "affiliations": [
+            "Trouw Nutrition Research and Development, Amersfoort, the Netherlands 3800 AG."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Cattle",
+        "Lactation",
+        "Female",
+        "Milk",
+        "Diet",
+        "Animal Feed",
+        "Weaning",
+        "Nutrients"
+      ],
+      "keywords": [
+        "longevity",
+        "metabolic programming",
+        "metabolomics",
+        "milk production",
+        "preweaning nutrition"
+      ]
+    },
+    {
+      "pmid": "40508022",
+      "pmc": "PMC6830037",
+      "doi": "10.1093/jalm/jfz026",
+      "title": "Biallelic Loss-of-Function Variant in",
+      "abstract": "Pontocerebellar hypoplasia (PCH) encompasses a group of autosomal recessive neurodegenerative disorders marked by cerebellar and pontine atrophy. Multiple subtypes of PCH have been identified, among which the rare subtype PCH type 16 is caused by",
+      "journal": "Int J Mol Sci",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Al-Maraghi",
+          "fore_name": "Aljazi",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Shaath",
+          "fore_name": "Rulan",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar.",
+            "College of Health and Life Sciences, Hamad Bin Khalifa University, Doha P.O. Box 34110, Qatar."
+          ]
+        },
+        {
+          "last_name": "Ford",
+          "fore_name": "Katherine",
+          "affiliations": [
+            "Laboratory of Immunoregulation, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Aamer",
+          "fore_name": "Waleed",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "AlRayahi",
+          "fore_name": "Jehan",
+          "affiliations": [
+            "Department of Pediatric Radiology, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Hussein",
+          "fore_name": "Sura",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Aliyev",
+          "fore_name": "Elbay",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Agrebi",
+          "fore_name": "Nourhen",
+          "affiliations": [
+            "Laboratory of Immunoregulation, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Kohailan",
+          "fore_name": "Muhammad",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Hubrack",
+          "fore_name": "Satanay Z",
+          "affiliations": [
+            "Laboratory of Immunoregulation, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Palaniswamy",
+          "fore_name": "Sasirekha",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Kennedy",
+          "fore_name": "Adam D",
+          "affiliations": [
+            "Metabolon Inc., Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "DeBalsi",
+          "fore_name": "Karen L",
+          "affiliations": [
+            "Metabolon Inc., Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Elsea",
+          "fore_name": "Sarah H",
+          "affiliations": [
+            "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Benini",
+          "fore_name": "Ruba",
+          "affiliations": [
+            "Neurology Division, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Ben-Omran",
+          "fore_name": "Tawfeg",
+          "affiliations": [
+            "Genetic and Genomic Medicine Division, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Lo",
+          "fore_name": "Bernice",
+          "affiliations": [
+            "College of Health and Life Sciences, Hamad Bin Khalifa University, Doha P.O. Box 34110, Qatar.",
+            "Laboratory of Immunoregulation, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Akil",
+          "fore_name": "Ammira S A",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar."
+          ]
+        },
+        {
+          "last_name": "Fakhro",
+          "fore_name": "Khalid A",
+          "affiliations": [
+            "Laboratory of Genomic Medicine, Research Section, Sidra Medicine, Doha P.O. Box 26999, Qatar.",
+            "College of Health and Life Sciences, Hamad Bin Khalifa University, Doha P.O. Box 34110, Qatar.",
+            "Department of Genetic Medicine, Weill Cornell Medical College, Doha P.O. Box 24144, Qatar."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Alleles",
+        "Cerebellar Diseases",
+        "Loss of Function Mutation",
+        "Neurodevelopmental Disorders",
+        "Pedigree",
+        "Phosphoric Monoester Hydrolases",
+        "Phosphoinositide 5-Phosphatases"
+      ],
+      "keywords": [
+        "Middle East",
+        "neurodegenerative disorder",
+        "pontocerebellar hypoplasia",
+        "rare disease",
+        "whole genome sequencing"
+      ]
+    },
+    {
+      "pmid": "40360795",
+      "doi": "10.1053/j.gastro.2020.06.010",
+      "pmc": "9463833",
+      "title": "Metabolome-wide association identifies ferredoxin-1 (FDX1) as a determinant of cholesterol metabolism and cardiovascular risk in Asian populations.",
+      "abstract": "The burden of cardiovascular disease is rising in the Asia-Pacific region, in contrast to falling cardiovascular disease mortality rates in Europe and North America. Here we perform quantification of 883 metabolites by untargeted mass spectroscopy in 8,124 Asian adults and investigate their relationships with carotid intima media thickness, a marker of atherosclerosis. Plasma concentrations of 3beta-hydroxy-5-cholestenoate (3BH5C), a cholesterol metabolite, were inversely associated with carotid intima media thickness, and Mendelian randomization studies supported a causal relationship between 3BH5C and coronary artery disease. The observed effect size was 5- to 6-fold higher in Asians than Europeans. Colocalization analyses indicated the presence of a shared causal variant between 3BH5C plasma levels and messenger RNA and protein expression of ferredoxin-1 (FDX1), a protein that is essential for sterol and bile acid synthesis. We validated FDX1 as a regulator of 3BH5C synthesis in hepatocytes and macrophages and demonstrated its role in cholesterol efflux in macrophages and aortic smooth muscle cells, using knockout and overexpression models.",
+      "journal": "Nat Cardiovasc Res",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Sadhu",
+          "fore_name": "Nilanjana",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore. nilanjana.sadhu@ntu.edu.sg."
+          ]
+        },
+        {
+          "last_name": "Dalan",
+          "fore_name": "Rinkoo",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Endocrinology, Tan Tock Seng Hospital, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Jain",
+          "fore_name": "Pritesh R",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Chang Jie Mick",
+          "affiliations": [
+            "Cardiovascular Research Institute, National University Health System, Singapore, Singapore.",
+            "Cardiovascular Metabolic Disease Translational Research Programme, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Pakkiri",
+          "fore_name": "Leroy Sivappiragasam",
+          "affiliations": [
+            "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Tay",
+          "fore_name": "Kai Yi",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Mina",
+          "fore_name": "Theresia H",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Low",
+          "fore_name": "Dorrain",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Min",
+          "fore_name": "Yilin",
+          "affiliations": [
+            "Precision Medicine Translational Research Programme, and Department of Biochemistry, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Ackers-Johnson",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "Cardiovascular Research Institute, National University Health System, Singapore, Singapore.",
+            "Cardiovascular Metabolic Disease Translational Research Programme, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Thi",
+          "fore_name": "Thi Tun",
+          "affiliations": [
+            "Precision Medicine Translational Research Programme, and Department of Biochemistry, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Kota",
+          "fore_name": "Vishnu Goutham",
+          "affiliations": [
+            "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Precision Medicine Translational Research Programme, and Department of Biochemistry, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Yan",
+          "affiliations": [
+            "Precision Medicine Translational Research Programme, and Department of Biochemistry, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Hanry",
+          "affiliations": [
+            "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lai",
+          "fore_name": "Vicky",
+          "affiliations": [
+            "Cardiovascular Research Institute, National University Health System, Singapore, Singapore.",
+            "Cardiovascular Metabolic Disease Translational Research Programme, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Yang",
+          "affiliations": [
+            "Precision Medicine Translational Research Programme, and Department of Biochemistry, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Tay",
+          "fore_name": "Darwin",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Ng",
+          "fore_name": "Hong Kiat",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xiaoyan",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari E",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Lam",
+          "fore_name": "Max",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "North Region, Institute of Mental Health, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Guan",
+          "fore_name": "Xue Li",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Bertin",
+          "fore_name": "Nicolas",
+          "affiliations": [
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Eleanor",
+          "affiliations": [
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Best",
+          "fore_name": "James",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Sarangarajan",
+          "fore_name": "Rangaprasad",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Elliott",
+          "fore_name": "Paul",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Epidemiology and Biostatistics, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Riboli",
+          "fore_name": "Elio",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Epidemiology and Biostatistics, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Jimmy",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "North Region, Institute of Mental Health, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Eng Sing",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Clinical Research Unit, National Healthcare Group Polyclinic, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Ngeow",
+          "fore_name": "Joanne",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Cancer Genetics Service, National Cancer Centre, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Patrick",
+          "affiliations": [
+            "Genome Institute of Singapore, Agency for Science, Technology and Research, Singapore, Singapore.",
+            "Precision Health Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Cheung",
+          "fore_name": "Christine",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Institute of Molecular and Cell Biology, Agency for Science, Technology and Research, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Drum",
+          "fore_name": "Chester Lee",
+          "affiliations": [
+            "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Foo",
+          "fore_name": "Roger Sy",
+          "affiliations": [
+            "Cardiovascular Research Institute, National University Health System, Singapore, Singapore.",
+            "Cardiovascular Metabolic Disease Translational Research Programme, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+            "Department of Physiology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Michelotti",
+          "fore_name": "Gregory A",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Haojie",
+          "affiliations": [
+            "Cardiovascular Metabolic Disease Translational Research Programme, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore.",
+            "Precision Medicine Translational Research Programme, and Department of Biochemistry, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Sheridan",
+          "fore_name": "Patricia A",
+          "affiliations": [
+            "Metabolon Inc, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Loh",
+          "fore_name": "Marie",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore.",
+            "Department of Epidemiology and Biostatistics, Imperial College London, London, UK.",
+            "National Skin Centre, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Chambers",
+          "fore_name": "John C",
+          "affiliations": [
+            "Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore. john.chambers@ntu.edu.sg.",
+            "Department of Epidemiology and Biostatistics, Imperial College London, London, UK. john.chambers@ntu.edu.sg.",
+            "Precision Health Research, Singapore, Singapore. john.chambers@ntu.edu.sg."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Animals",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Asian People",
+        "Cardiovascular Diseases",
+        "Carotid Intima-Media Thickness",
+        "Cholesterol",
+        "Coronary Artery Disease",
+        "Ferredoxins",
+        "Heart Disease Risk Factors",
+        "Hepatocytes",
+        "Macrophages",
+        "Mendelian Randomization Analysis",
+        "Metabolome",
+        "Metabolomics",
+        "Risk Assessment"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40139355",
+      "doi": "10.3168/jds.2024-26005",
+      "title": "Effects of preweaning milk allowance on long-term metabolism in Holstein heifers.",
+      "abstract": "Suboptimal preweaning nutrition of dairy calves has been causally associated with impaired adult metabolic health and lactation performance. However, the biological mechanisms linking early life nutrient supply and future performance remain insufficiently understood. Thus, the objective of this study was to characterize growth, reproductive performance, glucose metabolism, and the metabolic profile of growing heifers fed a restricted (RES) or an elevated (ELE) milk supply preweaning. Heifer calves (n = 86) born from a single herd of \u223c120 dairy cows were blocked in pairs by the dam's parity and birth date. Within block, calves were fed an identical colostrum supply and randomly assigned to a milk replacer (MR) allowance level treatment of either 5.41 Mcal of ME in 8 L of MR/d (ELE) or 2.71 Mcal of ME in 4 L of MR/d (RES). The MR (150 g/L), containing 24% crude protein, 18% crude fat, and 45% lactose, was fed from d 2 after birth until calves were stepped down by 50% at d 49 and fully weaned at d 56. All calves were kept in individual hutches until wk 10 and had ad libitum access to fresh pelleted calf starter, chopped wheat straw, and water. Starting from wk 8, heifers from both treatments were fed and managed in the same way, and preweaning treatments were blind to caretakers. Blood samples for metabolomics analysis were collected at 330 d of age, and an insulin-modified intravenous glucose tolerance test was conducted at 370 \u00b1 12 d of age. Heifers fed the ELE diet exhibited higher average daily gain in the preweaning period, leading to higher body weight at 70 d of age (+ 9 kg). At 330 d of age, growth advantages were no longer significant, and preweaning nutrition had no effect on age at first service, first service conception rates, age at conception, or number of services per conception. The metabolomic serum data sampled at 330 d of age revealed that carnitine, glycerolipid, and purine metabolism were predicted to be significantly affected by preweaning nutrient supply, reflecting long-term metabolic programming. At 370 d of age, during the first 20 min following the glucose infusion, blood insulin levels were greater (10.3 ng/mL vs. 7.7 ng/mL), the area under the curve for insulin tended to be greater, and insulin sensitivity was lower in RES heifers. Increasing the amount of MR fed to calves preweaning had a sustained impact on metabolic processes, but long-term differences could not be detected in growth or reproductive performance, potentially due to the low number of animals.",
+      "journal": "J Dairy Sci",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Leal",
+          "fore_name": "L N",
+          "affiliations": [
+            "Trouw Nutrition Research and Development, 3800 AG, Amersfoort, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Daniel",
+          "fore_name": "J B",
+          "affiliations": [
+            "Trouw Nutrition Research and Development, 3800 AG, Amersfoort, the Netherlands. Electronic address: jean-baptiste.daniel@trouwnutrition.com."
+          ]
+        },
+        {
+          "last_name": "Doelman",
+          "fore_name": "J",
+          "affiliations": [
+            "Trouw Nutrition Research and Development, 3800 AG, Amersfoort, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Keppler",
+          "fore_name": "B R",
+          "affiliations": [
+            "Department of Discovery and Translational Sciences, Metabolon Inc., Morrisville, NC 27560."
+          ]
+        },
+        {
+          "last_name": "Steele",
+          "fore_name": "M A",
+          "affiliations": [
+            "Department of Animal Bioscience, Animal Science and Nutrition, University of Guelph, Guelph, ON N1G 1Y2, Canada."
+          ]
+        },
+        {
+          "last_name": "Mart\u00edn-Tereso",
+          "fore_name": "J",
+          "affiliations": [
+            "Trouw Nutrition Research and Development, 3800 AG, Amersfoort, the Netherlands."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Cattle",
+        "Female",
+        "Weaning",
+        "Milk",
+        "Diet",
+        "Lactation",
+        "Animal Feed"
+      ],
+      "keywords": [
+        "glucose homeostasis",
+        "heifer development",
+        "insulin sensitivity",
+        "metabolomics",
+        "preweaning nutrition"
+      ]
+    },
+    {
+      "pmid": "39990570",
+      "pmc": "PMC8183627",
+      "doi": "10.1126/sciimmunol.abf3733",
+      "title": "Machine learning models predict long COVID outcomes based on baseline clinical and immunologic factors.",
+      "abstract": "The post-acute sequelae of SARS-CoV-2 (PASC), also known as long COVID, remain a significant health issue that is incompletely understood. Predicting which acutely infected individuals will go on to develop long COVID is challenging due to the lack of established biomarkers, clear disease mechanisms, or well-defined sub-phenotypes. Machine learning (ML) models offer the potential to address this by leveraging clinical data to enhance diagnostic precision. We utilized clinical data, including antibody titers and viral load measurements collected at the time of hospital admission, to predict the likelihood of acute COVID-19 progressing to long COVID. Our machine learning models achieved median AUROC values ranging from 0.64 to 0.66 and AUPRC values between 0.51 and 0.54, demonstrating their predictive capabilities. Feature importance analysis revealed that low antibody titers and high viral loads at hospital admission were the strongest predictors of long COVID outcomes. Comorbidities, including chronic respiratory, cardiac, and neurologic diseases, as well as female sex, were also identified as significant risk factors for long COVID. Our findings suggest that ML models have the potential to identify patients at risk for developing long COVID based on baseline clinical characteristics. These models can help guide early interventions, improving patient outcomes and mitigating the long-term public health impacts of SARS-CoV-2.",
+      "journal": "medRxiv",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Jayavelu",
+          "fore_name": "Naresh Doni",
+          "affiliations": [
+            "Benaroya Research Institute, University of Washington, Seattle, WA 98101, USA."
+          ]
+        },
+        {
+          "last_name": "Samaha",
+          "fore_name": "Hady",
+          "affiliations": [
+            "Emory School of Medicine, Atlanta, GA 30322, USA."
+          ]
+        },
+        {
+          "last_name": "Wimalasena",
+          "fore_name": "Sonia Tandon",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC) Precision Vaccines Program, Boston Children's Hospital, Boston, MA 02115, USA.",
+            "Benaroya Research Institute, University of Washington, Seattle, WA 98101, USA.",
+            "La Jolla Institute for Immunology, La Jolla, CA 92037, USA.",
+            "Knocean Inc. Toronto, ON M6P 2T3, Canada.",
+            "Precision Vaccines Program, Boston Children's Hospital, Harvard Medical School, Boston, MA 02115, USA.",
+            "Brigham and Women's Hospital, Harvard Medical School, Boston, MA 02115, USA.",
+            "Metabolon Inc, Morrisville, NC 27560, USA.",
+            "Prevention of Organ Failure (PROOF) Centre of Excellence, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.",
+            "Case Western Reserve University and University Hospitals of Cleveland, Cleveland, OH 44106, USA.",
+            "Drexel University, Tower Health Hospital, Philadelphia, PA 19104, USA.",
+            "MyOwnMed Inc., Bethesda, MD 20817, USA.",
+            "Emory School of Medicine, Atlanta, GA 30322, USA.",
+            "Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+            "Immunai Inc. New York, NY 10016, USA.",
+            "Oregon Health Sciences University, Portland, OR 97239, USA.",
+            "Stanford University School of Medicine, Palo Alto, CA 94305, USA.",
+            "David Geffen School of Medicine at the University of California Los Angeles, Los Angeles CA 90095, USA.",
+            "University of California San Francisco, San Francisco, CA 94115, USA.",
+            "Yale School of Medicine, New Haven, CT 06510, USA.",
+            "Yale School of Public Health, New Haven, CT 06510, USA.",
+            "Baylor College of Medicine and the Center for Translational Research on Inflammatory Diseases, Houston, TX 77030, USA.",
+            "Oklahoma University Health Sciences Center, Oklahoma City, OK 73104, USA.",
+            "University of Arizona, Tucson AZ 85721, USA.",
+            "University of Florida, Gainesville, FL 32611, USA.",
+            "University of Florida, Jacksonville, FL 32218, USA.",
+            "University of South Florida, Tampa FL 33620, USA.",
+            "The University of Texas at Austin, Austin, TX 78712, USA."
+          ]
+        },
+        {
+          "last_name": "Hoch",
+          "fore_name": "Annmarie",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC) Precision Vaccines Program, Boston Children's Hospital, Boston, MA 02115, USA."
+          ]
+        },
+        {
+          "last_name": "Gygi",
+          "fore_name": "Jeremy P",
+          "affiliations": [
+            "Yale School of Medicine, New Haven, CT 06510, USA."
+          ]
+        },
+        {
+          "last_name": "Gabernet",
+          "fore_name": "Gisela",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC) Precision Vaccines Program, Boston Children's Hospital, Boston, MA 02115, USA.",
+            "Benaroya Research Institute, University of Washington, Seattle, WA 98101, USA.",
+            "La Jolla Institute for Immunology, La Jolla, CA 92037, USA.",
+            "Knocean Inc. Toronto, ON M6P 2T3, Canada.",
+            "Precision Vaccines Program, Boston Children's Hospital, Harvard Medical School, Boston, MA 02115, USA.",
+            "Brigham and Women's Hospital, Harvard Medical School, Boston, MA 02115, USA.",
+            "Metabolon Inc, Morrisville, NC 27560, USA.",
+            "Prevention of Organ Failure (PROOF) Centre of Excellence, University of British Columbia, Vancouver, BC V6T 1Z3, Canada.",
+            "Case Western Reserve University and University Hospitals of Cleveland, Cleveland, OH 44106, USA.",
+            "Drexel University, Tower Health Hospital, Philadelphia, PA 19104, USA.",
+            "MyOwnMed Inc., Bethesda, MD 20817, USA.",
+            "Emory School of Medicine, Atlanta, GA 30322, USA.",
+            "Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+            "Immunai Inc. New York, NY 10016, USA.",
+            "Oregon Health Sciences University, Portland, OR 97239, USA.",
+            "Stanford University School of Medicine, Palo Alto, CA 94305, USA.",
+            "David Geffen School of Medicine at the University of California Los Angeles, Los Angeles CA 90095, USA.",
+            "University of California San Francisco, San Francisco, CA 94115, USA.",
+            "Yale School of Medicine, New Haven, CT 06510, USA.",
+            "Yale School of Public Health, New Haven, CT 06510, USA.",
+            "Baylor College of Medicine and the Center for Translational Research on Inflammatory Diseases, Houston, TX 77030, USA.",
+            "Oklahoma University Health Sciences Center, Oklahoma City, OK 73104, USA.",
+            "University of Arizona, Tucson AZ 85721, USA.",
+            "University of Florida, Gainesville, FL 32611, USA.",
+            "University of Florida, Jacksonville, FL 32218, USA.",
+            "University of South Florida, Tampa FL 33620, USA.",
+            "The University of Texas at Austin, Austin, TX 78712, USA."
+          ]
+        },
+        {
+          "last_name": "Ozonoff",
+          "fore_name": "Al",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC) Precision Vaccines Program, Boston Children's Hospital, Boston, MA 02115, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Shanshan",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC) Precision Vaccines Program, Boston Children's Hospital, Boston, MA 02115, USA."
+          ]
+        },
+        {
+          "last_name": "Milliren",
+          "fore_name": "Carly E",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC) Precision Vaccines Program, Boston Children's Hospital, Boston, MA 02115, USA."
+          ]
+        },
+        {
+          "last_name": "Levy",
+          "fore_name": "Ofer",
+          "affiliations": [
+            "Precision Vaccines Program, Boston Children's Hospital, Harvard Medical School, Boston, MA 02115, USA."
+          ]
+        },
+        {
+          "last_name": "Baden",
+          "fore_name": "Lindsey R",
+          "affiliations": [
+            "Brigham and Women's Hospital, Harvard Medical School, Boston, MA 02115, USA."
+          ]
+        },
+        {
+          "last_name": "Melamed",
+          "fore_name": "Esther",
+          "affiliations": [
+            "The University of Texas at Austin, Austin, TX 78712, USA."
+          ]
+        },
+        {
+          "last_name": "Ehrlich",
+          "fore_name": "Lauren I R",
+          "affiliations": [
+            "The University of Texas at Austin, Austin, TX 78712, USA."
+          ]
+        },
+        {
+          "last_name": "McComsey",
+          "fore_name": "Grace A",
+          "affiliations": [
+            "Case Western Reserve University and University Hospitals of Cleveland, Cleveland, OH 44106, USA."
+          ]
+        },
+        {
+          "last_name": "Sekaly",
+          "fore_name": "Rafick P",
+          "affiliations": [
+            "Case Western Reserve University and University Hospitals of Cleveland, Cleveland, OH 44106, USA."
+          ]
+        },
+        {
+          "last_name": "Cairns",
+          "fore_name": "Charles B",
+          "affiliations": [
+            "Drexel University, Tower Health Hospital, Philadelphia, PA 19104, USA."
+          ]
+        },
+        {
+          "last_name": "Haddad",
+          "fore_name": "Elias K",
+          "affiliations": [
+            "Drexel University, Tower Health Hospital, Philadelphia, PA 19104, USA."
+          ]
+        },
+        {
+          "last_name": "Schaenman",
+          "fore_name": "Joanna",
+          "affiliations": [
+            "David Geffen School of Medicine at the University of California Los Angeles, Los Angeles CA 90095, USA."
+          ]
+        },
+        {
+          "last_name": "Shaw",
+          "fore_name": "Albert C",
+          "affiliations": [
+            "Yale School of Medicine, New Haven, CT 06510, USA."
+          ]
+        },
+        {
+          "last_name": "Hafler",
+          "fore_name": "David A",
+          "affiliations": [
+            "Yale School of Medicine, New Haven, CT 06510, USA."
+          ]
+        },
+        {
+          "last_name": "Montgomery",
+          "fore_name": "Ruth R",
+          "affiliations": [
+            "Yale School of Medicine, New Haven, CT 06510, USA."
+          ]
+        },
+        {
+          "last_name": "Corry",
+          "fore_name": "David B",
+          "affiliations": [
+            "Baylor College of Medicine and the Center for Translational Research on Inflammatory Diseases, Houston, TX 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Kheradmand",
+          "fore_name": "Farrah",
+          "affiliations": [
+            "Baylor College of Medicine and the Center for Translational Research on Inflammatory Diseases, Houston, TX 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Atkinson",
+          "fore_name": "Mark A",
+          "affiliations": [
+            "University of Florida, Gainesville, FL 32611, USA."
+          ]
+        },
+        {
+          "last_name": "Brakenridge",
+          "fore_name": "Scott C",
+          "affiliations": [
+            "University of Florida, Gainesville, FL 32611, USA."
+          ]
+        },
+        {
+          "last_name": "Higuita",
+          "fore_name": "Nelson I Agudelo",
+          "affiliations": [
+            "Oklahoma University Health Sciences Center, Oklahoma City, OK 73104, USA."
+          ]
+        },
+        {
+          "last_name": "Metcalf",
+          "fore_name": "Jordan P",
+          "affiliations": [
+            "Oklahoma University Health Sciences Center, Oklahoma City, OK 73104, USA."
+          ]
+        },
+        {
+          "last_name": "Hough",
+          "fore_name": "Catherine L",
+          "affiliations": [
+            "Oregon Health Sciences University, Portland, OR 97239, USA."
+          ]
+        },
+        {
+          "last_name": "Messer",
+          "fore_name": "William B",
+          "affiliations": [
+            "Oregon Health Sciences University, Portland, OR 97239, USA."
+          ]
+        },
+        {
+          "last_name": "Pulendran",
+          "fore_name": "Bali",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, CA 94305, USA."
+          ]
+        },
+        {
+          "last_name": "Nadeau",
+          "fore_name": "Kari C",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, CA 94305, USA."
+          ]
+        },
+        {
+          "last_name": "Davis",
+          "fore_name": "Mark M",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, CA 94305, USA."
+          ]
+        },
+        {
+          "last_name": "Geng",
+          "fore_name": "Linda N",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, CA 94305, USA."
+          ]
+        },
+        {
+          "last_name": "Sesma",
+          "fore_name": "Ana Fernandez",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Simon",
+          "fore_name": "Viviana",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Krammer",
+          "fore_name": "Florian",
+          "affiliations": [
+            "Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Kraft",
+          "fore_name": "Monica",
+          "affiliations": [
+            "University of Arizona, Tucson AZ 85721, USA."
+          ]
+        },
+        {
+          "last_name": "Bime",
+          "fore_name": "Chris",
+          "affiliations": [
+            "University of Arizona, Tucson AZ 85721, USA."
+          ]
+        },
+        {
+          "last_name": "Calfee",
+          "fore_name": "Carolyn S",
+          "affiliations": [
+            "University of California San Francisco, San Francisco, CA 94115, USA."
+          ]
+        },
+        {
+          "last_name": "Erle",
+          "fore_name": "David J",
+          "affiliations": [
+            "University of California San Francisco, San Francisco, CA 94115, USA."
+          ]
+        },
+        {
+          "last_name": "Langelier",
+          "fore_name": "Charles R",
+          "affiliations": [
+            "University of California San Francisco, San Francisco, CA 94115, USA."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": []
+        },
+        {
+          "last_name": "Guan",
+          "fore_name": "Leying",
+          "affiliations": [
+            "Yale School of Public Health, New Haven, CT 06510, USA."
+          ]
+        },
+        {
+          "last_name": "Maecker",
+          "fore_name": "Holden T",
+          "affiliations": [
+            "Stanford University School of Medicine, Palo Alto, CA 94305, USA."
+          ]
+        },
+        {
+          "last_name": "Peters",
+          "fore_name": "Bjoern",
+          "affiliations": [
+            "La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "Kleinstein",
+          "fore_name": "Steven H",
+          "affiliations": [
+            "Yale School of Medicine, New Haven, CT 06510, USA."
+          ]
+        },
+        {
+          "last_name": "Reed",
+          "fore_name": "Elaine F",
+          "affiliations": [
+            "David Geffen School of Medicine at the University of California Los Angeles, Los Angeles CA 90095, USA."
+          ]
+        },
+        {
+          "last_name": "Diray-Arce",
+          "fore_name": "Joann",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC) Precision Vaccines Program, Boston Children's Hospital, Boston, MA 02115, USA."
+          ]
+        },
+        {
+          "last_name": "Rouphael",
+          "fore_name": "Nadine",
+          "affiliations": [
+            "Clinical and Data Coordinating Center (CDCC) Precision Vaccines Program, Boston Children's Hospital, Boston, MA 02115, USA."
+          ]
+        },
+        {
+          "last_name": "Altman",
+          "fore_name": "Matthew C",
+          "affiliations": [
+            "Benaroya Research Institute, University of Washington, Seattle, WA 98101, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "COVID-19",
+        "Long COVID",
+        "PASC",
+        "Patient Reported Outcomes",
+        "SARS-CoV-2",
+        "modeling"
+      ]
+    },
+    {
+      "pmid": "39340428",
+      "pmc": "PMC9693522",
+      "doi": "10.3390/metabo12111080",
+      "title": "Immunometabolic chaos in septic shock.",
+      "abstract": "Septic shock is associated with over 40% mortality. The immune response in septic shock is tightly regulated by cellular metabolism and transitions from early hyper-inflammation to later hypo-inflammation. Patients are susceptible to secondary infections during hypo-inflammation. The magnitude of the metabolic dysregulation and the effect of plasma metabolites on the circulating immune cells in septic shock are not reported. We hypothesized that the accumulated plasma metabolites affect the immune response in septic shock during hypo-inflammation. Our study took a unique approach. Using peripheral blood from adult septic shock patients and healthy controls, we studied: (i) Whole blood stimulation \u00b1 E. Coli lipopolysaccharide (LPS: endotoxin) to analyze plasma TNF protein, and (ii). Plasma metabolomic profile by Metabolon. Inc. (iii) We exposed peripheral blood mononuclear cells (PBMCs) from healthy controls to commercially available carbohydrate, amino acid, and fatty acid metabolites and studied the response to LPS. We report that: (i) The whole blood stimulation of the healthy control group showed a significantly upregulated TNF protein, while the septic shock group remained endotoxin tolerant, a biomarker for hypo-inflammation. (ii) A significant accumulation of carbohydrate, amino acid, fatty acid, ceramide, sphingomyelin, and TCA cycle pathway metabolites in septic shock plasma. (iii) In vitro exposure to 5 metabolites repressed while 2 metabolites upregulated the inflammatory response of PBMCs to LPS. We conclude that the endotoxin-tolerant phenotype of septic shock is associated with a simultaneous accumulation of plasma metabolites from multiple metabolic pathways, and these metabolites fundamentally influence the immune response profile of circulating cells.",
+      "journal": "J Leukoc Biol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Shrestha",
+          "fore_name": "Deepmala",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Pant",
+          "fore_name": "Bishnu D",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Roychowdhury",
+          "fore_name": "Sanjoy",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Gandhirajan",
+          "fore_name": "Anugraha",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Cross",
+          "fore_name": "Emily",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Chhabria",
+          "fore_name": "Mamta",
+          "affiliations": [
+            "Pulmonary and Critical Care, Cleveland Clinic Integrated Hospital Care Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Bauer",
+          "fore_name": "Seth R",
+          "affiliations": [
+            "Pharmacy Department, Cleveland Clinic, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Jeng",
+          "fore_name": "Margaret",
+          "affiliations": [
+            "Pulmonary and Critical Care, Cleveland Clinic Integrated Hospital Care Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Mitchell",
+          "fore_name": "Megan",
+          "affiliations": [
+            "Pulmonary and Critical Care, Cleveland Clinic Integrated Hospital Care Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Mehkri",
+          "fore_name": "Omar",
+          "affiliations": [
+            "Pulmonary and Critical Care, Cleveland Clinic Integrated Hospital Care Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Zaidi",
+          "fore_name": "Fatima",
+          "affiliations": [
+            "Discovery and Translational Science, Metabolon, 617 Davis Drive, Suite 100, Morrisville, NC 27560, United States."
+          ]
+        },
+        {
+          "last_name": "Ahuja",
+          "fore_name": "Akash",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xiaofeng",
+          "affiliations": [
+            "Pulmonary and Critical Care, Cleveland Clinic Integrated Hospital Care Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yuxin",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "McDonald",
+          "fore_name": "Christine",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Longworth",
+          "fore_name": "Michelle S",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Stappenbeck",
+          "fore_name": "Thaddeus S",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Stark",
+          "fore_name": "George R",
+          "affiliations": [
+            "Cancer Biology, Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Scheraga",
+          "fore_name": "Rachel G",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States.",
+            "Pulmonary and Critical Care, Cleveland Clinic Integrated Hospital Care Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        },
+        {
+          "last_name": "Vachharajani",
+          "fore_name": "Vidula",
+          "affiliations": [
+            "Inflammation and Immunity, Cleveland Clinic Lerner Research Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States.",
+            "Pulmonary and Critical Care, Cleveland Clinic Integrated Hospital Care Institute, 9500 Euclid Avenue, Cleveland, OH 44195, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Shock, Septic",
+        "Male",
+        "Lipopolysaccharides",
+        "Leukocytes, Mononuclear",
+        "Middle Aged",
+        "Female",
+        "Tumor Necrosis Factor-alpha",
+        "Aged",
+        "Adult",
+        "Metabolomics",
+        "Biomarkers"
+      ],
+      "keywords": [
+        "metabolism",
+        "monocytes",
+        "sepsis",
+        "septic shock"
+      ]
+    },
+    {
+      "pmid": "39997746",
+      "pmc": "PMC3772505",
+      "doi": "10.1021/es5002105",
+      "title": "Multifluid Metabolomics Identifies Novel Biomarkers for Irritable Bowel Syndrome.",
+      "abstract": "",
+      "journal": "Metabolites",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Kirk",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London SE1 7EH, UK."
+          ]
+        },
+        {
+          "last_name": "Louca",
+          "fore_name": "Panayiotis",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London SE1 7EH, UK."
+          ]
+        },
+        {
+          "last_name": "Attaye",
+          "fore_name": "Ilias",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London SE1 7EH, UK.",
+            "Amsterdam Cardiovascular Sciences, Diabetes & Metabolism, 1105 AZ Amsterdam, The Netherlands.",
+            "Department of Internal Medicine, Division of Nephrology and Transplantation, Erasmus MC, University Medical Center, 3015 GD Rotterdam, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xinyuan",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London SE1 7EH, UK."
+          ]
+        },
+        {
+          "last_name": "Wong",
+          "fore_name": "Kari E",
+          "affiliations": [
+            "Metabolon Inc., Research Triangle Park, Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Michelotti",
+          "fore_name": "Gregory A",
+          "affiliations": [
+            "Metabolon Inc., Research Triangle Park, Morrisville, NC 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Falchi",
+          "fore_name": "Mario",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London SE1 7EH, UK."
+          ]
+        },
+        {
+          "last_name": "Valdes",
+          "fore_name": "Ana M",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London SE1 7EH, UK.",
+            "Nottingham NIHR Biomedical Research Centre, School of Medicine, University of Nottingham, Nottingham NG5 1PB, UK.",
+            "Inflammation, Recovery and Injury Sciences, School of Medicine, University of Nottingham, Nottingham NG7 2UH, UK."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "Frances M K",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London SE1 7EH, UK."
+          ]
+        },
+        {
+          "last_name": "Menni",
+          "fore_name": "Cristina",
+          "affiliations": [
+            "Department of Twin Research & Genetic Epidemiology, King's College London, London SE1 7EH, UK.",
+            "Department of Pathophysiology and Transplantation, Universit\u00e0 Degli Studi di Milano, 20122 Milan, Italy."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "irritable bowel syndrome",
+        "serum",
+        "stool",
+        "urine metabolomics"
+      ]
+    },
+    {
+      "pmid": "39928031",
+      "pmc": "PMC6592760",
+      "doi": "10.1038/s41580-019-0123-5",
+      "title": "Mediator kinase inhibition suppresses hyperactive interferon signaling in Down syndrome.",
+      "abstract": "Hyperactive interferon (IFN) signaling is a hallmark of Down syndrome (DS), a condition caused by Trisomy 21 (T21); strategies that normalize IFN signaling could benefit this population. Mediator-associated kinases CDK8 and CDK19 drive inflammatory responses through incompletely understood mechanisms. Using sibling-matched cell lines with/without T21, we investigated Mediator kinase function in the context of hyperactive IFN in DS over a 75 min to 24 hr timeframe. Activation of IFN-response genes was suppressed in cells treated with the CDK8/CDK19 inhibitor cortistatin A (CA), via rapid suppression of IFN-responsive transcription factor (TF) activity. We also discovered that CDK8/CDK19 affect splicing, a novel means by which Mediator kinases control gene expression. To further probe Mediator kinase function, we completed cytokine screens and metabolomics experiments. Cytokines are master regulators of inflammatory responses; by screening 105 different cytokine proteins, we show that Mediator kinases help drive IFN-dependent cytokine responses at least in part through transcriptional regulation of cytokine genes and receptors. Metabolomics revealed that Mediator kinase inhibition altered core metabolic pathways in cell type-specific ways, and broad upregulation of anti-inflammatory lipid mediators occurred specifically in kinase-inhibited cells during hyperactive IFN\u03b3 signaling. A subset of these lipids (e.g. oleamide, desmosterol) serve as ligands for nuclear receptors PPAR and LXR, and activation of these receptors occurred specifically during hyperactive IFN signaling in CA-treated cells, revealing mechanistic links between Mediator kinases, lipid metabolism, and nuclear receptor function. Collectively, our results establish CDK8/CDK19 as context-specific metabolic regulators, and reveal that these kinases control gene expression not only via TFs, but also through metabolic changes and splicing. Moreover, we establish that Mediator kinase inhibition antagonizes IFN signaling through transcriptional, metabolic, and cytokine responses, with implications for DS and other chronic inflammatory conditions.",
+      "journal": "Elife",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Cozzolino",
+          "fore_name": "Kira A",
+          "affiliations": [
+            "Department of Biochemistry, University of Colorado, Boulder, United States."
+          ]
+        },
+        {
+          "last_name": "Sanford",
+          "fore_name": "Lynn",
+          "affiliations": [
+            "Department of Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder, United States.",
+            "BioFrontiers Institute, University of Colorado, Boulder, United States."
+          ]
+        },
+        {
+          "last_name": "Hunter",
+          "fore_name": "Samuel",
+          "affiliations": [
+            "Department of Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder, United States.",
+            "BioFrontiers Institute, University of Colorado, Boulder, United States."
+          ]
+        },
+        {
+          "last_name": "Molison",
+          "fore_name": "Kayla",
+          "affiliations": [
+            "Department of Biochemistry, University of Colorado, Boulder, United States."
+          ]
+        },
+        {
+          "last_name": "Erickson",
+          "fore_name": "Benjamin",
+          "affiliations": [
+            "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, United States.",
+            "UC-Denver RNA Bioscience Initiative, Aurora, United States."
+          ]
+        },
+        {
+          "last_name": "Courvan",
+          "fore_name": "Meaghan C S",
+          "affiliations": [
+            "Department of Biochemistry, University of Colorado, Boulder, United States.",
+            "Department of Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder, United States.",
+            "BioFrontiers Institute, University of Colorado, Boulder, United States.",
+            "Crnic Institute Boulder Branch, Boulder, United States.",
+            "Linda Crnic Institute for Down Syndrome, University of Colorado Anschutz Medical Campus, Aurora, United States."
+          ]
+        },
+        {
+          "last_name": "Jones",
+          "fore_name": "Taylor",
+          "affiliations": [
+            "Department of Biochemistry, University of Colorado, Boulder, United States."
+          ]
+        },
+        {
+          "last_name": "Ajit",
+          "fore_name": "Deepa",
+          "affiliations": [
+            "Metabolon Inc, Durham, Morrisville, United States."
+          ]
+        },
+        {
+          "last_name": "Galbraith",
+          "fore_name": "Matthew D",
+          "affiliations": [
+            "Linda Crnic Institute for Down Syndrome, University of Colorado Anschutz Medical Campus, Aurora, United States.",
+            "Department of Pharmacology, University of Colorado Anschutz Medical Campus, Aurora, United States."
+          ]
+        },
+        {
+          "last_name": "Espinosa",
+          "fore_name": "Joaqu\u00edn M",
+          "affiliations": [
+            "Linda Crnic Institute for Down Syndrome, University of Colorado Anschutz Medical Campus, Aurora, United States.",
+            "Department of Pharmacology, University of Colorado Anschutz Medical Campus, Aurora, United States."
+          ]
+        },
+        {
+          "last_name": "Bentley",
+          "fore_name": "David",
+          "affiliations": [
+            "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, United States.",
+            "UC-Denver RNA Bioscience Initiative, Aurora, United States."
+          ]
+        },
+        {
+          "last_name": "Allen",
+          "fore_name": "Mary Ann",
+          "affiliations": [
+            "BioFrontiers Institute, University of Colorado, Boulder, United States."
+          ]
+        },
+        {
+          "last_name": "Dowell",
+          "fore_name": "Robin D",
+          "affiliations": [
+            "Department of Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder, United States.",
+            "BioFrontiers Institute, University of Colorado, Boulder, United States."
+          ]
+        },
+        {
+          "last_name": "Taatjes",
+          "fore_name": "Dylan J",
+          "affiliations": [
+            "Department of Biochemistry, University of Colorado, Boulder, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Signal Transduction",
+        "Down Syndrome",
+        "Cyclin-Dependent Kinase 8",
+        "Interferons",
+        "Cyclin-Dependent Kinases",
+        "Cell Line",
+        "Gene Expression Regulation",
+        "Protein Kinase Inhibitors"
+      ],
+      "keywords": [
+        "Down syndrome",
+        "biochemistry",
+        "chemical biology",
+        "chromosomes",
+        "cytokine",
+        "gene expression",
+        "human",
+        "interferons",
+        "metabolism",
+        "mitochondria"
+      ]
+    },
+    {
+      "pmid": "37461585",
+      "pmc": "PMC6592760",
+      "doi": "10.1101/2023.07.05.547813",
+      "title": "Mediator kinase inhibition suppresses hyperactive interferon signaling in Down syndrome.",
+      "abstract": "Hyperactive interferon (IFN) signaling is a hallmark of Down syndrome (DS), a condition caused by trisomy 21 (T21); strategies that normalize IFN signaling could benefit this population. Mediator-associated kinases CDK8 and CDK19 drive inflammatory responses through incompletely understood mechanisms. Using sibling-matched cell lines with/without T21, we investigated Mediator kinase function in the context of hyperactive IFN in DS over a 75min - 24h timeframe. Activation of IFN-response genes was suppressed in cells treated with the CDK8/CDK19 inhibitor cortistatin A (CA), via rapid suppression of IFN-responsive transcription factor (TF) activity. We also discovered that CDK8/CDK19 affect splicing, a novel means by which Mediator kinases control gene expression. To further probe Mediator kinase function, we completed cytokine screens and metabolomics experiments. Cytokines are master regulators of inflammatory responses; by screening 105 different cytokine proteins, we show that Mediator kinases help drive IFN-dependent cytokine responses at least in part through transcriptional regulation of cytokine genes and receptors. Metabolomics revealed that Mediator kinase inhibition altered core metabolic pathways in cell type-specific ways, and broad up-regulation of anti-inflammatory lipid mediators occurred specifically in kinase-inhibited cells during hyperactive IFN\u03b3 signaling. A subset of these lipids (e.g. oleamide, desmosterol) serve as ligands for nuclear receptors PPAR and LXR, and activation of these receptors occurred specifically during hyperactive IFN signaling in CA-treated cells, revealing mechanistic links between Mediator kinases, lipid metabolism, and nuclear receptor function. Collectively, our results establish CDK8/CDK19 as context-specific metabolic regulators, and reveal that these kinases control gene expression not only via TFs, but also through metabolic changes and splicing. Moreover, we establish that Mediator kinase inhibition antagonizes IFN signaling through transcriptional, metabolic, and cytokine responses, with implications for DS and other chronic inflammatory conditions.",
+      "journal": "bioRxiv",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Cozzolino",
+          "fore_name": "Kira",
+          "affiliations": [
+            "Dept. of Biochemistry, University of Colorado, Boulder, CO, 80303, USA."
+          ]
+        },
+        {
+          "last_name": "Sanford",
+          "fore_name": "Lynn",
+          "affiliations": [
+            "Dept. of Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder, CO, 80303, USA.",
+            "BioFrontiers Institute, University of Colorado, Boulder, CO, 80303, USA."
+          ]
+        },
+        {
+          "last_name": "Hunter",
+          "fore_name": "Samuel",
+          "affiliations": [
+            "Dept. of Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder, CO, 80303, USA.",
+            "BioFrontiers Institute, University of Colorado, Boulder, CO, 80303, USA."
+          ]
+        },
+        {
+          "last_name": "Molison",
+          "fore_name": "Kayla",
+          "affiliations": [
+            "Dept. of Biochemistry, University of Colorado, Boulder, CO, 80303, USA."
+          ]
+        },
+        {
+          "last_name": "Erickson",
+          "fore_name": "Benjamin",
+          "affiliations": [
+            "Dept. Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO 80045, USA.",
+            "UC-Denver RNA Bioscience Initiative."
+          ]
+        },
+        {
+          "last_name": "Courvan",
+          "fore_name": "Meaghan C S",
+          "affiliations": [
+            "Dept. of Biochemistry, University of Colorado, Boulder, CO, 80303, USA.",
+            "Dept. of Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder, CO, 80303, USA.",
+            "BioFrontiers Institute, University of Colorado, Boulder, CO, 80303, USA.",
+            "Crnic Institute Boulder Branch.",
+            "Linda Crnic Institute for Down Syndrome, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+          ]
+        },
+        {
+          "last_name": "Jones",
+          "fore_name": "Taylor",
+          "affiliations": [
+            "Dept. of Biochemistry, University of Colorado, Boulder, CO, 80303, USA."
+          ]
+        },
+        {
+          "last_name": "Ajit",
+          "fore_name": "Deepa",
+          "affiliations": [
+            "Metabolon, Inc., Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Galbraith",
+          "fore_name": "Matthew D",
+          "affiliations": [
+            "Linda Crnic Institute for Down Syndrome, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+            "Dept. of Pharmacology, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+          ]
+        },
+        {
+          "last_name": "Espinosa",
+          "fore_name": "Joaquin M",
+          "affiliations": [
+            "Linda Crnic Institute for Down Syndrome, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+            "Dept. of Pharmacology, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+          ]
+        },
+        {
+          "last_name": "Bentley",
+          "fore_name": "David L",
+          "affiliations": [
+            "Dept. Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO 80045, USA.",
+            "UC-Denver RNA Bioscience Initiative."
+          ]
+        },
+        {
+          "last_name": "Allen",
+          "fore_name": "Mary A",
+          "affiliations": [
+            "BioFrontiers Institute, University of Colorado, Boulder, CO, 80303, USA."
+          ]
+        },
+        {
+          "last_name": "Dowell",
+          "fore_name": "Robin D",
+          "affiliations": [
+            "Dept. of Molecular, Cellular, and Developmental Biology, University of Colorado, Boulder, CO, 80303, USA.",
+            "BioFrontiers Institute, University of Colorado, Boulder, CO, 80303, USA."
+          ]
+        },
+        {
+          "last_name": "Taatjes",
+          "fore_name": "Dylan J",
+          "affiliations": [
+            "Dept. of Biochemistry, University of Colorado, Boulder, CO, 80303, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    }
+  ]
+}

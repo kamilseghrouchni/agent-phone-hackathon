@@ -1,0 +1,19 @@
+{
+  "bundle_id": "nsclc-serum-pdl1",
+  "therapeutic_area": "immuno-oncology",
+  "query_text": "NSCLC serum samples with PD-L1 IHC status documented. For circulating biomarker discovery. N >= 100.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Non-Small cell lung cancer (NSCLC)"
+    ],
+    "specimen_types": [
+      "Serum"
+    ],
+    "biomarkers_required": [
+      "PD-L1"
+    ],
+    "min_n": 100,
+    "assay_context": "Circulating PD-L1 biomarker discovery"
+  }
+}

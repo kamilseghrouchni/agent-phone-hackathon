@@ -1,0 +1,2881 @@
+{
+  "name": "BioAgilytix Labs",
+  "cleaned_name": "BioAgilytix Labs",
+  "aliases_tried": [
+    "BioAgilytix Labs"
+  ],
+  "publication_total": 18,
+  "search_queries": [
+    "\"BioAgilytix Labs\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41491260",
+      "doi": "10.1056/NEJMoa2211644",
+      "pmc": "10073725",
+      "title": "Assessment of Immune Responses Against AAV Encoded Transgene Products.",
+      "abstract": "The number of clinical investigations and approved applications of adeno-associated virus (AAV) based transgene product (TP) delivery has grown steadily. There also has been a growing interest in understanding how anti-AAV and anti-TP immune responses affect the safety and efficacy of these gene therapy treatments. While considerations related to anti-AAV immunity have been discussed in other works, this manuscript focuses on the assessment of anti-TP immune responses, including both humoral and cellular responses. The development of anti-TP antibodies or a cytotoxic cellular response may lead to increased clearance of the TP, elimination of AAV-transduced cells, and consequently, affect the overall durability and efficacy of the treatment. Additionally, the binding and neutralization of residual endogenous protein by anti-TP antibodies might further worsen the clinical condition under treatment. Several topics are explored in this manuscript, including immunogenicity risk factors that can be considered when evaluating the overall risk and impact of anti-TP immunogenicity, potential implications of anti-TP immunogenicity, the importance of assessing anti-TP immunogenicity, and the commonly used analytical methodologies. The manuscript proposes an approach to determining the scope of anti-TP immunogenicity assessment for clinical and non-clinical studies, based on the TP nature, other intrinsic and extrinsic risk factors. Authored by a group of scientists involved in AAV-based therapeutic development from various industry organizations, the manuscript aims to provide recommendations and guidance to industry sponsors, academic laboratories, and regulatory agencies working on AAV-based modalities, with the goal of achieving a more consistent approach to the assessment of anti-TP immune response.",
+      "journal": "AAPS J",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Gorovits",
+          "fore_name": "Boris",
+          "affiliations": [
+            "Regeneron Pharmaceuticals, Inc, Tarrytown, USA. boris.gorovits@regeneron.com."
+          ]
+        },
+        {
+          "last_name": "Azadeh",
+          "fore_name": "Mitra",
+          "affiliations": [
+            "Progeria Research Foundation, Inc., Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Fiscella",
+          "fore_name": "Michele",
+          "affiliations": [
+            "REGENXBIO Inc, Rockville, USA."
+          ]
+        },
+        {
+          "last_name": "Harrison",
+          "fore_name": "Travis",
+          "affiliations": [
+            "Precision for Medicine Inc., Frederick, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Hofer",
+          "fore_name": "Magdalena",
+          "affiliations": [
+            "Jefferson Institute for Bioprocessing, Lower Gwynedd, USA."
+          ]
+        },
+        {
+          "last_name": "Janetzki",
+          "fore_name": "Sylvia",
+          "affiliations": [
+            "ZellNet Consulting, Inc, Fort Lee, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Jawa",
+          "fore_name": "Vibha",
+          "affiliations": [
+            "EpiVax, Inc, Providence, Rhode Island, USA."
+          ]
+        },
+        {
+          "last_name": "Long",
+          "fore_name": "Brian",
+          "affiliations": [
+            "4D Molecular Therapeutics, Emeryville, USA."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Yanmei",
+          "affiliations": [
+            "Sangamo Therapeutics, Inc, Richmond, USA."
+          ]
+        },
+        {
+          "last_name": "Mahnke",
+          "fore_name": "Yolanda D",
+          "affiliations": [
+            "FlowKnowHow LLC, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Maia",
+          "fore_name": "Mauricio",
+          "affiliations": [
+            ", South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Majumdar",
+          "fore_name": "Ritankar",
+          "affiliations": [
+            "LabCorp Holdings, Inc, Burlington, USA."
+          ]
+        },
+        {
+          "last_name": "Miller",
+          "fore_name": "Michelle",
+          "affiliations": [
+            "Miller Bioanalytical Consulting LLC, Carlsbad, USA."
+          ]
+        },
+        {
+          "last_name": "Milton",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Lake Boon Pharmaceutical Consulting, LLC, Hudson, USA."
+          ]
+        },
+        {
+          "last_name": "Nelson",
+          "fore_name": "Robert",
+          "affiliations": [
+            "BioAgilytix Labs, LLC, Durham, USA."
+          ]
+        },
+        {
+          "last_name": "Partridge",
+          "fore_name": "Michael A",
+          "affiliations": [
+            "Regeneron Pharmaceuticals, Inc, Tarrytown, USA."
+          ]
+        },
+        {
+          "last_name": "Shaik",
+          "fore_name": "Saleem",
+          "affiliations": [
+            "Takeda Pharmaceutical Company Limited, Cambridge, USA."
+          ]
+        },
+        {
+          "last_name": "Snoeck",
+          "fore_name": "Veerle",
+          "affiliations": [
+            "UCB, B-1420, Braine-l'Alleud, Belgium."
+          ]
+        },
+        {
+          "last_name": "Vettermann",
+          "fore_name": "Christian",
+          "affiliations": [
+            "4D Molecular Therapeutics, Emeryville, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Bonnie",
+          "affiliations": [
+            "Johnson & Johnson Innovative Medicine, Titusville, USA."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "An",
+          "affiliations": [
+            "Regeneron Pharmaceuticals, Inc, Tarrytown, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Dependovirus",
+        "Humans",
+        "Genetic Therapy",
+        "Genetic Vectors",
+        "Transgenes",
+        "Animals",
+        "Antibodies, Viral",
+        "Immunity, Cellular"
+      ],
+      "keywords": [
+        "adeno associated virus",
+        "anti-transgene product immunogenicity",
+        "immunogenicity",
+        "transgene product"
+      ]
+    },
+    {
+      "pmid": "41332298",
+      "pmc": "PMC7786041",
+      "doi": "10.1208/s12248-025-01122-w",
+      "title": "Rethinking validation paradigms for qPCR and dPCR assays in bioanalysis.",
+      "abstract": "",
+      "journal": "Bioanalysis",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda L",
+          "affiliations": [
+            "Scientific Office, BioAgilytix Labs, Durham, NC, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "bioanalysis",
+        "dPCR",
+        "qPCR",
+        "regulated bioanalysis",
+        "validation"
+      ]
+    },
+    {
+      "pmid": "40804295",
+      "doi": "10.1208/s12248-025-01118-6",
+      "pmc": "11586355",
+      "title": "Assessment of Neutralizing Antibody Activity in Clinical Studies: Use of Surrogate Measurements Instead of Stand-alone Assays.",
+      "abstract": "Neutralizing antibodies (NAbs) to protein therapeutics have traditionally been assumed to be the most impactful subset of anti-drug-antibodies (ADA). NAbs can block the biotherapeutic from engaging its target impacting efficacy and may also cause serious safety events. Stand-alone NAb assays have been employed to detect neutralizing responses, often with reconfigured versions of other assays. These methods have historically been implemented in registrational trials for all molecules, and in early-stage studies for high risk biotherapeutics. However, data has demonstrated that NAb response and ADA magnitude are highly correlated. Additionally, the use of other markers to identify clinically relevant immunogenicity, such as apparent impact on pharmacokinetics (PK) or pharmacodynamics (PD), has been increasing. This manuscript reviews the available data on clinically meaningful immunogenic responses to biologics and proposes a risk-based strategy to determine if and when to employ a stand-alone NAb assay. For molecules with a high risk of safety consequences of immunogenicity (e.g., biological mimics) a NAb assay is recommended. However, for lower-safety risk molecules a stand-alone NAb assay does not enhance the interpretation of clinical data and is likely not needed. A combination of other assessments including ADA status, magnitude and persistence, PK, and PD (and efficacy) can be used as a surrogate for NAb assay data. Integration of data from all clinical evaluations is recommended by Health Authorities and can provide a more accurate overall assessment of neutralizing activity. This approach identifies clinically impactful downstream readouts of neutralizing activity without the need for a stand-alone NAb assay.",
+      "journal": "AAPS J",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Partridge",
+          "fore_name": "Michael A",
+          "affiliations": [
+            "Regeneron Pharmaceuticals, Tarrytown, New York, USA. michael.partridge@regeneron.com."
+          ]
+        },
+        {
+          "last_name": "Kamen",
+          "fore_name": "Lynn",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Bonnie",
+          "affiliations": [
+            "Johnson & Johnson Innovative Medicine, Spring House, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Solberg",
+          "fore_name": "Helene",
+          "affiliations": [
+            "Novo Nordisk A/S, 2760, M\u00e5l\u00f8v, Denmark."
+          ]
+        },
+        {
+          "last_name": "McNally",
+          "fore_name": "Jim",
+          "affiliations": [
+            "Sword Bio, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Stevenson",
+          "fore_name": "Lauren",
+          "affiliations": [
+            "Immunologix Laboratories, Tampa, Florida, USA."
+          ]
+        },
+        {
+          "last_name": "Gupta",
+          "fore_name": "Shalini",
+          "affiliations": [
+            ", Amgen, Thousand Oaks, California, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Susana",
+          "affiliations": [
+            ", Pfizer, Montreal, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Weifeng",
+          "affiliations": [
+            "Merck & Co, Inc, Rahway, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Yuling",
+          "affiliations": [
+            "BioData Solutions LLC, Lawrence, KS, USA."
+          ]
+        },
+        {
+          "last_name": "White",
+          "fore_name": "Joleen",
+          "affiliations": [
+            "BioData Solutions LLC, Lawrence, KS, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Antibodies, Neutralizing",
+        "Biological Products",
+        "Animals",
+        "Biomarkers",
+        "Clinical Trials as Topic"
+      ],
+      "keywords": [
+        "Anti-drug antibodies (ADA)",
+        "Biotherapeutics",
+        "Immunogenicity",
+        "Neutralizing antibodies (NAb)",
+        "Pharmacokinetics/Pharmacodynamics (PK/PD)"
+      ]
+    },
+    {
+      "pmid": "40823769",
+      "pmc": "PMC12026151",
+      "doi": "10.1080/17576180.2025.2529119",
+      "title": "17th GCC Closed Forum: Integrative Bioanalysis, Patient-centric Sampling, Emerging Technologies, Data Integrity, Sample Reconciliation, Discrepancies of ELISpot Data, Cross-validation Harmonization, Ultrasensitive Platforms for ADA Assays, Remote Regulatory Assessments, Shedding Assays by PCR, and Biomarker Tissue Assays.",
+      "abstract": "The 17th GCC Closed Forum was held in San Antonio, TX, USA, on 10",
+      "journal": "Bioanalysis",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Zimmer",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Alturas Analytics, Inc., Moscow, Idaho, USA."
+          ]
+        },
+        {
+          "last_name": "O'dell",
+          "fore_name": "Mark",
+          "affiliations": [
+            "B2S Life Sciences, Franklin, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "Johnson",
+          "fore_name": "Derrick",
+          "affiliations": [
+            "B2S Life Sciences, Franklin, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Gorityala",
+          "fore_name": "Shashank",
+          "affiliations": [
+            "BioAgilytix Labs, Morrisville, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Tary-Lehmann",
+          "fore_name": "Magdalena",
+          "affiliations": [
+            "Cellular Technology Ltd, Shaker Heights, Ohio, USA."
+          ]
+        },
+        {
+          "last_name": "Malone",
+          "fore_name": "Katherine",
+          "affiliations": [
+            "Charles River Laboratories, Reno, Nevada, USA."
+          ]
+        },
+        {
+          "last_name": "Diaz",
+          "fore_name": "Manisha",
+          "affiliations": [
+            "Eurofins Viracor BioPharma Services, San Antonio, Texas, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Frontage Laboratory, Exton, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Dwivedi",
+          "fore_name": "Varun",
+          "affiliations": [
+            "KCAS Bio, Spring house, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Dufield",
+          "fore_name": "Dawn",
+          "affiliations": [
+            "KCAS Bio, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Iles",
+          "fore_name": "Tracy",
+          "affiliations": [
+            "Labcorp, Harrogate, UK."
+          ]
+        },
+        {
+          "last_name": "Sikkema",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Labcorp, Chantilly, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Majumdar",
+          "fore_name": "Ritankar",
+          "affiliations": [
+            "Labcorp, Chantilly, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Riccitelli",
+          "fore_name": "Nathan",
+          "affiliations": [
+            "Navigate BioPharma Services, Inc., Carlsbad, California, USA."
+          ]
+        },
+        {
+          "last_name": "Yuan",
+          "fore_name": "Moucun",
+          "affiliations": [
+            "PPD, Part of Thermo Fisher Scientific, Henrico, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Lowes",
+          "fore_name": "Steve",
+          "affiliations": [
+            "IQVIA, Ithaca, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Aihua",
+          "affiliations": [
+            "Resolian, Malvern, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Matys",
+          "fore_name": "Katie",
+          "affiliations": [
+            "IQVIA, Ithaca, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Turksma",
+          "fore_name": "Annelies",
+          "affiliations": [
+            "Sanquin Diagnostic Services, Amsterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Pirro",
+          "fore_name": "John",
+          "affiliations": [
+            "Sword Bio, Long Branch, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Bergeron",
+          "fore_name": "Jerome",
+          "affiliations": [
+            "Syneos Health, Quebec City, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Karnik",
+          "fore_name": "Shane",
+          "affiliations": [
+            "Aliri Bioanalysis, Colorado Springs, Colorado, USA."
+          ]
+        },
+        {
+          "last_name": "Voelker",
+          "fore_name": "Troy",
+          "affiliations": [
+            "Aliri Bioanlysis, Salt Lake City, Utah, USA."
+          ]
+        },
+        {
+          "last_name": "Salha",
+          "fore_name": "Danielle",
+          "affiliations": [
+            "Altasciences, Laval, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Reynolds",
+          "fore_name": "Gregory",
+          "affiliations": [
+            "BioAgilytix Labs, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Lamy",
+          "fore_name": "Corbyn",
+          "affiliations": [
+            "Charles River Laboratories, Shrewsbury, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Mathilde",
+          "affiliations": [
+            "CIRION BioPhama Research Inc, a Cerba Research Company, Laval, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Wei",
+          "affiliations": [
+            "GCC, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Nadarajah",
+          "fore_name": "Sankeetha",
+          "affiliations": [
+            "GCC, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Leskovar",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "ICON, Whitesboro, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Pellerin",
+          "fore_name": "Mario",
+          "affiliations": [
+            "ICON, Whitesboro, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Veeramachaneni",
+          "fore_name": "Rathna",
+          "affiliations": [
+            "KCAS Bio, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Kane",
+          "fore_name": "Cheikh",
+          "affiliations": [
+            "KCAS Bio, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Allan",
+          "affiliations": [
+            "Keystone Bioanalytical, Inc., North Wales, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Hyer",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Labcorp, Madison, Wisconsin, USA."
+          ]
+        },
+        {
+          "last_name": "Carlsson",
+          "fore_name": "Annika",
+          "affiliations": [
+            "Mercodia AB, Uppsala, Sweden."
+          ]
+        },
+        {
+          "last_name": "Sanghvi",
+          "fore_name": "Mitesh",
+          "affiliations": [
+            "Pharmaron, Germantown, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Dompkowski",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "PPD, Part of Thermo Fisher Scientific, Henrico, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Rundlett",
+          "fore_name": "Stephen",
+          "affiliations": [
+            "Precision for Medicine, Redwood City, California, USA."
+          ]
+        },
+        {
+          "last_name": "Bower",
+          "fore_name": "Joseph",
+          "affiliations": [
+            "Precision for Medicine, Frederick, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Spytko",
+          "fore_name": "Adriane",
+          "affiliations": [
+            "IQVIA, Ithaca, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Jia",
+          "affiliations": [
+            "Shanghai Xihua Scientific Co., Ltd., Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Gu",
+          "fore_name": "Weihua",
+          "affiliations": [
+            "Shanghai Xihua Scientific Co., Ltd., Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Rocha",
+          "fore_name": "Agostinho",
+          "affiliations": [
+            "Smithers, Ewing, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "O'Brien",
+          "fore_name": "Kyla",
+          "affiliations": [
+            "Syneos Health, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Xinping",
+          "affiliations": [
+            "Tri-Apex Laboratories Inc., North Wales, Pennsylvania, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Biomarkers",
+        "Enzyme-Linked Immunospot Assay",
+        "Polymerase Chain Reaction",
+        "Data Accuracy"
+      ],
+      "keywords": [
+        "Bioanalysis",
+        "CRO",
+        "ELISpot",
+        "GCC",
+        "Global CRO Council",
+        "Patient-centric sampling",
+        "Sample Reconciliation",
+        "Shedding assays",
+        "biomarker tissue assays",
+        "cross-validation",
+        "immunogenicity assays",
+        "qPCR/dPCR"
+      ]
+    },
+    {
+      "pmid": "40069400",
+      "doi": "10.1186/s41120-021-00050-1",
+      "pmc": "2751302",
+      "title": "Best Practices and Recommendations for Non-Liquid Matrices Bioanalysis.",
+      "abstract": "The analysis of Non-Liquid Matrices (NLMs) can provide key information on many aspects in drug discovery and development. These include but are not limited to drug uptake and distribution, engagement and modulation, and target exposure. A thorough understanding of these aspects is fundamental to the progression of drug development. In many cases, such an understanding can only be achieved through quantitative analysis of NLMs. Such dependence can lead to bottlenecks in the drug development process-as the practices and regulations that govern bioanalysis of conventional liquid matrices typically cannot be directly applied to NLMs. This paper strives to fill this crucial gap. To this end, subject matter experts from across the industry, through the auspices of the AAPS Bioanalytical Community, have combined their collective best practices for NLM bioanalysis in this paper. Certainly, this endeavor came with challenges, the most prominent of which also serves as the impetus for this project, the lack of literature on NLM bioanalysis dealing with different types of NLM, analysis rigor, and best practices to draw from. This paper aims to serve as a comprehensive set of best practices drawn from the experiences of leading scientists across the industry-for NLM bioanalysis in drug development.",
+      "journal": "AAPS J",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Vazvaei-Smith",
+          "fore_name": "Faye",
+          "affiliations": [
+            "Merck & Co., Inc., West Point, Pennsylvania, 19486, USA. fataneh.vazvaei-smith@merck.com."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Wenkui",
+          "affiliations": [
+            "Novartis Biomedical Research, East Hanover, New Jersey, 07936, USA. wenkui.li@novartis.com."
+          ]
+        },
+        {
+          "last_name": "Barnaby",
+          "fore_name": "Omar S",
+          "affiliations": [
+            "Amgen, Thousand Oaks, California, 91320, USA."
+          ]
+        },
+        {
+          "last_name": "Bhardwaj",
+          "fore_name": "Sanjeev",
+          "affiliations": [
+            "Moderna Therapeutics, Cambridge, MA, 02142, USA."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Juyao",
+          "affiliations": [
+            "Intellia Therapeutics, Cambridge, Massachusetts, 02139, USA."
+          ]
+        },
+        {
+          "last_name": "Dumont",
+          "fore_name": "Carolyne",
+          "affiliations": [
+            "Charles River Laboratories, Senneville, Canada."
+          ]
+        },
+        {
+          "last_name": "Fern\u00e1ndez-Metzler",
+          "fore_name": "Carmen",
+          "affiliations": [
+            "PharmaCadence Analytical Services, LLC, Hatfield, Pennsylvania, 19440, USA."
+          ]
+        },
+        {
+          "last_name": "Geist",
+          "fore_name": "Brian",
+          "affiliations": [
+            "Johnson & Johnson Innovative Medicine, Spring House, PA, 19477, USA."
+          ]
+        },
+        {
+          "last_name": "Hassanein",
+          "fore_name": "Mohamed",
+          "affiliations": [
+            "Pfizer Inc., Cambridge, Massachusetts, 02139, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, North Carolina, 27713, USA."
+          ]
+        },
+        {
+          "last_name": "Ilinskaya",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Smithers, Gaithersburg, Maryland, 20878, USA."
+          ]
+        },
+        {
+          "last_name": "Kadar",
+          "fore_name": "Eugene P",
+          "affiliations": [
+            "Pfizer Inc., Groton, CT, 06340, USA."
+          ]
+        },
+        {
+          "last_name": "King",
+          "fore_name": "Kris",
+          "affiliations": [
+            "Valo Health, Lexington, Massachusetts, 02421, USA."
+          ]
+        },
+        {
+          "last_name": "Kulagina",
+          "fore_name": "Nadia",
+          "affiliations": [
+            "Smithers, Gaithersburg, Maryland, 20878, USA."
+          ]
+        },
+        {
+          "last_name": "Matta",
+          "fore_name": "Murali K",
+          "affiliations": [
+            "Merck & Co., Inc., West Point, Pennsylvania, 19486, USA.",
+            "Food and Drug Administration, Silver Spring, Maryland, 20993, USA."
+          ]
+        },
+        {
+          "last_name": "Midde",
+          "fore_name": "Krishna",
+          "affiliations": [
+            "PPD Labs, Richmond, Virginia, 23230, USA."
+          ]
+        },
+        {
+          "last_name": "Pan",
+          "fore_name": "Rina",
+          "affiliations": [
+            "Incyte Research Institute, Wilmington, Delaware, 19803, USA."
+          ]
+        },
+        {
+          "last_name": "Pathania",
+          "fore_name": "Divya",
+          "affiliations": [
+            "AbbVie Inc., Irvine, CA, 92612, USA."
+          ]
+        },
+        {
+          "last_name": "Tarnowski",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Gilead Sciences, Inc., Foster City, California, 94404, USA."
+          ]
+        },
+        {
+          "last_name": "Tewalt",
+          "fore_name": "Eric",
+          "affiliations": [
+            "PPD, part of Thermo Fisher Scientific, Richmond, Virginia, 23230, USA."
+          ]
+        },
+        {
+          "last_name": "Thomas",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Labcorp, Indianapolis, Indiana, 46214, USA."
+          ]
+        },
+        {
+          "last_name": "Wickremsinhe",
+          "fore_name": "Enaksha",
+          "affiliations": [
+            "Gates Medical Research Institute, Cambridge, Massachusetts, 02139, USA."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Deqing",
+          "affiliations": [
+            "Gilead Sciences, Inc., Foster City, California, 94404, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Drug Development",
+        "Pharmaceutical Preparations",
+        "Drug Discovery",
+        "Drug Industry"
+      ],
+      "keywords": [
+        "PK/PD",
+        "bioanalysis",
+        "biomarkers",
+        "cells",
+        "fit-for-purpose validation",
+        "lysates",
+        "non-liquid matrices",
+        "pharmacokinetics",
+        "tissue"
+      ]
+    },
+    {
+      "pmid": "39696894",
+      "pmc": "PMC8816448",
+      "doi": "10.1016/j.jim.2018.10.001",
+      "title": "Development of a validated novel bead extraction method for the detection of anti-PEG antibodies in human serum.",
+      "abstract": "Polyethylene glycol (PEG) is used in many applications including drug development. Due to exposure to environmental products, there is a high prevalence of preexisting anti-PEG antibodies in the global human population. The presence of anti-PEG antibodies is a concern for potentially reducing the efficacy of therapeutics after administration and represents a risk of safety events after exposure to PEGylated drug products. We developed and validated a creative and sensitive method for the detection of anti-PEG antibodies in human serum to support clinical programs for PEGylated drugs. In this method, biotin-PEG streptavidin beads were used to extract anti-PEG antibodies from human serum for analysis in an anti-PEG ELISA assay. The same serum sample was analyzed in an anti-drug antibody assay. The anti-PEG antibody assay was validated with a screening cut point of 1.41 normalized signal, confirmatory cut point of 32.2% inhibition, sensitivity of 7.81\u2009ng/mL and sufficient reproducibility, selectivity, and drug tolerance in accordance with the FDA 2019 Immunogenicity guidance. This method of removal of anti-PEG antibodies enables the use of a single sample to detect anti-drug and anti-PEG antibodies to support drug development programs.",
+      "journal": "Bioanalysis",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Williams",
+          "fore_name": "William T",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Lindley",
+          "fore_name": "Kathryn",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Liao",
+          "fore_name": "Hong",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Kamen",
+          "fore_name": "Lynn",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Miller",
+          "fore_name": "Michelle",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Sailstad",
+          "fore_name": "Jeffrey",
+          "affiliations": [
+            "Sailstad and Associates, Inc, Durham, NC, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Polyethylene Glycols",
+        "Antibodies",
+        "Enzyme-Linked Immunosorbent Assay",
+        "Reproducibility of Results"
+      ],
+      "keywords": [
+        "ADA",
+        "BEAD",
+        "PEG",
+        "anti-PEG antibodies",
+        "immunogenicity"
+      ]
+    },
+    {
+      "pmid": "39032144",
+      "doi": "10.1002/cyto.b.22198",
+      "title": "Implementation of flow cytometry testing on rare matrix samples: Special considerations and best practices when the sample is unique or difficult to obtain.",
+      "abstract": "The publication of Clinical and Laboratory Standards Institute's guideline H62 has provided the flow cytometry community with much-needed guidance on development and validation of flow cytometric assays (CLSI, 2021). It has also paved the way for additional exploration of certain topics requiring additional guidance. Flow cytometric analysis of rare matrices, or unique and/or less frequently encountered specimen types, is one such topic and is the focus of this manuscript. This document is the result of a collaboration subject matter experts from a diverse range of backgrounds and seeks to provide best practice consensus guidance regarding these types of specimens. Herein, we define rare matrix samples in the setting of flow cytometric analysis, address validation implications and challenges with these samples, and describe important considerations of using these samples in both clinical and research settings.",
+      "journal": "Cytometry B Clin Cytom",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Devitt",
+          "fore_name": "Katherine A",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, University of Vermont Medical Center, Burlington, Vermont, USA.",
+            "Larner College of Medicine at the University of Vermont, Burlington, Vermont, USA."
+          ]
+        },
+        {
+          "last_name": "Kern",
+          "fore_name": "Wolfgang",
+          "affiliations": [
+            "Department of Flow Cytometry, MLL Munich Leukemia Laboratory, Munich, Germany."
+          ]
+        },
+        {
+          "last_name": "Kajstura",
+          "fore_name": "Malgorzata A",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, University of Rochester Medical Center, Rochester, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Holl",
+          "fore_name": "Eda K",
+          "affiliations": [
+            "Danaher Corporation, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda L",
+          "affiliations": [
+            "Scientific Office, BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Hedley",
+          "fore_name": "Benjamin D",
+          "affiliations": [
+            "Pathology and Laboratory Medicine, London Health Sciences Centre, London, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Gonneau",
+          "fore_name": "Christ\u00e8le",
+          "affiliations": [
+            "Flow Cytometry Department, Labcorp Central Laboratories Services, Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Jellison",
+          "fore_name": "Evan R",
+          "affiliations": [
+            "Department of Immunology, UCONN School of Medicine, Farmington, Connecticut, USA."
+          ]
+        },
+        {
+          "last_name": "McCloskey",
+          "fore_name": "Thomas W",
+          "affiliations": [
+            "Department of Research and Development, ICON Laboratory Services, Farmingdale, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Mishra",
+          "fore_name": "Shruti",
+          "affiliations": [
+            "Bone Marrow Transplantation and Stem Cell Research Centre, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, India."
+          ]
+        },
+        {
+          "last_name": "Rebeles",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Department of Diagnostics, bioAffinity Technologies, San Antonio, Texas, USA."
+          ]
+        },
+        {
+          "last_name": "Ouseph",
+          "fore_name": "Madhu M",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Flow Cytometry",
+        "Specimen Handling"
+      ],
+      "keywords": [
+        "best practice",
+        "flow cytometry",
+        "quality",
+        "rare matrix",
+        "validation"
+      ]
+    },
+    {
+      "pmid": "39231893",
+      "doi": "10.1208/s12248-024-00965-z",
+      "title": "Correction to: Neutralizing Antibody Sample Testing and Report Harmonization.",
+      "abstract": "",
+      "journal": "AAPS J",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Jani",
+          "fore_name": "Darshana",
+          "affiliations": [
+            "Bioanalytical and Molecular Assays, Moderna, 325 Binney Street, Cambridge, Massachusetts, USA. darshana.jani@modernatx.com."
+          ]
+        },
+        {
+          "last_name": "Gunsior",
+          "fore_name": "Michele",
+          "affiliations": [
+            "Translational Sciences, Astria Therapeutics, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Marsden",
+          "fore_name": "Robin",
+          "affiliations": [
+            "Revelation Biosciences, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Cowan",
+          "fore_name": "Kyra J",
+          "affiliations": [
+            "Drug Metabolism & Pharmacokinetics, New Biological Entities, Merck KGaA, Darmstadt, Germany."
+          ]
+        },
+        {
+          "last_name": "Irvin",
+          "fore_name": "Susan C",
+          "affiliations": [
+            "Bioanalytical Sciences, Regeneron Pharmaceuticals, Tarrytown, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Hay",
+          "fore_name": "Laura Schild",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research Business, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Ward",
+          "fore_name": "Bethany",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research Business, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Armstrong",
+          "fore_name": "Luke",
+          "affiliations": [
+            "Bioanalytical Operations, BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Azadeh",
+          "fore_name": "Mitra",
+          "affiliations": [
+            "Bioanalytical and Biomarker Development, Ultragenyx Pharmaceutical, Inc, Novato, California, USA."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Liching",
+          "affiliations": [
+            "Biomarker and BioAnalytical Sciences, Sangamo Therapeutics, Brisbane, California, USA."
+          ]
+        },
+        {
+          "last_name": "Carmean",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research Business, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "DelCarpini",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Bioanalytical Sciences, Moderna, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Dholakiya",
+          "fore_name": "Sanjay L",
+          "affiliations": [
+            "Non-Clinical Disposition and Bioanalysis, Bristol Myers Squibb, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "Scientific Office, BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Hosback",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "Research and Clinical Bioanalytics, CSL, Melbourne, Australia."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Zheng",
+          "affiliations": [
+            "Translational Safety & Bioanalytical Science, Amgen Inc, Thousand Oaks, California, USA."
+          ]
+        },
+        {
+          "last_name": "Kulagina",
+          "fore_name": "Nadia",
+          "affiliations": [
+            "Pharmaceutical Development Services, Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Seema",
+          "affiliations": [
+            "DMPK and Bioanalysis, Pioneering Medicines at Flagship Pioneering, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Lai",
+          "fore_name": "Ching Ha",
+          "affiliations": [
+            "Bioanalytical Sciences, Regeneron Pharmaceuticals, Tarrytown, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Lichtfuss",
+          "fore_name": "Marit",
+          "affiliations": [
+            "Research and Clinical Bioanalytics, CSL, Melbourne, Australia."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Hsing-Yin",
+          "affiliations": [
+            "Janssen Research & Development LLC, Spring House, Montgomery County, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Susana",
+          "affiliations": [
+            "Clinical Pharmacology, Biologics & Immunogenicity Clinical Assay Group, Pfizer Inc, Kirkland, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Mozaffari",
+          "fore_name": "Reza",
+          "affiliations": [
+            "Bioanalysis, Immunogenicity & Biomarkers (BIB), IVIVT, Research, GSK, Collegeville, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Pan",
+          "fore_name": "Luying",
+          "affiliations": [
+            "Takeda Development Center Americas Inc, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Pennucci",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Bioanalytical Sciences, Moderna, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Poupart",
+          "fore_name": "Marie-Eve",
+          "affiliations": [
+            "Charles River Laboratories, Senneville, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Saini",
+          "fore_name": "Gurleen",
+          "affiliations": [
+            "Drug Metabolism & Pharmacokinetics, Boehringer Ingelheim Pharmaceuticals, Inc, Ridgefield, Connecticut, USA."
+          ]
+        },
+        {
+          "last_name": "Snoeck",
+          "fore_name": "Veerle",
+          "affiliations": [
+            "Translational Biomarkers and Bioanalysis, UCB Biopharma SRL, 1420, Braine-L'Alleud, Belgium."
+          ]
+        },
+        {
+          "last_name": "Storey",
+          "fore_name": "Kristine",
+          "affiliations": [
+            "Prometheus Biosciences, Inc., a subsidiary of Merck & Co., Inc, Rahway, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Turner",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Pharmaceutical Development Services, Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Vainshtein",
+          "fore_name": "Inna",
+          "affiliations": [
+            "Discovery and Translational Research, Exelixis, Alameda, California, USA."
+          ]
+        },
+        {
+          "last_name": "Verthelyi",
+          "fore_name": "Daniela",
+          "affiliations": [
+            "Office of Pharmaceutical Quality Research, Division IV, Center for Drugs Evaluation and Research, Food and Drug Administration, Silver Spring, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Wala",
+          "fore_name": "Iwona",
+          "affiliations": [
+            "Translational Safety and Bioanalytical Sciences, Amgen, Thousand Oaks, California, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lili",
+          "affiliations": [
+            "Takeda Development Center Americas, Inc, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lin",
+          "affiliations": [
+            "Integrated Bioanalysis, AstraZeneca, Gaithersburg, MD, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "38992280",
+      "doi": "10.1111/cei.12742",
+      "pmc": "4837239",
+      "title": "Neutralizing Antibody Sample Testing and Report Harmonization.",
+      "abstract": "Immunogenicity testing and characterization is an important part of understanding the immune response to administration of a protein therapeutic. Neutralizing antibody (NAb) assays are used to characterize a positive anti-drug antibody (ADA) response. Harmonization of reporting of NAb assay performance and results enables efficient communication and expedient review by industry and health authorities. Herein, a cross-industry group of NAb assay experts have harmonized NAb assay reporting recommendations and provided a bioanalytical report (BAR) submission editable template developed to facilitate agency filings. This document addresses key bioanalytical reporting gaps and provides a report structure for documenting clinical NAb assay performance and results. This publication focuses on the content and presentation of the NAb sample analysis report including essential elements such as the method, critical reagents and equipment, data analysis, study samples, and results. The interpretation of immunogenicity data, including the evaluation of the impact of NAb on safety, exposure, and efficacy, is out of scope of this publication.",
+      "journal": "AAPS J",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Jani",
+          "fore_name": "Darshana",
+          "affiliations": [
+            "Bioanalytical and Molecular Assays, Moderna, 325 Binney Street, Cambridge, Massachusetts, USA. darshana.jani@modernatx.com."
+          ]
+        },
+        {
+          "last_name": "Gunsior",
+          "fore_name": "Michele",
+          "affiliations": [
+            "Translational Sciences, Astria Therapeutics, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Marsden",
+          "fore_name": "Robin",
+          "affiliations": [
+            "Revelation Biosciences, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Cowan",
+          "fore_name": "Kyra J",
+          "affiliations": [
+            "Drug Metabolism & Pharmacokinetics, New Biological Entities, Merck KGaA, Darmstadt, Germany."
+          ]
+        },
+        {
+          "last_name": "Irvin",
+          "fore_name": "Susan C",
+          "affiliations": [
+            "Bioanalytical Sciences, Regeneron Pharmaceuticals, Tarrytown, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Hay",
+          "fore_name": "Laura Schild",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research Business, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Ward",
+          "fore_name": "Bethany",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research Business, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Armstrong",
+          "fore_name": "Luke",
+          "affiliations": [
+            "Bioanalytical Operations, BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Azadeh",
+          "fore_name": "Mitra",
+          "affiliations": [
+            "Bioanalytical and Biomarker Development, Ultragenyx Pharmaceutical, Inc, Novato, California, USA."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Liching",
+          "affiliations": [
+            "Biomarker and BioAnalytical Sciences, Sangamo Therapeutics, Brisbane, California, USA."
+          ]
+        },
+        {
+          "last_name": "Carmean",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research Business, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "DelCarpini",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Bioanalytical Sciences, Moderna, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Dholakiya",
+          "fore_name": "Sanjay L",
+          "affiliations": [
+            "Non-Clinical Disposition and Bioanalysis, Bristol Myers Squibb, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "Scientific Office, BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Hosback",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "Research and Clinical Bioanalytics, CSL, Melbourne, Australia."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Zheng",
+          "affiliations": [
+            "Translational Safety & Bioanalytical Science, Amgen Inc, Thousand Oaks, California, USA."
+          ]
+        },
+        {
+          "last_name": "Kulagina",
+          "fore_name": "Nadia",
+          "affiliations": [
+            "Pharmaceutical Development Services, Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Seema",
+          "affiliations": [
+            "DMPK and Bioanalysis, Pioneering Medicines at Flagship Pioneering, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Lai",
+          "fore_name": "Ching Ha",
+          "affiliations": [
+            "Bioanalytical Sciences, Regeneron Pharmaceuticals, Tarrytown, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Lichtfuss",
+          "fore_name": "Marit",
+          "affiliations": [
+            "Research and Clinical Bioanalytics, CSL, Melbourne, Australia."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Hsing-Yin",
+          "affiliations": [
+            "Janssen Research & Development LLC, Spring House, Montgomery County, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Susana",
+          "affiliations": [
+            "Clinical Pharmacology, Biologics & Immunogenicity Clinical Assay Group, Pfizer Inc, Kirkland, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Mozaffari",
+          "fore_name": "Reza",
+          "affiliations": [
+            "Bioanalysis, Immunogenicity & Biomarkers (BIB), IVIVT, Research, GSK, Collegeville, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Pan",
+          "fore_name": "Luying",
+          "affiliations": [
+            "Takeda Development Center Americas Inc, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Pennucci",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Bioanalytical Sciences, Moderna, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Poupart",
+          "fore_name": "Marie-Eve",
+          "affiliations": [
+            "Immunology, Charles River Laboratories, Senneville, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Saini",
+          "fore_name": "Gurleen",
+          "affiliations": [
+            "Drug Metabolism & Pharmacokinetics, Boehringer Ingelheim Pharmaceuticals, Inc, Ridgefield, Connecticut, USA."
+          ]
+        },
+        {
+          "last_name": "Snoeck",
+          "fore_name": "Veerle",
+          "affiliations": [
+            "Translational Biomarkers and Bioanalysis, UCB Biopharma SRL, 1420, Braine-L'Alleud, Belgium."
+          ]
+        },
+        {
+          "last_name": "Storey",
+          "fore_name": "Kristine",
+          "affiliations": [
+            "Prometheus Biosciences, Inc., a subsidiary of Merck & Co., Inc, Rahway, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Turner",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Pharmaceutical Development Services, Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Vainshtein",
+          "fore_name": "Inna",
+          "affiliations": [
+            "Discovery and Translational Research, Exelixis, Alameda, California, USA."
+          ]
+        },
+        {
+          "last_name": "Verthelyi",
+          "fore_name": "Daniela",
+          "affiliations": [
+            "Office of Pharmaceutical Quality Research, Division IV, Center for Drugs Evaluation and Research, Food and Drug Administration, Silver Spring, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Wala",
+          "fore_name": "Iwona",
+          "affiliations": [
+            "Translational Safety and Bioanalytical Sciences, Amgen, Thousand Oaks, California, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lili",
+          "affiliations": [
+            "Takeda Development Center Americas, Inc, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lin",
+          "affiliations": [
+            "Bioanalytical Sciences, REGENXBIO Inc, Rockville, Maryland, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Antibodies, Neutralizing",
+        "Humans"
+      ],
+      "keywords": [
+        "bioanalytical report",
+        "immunogenicity",
+        "multi-functional therapeutics",
+        "neutralizing antibody",
+        "template"
+      ]
+    },
+    {
+      "pmid": "37880551",
+      "pmc": "PMC5746592",
+      "doi": "10.1038/gt.2017.95",
+      "title": "Validation of Anti-Adeno Associated Virus Serotype rh10 (AAVrh.10) Total and Neutralizing Antibody Immunogenicity Assays.",
+      "abstract": "Immunogenicity assessment of Adeno-Associated Virus (AAV) vectors is a critical part of gene therapy drug development. Whether the assays are used for inclusion/exclusion criteria or to monitor the safety and efficacy of the gene therapy, they are critical bioanalytical assessments. While total anti-AAV assays are perceived as easier to develop and implement than neutralizing anti-AAV assays, the gene therapy field is still nascent, and it is not yet clear which of the assays should be implemented at what stage of drug development. Recently AAVrh.10 has gained interest for use in gene therapies targeting cardiac, neurological, and other diseases due to its enhanced transduction efficiency. There is limited information on anti-AAVrh.10 antibodies and their clinical impact; thus, the information presented herein documents the validation of both a total antibody assay (TAb) and a neutralizing antibody (NAb) assay for anti-AAVrh.10 antibodies. In this manuscript, the validation was performed in accordance with the 2019 FDA immunogenicity guidance with additional evaluations to comply with CLIA where applicable. The AAVrh.10 TAb and NAb assays were compared in terms of sensitivity, drug tolerance, and precision, along with a concordance analysis using the same individual serum samples. This comparison gave insight into the utility of each format as a screening assay for inclusion into clinical studies.",
+      "journal": "Pharm Res",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Butala-Flores",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA. Elizabeth.butala@bioagilytix.com."
+          ]
+        },
+        {
+          "last_name": "Nguyen",
+          "fore_name": "Thien",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Selvan",
+          "fore_name": "Nithya",
+          "affiliations": [
+            "Lexeo Therapeutics, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Armstrong",
+          "fore_name": "Luke",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Miller",
+          "fore_name": "Michelle",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Kamen",
+          "fore_name": "Lynn",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Lester",
+          "fore_name": "Todd",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Wernyj",
+          "fore_name": "Roman",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Khanna",
+          "fore_name": "Richie",
+          "affiliations": [
+            "Lexeo Therapeutics, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "McNally",
+          "fore_name": "Jim",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, NC, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Antibodies, Neutralizing",
+        "Dependovirus",
+        "Serogroup",
+        "Biological Assay",
+        "Genetic Therapy",
+        "Genetic Vectors"
+      ],
+      "keywords": [
+        "AAV",
+        "gene therapy",
+        "immunogenicity",
+        "neutralizing antibodies",
+        "total antibodies"
+      ]
+    },
+    {
+      "pmid": "37421491",
+      "doi": "10.1208/s12248-023-00830-5",
+      "pmc": "4779092",
+      "title": "Neutralizing Antibody Validation Testing and Reporting Harmonization.",
+      "abstract": "Evolving immunogenicity assay performance expectations and a lack of harmonized neutralizing antibody validation testing and reporting tools have resulted in significant time spent by health authorities and sponsors on resolving filing queries. A team of experts within the American Association of Pharmaceutical Scientists' Therapeutic Product Immunogenicity Community across industry and the Food and Drug Administration addressed challenges unique to cell-based and non-cell-based neutralizing antibody assays. Harmonization of validation expectations and data reporting will facilitate filings to health authorities and are described in this manuscript. This team provides validation testing and reporting strategies and tools for the following assessments: (1) format selection; (2) cut point; (3) assay acceptance criteria; (4) control precision; (5) sensitivity including positive control selection and performance tracking; (6) negative control selection; (7) selectivity/specificity including matrix interference, hemolysis, lipemia, bilirubin, concomitant medications, and structurally similar analytes; (8) drug tolerance; (9) target tolerance; (10) sample stability; and (11) assay robustness.",
+      "journal": "AAPS J",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Myler",
+          "fore_name": "Heather",
+          "affiliations": [
+            "Bioanalytical and Biomarker Science and Technologies, Takeda, Cambridge, MA, 02139, USA. heather.myler@takeda.com.",
+            "25 Creekview Ln, Yardley, Pennsylvania, 19067, USA. heather.myler@takeda.com."
+          ]
+        },
+        {
+          "last_name": "Pedras-Vasconcelos",
+          "fore_name": "Jo\u00e3o",
+          "affiliations": [
+            "Office of Biotechnology Products, Office of Pharmaceutical Quality, Center for Drugs Evaluation and Research, Food and Drug Administration, Silver Spring, MD, 20903, USA."
+          ]
+        },
+        {
+          "last_name": "Lester",
+          "fore_name": "Todd",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, North Carolina, 27713, USA."
+          ]
+        },
+        {
+          "last_name": "Civoli",
+          "fore_name": "Francesca",
+          "affiliations": [
+            "Coherus BioSciences, 333 Twin Dolphin Drive, Redwood City, California, 94065, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Weifeng",
+          "affiliations": [
+            "Regulated Global Bioanalytics, Merck & Co., Inc, Rahway, New Jersey, 07065, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Bonnie",
+          "affiliations": [
+            "Bioanalytical Discovery and Development Sciences, Janssen Research and Development, Spring House, Pennsylvania, 19477, USA."
+          ]
+        },
+        {
+          "last_name": "Vainshtein",
+          "fore_name": "Inna",
+          "affiliations": [
+            "Discovery and Translational Research, Exelixis, 1851 Harbor Bay Pkwy, Alameda, California, 94502, USA."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Linlin",
+          "affiliations": [
+            "Regulated Global Bioanalytics, Merck & Co., Inc, Rahway, New Jersey, 07065, USA."
+          ]
+        },
+        {
+          "last_name": "Hassanein",
+          "fore_name": "Mohamed",
+          "affiliations": [
+            "Early Clinical Development, Precision Medicine, Pfizer Inc, Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Susana",
+          "affiliations": [
+            "Global Product Development, , Pfizer Inc, 17300 Trans Canada Hwy, Kirkland, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Ramaswamy",
+          "fore_name": "Swarna Suba",
+          "affiliations": [
+            "Regulated Bioanalysis Department, B2S Life Sciences, 97 East Monroe Street, Franklin, Indiana, 46131, USA."
+          ]
+        },
+        {
+          "last_name": "Mora",
+          "fore_name": "Johanna",
+          "affiliations": [
+            "Non-Clinical Disposition and Bioanalysis, Bristol Myers Squibb, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Pennucci",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Quantitative Bioanalytics, Moderna, 200 Technology Square, Cambridge, Massachusetts, 02139, USA."
+          ]
+        },
+        {
+          "last_name": "McCush",
+          "fore_name": "Fred",
+          "affiliations": [
+            "Clinical Pharmacology, Pfizer Inc, Eastern Point Road, Groton, CT, 06379, USA."
+          ]
+        },
+        {
+          "last_name": "Lavelle",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research, , 2244 Dabney Road, Richmond, Virginia, 23230-3323, USA."
+          ]
+        },
+        {
+          "last_name": "Jani",
+          "fore_name": "Darshana",
+          "affiliations": [
+            "Preclinical and Clinical Bioanalysis, , Moderna Tx, 200 Technology Square, Cambridge, Massachusetts, 02142, USA."
+          ]
+        },
+        {
+          "last_name": "Ambakhutwala",
+          "fore_name": "Angela",
+          "affiliations": [
+            "Immunology Sciences, Kriya Therapeutics, 4105 Hopson Road, Morrisville, North Carolina, 27560, USA."
+          ]
+        },
+        {
+          "last_name": "Baltrukonis",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Clinical Pharmacology, Pfizer Inc, Eastern Point Road, Groton, CT, 06379, USA."
+          ]
+        },
+        {
+          "last_name": "Barker",
+          "fore_name": "Breann",
+          "affiliations": [
+            "Drug Metabolism and Biopharmaceuticals, Incyte Corporation, 1801 Augustine Cut-Off, Wilmington, Delaware, 19803, USA."
+          ]
+        },
+        {
+          "last_name": "Carmean",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research, , 2244 Dabney Road, Richmond, Virginia, 23230-3323, USA."
+          ]
+        },
+        {
+          "last_name": "Chung",
+          "fore_name": "Shan",
+          "affiliations": [
+            "Department of BioAnalytical Sciences, Genentech Inc, South San Francisco, California, USA."
+          ]
+        },
+        {
+          "last_name": "Dai",
+          "fore_name": "Sheng",
+          "affiliations": [
+            "Quantitative Clinical Pharmacology & Translational Sciences (QCP), Daiichi Sankyo, Inc, 211 Mt. Airy Road, Basking Ridge, New Jersey, 07920, USA."
+          ]
+        },
+        {
+          "last_name": "DeWall",
+          "fore_name": "Stephen",
+          "affiliations": [
+            "Bioanalytical Sciences, Scholar Rock, 301 Binney Street, 3rd Floor, Cambridge, Massachusetts, 02142-1071, USA."
+          ]
+        },
+        {
+          "last_name": "Dholakiya",
+          "fore_name": "Sanjay L",
+          "affiliations": [
+            "Non-Clinical Disposition and Bioanalysis, Bristol Myers Squibb, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Dodge",
+          "fore_name": "Robert",
+          "affiliations": [
+            "Novartis Institutes for BioMedical Research, 1 Health Plaza, East Hanover, New Jersey, 07936, USA."
+          ]
+        },
+        {
+          "last_name": "Finco",
+          "fore_name": "Deborah",
+          "affiliations": [
+            "Deborah Finco Consulting LLC, 101 Prospect Hill Road, Groton, Connecticut, 06340, USA."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Haoheng",
+          "affiliations": [
+            "Global Regulatory Affairs, Shanghai Henlius Biotech. Inc, 430 N. McCarthy Blvd, Milpitas, California, 95035, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, North Carolina, 27713, USA."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Zheng",
+          "affiliations": [
+            "Translation Safety & Bioanalytical Science, Amgen Inc, Thousand Oaks, California, 91360, USA."
+          ]
+        },
+        {
+          "last_name": "Inzano",
+          "fore_name": "Cynthia",
+          "affiliations": [
+            "Non-Clinical Disposition and Bioanalysis, Bristol Myers Squibb, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Kamen",
+          "fore_name": "Lynn",
+          "affiliations": [
+            "BioAgilytix Labs, Durham, North Carolina, 27713, USA."
+          ]
+        },
+        {
+          "last_name": "Lai",
+          "fore_name": "Ching-Ha",
+          "affiliations": [
+            "Bioanalytical Sciences, Regeneron Pharmaceuticals, Tarrytown, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Meyer",
+          "fore_name": "Erik",
+          "affiliations": [
+            "Immunogenicity, GSK Pharmaceuticals, 1250 South Collegeville Road, Collegeville, Pennsylvania, 19426, USA."
+          ]
+        },
+        {
+          "last_name": "Nelson",
+          "fore_name": "Robert",
+          "affiliations": [
+            "Bioanalytical Services, Labcorp Drug Development, Otley Road, Harrogate, HG3 1PY, UK."
+          ]
+        },
+        {
+          "last_name": "Paudel",
+          "fore_name": "Amrit",
+          "affiliations": [
+            "Research Center Pharmaceutical Engineering GmbH (RCPE), Inffeldgasse 13, 8010, Graz, Austria."
+          ]
+        },
+        {
+          "last_name": "Phillips",
+          "fore_name": "Kelli",
+          "affiliations": [
+            "Clinical Pharmacology, Pfizer Inc, Eastern Point Road, Groton, CT, 06379, USA."
+          ]
+        },
+        {
+          "last_name": "Poupart",
+          "fore_name": "Marie-Eve",
+          "affiliations": [
+            "Immunology, Charles River Laboratories, Montreal ULC, Transcanada Highway, Senneville, Quebec, 22022, Canada."
+          ]
+        },
+        {
+          "last_name": "Qu",
+          "fore_name": "Qiang",
+          "affiliations": [
+            "Quantitative Bioanalytics, Moderna, 200 Technology Square, Cambridge, Massachusetts, 02139, USA."
+          ]
+        },
+        {
+          "last_name": "Abhari",
+          "fore_name": "Mohsen Rajabi",
+          "affiliations": [
+            "Office of Clinical PharmacologyOffice of Translational SciencesCenter for Drugs Evaluation and Research, Food and Drug Administration, Silver Spring, Maryland, 20903, USA."
+          ]
+        },
+        {
+          "last_name": "Ryding",
+          "fore_name": "Janka",
+          "affiliations": [
+            "Bioanalysis-Biologics, Lundbeck A/S, Ottiliavej 9, 2500, Valby, Denmark."
+          ]
+        },
+        {
+          "last_name": "Sheldon",
+          "fore_name": "Curtis",
+          "affiliations": [
+            "Technical Operations, , IVERIC Bio, Inc, 8 Sylvan Way, Parsippany, New Jersey, 07054, USA."
+          ]
+        },
+        {
+          "last_name": "Spriggs",
+          "fore_name": "Franklin",
+          "affiliations": [
+            "Spriggs Bioanalytical Consulting LLC, 15632 W 83rd Terrace, Lenexa, Kansas, 66219, USA."
+          ]
+        },
+        {
+          "last_name": "Warrino",
+          "fore_name": "Dominic",
+          "affiliations": [
+            "Bioanalytical and Biomarker Services, KCAS, 10830 S Clay Blair Blvd, Olathe, Kansas, 66061, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Yuling",
+          "affiliations": [
+            "Integrated Bioanalysis, , AstraZeneca, Gaithersburg, Maryland, 20878, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lin",
+          "affiliations": [
+            "Bioanalytical Sciences, REGENXBIO Inc, 9804 Medical Center Drive, Rockville, Maryland, 20850, USA."
+          ]
+        },
+        {
+          "last_name": "Pasas-Farmer",
+          "fore_name": "Stephanie",
+          "affiliations": [
+            "BioData Solutions, 1021 \u00bd Massachusetts Street, Lawrence, Kansas, 66044, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Antibodies, Neutralizing",
+        "Pharmaceutical Preparations",
+        "Drug Tolerance"
+      ],
+      "keywords": [
+        "FDA",
+        "anti-drug antibodies (ADA)",
+        "immunogenicity",
+        "neutralizing antibodies (NAb)",
+        "regulatory guidance",
+        "validation"
+      ]
+    },
+    {
+      "pmid": "36614138",
+      "pmc": "PMC8652144",
+      "doi": "10.3389/fimmu.2021.783305",
+      "title": "Bioanalytical Assay Strategies and Considerations for Measuring Cellular Kinetics.",
+      "abstract": "A vast evolution of drug modalities has occurred over the last several decades. Novel modalities such as cell and gene therapies have proven to be efficacious for numerous clinical indications-primarily in rare disease and immune oncology. Because of this success, drug developers are heavily investing in these novel modalities. Given the complexity of these therapeutics, a variety of bioanalytical techniques are employed to fully characterize the pharmacokinetics of these therapies in clinical studies. Industry trends indicate that quantitative PCR (qPCR) and multiparameter flow cytometry are both valuable in determining the pharmacokinetics, i.e. cellular kinetics, of cell therapies. This manuscript will evaluate the pros and cons of both techniques and highlight regulatory guidance on assays for measuring cellular kinetics. Moreover, common considerations when developing these assays will be addressed.",
+      "journal": "Int J Mol Sci",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC 27713, USA."
+          ]
+        },
+        {
+          "last_name": "Durham",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC 27713, USA."
+          ]
+        },
+        {
+          "last_name": "Gullick",
+          "fore_name": "Bryan",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC 27713, USA."
+          ]
+        },
+        {
+          "last_name": "Rudemiller",
+          "fore_name": "Nathan",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC 27713, USA."
+          ]
+        },
+        {
+          "last_name": "Schneider",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC 27713, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Kinetics",
+        "Genetic Therapy",
+        "Flow Cytometry",
+        "Cell- and Tissue-Based Therapy"
+      ],
+      "keywords": [
+        "CAR-T",
+        "PK",
+        "cell therapy",
+        "cellular kinetics",
+        "pharmacokinetics"
+      ]
+    },
+    {
+      "pmid": "36307592",
+      "doi": "10.1038/s41467-022-31170-1",
+      "pmc": "9199457",
+      "title": "Anti-drug Antibody Sample Testing and Reporting Harmonization.",
+      "abstract": "A clear scientific and operational need exists for harmonized bioanalytical immunogenicity study reporting to facilitate communication of immunogenicity findings and expedient review by industry and health authorities. To address these key bioanalytical reporting gaps and provide a report structure for documenting immunogenicity results, this cross-industry group was formed to establish harmonized recommendations and a develop a submission template to facilitate agency filings. Provided here are recommendations for reporting clinical anti-drug antibody (ADA) assay results using ligand-binding assay technologies. This publication describes the essential bioanalytical report (BAR) elements such as the method, critical reagents and equipment, study samples, results, and data analysis, and provides a template for a suggested structure for the ADA BAR. This publication focuses on the content and presentation of the bioanalytical ADA sample analysis report. The interpretation of immunogenicity data, including the evaluation of the impact of ADA on safety, exposure, and efficacy, is out of scope of this publication.",
+      "journal": "AAPS J",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Jani",
+          "fore_name": "Darshana",
+          "affiliations": [
+            "Bioanalytical and Molecular Assays, Moderna, Cambridge, Massachusetts, USA. Darshana.jani@modernatx.com."
+          ]
+        },
+        {
+          "last_name": "Marsden",
+          "fore_name": "Robin",
+          "affiliations": [
+            "Revelation Biosciences, California, USA."
+          ]
+        },
+        {
+          "last_name": "Gunsior",
+          "fore_name": "Michele",
+          "affiliations": [
+            "Research and Translational Sciences, Astria Therapeutics, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Hay",
+          "fore_name": "Laura Schild",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research Services, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Ward",
+          "fore_name": "Bethany",
+          "affiliations": [
+            "Bioanalytical Lab, PPD Clinical Research Services, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Cowan",
+          "fore_name": "Kyra J",
+          "affiliations": [
+            "New Biological Entities Drug Metabolism and Pharmacokinetics, Merck KGaA, Darmstadt, Germany."
+          ]
+        },
+        {
+          "last_name": "Azadeh",
+          "fore_name": "Mitra",
+          "affiliations": [
+            "Biomarker Operations, Translational Medicine and Early Stage Clinical Development, Alkermes, Inc., Waltham, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Barker",
+          "fore_name": "Breann",
+          "affiliations": [
+            "Drug Metabolism and Biopharmaceuticals, Incyte Corporation, Wilmington, Delaware, USA."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Liching",
+          "affiliations": [
+            "Biomarker and BioAnalytical Sciences, Sangamo Therapeutics, California, USA."
+          ]
+        },
+        {
+          "last_name": "Closson",
+          "fore_name": "Kristin R",
+          "affiliations": [
+            "Laboratory Operations, Immunologix Laboratories, Tampa, Florida, USA."
+          ]
+        },
+        {
+          "last_name": "Coble",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "DMPK/Bioanalytical Sciences, Boehringer Ingelheim Pharmaceuticals Inc, Ridgefield, Connecticut, USA."
+          ]
+        },
+        {
+          "last_name": "Dholakiya",
+          "fore_name": "Sanjay L",
+          "affiliations": [
+            "Non-Clinical Disposition and Bioanalysis, Bristol Myers Squibb, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Dusseault",
+          "fore_name": "Julie",
+          "affiliations": [
+            "Laboratory Sciences, Charles River Laboratories, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Herl",
+          "fore_name": "Carina",
+          "affiliations": [
+            "Clinical Pharmacology and Translational Sciences, Exelixis, Alameda, California, USA."
+          ]
+        },
+        {
+          "last_name": "Hodsdon",
+          "fore_name": "Michael E",
+          "affiliations": [
+            "Laboratory for Experimental Medicine, Eli Lilly and Company, Indianapolis, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "Irvin",
+          "fore_name": "Susan C",
+          "affiliations": [
+            "Bioanalytical Sciences, Regeneron Pharmaceuticals, Tarrytown, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Kirshner",
+          "fore_name": "Susan",
+          "affiliations": [
+            "Office of Biotechnology Products, Office of Pharmaceutical Quality, Center for Drugs Evaluation and Research, Food and Drug Administration, Silver Spring, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Kolaitis",
+          "fore_name": "Gerry",
+          "affiliations": [
+            "Non-Clinical Disposition and Bioanalysis, Bristol Myers Squibb, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Kulagina",
+          "fore_name": "Nadia",
+          "affiliations": [
+            "Pharmaceutical Development Services, Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Seema",
+          "affiliations": [
+            "EMD Serono Research and Development Institute (A business of Merck KGaA, Darmstadt, Germany), Billerica, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Lai",
+          "fore_name": "Ching Ha",
+          "affiliations": [
+            "Bioanalytical Sciences, Regeneron Pharmaceuticals, Tarrytown, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Lipari",
+          "fore_name": "Francesco",
+          "affiliations": [
+            "Nexelis, a Q2 Solutions Company, Vaccine Sciences, Laval, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Susana",
+          "affiliations": [
+            "Global Product Development, Clinical Assay Group, Pfizer Inc., Kirkland, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Merdek",
+          "fore_name": "Keith D",
+          "affiliations": [
+            "Biomarkers and Clinical Bioanalyses (TMED), Sanofi, Framingham, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Moldovan",
+          "fore_name": "Ioana R",
+          "affiliations": [
+            "Cellular Technology Limited (CTL), Shaker Heights, Ohio, USA."
+          ]
+        },
+        {
+          "last_name": "Mozaffari",
+          "fore_name": "Reza",
+          "affiliations": [
+            "Bioanalysis, Immunogenicity and Biomarkers (BIB), IVIVT, Research, GSK, Collegeville, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Pan",
+          "fore_name": "Luying",
+          "affiliations": [
+            "Clinical Biomarker Innovation and Development, Takeda Development Center Americas Inc., Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Place",
+          "fore_name": "Corina",
+          "affiliations": [
+            "DMPK/Bioanalytical Sciences, Boehringer Ingelheim Pharmaceuticals Inc, Ridgefield, Connecticut, USA."
+          ]
+        },
+        {
+          "last_name": "Snoeck",
+          "fore_name": "Veerle",
+          "affiliations": [
+            "Translational Biomarkers and Bioanalysis, UCB Biopharma SRL, Braine-l'Alleud, Belgium."
+          ]
+        },
+        {
+          "last_name": "Manning",
+          "fore_name": "Marta Starcevic",
+          "affiliations": [
+            "Translational Safety and Bioanalytical Sciences, Amgen Inc., Thousand Oaks, California, USA."
+          ]
+        },
+        {
+          "last_name": "Stocker",
+          "fore_name": "Dennis",
+          "affiliations": [
+            "Non-Clinical Disposition and Bioanalysis, Bristol Myers Squibb, Princeton, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Tary-Lehmann",
+          "fore_name": "Magdalena",
+          "affiliations": [
+            "Cellular Technology Limited, Department Contract Laboratory, Shaker Heights, Ohio, USA."
+          ]
+        },
+        {
+          "last_name": "Turner",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Pharmaceutical Development Services, Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Vainshtein",
+          "fore_name": "Inna",
+          "affiliations": [
+            "Clinical Pharmacology and Translational Sciences, Exelixis, Alameda, California, USA."
+          ]
+        },
+        {
+          "last_name": "Verthelyi",
+          "fore_name": "Daniela",
+          "affiliations": [
+            "Office of Biotechnology Products, Office of Pharmaceutical Quality, Center for Drugs Evaluation and Research, Food and Drug Administration, Silver Spring, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "William T",
+          "affiliations": [
+            "Bioanalytical Operations, BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Haoheng",
+          "affiliations": [
+            "Office of Biotechnology Products, Office of Pharmaceutical Quality, Center for Drugs Evaluation and Research, Food and Drug Administration, Silver Spring, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Weili",
+          "affiliations": [
+            "Department of Bioanalytical Sciences, Genentech, South San Francisco, California, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lili",
+          "affiliations": [
+            "Clinical Biomarker Innovation and Development, Takeda Development Center Americas Inc., Cambridge, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lin",
+          "affiliations": [
+            "Bioanalytical Sciences, REGENXBIO Inc., Rockville, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Zemo",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Bioanalytical Operations, BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Zhong",
+          "fore_name": "Zhandong Don",
+          "affiliations": [
+            "Development Sciences, Denali Therapeutics, South San Francisco, California, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Antibodies",
+        "Antibodies, Neutralizing"
+      ],
+      "keywords": [
+        "Anti-drug antibodies (ADA)",
+        "Bioanalytical report (BAR)",
+        "Clinical Study Report (CSR)",
+        "Immunogenicity",
+        "In-study cut point",
+        "Report harmonization",
+        "The Integrated Summary of Immunogenicity (ISI)"
+      ]
+    },
+    {
+      "pmid": "35904153",
+      "doi": "10.4155/bio-2022-0143",
+      "title": "Biomarker context-of-use: how organizational design can impact the implementation of the appropriate biomarker assay strategy.",
+      "abstract": "Since 2011, the European Bioanalysis Forum has been discussing the topic of context-of-use for biomarker assays, in support of a cross-industry implementation of its principles. The discussions have led to the acknowledgement of the challenges that\u00a0we face as an industry in implementing these principles. In addition to scientific recommendations, the European Bioanalysis Forum has addressed these challenges by\u00a0providing recommendations on organizational design, and what works in both sponsor and contract research organizations, to support and enable context-of-use across biomarker strategies. Here, we highlight the key considerations for organizational design to help ensure that biomarker assays are characterized and validated according to the right context-of-use, to ensure that the right decisions based on the biomarker data can be made during drug development.",
+      "journal": "Bioanalysis",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Cowan",
+          "fore_name": "Kyra J",
+          "affiliations": [
+            "Merck KGaA, New Biological Entities Drug Metabolism & Pharmacokinetics, Darmstadt, 64293, Germany."
+          ]
+        },
+        {
+          "last_name": "Golob",
+          "fore_name": "Michaela",
+          "affiliations": [
+            "Nuvisan GmbH, Bioanalysis, Neu-Ulm, 89231, Germany."
+          ]
+        },
+        {
+          "last_name": "Goodman",
+          "fore_name": "Joanne",
+          "affiliations": [
+            "Integrated Bioanalysis, Clinical Pharmacology & Safety Sciences, BioPharmaceuticals R&D, AstraZeneca, Cambridge, CB21 6GH, UK."
+          ]
+        },
+        {
+          "last_name": "Laur\u00e9n",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Novo Nordisk A/S, Non-clinical & Clinical Assay Sciences, Global Discovery & Development Sciences, Global Drug Discovery, Mal\u00f8v, DK-2760, Denmark."
+          ]
+        },
+        {
+          "last_name": "Andersen",
+          "fore_name": "Lene",
+          "affiliations": [
+            "Lundbeck A/S, Experimental Medicine\u00a0& Clinical Development, Valby, DK-2500, Denmark representing Orphazyme A/S, Clinical Development, Copenhagen N, DK-2200, Denmark."
+          ]
+        },
+        {
+          "last_name": "Decker",
+          "fore_name": "Philip De",
+          "affiliations": [
+            "Argenx BV, Bioanalytics, Zwijnaarde, 9052, Belgium."
+          ]
+        },
+        {
+          "last_name": "Dejager",
+          "fore_name": "Lien",
+          "affiliations": [
+            "UCB Pharma, Development Science, Translational Biomarkers & Bioanalysis, Chemin du Foriest, Braine-l'Alleud, B-1420, Belgium."
+          ]
+        },
+        {
+          "last_name": "Fjording",
+          "fore_name": "Marianne Scheel",
+          "affiliations": [
+            "BioAgilytix Labs, Lademannbogen 10, Hamburg, 22339, Germany."
+          ]
+        },
+        {
+          "last_name": "Groenen",
+          "fore_name": "Peter",
+          "affiliations": [
+            "Idorsia Pharmaceuticals Ltd., Translational Biomarkers, Allschwil, 4123, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Jasnowski",
+          "fore_name": "Renaud",
+          "affiliations": [
+            "Active Biomarkers, 60F Avenue Rockefeller, Lyon, 69008, France."
+          ]
+        },
+        {
+          "last_name": "Justies",
+          "fore_name": "Nicole",
+          "affiliations": [
+            "Roche Innovation Center Basel, Roche Pharmaceutical Research & Early Development, Basel, 4070, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Kimberg",
+          "fore_name": "Matti",
+          "affiliations": [
+            "Synexa Life Sciences BV, Leiden, 2333 CS, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Kunz",
+          "fore_name": "Ulrich",
+          "affiliations": [
+            "Boehringer Ingelheim Pharma GmbH & Co. KG, Translational Medicine & Clinical Pharmacology, Biberach an der Riss, 88397, Germany."
+          ]
+        },
+        {
+          "last_name": "Lawrence",
+          "fore_name": "James",
+          "affiliations": [
+            "F-star Therapeutics, Cambridge, CB22 3AT, UK."
+          ]
+        },
+        {
+          "last_name": "Richter",
+          "fore_name": "Mario",
+          "affiliations": [
+            "AbbVie Deutschland GmbH & Co KG, DMPK-BA, Knollstrasse, Ludwigshafen, 67061, Germany."
+          ]
+        },
+        {
+          "last_name": "Sord\u00e9",
+          "fore_name": "Laetitia",
+          "affiliations": [
+            "Sobi AG, Bioanalytical Sciences, Plan-les-Ouates, 1228, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Trigt",
+          "fore_name": "Radboud van",
+          "affiliations": [
+            "ICON Bioanalytical Laboratories, Assen, 9407 TK, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Vermet",
+          "fore_name": "Laurent",
+          "affiliations": [
+            "Sanofi Research & Development, Translational Medicine & Early Development, Biomarkers & Clinical Bioanalysis, Montpellier, 34080, France."
+          ]
+        },
+        {
+          "last_name": "Vitaliti",
+          "fore_name": "Alessandra",
+          "affiliations": [
+            "Novartis Institutes for Biomedical Research, Novartis Pharma AG, Basel, 4056, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wright",
+          "fore_name": "Michael",
+          "affiliations": [
+            "GlaxoSmithKline, Bioanalysis Immunogenicity & Biomarkers, Stevenage, SG1 2NY, UK."
+          ]
+        },
+        {
+          "last_name": "Timmerman",
+          "fore_name": "Philip",
+          "affiliations": [
+            "European Bioanalysis Forum, Brussels, 1000, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Biological Assay",
+        "Biomarkers"
+      ],
+      "keywords": [
+        "assays",
+        "biomarkers",
+        "context of use"
+      ]
+    },
+    {
+      "pmid": "35536018",
+      "pmc": "PMC5967553",
+      "doi": "10.1093/molbev/msy096",
+      "title": "Vertical HIV-1 Transmission in the Setting of Maternal Broad and Potent Antibody Responses.",
+      "abstract": "Despite the worldwide availability of antiretroviral therapy (ART), approximately 150,000 pediatric HIV infections continue to occur annually. ART can dramatically reduce HIV mother-to-child transmission (MTCT), but inconsistent drug access and adherence, as well as primary maternal HIV infection during pregnancy and lactation are major barriers to eliminating vertical HIV transmission. Thus, immunologic strategies to prevent MTCT, such as an HIV vaccine, will be required to attain an HIV-free generation. A primary goal of HIV vaccine research has been to elicit broadly neutralizing antibodies (bnAbs) given the ability of passive bnAb immunization to protect against sensitive strains, yet we previously observed that HIV-transmitting mothers have more plasma neutralization breadth than nontransmitting mothers. Additionally, we have identified infant transmitted/founder (T/F) viruses that escape maternal bnAb responses. In this study, we examine a cohort of postpartum HIV-transmitting women with neutralization breadth to determine if certain maternal bnAb specificities drive the selection of infant T/F viruses. Using HIV pseudoviruses that are resistant to neutralizing antibodies targeting common bnAb epitopes, we mapped the plasma bnAb specificities of this cohort. Significantly more transmitting women with plasma bnAb activity had a mappable plasma bnAb specificity (six of seven, or 85.7%) compared to that of nontransmitting women with plasma bnAb activity (7 of 21, or 33.3%,",
+      "journal": "J Virol",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Tu",
+          "fore_name": "Joshua J",
+          "affiliations": [
+            "Duke Human Vaccine Institute, Duke Universitygrid.26009.3d Medical Center, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Amit",
+          "affiliations": [
+            "Duke Human Vaccine Institute, Duke Universitygrid.26009.3d Medical Center, Durham, North Carolina, USA.",
+            "BioAgilytix Labs, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Giorgi",
+          "fore_name": "Elena E",
+          "affiliations": [
+            "Theoretical Division, Los Alamos National Laboratorygrid.148313.c, Los Alamos, New Mexico, USA."
+          ]
+        },
+        {
+          "last_name": "Eudailey",
+          "fore_name": "Joshua",
+          "affiliations": [
+            "Department of Pediatrics, Weill Cornell Medicinegrid.471410.7, New York, New York, USA."
+          ]
+        },
+        {
+          "last_name": "LaBranche",
+          "fore_name": "Celia C",
+          "affiliations": [
+            "Department of Surgery, Duke Universitygrid.26009.3d School of Medicine, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Martinez",
+          "fore_name": "David R",
+          "affiliations": [
+            "Department of Epidemiology, University of North Carolina at Chapel Hillgrid.10698.36, Chapel Hill, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Fouda",
+          "fore_name": "Genevieve G",
+          "affiliations": [
+            "Duke Human Vaccine Institute, Duke Universitygrid.26009.3d Medical Center, Durham, North Carolina, USA.",
+            "Department of Molecular Genetics and Microbiology, Duke Universitygrid.26009.3d Medical Center, Durham, North Carolina, USA.",
+            "Department of Pediatrics, Duke Universitygrid.26009.3d Medical Center, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Moreau",
+          "fore_name": "Yvetane",
+          "affiliations": [
+            "Department of Medicine, Boston Medical Center, Boston Universitygrid.189504.1 School of Medicine, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Thomas",
+          "fore_name": "Allison",
+          "affiliations": [
+            "Department of Medicine, Boston Medical Center, Boston Universitygrid.189504.1 School of Medicine, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Montefiori",
+          "fore_name": "David",
+          "affiliations": [
+            "Duke Human Vaccine Institute, Duke Universitygrid.26009.3d Medical Center, Durham, North Carolina, USA.",
+            "Department of Surgery, Duke Universitygrid.26009.3d School of Medicine, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Gao",
+          "fore_name": "Feng",
+          "affiliations": [
+            "Department of Medicine, Duke Universitygrid.26009.3d Medical Center, Durham, North Carolina, USA.",
+            "School of Medicine, Jinan University, Guangzhou, Guangdong, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Sagar",
+          "fore_name": "Manish",
+          "affiliations": [
+            "Department of Medicine, Boston Medical Center, Boston Universitygrid.189504.1 School of Medicine, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Permar",
+          "fore_name": "Sallie R",
+          "affiliations": [
+            "Duke Human Vaccine Institute, Duke Universitygrid.26009.3d Medical Center, Durham, North Carolina, USA.",
+            "Department of Pediatrics, Weill Cornell Medicinegrid.471410.7, New York, New York, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "AIDS Vaccines",
+        "Antibody Formation",
+        "Broadly Neutralizing Antibodies",
+        "Epitopes",
+        "Female",
+        "HIV Antibodies",
+        "HIV Infections",
+        "HIV Seropositivity",
+        "HIV-1",
+        "Humans",
+        "Infant",
+        "Infectious Disease Transmission, Vertical",
+        "Pregnancy"
+      ],
+      "keywords": [
+        "BnAbs",
+        "HIV",
+        "MTCT",
+        "infant",
+        "maternal",
+        "neutralizing antibodies",
+        "vaccines"
+      ]
+    },
+    {
+      "pmid": "35511303",
+      "doi": "10.4155/bio-2020-0243",
+      "title": "Is Incurred Sample Reanalysis (ISR) Applicable in Biomarker Assays?",
+      "abstract": "",
+      "journal": "AAPS J",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC, 27713, USA. Amanda.hays@bioagilytix.com."
+          ]
+        },
+        {
+          "last_name": "Amaravadi",
+          "fore_name": "Lakshmi",
+          "affiliations": [
+            "Boston Pharmaceuticals, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Fernandez-Metzler",
+          "fore_name": "Carmen",
+          "affiliations": [
+            "Pharmacadence Analytical Services, Hatfield, PA, USA."
+          ]
+        },
+        {
+          "last_name": "King",
+          "fore_name": "Lindsay",
+          "affiliations": [
+            "Pfizer Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Mathews",
+          "fore_name": "Joel",
+          "affiliations": [
+            "Ionis Pharmaceuticals, Carlsbad, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Ni",
+          "fore_name": "Yan",
+          "affiliations": [
+            "Passage Bio, Inc., Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Quadrini",
+          "fore_name": "Karen",
+          "affiliations": [
+            "Passage Bio, Inc., Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Tinder",
+          "fore_name": "Chunyan",
+          "affiliations": [
+            "Bristol Myers Squibb, Princeton, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Vazvaei",
+          "fore_name": "Faye",
+          "affiliations": [
+            "Merck & Co. Inc., Rahway, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Zeng",
+          "fore_name": "Jianing",
+          "affiliations": [
+            "Bristol Myers Squibb, Princeton, NJ, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Biological Assay",
+        "Biomarkers",
+        "Reproducibility of Results"
+      ],
+      "keywords": [
+        "ISR",
+        "biomarker stability",
+        "biomarkers",
+        "eQC",
+        "parallelism"
+      ]
+    },
+    {
+      "pmid": "35438454",
+      "doi": "10.1208/s12248-022-00705-1",
+      "title": "Correction: Best Practices in qPCR and dPCR Validation in Regulated Bioanalytical Laboratories.",
+      "abstract": "",
+      "journal": "AAPS J",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC, 27713, USA. Amanda.hays@bioagilytix.com."
+          ]
+        },
+        {
+          "last_name": "Islam",
+          "fore_name": "Rafiq",
+          "affiliations": [
+            "Smithers, Gaithersburg, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Matys",
+          "fore_name": "Katie",
+          "affiliations": [
+            "PPD, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "Dave",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC, 27713, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "35194700",
+      "doi": "10.4155/bio-2021-0218",
+      "pmc": "7786041",
+      "title": "Best Practices in qPCR and dPCR Validation in Regulated Bioanalytical Laboratories.",
+      "abstract": "",
+      "journal": "AAPS J",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC, 27713, USA. Amanda.hays@bioagilytix.com."
+          ]
+        },
+        {
+          "last_name": "Islam",
+          "fore_name": "Rafiq",
+          "affiliations": [
+            "Smithers, Gaithersburg, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Matys",
+          "fore_name": "Katie",
+          "affiliations": [
+            "PPD, Richmond, VA, USA."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "Dave",
+          "affiliations": [
+            "BioAgilytix Labs, 2300 Englert Drive, Durham, NC, 27713, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Laboratories",
+        "Real-Time Polymerase Chain Reaction"
+      ],
+      "keywords": []
+    }
+  ]
+}

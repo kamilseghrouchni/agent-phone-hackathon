@@ -1,0 +1,180 @@
+{
+  "bundle_id": "pls-csf-serum-pbmc-dna",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "The Neuro C-BIG Repository"
+      ],
+      "pass": "find >= 1 org with PLS-specific specimens OR find >= 1 org that explicitly lists PLS (not just ALS/MND) in their catalog",
+      "notes": "PLS is ultra-rare. C-BIG is the only AminoChain source. Pipeline may find academic MND clinics or ALS centers that also collect PLS — these are valid additional finds. Critical failure mode: pipeline finds ALS sources and labels them as PLS-eligible without explicit PLS documentation."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data",
+        "PLS diagnosis must be explicitly cited — not inferred from ALS/MND collection"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name",
+        "pls_vs_als_separation"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "pbmc_isolation_method"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "The Neuro C-BIG Repository": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "specimen_count": 529,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "C-BIG has the only known PLS-specific specimens in AminoChain, named contact, documented open biobank infrastructure, and longitudinal collection capability. PLS/ALS co-labeling is a known complication — confirmed PLS-only count is 20 donors, which is the realistic usable N."
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "pls_confirmed_vs_als",
+          "reason": "PLS specimens co-labeled with ALS in registry — pure PLS confirmation requires neuropathology or clinical review per donor"
+        },
+        {
+          "field": "upper_motor_neuron_only_confirmed",
+          "reason": "critical for PLS diagnosis validity — not indexed in specimen registry"
+        },
+        {
+          "field": "disease_duration_at_collection",
+          "reason": "not indexed — required to contextualize biomarker levels"
+        },
+        {
+          "field": "alsfrs_r_score",
+          "reason": "functional rating not in specimen registry — requires clinical data linkage"
+        },
+        {
+          "field": "pbmc_viability",
+          "reason": "thaw viability records not indexed — critical for PBMC-based assays"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not available in specimen data — requires direct inquiry"
+        },
+        {
+          "field": "freeze_thaw_count",
+          "reason": "not tracked in AminoChain data"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents scarcity as completeness)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "The Neuro C-BIG Repository": 529
+      },
+      "pass": "find C-BIG OR find at least 1 alternative with documented PLS specimens (not just ALS/MND)"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented specimen counts — every N cites a source",
+        "no invented contacts — every email traces to paper/website/registry",
+        "no training-data fills for cost or biomarker data",
+        "ALS sources must NOT be presented as PLS sources without explicit PLS documentation",
+        "usable N of 20 donors must not be inflated from 529 total specimens across all diagnoses"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "NfL": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    },
+    "GFAP": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    },
+    "TDP_43": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    }
+  }
+}

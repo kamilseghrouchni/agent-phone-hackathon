@@ -1,0 +1,3063 @@
+{
+  "name": "BGI Genomics",
+  "cleaned_name": "BGI Genomics",
+  "aliases_tried": [
+    "BGI Genomics"
+  ],
+  "publication_total": 354,
+  "search_queries": [
+    "\"BGI Genomics\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "42069757",
+      "doi": "10.1038/s41467-026-72682-4",
+      "title": "Cell-free DNA fragmentomics for preeclampsia risk assessment.",
+      "abstract": "Preeclampsia (PE) is a pregnancy-specific hypertensive disorder that could lead to serious maternal and fetal complications, yet early identification of women at risk remains challenging because reliable biomarkers are limited. Here we show that generating relatively stable cell-free DNA (cfDNA) fragmentomic metrics, including transcription start site (TSS) coverage, TSS score, and Gini coefficient, required 600 million whole-genome sequencing reads of plasma cfDNA. These metrics exhibited observable differences among genes with varying expression levels in blood cells and placental tissues. In a cohort of 1,058 pregnant women, cfDNA fragmentomics could distinguish pregnancies that subsequently developed PE. When integrated with maternal risk factors, predictive models in two independent test sets achieved mean area under the curves of 0.903 and 0.850 for early-onset and late-onset PE, respectively, with sensitivities of 0.731 and 0.607 at a 10% false positive rate. Importantly, these models also performed well in samples collected before or at 16 weeks of gestation, supporting the potential of cfDNA fragmentomics in early PE risk assessment.",
+      "journal": "Nat Commun",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Xu",
+          "fore_name": "Wenqiu",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Songchang",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China.",
+            "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jia",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Si",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Yin",
+          "fore_name": "Yanning",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Qiu",
+          "fore_name": "Zhixu",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Jianguo",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China.",
+            "School of Public Health, Hebei Medical University, Shijiazhuang, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Cong",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China.",
+            "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Qiang",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Jiangmen Central Hospital, Jiangmen, Guangdong province, China.",
+            "Clinical Transformation and Application Key Lab for Obstetrics and Gynecology, Pediatrics, and Reproductive Medicine of Jiangmen, Jiangmen, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Gefei",
+          "affiliations": [
+            "Department of Medical Genetics and Prenatal Diagnosis, Zhuhai Center for Maternal and Child Health Care, Zhuhai, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Yan",
+          "affiliations": [
+            "Inner Mongolia Maternity and Child Health Care Hospital, Hohhot, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Zhiguang",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xiao",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Wenzhi",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yunfang",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Huiqin",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Zhen",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China.",
+            "Clin Lab, BGI Genomics, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Suihua",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Jiangmen Central Hospital, Jiangmen, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Qun",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Jiangmen Central Hospital, Jiangmen, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Weiping",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Jiangmen Central Hospital, Jiangmen, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Huahua",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Jiangmen Central Hospital, Jiangmen, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Ruan",
+          "fore_name": "Xiaohong",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Jiangmen Central Hospital, Jiangmen, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Hua",
+          "affiliations": [
+            "Department of Medical Genetics and Prenatal Diagnosis, Zhuhai Center for Maternal and Child Health Care, Zhuhai, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Sufen",
+          "affiliations": [
+            "Department of Medical Genetics and Prenatal Diagnosis, Zhuhai Center for Maternal and Child Health Care, Zhuhai, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Liqing",
+          "affiliations": [
+            "Department of Medical Genetics and Prenatal Diagnosis, Zhuhai Center for Maternal and Child Health Care, Zhuhai, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Qin",
+          "fore_name": "Jie",
+          "affiliations": [
+            "Department of Medical Genetics and Prenatal Diagnosis, Zhuhai Center for Maternal and Child Health Care, Zhuhai, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Wuyan",
+          "affiliations": [
+            "Department of Medical Genetics and Prenatal Diagnosis, Zhuhai Center for Maternal and Child Health Care, Zhuhai, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Zhongzhe",
+          "affiliations": [
+            "Department of Prevention and Health Care, Zhuhai Center for Maternal and Child Health Care, Zhuhai, Guangdong province, China."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Xianling",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China.",
+            "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Xuanyou",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China.",
+            "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Naixin",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China.",
+            "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Hou",
+          "fore_name": "Dongxia",
+          "affiliations": [
+            "Inner Mongolia Maternity and Child Health Care Hospital, Hohhot, China."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Hong",
+          "affiliations": [
+            "Inner Mongolia Maternity and Child Health Care Hospital, Hohhot, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Jie",
+          "affiliations": [
+            "Inner Mongolia Maternity and Child Health Care Hospital, Hohhot, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Yaxian",
+          "affiliations": [
+            "Inner Mongolia Maternity and Child Health Care Hospital, Hohhot, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Quanfu",
+          "affiliations": [
+            "Shenzhen Baoan Women's and Children's Hospital, Shenzhen, Guangdong Province, China. szzhqf@126.com."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xiaohua",
+          "affiliations": [
+            "Inner Mongolia Maternity and Child Health Care Hospital, Hohhot, China. wangxiaohua2222@163.com."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Lijian",
+          "affiliations": [
+            "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China. zhaolijian@genomics.cn.",
+            "BGI Genomics, Shenzhen, China. zhaolijian@genomics.cn.",
+            "Medical Technology College, Hebei Medical University, Shijiazhuang, China. zhaolijian@genomics.cn."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Hefeng",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China. huanghefg@hotmail.com.",
+            "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China. huanghefg@hotmail.com."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Chenming",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China. chenming_xu2006@163.com.",
+            "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China. chenming_xu2006@163.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "42036683",
+      "pmc": "PMC7588622",
+      "doi": "10.1016/j.cels.2020.08.015",
+      "title": "Highly\u00a0efficient\u00a0chromatin\u00a0conformation\u00a0capture\u00a0with\u00a0post-enrichment\u00a0in\u00a0single\u00a0cells\u00a0by\u00a0HiChew.",
+      "abstract": "We present HiChew, a novel chromatin conformation capture method combining efficient sticky-end ligation with post-PCR methylation-based enrichment. HiChew achieves approximately 50% valid pair ratios compared to 8% for unenriched methods, while maintaining high sensitivity. Its single-cell implementation, snHiChew, achieves 45-50% valid pair ratios, and enables 5-10\u00a0kb resolution mapping with 70-80% bin coverage. Comparative analyses show strong concordance with conventional Hi-C for chromatin compartments, TADs, and loops. By combining scalability, cost-effectiveness and data quality, HiChew provides a powerful platform for advancing studies of 3D genome architecture analysis.",
+      "journal": "Genome Biol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Chen",
+          "fore_name": "Zhichao",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China.",
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Yeming",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Chen",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Chen",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Ruan",
+          "fore_name": "Fengying",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Wenfang",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Meng",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Mei",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Zhe",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Cao",
+          "fore_name": "Huimin",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Meifang",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xiuqing",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China.",
+            "BGI Research, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Ying",
+          "affiliations": [
+            "NHC Key Laboratory of Male Reproduction and Genetics, Guangzhou, 510600, China. yingzhang@gdszjk.org.cn.",
+            "Human Sperm Bank of Guangdong Province, Guangdong Provincial Reproductive Science Institute, Guangdong Provincial Fertility Hospital, Guangzhou, 510600, China. yingzhang@gdszjk.org.cn."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Chong",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China. tangchong@bgi.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Chromatin",
+        "Single-Cell Analysis",
+        "Humans"
+      ],
+      "keywords": [
+        "3D genome structure",
+        "Chromatin conformation capture",
+        "Chromatin interactions",
+        "DNA methylation",
+        "HiChew",
+        "High-throughput sequencing",
+        "Nuclear architecture",
+        "Post-enrichment method",
+        "Single-cell Hi-C",
+        "Valid pair ratio"
+      ]
+    },
+    {
+      "pmid": "42043777",
+      "doi": "10.3389/fped.2023.1283880",
+      "title": "Diagnostic uncertainty as a public health imperative: a call for R69 code adoption.",
+      "abstract": "",
+      "journal": "Diagnosis (Berl)",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Hernandez",
+          "fore_name": "Helen W",
+          "affiliations": [
+            "KAL Research Initiatives, Katy, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Epstein",
+          "fore_name": "Helene M",
+          "affiliations": [
+            "PATIENT NO MORE, Stamford, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Alimohamed",
+          "fore_name": "Mohamed Zahir",
+          "affiliations": [
+            "Department of Biochemistry and Molecular Biology, Muhimbili University of Health and Allied Sciences School of Biomedical Sciences, Dar es Salaam, Tanzania."
+          ]
+        },
+        {
+          "last_name": "Haskell",
+          "fore_name": "Helen",
+          "affiliations": [
+            "Mothers Against Medical Error, Columbia, SC, USA."
+          ]
+        },
+        {
+          "last_name": "Mentis",
+          "fore_name": "Alexios-Fotos",
+          "affiliations": [
+            "Shenzhen BGI Genomics Institute Shenzhen, Shenzhen, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Pearce",
+          "fore_name": "David A",
+          "affiliations": [
+            "Department of Pediatrics, University of South Dakota School of Medicine, Sioux Falls, SD, USA."
+          ]
+        },
+        {
+          "last_name": "Kanter",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Departments of Health System Science and Clinical Science, Kaiser Permanente Bernard J Tyson School of Medicine and Research and Evaluation, Southern California Permanente Medical Group, Pasadena, CA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "diagnostic error",
+        "diagnostic uncertainty",
+        "rare diseases",
+        "system change",
+        "uncertainty disclosure",
+        "undiagnosed"
+      ]
+    },
+    {
+      "pmid": "42017236",
+      "doi": "10.1161/HYPERTENSIONAHA.125.26388",
+      "title": "Association Between Cardiovascular Polygenic Risk and White Matter Hyperintensities: An Observational Study From the UK Biobank.",
+      "abstract": "White matter hyperintensities (WMH), a marker of cerebral small vessel disease, are associated with cardiovascular risk factors and disease. However, the extent to which these associations are driven by shared genetic architecture remains unclear. Using data from 44\u2009996 UK Biobank participants, we evaluated associations between WMH subtypes (total WMH, deep WMH, and periventricular WMH) and polygenic risk scores (PRSs) for 35 diseases and traits. Associations were tested using \u03c7 Higher WMH burden was associated with increased PRSs for cardiovascular disease (CVD), hypertension, ischemic stroke, and blood pressure, with the strongest associations observed for total WMH. WMH burden was prospectively associated with higher CVD incidence among individuals with high CVD PRS (hazard ratio, 2.54 [95% CI, 1.44-4.45]), but not among those with low PRS. For hypertension, WMH burden was associated with increased risk in both PRS strata, with stronger associations in individuals with high hypertension PRS, indicating additive contributions of genetic susceptibility and WMH burden. Lifestyle influences varied by genetic background: longer sleep duration and lower body mass index were protective only with low CVD PRS. Multiomics analyses identified 46 circulating biomarkers jointly associated with WMH and CVD PRSs, predominantly related to lipid metabolism. The association between WMH burden and cardiovascular-related disease risk is influenced by genetic background, supporting precision risk stratification and prevention in clinical practice.",
+      "journal": "Hypertension",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yongfang",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing (Y.Z., S.G., S.L., N.Z.).",
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Sicheng",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing (Y.Z., S.G., S.L., N.Z.).",
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "Yuting",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Weiqi",
+          "affiliations": [
+            "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, China (W.C., T.W., Y.W.)."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Lingling",
+          "affiliations": [
+            "China National Clinical Research Center for Neurological Diseases, Beijing (L.J., Y.W.)."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Tingting",
+          "affiliations": [
+            "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, China (W.C., T.W., Y.W.)."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Yun",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Cai",
+          "fore_name": "Xingya",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Jing",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Yile",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.).",
+            "Medical Technology College, Hebei Medical University, Shijiazhuang, China (Y.C., L.Z., J.Z.)."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Shaojie",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing (Y.Z., S.G., S.L., N.Z.).",
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Ningjing",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing (Y.Z., S.G., S.L., N.Z.).",
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Hou",
+          "fore_name": "Ziting",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.).",
+            "School of Public Health, Shenzhen University Medical School, Shenzhen University, Guangdong, China (Z.H.)."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xiuqing",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Hui",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Hui",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Shida",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Lijian",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.).",
+            "Medical Technology College, Hebei Medical University, Shijiazhuang, China (Y.C., L.Z., J.Z.)."
+          ]
+        },
+        {
+          "last_name": "Kristiansen",
+          "fore_name": "Karsten",
+          "affiliations": [
+            "Laboratory of Integrative Biomedicine, Department of Biology, University of Copenhagen, Denmark (K.K., X.S.)."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Jianguo",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.).",
+            "Medical Technology College, Hebei Medical University, Shijiazhuang, China (Y.C., L.Z., J.Z.)."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yilong",
+          "affiliations": [
+            "Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, China (W.C., T.W., Y.W.).",
+            "China National Clinical Research Center for Neurological Diseases, Beijing (L.J., Y.W.).",
+            "Advanced Innovation Center for Human Brain Protection, Capital Medical University, Beijing, China (Y.W.).",
+            "National Center for Neurological Disorders, Beijing, China (Y.W.).",
+            "Chinese Institute for Brain Research, Beijing (Y.W.).",
+            "Beijing Laboratory of Oral Health, Capital Medical University, China (Y.W.).",
+            "Laboratory for Clinical Medicine, Capital Medical University (Y.W.)."
+          ]
+        },
+        {
+          "last_name": "Su",
+          "fore_name": "Xi",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.).",
+            "Laboratory of Integrative Biomedicine, Department of Biology, University of Copenhagen, Denmark (K.K., X.S.)."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "arterial pressure",
+        "blood pressure",
+        "body mass index",
+        "ischemic stroke",
+        "risk factors"
+      ]
+    },
+    {
+      "pmid": "41916296",
+      "pmc": "PMC3339379",
+      "doi": "10.1016/j.lungcan.2013.07.016",
+      "title": "Robust transcriptomic hallmarks targeting intratumor heterogeneity in intrahepatic cholangiocarcinoma.",
+      "abstract": "Intratumor heterogeneity (ITH) undermines transcriptome-based stratification in intrahepatic cholangiocarcinoma (iCCA). Here, we integrate multi-omics data from multi-region, single-region, and single-cell RNA sequencing cohorts to systematically characterize gene expression ITH. We uncover that immune and stromal heterogeneity are primary drivers of ITH, leading to misclassification of a median 27.8% of tumors by existing subtyping systems. To overcome this, we identify a low-intratumor-heterogeneity/high-intertumor-variability (LIHV) gene set and develop an ITH-insensitive classification system defining five subgroups: inflammatory (SI), metabolic (SII), atypical (SIII-1), immune-silent (SIII-2), and neurodegenerative (SIII-3). These subgroups exhibit distinct clinical outcomes, molecular features, immune landscapes, and therapeutic vulnerabilities. GPRC5A and VTCN1 serve as robust immunohistochemical biomarkers for SI and SIII tumors, while serum CEA and CA19-9 identify inflammatory iCCA. Therapeutically, HSP90 inhibition synergizes with anti-PD1 in inflammatory iCCA, whereas combined anti-PD1 and anti-TIM3 suppresses neurodegenerative iCCA. Collectively, our study provides a robust molecular framework and actionable therapeutic strategies for iCCA.",
+      "journal": "Cell Rep Med",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Lin",
+          "fore_name": "Youpei",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Lihua",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Haichao",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Penghui",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Lv",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Gong",
+          "fore_name": "Zunyun",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100000, China."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Jian",
+          "affiliations": [
+            "Zhejiang Provincial Key Laboratory of Pancreatic Disease, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou 310000, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Dongbing",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China; Jiangxi Provincial Key Laboratory of Organ Development and Epigenetics, School of Basic Medicine, Jinggangshan University, Ji'an 343009, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Xupeng",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Xiangze",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China; School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Mao",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Ji",
+          "fore_name": "Shuyi",
+          "affiliations": [
+            "Institute for Regenerative Medicine, Medical Innovation Center and State Key Laboratory of Cardiology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200123, China."
+          ]
+        },
+        {
+          "last_name": "Rao",
+          "fore_name": "Junhua",
+          "affiliations": [
+            "BGI, Shenzhen 518083, China."
+          ]
+        },
+        {
+          "last_name": "Luo",
+          "fore_name": "Huijuan",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China."
+          ]
+        },
+        {
+          "last_name": "Cheng",
+          "fore_name": "Yifei",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Xiaofang",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100000, China."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Guohe",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Hou",
+          "fore_name": "Hao",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100000, China."
+          ]
+        },
+        {
+          "last_name": "Rao",
+          "fore_name": "Dongning",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Tiancheng",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Weiren",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Shu",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Gaoyang",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100000, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Juan",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Liyun",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Yan",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Yang",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100000, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Yuhan",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100000, China."
+          ]
+        },
+        {
+          "last_name": "Cui",
+          "fore_name": "Zhirou",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100000, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xiaoying",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Jian",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China."
+          ]
+        },
+        {
+          "last_name": "Gao",
+          "fore_name": "Qiang",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China; Key Laboratory of Medical Epigenetics and Metabolism, Institutes of Biomedical Sciences, Fudan University, Shanghai 200032, China; State Key Laboratory of Genetic Engineering, Fudan University, Shanghai 200433, China. Electronic address: gaoqiang@fudan.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Kui",
+          "affiliations": [
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Hangzhou 310030, China; College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100000, China; Jiangxi Provincial Key Laboratory of Organ Development and Epigenetics, School of Basic Medicine, Jinggangshan University, Ji'an 343009, China. Electronic address: wukui@genomics.cn."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "Jia",
+          "affiliations": [
+            "Department of Hepatobiliary Surgery and Transplantation, Liver Cancer Institute and Key Laboratory of Carcinogenesis and Cancer Invasion (Ministry of Education), Zhongshan Hospital, Fudan University, Shanghai 200032, China; Key Laboratory of Medical Epigenetics and Metabolism, Institutes of Biomedical Sciences, Fudan University, Shanghai 200032, China; State Key Laboratory of Genetic Engineering, Fudan University, Shanghai 200433, China. Electronic address: fan.jia@zs-hospital.sh.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Cholangiocarcinoma",
+        "Transcriptome",
+        "Bile Duct Neoplasms",
+        "Biomarkers, Tumor",
+        "Gene Expression Regulation, Neoplastic",
+        "HSP90 Heat-Shock Proteins",
+        "Female",
+        "Male",
+        "Genetic Heterogeneity",
+        "Tumor Microenvironment",
+        "Receptors, G-Protein-Coupled"
+      ],
+      "keywords": [
+        "GPRC5A",
+        "HSP90 inhibitor",
+        "cholangiocarcinoma",
+        "immunotherapy",
+        "intratumor heterogeneity",
+        "molecular classification",
+        "multi-omics",
+        "precision oncology",
+        "tumor biomarker",
+        "tumor immune microenvironment"
+      ]
+    },
+    {
+      "pmid": "42013850",
+      "doi": "10.1016/j.xcrm.2026.102761",
+      "title": "Distinct signatures in the human gut and oral microbiomes of gastric cancer.",
+      "abstract": "Microbiome dysbiosis is increasingly recognized as a hallmark of gastric cancer (GC). Here, we analyzed gut and oral shotgun metagenomic data from 317 individuals across two independent cohorts, with validation in a Harbin cohort. We identify 20 oral-gut shared species enriched in the gut of GC, predominantly lactic acid bacteria (LAB). While most gut microbial markers are abundant in saliva, none are significantly altered in GC. Strain-level analysis of 87 matched saliva-stool metagenomes confirms oral-gut transmission of Streptococcus species. GC-enriched LAB form robust co-abundance networks in oral and gut microbiomes, suggesting synergistic interactions. Functional analysis reveals enriched lactate fermentation pathways in GC stool, aligning with LAB dominance and previous findings on gastric microbiota. Moreover, microbiome-based classifiers achieve high predictive accuracy (area under receiver operating characteristic curve [AUROC] = 0.85 for stool, 0.87 for saliva) for GC diagnosis, highlighting translational potential. Collectively, these findings underscore the critical role of the oral-gut microbiome axis in GC.",
+      "journal": "Cell Rep Med",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Qin",
+          "fore_name": "Youwen",
+          "affiliations": [
+            "Shenzhen Hospital, Southern Medical University, Shenzhen, China; BGI Genomics, Shenzhen, China; BGI Genomics, Harbin, China; BGI Research, Shenzhen, China. Electronic address: qinyouwen@genomics.cn."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Ya-Xuan",
+          "affiliations": [
+            "Division of Gastroenterology and Hepatology, Shanghai Institute of Digestive Disease, NHC Key Laboratory of Digestive Diseases, State Key Laboratory of Systems Medicine for Cancer, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China; Department of Gastroenterology, China-Japan Friendship Hospital, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Li-Ping",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China; BGI Genomics, Harbin, China."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Yuan-Hong",
+          "affiliations": [
+            "Division of Gastroenterology and Hepatology, Shanghai Institute of Digestive Disease, NHC Key Laboratory of Digestive Diseases, State Key Laboratory of Systems Medicine for Cancer, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "Xin-Yue",
+          "affiliations": [
+            "Division of Gastroenterology and Hepatology, Shanghai Institute of Digestive Disease, NHC Key Laboratory of Digestive Diseases, State Key Laboratory of Systems Medicine for Cancer, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Hao",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Division of Gastroenterology and Hepatology, Shanghai Institute of Digestive Disease, NHC Key Laboratory of Digestive Diseases, State Key Laboratory of Systems Medicine for Cancer, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Li-Cong",
+          "affiliations": [
+            "Division of Gastroenterology and Hepatology, Shanghai Institute of Digestive Disease, NHC Key Laboratory of Digestive Diseases, State Key Laboratory of Systems Medicine for Cancer, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Jiao-Jiao",
+          "affiliations": [
+            "Department of General Surgery, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China."
+          ]
+        },
+        {
+          "last_name": "He",
+          "fore_name": "Ying",
+          "affiliations": [
+            "Harbin Fourth Hospital, Harbin, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Ke",
+          "affiliations": [
+            "Harbin Sixth Hospital, Harbin, China."
+          ]
+        },
+        {
+          "last_name": "Zhong",
+          "fore_name": "Huanzi",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China; BGI Genomics, Harbin, China."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Shida",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China; BGI Genomics, Harbin, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Ming",
+          "affiliations": [
+            "Department of General Surgery, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, China."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Jing-Yuan",
+          "affiliations": [
+            "Division of Gastroenterology and Hepatology, Shanghai Institute of Digestive Disease, NHC Key Laboratory of Digestive Diseases, State Key Laboratory of Systems Medicine for Cancer, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China. Electronic address: jingyuanfang@sjtu.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Zhou",
+          "fore_name": "Cheng-Bei",
+          "affiliations": [
+            "Division of Gastroenterology and Hepatology, Shanghai Institute of Digestive Disease, NHC Key Laboratory of Digestive Diseases, State Key Laboratory of Systems Medicine for Cancer, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, China. Electronic address: helenairezhou@126.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "LAB",
+        "Streptococcus",
+        "gastric cancer",
+        "lactic acid bacteria",
+        "machine learning",
+        "microbiome",
+        "oral-gut axis"
+      ]
+    },
+    {
+      "pmid": "41957375",
+      "doi": "10.1038/s41597-026-07166-7",
+      "title": "Haplotype-resolved chromosomal-level genome assembly of Chrysaora achlyos (black sea nettle).",
+      "abstract": "Chrysaora achlyos is a distinctive scyphozoan species characterized by its dark pigmentation and large size. In this study, we generated a haplotype-resolved, chromosome-scale genome assembly for C.achlyos using PacBio HiFi long reads and Hi-C technology. The resulting assembly comprises two haplotypes with sizes of 246.43\u2009Mb (contig N50\u2009=\u20097.69\u2009Mb) and 248.65\u2009Mb (contig N50\u2009=\u20097.23\u2009Mb), Additionally, repetitive sequences were characterized, with 110.52\u2009Mb (~44.85%) in haplotype A and 112.57\u2009Mb (~45.27%) in haplotype B. A total of 20,471 and 20,606 protein-coding genes were predicted in haplotypes A and B, respectively. The sequencing depth, mapping coverage, contig continuity, and BUSCO assessment collectively indicated a high-quality haplotype-resolved genome assembly. This high-quality genome assembly provides a foundation for future studies in comparative evolution, toxicology, ecology, and functional genomics.",
+      "journal": "Sci Data",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Li",
+          "fore_name": "Yueyue",
+          "affiliations": [
+            "Naval Medical Center of PLA, Naval Medical University, Shanghai, 200052, China."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Xuelu",
+          "affiliations": [
+            "Naval Medical Center of PLA, Naval Medical University, Shanghai, 200052, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Bingbing",
+          "affiliations": [
+            "Naval Medical Center of PLA, Naval Medical University, Shanghai, 200052, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Yajuan",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xue",
+          "affiliations": [
+            "Naval Medical Center of PLA, Naval Medical University, Shanghai, 200052, China."
+          ]
+        },
+        {
+          "last_name": "Hao",
+          "fore_name": "Zhengfeng",
+          "affiliations": [
+            "Naval Medical Center of PLA, Naval Medical University, Shanghai, 200052, China.",
+            "School of Pharmacy, Bengbu Medical University, Bengbu, 233030, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Xiao",
+          "affiliations": [
+            "Naval Medical Center of PLA, Naval Medical University, Shanghai, 200052, China."
+          ]
+        },
+        {
+          "last_name": "Lv",
+          "fore_name": "Shirong",
+          "affiliations": [
+            "Naval Medical Center of PLA, Naval Medical University, Shanghai, 200052, China."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "Yulong",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Jian",
+          "fore_name": "Jianbo",
+          "affiliations": [
+            "Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University, Shantou, 515063, China. jbjian@126.com."
+          ]
+        },
+        {
+          "last_name": "Geng",
+          "fore_name": "Xiaoyu",
+          "affiliations": [
+            "Naval Medical Center of PLA, Naval Medical University, Shanghai, 200052, China. 15339625597@163.com."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Jishun",
+          "affiliations": [
+            "Department of Pharmacy, Changzheng Hospital, Naval Medical University, Shanghai, 200003, China. jasunyang@foxmail.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41927590",
+      "doi": "10.1038/s41525-026-00565-0",
+      "title": "Population-scale genomic screening reveals high frequency of actionable secondary findings in Chinese newborns.",
+      "abstract": "Secondary findings (SFs) from genome sequencing have significant implications for disease prevention and early intervention, yet their population-specific spectrum remains poorly characterized in non-European cohorts. We performed whole-genome sequencing of 6685 Chinese newborns and evaluated pathogenic variants in 84 genes from the American College of Medical Genetics and Genomics (ACMG) SF v3.3 list according to ACMG/Association for Molecular Pathology (AMP) classification guidelines, and cross-referenced against ClinVar. We identified 306 unique actionable variants, comprising 172 known pathogenic variants (KP) and 134 expected pathogenic variants (EP). When heterozygous carriers of autosomal recessive (AR) variants were included, 9.12% (610/6685) of newborns carried at least one pathogenic variant. Under ACMG SF criteria, clinically actionable variants were identified in 5.06% (338/6685) of newborns, predominantly affecting cardiovascular disease genes (3.49%) and cancer predisposition genes (1.26%), most commonly involving LDLR, TTN, and BRCA2. Importantly, 28 variants across 12 genes showed significant allele frequency divergence between Chinese and European ancestries, highlighting ancestry-specific genetic architecture. Our findings support the inclusion of high-penetrance genes prevalent in East Asian populations in population-tailored genomic screening panels, providing essential reference data for the equitable implementation of precision newborn genomics in underrepresented populations.",
+      "journal": "NPJ Genom Med",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Huang",
+          "fore_name": "Yushan",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China.",
+            "BGI Research, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Gao",
+          "fore_name": "Ya",
+          "affiliations": [
+            "BGI Research, Shenzhen, 518083, China.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Duan",
+          "fore_name": "Zonghao",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China.",
+            "BGI Research, Wuhan, 430074, China."
+          ]
+        },
+        {
+          "last_name": "Jia",
+          "fore_name": "Xiao",
+          "affiliations": [
+            "Huangdao Maternity and Child Health Care Hospital of Qingdao, Qingdao, 266400, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Yue",
+          "affiliations": [
+            "Qingdao Women and Children's Hospital, Qingdao University, Qingdao, 266034, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Chunhua",
+          "affiliations": [
+            "Huangdao Maternal and Child Health and Family Planning Service Center of Qingdao, Qingdao, 266000, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Hui",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Junnian",
+          "affiliations": [
+            "BGI Research, Qingdao, 266555, China."
+          ]
+        },
+        {
+          "last_name": "Pan",
+          "fore_name": "Silin",
+          "affiliations": [
+            "Qingdao Women and Children's Hospital, Qingdao University, Qingdao, 266034, China."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Xin",
+          "affiliations": [
+            "BGI Research, Shenzhen, 518083, China.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Mingyan",
+          "affiliations": [
+            "BGI Research, Shenzhen, 518083, China. fangmingyan@aliyun.com.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, 518083, China. fangmingyan@aliyun.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41258878",
+      "doi": "10.1158/1541-7786.MCR-25-0724",
+      "title": "MTHFD2-Mediated Ubiquitination and Degradation of FOXO1 Promote Tongue Squamous Cell Carcinoma Progression.",
+      "abstract": "Methylenetetrahydrofolate dehydrogenase 2 (MTHFD2), a pivotal enzyme in one-carbon metabolism, is significantly overexpressed in tongue squamous cell carcinoma (TSCC) and correlates with poor patient prognosis. Functional studies demonstrate that MTHFD2 drives TSCC proliferation and migration in vitro and in vivo, whereas its inhibition suppresses tumor progression. Mechanistically, MTHFD2 orchestrates a dual posttranslational modification cascade: Through its enzymatic activity, it simultaneously induces forkhead box O1 (FOXO1) hypermethylation and ubiquitination, ultimately triggering ubiquitin-proteasome degradation of this tumor suppressor. This methylation-primed degradation axis is clinically validated by the inverse MTHFD2-high/FOXO1-low expression pattern in TSCC specimens, which predicts adverse outcomes. Critically, pharmacologic inhibition of MTHFD2 (e.g., DS18561882) blocks FOXO1 degradation, establishing the MTHFD2-FOXO1 axis as a promising therapeutic target for TSCC through its novel metabolic-epigenetic regulatory mechanism. This study identifies the MTHFD2-FOXO1 axis as a druggable metabolic-epigenetic pathway in TSCC, providing both a prognostic marker and a therapeutic target.",
+      "journal": "Mol Cancer Res",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Tuohuti",
+          "fore_name": "Aikebaier",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Lucheng",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Zehua",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Sa",
+          "affiliations": [
+            "Clin Lab, BGI Genomics, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Cai",
+          "fore_name": "Weisong",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Ming",
+          "fore_name": "Xiaoping",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Zhe",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Qiang",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Fu",
+          "fore_name": "Qiuyang",
+          "affiliations": [
+            "Otolaryngology Department of The Second Affiliated Hospital, School of Medicine, The Chinese University of Hong Kong, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Xiaoqi",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Xiong",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Head and Neck Surgery, Zhongnan Hospital of Wuhan University, Wuhan, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Methylenetetrahydrofolate Dehydrogenase (NADP)",
+        "Forkhead Box Protein O1",
+        "Animals",
+        "Mice",
+        "Tongue Neoplasms",
+        "Aminohydrolases",
+        "Multifunctional Enzymes",
+        "Ubiquitination",
+        "Cell Line, Tumor",
+        "Disease Progression",
+        "Cell Proliferation",
+        "Proteolysis",
+        "Carcinoma, Squamous Cell",
+        "Female",
+        "Mice, Nude",
+        "Male",
+        "Gene Expression Regulation, Neoplastic",
+        "Prognosis"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41763432",
+      "doi": "10.1016/j.ijbiomac.2026.151045",
+      "title": "Panax notoginseng saponins protect the blood-brain barrier against oxidative stress by activating the Akap12-PI3K/AKT-AQP1 signaling axis.",
+      "abstract": "Oxidative stress is a key pathological factor that contributes to blood-brain barrier (BBB) disruption during ischemic injury. Panax notoginseng saponins (PNS), the primary bioactive components of Panax notoginseng, possess potent antioxidative and vasoprotective activities. This study aimed to elucidate the molecular mechanisms by which PNS regulate endothelial integrity and BBB permeability under oxidative stress conditions. Mouse brain microvascular endothelial cells (bEnd.3) were treated with hydrogen peroxide to induce oxidative damage, followed by intervention with PNS. Transcriptomic and proteomic analyses revealed that Akap12 (A-kinase anchoring protein 12) and Aquaporin 1 (AQP1) were key molecules involved in PNS-mediated endothelial protection. H\u2082O\u2082 exposure markedly suppressed Akap12 expression and inhibited the PI3K/AKT signaling pathway, leading to elevated AQP1 expression and increased BBB permeability. PNS treatment reversed these effects by restoring Akap12 expression, reactivating PI3K/AKT signaling, and reducing AQP1 levels. Functional validation further showed that AQP1 dysregulation altered the expression balance of tight junction proteins, including Claudin-5 and ZO-1, thereby impairing barrier function. Collectively, these findings demonstrate that PNS protect endothelial cells from oxidative injury by activating Akap12-dependent PI3K/AKT signaling and modulating AQP1-associated tight junction remodeling. This study provides new mechanistic insights into the molecular basis of PNS-mediated BBB protection and suggests potential therapeutic targets for oxidative or ischemic cerebrovascular diseases.",
+      "journal": "Int J Biol Macromol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Fan",
+          "fore_name": "Lili",
+          "affiliations": [
+            "Key Laboratory of Pesticide & Chemical Biology of Ministry of Education, Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences, Central China Normal University, Wuhan, 430079, China."
+          ]
+        },
+        {
+          "last_name": "Qu",
+          "fore_name": "Shukun",
+          "affiliations": [
+            "Key Laboratory of Pesticide & Chemical Biology of Ministry of Education, Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences, Central China Normal University, Wuhan, 430079, China."
+          ]
+        },
+        {
+          "last_name": "Miao",
+          "fore_name": "Chenxue",
+          "affiliations": [
+            "Key Laboratory of Pesticide & Chemical Biology of Ministry of Education, Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences, Central China Normal University, Wuhan, 430079, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Dongjie",
+          "affiliations": [
+            "BGI Tech Solutions, BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Rao",
+          "fore_name": "Yuan",
+          "affiliations": [
+            "BGI Tech Solutions, BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Weisong",
+          "affiliations": [
+            "BGI Tech Solutions, BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "He",
+          "fore_name": "Yanping",
+          "affiliations": [
+            "Key Laboratory of Medicinal Chemistry for Natural Resources, Ministry of Education and Yunnan Province, School of Chemical Science and Technology, Yunnan University, Kunming, 650091, Yunnan, China."
+          ]
+        },
+        {
+          "last_name": "Ding",
+          "fore_name": "Rui",
+          "affiliations": [
+            "Yunnan Seed Share Resource Development CO. LTD, Kunming 650200, China."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Guang",
+          "affiliations": [
+            "Key Laboratory of Pesticide & Chemical Biology of Ministry of Education, Hubei Key Laboratory of Genetic Regulation and Integrative Biology, School of Life Sciences, Central China Normal University, Wuhan, 430079, China. Electronic address: guangsong@ccnu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Oxidative Stress",
+        "Blood-Brain Barrier",
+        "Panax notoginseng",
+        "Animals",
+        "Proto-Oncogene Proteins c-akt",
+        "A Kinase Anchor Proteins",
+        "Phosphatidylinositol 3-Kinases",
+        "Signal Transduction",
+        "Saponins",
+        "Mice",
+        "Aquaporin 1",
+        "Endothelial Cells",
+        "Cell Line",
+        "Hydrogen Peroxide"
+      ],
+      "keywords": [
+        "AQP1",
+        "Oxidative stress",
+        "PI3K/AKT signal pathway",
+        "Panax notoginseng saponins",
+        "The blood-brain barrier"
+      ]
+    },
+    {
+      "pmid": "40518765",
+      "pmc": "PMC11316762",
+      "doi": "10.1111/jipb.13948",
+      "title": "The targeted metabolomic profile of laticifers in rubber tree.",
+      "abstract": "Targeted metabolomic profiling of rubber tree (Hevea brasiliensis) laticifers identified metabolites that were reprogramming by domestication, revealed active isoprenoid metabolism in the laticifers, and discovered loci with potential biosynthetic applications, supporting the potential of developing laticifers as bioreactors for production of valuable metabolites in Hevea.",
+      "journal": "J Integr Plant Biol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Deng",
+          "fore_name": "Xiaomin",
+          "affiliations": [
+            "State Key Laboratory of Tropical Crop Breeding, Ministry of Agriculture and Rural Affairs Key Laboratory of Biology and Genetic Resources of Rubber Tree, State Key Laboratory Breeding Base of Cultivation and Physiology for Tropical Crops, Rubber Research Institute, Chinese Academy of Tropical Agricultural Sciences, Haikou, 571101, China.",
+            "Sanya Research Institute, Chinese Academy of Tropical Agricultural Sciences, Sanya, 572025, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Shuguang",
+          "affiliations": [
+            "State Key Laboratory of Tropical Crop Breeding, Ministry of Agriculture and Rural Affairs Key Laboratory of Biology and Genetic Resources of Rubber Tree, State Key Laboratory Breeding Base of Cultivation and Physiology for Tropical Crops, Rubber Research Institute, Chinese Academy of Tropical Agricultural Sciences, Haikou, 571101, China."
+          ]
+        },
+        {
+          "last_name": "Gao",
+          "fore_name": "Qiang",
+          "affiliations": [
+            "Qi Biodesign, Beijing, 102200, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Yanling",
+          "affiliations": [
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Zeng",
+          "fore_name": "Xia",
+          "affiliations": [
+            "State Key Laboratory of Tropical Crop Breeding, Ministry of Agriculture and Rural Affairs Key Laboratory of Biology and Genetic Resources of Rubber Tree, State Key Laboratory Breeding Base of Cultivation and Physiology for Tropical Crops, Rubber Research Institute, Chinese Academy of Tropical Agricultural Sciences, Haikou, 571101, China.",
+            "Sanya Research Institute, Chinese Academy of Tropical Agricultural Sciences, Sanya, 572025, China."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Minjing",
+          "affiliations": [
+            "State Key Laboratory of Tropical Crop Breeding, Ministry of Agriculture and Rural Affairs Key Laboratory of Biology and Genetic Resources of Rubber Tree, State Key Laboratory Breeding Base of Cultivation and Physiology for Tropical Crops, Rubber Research Institute, Chinese Academy of Tropical Agricultural Sciences, Haikou, 571101, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Shaohua",
+          "affiliations": [
+            "State Key Laboratory of Tropical Crop Breeding, Ministry of Agriculture and Rural Affairs Key Laboratory of Biology and Genetic Resources of Rubber Tree, State Key Laboratory Breeding Base of Cultivation and Physiology for Tropical Crops, Rubber Research Institute, Chinese Academy of Tropical Agricultural Sciences, Haikou, 571101, China.",
+            "Sanya Research Institute, Chinese Academy of Tropical Agricultural Sciences, Sanya, 572025, China."
+          ]
+        },
+        {
+          "last_name": "Tian",
+          "fore_name": "Weimin",
+          "affiliations": [
+            "Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Xishuangbanna, 666303, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xuchu",
+          "affiliations": [
+            "Key Laboratory of Plant Resources Conservation and Germplasm Innovation in Mountainous Region, Ministry of Education, Institute of Agro-Bioengineering, College of Life Sciences, Guizhou University, Guiyang, 550025, China."
+          ]
+        },
+        {
+          "last_name": "Chao",
+          "fore_name": "Jinquan",
+          "affiliations": [
+            "State Key Laboratory of Tropical Crop Breeding, Ministry of Agriculture and Rural Affairs Key Laboratory of Biology and Genetic Resources of Rubber Tree, State Key Laboratory Breeding Base of Cultivation and Physiology for Tropical Crops, Rubber Research Institute, Chinese Academy of Tropical Agricultural Sciences, Haikou, 571101, China.",
+            "Sanya Research Institute, Chinese Academy of Tropical Agricultural Sciences, Sanya, 572025, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Hevea",
+        "Metabolomics",
+        "Metabolome",
+        "Terpenes"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41882673",
+      "doi": "10.1186/s12967-026-08013-4",
+      "title": "Disentangling environmental and disease-specific signatures in the gut microbiome of psoriasis: discovery of Fimenecus sp. as a novel biomarker and characterization of the gut virome.",
+      "abstract": "The contribution of the gut microbiome to the pathogenesis of psoriasis remains a subject of debate, with inconsistent findings across studies likely confounded by environmental factors. This study aimed to statistically disentangle the effects of a shared household environment from disease-specific microbial signatures in psoriasis. Our objective was to identify novel, multi-kingdom biomarkers, encompassing bacteria and viruses, that hold significant diagnostic and therapeutic potential. We conducted a nested case-control study, performing shotgun metagenomic sequencing on stool samples from 143 participants. The cohort comprised 98 psoriasis patients, 28 healthy cohabiting relatives, and 17 unrelated healthy controls. A comprehensive multi-kingdom analysis of bacteria, viruses, and their associated metabolic pathways was implemented. To ensure the robustness of our findings, a two-stage discovery-validation strategy was employed to identify distinct microbial features associated with psoriasis. Our analysis revealed that the shared household environment was the predominant factor shaping the overall gut microbiome structure. Despite this strong confounding effect, we successfully identified a novel bacterial species, Fimenecus sp000432435, as a robust biomarker for psoriasis, achieving an area under the curve (AUC) of 0.84. Genomic functional prediction indicated that this species encodes pathways with the potential for B-vitamin and secondary bile acid biosynthesis. Furthermore, characterization of the gut virome identified five disease-associated bacteriophages. Among these, vBin_422 exhibited a significant negative correlation with the abundance of Fimenecus sp000432435, suggesting a potential ecological interaction. Notably, the biotin biosynthesis pathway was negatively correlated with disease severity, whereas specific viral taxa showed a positive correlation with systemic inflammatory markers within the patient cohort. Controlling for environmental confounders reveals that psoriasis is associated with sparse but distinctmicrobial signatures rather than broad dysbiosis. Fimenecus sp000432435 is a promising candidate for non-invasive diagnostics, while the characterized virome opens new therapeutic avenues targeting bacteriophage-bacteria interactions in psoriasis management. ChiCTR-IOR-17011075. Registered 6 April 2017, http://www.chictr.org.cn/showproj.aspx?proj=17334.",
+      "journal": "J Transl Med",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Deng",
+          "fore_name": "Jingwen",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+            "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine (Guangdong Provincial Hospital of Chinese Medicine), Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Qiu",
+          "fore_name": "Qinwei",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+            "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine (Guangdong Provincial Hospital of Chinese Medicine), Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Ye",
+          "fore_name": "Shuyan",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Jingjie",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Yao",
+          "fore_name": "Danni",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Deng",
+          "fore_name": "Hao",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Chengrui",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+            "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine (Guangdong Provincial Hospital of Chinese Medicine), Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Han",
+          "fore_name": "Lijuan",
+          "affiliations": [
+            "Department of Scientific Research, Kangmeihuada GeneTech Co., Ltd (KMHD), Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Deng",
+          "fore_name": "Yusheng",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+            "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine (Guangdong Provincial Hospital of Chinese Medicine), Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Yang",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+            "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine (Guangdong Provincial Hospital of Chinese Medicine), Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Yanmin",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+            "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine (Guangdong Provincial Hospital of Chinese Medicine), Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Cuihua",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+            "College of Medicine and Health Sciences, China Three Gorges University, Yichang, Hubei Province, China."
+          ]
+        },
+        {
+          "last_name": "Shang",
+          "fore_name": "Xiaoxiao",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+            "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine (Guangdong Provincial Hospital of Chinese Medicine), Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Xiaodong",
+          "affiliations": [
+            "The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China. fangxd@gzucm.edu.cn.",
+            "State Key Laboratory of Dampness Syndrome of Chinese Medicine, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine (Guangdong Provincial Hospital of Chinese Medicine), Guangzhou, China. fangxd@gzucm.edu.cn.",
+            "BGI Genomics, BGI-Shenzhen, Shenzhen, China. fangxd@gzucm.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Chuanjian",
+          "affiliations": [
+            "Chinese Medicine Guangdong Laboratory, Guangdong, Hengqin, China. lcj@gzucm.edu.cn.",
+            "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China. lcj@gzucm.edu.cn.",
+            "Guangdong-Hong Kong-Macau Joint Lab on Chinese Medicine and Immune Disease Research, Guangzhou University of Chinese Medicine, Guangzhou, China. lcj@gzucm.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Environmental factors",
+        "Gut microbiome",
+        "Metagenomics",
+        "Microbial biomarkers",
+        "Psoriasis"
+      ]
+    },
+    {
+      "pmid": "41863018",
+      "pmc": "PMC11040453",
+      "doi": "10.1002/uog.27491",
+      "title": "Genetic diagnosis in fetal hydronephrosis: assessment using chromosomal microarray analysis and whole-genome sequencing.",
+      "abstract": "Antenatal hydronephrosis (AHN) is a common urological abnormality identified during prenatal ultrasound examination, with heterogeneous underlying causes. This study aimed to investigate the genetic etiologies of AHN using chromosomal microarray analysis (CMA) and whole-genome sequencing (WGS), and to identify the relationship between changes in AHN severity and genetic abnormalities. Fetuses with AHN underwent CMA, followed by retrospective WGS. Detection rates of chromosomal abnormalities and monogenic variants were compared among different AHN types and between fetuses with downgraded versus persistent or upgraded hydronephrosis. A variant of uncertain significance (VUS) affecting a splice site was functionally validated using a minigene-splicing assay, leading to reclassification. Chromosomal abnormalities were detected in five of 54 fetuses (9.26%) using CMA, while WGS identified monogenic variants and chromosomal abnormalities in 10 of 54 (18.52%). The detection rate was significantly higher in AHN with extrarenal system malformations than in isolated AHN or AHN with renal tract malformations ( WGS demonstrates higher diagnostic efficiency over CMA for AHN. Persistent or worsening AHN warrants timely genetic testing, and functional assays are critical for resolving VUS in prenatal diagnosis. The online version contains supplementary material available at 10.1186/s40246-026-00950-x.",
+      "journal": "Hum Genomics",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "Jing",
+          "affiliations": [
+            "Department of Medical Genetics, Changzhou Maternal and Child Health Care Hospital, Changzhou Medical Center, Nanjing Medical University, 16th Ding Xiang Road, Changzhou, 213023, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Jingyu",
+          "affiliations": [
+            "Clin Lab, BGI Genomics, Nanjing, 210019, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Department of Medical Genetics, Changzhou Maternal and Child Health Care Hospital, Changzhou Medical Center, Nanjing Medical University, 16th Ding Xiang Road, Changzhou, 213023, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Xinmei",
+          "affiliations": [
+            "Department of Medical Genetics, Changzhou Maternal and Child Health Care Hospital, Changzhou Medical Center, Nanjing Medical University, 16th Ding Xiang Road, Changzhou, 213023, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Department of Medical Genetics, Changzhou Maternal and Child Health Care Hospital, Changzhou Medical Center, Nanjing Medical University, 16th Ding Xiang Road, Changzhou, 213023, Jiangsu, China. binzhang@njmu.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Department of Medical Genetics, Changzhou Maternal and Child Health Care Hospital, Changzhou Medical Center, Nanjing Medical University, 16th Ding Xiang Road, Changzhou, 213023, Jiangsu, China. binyu@njmu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Antenatal hydronephrosis (AHN)",
+        "Chromosomal microarray analysis (CMA)",
+        "Copy number variants (CNVs)",
+        "Monogenic variants",
+        "Whole-genome sequencing (WGS)"
+      ]
+    },
+    {
+      "pmid": "41861149",
+      "doi": "10.1097/FPC.0000000000000597",
+      "title": "The potential effect and pathway of valsartan: genome-wide and phenome-wide association study from UK Biobank data.",
+      "abstract": "Valsartan, an angiotensin II receptor blocker, is widely used for hypertension and heart failure. While its cardiovascular benefits are established, its broader pharmacological effects remain incompletely characterized. This study aimed to identify genetic variants associated with valsartan use and to systematically explore its potential effects and adverse events across a wide range of phenotypes. Using UK Biobank data, we selected participants of European ancestry prescribed valsartan as cases, compared with controls not prescribed any ARBs. A genome-wide association study (GWAS) was conducted to identify suggestive genetic variants associated with valsartan use. These variants were then used as instruments in a phenome-wide association study (PheWAS) to screen for associated traits. Mendelian randomization analyses, including inverse-variance weighted and pleiotropy-robust methods, were employed to assess potential causal relationships. The GWAS identified 19 suggestive single nucleotide polymorphisms (P\u2005<\u20051\u2005\u00d7\u200510-5) near genes, including PREP, GCLC, and ZNF133. The PheWAS analysis revealed associations with 14 phenotypes, including lower levels of total cholesterol (\u03b2 = -0.59) and low-density lipoprotein cholesterol (LDL-C) (\u03b2 = -0.56), and increased risk of cough (odds ratio\u2005=\u20051.67). Mendelian randomization provided genetic evidence consistent with potential causal effects of valsartan in lowering LDL-C (\u03b2 = -2.34\u2005\u00d7\u200510-3) and reducing the risk of transient cerebral ischemic attack. Our genetic-based study suggests valsartan use may be associated with lowered LDL-C and reduced risks of certain ischemic cardiovascular events. These findings generate novel hypotheses regarding the drug's pleiotropic effects and potential applications beyond hypertension management, which warrant further clinical investigation.",
+      "journal": "Pharmacogenet Genomics",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Zeng",
+          "fore_name": "Shengyin",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing.",
+            "BGI Genomics, Shenzhen."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Yaxin",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing.",
+            "BGI Genomics, Shenzhen."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yucong",
+          "affiliations": [
+            "Department of Geriatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Yueqi",
+          "affiliations": [
+            "BGI Genomics, Shenzhen."
+          ]
+        },
+        {
+          "last_name": "Ruan",
+          "fore_name": "Lei",
+          "affiliations": [
+            "Department of Geriatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Cuntai",
+          "affiliations": [
+            "Department of Geriatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Jianguo",
+          "affiliations": [
+            "BGI Genomics, Shenzhen."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Bangwei",
+          "affiliations": [
+            "Department of Geriatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology.",
+            "Key Laboratory of Vascular Aging, Ministry of Education, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Tao",
+          "affiliations": [
+            "BGI Genomics, Shenzhen."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Mendelian randomization",
+        "cardiovascular disease",
+        "genome-wide association study",
+        "phenome-wide association study",
+        "valsartan"
+      ]
+    },
+    {
+      "pmid": "41821041",
+      "pmc": "PMC11061442",
+      "doi": "10.3389/fmed.2024.1254467",
+      "title": "BPX-Net: biomarker-preserved explainable networks for disease diagnosis and prognosis.",
+      "abstract": "Precise diagnosis of complex diseases increasingly depends on the integration of multimodal data. However, the high dimensionality of such data makes it difficult for traditional modeling methods to efficiently identify biomarkers, while deep learning approaches, despite their strong predictive power, often lack interpretability. Here, we introduce BPX-Net, a generalizable deep learning framework that learns compact multimodal representations through a biomarker-preserving dropout mechanism, where dropout probabilities are modulated by feature importance scores self-learned from a built-in interpretability module and, when available, further informed by clinical priors. This design enables BPX-Net to make robust predictions during inference by selectively attending to a sparse set of disease-informative predictors, making it insensitive to missing values in less relevant or redundant variables. Across multi-center cohorts covering diverse clinical tasks (disease diagnosis, prognosis, treatment response prediction, and risk stratification), BPX-Net yields substantial performance gains, e.g. achieving an average AUC of 85.43% across four tasks, outperforming baselines by 4% to 20% in the presence of missing data. More importantly, it identifies predictors aligned with established clinical knowledge. Cross-hospital validation further confirms the robustness and clinical relevance of these predictors. Collectively, BPX-Net offers a clinically grounded deep learning framework for multimodal analysis, intrinsically robust to data incompleteness and equipped with built-in interpretability, thereby eliminating reliance on computationally intensive post-hoc tools such as SHAP. The online version contains supplementary material available at 10.1186/s13040-026-00537-1.",
+      "journal": "BioData Min",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "Jun",
+          "affiliations": [
+            "Zhejiang Key Laboratory of Big Data Intelligent Computing, School of Computer and Computing Science, Hangzhou City University, Hangzhou, China. wangjun@hzcu.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Songchang",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Wen",
+          "fore_name": "Ru",
+          "affiliations": [
+            "Department of Radiology, Southwest Hospital, Army Medical University (Third Military Medical University), Chongqing, China."
+          ]
+        },
+        {
+          "last_name": "Ying",
+          "fore_name": "Haochao",
+          "affiliations": [
+            "School of Public Health and Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Wenqiu",
+          "affiliations": [
+            "Clin Lab, BGI Genomics, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Yin",
+          "fore_name": "Lin",
+          "affiliations": [
+            "Zhejiang Key Laboratory of Big Data Intelligent Computing, School of Computer and Computing Science, Hangzhou City University, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Deng",
+          "fore_name": "Xiaojuan",
+          "affiliations": [
+            "Department of Radiology, The Third Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+          ]
+        },
+        {
+          "last_name": "Han",
+          "fore_name": "Can",
+          "affiliations": [
+            "School of Biomedical Engineering, Shanghai Jiao Tong University, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Qun",
+          "affiliations": [
+            "Department of Medical Genetics, Yueyang Maternal and Child Health Hospital, Yueyang, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Changzhou Maternal and Child Health Care Hospital, Changzhou Medical Center, Nanjing Medical University, Changzhou, China."
+          ]
+        },
+        {
+          "last_name": "Tong",
+          "fore_name": "Hongyan",
+          "affiliations": [
+            "Department of Hematology, The First Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Chen",
+          "affiliations": [
+            "Department of Radiology, Southwest Hospital, Army Medical University (Third Military Medical University), Chongqing, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Wei",
+          "affiliations": [
+            "State Key Lab of CaD&Cg and the Laboratory of Art and Archaeology Image, Zhejiang University, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Jie",
+          "affiliations": [
+            "Department of Hematology, The First Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Kai",
+          "affiliations": [
+            "Eye Center of Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, China.",
+            "Zhejiang Provincial Key Laboratory of Ophthalmology, Zhejiang Provincial Clinical Research Center for Eye Diseases, Zhejiang Provincial Engineering Institute on Eye Diseases, Hangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Chenming",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China. xuchenm@163.com.",
+            "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases, Shanghai, China. xuchenm@163.com."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Hefeng",
+          "affiliations": [
+            "Institute of Reproduction and Development, Shanghai Key Laboratory of Reproduction and Development, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, China. huanghefg@hotmail.com.",
+            "Institute of Medical Genetics and Development, Key Laboratory of Reproductive Genetics (Ministry of Education) and Women's Hospital, Zhejiang University School of Medicine, Hangzhou, China. huanghefg@hotmail.com.",
+            "Research Units of Embryo Original Diseases, Chinese Academy of Medical Sciences, No. 2019RU056, Shanghai, China. huanghefg@hotmail.com."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Huafeng",
+          "affiliations": [
+            "Department of Hematology, The First Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, China. 1509036@zju.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Qian",
+          "fore_name": "Dahong",
+          "affiliations": [
+            "School of Biomedical Engineering, Shanghai Jiao Tong University, Shanghai, China. dahong.qian@sjtu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Biomarker discovery",
+        "Deep learning",
+        "Disease diagnosis",
+        "Missing values",
+        "Multimodal modeling"
+      ]
+    },
+    {
+      "pmid": "41916882",
+      "doi": "10.3760/cma.j.cn511374-20250918-00550",
+      "title": "[Consensus on method selection, experimental testing, and data analysis of newborn genetic screening (2026 Edition)].",
+      "abstract": "High-throughput sequencing is a revolutionary technology in newborn screening following tandem mass spectrometry. However, there is a lack of consensus regarding technical choices for laboratory implementation, detection procedures, and data analysis. This consensus document was developed through joint discussions by experts in newborn genetic screening, incorporating clinical experience and referencing the latest research. It provides recommendations covering five aspects: high-throughput sequencing method selection, experimental protocols, bioinformatics analysis strategies, data interpretation and reporting, and quality control. It is recommended to use hybrid capture gene panels as the preferred method for newborn genetic screening and experimental protocols suitable for dried blood spots. For bioinformatics analysis, a genotype-driven strategy is recommended for variant filtering. Laboratories with appropriate capabilities may combine this with a phenotype-driven strategy. Data interpretation and reporting should prioritize pathogenic or likely pathogenic variants. For diseases detectable through biochemical screening or alternative methods during the newborn period, laboratories may extend reporting to include variants of uncertain significance based on inheritance patterns and a Bayesian model score of 4 ~ 5. To align with anticipated screening outcomes (positive, uncertain, negative), reports are recommended to be categorized into primary findings (associated with disease risk) and secondary findings (such as carrier status). The performance of genetic screening protocol should assess key metrics such as analytical sensitivity.",
+      "journal": "Zhonghua Yi Xue Yi Chuan Xue Za Zhi",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Screening Group Of Neonatal Genetic Metabolic Disease Special Committee Of Birth Defects Prevention And Control Chinese Preventive Medical Association",
+          "fore_name": "",
+          "affiliations": [
+            "Shenzhen BGI Genomics Co., Ltd., Shenzhen, Guangdong 518083, China. yangyun@genomics.cn."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Yun",
+          "affiliations": []
+        },
+        {
+          "last_name": "Han",
+          "fore_name": "Lianshu",
+          "affiliations": []
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Infant, Newborn",
+        "Neonatal Screening",
+        "Genetic Testing",
+        "Consensus",
+        "High-Throughput Nucleotide Sequencing",
+        "Data Analysis"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "41772135",
+      "doi": "10.1038/s41698-026-01347-8",
+      "title": "HRD in endometrial cancer: LST loss drives distinct genomic profile and platinum response.",
+      "abstract": "While homologous recombination deficiency (HRD) presents therapeutic opportunities in endometrial cancer (EC), its molecular determinants and clinical implications remain poorly characterized. Through genomic analysis of 688 cancer-related genes combined with genomic scar assessment, we investigated HRD molecular features and clinical relevance of HRD across three cohorts: an EC cohort from Sun Yat-sen University Cancer Center (SYSUCC, n\u2009=\u2009114), the Cancer Genome Atlas EC cohort (n\u2009=\u2009500), and a high-grade serous ovarian cancer (HGSOC) cohort (n\u2009=\u2009118). HRD was identified in 23.7% of SYSUCC EC cases, and HRD tumors paradoxically had fewer short-nucleotide variations in HRR genes than proficient (HRP) tumors (18.52% vs. 48.28%, P\u2009=\u20090.007). Mechanistic analysis revealed large-scale transition (LST) losses as the potential predominant HRD driver in EC, occurring significantly more frequently in HRD versus HRP tumors (74.1% vs 5.7%; P\u2009<\u20090.001). Comparative genomics demonstrated enrichment of HRR gene LST losses was EC-specific, contrasting with HGSOC where LST distribution was HRD-independent. Clinically, elevated HRD scores predicted reduced progression-free survival (HR 1.74, 95% CI 1.03-2.94; P\u2009=\u20090.04) yet enhanced platinum sensitivity (HR 0.41, 95% CI 0.18-0.94; P\u2009=\u20090.034). Our findings indicate that the HRD phenotype in EC, driven primarily by LST losses rather than short-nucleotide variations, serves as both a prognostic and predictive biomarker.",
+      "journal": "NPJ Precis Oncol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Wan",
+          "fore_name": "Ting",
+          "affiliations": [
+            "Department of Gynecologic Oncology, Sun Yat-sen University Cancer Center, Guangzhou, PR China.",
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, PR China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Qiaqia",
+          "affiliations": [
+            "Department of Gynecologic Oncology, Sun Yat-sen University Cancer Center, Guangzhou, PR China.",
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, PR China."
+          ]
+        },
+        {
+          "last_name": "Hao",
+          "fore_name": "Wen",
+          "affiliations": [
+            "Department of Gynecological Oncology, Fudan University Shanghai Cancer Center, Shanghai, PR China.",
+            "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, PR China."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Ying",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, PR China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Binbin",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, PR China.",
+            "School of Medicine, Huanggang Polytechnic College, Huanggang, Hubei, PR China."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Mufei",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, PR China."
+          ]
+        },
+        {
+          "last_name": "Dai",
+          "fore_name": "Die",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, PR China."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Ziming",
+          "affiliations": [
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, PR China.",
+            "Department of Molecular Diagnostics, Sun Yat-sen University Cancer Center, Guangzhou, PR China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jundong",
+          "affiliations": [
+            "Department of Gynecologic Oncology, Sun Yat-sen University Cancer Center, Guangzhou, PR China.",
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, PR China."
+          ]
+        },
+        {
+          "last_name": "Wei",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Department of Gynecologic Oncology, Sun Yat-sen University Cancer Center, Guangzhou, PR China. weiwei1@sysucc.org.cn.",
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, PR China. weiwei1@sysucc.org.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41850226",
+      "pmc": "PMC9277501",
+      "doi": "10.3904/kjim.2025.278",
+      "title": "Global burden of adverse effects of medical treatment from 1990 to 2021: a Global Burden of Disease Study 2021.",
+      "abstract": "This study aims to evaluate the global burden of adverse effects of medical treatment (AEMT) using data from the Global Burden of Disease Study (GBD) 2021. Data were extracted from the GBD 2021, covering 204 countries/territories from 1990 to 2021. AEMT was defined using ICD-9 and ICD-10 codes, encompassing complications from medical procedures, treatments, or healthcare exposures. Estimates were categorized into fatal and non-fatal outcomes and stratified by age, sex, year, and covariates, including the Socio-demographic Index (SDI). Mortality-incidence ratios (MIRs), defined as the ratio of mortality calculated by dividing the number of deaths by the total incident cases, were analyzed. In 2021, the global age-standardized prevalence, incidence, disability-adjusted life years (DALYs), and mortality rates of AEMT were 11.48 (95% uncertainty interval [UI], 8.86-14.13), 150.44 (131.19-171.81), 64.19 (51.06-73.11), and 1.53 (1.29-1.68) per 100,000 population, respectively. DALY rates were highest in the early neonatal group (4,789.47 per 100,000 population [95% UI, 3,682.00-5,963.30]), while mortality rates followed a U-shaped pattern across age groups. In 2021, MIRs were highest at both ends of the age range: the early neonatal group (0.58 [95% UI, 0.55-0.58]) and the 95+ age group (0.05 [0.04-0.06]). This pattern was consistent across all SDI quintiles, with higher MIRs observed in lower SDI quintiles. The significantly higher prevalence and incidence rates of AEMT among the older population in high SDI quintiles, compared to lower SDI quintiles, could be attributed to the healthcare overutilization, highlighting the need for policy adjustments.",
+      "journal": "Korean J Intern Med",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": []
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Global Burden of Disease",
+        "Male",
+        "Female",
+        "Middle Aged",
+        "Aged",
+        "Adult",
+        "Incidence",
+        "Prevalence",
+        "Disability-Adjusted Life Years",
+        "Infant",
+        "Adolescent",
+        "Young Adult",
+        "Child",
+        "Child, Preschool",
+        "Drug-Related Side Effects and Adverse Reactions",
+        "Infant, Newborn",
+        "Time Factors",
+        "Aged, 80 and over",
+        "Global Health",
+        "Risk Factors"
+      ],
+      "keywords": [
+        "Adverse effect",
+        "Disability-adjusted life years",
+        "Global Burden of Disease",
+        "Incidence",
+        "Mortality"
+      ]
+    },
+    {
+      "pmid": "41702859",
+      "doi": "10.1002/pd.70101",
+      "title": "Application of Non-Invasive Prenatal Testing for Dominant Single-Gene Disorders in an Intermediate-Risk Population: A Prospective Cohort Study.",
+      "abstract": "To assess the feasibility and efficiency of applying non-invasive prenatal testing for single-gene disorders (NIPT-SGD) in an intermediate-risk population. We conducted a prospective cohort study of 2000 pregnant women at intermediate risk for SGDs in China. NIPT-SGD was conducted using a cfDNA-SGD panel targeting 155 genes associated with 202 dominant SGDs. Genetic validation was conducted via amniocentesis followed by Sanger sequencing, or through exome sequencing using newborn dried blood spot samples. Postnatal clinical follow-up was performed in both positive and negative cases through physical examination of the infants. Out of 2000 participants, 3 cases experienced library preparation failures, leaving 1997 pregnancies for analysis. NIPT-SGD identified 10 positives and 1987 negatives. Subsequent diagnostic testing confirmed 7 true positives, 2 false positives, 988 true negatives, and no false negatives, yielding a sensitivity of 100% (95% CI: 59.0%-100%), specificity of 99.8% (95% CI: 99.3%-100%), positive predictive value of 77.8% (95% CI: 40.0%-97.2%), and negative predictive value of 100% (95% CI: 99.6%-100%). Among the 7 true-positive cases, 4 exhibited clinical features consistent with the identified genetic conditions or adverse pregnancy outcomes. NIPT-SGD is a reliable and effective strategy for the detection of fetal dominant SGDs in an intermediate-risk population. However, the implementation still needs caution due to clinical ambiguity introduced by variants in fetuses without phenotypic manifestations.",
+      "journal": "Prenat Diagn",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Lu",
+          "fore_name": "Qun",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Chao",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Ying",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "An",
+          "fore_name": "Xiaoying",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Saiying",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Hang",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Haoyang",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "Chunna",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Yun",
+          "affiliations": [
+            "Department of Ultrasound, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Qiao",
+          "fore_name": "Fengchang",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Jingyu",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Yun",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Zheng",
+          "fore_name": "Lili",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Jianxin",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Renhua",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Yun",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Zhiyu",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Lijie",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Liang",
+          "fore_name": "Dong",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Zhengfeng",
+          "affiliations": [
+            "Department of Prenatal Diagnosis, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, Jiangsu, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Pregnancy",
+        "Prospective Studies",
+        "Adult",
+        "Noninvasive Prenatal Testing",
+        "Genetic Diseases, Inborn",
+        "China",
+        "Cohort Studies",
+        "Prenatal Diagnosis",
+        "Infant, Newborn",
+        "Amniocentesis",
+        "Genetic Testing"
+      ],
+      "keywords": [
+        "cfDNA",
+        "dominant single\u2010gene disorders",
+        "intermediate\u2010risk population",
+        "non\u2010invasive prenatal testing",
+        "prospective cohort study"
+      ]
+    },
+    {
+      "pmid": "41637907",
+      "doi": "10.1016/j.ejogrb.2026.114988",
+      "title": "A novel and accessible proband-free approach for noninvasive prenatal diagnosis of single-gene disorders.",
+      "abstract": "Current haplotype-based noninvasive prenatal diagnosis (NIPD) for recessive single-gene disorders (SGD) is limited by its dependence on proband-derived parental haplotyping or complex haplotyping procedures. To overcome this limitation, this study aims to develop a novel direct parental haplotyping approach, enabling proband-independent NIPD for recessive SGD (NIPD-SGD). Seven couples at genetic risk of having a fetus with recessive SGD were recruited. Parental haplotypes were constructed using targeted single-tube long fragment read (stLFR) sequencing with a customized 490.6 kb probe. Relative haplotype dosage (RHDO) analysis was performed on maternal plasma samples with the same panel to determine fetal haplotypes. Invasive prenatal diagnosis served as the gold standard for confirming NIPD results. Targeted stLFR sequencing directly phased fourteen parental haplotypes in the target region. Among seven singleton pregnancies, NIPD correctly genotyped all seven fetuses, achieving 100% concordance with the gold standard (7/7). Notably, this method successfully identified four families with large copy number variations, highlighting its effectiveness in detecting complex genetic alterations. Targeted stLFR sequencing is an effective method for direct haplotyping in NIPD-SGD, enabling proband-independent analysis. This approach allows for efficient haplotyping in a single tube, eliminating the need for expensive microfluidic devices. This significant advancement offers a promising solution for expanding the clinical utility of NIPD-SGD.",
+      "journal": "Eur J Obstet Gynecol Reprod Biol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Chen",
+          "fore_name": "Chao",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China; BGI Genomics, Shenzhen 518083, China; Clin Lab, BGI Genomics, Tianjin 300308, China. Electronic address: chenchao4@genomics.cn."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Yaping",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China; Clin Lab, BGI Genomics, Tianjin 300308, China."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Lu",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China; Clin Lab, BGI Genomics, Tianjin 300308, China."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Chong",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Zhiyu",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Jin",
+          "affiliations": [
+            "Centre for Reproductive Medicine, Department of Obstetrics and Gynecology, Peking University Third Hospital, Beijing 100191, China. Electronic address: huangjin-2004@163.com."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Yun",
+          "affiliations": [
+            "BGI Genomics, Shenzhen 518083, China; Wuhan Maternal and Child Healthcare Hospital, Tongji Medical College, Huazhong University of Science & Technology, Wuhan 430016, China. Electronic address: yangyun@genomics.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Pregnancy",
+        "Haplotypes",
+        "Noninvasive Prenatal Testing",
+        "Prenatal Diagnosis",
+        "Genetic Diseases, Inborn",
+        "Adult",
+        "Male",
+        "DNA Copy Number Variations"
+      ],
+      "keywords": [
+        "Direct Haplotyping",
+        "Noninvasive Prenatal Diagnosis",
+        "Recessive Single-Gene Disorders",
+        "Single-tube Long Fragment Read",
+        "Targeted Sequencing"
+      ]
+    },
+    {
+      "pmid": "41133438",
+      "pmc": "PMC12176638",
+      "doi": "10.1038/s41586-025-08941-z",
+      "title": "Cell-Type-Specific and Variety-Specific Responses to Salt Stress in Wheat Root Revealed by Single-Cell Transcriptomics.",
+      "abstract": "Soil salinization threatens the yield and quality of wheat. Roots are critical for the salt stress response, yet their cell-type-specific mechanisms remain unclear. We conducted the first single-nucleus RNA sequencing analysis of wheat root tips from salt-sensitive (CS) and -tolerant (DK) varieties under salt stress, profiling 188\u2009270 high-quality root cells. Seventeen cell types were identified and validated using reported marker genes and reference atlases. Cell-type-specific analyses found that root hair cells exhibited the strongest association with salt stress, with variety-specific transcriptional changes potentially contributing to DK's superior salt tolerance. Comparative gene profiling of root hair cells highlighted that CS prioritized rapid stress signaling and osmolyte accumulation, whereas DK emphasized metabolic reprogramming and cellular repair mechanisms. Pseudotime analysis pinpointed TaGSTU1-5B as a key candidate for wheat salt tolerance, and it was validated as improving salt tolerance by mediating ROS scavenging by overexpression. Additionally, subgenomic analysis revealed that salt stress enhanced asymmetric expression of the homeologs in polyploid wheat roots, and A- and D-dominant homologs were more related to salt response. This study reports the first single-cell atlas of salt-stressed wheat roots, uncovering cell-type-specific and variety-specific salt responses, providing novel insights into the molecular basis of salt adaptation and tolerance in wheat.",
+      "journal": "Plant Biotechnol J",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Du",
+          "fore_name": "Lin",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, China.",
+            "State Key Laboratory of Crop Stress Resistance and High Efficiency Production, College of Agronomy and Wheat Research Institute, Northwest A&F University, Yangling, Shaanxi, China.",
+            "BGI Research, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Pan",
+          "fore_name": "Wenqiu",
+          "affiliations": [
+            "State Key Laboratory of Crop Stress Resistance and High Efficiency Production, College of Agronomy and Wheat Research Institute, Northwest A&F University, Yangling, Shaanxi, China."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Yali",
+          "affiliations": [
+            "BGI Research, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Fuyan",
+          "affiliations": [
+            "OmicsGang Biotechnology Corporation, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Jia",
+          "fore_name": "Yanzhe",
+          "affiliations": [
+            "State Key Laboratory of Crop Stress Resistance and High Efficiency Production, College of Agronomy and Wheat Research Institute, Northwest A&F University, Yangling, Shaanxi, China."
+          ]
+        },
+        {
+          "last_name": "Wei",
+          "fore_name": "Cai",
+          "affiliations": [
+            "BGI Research, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xinchun",
+          "affiliations": [
+            "Clin Lab, BGI Genomics, Tianjin, China."
+          ]
+        },
+        {
+          "last_name": "Hou",
+          "fore_name": "Yong",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, China.",
+            "BGI Research, Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Nie",
+          "fore_name": "Xiaojun",
+          "affiliations": [
+            "State Key Laboratory of Crop Stress Resistance and High Efficiency Production, College of Agronomy and Wheat Research Institute, Northwest A&F University, Yangling, Shaanxi, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Hai-Xi",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, China.",
+            "BGI Research, Beijing, China.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Kang",
+          "fore_name": "Jingmin",
+          "affiliations": [
+            "BGI Research, Beijing, China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Triticum",
+        "Plant Roots",
+        "Salt Stress",
+        "Single-Cell Analysis",
+        "Transcriptome",
+        "Salt Tolerance",
+        "Gene Expression Regulation, Plant",
+        "Gene Expression Profiling"
+      ],
+      "keywords": [
+        "DK961",
+        "salt stress",
+        "transcriptomic landscape",
+        "transcriptomic trajectories",
+        "wheat root"
+      ]
+    },
+    {
+      "pmid": "41783587",
+      "pmc": "PMC11965618",
+      "doi": "10.3389/fgene.2025.1543623",
+      "title": "Novel LARS2 variants in patients with Perrault syndrome: expanding the genetic spectrum and phenotypic heterogeneity.",
+      "abstract": "Perrault syndrome (PS) is a rare autosomal recessive disorder characterized by sensorineural hearing loss (SNHL) and primary ovarian insufficiency in females. Two unrelated Chinese probands with hearing loss were enrolled, and comprehensive clinical evaluations were performed. Whole-exome sequencing (WES) was used to identify genetic variants, followed by Sanger sequencing for family co-segregation verification. Minigene assays and RT-PCR were conducted to assess the splicing effect of the novel canonical splice-site variant Proband 1 (12-year-old female) harbors compound heterozygous variants We identified two novel",
+      "journal": "Front Genet",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Lin",
+          "fore_name": "Zibin",
+          "affiliations": [
+            "Reproductive Medicine Center, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong, China.",
+            "College of Life Sciences, University of Chinese Academy of Sciences, Huairou, Beijing, China.",
+            "BGI Genomics, Shenzhen, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Xiang",
+          "fore_name": "Jiale",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Huairou, Beijing, China.",
+            "BGI Genomics, Shenzhen, Guangdong, China.",
+            "Hunan Provincial Key Laboratory of Regional Hereditary Birth Defects Prevention and Control, Changsha Hospital for Maternal and Child Health Care Affiliated to Hunan Normal University, Changsha, Hunan, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Xiangzhong",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Xinyu",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Union Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Xiaozhou",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Union Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+          ]
+        },
+        {
+          "last_name": "Cai",
+          "fore_name": "Qinming",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Union Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Jing",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Nana",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Ye",
+          "fore_name": "Haodong",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Jiangfan",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Jiguang",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Ou",
+          "fore_name": "Xianghong",
+          "affiliations": [
+            "Reproductive Medicine Center, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Yu",
+          "affiliations": [
+            "Department of Otorhinolaryngology, Union Hospital of Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Zhiyu",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Huairou, Beijing, China.",
+            "BGI Genomics, Shenzhen, Guangdong, China.",
+            "Hunan Provincial Key Laboratory of Regional Hereditary Birth Defects Prevention and Control, Changsha Hospital for Maternal and Child Health Care Affiliated to Hunan Normal University, Changsha, Hunan, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "LARS2 gene",
+        "Perrault syndrome",
+        "RT-PCR",
+        "minigene assay",
+        "novel variants"
+      ]
+    },
+    {
+      "pmid": "41689081",
+      "pmc": "PMC9811745",
+      "doi": "10.1186/s40246-022-00449-1",
+      "title": "Concurrent physiologic and gene-based genetic newborn hearing screening in a general population.",
+      "abstract": "Physiologic newborn hearing screening (NBHS) has several weaknesses requiring improvement. Studies have explored variant-based genetic NBHS as a complement to physiologic NBHS. However, this genetic NBHS strategy has fundamental limitations that challenge logistics. Given findings that a small set of genes accounts for the majority of genetic etiologies of hearing loss (HL), we designed a gene-based genetic NBHS strategy that screens for genes instead of limited variants, targeting the coding regions of twelve HL-related genes and the aminoglycoside-induced HL risk gene Of 20,997 participants with eligible physiologic and genetic NBHS results, 164 (0.8%) had positive physiologic or genetic NBHS results. Of 150 who underwent audiological assessments, 77 had confirmed HL. Among them, 32 were identified by genetic NBHS only, 24 by both physiologic and genetic NBHS, and 21 by physiologic NBHS only. Compared with conventional physiologic NBHS protocol (identified 45 HL cases), incorporating gene-based genetic NBHS into physiologic NBHS (additionally identified 32 HL cases) only required an additional 0.4% (87/20,997) of infants to undergo audiological assessments, yet achieved a 71% (32/45) increase in HL identification and provided genetic etiological information for 73% (56/77) of all HL cases. For 21 HL cases identified by physiologic NBHS only, genome sequencing identified genetic findings in three additional cases, showing that up to 77% (59/77) of infants with HL were caused by genetic factors in this general newborn population. Our new comprehensive NBHS protocol, concurrent physiologic and gene-based genetic NBHS, significantly improved the identification of infants with HL. The results demonstrated that the gene-based genetic NBHS addressed fundamental limitations of the variant-based strategy and was a powerful complement to physiologic NBHS. The online version contains supplementary material available at 10.1186/s40246-026-00912-3.",
+      "journal": "Hum Genomics",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Sun",
+          "fore_name": "Yun",
+          "affiliations": [
+            "Genetic Medicine Center, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China.",
+            "Jiangsu Provincial Newborn Screening Quality Control Center, Nanjing, 210004, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Jingyu",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China.",
+            "Clin Lab, BGI Genomics, Nanjing, 210019, China."
+          ]
+        },
+        {
+          "last_name": "Meng",
+          "fore_name": "Liping",
+          "affiliations": [
+            "Department of Child Healthcare, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China.",
+            "Jiangsu Provincial Newborn Screening Quality Control Center, Nanjing, 210004, China."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Genetic Medicine Center, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China.",
+            "Jiangsu Provincial Newborn Screening Quality Control Center, Nanjing, 210004, China."
+          ]
+        },
+        {
+          "last_name": "Xiang",
+          "fore_name": "Jiale",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China.",
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Xin",
+          "affiliations": [
+            "Genetic Medicine Center, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China."
+          ]
+        },
+        {
+          "last_name": "Guan",
+          "fore_name": "Xianwei",
+          "affiliations": [
+            "Genetic Medicine Center, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Jingjing",
+          "affiliations": [
+            "Genetic Medicine Center, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "Ye",
+          "affiliations": [
+            "Department of Child Healthcare, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Jing",
+          "affiliations": [
+            "Department of Child Healthcare, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Zibin",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China.",
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Xiangzhong",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Hui",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Fan",
+          "fore_name": "Chunna",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Jing",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Zhiyu",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, 518083, China. pengzhiyu@bgi.com.",
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China. pengzhiyu@bgi.com."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Zhengfeng",
+          "affiliations": [
+            "Genetic Medicine Center, Women's Hospital of Nanjing Medical University, Nanjing Women and Children's Healthcare Hospital, Nanjing, 210004, China. zhengfengxu@njmu.edu.cn.",
+            "Jiangsu Provincial Newborn Screening Quality Control Center, Nanjing, 210004, China. zhengfengxu@njmu.edu.cn."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Genetic screening",
+        "Hearing loss",
+        "Newborn hearing screening"
+      ]
+    },
+    {
+      "pmid": "41681029",
+      "doi": "10.1111/cge.70149",
+      "title": "Novel Haplotype-Based Noninvasive Prenatal Diagnosis for Recessive Single-Gene Disorders: A Proof-of-Concept Study.",
+      "abstract": "Accurate parental haplotype information is crucial for noninvasive prenatal diagnosis (NIPD) of recessive single-gene disorders (SGD) (NIPD-SGD). However, conventional approaches rely on complex experimental techniques or trio-based SNP linkage analysis requiring family members, which limit clinical application. Here, we present a novel direct haplotyping based NIPD approach termed DiHNIPD, utilizing single-tube long fragment read (stLFR) sequencing. First, parental genome-wide haplotypes were reconstructed by stLFR-based whole genome sequencing (WGS). Second, SNPs within and surrounding the target gene in maternal plasma were identified by WGS. Finally, fetal haplotypes were determined by implementing a parental haplotype-assisted hidden Markov model combined with the Viterbi algorithm. The DiHNIPD results were further confirmed by invasive prenatal diagnosis. This study recruited 23 couples at risk of having a fetus with SGD. DiHNIPD directly phased all parental haplotypes of the target gene and accurately deduced 23 fetal genotypes, achieving 100% concordance with diagnostic results. These results demonstrate that DiHNIPD is a sensitive, user-friendly and inexpensive strategy for NIPD-SGD. It eliminates the need for expensive devices and complex procedures and does not rely on family members. This method shows significant promise for clinical use in high-risk pregnancies without prior offspring.",
+      "journal": "Clin Genet",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Chen",
+          "fore_name": "Chao",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, China.",
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Yaping",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Lu",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Ru",
+          "affiliations": [
+            "Department of Prenatal Diagnostic Center, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Renhua",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Xinyue",
+          "affiliations": [
+            "Department of Prenatal Diagnostic Center, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Meifang",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Wan",
+          "fore_name": "Junhui",
+          "affiliations": [
+            "Department of Prenatal Diagnostic Center, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Lijie",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Guilan",
+          "affiliations": [
+            "Department of Prenatal Diagnostic Center, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Fan",
+          "affiliations": [
+            "Department of Prenatal Diagnostic Center, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Yun",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Chong",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Fu",
+          "fore_name": "Fang",
+          "affiliations": [
+            "Department of Prenatal Diagnostic Center, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Zhiyu",
+          "affiliations": [
+            "BGI Genomics, Shenzhen, China."
+          ]
+        },
+        {
+          "last_name": "Liao",
+          "fore_name": "Can",
+          "affiliations": [
+            "Department of Prenatal Diagnostic Center, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "direct haplotyping",
+        "noninvasive prenatal diagnosis",
+        "recessive single\u2010gene disorders",
+        "single\u2010tube long fragment read",
+        "whole genome sequencing"
+      ]
+    },
+    {
+      "pmid": "41673885",
+      "pmc": "PMC7141029",
+      "doi": "10.1002/uog.23537",
+      "title": "Promoter landscape of maternal plasma DNA reveals predictive signatures of fetal growth restriction.",
+      "abstract": "Fetal growth restriction (FGR) causes serious pregnancy complications, but early detection is challenging. Promoter coverage patterns from maternal plasma cell-free DNA (cfDNA) offer a promising, non-invasive method for early FGR detection. This retrospective multicenter study enrolled 788 singleton pregnancies (282 FGR and 506 matched controls) undergoing NIPT blood draw between 12 and 29 weeks of gestation from four hospitals in China. cfDNA promoter coverage was analyzed to identify transcription start site (TSS) features differentially covered in FGR. Feature selection was performed using LASSO regression. Three machine learning models\u2014support vector machine (SVM), logistic regression (LR), and K-nearest neighbor (KNN)\u2014were constructed. Model performance was assessed using area under the ROC curve (AUC), with an internal dataset used for validation. Functional enrichment analysis was conducted for biological interpretation. A total of 198 differentially covered TSS features were selected. In the validation dataset, both LR and SVM models demonstrated comparable predictive accuracy, with AUCs of 0.7 for LR and 0.69 for SVM. The associated genes were enriched in pathways related to placental and fetal development. Promoter profiling of maternal plasma cfDNA represents a novel, non-invasive approach for mid-pregnancy FGR prediction. This method could enhance early detection of at-risk pregnancies and inform clinical decision-making in prenatal care. The online version contains supplementary material available at 10.1186/s40246-026-00932-z.",
+      "journal": "Hum Genomics",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Wang",
+          "fore_name": "Jin",
+          "affiliations": [
+            "Prenatal Diagnosis Center, Jinan Maternity and Child Care Hospital Affiliated to Shandong First Medical University, No. 22029 Jing Shi Road, Shizhong District, Jinan, Shandong, 250000, China."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Peina",
+          "affiliations": [
+            "Clin Lab, BGI Genomics, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Zhiyan",
+          "affiliations": [
+            "Department of Gynecology, Qingzhou People's Hospital, Weifang, Shandong, China."
+          ]
+        },
+        {
+          "last_name": "Zhao",
+          "fore_name": "Xiaohan",
+          "affiliations": [
+            "Prenatal Diagnosis Center, Jinan Maternity and Child Care Hospital Affiliated to Shandong First Medical University, No. 22029 Jing Shi Road, Shizhong District, Jinan, Shandong, 250000, China."
+          ]
+        },
+        {
+          "last_name": "Hou",
+          "fore_name": "Fei",
+          "affiliations": [
+            "Prenatal Diagnosis Center, Jinan Maternity and Child Care Hospital Affiliated to Shandong First Medical University, No. 22029 Jing Shi Road, Shizhong District, Jinan, Shandong, 250000, China."
+          ]
+        },
+        {
+          "last_name": "Xin",
+          "fore_name": "Gang",
+          "affiliations": [
+            "Department of Obstetrics, The Second Hospital of Shandong University, Jinan, Shandong, China."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Shengye",
+          "affiliations": [
+            "Department of Obstetrics, Jinan People's Hospital, Jinan, Shandong, China."
+          ]
+        },
+        {
+          "last_name": "Kang",
+          "fore_name": "Jianhua",
+          "affiliations": [
+            "Department of Obstetrics, Shanghe County People's Hospital, Jinan, Shandong, China."
+          ]
+        },
+        {
+          "last_name": "Peng",
+          "fore_name": "Yingying",
+          "affiliations": [
+            "Prenatal Diagnosis Center, Jinan Maternity and Child Care Hospital Affiliated to Shandong First Medical University, No. 22029 Jing Shi Road, Shizhong District, Jinan, Shandong, 250000, China.",
+            "Shandong First Medical University, Jinan, Shandong, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Wenqiu",
+          "affiliations": [
+            "Clin Lab, BGI Genomics, Shanghai, China."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Hua",
+          "affiliations": [
+            "Prenatal Diagnosis Center, Jinan Maternity and Child Care Hospital Affiliated to Shandong First Medical University, No. 22029 Jing Shi Road, Shizhong District, Jinan, Shandong, 250000, China. prenatal123@163.com.",
+            "Shandong First Medical University, Jinan, Shandong, China. prenatal123@163.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Cell-free DNA",
+        "Fetal growth restriction",
+        "NIPT",
+        "Predict"
+      ]
+    }
+  ]
+}

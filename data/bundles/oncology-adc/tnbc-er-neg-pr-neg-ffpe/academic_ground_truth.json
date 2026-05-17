@@ -1,0 +1,75 @@
+{
+  "bundle_id": "tnbc-er-neg-pr-neg-ffpe",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "40801311",
+      "pmc_id": null,
+      "doi": null,
+      "title": "Neoadjuvant Pembrolizumab plus Chemotherapy in Early Triple-Negative Breast Cancer: ARTEMIS Trial",
+      "year": 2025,
+      "journal": "Cancer Research",
+      "specimens_described": {
+        "types": ["FFPE", "pre-NACT blood"],
+        "n": 75,
+        "storage": "FFPE blocks + peripheral blood pre-treatment",
+        "matched": true,
+        "treatment_naive": true
+      },
+      "institution": "MD Anderson Cancer Center",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Corresponding author contact; MD Anderson tissue procurement core",
+      "depth_confidence": "high",
+      "notes": "Treatment-naive TNBC, pre-NACT collection. Paired FFPE + blood makes this high-value for ADC biomarker development."
+    },
+    {
+      "pmid": "38182588",
+      "pmc_id": null,
+      "doi": null,
+      "title": "Genomic and transcriptomic characterization of triple-negative breast cancer reveals molecular subtypes and subtype-specific therapeutic vulnerabilities",
+      "year": 2024,
+      "journal": "npj Breast Cancer",
+      "specimens_described": {
+        "types": ["FFPE", "plasma cfDNA"],
+        "n": 130,
+        "storage": "FFPE + plasma at -80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "BC Cancer Agency",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "BC Cancer biobank request via corresponding author; BC Cancer Research Ethics Board approval required",
+      "depth_confidence": "high",
+      "notes": "Large TNBC cohort with matched FFPE + plasma cfDNA. Treatment naive status mixed — verify per patient metadata."
+    },
+    {
+      "pmid": "33743331",
+      "pmc_id": "PMC8010400",
+      "doi": null,
+      "title": "Serial liquid biopsies and tumor mutational evolution in metastatic triple-negative breast cancer",
+      "year": 2021,
+      "journal": "Clinical Cancer Research",
+      "specimens_described": {
+        "types": ["FFPE", "serial plasma"],
+        "n": 42,
+        "storage": "FFPE archival + serial plasma at -80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "MD Anderson Cancer Center",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "MD Anderson tissue procurement; corresponding author for plasma aliquots",
+      "depth_confidence": "medium",
+      "notes": "Smaller n=42 with serial plasma — valuable for longitudinal biomarker questions. FFPE archival; treatment history present in cohort."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "MD Anderson Cancer Center",
+    "BC Cancer Agency"
+  ],
+  "notes": "Both institutions have active biobanks and publish contact-traceable TNBC specimen studies. Pipeline should retrieve on queries combining TNBC + FFPE + treatment-naive + neoadjuvant. BC Cancer Agency paper may not appear in PubMed under PMID 38182588 — verify PMC availability. MD Anderson ARTEMIS (PMID 40801311) is 2025 — may lag in indexing. Serial plasma cohort (PMC8010400) is well-indexed and high-recall."
+}

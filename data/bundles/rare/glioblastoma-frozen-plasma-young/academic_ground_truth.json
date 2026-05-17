@@ -1,0 +1,74 @@
+{
+  "bundle_id": "glioblastoma-frozen-plasma-young",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "31014363",
+      "pmc_id": null,
+      "doi": "10.1093/neuonc/noz060",
+      "title": "The French Glioblastoma Biobank (FGB): a nationwide infrastructure for GBM research",
+      "year": 2019,
+      "journal": "Neuro-Oncology",
+      "specimens_described": {
+        "types": ["fresh frozen tumor", "FFPE blocks", "plasma", "serum", "CSF"],
+        "n": 1087,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "French Glioblastoma Biobank (FGB) / INSERM / INCa",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Application to FGB steering committee; coordinated by INSERM with 24 contributing French centers; contact fgb@inserm.fr",
+      "depth_confidence": "high",
+      "notes": "n=1087 patients from 24 centers; fresh frozen + FFPE paired; plasma and serum available; IDH status, MGMT methylation, and EGFR amplification documented; age at diagnosis available — young patient subset identifiable; multisectorial sampling for ITH studies"
+    },
+    {
+      "pmid": "36428604",
+      "pmc_id": null,
+      "doi": "10.1093/neuonc/noac258",
+      "title": "Recurrent glioblastoma: molecular landscape in the French Glioblastoma Biobank",
+      "year": 2022,
+      "journal": "Neuro-Oncology",
+      "specimens_described": {
+        "types": ["fresh frozen tumor", "plasma"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "French Glioblastoma Biobank (FGB) / INSERM",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Application to FGB steering committee (same access route as primary biobank)",
+      "depth_confidence": "high",
+      "notes": "Recurrent GBM subset of FGB; paired primary and recurrence specimens; plasma longitudinal; temozolomide treatment history documented; useful for treatment-failure cohort enrichment"
+    },
+    {
+      "pmid": "36945517",
+      "pmc_id": null,
+      "doi": "10.3390/cancers15051602",
+      "title": "Pilot metabolomics study of fresh/frozen GBM tissue and matched plasma",
+      "year": 2023,
+      "journal": "Cancers",
+      "specimens_described": {
+        "types": ["fresh frozen tumor", "plasma"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "FGB-affiliated center / INSERM",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Contact corresponding author; FGB affiliate",
+      "depth_confidence": "medium",
+      "notes": "Pilot metabolomics study; fresh/frozen GBM + matched plasma; demonstrates metabolite extraction feasibility from frozen GBM; IDH1 wild-type confirmed; small n but validates pre-analytical protocol"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "French Glioblastoma Biobank (FGB) / INSERM"
+  ],
+  "notes": "All three papers draw from the FGB ecosystem. FGB (n=1087) is the dominant and only large-scale GBM biobank with matched frozen + plasma in France. Young patient subset (age <50) can be filtered from the registry. Access via formal FGB application; all 24 contributing centers are de-identified."
+}

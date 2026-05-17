@@ -1,0 +1,215 @@
+{
+  "bundle_id": "uterine-endometrial-ffpe-plasma-staged",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "ProteoGenex",
+        "BIOMEDICA CRO",
+        "France Tissue Bank",
+        "CSD Bio",
+        "Ukraine Research Group",
+        "CHTN Eastern",
+        "Medical Gate",
+        "Reference Medicine",
+        "Stibion"
+      ],
+      "pass": "find >= 30% of ground truth orgs OR find >= 2 orgs with matching specimens",
+      "notes": "Pipeline searches PubMed/CTgov/web — may find orgs not in AminoChain. Those are valid, not errors. Academic endometrial cancer biobanks (Mayo, Johns Hopkins, MD Anderson TCGA-UCEC) are valid finds even if not in AminoChain."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data",
+        "FIGO stage not conflated with TNM stage without explicit conversion"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted",
+        "FIGO vs TNM staging ambiguity explicitly labeled [unverified] if not directly confirmed"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "ProteoGenex": {
+          "expected_scores": {
+            "SI": "4-5",
+            "CR": "4-5",
+            "CF": "3-4",
+            "MD": "3-4"
+          },
+          "specimen_count": 162,
+          "has_contact": true,
+          "has_biomarkers": true
+        },
+        "BIOMEDICA CRO": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "1-2",
+            "MD": "2-3"
+          },
+          "specimen_count": 88,
+          "has_contact": true,
+          "has_biomarkers": false
+        },
+        "France Tissue Bank": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "1-2",
+            "MD": "unknown"
+          },
+          "specimen_count": 74,
+          "has_contact": true,
+          "has_biomarkers": false
+        },
+        "CSD Bio": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "4-5",
+            "CF": "1-2",
+            "MD": "2-3"
+          },
+          "specimen_count": 22,
+          "has_contact": true,
+          "has_biomarkers": false
+        },
+        "Ukraine Research Group": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "1-2",
+            "MD": "unknown"
+          },
+          "specimen_count": 44,
+          "has_contact": true,
+          "has_biomarkers": false
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "histotype",
+          "reason": "endometrioid vs serous vs clear cell annotation sparse in commercial biobanks — requires pathology report review"
+        },
+        {
+          "field": "FIGO_stage",
+          "reason": "83% TNM staged but FIGO stage not systematically documented — conversion not reliable without pathology confirmation"
+        },
+        {
+          "field": "MMR_status",
+          "reason": "annotated at ProteoGenex only — not available across other suppliers"
+        },
+        {
+          "field": "POLE_mutation",
+          "reason": "0% annotated — requires molecular testing on acquisition"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not in any public registry — requires direct inquiry"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "ProteoGenex": 162,
+        "BIOMEDICA CRO": 88,
+        "France Tissue Bank": 74,
+        "Ukraine Research Group": 44,
+        "CSD Bio": 22
+      },
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented specimen counts — every N cites a source",
+        "no invented contacts — every email traces to paper/website/registry",
+        "no training-data fills for cost or biomarker data",
+        "FIGO stage not asserted as confirmed without a source"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "ER": "annotated at ProteoGenex (42 specimens)",
+    "PR": "annotated at ProteoGenex (42 specimens)",
+    "p53": "annotated at ProteoGenex (18 specimens) — critical for serous subtype identification",
+    "MMR": "annotated at ProteoGenex (11 specimens) — MSI-H subtype marker"
+  }
+}

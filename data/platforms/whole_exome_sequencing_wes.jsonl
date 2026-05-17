@@ -1,0 +1,1 @@
+{"name": "Bristol-Myers Squibb", "role": "collaborator", "class": "INDUSTRY", "evidence": [{"nct_id": "NCT04289259", "title": "Tumor Mutational Burden in Lung Cancer Patients", "n_enrolled": 6, "status": "TERMINATED", "study_type": "OBSERVATIONAL", "role": "collaborator"}], "countries": ["France"], "n_trials": 1, "total_enrollment": 6, "assay": "Whole exome sequencing (WES)"}
