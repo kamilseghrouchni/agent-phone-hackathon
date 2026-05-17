@@ -1283,6 +1283,28 @@ export async function startSession(
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       pushLog(handle, "error", `Scrape error: ${message}`);
+      // Best-effort: snapshot whatever is currently visible (could be the
+      // browser's error page, about:blank, or a half-loaded site) so the
+      // SessionPanel has SOMETHING to show when the user clicks this
+      // supplier post-mortem. Without this, suppliers whose goto() throws
+      // before the first frame tick land in LAST_FRAME with nothing, and
+      // their Live pane shows "↻ booting headless Chromium…" forever.
+      if (page && !page.isClosed()) {
+        try {
+          const buf = await page.screenshot({
+            type: "jpeg",
+            quality: FRAME_JPEG_QUALITY,
+            fullPage: false,
+          });
+          emitFrame({
+            supplier_id: input.supplier_id,
+            ts: nowIso(),
+            b64: buf.toString("base64"),
+          });
+        } catch {
+          // page may have torn down already — nothing we can do
+        }
+      }
       // Don't crash — mark partial so the demo keeps moving.
       setStatus(handle, "partial", {
         output: `Soft fail at ${target_url}`,

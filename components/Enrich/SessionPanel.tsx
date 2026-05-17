@@ -224,6 +224,22 @@ export function SessionPanel({ supplierId, states }: Props) {
             src={`data:image/jpeg;base64,${frameB64}`}
             alt={`Headless Chromium viewport — ${supplier.supplier.name}`}
           />
+        ) : isTerminal ? (
+          // Session ended without ever emitting a frame (e.g., page.goto
+          // threw before the first screenshot tick). Show the status +
+          // action-log preview here instead of the "booting" spinner so the
+          // user understands the session ran but produced no visual.
+          <div className="session-frame-empty mono-sm">
+            <div>Session {pip.label} — no live frame captured.</div>
+            {handle?.error && (
+              <div style={{ marginTop: 6, opacity: 0.8 }}>
+                {handle.error.slice(0, 200)}
+              </div>
+            )}
+            <div style={{ marginTop: 6, opacity: 0.7 }}>
+              Action log below has the full trace.
+            </div>
+          </div>
         ) : (
           <div className="session-frame-empty mono-sm">
             ↻ booting headless Chromium…
