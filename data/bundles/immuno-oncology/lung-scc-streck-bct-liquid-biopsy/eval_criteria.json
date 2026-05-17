@@ -1,0 +1,127 @@
+{
+  "bundle_id": "lung-scc-streck-bct-liquid-biopsy",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [],
+      "pass": "find >= 30% of ground truth orgs OR find >= 2 orgs with matching specimens",
+      "notes": "Pipeline searches PubMed/CTgov/web \u2014 may find orgs not in AminoChain. Those are valid, not errors."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {},
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "consent_scope",
+          "reason": "not in any public registry \u2014 requires direct inquiry"
+        },
+        {
+          "field": "commercial_use_terms",
+          "reason": "not documented publicly \u2014 requires negotiation"
+        },
+        {
+          "field": "freeze_thaw_count",
+          "reason": "not tracked in specimen registries"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {},
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented specimen counts \u2014 every N cites a source",
+        "no invented contacts \u2014 every email traces to paper/website/registry",
+        "no training-data fills for cost or biomarker data"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {}
+}

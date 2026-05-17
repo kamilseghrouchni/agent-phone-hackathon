@@ -1,0 +1,172 @@
+{
+  "bundle_id": "als-serum-pbmc",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 426,
+    "total_secondary_specimens": 359,
+    "total_donors": 241,
+    "organizations": [
+      "The Neuro C-BIG Repository",
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 74
+  },
+  "organizations": [
+    {
+      "name": "The Neuro C-BIG Repository",
+      "organization_id": "1425f7cb-6096-490e-858f-480b82197688",
+      "country": [
+        "CAN"
+      ],
+      "website": "https://www.mcgill.ca/neuro/research/open-biobank",
+      "contact_email": "cbig.mni@mcgill.ca",
+      "address": "3801 University Street Montreal, QC H3A 2B4 Canada",
+      "description": "A growing collection of biospecimens, longitudinal clinical and neuropsychiatric information, imaging and genetic data from patients with neurological disease as well as healthy controls.",
+      "specimens": {
+        "primary": {
+          "count": 425,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 359,
+          "type": "Peripheral blood mononuclear cells (PBMCs)"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 74,
+      "demographics": {
+        "mean_age": 63.7,
+        "n_with_age": 784,
+        "countries": [
+          "CAN"
+        ]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 1,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Peripheral blood mononuclear cells (PBMCs)"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 72.0,
+        "n_with_age": 1,
+        "countries": [
+          "UKR"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "0011bfad19df...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Blood",
+      "sex": "Male",
+      "age": 71,
+      "diagnoses": [
+        "Neurological condition",
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "0005259431fe...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Blood",
+      "sex": "Female",
+      "age": 44,
+      "diagnoses": [
+        "Neurological condition",
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "000334b3c615...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Blood",
+      "sex": "Male",
+      "age": 66,
+      "diagnoses": [
+        "Neurological condition",
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "001b48b8c554...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Blood",
+      "sex": "Male",
+      "age": 32,
+      "diagnoses": [
+        "Neurological condition",
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "00f16003fe76...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Blood",
+      "sex": "Male",
+      "age": 58,
+      "diagnoses": [
+        "Neurological condition",
+        "Amyotrophic Lateral Sclerosis (ALS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "bundle_id": "thyroid-cancer-ffpe-serum-staged",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 317,
+    "total_secondary_specimens": 414,
+    "total_donors": 431,
+    "organizations": [
+      "ProteoGenex",
+      "France Tissue Bank",
+      "Ukraine Research Group",
+      "Reference Medicine",
+      "CHTN Eastern",
+      "Medical Gate",
+      "CSD Bio",
+      "Stibion"
+    ],
+    "matched_pair_donors": 14,
+    "tnm_staged_pct": 0.78
+  },
+  "organizations": [
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": ["USA"],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 118,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 74,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {
+        "BRAF_V600E": 7,
+        "thyroglobulin": 12
+      },
+      "tnm_staged": 102,
+      "treatment_naive": 118,
+      "matched_pair_donors": 7,
+      "demographics": {
+        "mean_age": 46.8,
+        "n_with_age": 118,
+        "countries": ["USA"]
+      }
+    },
+    {
+      "name": "France Tissue Bank",
+      "organization_id": "24896abd-fc2c-4310-a02e-d5fbd211562e",
+      "country": ["FRA"],
+      "website": "https://francetissuebank.com/en",
+      "contact_email": "contact@francetissuebank.com",
+      "address": "",
+      "description": "France Tissue Bank — Your trusted partner for high-quality, responsive biospecimen sourcing.",
+      "specimens": {
+        "primary": {
+          "count": 84,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 63,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 52.3,
+        "n_with_age": 84,
+        "countries": ["FRA"]
+      }
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": ["UKR"],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research.",
+      "specimens": {
+        "primary": {
+          "count": 55,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 48,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 55,
+      "treatment_naive": 0,
+      "matched_pair_donors": 5,
+      "demographics": {
+        "mean_age": 49.6,
+        "n_with_age": 55,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "Reference Medicine",
+      "organization_id": "b1c2d3e4-f5a6-7890-bcde-f1234567890a",
+      "country": ["RUS"],
+      "website": "https://refmed.ru/",
+      "contact_email": "info@refmed.ru",
+      "address": "",
+      "description": "Reference Medicine provides biospecimen collection and processing services from certified clinical sites in Russia.",
+      "specimens": {
+        "primary": {
+          "count": 24,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 30,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 24,
+      "treatment_naive": 0,
+      "matched_pair_donors": 2,
+      "demographics": {
+        "mean_age": 51.1,
+        "n_with_age": 24,
+        "countries": ["RUS"]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": ["USA"],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "primary": {
+          "count": 19,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 48.2,
+        "n_with_age": 19,
+        "countries": ["USA"]
+      }
+    },
+    {
+      "name": "Medical Gate",
+      "organization_id": "0d6ee50f-4b67-468c-8385-8687c24030dc",
+      "country": ["TUR"],
+      "website": "http://www.medicalgatebio.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "MEDICAL GATE has a staff specialized in every stage of clinical research.",
+      "specimens": {
+        "primary": {
+          "count": 11,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 24,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 11,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 44.7,
+        "n_with_age": 11,
+        "countries": ["TUR"]
+      }
+    },
+    {
+      "name": "CSD Bio",
+      "organization_id": "fe7fb818-c267-4388-8e7c-3f5fd6f8edc2",
+      "country": ["UKR"],
+      "website": "https://www.csdbio.com.ua/",
+      "contact_email": "d.obukhov@csd.com.ua",
+      "address": "",
+      "description": "CSD BIO is Ukrainian Biobank prone to empower researchers with the tools for advancing precision medicine.",
+      "specimens": {
+        "primary": {
+          "count": 6,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 24,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 6,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 50.3,
+        "n_with_age": 6,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "9e6ec4c7-b5b4-4f16-a009-eb268f9edf66",
+      "country": ["NLD"],
+      "website": "https://www.stibion.nl",
+      "contact_email": "info@stibion.nl",
+      "address": "Colosseum 65, 7521 PP, Enschede, The Netherlands",
+      "description": "Stichting Biobank Oost Nederland (Stibion), based in the Netherlands, manages and distributes biospecimens from an active cohort.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 214,
+          "type": "Buffy coat"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 55.0,
+        "n_with_age": 134,
+        "countries": ["NLD"]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "f1a2b3c4d5e6...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Thyroid",
+      "sex": "Female",
+      "age": 43,
+      "diagnoses": [
+        "Papillary thyroid carcinoma",
+        "Thyroid cancer"
+      ],
+      "biomarkers": "BRAF V600E: positive",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": null
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "g2b3c4d5e6f7...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Female",
+      "age": 43,
+      "diagnoses": [
+        "Papillary thyroid carcinoma"
+      ],
+      "biomarkers": "thyroglobulin: elevated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": null
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "h3c4d5e6f7g8...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Thyroid",
+      "sex": "Female",
+      "age": 52,
+      "diagnoses": [
+        "Papillary thyroid carcinoma",
+        "Thyroid cancer",
+        "Lymph node metastasis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 3.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": null
+      },
+      "treatments": null,
+      "organization": "Ukraine Research Group"
+    },
+    {
+      "specimen_id": "i4d5e6f7g8h9...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Thyroid",
+      "sex": "Male",
+      "age": 61,
+      "diagnoses": [
+        "Papillary thyroid carcinoma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": null
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "France Tissue Bank"
+    }
+  ],
+  "coverage_gaps": {
+    "BRAF_V600E": "annotated in <2% of specimens — not tracked in most commercial biobank registries; requires molecular testing on acquisition",
+    "RAS_mutation": "0% annotated — relevant for follicular variant PTC; not available",
+    "serum_matching": "matched serum available at ProteoGenex (7 donors) and Ukraine Research Group (5 donors) only — 12 total matched pairs vs 50 required",
+    "FNA_cytology": "thyroid cancer literature focuses on FNA not FFPE; surgical resection samples are minority",
+    "consent_scope": "not available in specimen data — requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

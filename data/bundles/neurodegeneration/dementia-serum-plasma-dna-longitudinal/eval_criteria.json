@@ -1,0 +1,249 @@
+{
+  "bundle_id": "dementia-serum-plasma-dna-longitudinal",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "C-BIG",
+        "ProteoGenex",
+        "CHTN Eastern",
+        "Stibion",
+        "NDRI",
+        "BIOMEDICA CRO"
+      ],
+      "pass": "find >= 30% of ground truth orgs OR find >= 3 orgs with matching fluid specimens",
+      "notes": "Pipeline will likely surface ADNI, NCRAD, ROSMAP, NACC — these are valid additional finds (large academic cohorts with formal access). C-BIG is the highest-quality AminoChain source for this query. ProteoGenex is discoverable via web but may not appear in PubMed. Longitudinal tracking is the key discriminator."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data",
+        "longitudinal claim must cite evidence of multiple timepoints — not assumed from cohort name"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name",
+        "timepoint_count"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "The Neuro C-BIG Repository": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "specimen_count": 373,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "C-BIG is a well-documented open biobank with longitudinal data and named contact. Highest-quality source for this query. Cognitive score linkage requires inquiry but collection infrastructure exists."
+        },
+        "ProteoGenex": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "1-2"
+          },
+          "specimen_count": 220,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "Commercial supplier with reasonable specimen counts and direct contact. Longitudinal tracking at commercial suppliers is rare — requires explicit confirmation."
+        },
+        "CHTN Eastern": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "3-4",
+            "CF": "2-3",
+            "MD": "2-3"
+          },
+          "specimen_count": 160,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "CHTN has strong contact and documented protocols but primarily serves tissue, not longitudinal fluid collections. Fluid specimens exist but longitudinal tracking is not primary use case."
+        },
+        "Stibion": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "1-2"
+          },
+          "specimen_count": 130,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "European biobank with reasonable counts but longitudinal tracking unknown. Requires direct inquiry."
+        },
+        "NDRI": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "1-2"
+          },
+          "specimen_count": 75,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "Smaller specimen count for this query. Generic contact available. Longitudinal capability uncertain."
+        },
+        "BIOMEDICA CRO": {
+          "expected_scores": {
+            "SI": "1-2",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "1-2"
+          },
+          "specimen_count": 32,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "Small count, commercial procurement network. Longitudinal tracking at hospital partner level unlikely without special arrangement."
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "longitudinal_timepoints",
+          "reason": "not indexed per donor in AminoChain — commercial biobanks rarely track longitudinal collection systematically"
+        },
+        {
+          "field": "mmse_score",
+          "reason": "cognitive scores not in specimen registry — requires clinical data linkage at each org"
+        },
+        {
+          "field": "moca_score",
+          "reason": "cognitive scores not in specimen registry — requires clinical data linkage at each org"
+        },
+        {
+          "field": "dementia_subtype_confirmed",
+          "reason": "AD labeled but vascular/Lewy body/FTD not consistently separated in registry"
+        },
+        {
+          "field": "timepoint_interval",
+          "reason": "interval between collections not indexed — requires direct inquiry"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not available in specimen data — requires direct inquiry"
+        },
+        {
+          "field": "freeze_thaw_count",
+          "reason": "not tracked in AminoChain data"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "The Neuro C-BIG Repository": 373,
+        "ProteoGenex": 220,
+        "CHTN Eastern": 160,
+        "Stibion": 130,
+        "NDRI": 75,
+        "BIOMEDICA CRO": 32
+      },
+      "pass": "at least 2 recommended sources overlap with AminoChain orgs OR finds valid academic cohorts (ADNI, NCRAD, ROSMAP) not present in AminoChain"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented specimen counts — every N cites a source",
+        "no invented contacts — every email traces to paper/website/registry",
+        "no training-data fills for cost or biomarker data",
+        "longitudinal confirmation must NOT be assumed from cohort type — must be explicitly documented"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "NfL": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    },
+    "GFAP": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    },
+    "MMSE": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed — clinical assessment, not a specimen-level biomarker"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bundle_id": "pls-csf-serum-pbmc-dna",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "very low — PLS is ~1-2% of MND; dedicated PLS biobanks are extremely rare",
+    "org_discoverability": "low — most PLS specimens are embedded in broader ALS/MND collections, not separately catalogued",
+    "biomarker_specificity": "low — no PLS-specific biomarker required, but disease confirmation is hard",
+    "specimen_count": 529,
+    "org_count": 1
+  },
+  "expected_failure_modes": [
+    "Pipeline confuses PLS with ALS — PLS is upper motor neuron only; ALS involves both upper and lower motor neurons; most sources catalog both under ALS/MND without separation",
+    "Pipeline finds ALS sources and presents them as PLS-eligible without explicit PLS documentation — hard gate violation",
+    "Usable N inflated from 529 total C-BIG specimens (all MND diagnoses) to imply 529 PLS donors — actual PLS-confirmed donors are ~20",
+    "No second source exists in AminoChain — honest report should state single-source dependency rather than searching for non-existent alternatives",
+    "PBMC viability assumed from cryopreserved label without thaw viability confirmation",
+    "System may find Project MinE or Answer ALS (genomics studies) and misframe them as biospecimen sources for procurement"
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "bundle_id": "thymoma-ffpe-plasma-staged",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 53,
+    "total_secondary_specimens": 207,
+    "total_donors": 106,
+    "organizations": [
+      "BIOMEDICA CRO",
+      "CSD Bio",
+      "ProteoGenex",
+      "Medical Gate"
+    ],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 79,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 75,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 56.2,
+        "n_with_age": 79,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "CSD Bio",
+      "organization_id": "fe7fb818-c267-4388-8e7c-3f5fd6f8edc2",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://www.csdbio.com.ua/",
+      "contact_email": "d.obukhov@csd.com.ua",
+      "address": "",
+      "description": "CSD BIO is Ukrainian Biobank prone to empower researchers with the tools for advancing precision medicine. Our biorepository offers an extensive inventory of biospecimens as well as an exclusive laboratory for molecular biology and genetics research.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 67,
+          "type": "Buffy coat"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 67,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 59.1,
+        "n_with_age": 67,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 53,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 37,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 50,
+      "treatment_naive": 53,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 57.4,
+        "n_with_age": 53,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "Medical Gate",
+      "organization_id": "0d6ee50f-4b67-468c-8385-8687c24030dc",
+      "country": [
+        "TUR"
+      ],
+      "website": "http://www.medicalgatebio.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "MEDICAL GATE has a staff specialized in every stage of clinical research.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 24,
+          "type": "Whole blood"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 22,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 54.8,
+        "n_with_age": 24,
+        "countries": [
+          "TUR"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "a1b2c3d4e5f6...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Thymus",
+      "sex": "Female",
+      "age": 52,
+      "diagnoses": [
+        "Thymoma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": 1.0
+      },
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "b2c3d4e5f6a1...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Thymus",
+      "sex": "Male",
+      "age": 61,
+      "diagnoses": [
+        "Thymoma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 3.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 2.0
+      },
+      "treatments": "Chemo Treatment: yes; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "c3d4e5f6a1b2...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Thymus",
+      "sex": "Male",
+      "age": 48,
+      "diagnoses": [
+        "Thymic carcinoma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 4.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 4.0,
+        "grade": 3.0
+      },
+      "treatments": "Chemo Treatment: yes; Radio Treatment: yes; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    }
+  ],
+  "coverage_gaps": {
+    "WHO_histotype": "not annotated in AminoChain data \u2014 requires pathology re-review or direct inquiry",
+    "Masaoka-Koga_stage": "TNM staging present (95% of donors) but Masaoka-Koga is a separate thymic-specific system \u2014 not equivalent to TNM; requires direct inquiry",
+    "matched_plasma_with_tissue": "Plasma specimens from plasma-only orgs (BIOMEDICA CRO, Medical Gate) \u2014 no confirmed tissue+plasma from same donor",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data",
+    "myasthenia_gravis_comorbidity": "not annotated \u2014 clinically relevant for thymoma but not captured"
+  }
+}

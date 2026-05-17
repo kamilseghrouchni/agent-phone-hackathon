@@ -1,0 +1,341 @@
+{
+  "bundle_id": "esophageal-cancer-ffpe-plasma",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 250,
+    "total_secondary_specimens": 343,
+    "total_donors": 305,
+    "organizations": [
+      "ProteoGenex",
+      "France Tissue Bank",
+      "Ukraine Research Group",
+      "CHTN Eastern",
+      "CSD Bio",
+      "Medical Gate",
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 9,
+    "tnm_staged_pct": 0.93
+  },
+  "organizations": [
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": ["USA"],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 96,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 51,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {
+        "HER2": 3,
+        "PD_L1": 2
+      },
+      "tnm_staged": 89,
+      "treatment_naive": 96,
+      "matched_pair_donors": 6,
+      "demographics": {
+        "mean_age": 64.2,
+        "n_with_age": 96,
+        "countries": ["USA"]
+      }
+    },
+    {
+      "name": "France Tissue Bank",
+      "organization_id": "24896abd-fc2c-4310-a02e-d5fbd211562e",
+      "country": ["FRA"],
+      "website": "https://francetissuebank.com/en",
+      "contact_email": "contact@francetissuebank.com",
+      "address": "",
+      "description": "France Tissue Bank — Your trusted partner for high-quality, responsive biospecimen sourcing.",
+      "specimens": {
+        "primary": {
+          "count": 63,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 59,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 67.1,
+        "n_with_age": 63,
+        "countries": ["FRA"]
+      }
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": ["UKR"],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research.",
+      "specimens": {
+        "primary": {
+          "count": 38,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 90,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 38,
+      "treatment_naive": 0,
+      "matched_pair_donors": 3,
+      "demographics": {
+        "mean_age": 62.8,
+        "n_with_age": 38,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": ["USA"],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "primary": {
+          "count": 22,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 65.4,
+        "n_with_age": 22,
+        "countries": ["USA"]
+      }
+    },
+    {
+      "name": "CSD Bio",
+      "organization_id": "fe7fb818-c267-4388-8e7c-3f5fd6f8edc2",
+      "country": ["UKR"],
+      "website": "https://www.csdbio.com.ua/",
+      "contact_email": "d.obukhov@csd.com.ua",
+      "address": "",
+      "description": "CSD BIO is Ukrainian Biobank prone to empower researchers with the tools for advancing precision medicine.",
+      "specimens": {
+        "primary": {
+          "count": 12,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 52,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 12,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 63.5,
+        "n_with_age": 12,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "Medical Gate",
+      "organization_id": "0d6ee50f-4b67-468c-8385-8687c24030dc",
+      "country": ["TUR"],
+      "website": "http://www.medicalgatebio.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "MEDICAL GATE has a staff specialized in every stage of clinical research.",
+      "specimens": {
+        "primary": {
+          "count": 9,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 8,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 9,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 60.9,
+        "n_with_age": 9,
+        "countries": ["TUR"]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": ["UKR"],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally.",
+      "specimens": {
+        "primary": {
+          "count": 10,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 142,
+          "type": "Buffy coat"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 10,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 61.7,
+        "n_with_age": 10,
+        "countries": ["UKR"]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "j1k2l3m4n5o6...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Esophagus",
+      "sex": "Male",
+      "age": 62,
+      "diagnoses": [
+        "Esophageal cancer",
+        "Squamous cell cancer (SCC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 3.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 2.0
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "k2l3m4n5o6p7...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Male",
+      "age": 62,
+      "diagnoses": [
+        "Esophageal cancer",
+        "Squamous cell cancer (SCC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 3.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 2.0
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "l3m4n5o6p7q8...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Esophagus",
+      "sex": "Male",
+      "age": 68,
+      "diagnoses": [
+        "Esophageal cancer",
+        "Adenocarcinoma"
+      ],
+      "biomarkers": "HER2: negative",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "m4n5o6p7q8r9...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Esophagus",
+      "sex": "Male",
+      "age": 57,
+      "diagnoses": [
+        "Esophageal cancer",
+        "Squamous cell cancer (SCC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 4.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "Ukraine Research Group"
+    },
+    {
+      "specimen_id": "n5o6p7q8r9s0...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Esophagus",
+      "sex": "Female",
+      "age": 59,
+      "diagnoses": [
+        "Esophageal cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 2.0
+      },
+      "treatments": "Hormonal therapy: No; Chemotherapy: No; Radiation therapy: No",
+      "organization": "France Tissue Bank"
+    }
+  ],
+  "coverage_gaps": {
+    "histotype_subtype": "SCC vs adenocarcinoma distinction critical — annotated in ~60% of tissue specimens only; must confirm per acquisition",
+    "matched_plasma": "only ProteoGenex (6) and Ukraine Research Group (3) have confirmed matched pairs — 9 total vs 30 required",
+    "BETRNet_consortium": "major US academic esophageal cancer consortium — not accessible via AminoChain; requires direct academic contact",
+    "neoadjuvant_status": "treatment-naive filtering depends on free-text field parsing — verification required",
+    "consent_scope": "not available in specimen data — requires direct inquiry",
+    "tumor_location": "gastroesophageal junction vs mid-esophagus distinction not consistently documented"
+  }
+}

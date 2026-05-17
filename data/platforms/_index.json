@@ -1,0 +1,379 @@
+[
+  {
+    "assay_family": "Genomics",
+    "specific_assay": "Whole genome sequencing (WGS)",
+    "slug": "whole_genome_sequencing_wgs",
+    "n_trials_found": 50,
+    "n_industry_platforms": 7,
+    "platforms_file": "platforms/whole_genome_sequencing_wgs.jsonl",
+    "top_platforms": [
+      "Akrivia Health",
+      "Merck Sharp & Dohme LLC",
+      "Nanjing Geneseeq Technology Inc.",
+      "Illumina, Inc.",
+      "Ferring Pharmaceuticals"
+    ]
+  },
+  {
+    "assay_family": "Genomics",
+    "specific_assay": "Whole exome sequencing (WES)",
+    "slug": "whole_exome_sequencing_wes",
+    "n_trials_found": 50,
+    "n_industry_platforms": 1,
+    "platforms_file": "platforms/whole_exome_sequencing_wes.jsonl",
+    "top_platforms": [
+      "Bristol-Myers Squibb"
+    ]
+  },
+  {
+    "assay_family": "Genomics",
+    "specific_assay": "Targeted gene panel sequencing",
+    "slug": "targeted_gene_panel_sequencing",
+    "n_trials_found": 31,
+    "n_industry_platforms": 3,
+    "platforms_file": "platforms/targeted_gene_panel_sequencing.jsonl",
+    "top_platforms": [
+      "Tempus AI",
+      "HKGepitherapeutics",
+      "OmicsWay Corp."
+    ]
+  },
+  {
+    "assay_family": "Genomics",
+    "specific_assay": "Cell-free DNA / liquid biopsy DNA",
+    "slug": "cell_free_dna_liquid_biopsy_dna",
+    "n_trials_found": 50,
+    "n_industry_platforms": 14,
+    "platforms_file": "platforms/cell_free_dna_liquid_biopsy_dna.jsonl",
+    "top_platforms": [
+      "Guangzhou Burning Rock Dx Co., Ltd.",
+      "Guardant Health, Inc.",
+      "Javier Toledo",
+      "Sequenom, Inc.",
+      "Chronix Biomedical Corporation"
+    ]
+  },
+  {
+    "assay_family": "Genomics",
+    "specific_assay": "Long-read sequencing",
+    "slug": "long_read_sequencing",
+    "n_trials_found": 28,
+    "n_industry_platforms": 2,
+    "platforms_file": "platforms/long_read_sequencing.jsonl",
+    "top_platforms": [
+      "Sensor Technology for Deafblind",
+      "A*STAR Infectious Diseases Labs"
+    ]
+  },
+  {
+    "assay_family": "Genomics",
+    "specific_assay": "SNP genotyping array",
+    "slug": "snp_genotyping_array",
+    "n_trials_found": 33,
+    "n_industry_platforms": 1,
+    "platforms_file": "platforms/snp_genotyping_array.jsonl",
+    "top_platforms": [
+      "Genentech, Inc."
+    ]
+  },
+  {
+    "assay_family": "Epigenomics",
+    "specific_assay": "Methylation array (EPIC)",
+    "slug": "methylation_array_epic",
+    "n_trials_found": 51,
+    "n_industry_platforms": 7,
+    "platforms_file": "platforms/methylation_array_epic.jsonl",
+    "top_platforms": [
+      "AnchorDx Medical Co., Ltd.",
+      "OrigiMed",
+      "GeneCast Biotechnology Co., Ltd.",
+      "Geneplus-Beijing Co. Ltd.",
+      "Guardant Health, Inc."
+    ]
+  },
+  {
+    "assay_family": "Epigenomics",
+    "specific_assay": "Whole genome bisulfite sequencing (WGBS)",
+    "slug": "whole_genome_bisulfite_sequencing_wgbs",
+    "n_trials_found": 15,
+    "n_industry_platforms": 2,
+    "platforms_file": "platforms/whole_genome_bisulfite_sequencing_wgbs.jsonl",
+    "top_platforms": [
+      "AnchorDx Medical Co., Ltd.",
+      "HKGepitherapeutics"
+    ]
+  },
+  {
+    "assay_family": "Epigenomics",
+    "specific_assay": "ctDNA methylation profiling",
+    "slug": "ctdna_methylation_profiling",
+    "n_trials_found": 6,
+    "n_industry_platforms": 2,
+    "platforms_file": "platforms/ctdna_methylation_profiling.jsonl",
+    "top_platforms": [
+      "AnchorDx Medical Co., Ltd.",
+      "Guardant Health, Inc."
+    ]
+  },
+  {
+    "assay_family": "Epigenomics",
+    "specific_assay": "ATAC-seq",
+    "slug": "atac_seq",
+    "n_trials_found": 5,
+    "n_industry_platforms": 0,
+    "platforms_file": "platforms/atac_seq.jsonl",
+    "top_platforms": []
+  },
+  {
+    "assay_family": "Transcriptomics",
+    "specific_assay": "Bulk RNA sequencing",
+    "slug": "bulk_rna_sequencing",
+    "n_trials_found": 27,
+    "n_industry_platforms": 2,
+    "platforms_file": "platforms/bulk_rna_sequencing.jsonl",
+    "top_platforms": [
+      "Gilead Sciences",
+      "GlaxoSmithKline"
+    ]
+  },
+  {
+    "assay_family": "Transcriptomics",
+    "specific_assay": "Single-cell RNA sequencing",
+    "slug": "single_cell_rna_sequencing",
+    "n_trials_found": 50,
+    "n_industry_platforms": 5,
+    "platforms_file": "platforms/single_cell_rna_sequencing.jsonl",
+    "top_platforms": [
+      "Akrivia Health",
+      "Celerion",
+      "Wyeth is now a wholly owned subsidiary of Pfizer",
+      "Merck Sharp & Dohme LLC",
+      "iCell Gene Therapeutics"
+    ]
+  },
+  {
+    "assay_family": "Transcriptomics",
+    "specific_assay": "Spatial transcriptomics",
+    "slug": "spatial_transcriptomics",
+    "n_trials_found": 30,
+    "n_industry_platforms": 7,
+    "platforms_file": "platforms/spatial_transcriptomics.jsonl",
+    "top_platforms": [
+      "GlaxoSmithKline",
+      "Boehringer Ingelheim",
+      "Regeneron Pharmaceuticals",
+      "Novo Nordisk A/S",
+      "AstraZeneca"
+    ]
+  },
+  {
+    "assay_family": "Transcriptomics",
+    "specific_assay": "Targeted RNA panel (nCounter)",
+    "slug": "targeted_rna_panel_ncounter",
+    "n_trials_found": 28,
+    "n_industry_platforms": 7,
+    "platforms_file": "platforms/targeted_rna_panel_ncounter.jsonl",
+    "top_platforms": [
+      "NanoString Technologies, Inc.",
+      "Veracyte, Inc.",
+      "Illumina, Inc.",
+      "Inflammatix",
+      "Amwise Diagnostics Pte. Ltd."
+    ]
+  },
+  {
+    "assay_family": "Transcriptomics",
+    "specific_assay": "miRNA / small RNA sequencing",
+    "slug": "mirna_small_rna_sequencing",
+    "n_trials_found": 13,
+    "n_industry_platforms": 0,
+    "platforms_file": "platforms/mirna_small_rna_sequencing.jsonl",
+    "top_platforms": []
+  },
+  {
+    "assay_family": "Proteomics",
+    "specific_assay": "LC-MS/MS proteomics (DIA/TMT)",
+    "slug": "lc_msms_proteomics_diatmt",
+    "n_trials_found": 50,
+    "n_industry_platforms": 4,
+    "platforms_file": "platforms/lc_msms_proteomics_diatmt.jsonl",
+    "top_platforms": [
+      "OrigiMed",
+      "GeneCast Biotechnology Co., Ltd.",
+      "Geneplus-Beijing Co. Ltd.",
+      "Cota Inc."
+    ]
+  },
+  {
+    "assay_family": "Proteomics",
+    "specific_assay": "Olink (PEA panels)",
+    "slug": "olink_pea_panels",
+    "n_trials_found": 9,
+    "n_industry_platforms": 0,
+    "platforms_file": "platforms/olink_pea_panels.jsonl",
+    "top_platforms": []
+  },
+  {
+    "assay_family": "Proteomics",
+    "specific_assay": "SomaScan (aptamer)",
+    "slug": "somascan_aptamer",
+    "n_trials_found": 3,
+    "n_industry_platforms": 0,
+    "platforms_file": "platforms/somascan_aptamer.jsonl",
+    "top_platforms": []
+  },
+  {
+    "assay_family": "Proteomics",
+    "specific_assay": "Multiplex immunoassay",
+    "slug": "multiplex_immunoassay",
+    "n_trials_found": 10,
+    "n_industry_platforms": 1,
+    "platforms_file": "platforms/multiplex_immunoassay.jsonl",
+    "top_platforms": [
+      "Nonagen Bioscience Corporation"
+    ]
+  },
+  {
+    "assay_family": "Proteomics",
+    "specific_assay": "Mass cytometry (CyTOF)",
+    "slug": "mass_cytometry_cytof",
+    "n_trials_found": 48,
+    "n_industry_platforms": 3,
+    "platforms_file": "platforms/mass_cytometry_cytof.jsonl",
+    "top_platforms": [
+      "Hoffmann-La Roche",
+      "GlaxoSmithKline",
+      "Tesaro, Inc."
+    ]
+  },
+  {
+    "assay_family": "Metabolomics",
+    "specific_assay": "Untargeted LC-MS metabolomics",
+    "slug": "untargeted_lc_ms_metabolomics",
+    "n_trials_found": 53,
+    "n_industry_platforms": 3,
+    "platforms_file": "platforms/untargeted_lc_ms_metabolomics.jsonl",
+    "top_platforms": [
+      "Molecular Biometrics, Inc.",
+      "ASPEN Rhoads Research Foundation",
+      "Baxter (Hellas) Ltd"
+    ]
+  },
+  {
+    "assay_family": "Metabolomics",
+    "specific_assay": "Targeted metabolomics",
+    "slug": "targeted_metabolomics",
+    "n_trials_found": 50,
+    "n_industry_platforms": 1,
+    "platforms_file": "platforms/targeted_metabolomics.jsonl",
+    "top_platforms": [
+      "National Cattlemen's Beef Association, a contractor to the Beef Checkoff"
+    ]
+  },
+  {
+    "assay_family": "Metabolomics",
+    "specific_assay": "NMR metabolomics",
+    "slug": "nmr_metabolomics",
+    "n_trials_found": 50,
+    "n_industry_platforms": 2,
+    "platforms_file": "platforms/nmr_metabolomics.jsonl",
+    "top_platforms": [
+      "Rontis Hellas SA",
+      "Nimble Science Ltd."
+    ]
+  },
+  {
+    "assay_family": "Metabolomics",
+    "specific_assay": "Lipidomics",
+    "slug": "lipidomics",
+    "n_trials_found": 50,
+    "n_industry_platforms": 3,
+    "platforms_file": "platforms/lipidomics.jsonl",
+    "top_platforms": [
+      "Independent Research Fund Denmark",
+      "Alfasigma S.p.A.",
+      "Otsuka Pharmaceutical Co., Ltd."
+    ]
+  },
+  {
+    "assay_family": "Microbiome",
+    "specific_assay": "16S rRNA gene sequencing",
+    "slug": "16s_rrna_gene_sequencing",
+    "n_trials_found": 50,
+    "n_industry_platforms": 5,
+    "platforms_file": "platforms/16s_rrna_gene_sequencing.jsonl",
+    "top_platforms": [
+      "Atlas Biomed",
+      "Astellas Pharma US, Inc.",
+      "Pfizer",
+      "Novartis",
+      "Lallemand Pharma AG"
+    ]
+  },
+  {
+    "assay_family": "Microbiome",
+    "specific_assay": "Shotgun metagenomics",
+    "slug": "shotgun_metagenomics",
+    "n_trials_found": 57,
+    "n_industry_platforms": 2,
+    "platforms_file": "platforms/shotgun_metagenomics.jsonl",
+    "top_platforms": [
+      "Pathoquest",
+      "Onegevity Health"
+    ]
+  },
+  {
+    "assay_family": "Immunomics",
+    "specific_assay": "T-cell receptor sequencing",
+    "slug": "t_cell_receptor_sequencing",
+    "n_trials_found": 36,
+    "n_industry_platforms": 8,
+    "platforms_file": "platforms/t_cell_receptor_sequencing.jsonl",
+    "top_platforms": [
+      "Adaptive Biotechnologies",
+      "Genentech, Inc.",
+      "Tempus AI",
+      "Pfizer",
+      "Eli Lilly and Company"
+    ]
+  },
+  {
+    "assay_family": "Immunomics",
+    "specific_assay": "Flow cytometry",
+    "slug": "flow_cytometry",
+    "n_trials_found": 50,
+    "n_industry_platforms": 2,
+    "platforms_file": "platforms/flow_cytometry.jsonl",
+    "top_platforms": [
+      "Alexion Pharmaceuticals, Inc.",
+      "Innovive Pharmaceuticals"
+    ]
+  },
+  {
+    "assay_family": "Spatial proteomics",
+    "specific_assay": "Multiplex immunofluorescence",
+    "slug": "multiplex_immunofluorescence",
+    "n_trials_found": 8,
+    "n_industry_platforms": 2,
+    "platforms_file": "platforms/multiplex_immunofluorescence.jsonl",
+    "top_platforms": [
+      "LumiraDx UK Limited",
+      "Sanofi Pasteur, a Sanofi Company"
+    ]
+  },
+  {
+    "assay_family": "Spatial proteomics",
+    "specific_assay": "Imaging mass cytometry",
+    "slug": "imaging_mass_cytometry",
+    "n_trials_found": 20,
+    "n_industry_platforms": 6,
+    "platforms_file": "platforms/imaging_mass_cytometry.jsonl",
+    "top_platforms": [
+      "Hoffmann-La Roche",
+      "Comed B.V.",
+      "Merck Sharp & Dohme LLC",
+      "Zimmer Biomet",
+      "AstraZeneca"
+    ]
+  }
+]

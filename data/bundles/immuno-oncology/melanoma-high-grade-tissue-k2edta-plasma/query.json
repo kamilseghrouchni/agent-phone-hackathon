@@ -1,0 +1,31 @@
+{
+  "bundle_id": "melanoma-high-grade-tissue-k2edta-plasma",
+  "therapeutic_area": "immuno-oncology",
+  "query_text": "High-grade (grade 3+) cutaneous melanoma FFPE with T4N0 or nodal-positive staging. Need matched K2EDTA plasma at -80C. Require documented surgical procedure type. Prior chemo patients excluded. N >= 25.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Melanoma",
+      "Skin cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "biomarkers_desired": [
+      "BRAF",
+      "PD-L1"
+    ],
+    "staging_required": "T4 or N+",
+    "grade_minimum": 3,
+    "preservation": "Fixed",
+    "min_n": 25,
+    "treatment_status": "no prior chemo",
+    "matched_pairs": true,
+    "preanalytical": {
+      "tube_type": "K2EDTA",
+      "storage_temp": "-80C"
+    },
+    "assay_context": "Anti-LAG3 + anti-PD1 combo \u2014 TMB/ctDNA correlation in advanced melanoma"
+  }
+}

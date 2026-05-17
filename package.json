@@ -1,0 +1,40 @@
+{
+  "name": "vcro-mvp-biobanks",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "data:prep": "python3 scripts/enrich_orgs.py && python3 scripts/build_publication_index.py && python3 scripts/build_synonyms.py && python3 scripts/build_curated_queries.py && python3 scripts/build_db_views.py",
+    "setup:agentphone": "tsx scripts/setup-agentphone.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.0",
+    "@ai-sdk/react": "^2.0.0",
+    "@moss-dev/moss": "^1.0.2",
+    "agentmail": "^0.5.2",
+    "agentphone": "^1.0.9",
+    "ai": "^5.0.0",
+    "better-sqlite3": "^11.7.0",
+    "browser-use-sdk": "^3.6.0",
+    "next": "^15.1.0",
+    "playwright": "^1.60.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "supermemory": "^4.21.1",
+    "xlsx": "^0.18.5",
+    "yaml": "^2.9.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

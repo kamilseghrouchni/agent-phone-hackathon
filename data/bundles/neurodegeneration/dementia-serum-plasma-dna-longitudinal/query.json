@@ -1,0 +1,39 @@
+{
+  "bundle_id": "dementia-serum-plasma-dna-longitudinal",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "Dementia (all-cause), serum + plasma + DNA longitudinal collection with 2+ timepoints per donor. Cognitive scores documented (MMSE or MoCA). N >= 100 donors.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Dementia (all-cause)",
+      "Alzheimer's Disease (AD)",
+      "Vascular Dementia",
+      "Lewy Body Dementia",
+      "Frontotemporal Dementia"
+    ],
+    "specimen_types": [
+      "Serum",
+      "Plasma",
+      "DNA"
+    ],
+    "biomarkers_desired": [
+      "MMSE",
+      "MoCA",
+      "NfL",
+      "GFAP"
+    ],
+    "matched_pairs": true,
+    "longitudinal": true,
+    "min_timepoints": 2,
+    "min_n": 100,
+    "preanalytical": {
+      "longitudinal_required": true
+    },
+    "clinical_data_required": [
+      "MMSE or MoCA score at each timepoint",
+      "dementia subtype",
+      "collection date per timepoint"
+    ],
+    "assay_context": "Longitudinal biomarker trajectory study — requires paired fluid specimens with cognitive assessment at each timepoint"
+  }
+}

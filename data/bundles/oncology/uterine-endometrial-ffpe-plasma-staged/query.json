@@ -1,0 +1,34 @@
+{
+  "bundle_id": "uterine-endometrial-ffpe-plasma-staged",
+  "therapeutic_area": "womens-health",
+  "query_text": "Endometrial adenocarcinoma FFPE with matched plasma, FIGO staged. Histotype documented (endometrioid vs serous vs clear cell). Treatment-naive pre-hysterectomy specimens. N >= 50 paired.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Endometrial cancer",
+      "Uterine cancer",
+      "Endometrial adenocarcinoma"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "staging_required": "FIGO staged",
+    "histology_required": "adenocarcinoma — endometrioid, serous, or clear cell histotype documented",
+    "preservation": "Fixed",
+    "min_n": 50,
+    "treatment_status": "treatment-naive pre-hysterectomy",
+    "matched_pairs": true,
+    "preanalytical": {
+      "tube_type": "EDTA or K2EDTA",
+      "storage_temp": "-80C"
+    },
+    "clinical_data_required": [
+      "FIGO_stage",
+      "histotype",
+      "tumor_grade",
+      "myometrial_invasion_depth"
+    ],
+    "assay_context": "Endometrial cancer molecular subtyping — POLE mutation, MMR status, p53 status profiling for TCGA-like classification"
+  }
+}

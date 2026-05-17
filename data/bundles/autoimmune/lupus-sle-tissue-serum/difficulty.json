@@ -1,0 +1,18 @@
+{
+  "bundle_id": "lupus-sle-tissue-serum",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "low \u2014 lupus nephritis biopsy is a clinical procedure, not routine biobanking; commercial availability is thin",
+    "org_discoverability": "medium \u2014 academic rheumatology centers publish but specimen re-access requires negotiation",
+    "biomarker_specificity": "high \u2014 ISN/RPS classification requires expert nephropathology and is not tracked in any biospecimen registry",
+    "specimen_count": 203,
+    "org_count": 3
+  },
+  "expected_failure_modes": [
+    "Lupus nephritis biopsy is a diagnostic clinical procedure performed at diagnosis, not routine biobanking \u2014 commercial biobank availability is structurally thin",
+    "ISN/RPS class III-V requires expert nephropathology review \u2014 pipeline must flag as unknown, not infer from diagnosis codes",
+    "ANA and anti-dsDNA are serological markers not tracked in tissue registries \u2014 pipeline must not hallucinate documented status",
+    "Pipeline may find AMP-LN consortium data but physical specimen re-access from that consortium is controlled and not equivalent to commercial procurement",
+    "With only 3 orgs and 102 donors in AminoChain, N >= 20 with ISN/RPS class documentation is unlikely to be confirmed without direct org inquiry"
+  ]
+}

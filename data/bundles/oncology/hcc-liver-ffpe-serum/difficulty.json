@@ -1,0 +1,20 @@
+{
+  "bundle_id": "hcc-liver-ffpe-serum",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "low — only 3 orgs in AminoChain for HCC; 291 total specimens but etiology documentation near-zero",
+    "org_discoverability": "low — very few commercial suppliers; TCGA-LIHC and Asian academic cohorts are the main volume sources",
+    "biomarker_specificity": "very high — etiology (HBV/HCV/NASH/alcohol) and Child-Pugh score required; neither is tracked in commercial biobank registries",
+    "specimen_count": 291,
+    "org_count": 3,
+    "matched_pair_donors": 4
+  },
+  "expected_failure_modes": [
+    "Etiology (HBV/HCV/NASH/alcohol) not tracked in commercial specimen registries — pipeline must label all commercial sources as [not_stated] for etiology; must not infer from country of origin",
+    "Child-Pugh score is a clinical assessment rarely documented in biobank records — pipeline must flag as [not_stated] across all commercial sources",
+    "Only 4 confirmed matched serum pairs (all BIOMEDICA CRO) vs N=30 required — structural supply gap the pipeline must surface prominently",
+    "HCC tissue from transplant explants must be excluded — resection-only requirement not consistently tracked; requires per-specimen confirmation",
+    "Frozen liver tissue nearly absent in commercial collections; FFPE is the dominant form — may require pivot to academic surgical biobanks",
+    "TCGA-LIHC and CAIRO consortium provide volume but have complex DUA requirements — pipeline may underestimate access friction"
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "eurofins-genomics-biopharma",
+  "name": "Eurofins Genomics + Biopharma",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Eurofins Genomics + Biopharma",
+    "Eurofins Genomics",
+    "Biopharma"
+  ],
+  "search_queries": [
+    "\"Eurofins Genomics + Biopharma\"[Affiliation] AND 2022:3000[pdat]",
+    "\"Eurofins Genomics\"[Affiliation] AND 2022:3000[pdat]",
+    "\"Biopharma\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 1529,
+  "publications_indexed": 25,
+  "address_hints": [],
+  "contact_emails": [],
+  "sample_types": [
+    {
+      "type": "cell lines",
+      "n_papers": 3,
+      "evidence_pmids": [
+        "41500010",
+        "41410801",
+        "42007674"
+      ]
+    },
+    {
+      "type": "stool/feces",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "39408568",
+        "39062988"
+      ]
+    },
+    {
+      "type": "buccal",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41410801"
+      ]
+    },
+    {
+      "type": "tumor tissue",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41410801"
+      ]
+    },
+    {
+      "type": "saliva",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "40726009"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Cell Line, Tumor",
+      "n_papers": 3
+    },
+    {
+      "area": "Inflammasomes",
+      "n_papers": 2
+    },
+    {
+      "area": "Aging",
+      "n_papers": 2
+    },
+    {
+      "area": "Psoriasis",
+      "n_papers": 2
+    },
+    {
+      "area": "COVID-19",
+      "n_papers": 2
+    },
+    {
+      "area": "Immunogenicity, Vaccine",
+      "n_papers": 2
+    },
+    {
+      "area": "Anti-Inflammatory Agents, Non-Steroidal",
+      "n_papers": 1
+    },
+    {
+      "area": "Drug Screening Assays, Antitumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Anti-Inflammatory Agents",
+      "n_papers": 1
+    },
+    {
+      "area": "Mouth Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Tumor Necrosis Factor-alpha",
+      "n_papers": 1
+    },
+    {
+      "area": "Early Detection of Cancer",
+      "n_papers": 1
+    },
+    {
+      "area": "Ovarian Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Biomarkers, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Aging, Premature",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "School of Life Sciences",
+      "co_pubs": 3
+    },
+    {
+      "name": "Advanced Centre for Treatment",
+      "co_pubs": 2
+    },
+    {
+      "name": "Sahlgrenska University Hospital",
+      "co_pubs": 2
+    },
+    {
+      "name": "Institute of Clinical Sciences",
+      "co_pubs": 2
+    },
+    {
+      "name": "University of Zurich",
+      "co_pubs": 2
+    },
+    {
+      "name": "Charles University",
+      "co_pubs": 2
+    },
+    {
+      "name": "Birla Institute of Technology & Science",
+      "co_pubs": 1
+    },
+    {
+      "name": "Odisha University of Agriculture and Technology",
+      "co_pubs": 1
+    },
+    {
+      "name": "Laboratory Animal Facility",
+      "co_pubs": 1
+    },
+    {
+      "name": "Vardhaman College of Engineering (Autonomous)",
+      "co_pubs": 1
+    },
+    {
+      "name": "Homi Bhabha National Institute (HBNI)",
+      "co_pubs": 1
+    },
+    {
+      "name": "Tata Memorial Hospital",
+      "co_pubs": 1
+    },
+    {
+      "name": "Homi Bhabha Cancer Hospital & Research Centre (HBCH&RC)",
+      "co_pubs": 1
+    },
+    {
+      "name": "Tata Memorial Centre",
+      "co_pubs": 1
+    },
+    {
+      "name": "Altos Labs",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41500010",
+      "doi": "10.1016/j.bioorg.2025.109429",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Bioorg Chem",
+      "title": "A Phenstatin-based indole-chalcone hybrid as novel anti-inflammatory agent targeting the NLRP3 Inflammasome: Leads from computational and preclinical studies."
+    },
+    {
+      "pmid": "41410801",
+      "doi": "10.1186/s13059-022-02816-6",
+      "pmc": "PMC9746098",
+      "year": 2025,
+      "journal": "Hum Cell",
+      "title": "Generation and characterization of early stage oral cancer cell line of buccal mucosa of Indian origin."
+    },
+    {
+      "pmid": "40726009",
+      "doi": "10.1186/s13072-025-00576-8",
+      "pmc": "PMC11927307",
+      "year": 2025,
+      "journal": "Aging Cell",
+      "title": "Epigenetic Age Monitoring in Professional Soccer Players for Tracking Recovery and the Effects of Strenuous Exercise."
+    },
+    {
+      "pmid": "40155393",
+      "doi": "10.1038/s41541-025-01104-1",
+      "pmc": "PMC6086827",
+      "year": 2025,
+      "journal": "NPJ Vaccines",
+      "title": "Virus detection by short read high throughput sequencing in a high virus low cellular background."
+    },
+    {
+      "pmid": "39848204",
+      "doi": "10.1016/j.fsigen.2025.103228",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Forensic Sci Int Genet",
+      "title": "Evaluating genome-wide and targeted forensic sequencing approaches to kinship determination."
+    },
+    {
+      "pmid": "39408568",
+      "doi": "10.3390/ijms25147745",
+      "pmc": "PMC11277239",
+      "year": 2024,
+      "journal": "Int J Mol Sci",
+      "title": "The Effects of Brodalumab on the Fungal Microbiome in Patients with Psoriasis."
+    },
+    {
+      "pmid": "39062988",
+      "doi": "10.1186/2049-2618-2-11",
+      "pmc": "PMC4021573",
+      "year": 2024,
+      "journal": "Int J Mol Sci",
+      "title": "No Evidence of Gut Microbiota Alteration in Psoriasis Patients Switching to Brodalumab after Loss of TNF\u03b1 Inhibition Effect."
+    },
+    {
+      "pmid": "38711146",
+      "doi": "10.1006/jmbi.2000.4042",
+      "pmc": "PMC3031573",
+      "year": 2024,
+      "journal": "Mob DNA",
+      "title": "Teaching transposon classification as a means to crowd source the curation of repeat annotation - a tardigrade perspective."
+    },
+    {
+      "pmid": "37861205",
+      "doi": "10.1186/s13148-023-01440-w",
+      "pmc": "PMC9926627",
+      "year": 2024,
+      "journal": "Int J Cancer",
+      "title": "Plasma cell-free DNA methylation analysis for ovarian cancer detection: Analysis of samples from a case-control study and an ovarian cancer screening trial."
+    },
+    {
+      "pmid": "37196091",
+      "doi": "10.1126/sciadv.adf2982",
+      "pmc": "PMC4009616",
+      "year": 2023,
+      "journal": "Sci Adv",
+      "title": "Mice with humanized livers reveal the role of hepatocyte clocks in rhythmic behavior."
+    }
+  ]
+}

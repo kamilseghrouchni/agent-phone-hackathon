@@ -1,0 +1,18 @@
+{
+  "bundle_id": "obesity-plasma-serum",
+  "therapeutic_area": "cardiometabolic",
+  "query_text": "Obesity/metabolic syndrome plasma and serum for metabolomics. BMI data required. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Obesity",
+      "Metabolic syndrome"
+    ],
+    "specimen_types": [
+      "Plasma",
+      "Serum"
+    ],
+    "min_n": 30,
+    "assay_context": "Metabolomics for obesity drug development"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "bundle_id": "asthma-medication-documented-serum-plasma",
+  "therapeutic_area": "immunology",
+  "query_text": "Asthma patients with documented current medication list. Need paired serum + plasma, both from same blood draw. Must have documented BMI. Age 40-70. Exclude patients with cancer history. N >= 40.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Asthma"
+    ],
+    "specimen_types": [
+      "Serum",
+      "Plasma"
+    ],
+    "matched_pairs": true,
+    "min_n": 40,
+    "age_range": "40-70",
+    "exclusion": "cancer history",
+    "clinical_data_required": [
+      "medication_list",
+      "BMI"
+    ],
+    "assay_context": "Tezepelumab (anti-TSLP) \u2014 broad asthma phenotyping, non-eosinophilic subset"
+  }
+}

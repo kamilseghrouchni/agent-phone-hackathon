@@ -1,0 +1,194 @@
+{
+  "id": "diagenode",
+  "name": "Diagenode",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Diagenode"
+  ],
+  "search_queries": [
+    "\"Diagenode\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 11,
+  "publications_indexed": 11,
+  "address_hints": [
+    "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium",
+    "Epigenetics Unit, Diagenode s.a., Li\u00e8ge, Belgium",
+    "Epigenetics unit, Diagenode s.a., Li\u00e8ge, Belgium",
+    "Diagenode, Li\u00e8ge Science Park, Rue du Bois Saint-Jean 3, 4102 Li\u00e8ge, Belgium",
+    "Diagenode, Seraing, 4100, Belgium"
+  ],
+  "contact_emails": [
+    "sol.schvartzman@diagenode.com"
+  ],
+  "sample_types": [
+    {
+      "type": "plasma",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41957676"
+      ]
+    },
+    {
+      "type": "PDX",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "36335125"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Pregnancy",
+      "n_papers": 1
+    },
+    {
+      "area": "Maternal Nutritional Physiological Phenomena",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Tisch Cancer Institute",
+      "co_pubs": 2
+    },
+    {
+      "name": "Icahn School of Medicine at Mount Sinai",
+      "co_pubs": 2
+    },
+    {
+      "name": "Department of Biomedical Sciences/Wadsworth Center",
+      "co_pubs": 2
+    },
+    {
+      "name": "Black Family Stem Cell Institute",
+      "co_pubs": 2
+    },
+    {
+      "name": "Graduate School of Biomedical Sciences",
+      "co_pubs": 2
+    },
+    {
+      "name": "State Key Laboratory of Respiratory Disease",
+      "co_pubs": 2
+    },
+    {
+      "name": "Humphrey Oei Institute of Cancer Research",
+      "co_pubs": 2
+    },
+    {
+      "name": "State Key Laboratory of Oncology in South China",
+      "co_pubs": 2
+    },
+    {
+      "name": "Hematology and Oncology Center",
+      "co_pubs": 2
+    },
+    {
+      "name": "Department of Neurosurgery and Brain and Nerve Research Laboratory",
+      "co_pubs": 2
+    },
+    {
+      "name": "Texas Children's Hospital",
+      "co_pubs": 2
+    },
+    {
+      "name": "Pre-clinical Neuro-oncology Research Program",
+      "co_pubs": 2
+    },
+    {
+      "name": "Center for Translational Cancer Research",
+      "co_pubs": 2
+    },
+    {
+      "name": "Duke-NUS Medical School Singapore",
+      "co_pubs": 2
+    },
+    {
+      "name": "Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics",
+      "co_pubs": 2
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41957676",
+      "doi": "10.1186/s13059-026-04060-8",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Genome Biol",
+      "title": "Long-read sequencing identifies aberrant fragmentation patterns linked to elevated cell-free DNA levels in cancer."
+    },
+    {
+      "pmid": "41588113",
+      "doi": "10.1038/nrm3025",
+      "pmc": "PMC3390257",
+      "year": 2026,
+      "journal": "EMBO J",
+      "title": "TORC1-dependent translation drives chromatin remodeling during the germ-cell-to-maternal transition in Drosophila."
+    },
+    {
+      "pmid": "40161787",
+      "doi": "10.1038/nrm3025",
+      "pmc": "PMC3390257",
+      "year": 2025,
+      "journal": "bioRxiv",
+      "title": "TORC1-driven translation of"
+    },
+    {
+      "pmid": "39814241",
+      "doi": "10.1016/j.ygeno.2025.110995",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Genomics",
+      "title": "Differences in maternal diet fiber content influence patterns of gene expression and chromatin accessibility in fetuses and piglets."
+    },
+    {
+      "pmid": "38732397",
+      "doi": "10.1104/pp.103.028076",
+      "pmc": "PMC300752",
+      "year": 2024,
+      "journal": "Plants (Basel)",
+      "title": "Heterotrophy Compared to Photoautotrophy for Growth Characteristics and Pigment Compositions in Batch Cultures of Four Green Microalgae."
+    },
+    {
+      "pmid": "37521535",
+      "doi": "10.1101/038612",
+      "pmc": "PMC4589892",
+      "year": 2022,
+      "journal": "Wellcome Open Res",
+      "title": "Automated ChIPmentation procedure on limited biological material of the human blood fluke"
+    },
+    {
+      "pmid": "36550163",
+      "doi": "10.1038/s41467-022-35539-0",
+      "pmc": "PMC9780217",
+      "year": 2022,
+      "journal": "Nat Commun",
+      "title": "Publisher Correction: Epigenetic alterations of repeated relapses in patient-matched childhood ependymomas."
+    },
+    {
+      "pmid": "36335125",
+      "doi": "10.1007/s00401-018-1877-0",
+      "pmc": "PMC6105278",
+      "year": 2022,
+      "journal": "Nat Commun",
+      "title": "Epigenetic Alterations of Repeated Relapses in Patient-matched Childhood Ependymomas."
+    },
+    {
+      "pmid": "35928544",
+      "doi": "10.1097/HS9.0000000000000763",
+      "pmc": "PMC8160090",
+      "year": 2022,
+      "journal": "Hemasphere",
+      "title": "A Journey Into the Unknown: PhD Students in a European Training Network on Age-related Changes in Hematopoiesis Conduct Their Project During a Global Pandemic."
+    },
+    {
+      "pmid": "35650556",
+      "doi": "10.1186/s12859-021-04544-3",
+      "pmc": "PMC8760670",
+      "year": 2022,
+      "journal": "BMC Bioinformatics",
+      "title": "Correction: MGcount: a total RNA-seq quantification tool to address multi-mapping and multi-overlapping alignments ambiguity in non-coding transcripts."
+    }
+  ]
+}

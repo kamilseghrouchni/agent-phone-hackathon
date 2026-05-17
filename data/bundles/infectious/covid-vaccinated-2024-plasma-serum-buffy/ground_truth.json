@@ -1,0 +1,212 @@
+{
+  "bundle_id": "covid-vaccinated-2024-plasma-serum-buffy",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 1028,
+    "total_secondary_specimens": 2011,
+    "total_donors": 1079,
+    "organizations": [
+      "BIOMEDICA CRO",
+      "Stibion"
+    ],
+    "matched_pair_donors": 428
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 1020,
+          "type": "Plasma"
+        },
+        "secondary": {
+          "count": 2011,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 2716,
+      "treatment_naive": 0,
+      "matched_pair_donors": 428,
+      "demographics": {
+        "mean_age": 60.8,
+        "n_with_age": 3031,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "9e6ec4c7-b5b4-4f16-a009-eb268f9edf66",
+      "country": [
+        "NLD"
+      ],
+      "website": "https://www.stibion.nl",
+      "contact_email": "info@stibion.nl",
+      "address": "Colosseum 65, 7521 PP, Enschede, The Netherlands",
+      "description": "Stichting Biobank Oost Nederland (Stibion), based in the Netherlands, manages and distributes urine and plasma samples from an active cohort of individuals aged 45 and older. The study collects urine ",
+      "specimens": {
+        "primary": {
+          "count": 8,
+          "type": "Plasma"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 57.2,
+        "n_with_age": 8,
+        "countries": [
+          "NLD"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "26312deb9df8...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 66,
+      "diagnoses": [
+        "Coronavirus (Covid)",
+        "Congestive Heart Failure (CHF)",
+        "Lymphoma",
+        "Squamous cell cancer (SCC)",
+        "Skin cancer",
+        "Non-hodgkin lymphoma (NHL)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "2a9f6e1b00b8...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 66,
+      "diagnoses": [
+        "Coronavirus (Covid)",
+        "Congestive Heart Failure (CHF)",
+        "Lymphoma",
+        "Squamous cell cancer (SCC)",
+        "Skin cancer",
+        "Non-hodgkin lymphoma (NHL)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "3bd37a1f2e02...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 66,
+      "diagnoses": [
+        "Coronavirus (Covid)",
+        "Congestive Heart Failure (CHF)",
+        "Lymphoma",
+        "Squamous cell cancer (SCC)",
+        "Skin cancer",
+        "Non-hodgkin lymphoma (NHL)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "56758fe56793...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 35,
+      "diagnoses": [
+        "Coronavirus (Covid)",
+        "Lymphoma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "6437e721ebf2...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Uterus",
+      "sex": "Female",
+      "age": 66,
+      "diagnoses": [
+        "Coronavirus (Covid)",
+        "Congestive Heart Failure (CHF)",
+        "Lymphoma",
+        "Squamous cell cancer (SCC)",
+        "Skin cancer",
+        "Non-hodgkin lymphoma (NHL)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

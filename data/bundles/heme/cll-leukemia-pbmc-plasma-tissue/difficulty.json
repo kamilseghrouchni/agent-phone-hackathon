@@ -1,0 +1,18 @@
+{
+  "bundle_id": "cll-leukemia-pbmc-plasma-tissue",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "medium \u2014 CLL tissue exists but PBMC pool is thin (13 specimens); bone marrow biopsy is structurally rare in commercial biobanks",
+    "org_discoverability": "medium \u2014 10 orgs in AminoChain but IGHV tracking requires clinical depth most commercial orgs lack",
+    "biomarker_specificity": "high \u2014 IGHV mutation status not tracked in any biospecimen registry; treatment-naive CLL structurally absent from commercial biobanks",
+    "specimen_count": 188,
+    "org_count": 10
+  },
+  "expected_failure_modes": [
+    "IGHV mutation status not tracked in any biospecimen registry \u2014 pipeline must flag as not_stated, never infer from diagnosis",
+    "CLL PBMC cryopreservation requires specialized protocols (density gradient, DMSO, controlled-rate freezing) \u2014 viability claims without protocol citation are hallucinations",
+    "Bone marrow biopsy tissue is a clinical diagnostic procedure \u2014 very rare in commercial biobanks; only 115 tissue specimens across all 10 orgs",
+    "Pipeline likely surfaces 100K Genomes Project CLL cohort and Danish CLL study \u2014 these are data-access only, physical specimen re-access is a separate gate that pipeline must distinguish",
+    "Treatment-naive CLL is enrolled in trials (CLL8, CLL11, RESONATE) not biobanks \u2014 pipeline may find these as data cohorts but must not conflate data access with specimen procurement"
+  ]
+}

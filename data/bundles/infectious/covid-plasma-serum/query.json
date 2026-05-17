@@ -1,0 +1,16 @@
+{
+  "bundle_id": "covid-plasma-serum",
+  "therapeutic_area": "infectious",
+  "query_text": "COVID-19 plasma + serum, acute phase and convalescent. Vaccination status documented. Large N.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Coronavirus (Covid)"
+    ],
+    "specimen_types": [
+      "Plasma",
+      "Serum"
+    ],
+    "assay_context": "SARS-CoV-2 antibody and immune response profiling"
+  }
+}

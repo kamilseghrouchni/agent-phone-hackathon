@@ -1,0 +1,21 @@
+{
+  "bundle_id": "als-serum-pbmc",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "ALS serum + PBMCs for NfL and immune profiling. Large N preferred (>100). Longitudinal with clinical outcomes.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Amyotrophic Lateral Sclerosis (ALS)"
+    ],
+    "specimen_types": [
+      "Serum",
+      "PBMCs"
+    ],
+    "biomarkers_desired": [
+      "NfL"
+    ],
+    "min_n": 100,
+    "matched_pairs": true,
+    "assay_context": "ALS biomarker + immune monitoring"
+  }
+}

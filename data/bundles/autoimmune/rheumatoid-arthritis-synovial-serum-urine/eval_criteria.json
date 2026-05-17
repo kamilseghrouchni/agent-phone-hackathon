@@ -1,0 +1,186 @@
+{
+  "bundle_id": "rheumatoid-arthritis-synovial-serum-urine",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "BIOMEDICA CRO",
+        "Stibion",
+        "NDRI"
+      ],
+      "pass": "find >= 30% of ground truth orgs OR find >= 1 org with RA synovial specimens",
+      "notes": "Pipeline may also surface R4RA, SERA, or TACERA RA cohorts \u2014 those are valid academic finds but physical specimen re-access requires separate negotiation. Stibion specializes in autoimmune and may be harder to find via PubMed."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "BIOMEDICA CRO": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "1-2",
+            "MD": "3-4"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Procurement CRO with hospital network \u2014 good contact, weak clinical annotation depth"
+        },
+        "Stibion": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "2-3",
+            "MD": "2-3"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Autoimmune specialist \u2014 may have better collection protocol documentation than general biobanks"
+        },
+        "NDRI": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Established nonprofit \u2014 good contact, synovial biopsy is not core collection focus"
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "rf_status",
+          "reason": "RF not tracked in biospecimen registries \u2014 requires clinical record linkage"
+        },
+        {
+          "field": "anti_ccp_status",
+          "reason": "Anti-CCP not tracked in biospecimen registries \u2014 requires clinical record linkage"
+        },
+        {
+          "field": "medication_history",
+          "reason": "Medication history not tracked in specimen registries \u2014 requires clinical record access"
+        },
+        {
+          "field": "treatment_naive_flag",
+          "reason": "Treatment-naive RA enrolled in clinical trials, not commercial biobanks \u2014 structural scarcity"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not in any public registry \u2014 requires direct inquiry"
+        },
+        {
+          "field": "freeze_thaw_count",
+          "reason": "not tracked in specimen registries"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "BIOMEDICA CRO": "synovial biopsy availability and RF/anti-CCP status unknown",
+        "Stibion": "synovial biopsy availability and RF/anti-CCP status unknown",
+        "NDRI": "synovial biopsy availability and RF/anti-CCP status unknown"
+      },
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs OR surfaces a credible academic RA cohort with specimen access"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented RF or anti-CCP status without a clinical source",
+        "no invented medication history without clinical record citation",
+        "no invented contacts \u2014 every email traces to paper/website/registry",
+        "no training-data fills for synovial biopsy protocol specifics"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "rf_status": "0.0% annotated in AminoChain \u2014 not tracked",
+    "anti_ccp_status": "0.0% annotated in AminoChain \u2014 not tracked",
+    "medication_history": "0.0% annotated \u2014 not tracked"
+  }
+}

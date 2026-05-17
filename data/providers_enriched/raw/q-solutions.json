@@ -1,0 +1,4153 @@
+{
+  "name": "Q\u00b2 Solutions (IQVIA Labs)",
+  "cleaned_name": "Q\u00b2 Solutions",
+  "aliases_tried": [
+    "Q\u00b2 Solutions",
+    "IQVIA Labs"
+  ],
+  "publication_total": 39,
+  "search_queries": [
+    "\"Q\u00b2 Solutions\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41733120",
+      "doi": "10.1002/art.70105",
+      "title": "Multi-Omic Profiling Reveals Immune Cell Priming Signature Linked to Lupus Prognosis.",
+      "abstract": "Systemic lupus erythematosus (SLE) is a multiorgan disease with widespread immune dysregulation and significant unmet clinical need. Blood-based gene expression studies have advanced our understanding of SLE pathogenesis but may overlook critical tissue-specific mechanisms that drive disease heterogeneity and progression. We posited that integrated multidimensional profiling could reveal novel molecular patterns underlying distinct SLE pathologies. Here, we integrated immune cell, protein, and transcriptome data sets with disease activity and damage indices across 87 patients with SLE to reveal three independent protein signatures corresponding to discrete organ pathologies and immune perturbations. Alongside type I interferon and granulocyte pathways, our multidimensional analyses identified a previously uncharacterized immune cell priming protein signature that was enriched in patients with renal involvement and was indicative of elevated risk of six-year organ damage accrual. This minimally invasive signature outperformed conventional assessments and was only found in the serum proteomics data. Collectively, the protein signatures demonstrated a combined prevalence of 94%, reflecting their broad relevance to SLE. Together, these results reveal parallel immune mechanisms in SLE and provide a framework to identify new therapeutic targets. Clinical and immune data are available for public exploration through the interactive SLE Immune Atlas.",
+      "journal": "Arthritis Rheumatol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Smith",
+          "fore_name": "Michael A",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Sinibaldi",
+          "fore_name": "Dominic",
+          "affiliations": [
+            "Data Science and AI, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Saifur",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Chiang",
+          "fore_name": "Chia-Chien",
+          "affiliations": [
+            "Data Science and AI, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Hansen",
+          "fore_name": "Anna M",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Henault",
+          "fore_name": "Jill",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Roca",
+          "fore_name": "Carlos P",
+          "affiliations": [
+            "Data Science and AI, AstraZeneca, Cambridge, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Shu",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Zerrouki",
+          "fore_name": "Kamelia",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Filippi",
+          "fore_name": "Rebecca",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Groves",
+          "fore_name": "Christopher",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Manna",
+          "fore_name": "Zerai",
+          "affiliations": [
+            "Lupus Clinical Trials Unit, National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH, Bethesda, Maryland."
+          ]
+        },
+        {
+          "last_name": "Chu",
+          "fore_name": "Jun",
+          "affiliations": [
+            "Lupus Clinical Trials Unit, National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH, Bethesda, Maryland."
+          ]
+        },
+        {
+          "last_name": "Davis",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Lupus Clinical Trials Unit, National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH, Bethesda, Maryland."
+          ]
+        },
+        {
+          "last_name": "Gupta",
+          "fore_name": "Sarthak",
+          "affiliations": [
+            "Lupus Clinical Trials Unit, National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH, Bethesda, Maryland."
+          ]
+        },
+        {
+          "last_name": "Morehouse",
+          "fore_name": "Christopher",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "de Los Reyes",
+          "fore_name": "Melissa",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Ettinger",
+          "fore_name": "Rachel",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Kolbeck",
+          "fore_name": "Roland",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Kaplan",
+          "fore_name": "Mariana J",
+          "affiliations": [
+            "Lupus Clinical Trials Unit, National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH, Bethesda, Maryland.",
+            "Systemic Autoimmunity Branch, National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH, Bethesda, Maryland."
+          ]
+        },
+        {
+          "last_name": "Sanjuan",
+          "fore_name": "Miguel A",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        },
+        {
+          "last_name": "Siegel",
+          "fore_name": "Richard M",
+          "affiliations": [
+            "Office of the Clinical Director, National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH, Bethesda, Maryland. Authors Smith, Wang, and Zerrouki's current address is Horizon Therapeutics, Rockville, Maryland. Dr Rahman's current address is Sanofi US, Cambridge, Massachusetts. Dr Chiang's current address is Discovery IO, LLC, Rockville, Maryland. Dr Henault's current address is Bristol Myers Squibb, Cambridge, Massachusetts. Author Filippi's current address is Oncology R&D, AstraZeneca, Gaithersburg, Maryland. Dr Groves's current address is Q2 Solutions, Durham, North Carolina. Dr Ettinger's current address is Kensington, Maryland. Dr Kolbeck's current address is Spirovant Sciences, Inc, Philadelphia, Pennsylvania. Dr Sanjuan's current addresses are Sanofi US, Cambridge, Massachusetts, and Paulex Bio, La Jolla, California. Dr Siegel's current address is Novartis Institutes of BioMedical Research, Basel, Switzerland. Dr Casey's current address is Regeneron Pharmaceuticals, Tarrytown, New York."
+          ]
+        },
+        {
+          "last_name": "Hasni",
+          "fore_name": "Sarfaraz A",
+          "affiliations": [
+            "Lupus Clinical Trials Unit, National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH, Bethesda, Maryland."
+          ]
+        },
+        {
+          "last_name": "Casey",
+          "fore_name": "Kerry A",
+          "affiliations": [
+            "BioPharmaceuticals R&D, AstraZeneca, Gaithersburg, Maryland."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41085630",
+      "doi": "10.1038/s41423-019-0304-3",
+      "pmc": "5777204",
+      "title": "MHC II MAPPs for High-Confident Immunogenicity Risk Assessment of Biotherapeutics.",
+      "abstract": "Biotherapeutics can provoke unwanted immunogenicity, which can affect the safety and/or efficacy of the drug. Consequently, immunogenicity risk assessments are carried out during drug development. Further, immunogenicity is evaluated during clinical trials prior to licensure. Most therapeutic proteins are either purified from plasma or, increasingly, manufactured using recombinant DNA technology. The immune response to these protein therapies involves internalization of the protein into antigen-presenting cells (APCs), enzymatic processing of the protein into peptides, and presentation of peptides on major histocompatibility class II (MHC II) proteins (HLA class II in humans). The MHC II-peptide complex if recognized by T cell receptors (TCRs) engages with CD4+ T helper cells, which ultimately results in formation of anti-drug antibodies (ADAs). The MHC-associated peptide proteomics (MAPPs) is an assay that in principle can identify the peptides derived from the therapeutic protein that are associated with an individual subject's MHC variants. The MAPPs assay is the only assay that provides information about both protein processing in APCs and peptide presentation by MHC proteins. This is important because not all possible peptides from a protein can be generated during protein processing in APCs. Here we describe a highly robust protocol for MHC II MAPPs.",
+      "journal": "Methods Mol Biol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Pepermans",
+          "fore_name": "Elise",
+          "affiliations": [
+            "ImmuneSpec, Niel, Belgium. Elise.Pepermans@ImmuneSpec.com."
+          ]
+        },
+        {
+          "last_name": "Sauna",
+          "fore_name": "Zuben E",
+          "affiliations": [
+            "Division of Hemostasis, Office of Plasma Protein Therapeutics, Center for Biologics Evaluation and Research (CBER), Food and Drug Administration (FDA), Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Pattyn",
+          "fore_name": "Sofie",
+          "affiliations": [
+            "IQVIA Laboratories (Formerly known as ImmunXperts, a Q2 Solutions Company), Gosselies, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Histocompatibility Antigens Class II",
+        "Risk Assessment",
+        "Peptides",
+        "Proteomics",
+        "Antigen-Presenting Cells",
+        "Antigen Presentation",
+        "Biological Products"
+      ],
+      "keywords": [
+        "Antigen presentation",
+        "Biotherapeutic development",
+        "Immunogenicity",
+        "MAPPs",
+        "MHC II",
+        "MHC-associated peptide proteomics",
+        "Risk assessment",
+        "T cell epitope",
+        "Unwanted immunogenicity"
+      ]
+    },
+    {
+      "pmid": "40692205",
+      "pmc": "PMC7092803",
+      "doi": "10.1111/pbi.70278",
+      "title": "Structural Design and Immunogenicity of a Novel Self-Adjuvanting Mucosal Vaccine Candidate for SARS-CoV-2 Expressed in Plants.",
+      "abstract": "Mucosal vaccination for COVID-19 to boost preexisting though insufficient systemic and local/mucosal immunity remains an attractive prospect but there are currently no licensed mucosal vaccines against this infection. Here, using a plant expression system, we developed a novel mucosal vaccine platform for respiratory viruses and demonstrated its application in the context of SARS-CoV-2 infection. In addition to the antigen itself, the PCF (Platform CTB-Fc) vaccine candidate incorporates two molecular adjuvants, the IgG-Fc antibody fragment and the nontoxic cholera toxin B subunit (CTB), with the first targeting the vaccine to IgG receptors on antigen-presenting cells, and the second providing local adjuvanticity by targeting cellular gangliosides in the mucosae. We demonstrated that this vaccine candidate is highly immunogenic in mice, inducing virus-neutralising systemic and mucosal antibodies as well as tissue resident memory T cells in the lungs. We also demonstrated that SRBD-PCF is recognised by immune cells from exposed or vaccinated individuals, and that circulating antibodies also bind to the antigen within the vaccine, forming immune complexes (IC). Finally, with a view of respiratory delivery, we demonstrated that the vaccine can be aerosolised without loss of material or biological activity, and that it is noncytotoxic and nonhaemolytic to human cells. Furthermore, we demonstrate that the plant expression system represents a suitable platform to produce these complex, multifunctional macromolecules capable of simultaneously binding to multiple targets. Our data strongly support the case for a safe, self-adjuvanting mucosal COVID-19 vaccine development, as means to boosting both systemic and mucosal immunity.",
+      "journal": "Plant Biotechnol J",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Kim",
+          "fore_name": "Mi-Young",
+          "affiliations": [
+            "Department of Molecular Biology and the Institute for Molecular Biology and Genetics, Jeonbuk National University, Jeonju, Republic of Korea.",
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Tran",
+          "fore_name": "Andy Cano",
+          "affiliations": [
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Kim",
+          "fore_name": "Ju",
+          "affiliations": [
+            "Department of Molecular Biology and the Institute for Molecular Biology and Genetics, Jeonbuk National University, Jeonju, Republic of Korea."
+          ]
+        },
+        {
+          "last_name": "Ayuk",
+          "fore_name": "Humblenoble Stembridge",
+          "affiliations": [
+            "Universit\u00e9 Claude Bernard Lyon 1, Villeurbanne, France."
+          ]
+        },
+        {
+          "last_name": "Sparrow",
+          "fore_name": "Adam",
+          "affiliations": [
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Bossi",
+          "fore_name": "Lorenzo",
+          "affiliations": [
+            "ImmunXperts SA, A Q2 Solutions Company, Charleroi, Belgium."
+          ]
+        },
+        {
+          "last_name": "Brown",
+          "fore_name": "Megan",
+          "affiliations": [
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Vergara",
+          "fore_name": "Emil Joseph",
+          "affiliations": [
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "G\u00f6ritzer",
+          "fore_name": "Kathrin",
+          "affiliations": [
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Groppelli",
+          "fore_name": "Elisabetta",
+          "affiliations": [
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Kwon",
+          "fore_name": "Tae-Ho",
+          "affiliations": [
+            "Gencellbiotech Inc., Wanju, Republic of Korea."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "Julian K C",
+          "affiliations": [
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Jang",
+          "fore_name": "Yong-Suk",
+          "affiliations": [
+            "Department of Molecular Biology and the Institute for Molecular Biology and Genetics, Jeonbuk National University, Jeonju, Republic of Korea."
+          ]
+        },
+        {
+          "last_name": "Reljic",
+          "fore_name": "Rajko",
+          "affiliations": [
+            "Institute for Infection and Immunity, City St George's University of London, London, UK."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "SARS-CoV-2",
+        "COVID-19 Vaccines",
+        "Mice",
+        "COVID-19",
+        "Immunity, Mucosal",
+        "Humans",
+        "Antibodies, Viral",
+        "Adjuvants, Immunologic",
+        "Cholera Toxin",
+        "Female",
+        "Mice, Inbred BALB C",
+        "Nicotiana"
+      ],
+      "keywords": [
+        "APCs targeting",
+        "SARS\u2010CoV\u20102",
+        "cholera toxin B subunit (CT\u2010B)",
+        "immunoglobulin Fc",
+        "macro molecular adjuvant",
+        "mucosal vaccine platform"
+      ]
+    },
+    {
+      "pmid": "41058705",
+      "pmc": "PMC9927488",
+      "doi": "10.1128/spectrum.03061-22",
+      "title": "Humoral response induced after intranasal vaccination with heat inactivated",
+      "abstract": "Here, we first evaluated the protective efficacy of a vaccination protocol with the heat-killed (HK) We observed that mice deficient in Th1 (IL-12p35 Overall, our results demonstrate that administration of HK bacteria can induce protective immunity against",
+      "journal": "Front Immunol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Rouma",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Unit\u00e9 de Recherche en Biologie des Microorganismes (URBM) - Laboratoire d'Immunologie et de Microbiologie, NAmur Research Institute for LIfe Sciences (NARILIS), University of Namur, Namur,\u00a0Belgium.",
+            "Laboratoire de Parasitologie, Universit\u00e9 Libre de Bruxelles (ULB), Gosselies,\u00a0Belgium.",
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Barbieux",
+          "fore_name": "Emeline",
+          "affiliations": [
+            "Unit\u00e9 de Recherche en Biologie des Microorganismes (URBM) - Laboratoire d'Immunologie et de Microbiologie, NAmur Research Institute for LIfe Sciences (NARILIS), University of Namur, Namur,\u00a0Belgium.",
+            "Laboratoire de Parasitologie, Universit\u00e9 Libre de Bruxelles (ULB), Gosselies,\u00a0Belgium.",
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Bossi",
+          "fore_name": "Lorenzo",
+          "affiliations": [
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium.",
+            "ImmunXperts SA, a Q\u00b2 Solutions Company, Gosselies,\u00a0Belgium.",
+            "Immunobiology Laboratory, ULB, Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Poncin",
+          "fore_name": "Katy",
+          "affiliations": [
+            "Unit\u00e9 de Recherche en Biologie des Microorganismes (URBM) - Laboratoire d'Immunologie et de Microbiologie, NAmur Research Institute for LIfe Sciences (NARILIS), University of Namur, Namur,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Denanglaire",
+          "fore_name": "S\u00e9bastien",
+          "affiliations": [
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium.",
+            "Immunobiology Laboratory, ULB, Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Tafesse",
+          "fore_name": "Yohannes",
+          "affiliations": [
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium.",
+            "Institute for Medical Immunology, ULB, Gosselies,\u00a0Belgium.",
+            "Department of Pharmacotherapy and Pharmaceutics, ULB, Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Vermijlen",
+          "fore_name": "David",
+          "affiliations": [
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium.",
+            "Institute for Medical Immunology, ULB, Gosselies,\u00a0Belgium.",
+            "Department of Pharmacotherapy and Pharmaceutics, ULB, Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Delbauve",
+          "fore_name": "Sandrine",
+          "affiliations": [
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium.",
+            "Institute for Medical Immunology, ULB, Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Flamand",
+          "fore_name": "V\u00e9ronique",
+          "affiliations": [
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium.",
+            "Institute for Medical Immunology, ULB, Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Van Buylaere",
+          "fore_name": "Juliette",
+          "affiliations": [
+            "Microbial Resistance and Drug Discovery, VIB-VUB Center for Structural Biology, VIB, Flanders Institute for Biotechnology, Brussels,\u00a0Belgium.",
+            "Structural Biology Brussels, Vrije Universiteit Brussel (VUB), Brussels,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Van der Henst",
+          "fore_name": "Charles",
+          "affiliations": [
+            "Microbial Resistance and Drug Discovery, VIB-VUB Center for Structural Biology, VIB, Flanders Institute for Biotechnology, Brussels,\u00a0Belgium.",
+            "Structural Biology Brussels, Vrije Universiteit Brussel (VUB), Brussels,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "De Bolle",
+          "fore_name": "Xavier",
+          "affiliations": [
+            "Unit\u00e9 de Recherche en Biologie des Microorganismes (URBM) - Laboratoire d'Immunologie et de Microbiologie, NAmur Research Institute for LIfe Sciences (NARILIS), University of Namur, Namur,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Andris",
+          "fore_name": "Fabienne",
+          "affiliations": [
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium.",
+            "Immunobiology Laboratory, ULB, Gosselies,\u00a0Belgium."
+          ]
+        },
+        {
+          "last_name": "Muraille",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Unit\u00e9 de Recherche en Biologie des Microorganismes (URBM) - Laboratoire d'Immunologie et de Microbiologie, NAmur Research Institute for LIfe Sciences (NARILIS), University of Namur, Namur,\u00a0Belgium.",
+            "Laboratoire de Parasitologie, Universit\u00e9 Libre de Bruxelles (ULB), Gosselies,\u00a0Belgium.",
+            "ULB Center for Research in Immunology (U-CRI), Gosselies,\u00a0Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Acinetobacter baumannii",
+        "Acinetobacter Infections",
+        "Mice",
+        "Bacterial Vaccines",
+        "Immunity, Humoral",
+        "Administration, Intranasal",
+        "Vaccination",
+        "Mice, Inbred C57BL",
+        "Vaccines, Inactivated",
+        "Mice, Knockout",
+        "Humans",
+        "Immunocompromised Host",
+        "Antibodies, Bacterial",
+        "Female",
+        "Disease Models, Animal",
+        "Leukocytes, Mononuclear",
+        "Virulence",
+        "Hot Temperature"
+      ],
+      "keywords": [
+        "Acinetobacter baumannii",
+        "LAC-4 strain",
+        "immunodeficient mice",
+        "peripheral blood mononuclear cells of patients",
+        "pulmonary infection",
+        "whole body inactivated vaccine"
+      ]
+    },
+    {
+      "pmid": "39165120",
+      "doi": "10.1002/cyto.b.22202",
+      "title": "Flow cytometry assay modifications: Recommendations for method validation based on CLSI H62 guidelines.",
+      "abstract": "The Clinical and Laboratory Standards Institute (CLSI) H62-Validation of Assays Performed by Flow Cytometry guideline, released in 2021, provides recommendations for platform workflow and quality system essentials, instrument setup and standardization, assay development and optimization and fit-for-purpose analytical method validation. In addition, CLSI H62 includes some recommendations for the validation strategies after a validated flow cytometric method has been modified. This manuscript builds on those recommendations and discusses the impact of different types of assay modifications on assay performance. Recommendations regarding which validation parameters to evaluate depending on the type of modification are provided. The impact of assay modification on the assay's intended use is discussed. When recommending minor deviations from the CLSI H62 process for a laboratory-initiated assay revision (e.g., specimen numbers for sensitivity, specificity, or precision studies), a rationale based on expert opinion is provided with the understanding that not every laboratory, assay type, and circumstance can be comprehensively addressed in this paper. These recommendations are meant as a practical recommendation and are not intended to be restrictive, prescriptive, or understood as necessarily sufficient to meet every specific requirement from regulatory bodies (e.g., FDA or New York State Department of Health).",
+      "journal": "Cytometry B Clin Cytom",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Monaghan",
+          "fore_name": "Sara A",
+          "affiliations": [
+            "Department of Pathology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Eck",
+          "fore_name": "Steven",
+          "affiliations": [
+            "Clinical Pharmacology and Safety Sciences, Astra Zeneca, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Bunting",
+          "fore_name": "Silvia",
+          "affiliations": [
+            "Department of Pathology, Cleveland Clinic Florida, Weston, Florida, USA."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Xiangyang X",
+          "affiliations": [
+            "Department of Clinical Flow Cytometry, Quest Diagnostics, Lewisville, Texas, USA."
+          ]
+        },
+        {
+          "last_name": "Durso",
+          "fore_name": "Robert J",
+          "affiliations": [
+            "Regeneron Pharmaceuticals, Inc., Tarrytown, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Gonneau",
+          "fore_name": "Christele",
+          "affiliations": [
+            "Labcorp, Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Illingworth",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Dahl-Chase Diagnostic Services, Bangor, Maine, USA."
+          ]
+        },
+        {
+          "last_name": "League",
+          "fore_name": "Stacy C",
+          "affiliations": [
+            "Mayo Clinic, Rochester, Minnesota, USA."
+          ]
+        },
+        {
+          "last_name": "Linskens",
+          "fore_name": "Eleni",
+          "affiliations": [
+            "Department of Clinical Biology, Laboratory Hematology, University Hospital Brussels, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "McCausland",
+          "fore_name": "Megan",
+          "affiliations": [
+            "Q2 Solutions, Marietta, Georgia, USA."
+          ]
+        },
+        {
+          "last_name": "McCloskey",
+          "fore_name": "Thomas W",
+          "affiliations": [
+            "ICON Laboratory Services, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Rolf",
+          "fore_name": "Nina",
+          "affiliations": [
+            "BC Children's Hospital Research Institute, University of British Columbia, Vancouver, British Columbia, Canada."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Min",
+          "affiliations": [
+            "Division of Hematopathology, Department of Pathology and Laboratory Medicine, Mayo Clinic, Rochester, Minnesota, USA."
+          ]
+        },
+        {
+          "last_name": "Wallace",
+          "fore_name": "Paul K",
+          "affiliations": [
+            "SciGro, Inc., Sedona, Arizona, USA."
+          ]
+        },
+        {
+          "last_name": "Litwin",
+          "fore_name": "Virginia",
+          "affiliations": [
+            "Eurofins Clinical Trial Solutions, Qu\u00e9bec, Canada."
+          ]
+        },
+        {
+          "last_name": "Kern",
+          "fore_name": "Wolfgang",
+          "affiliations": [
+            "MLL M\u00fcnchner Leuk\u00e4mielabor, Munich, Germany."
+          ]
+        },
+        {
+          "last_name": "Deeb",
+          "fore_name": "George",
+          "affiliations": [
+            "Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, Georgia, USA."
+          ]
+        },
+        {
+          "last_name": "Nash",
+          "fore_name": "Veronica",
+          "affiliations": [
+            "Cerba Research, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Olteanu",
+          "fore_name": "Horatiu",
+          "affiliations": [
+            "Division of Hematopathology, Department of Pathology and Laboratory Medicine, Mayo Clinic, Rochester, Minnesota, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Flow Cytometry",
+        "Humans",
+        "Guidelines as Topic",
+        "Sensitivity and Specificity",
+        "Reference Standards",
+        "Reproducibility of Results",
+        "Quality Control"
+      ],
+      "keywords": [
+        "CLSI",
+        "H62",
+        "assay modification",
+        "flow cytometry",
+        "validation"
+      ]
+    },
+    {
+      "pmid": "40184253",
+      "pmc": "PMC5734394",
+      "doi": "10.48550/arXiv.1810.11363",
+      "title": "A global collaboration for systematic analysis of broad-ranging antibodies against the SARS-CoV-2 spike protein.",
+      "abstract": "The Coronavirus Immunotherapeutic Consortium (CoVIC) conducted side-by-side comparisons of over 400 anti-SARS-CoV-2 spike therapeutic antibody candidates contributed by large and small companies as well as academic groups on multiple continents. Nine reference labs analyzed antibody features, including in\u00a0vivo protection in a mouse model of infection, spike protein affinity, high-resolution epitope binning, ACE-2 binding blockage, structures, and neutralization of pseudovirus and authentic virus infection, to build a publicly accessible dataset in the database CoVIC-DB. High-throughput, high-resolution binning of CoVIC antibodies defines a broad and predictive landscape of antibody epitopes on the SARS-CoV-2 spike protein and identifies features associated with durable potency against multiple SARS-CoV-2 variants of concern and high in\u00a0vivo efficacy. Results of the CoVIC studies provide a guide for selecting effective and durable antibody therapeutics and for immunogen design as well as providing a framework for rapid response to future viral disease outbreaks.",
+      "journal": "Cell Rep",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Schendel",
+          "fore_name": "Sharon L",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Xiaoying",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "Halfmann",
+          "fore_name": "Peter J",
+          "affiliations": [
+            "Influenza Research Institute, Department of Pathobiological Sciences, School of Veterinary Medicine, University of Wisconsin-Madison, Madison, WI 53711, USA."
+          ]
+        },
+        {
+          "last_name": "Mahita",
+          "fore_name": "Jarjapu",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "Ha",
+          "fore_name": "Brendan",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "Hastie",
+          "fore_name": "Kathryn M",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Haoyang",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "Bedinger",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Carterra, Inc., Salt Lake City, UT 84103, USA."
+          ]
+        },
+        {
+          "last_name": "Troup",
+          "fore_name": "Camille",
+          "affiliations": [
+            "Carterra, Inc., Salt Lake City, UT 84103, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Kan",
+          "affiliations": [
+            "Center for Human Systems Immunology, Departments of Surgery and Integrative Immunobiology, Duke University, Durham, NC 27701, USA."
+          ]
+        },
+        {
+          "last_name": "Kuzmina",
+          "fore_name": "Natalia",
+          "affiliations": [
+            "Department of Pathology, University of Texas Medical Branch at Galveston, 301 University Boulevard, Galveston, TX 77555, USA; Galveston National Laboratory, 301 University Boulevard, Galveston, TX 77550, USA."
+          ]
+        },
+        {
+          "last_name": "Torrelles",
+          "fore_name": "Jordi B",
+          "affiliations": [
+            "Disease Intervention and Prevention and Population Health Programs, Texas Biomedical Research Institute, San Antonio, TX 78227, USA; Population Health Program, International Center for the Advancement of Research & Education (I-CARE), Texas Biomedical Research Institute, San Antonio, TX 78227, USA."
+          ]
+        },
+        {
+          "last_name": "Munt",
+          "fore_name": "Jennifer E",
+          "affiliations": [
+            "Department of Epidemiology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27516, USA."
+          ]
+        },
+        {
+          "last_name": "Mattocks",
+          "fore_name": "Melissa",
+          "affiliations": [
+            "Department of Epidemiology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27516, USA."
+          ]
+        },
+        {
+          "last_name": "Osei-Twum",
+          "fore_name": "Mary",
+          "affiliations": [
+            "Nexelis, a Q2 Solutions Company, 525 Boulevard Cartier Ouest, Laval, QC H7V 3S8, Canada."
+          ]
+        },
+        {
+          "last_name": "Callaway",
+          "fore_name": "Heather M",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "Reece",
+          "fore_name": "Stephen",
+          "affiliations": [
+            "Kymab, a Sanofi Company, Babraham Research Campus, Cambridge CB22 3AT, UK."
+          ]
+        },
+        {
+          "last_name": "Palser",
+          "fore_name": "Anne",
+          "affiliations": [
+            "RQ Biotechnology Ltd., London W12 7RZ, UK."
+          ]
+        },
+        {
+          "last_name": "Kellam",
+          "fore_name": "Paul",
+          "affiliations": [
+            "RQ Biotechnology Ltd., London W12 7RZ, UK; Department of Infectious Diseases, Faculty of Medicine, Imperial College, London SW7 2AZ, UK."
+          ]
+        },
+        {
+          "last_name": "Dennison",
+          "fore_name": "S Moses",
+          "affiliations": [
+            "Center for Human Systems Immunology, Departments of Surgery and Integrative Immunobiology, Duke University, Durham, NC 27701, USA."
+          ]
+        },
+        {
+          "last_name": "Huntwork",
+          "fore_name": "Richard H C",
+          "affiliations": [
+            "Center for Human Systems Immunology, Departments of Surgery and Integrative Immunobiology, Duke University, Durham, NC 27701, USA."
+          ]
+        },
+        {
+          "last_name": "Horn",
+          "fore_name": "Gillian Q",
+          "affiliations": [
+            "Center for Human Systems Immunology, Departments of Surgery and Integrative Immunobiology, Duke University, Durham, NC 27701, USA."
+          ]
+        },
+        {
+          "last_name": "Abraha",
+          "fore_name": "Milite",
+          "affiliations": [
+            "Center for Human Systems Immunology, Departments of Surgery and Integrative Immunobiology, Duke University, Durham, NC 27701, USA."
+          ]
+        },
+        {
+          "last_name": "Feeney",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Center for Human Systems Immunology, Departments of Surgery and Integrative Immunobiology, Duke University, Durham, NC 27701, USA."
+          ]
+        },
+        {
+          "last_name": "Martinez-Sobrido",
+          "fore_name": "Luis",
+          "affiliations": [
+            "Disease Intervention and Prevention and Population Health Programs, Texas Biomedical Research Institute, San Antonio, TX 78227, USA; Population Health Program, International Center for the Advancement of Research & Education (I-CARE), Texas Biomedical Research Institute, San Antonio, TX 78227, USA."
+          ]
+        },
+        {
+          "last_name": "Pino",
+          "fore_name": "Paula A",
+          "affiliations": [
+            "Disease Intervention and Prevention and Population Health Programs, Texas Biomedical Research Institute, San Antonio, TX 78227, USA."
+          ]
+        },
+        {
+          "last_name": "Hicks",
+          "fore_name": "Amberlee",
+          "affiliations": [
+            "Disease Intervention and Prevention and Population Health Programs, Texas Biomedical Research Institute, San Antonio, TX 78227, USA."
+          ]
+        },
+        {
+          "last_name": "Ye",
+          "fore_name": "Chengjin",
+          "affiliations": [
+            "Disease Intervention and Prevention and Population Health Programs, Texas Biomedical Research Institute, San Antonio, TX 78227, USA; Population Health Program, International Center for the Advancement of Research & Education (I-CARE), Texas Biomedical Research Institute, San Antonio, TX 78227, USA."
+          ]
+        },
+        {
+          "last_name": "Park",
+          "fore_name": "Jun-Gyu",
+          "affiliations": [
+            "Disease Intervention and Prevention and Population Health Programs, Texas Biomedical Research Institute, San Antonio, TX 78227, USA."
+          ]
+        },
+        {
+          "last_name": "Maingot",
+          "fore_name": "Billie",
+          "affiliations": [
+            "Disease Intervention and Prevention and Population Health Programs, Texas Biomedical Research Institute, San Antonio, TX 78227, USA."
+          ]
+        },
+        {
+          "last_name": "Periasamy",
+          "fore_name": "Sivakumar",
+          "affiliations": [
+            "Galveston National Laboratory, 301 University Boulevard, Galveston, TX 77550, USA."
+          ]
+        },
+        {
+          "last_name": "Mallory",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Department of Epidemiology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27516, USA."
+          ]
+        },
+        {
+          "last_name": "Scobey",
+          "fore_name": "Trevor",
+          "affiliations": [
+            "Department of Epidemiology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27516, USA."
+          ]
+        },
+        {
+          "last_name": "Lepage",
+          "fore_name": "Marie-Noelle",
+          "affiliations": [
+            "Nexelis, a Q2 Solutions Company, 525 Boulevard Cartier Ouest, Laval, QC H7V 3S8, Canada."
+          ]
+        },
+        {
+          "last_name": "St-Amant",
+          "fore_name": "Natalie",
+          "affiliations": [
+            "Nexelis, a Q2 Solutions Company, 525 Boulevard Cartier Ouest, Laval, QC H7V 3S8, Canada."
+          ]
+        },
+        {
+          "last_name": "Khan",
+          "fore_name": "Sarwat",
+          "affiliations": [
+            "Nexelis, a Q2 Solutions Company, 525 Boulevard Cartier Ouest, Laval, QC H7V 3S8, Canada."
+          ]
+        },
+        {
+          "last_name": "Gambiez",
+          "fore_name": "Ana\u00efs",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": []
+        },
+        {
+          "last_name": "Baric",
+          "fore_name": "Ralph S",
+          "affiliations": [
+            "Population Health Program, International Center for the Advancement of Research & Education (I-CARE), Texas Biomedical Research Institute, San Antonio, TX 78227, USA; Department of Microbiology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+          ]
+        },
+        {
+          "last_name": "Bukreyev",
+          "fore_name": "Alexander",
+          "affiliations": [
+            "Department of Pathology, University of Texas Medical Branch at Galveston, 301 University Boulevard, Galveston, TX 77555, USA; Galveston National Laboratory, 301 University Boulevard, Galveston, TX 77550, USA; Department of Microbiology and Immunology, University of Texas Medical Branch, Galveston, TX 77555, USA."
+          ]
+        },
+        {
+          "last_name": "Gagnon",
+          "fore_name": "Luc",
+          "affiliations": [
+            "Nexelis, a Q2 Solutions Company, 525 Boulevard Cartier Ouest, Laval, QC H7V 3S8, Canada."
+          ]
+        },
+        {
+          "last_name": "Germann",
+          "fore_name": "Timothy",
+          "affiliations": [
+            "Carterra, Inc., Salt Lake City, UT 84103, USA."
+          ]
+        },
+        {
+          "last_name": "Kawaoka",
+          "fore_name": "Yoshihiro",
+          "affiliations": [
+            "Influenza Research Institute, Department of Pathobiological Sciences, School of Veterinary Medicine, University of Wisconsin-Madison, Madison, WI 53711, USA; Division of Virology, Institute of Medical Science, University of Tokyo, Tokyo 108-8639, Japan; The Research Center for Global Viral Diseases, National Center for Global Health and Medicine Research Institute, Tokyo 162-8655, Japan; Pandemic Preparedness, Infection and Advanced Research Center (UTOPIA), University of Tokyo, Tokyo 162-8655, Japan."
+          ]
+        },
+        {
+          "last_name": "Tomaras",
+          "fore_name": "Georgia D",
+          "affiliations": [
+            "Center for Human Systems Immunology, Departments of Surgery and Integrative Immunobiology, Duke University, Durham, NC 27701, USA."
+          ]
+        },
+        {
+          "last_name": "Peters",
+          "fore_name": "Bjoern",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA; Department of Medicine, University of California, San Diego, La Jolla, CA 92037, USA. Electronic address: bpeters@lji.org."
+          ]
+        },
+        {
+          "last_name": "Saphire",
+          "fore_name": "Erica Ollmann",
+          "affiliations": [
+            "Center for Vaccine Innovation, La Jolla Institute for Immunology, La Jolla, CA 92037, USA; Department of Medicine, University of California, San Diego, La Jolla, CA 92037, USA. Electronic address: erica@lji.org."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Spike Glycoprotein, Coronavirus",
+        "SARS-CoV-2",
+        "Humans",
+        "Animals",
+        "Antibodies, Viral",
+        "COVID-19",
+        "Mice",
+        "Epitopes",
+        "Antibodies, Neutralizing",
+        "Angiotensin-Converting Enzyme 2"
+      ],
+      "keywords": [
+        "COVID-19",
+        "CP: Immunology",
+        "SARS-CoV-2 spike protein",
+        "coronavirus",
+        "high-resolution epitope binning",
+        "neutralization",
+        "therapeutic antibodies"
+      ]
+    },
+    {
+      "pmid": "41221645",
+      "title": "Genetic insights into",
+      "abstract": "",
+      "journal": "J Biosci",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Gopala",
+          "fore_name": "Vaishali M",
+          "affiliations": [
+            "Subtropical Horticulture Research Station, USDA-ARS, 13601 Old Cutler Road, Miami, FL 33158, USA."
+          ]
+        },
+        {
+          "last_name": "Nageswara-Rao",
+          "fore_name": "Madhugiri",
+          "affiliations": [
+            "Subtropical Horticulture Research Station, USDA-ARS, 13601 Old Cutler Road, Miami, FL 33158, USA."
+          ]
+        },
+        {
+          "last_name": "Govindarajulu",
+          "fore_name": "Rajanikanth",
+          "affiliations": [
+            "Q2 Solutions, IQVIA company, 2400 Ellis Rd., Durham, NC 27703, USA."
+          ]
+        },
+        {
+          "last_name": "Meerow",
+          "fore_name": "Alan W",
+          "affiliations": [
+            "School of Life Sciences, Arizona State University, P.O. Box 874501, Tempe, AZ 85287-4501, USA."
+          ]
+        },
+        {
+          "last_name": "Singh",
+          "fore_name": "Sukhwinder",
+          "affiliations": [
+            "Subtropical Horticulture Research Station, USDA-ARS, 13601 Old Cutler Road, Miami, FL 33158, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Flowers",
+        "Gene Expression Regulation, Plant",
+        "Transcriptome",
+        "Gene Expression Profiling",
+        "Liliaceae",
+        "Pigmentation",
+        "Flavonoids",
+        "Plant Proteins",
+        "Anthocyanins",
+        "Gene Ontology"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "39476337",
+      "pmc": "PMC2593669",
+      "doi": "10.1111/plb.13733",
+      "title": "Shifts in plant architecture drive species-specific responses to drought in a Sorghum recombinant inbred line population.",
+      "abstract": "Drought stress severely impedes plant growth, development, and yield. Therefore, it is critical to uncover the genetic mechanisms underlying drought resistance to ensure future food security. To identify the genetic controls of these responses in Sorghum, an agriculturally and economically important grain crop, an interspecific recombinant inbred line (RIL) population was established by crossing a domesticated inbred line of Sorghum bicolor (TX7000) with its wild relative, Sorghum propinquum. This RIL population was evaluated under drought conditions, allowing for the\u00a0identification of quantitative trait loci (QTL) that contribute to drought resistance. We detected eight QTL in the drought population that explain a significant portion of the observed variation for four traits (height, aboveground biomass, relative water content, and leaf temperature/transpiration). The allelic effects of, and the candidate genes within, these QTL emphasize: (1) the influence of domestication on drought-responsive phenotypes, such as height and aboveground biomass, and (2) how control of water uptake and/or loss can be driven by species-specific plant architecture. Our findings shed light on the interconnected roles of shoot and root responses in drought resistance as it relates to regulation of water uptake and/or loss, while the detected allelic effects demonstrate how maintenance of grain production and yield under drought is a likely result of domestication-derived drought tolerance.",
+      "journal": "Plant Biol (Stuttg)",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Lehrer",
+          "fore_name": "M A",
+          "affiliations": [
+            "West Virginia University, Morgantown, West Virginia, USA.",
+            "University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Govindarajulu",
+          "fore_name": "R",
+          "affiliations": [
+            "West Virginia University, Morgantown, West Virginia, USA.",
+            "Q2 Solutions | IQVIA Company, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Smith",
+          "fore_name": "F",
+          "affiliations": [
+            "West Virginia University, Morgantown, West Virginia, USA.",
+            "Potomac State College of West Virginia University, Keyser, West Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Hawkins",
+          "fore_name": "J S",
+          "affiliations": [
+            "West Virginia University, Morgantown, West Virginia, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Sorghum",
+        "Quantitative Trait Loci",
+        "Droughts",
+        "Phenotype",
+        "Species Specificity",
+        "Biomass",
+        "Water",
+        "Inbreeding",
+        "Stress, Physiological"
+      ],
+      "keywords": [
+        "Domestication",
+        "Sorghum",
+        "drought stress",
+        "morphology",
+        "plant architecture",
+        "recombinant inbred line",
+        "water management"
+      ]
+    },
+    {
+      "pmid": "38708549",
+      "pmc": "PMC8175055",
+      "doi": "10.1038/s41591-023-02534-x",
+      "title": "Driving consistency: CEPI-Centralized Laboratory Network's conversion factor initiative for SARS-CoV-2 clinical assays used for efficacy assessment of COVID vaccines.",
+      "abstract": "To date, thousands of SARS-CoV-2 samples from many vaccine developers have been tested within the CEPI-Centralized Laboratory Network. To convert data from each clinical assay to international standard units, the WHO international standard and the CEPI standard generated by the Medicines and Healthcare products Regulatory Agency were run in multiple facilities to determine the conversion factor for each assay. Reporting results in international units advances global understanding of SARS-CoV-2 immunity and vaccine efficacy, enhancing the quality, reliability, and utility of clinical assay data.",
+      "journal": "Hum Vaccin Immunother",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Azizi",
+          "fore_name": "Ali",
+          "affiliations": [
+            "Laboratory Research and Innovations, CEPI, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Kamuyu",
+          "fore_name": "Gathoni",
+          "affiliations": [
+            "Laboratory Research and Innovations, CEPI, London, UK."
+          ]
+        },
+        {
+          "last_name": "Ogbeni",
+          "fore_name": "Deborah",
+          "affiliations": [
+            "Laboratory Research and Innovations, CEPI, London, UK."
+          ]
+        },
+        {
+          "last_name": "Levesque-Damphousse",
+          "fore_name": "Philipa",
+          "affiliations": [
+            "Nexelis-Q2 Solutions, Laval, Canada."
+          ]
+        },
+        {
+          "last_name": "Knott",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "UK Health Security Agency, Salisbury, UK."
+          ]
+        },
+        {
+          "last_name": "Gagnon",
+          "fore_name": "Luc",
+          "affiliations": [
+            "Nexelis-Q2 Solutions, Laval, Canada."
+          ]
+        },
+        {
+          "last_name": "Phay-Tran",
+          "fore_name": "Steven",
+          "affiliations": [
+            "Nexelis-Q2 Solutions, Laval, Canada."
+          ]
+        },
+        {
+          "last_name": "Hussey",
+          "fore_name": "Bethan",
+          "affiliations": [
+            "UK Health Security Agency, Salisbury, UK."
+          ]
+        },
+        {
+          "last_name": "Proud",
+          "fore_name": "Pamela",
+          "affiliations": [
+            "UK Health Security Agency, Salisbury, UK."
+          ]
+        },
+        {
+          "last_name": "Charlton",
+          "fore_name": "Sue",
+          "affiliations": [
+            "UK Health Security Agency, Salisbury, UK."
+          ]
+        },
+        {
+          "last_name": "Clark",
+          "fore_name": "Carolyn",
+          "affiliations": [
+            "Laboratory Research and Innovations, CEPI, Washington, DC, USA."
+          ]
+        },
+        {
+          "last_name": "Bernasconi",
+          "fore_name": "Valentina",
+          "affiliations": [
+            "Laboratory Research and Innovations, CEPI, Oslo, Norway."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "COVID-19 Vaccines",
+        "COVID-19",
+        "SARS-CoV-2",
+        "Reproducibility of Results",
+        "Vaccine Efficacy",
+        "World Health Organization",
+        "Clinical Laboratory Techniques"
+      ],
+      "keywords": [
+        "CEPI-CLN",
+        "SARS-CoV-2 pandemic",
+        "immunological assays",
+        "standardization",
+        "vaccine efficacy"
+      ]
+    },
+    {
+      "pmid": "39444224",
+      "doi": "10.1002/cyto.a.24902",
+      "title": "Potential and challenges of clinical high-dimensional flow cytometry: A call to action.",
+      "abstract": "Clinical biomarker strategies increasingly integrate translational research to gain new insights into disease mechanisms or to define better biomarkers in clinical trials. High-dimensional flow cytometry (HDFCM) holds the promise to enhance the exploratory potential beyond traditional, targeted biomarker strategies. However, the increased complexity of HDFCM poses several challenges, which need to be addressed in order to fully leverage its potential and to align with current regulatory requirements in clinical flow cytometry. These challenges include among others extended timelines for assay development and validation, the necessity for extensive knowledge in HDFCM, and sophisticated data analysis strategies. However, no guidelines exist on how to manage such challenges in adopting clinical HDFCM. Our CYTO 2024 workshop \"Potential and challenges of clinical high-dimensional flow cytometry\" aimed to find consensus across the pharmaceutical industry and broader scientific community on the overall benefits and most urgent challenges of HDFCM in clinical trials. Here, we summarize the insights we gained from our workshop. While this report does not provide a blueprint, it is a first step in defining and summarizing the most pressing challenges in implementing HDFCM in clinical trials. Furthermore, we compile current efforts with the goal to overcome some of these challenges. As such we bring the scientific community and health authorities together to build solutions, which will accelerate and simplify the full adoption of HDFCM in clinical trials.",
+      "journal": "Cytometry A",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Liechti",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Translational Medicine, Genentech, San Francisco, California, USA."
+          ]
+        },
+        {
+          "last_name": "Lelios",
+          "fore_name": "Iva",
+          "affiliations": [
+            "Roche Pharma Research and Early Development, Roche Innovation Center Basel, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Schroeder",
+          "fore_name": "Aaron",
+          "affiliations": [
+            "Translational Medicine, Genentech, San Francisco, California, USA."
+          ]
+        },
+        {
+          "last_name": "Decman",
+          "fore_name": "Vilma",
+          "affiliations": [
+            "Cellular Biomarkers, GSK, Collegeville, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Gonneau",
+          "fore_name": "Christele",
+          "affiliations": [
+            "Labcorp, Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Groves",
+          "fore_name": "Christopher",
+          "affiliations": [
+            "Translational Science and Innovation Laboratory, Q2 Solutions, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Green",
+          "fore_name": "Cherie",
+          "affiliations": [
+            "Translational Science, Ozette, Seattle, Washington, USA."
+          ]
+        },
+        {
+          "last_name": "Alcaide",
+          "fore_name": "Enrique Gomez",
+          "affiliations": [
+            "Roche Pharma Research and Early Development, Roche Innovation Center Basel, Basel, Switzerland."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Flow Cytometry",
+        "Humans",
+        "Biomarkers",
+        "Translational Research, Biomedical",
+        "Clinical Trials as Topic"
+      ],
+      "keywords": [
+        "assay validation",
+        "biomarkers",
+        "clinical trials",
+        "high\u2010dimensional flow cytometry",
+        "spectral flow cytometry",
+        "standardization",
+        "unsupervised data analysis"
+      ]
+    },
+    {
+      "pmid": "39215120",
+      "pmc": "PMC3346182",
+      "doi": "10.1038/nbt.1754",
+      "title": "A program for real-time surveillance of SARS-CoV-2 genetics.",
+      "abstract": "The COVID-19 pandemic brought forth an urgent need for widespread genomic surveillance for rapid detection and monitoring of emerging SARS-CoV-2 variants. It necessitated design, development, and deployment of a nationwide infrastructure designed for sequestration, consolidation, and characterization of patient samples that disseminates de-identified information to public authorities in tight turnaround times. Here, we describe our development of such an infrastructure, which sequenced 594,832 high coverage SARS-CoV-2 genomes from isolates we collected in the United States (U.S.) from March 13th 2020 to July 3rd 2023. Our sequencing protocol ('Virseq') utilizes wet and dry lab procedures to generate mutation-resistant sequencing of the entire SARS-CoV-2 genome, capturing all major lineages. We also characterize 379 clinically relevant SARS-CoV-2 multi-strain co-infections and ensure robust detection of emerging lineages via simulation. The modular infrastructure, sequencing, and analysis capabilities we describe support the U.S. Centers for Disease Control and Prevention national surveillance program and serve as a model for rapid response to emerging pandemics at a national scale.",
+      "journal": "Sci Rep",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Brochu",
+          "fore_name": "Hayden N",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Song",
+          "fore_name": "Kuncheng",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Qimin",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Zeng",
+          "fore_name": "Qiandong",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Shafi",
+          "fore_name": "Adib",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Robinson",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Humphrey",
+          "fore_name": "Jake",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Croy",
+          "fore_name": "Bobbi",
+          "affiliations": [
+            "Labcorp Information Technology, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Peavy",
+          "fore_name": "Lydia",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Perera",
+          "fore_name": "Minoli",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Parker",
+          "fore_name": "Scott",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Pruitt",
+          "fore_name": "John",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Munroe",
+          "fore_name": "Jason",
+          "affiliations": [
+            "Labcorp Consumer Genetics Department, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Ghatti",
+          "fore_name": "Rama",
+          "affiliations": [
+            "Labcorp-Sequenom, San Diego, CA, 92121, USA."
+          ]
+        },
+        {
+          "last_name": "Urban",
+          "fore_name": "Thomas J",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Harris",
+          "fore_name": "Ayla B",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Alfego",
+          "fore_name": "David",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Norvell",
+          "fore_name": "Brian",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Levandoski",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA.",
+            "Q2 Solutions, an IQVIA Business, Durham, NC, 27703, USA."
+          ]
+        },
+        {
+          "last_name": "Krueger",
+          "fore_name": "Brian",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA.",
+            "BaseX Scientific, LLC, Chapel Hill, NC, 27516, USA."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "Jonathan D",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Boles",
+          "fore_name": "Deborah",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Nye",
+          "fore_name": "Melinda B",
+          "affiliations": [
+            "Labcorp Center for Esoteric Testing, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Dale",
+          "fore_name": "Suzanne E",
+          "affiliations": [
+            "Labcorp Center for Esoteric Testing, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Sapeta",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Labcorp Center for Esoteric Testing, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Petropoulos",
+          "fore_name": "Christos J",
+          "affiliations": [
+            "Labcorp-Monogram Biosciences, South San Francisco, CA, 94080, USA."
+          ]
+        },
+        {
+          "last_name": "Meltzer",
+          "fore_name": "Jonathan",
+          "affiliations": [
+            "Labcorp Center for Esoteric Testing, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Eisenberg",
+          "fore_name": "Marcia",
+          "affiliations": [
+            "Labcorp Research and Development, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Cohen",
+          "fore_name": "Oren",
+          "affiliations": [
+            "Labcorp Drug Development, Burlington, NC, 27215, USA.",
+            "Fortrea Inc, Durham, NC, 27703, USA."
+          ]
+        },
+        {
+          "last_name": "Letovsky",
+          "fore_name": "Stanley",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA."
+          ]
+        },
+        {
+          "last_name": "Iyer",
+          "fore_name": "Lakshmanan K",
+          "affiliations": [
+            "Labcorp Center for Excellence in Data Science, AI and Bioinformatics, Burlington, NC, 27215, USA. iyerl@labcorp.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "SARS-CoV-2",
+        "COVID-19",
+        "Genome, Viral",
+        "United States",
+        "Mutation"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "39430652",
+      "pmc": "PMC11485155",
+      "doi": "10.29173/jchla29742",
+      "title": "The COVID-19 Resource Centre: an invaluable tool for primary care.",
+      "abstract": "In response to the COVID-19 pandemic, the Ontario-based Centre for Effective Practice (CEP) established the COVID-19 Resource Centre (CRC) in March 2020. This platform rapidly became a critical source of clinical and practice guidance for primary care providers, highlighting the importance of effective information synthesis during public health emergencies. The article discusses the development of the CRC, emphasizing the application of librarianship principles in navigating the challenges posed by the pandemic's information overload and the scarcity of evidence. It outlines the strategies for literature searching, appraisal, and evidence synthesis that were employed to ensure the content's accuracy and utility. The CRC's evolution is presented within the context of its goal to efficiently bridge the gap between evidence and clinical practice, underscoring the collaborative efforts and innovative methodologies that contributed to its success. The CRC has served as an invaluable resource, attracting close to 185,000 visitors from Ontario, across Canada, and internationally. According to survey feedback, 89% of users reported enhanced knowledge of COVID-19 evidence and policies, and 87% stated that the vaccine information directly informed their practice. These statistics underscore the CRC's role in supporting informed decision-making among healthcare providers. The CRC marked the CEP's first foray into real-time evidence-based tool development. Facing challenges of expanding information volumes, an unpredictable information landscape, and the need for swift adaptation to new developments, the CRC emerged as a critical resource, enhancing credibility for the CEP, and fostering new partnerships. This journey underscores the importance of librarianship skills-critical appraisal, evidence synthesis, and knowledge translation-in enhancing service delivery.",
+      "journal": "J Can Health Libr Assoc",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Dabrowski",
+          "fore_name": "Anne",
+          "affiliations": [
+            "Director, Information Services, The Centre for Effective Practice, Toronto, ON."
+          ]
+        },
+        {
+          "last_name": "Moore",
+          "fore_name": "Taylor",
+          "affiliations": [
+            "Director, Information Services, The Centre for Effective Practice, Toronto, ON.",
+            "Coordinator, Information Services, The Centre for Effective Practice, Toronto, ON."
+          ]
+        },
+        {
+          "last_name": "Bean",
+          "fore_name": "Tupper",
+          "affiliations": [
+            "Chief Executive Officer, Santero Group."
+          ]
+        },
+        {
+          "last_name": "Salach",
+          "fore_name": "Lena",
+          "affiliations": [
+            "Chief Executive Officer, The Centre for Effective Practice, Toronto, ON."
+          ]
+        },
+        {
+          "last_name": "Hagel",
+          "fore_name": "Katie",
+          "affiliations": [
+            "Vice President, Programs, The Centre for Effective Practice, Toronto, ON."
+          ]
+        },
+        {
+          "last_name": "Bevan",
+          "fore_name": "Lindsay",
+          "affiliations": [
+            "Director, Clinical Appropriateness, The Centre for Effective Practice, Toronto, ON."
+          ]
+        },
+        {
+          "last_name": "Scott-Meuser",
+          "fore_name": "Pippy",
+          "affiliations": [
+            "Director, Digital, The Centre for Effective Practice, Toronto, ON."
+          ]
+        },
+        {
+          "last_name": "van Hal",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "Manager, Project Solutions, Q2 Solutions."
+          ]
+        },
+        {
+          "last_name": "De Longhi",
+          "fore_name": "Christina",
+          "affiliations": [
+            "Specialist, Information Services, The Centre for Effective Practice, Toronto, ON."
+          ]
+        },
+        {
+          "last_name": "Lang-Robertson",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "Information Research Manager, The Centre for Effective Practice, Toronto, ON."
+          ]
+        },
+        {
+          "last_name": "Tulchinsky",
+          "fore_name": "Ellen",
+          "affiliations": [
+            "Manager, Information Services, The Centre for Effective Practice, Toronto, ON."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "38768755",
+      "doi": "10.1016/j.xphs.2024.05.018",
+      "title": "Immunogenicity Risk Assessment of Process-Related Impurities in An Engineered T Cell Receptor Cellular Product.",
+      "abstract": "Cell therapies such as genetically modified T cells have emerged as a promising and viable treatment for hematologic cancers and are being aggressively pursued for a wide range of diseases and conditions that were previously difficult to treat or had no cure. The process development requires genetic modifications to T cells to express a receptor (engineered T cell receptor (eTCR)) of specific binding qualities to the desired target. Protein reagents utilized during the cell therapy manufacturing process, to facilitate these genetic modifications, are often present as process-related impurities at residual levels in the final drug product and can represent a potential immunogenicity risk upon infusion. This manuscript presents a framework for the qualification of an assay for assessing the immunogenicity risk of AA6 and Cas9 residuals. The same framework applies for other residuals; however, AAV6 and Cas9 were selected as they were residuals from the manufacturing of an engineered T cell receptor cellular product in development. The manuscript: 1) elucidates theoretical risks, 2) summarizes analytical data collected during process development, 3) describes the qualification of an in vitro human PBMC cytokine release assay to assess immunogenicity risk from cellular product associated process residuals; 4) identifies a multiplexed inflammatory innate and adaptive cytokine panel with pre-defined criteria using relevant positive controls; and 5) discusses qualification challenges and potential solutions for establishing meaningful thresholds. The assessment is not only relevant to establishing safe exposure levels of these residuals but also in guiding risk assessment and CMC strategy during the conduct of clinical trials.",
+      "journal": "J Pharm Sci",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Mora",
+          "fore_name": "Johanna",
+          "affiliations": [
+            "Clinical Pharmacology Pharmacometrics and Bioanalysis, Bristol Myers Squibb, Princeton, NJ, United States. Electronic address: johanna.mora@bms.com."
+          ]
+        },
+        {
+          "last_name": "Forman",
+          "fore_name": "Daron",
+          "affiliations": [
+            "Discovery Biotherapeutics, Bristol Myers Squibb, Cambridge MA, United States."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Current: Technical Operations, Analytical Development, Gentibio, Seattle, WA, United States."
+          ]
+        },
+        {
+          "last_name": "Ijantkar",
+          "fore_name": "Akshata",
+          "affiliations": [
+            "Cell Therapy Product and Analytical Development, Bristol Myers Squibb, Seattle, WA, United States."
+          ]
+        },
+        {
+          "last_name": "Gokemeijer",
+          "fore_name": "Jochem",
+          "affiliations": [
+            "Discovery Biotherapeutics, Bristol Myers Squibb, Cambridge MA, United States."
+          ]
+        },
+        {
+          "last_name": "Kolaja",
+          "fore_name": "Kyle L",
+          "affiliations": [
+            "Nonclincial Safety, Bristol Meyers Squibb, Summit NJ, United States."
+          ]
+        },
+        {
+          "last_name": "Picarillo",
+          "fore_name": "Caryn",
+          "affiliations": [
+            "Discovery Biotherapeutics, Bristol Myers Squibb, Cambridge MA, United States."
+          ]
+        },
+        {
+          "last_name": "Jawa",
+          "fore_name": "Vibha",
+          "affiliations": [
+            "Clinical Pharmacology Pharmacometrics and Bioanalysis, Bristol Myers Squibb, Princeton, NJ, United States."
+          ]
+        },
+        {
+          "last_name": "Yue",
+          "fore_name": "Hai",
+          "affiliations": [
+            "Cell Therapy Product and Analytical Development, Bristol Myers Squibb, Seattle, WA, United States."
+          ]
+        },
+        {
+          "last_name": "Lamy",
+          "fore_name": "Juliette",
+          "affiliations": [
+            "ImmunXperts, a Q2 Solutions Company, Gosselies, Belgium."
+          ]
+        },
+        {
+          "last_name": "Denies",
+          "fore_name": "Sofie",
+          "affiliations": [
+            "ImmunXperts, a Q2 Solutions Company, Gosselies, Belgium."
+          ]
+        },
+        {
+          "last_name": "Schockaert",
+          "fore_name": "Jana",
+          "affiliations": [
+            "ImmunXperts, a Q2 Solutions Company, Gosselies, Belgium."
+          ]
+        },
+        {
+          "last_name": "Ackaert",
+          "fore_name": "Chlo\u00e9",
+          "affiliations": [
+            "ImmunXperts, a Q2 Solutions Company, Gosselies, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Risk Assessment",
+        "Receptors, Antigen, T-Cell",
+        "T-Lymphocytes",
+        "Cytokines",
+        "Leukocytes, Mononuclear",
+        "Drug Contamination"
+      ],
+      "keywords": [
+        "AAV6",
+        "Anti-drug antibodies",
+        "Cas9",
+        "Cell therapy",
+        "Engineered T-cell receptor therapy",
+        "Immunogenicity",
+        "Residuals",
+        "Risk assessment"
+      ]
+    },
+    {
+      "pmid": "38864397",
+      "pmc": "PMC8816448",
+      "doi": "10.1208/s12248-023-00830-5",
+      "title": "16",
+      "abstract": "The 16th GCC Closed Forum was held in Orlando, FL, USA, on 23\u00a0June 2023. Representatives from international bioanalytical Contract Research Organizations were in attendance in order to discuss scientific and regulatory issues specific to bioanalysis. The issues discussed at the meeting included: IS response, flow cytometry, changes to the bioanalytical industry, NGS assays, biomarker assay for tissues, dPCR validation, immunogenicity harmonization and ICH M10 implementation. Conclusions and consensus from discussions of these topics are included in this article.",
+      "journal": "Bioanalysis",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Zimmer",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Alturas Analytics, Moscow, Idaho, USA."
+          ]
+        },
+        {
+          "last_name": "Hays",
+          "fore_name": "Amanda",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Lester",
+          "fore_name": "Todd",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Diaz",
+          "fore_name": "Manisha",
+          "affiliations": [
+            "Eurofins Viracor, BioPharma Services, Lenexa, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Thomas",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Labcorp, Indianapolis, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "O'Dell",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Labcorp, Indianapolis, Indiana, USA."
+          ]
+        },
+        {
+          "last_name": "Hyer",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Labcorp, Madison, Wisconsin, USA."
+          ]
+        },
+        {
+          "last_name": "Tangri",
+          "fore_name": "Shabnam",
+          "affiliations": [
+            "Navigate Biopharma, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Dakappagari",
+          "fore_name": "Naveen",
+          "affiliations": [
+            "Navigate Biopharma, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Yuan",
+          "fore_name": "Moucun",
+          "affiliations": [
+            "PPD Clinical Research, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Lavelle",
+          "fore_name": "Amy",
+          "affiliations": [
+            "PPD Clinical Research, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Karnik",
+          "fore_name": "Shane",
+          "affiliations": [
+            "Aliri Bioanalysis, Colorado Springs, Colorado, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Aihua",
+          "affiliations": [
+            "Resolian (Formally Alliance Pharma), Malvern, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Bin",
+          "affiliations": [
+            "Accurant Biotech, Cranbury, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Sales",
+          "fore_name": "Kurt",
+          "affiliations": [
+            "Agilex Biolabs, Adelaide, Australia."
+          ]
+        },
+        {
+          "last_name": "Gorityala",
+          "fore_name": "Shashank",
+          "affiliations": [
+            "BioAgilytix, Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Reynolds",
+          "fore_name": "Gregory",
+          "affiliations": [
+            "BioAgilytix, San Diego, California, USA."
+          ]
+        },
+        {
+          "last_name": "Sangster",
+          "fore_name": "Tim",
+          "affiliations": [
+            "Celerion, Lincoln, Nebraska, USA."
+          ]
+        },
+        {
+          "last_name": "Franckaert",
+          "fore_name": "Dean",
+          "affiliations": [
+            "CellCarta Biosciences, Montreal, Canada."
+          ]
+        },
+        {
+          "last_name": "Love",
+          "fore_name": "Iain",
+          "affiliations": [
+            "Charles River Laboratories, Edinburgh, Tranent, UK."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Vimal",
+          "affiliations": [
+            "Charles River Laboratories, Reno, Nevada, USA."
+          ]
+        },
+        {
+          "last_name": "Roberge",
+          "fore_name": "Martin",
+          "affiliations": [
+            "CIRION BioPharma Research (a Cerba Research Company), Laval, Quebec, Canada."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Jenny",
+          "affiliations": [
+            "CMIC, Hoffman Estates, Illinois, USA."
+          ]
+        },
+        {
+          "last_name": "Jerks",
+          "fore_name": "Erik",
+          "affiliations": [
+            "Eurofins Pharma Bioanalytics, Lake St. Louis, Missouri, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Frontage Laboratory, Exton, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Wei",
+          "affiliations": [
+            "GCC, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Nadarajah",
+          "fore_name": "Sankeetha",
+          "affiliations": [
+            "GCC, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Kernstock",
+          "fore_name": "Robert",
+          "affiliations": [
+            "ICON plc, Whitesboro, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Dufield",
+          "fore_name": "Dawn",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Ambrose",
+          "fore_name": "David",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Warrino",
+          "fore_name": "Dominic",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Luna",
+          "fore_name": "Marsha",
+          "affiliations": [
+            "KCAS Bioanalytical & Biomarker Services, Olathe, Kansas, USA."
+          ]
+        },
+        {
+          "last_name": "Marco",
+          "fore_name": "Chantal Di",
+          "affiliations": [
+            "Pharma Medica Research, Mississauga, Ontario, Canada."
+          ]
+        },
+        {
+          "last_name": "Tudoroniu",
+          "fore_name": "Ariana",
+          "affiliations": [
+            "Pharma Serv International, Bucharest, Romania."
+          ]
+        },
+        {
+          "last_name": "Iordachescu",
+          "fore_name": "Adriana",
+          "affiliations": [
+            "Pharma Serv International, Bucharest, Romania."
+          ]
+        },
+        {
+          "last_name": "Sanghvi",
+          "fore_name": "Mitesh",
+          "affiliations": [
+            "Pharmaron, Germantown, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Barton",
+          "fore_name": "Hollie",
+          "affiliations": [
+            "PPD Clinical Research, Thermo Fisher Scientific, Richmond, Virginia, USA."
+          ]
+        },
+        {
+          "last_name": "Brown",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Q2 Solutions Durham, North Carolina, USA."
+          ]
+        },
+        {
+          "last_name": "Hoffpauir",
+          "fore_name": "Brian",
+          "affiliations": [
+            "Smithers, Gaithersburg, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Rocha",
+          "fore_name": "Agostinho",
+          "affiliations": [
+            "Smithers, Ewing, New Jersey, USA."
+          ]
+        },
+        {
+          "last_name": "Dong",
+          "fore_name": "Kelly",
+          "affiliations": [
+            "United-Power Pharma Tech Co., Beijing, China."
+          ]
+        },
+        {
+          "last_name": "Yamashita",
+          "fore_name": "Jim",
+          "affiliations": [
+            "WuXi AppTec, Plainsboro, NJ, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Flow Cytometry",
+        "Biomarkers",
+        "Humans",
+        "High-Throughput Nucleotide Sequencing",
+        "Real-Time Polymerase Chain Reaction"
+      ],
+      "keywords": [
+        "CRO",
+        "ICH M10",
+        "IS response",
+        "NGS assay",
+        "bioanalysis",
+        "biomarker assay",
+        "dPCR validation",
+        "flow cytometry",
+        "immunogenicity harmonization"
+      ]
+    },
+    {
+      "pmid": "38438404",
+      "pmc": "PMC8065643",
+      "doi": "10.3390/biom11040522",
+      "title": "The influence of microbial colonization on inflammatory versus pro-healing trajectories in combat extremity wounds.",
+      "abstract": "A combination of improved body armor, medical transportation, and treatment has led to the increased survival of warfighters from combat extremity injuries predominantly caused by blasts in modern conflicts. Despite advances, a high rate of complications such as wound infections, wound failure, amputations, and a decreased quality of life exist. To study the molecular underpinnings of wound failure, wound tissue biopsies from combat extremity injuries had RNA extracted and sequenced. Wounds were classified by colonization (colonized vs. non-colonized) and outcome (healed vs. failed) status. Differences in gene expression were investigated between timepoints at a gene level, and longitudinally by multi-gene networks, inferred proportions of immune cells, and expression of healing-related functions. Differences between wound outcomes in colonized wounds were more apparent than in non-colonized wounds. Colonized/healed wounds appeared able to mount an adaptive immune response to infection and progress beyond the inflammatory stage of healing, while colonized/failed wounds did not. Although, both colonized and non-colonized failed wounds showed increasing inferred immune and inflammatory programs, non-colonized/failed wounds progressed beyond the inflammatory stage, suggesting different mechanisms of failure dependent on colonization status. Overall, these data reveal gene expression profile differences in healing wounds that may be utilized to improve clinical treatment paradigms.",
+      "journal": "Sci Rep",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Schobel",
+          "fore_name": "Seth A",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA. seth.schobel-mchugh.ctr@usuhs.edu.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA. seth.schobel-mchugh.ctr@usuhs.edu.",
+            "Henry M. Jackson Foundation for the Advancement of Military Medicine, Inc., Bethesda, MD, USA. seth.schobel-mchugh.ctr@usuhs.edu."
+          ]
+        },
+        {
+          "last_name": "Gann",
+          "fore_name": "Eric R",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA.",
+            "Henry M. Jackson Foundation for the Advancement of Military Medicine, Inc., Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Unselt",
+          "fore_name": "Desiree",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA.",
+            "Henry M. Jackson Foundation for the Advancement of Military Medicine, Inc., Bethesda, MD, USA.",
+            "Q2 Solutions, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Grey",
+          "fore_name": "Scott F",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA.",
+            "Henry M. Jackson Foundation for the Advancement of Military Medicine, Inc., Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Lisboa",
+          "fore_name": "Felipe A",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA.",
+            "Henry M. Jackson Foundation for the Advancement of Military Medicine, Inc., Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Upadhyay",
+          "fore_name": "Meenu M",
+          "affiliations": [
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Rouse",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA.",
+            "Henry M. Jackson Foundation for the Advancement of Military Medicine, Inc., Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Tallowin",
+          "fore_name": "Simon",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA.",
+            "Academic Department of Military Surgery and Trauma, Royal Centre for Defence Medicine, Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Be",
+          "fore_name": "Nicholas A",
+          "affiliations": [
+            "Physical and Life Sciences Directorate, Lawrence Livermore National Laboratory, Livermore, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Xijun",
+          "affiliations": [
+            "Uniformed Services University (USU) The American Genome Center (TAGC), Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Dalgard",
+          "fore_name": "Clifton L",
+          "affiliations": [
+            "Uniformed Services University (USU) The American Genome Center (TAGC), Bethesda, MD, USA.",
+            "Department of Anatomy, Physiology & Genetics, Uniformed Services University of the Health Sciences, Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Wilkerson",
+          "fore_name": "Matthew D",
+          "affiliations": [
+            "Uniformed Services University (USU) The American Genome Center (TAGC), Bethesda, MD, USA.",
+            "Department of Anatomy, Physiology & Genetics, Uniformed Services University of the Health Sciences, Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Hauskrecht",
+          "fore_name": "Milos",
+          "affiliations": [
+            "Department of Computer Science, University of Pittsburgh, Pittsburgh, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Badylak",
+          "fore_name": "Stephen F",
+          "affiliations": [
+            "Department of Surgery, University of Pittsburgh, Pittsburgh, PA, USA.",
+            "Department of Bioengineering, University of Pittsburgh, Pittsburgh, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Zamora",
+          "fore_name": "Ruben",
+          "affiliations": [
+            "Department of Surgery, University of Pittsburgh, Pittsburgh, PA, USA.",
+            "Center for Inflammation and Regeneration Modeling, McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Vodovotz",
+          "fore_name": "Yoram",
+          "affiliations": [
+            "Department of Surgery, University of Pittsburgh, Pittsburgh, PA, USA.",
+            "Center for Inflammation and Regeneration Modeling, McGowan Institute for Regenerative Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Potter",
+          "fore_name": "Benjamin K",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA.",
+            "Walter Reed National Military Medical Center, Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Davis",
+          "fore_name": "Thomas A",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Elster",
+          "fore_name": "Eric A",
+          "affiliations": [
+            "Department of Surgery, Uniformed Services University of the Health Sciences, Bethesda, MD, USA.",
+            "Uniformed Services University (USU) Surgical Critical Care Initiative (SC2i), Bethesda, MD, USA.",
+            "Walter Reed National Military Medical Center, Bethesda, MD, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Quality of Life",
+        "Surgical Wound",
+        "Amputation, Surgical",
+        "Gene Regulatory Networks",
+        "Extremities"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "38278167",
+      "doi": "10.1016/S2666-5247(23)00324-5",
+      "title": "Standardised quantitative assays for anti-SARS-CoV-2 immune response used in vaccine clinical trials by the CEPI Centralized Laboratory Network: a qualification analysis.",
+      "abstract": "Accurate quantitation of immune markers is crucial for ensuring reliable assessment of vaccine efficacy against infectious diseases. This study was designed to confirm standardised performance of SARS-CoV-2 assays used to evaluate COVID-19 vaccine candidates at the initial seven laboratories (in North America, Europe, and Asia) of the Coalition for Epidemic Preparedness Innovations (CEPI) Centralized Laboratory Network (CLN). Three ELISAs (pre-spike protein, receptor binding domain, and nucleocapsid), a microneutralisation assay (MNA), a pseudotyped virus-based neutralisation assay (PNA), and an IFN-\u03b3 T-cell ELISpot assay were developed, validated or qualified, and transferred to participating laboratories. Immune responses were measured in ELISA laboratory units (ELU) for ELISA, 50% neuralisation dilution (ND50) for MNA, 50% neutralisation titre (NT50) for PNA, and spot-forming units for the ELISpot assay. Replicate assay results of well characterised panels and controls of blood samples from individuals with or without SARS-CoV-2 infection were evaluated by geometric mean ratios, standard deviation, linear regression, and Spearman correlation analysis for consistency, accuracy, and linearity of quantitative measurements across all laboratories. High reproducibility of results across all laboratories was demonstrated, with interlaboratory precision of 4\u00b71-7\u00b77% coefficient of variation for all three ELISAs, 3\u00b78-19\u00b75% for PNA, and 17\u00b71-24\u00b71% for MNA, over a linear range of 11-30\u2009760 ELU per mL for the three ELISAs, 14-7876 NT50 per mL for PNA, and 21-25\u2009587 ND50 per mL for MNA. The MNA was also adapted for detection of neutralising antibodies against the major SARS-CoV-2 variants of concern. The results of PNA and MNA (r=0\u00b7864) and of ELISA and PNA (r=0\u00b7928) were highly correlated. The IFN-\u03b3 ELISpot interlaboratory variability was 15\u00b79-49\u00b79% coefficient of variation. Sensitivity and specificity were close to 100% for all assays. The CEPI CLN provides accurate quantitation of anti-SARS-CoV-2 immune response across laboratories to allow direct comparisons of different vaccine formulations in different geographical areas. Lessons learned from this programme will serve as a model for faster responses to future pandemic threats and roll-out of effective vaccines. CEPI.",
+      "journal": "Lancet Microbe",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Manak",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Coalition for Epidemic Preparedness Innovations (CEPI), Oslo, Norway. Electronic address: mmanak@yahoo.com."
+          ]
+        },
+        {
+          "last_name": "Gagnon",
+          "fore_name": "Luc",
+          "affiliations": [
+            "Nexelis, Q2 Solutions, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Phay-Tran",
+          "fore_name": "Steven",
+          "affiliations": [
+            "Nexelis, Q2 Solutions, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Levesque-Damphousse",
+          "fore_name": "Philipa",
+          "affiliations": [
+            "Nexelis, Q2 Solutions, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Fabie",
+          "fore_name": "Aymeric",
+          "affiliations": [
+            "Nexelis, Q2 Solutions, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Daugan",
+          "fore_name": "Matthieu",
+          "affiliations": [
+            "Nexelis, Q2 Solutions, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Khan",
+          "fore_name": "Sarwat Tahsin",
+          "affiliations": [
+            "Nexelis, Q2 Solutions, Laval, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Proud",
+          "fore_name": "Pamela",
+          "affiliations": [
+            "UK Health Security Agency, Porton Down, UK."
+          ]
+        },
+        {
+          "last_name": "Hussey",
+          "fore_name": "Bethan",
+          "affiliations": [
+            "UK Health Security Agency, Porton Down, UK."
+          ]
+        },
+        {
+          "last_name": "Knott",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "UK Health Security Agency, Porton Down, UK."
+          ]
+        },
+        {
+          "last_name": "Charlton",
+          "fore_name": "Sue",
+          "affiliations": [
+            "UK Health Security Agency, Porton Down, UK."
+          ]
+        },
+        {
+          "last_name": "Hallis",
+          "fore_name": "Bassam",
+          "affiliations": [
+            "UK Health Security Agency, Porton Down, UK."
+          ]
+        },
+        {
+          "last_name": "Medigeshi",
+          "fore_name": "Guruprasad R",
+          "affiliations": [
+            "Translational Health Science and Technology Institute (THSTI), Faridabad, India."
+          ]
+        },
+        {
+          "last_name": "Garg",
+          "fore_name": "Neha",
+          "affiliations": [
+            "Translational Health Science and Technology Institute (THSTI), Faridabad, India."
+          ]
+        },
+        {
+          "last_name": "Anantharaj",
+          "fore_name": "Anbalagan",
+          "affiliations": [
+            "Translational Health Science and Technology Institute (THSTI), Faridabad, India."
+          ]
+        },
+        {
+          "last_name": "Raqib",
+          "fore_name": "Rubhana",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh (icddrb), Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Sarker",
+          "fore_name": "Protim",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh (icddrb), Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Alam",
+          "fore_name": "Mohammad Mamun",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh (icddrb), Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Mustafizur",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh (icddrb), Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Murreddu",
+          "fore_name": "Marta",
+          "affiliations": [
+            "Cerba Research, Rotterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Balgobind",
+          "fore_name": "Angela",
+          "affiliations": [
+            "Cerba Research, Rotterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Hofman",
+          "fore_name": "Rick",
+          "affiliations": [
+            "Cerba Research, Rotterdam, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Grappi",
+          "fore_name": "Silvia",
+          "affiliations": [
+            "VisMederi, Siena, Italy."
+          ]
+        },
+        {
+          "last_name": "Coluccio",
+          "fore_name": "Rosa",
+          "affiliations": [
+            "VisMederi, Siena, Italy."
+          ]
+        },
+        {
+          "last_name": "Calandro",
+          "fore_name": "Pierpaolo",
+          "affiliations": [
+            "VisMederi, Siena, Italy."
+          ]
+        },
+        {
+          "last_name": "Montomoli",
+          "fore_name": "Emanuele",
+          "affiliations": [
+            "University of Siena, Siena, Italy."
+          ]
+        },
+        {
+          "last_name": "Mattiuzzo",
+          "fore_name": "Giada",
+          "affiliations": [
+            "Medicines and Healthcare Products Regulatory Agency, South Mimms, UK."
+          ]
+        },
+        {
+          "last_name": "Prior",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "Medicines and Healthcare Products Regulatory Agency, South Mimms, UK."
+          ]
+        },
+        {
+          "last_name": "Le Duff",
+          "fore_name": "Yann",
+          "affiliations": [
+            "Medicines and Healthcare Products Regulatory Agency, South Mimms, UK."
+          ]
+        },
+        {
+          "last_name": "Page",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Medicines and Healthcare Products Regulatory Agency, South Mimms, UK."
+          ]
+        },
+        {
+          "last_name": "Mitchell",
+          "fore_name": "Jane",
+          "affiliations": [
+            "Medicines and Healthcare Products Regulatory Agency, South Mimms, UK."
+          ]
+        },
+        {
+          "last_name": "Schwartz",
+          "fore_name": "Lauren M",
+          "affiliations": [
+            "Gorman Consulting, Seattle, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Bartsch",
+          "fore_name": "Yannic C",
+          "affiliations": [
+            "Gorman Consulting, Seattle, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Azizi",
+          "fore_name": "Ali",
+          "affiliations": [
+            "Coalition for Epidemic Preparedness Innovations (CEPI), Oslo, Norway."
+          ]
+        },
+        {
+          "last_name": "Bernasconi",
+          "fore_name": "Valentina",
+          "affiliations": [
+            "Coalition for Epidemic Preparedness Innovations (CEPI), Oslo, Norway."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": []
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "SARS-CoV-2",
+        "COVID-19",
+        "COVID-19 Vaccines",
+        "Laboratories",
+        "Reproducibility of Results",
+        "Antibodies, Viral",
+        "Immunity"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "38326401",
+      "pmc": "PMC10850126",
+      "doi": "10.1038/s41598-024-53751-4",
+      "title": "Author Correction: Insights into next generation sequencing guided antibody selection strategies.",
+      "abstract": "",
+      "journal": "Sci Rep",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Erasmus",
+          "fore_name": "M Frank",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA. ferasmus@specifica.bio."
+          ]
+        },
+        {
+          "last_name": "Ferrara",
+          "fore_name": "Fortunato",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "D'Angelo",
+          "fore_name": "Sara",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Spector",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Leal-Lopes",
+          "fore_name": "Camila",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "Teixeira",
+          "fore_name": "Andr\u00e9 A",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "S\u00f8rensen",
+          "fore_name": "Jesper",
+          "affiliations": [
+            "OpenEye, Cadence Molecular Sciences, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Nagpal",
+          "fore_name": "Suhani",
+          "affiliations": [
+            "OpenEye, Cadence Molecular Sciences, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Perea-Schmittle",
+          "fore_name": "Kathryn",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Choudhary",
+          "fore_name": "Alok",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Honnen",
+          "fore_name": "William",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Calianese",
+          "fore_name": "David",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Antonio Rodriguez Carnero",
+          "fore_name": "Luis",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "Cocklin",
+          "fore_name": "Simon",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Greiff",
+          "fore_name": "Victor",
+          "affiliations": [
+            "University of Oslo, Oslo, Norway."
+          ]
+        },
+        {
+          "last_name": "Pinter",
+          "fore_name": "Abraham",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Bradbury",
+          "fore_name": "Andrew R M",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA. abradbury@specifica.bio."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "39192463",
+      "pmc": "PMC7979914",
+      "doi": "10.1080/19420862.2021.1980942",
+      "title": "A next-generation Fab library platform directly yielding drug-like antibodies with high affinity, diversity, and developability.",
+      "abstract": "We previously described an",
+      "journal": "MAbs",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Ferrara",
+          "fore_name": "Fortunato",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Fanni",
+          "fore_name": "Adeline",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Teixeira",
+          "fore_name": "Andre A R",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Molina",
+          "fore_name": "Esteban",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Leal-Lopes",
+          "fore_name": "Camila",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, NM, USA."
+          ]
+        },
+        {
+          "last_name": "DeAguero",
+          "fore_name": "Ashley",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "D'Angelo",
+          "fore_name": "Sara",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Erasmus",
+          "fore_name": "M Frank",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Spector",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Rodriguez Carnero",
+          "fore_name": "Luis Antonio",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jianquan",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Pohl",
+          "fore_name": "Thomas J",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        },
+        {
+          "last_name": "Suslov",
+          "fore_name": "Nikolai",
+          "affiliations": [
+            "Sanofi, Large Molecule Research, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Desrumeaux",
+          "fore_name": "Klervi",
+          "affiliations": [
+            "Sanofi, Large Molecule Research, Vitry-sur-Seine, France."
+          ]
+        },
+        {
+          "last_name": "McMahon",
+          "fore_name": "Conor",
+          "affiliations": [
+            "Sanofi, Large Molecule Research, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Kathuria",
+          "fore_name": "Sagar",
+          "affiliations": [
+            "Sanofi, Large Molecule Research, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Bradbury",
+          "fore_name": "Andrew R M",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, NM, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Immunoglobulin Fab Fragments",
+        "Humans",
+        "Single-Chain Antibodies",
+        "Peptide Library",
+        "Antibody Affinity",
+        "Cell Surface Display Techniques",
+        "Immunoglobulin G"
+      ],
+      "keywords": [
+        "Fab",
+        "Recombinant antibody libraries",
+        "developability",
+        "phage display",
+        "yeast display"
+      ]
+    },
+    {
+      "pmid": "38899739",
+      "pmc": "PMC8271143",
+      "doi": "10.4155/bio-2020-0094",
+      "title": "2023 White Paper on Recent Issues in Bioanalysis: EU IVDR 2017/746 Implementation/Impact, IVD/CDx/CLIA Approved Assays, High Dimensional Cytometry, Multiplexing Technologies, LBA Tissue Analysis, Vaccine Study Endpoints, Cell-Based Assays for Biomarkers, Cell Therapy and Vaccines (",
+      "abstract": "The 17",
+      "journal": "Bioanalysis",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Kholmanskikh",
+          "fore_name": "Olga",
+          "affiliations": [
+            "Belgium FAMHP, Brussels, Belgium."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Yow-Ming",
+          "affiliations": [
+            "US FDA, Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Hersey",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "Bristol Myers Squibb, Lawrenceville, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Wadhwa",
+          "fore_name": "Meenu",
+          "affiliations": [
+            "UK MHRA, London, UK."
+          ]
+        },
+        {
+          "last_name": "Block",
+          "fore_name": "Katherine",
+          "affiliations": [
+            "Genentech, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Bandukwala",
+          "fore_name": "Abbas",
+          "affiliations": [
+            "US FDA, Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Szapacs",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "Abbvie, Philadelphia, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Weiner",
+          "fore_name": "Russell",
+          "affiliations": [
+            "Takeda, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Awwad",
+          "fore_name": "Khader",
+          "affiliations": [
+            "Abbvie, Ludwigshafen, Germany."
+          ]
+        },
+        {
+          "last_name": "Dessy",
+          "fore_name": "Francis",
+          "affiliations": [
+            "GlaxoSmithKline, Rixensart, Belgium.",
+            "Takeda,\u00a0Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Downing",
+          "fore_name": "Sean",
+          "affiliations": [
+            "Takeda, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Xiulian",
+          "affiliations": [
+            "US FDA, Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Garofolo",
+          "fore_name": "Fabio",
+          "affiliations": [
+            "BRI Frontage, Vancouver, BC, Canada."
+          ]
+        },
+        {
+          "last_name": "Harris",
+          "fore_name": "Shannon",
+          "affiliations": [
+            "HilleVax, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Hou",
+          "fore_name": "Victor",
+          "affiliations": [
+            "Moderna, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Jones",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Bristol Myers Squibb, Lawrenceville, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Kar",
+          "fore_name": "Sumit",
+          "affiliations": [
+            "WRIB, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Kinhikar",
+          "fore_name": "Arvind",
+          "affiliations": [
+            "Novartis, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Ming",
+          "affiliations": [
+            "Stoke, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Mathews",
+          "fore_name": "Joel",
+          "affiliations": [
+            "Ionis, Carlsbad, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Meissen",
+          "fore_name": "John",
+          "affiliations": [
+            "AstraZeneca, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Sumner",
+          "fore_name": "Giane Oliveira",
+          "affiliations": [
+            "Regeneron, Tarrytown, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Pan",
+          "fore_name": "Luying",
+          "affiliations": [
+            "Takeda, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Sanderink",
+          "fore_name": "Gerard",
+          "affiliations": [
+            "Sanofi Pasteur, Swiftwater, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Scully",
+          "fore_name": "Ingrid",
+          "affiliations": [
+            "Pfizer, Pearl River, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Stanta",
+          "fore_name": "Johannes",
+          "affiliations": [
+            "Celerion, Stevenage, UK."
+          ]
+        },
+        {
+          "last_name": "Tanaka",
+          "fore_name": "Yoichi",
+          "affiliations": [
+            "Japan MHLW, Tokyo, Japan."
+          ]
+        },
+        {
+          "last_name": "Vauleon",
+          "fore_name": "Stephanie",
+          "affiliations": [
+            "F. Hoffmann-La Roche Ltd, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wagner",
+          "fore_name": "Leslie",
+          "affiliations": [
+            "US FDA, Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Kai",
+          "affiliations": [
+            "GlaxoSmithKline, Collegeville, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Liang",
+          "affiliations": [
+            "Moderna, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Eck",
+          "fore_name": "Steven",
+          "affiliations": [
+            "AstraZeneca, Gaithersburg, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Yi-Dong",
+          "affiliations": [
+            "Takeda, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Azadeh",
+          "fore_name": "Mitra",
+          "affiliations": [
+            "Ultragenyx, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Decman",
+          "fore_name": "Vilma",
+          "affiliations": [
+            "GlaxoSmithKline, Collegeville, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Diebold",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "UK MHRA, London, UK."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Xiulian",
+          "affiliations": [
+            "US FDA, Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Goihberg",
+          "fore_name": "Polina",
+          "affiliations": [
+            "Pfizer, Andover, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Alcaide",
+          "fore_name": "Enrique Gomez",
+          "affiliations": [
+            "F. Hoffmann-La Roche Ltd, Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Gonneau",
+          "fore_name": "Christele",
+          "affiliations": [
+            "Labcorp, Meyrin, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Hedrick",
+          "fore_name": "Michael Nathan",
+          "affiliations": [
+            "Bristol Myers Squibb, Lawrenceville, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Hopkins",
+          "fore_name": "Gregory",
+          "affiliations": [
+            "2seventy Bio, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Kar",
+          "fore_name": "Sumit",
+          "affiliations": [
+            "WRIB, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Loschko",
+          "fore_name": "Jakob",
+          "affiliations": [
+            "Pfizer, Pearl River, NY, USA."
+          ]
+        },
+        {
+          "last_name": "McCausland",
+          "fore_name": "Megan",
+          "affiliations": [
+            "Q2 Solutions, Atlanta. GA, USA."
+          ]
+        },
+        {
+          "last_name": "Mendez",
+          "fore_name": "Luis",
+          "affiliations": [
+            "Merck, Kenilworth, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Sehra",
+          "fore_name": "Sarita",
+          "affiliations": [
+            "Incyte, Wilmington, DE, USA."
+          ]
+        },
+        {
+          "last_name": "Stevens",
+          "fore_name": "Erin",
+          "affiliations": [
+            "Pfizer, Groton, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Yongliang Steve",
+          "affiliations": [
+            "Bristol Myers Squibb, Lawrenceville, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Tangri",
+          "fore_name": "Shabnam",
+          "affiliations": [
+            "Navigate, a Novartis Subsidiary, San Diego, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Trampont",
+          "fore_name": "Paul C",
+          "affiliations": [
+            "Moderna, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Cludts",
+          "fore_name": "Isabelle",
+          "affiliations": [
+            "UK MHRA, London, UK."
+          ]
+        },
+        {
+          "last_name": "Dysinger",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Alexion, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Kavita",
+          "fore_name": "Uma",
+          "affiliations": [
+            "Spark Therapeutics, Plainsboro, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Sugimoto",
+          "fore_name": "Hiroshi",
+          "affiliations": [
+            "Takeda, Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Chilewski",
+          "fore_name": "Shannon",
+          "affiliations": [
+            "Bristol Myers Squibb, Lawrenceville, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Grimaldi",
+          "fore_name": "Christine",
+          "affiliations": [
+            "Regeneron, Tarrytown, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Jiang",
+          "fore_name": "Yong",
+          "affiliations": [
+            "GlaxoSmithKline, Collegeville, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Kamerud",
+          "fore_name": "John",
+          "affiliations": [
+            "Pfizer, Andover, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Susana",
+          "affiliations": [
+            "Pfizer, Kirkland, QC, Canada."
+          ]
+        },
+        {
+          "last_name": "Owen",
+          "fore_name": "Carolina",
+          "affiliations": [
+            "Pfizer, Groton, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Palackal",
+          "fore_name": "Nisha",
+          "affiliations": [
+            "Regeneron, Tarrytown, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Petit-Frere",
+          "fore_name": "Corinne",
+          "affiliations": [
+            "Fresenius Kabi, Bad Homburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Pine",
+          "fore_name": "Samuel",
+          "affiliations": [
+            "Sanofi, Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Abhari",
+          "fore_name": "Mohsen Rajabi",
+          "affiliations": [
+            "US FDA, Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Scheibner",
+          "fore_name": "Kara",
+          "affiliations": [
+            "US FDA, Silver Spring, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Williams",
+          "fore_name": "LaKenya",
+          "affiliations": [
+            "Bristol Myers Squibb, Lawrenceville, NJ, USA."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Tao",
+          "affiliations": [
+            "Frontage, Exton, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Guodong",
+          "affiliations": [
+            "Alnylam, Cambridge, MA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Biological Assay",
+        "Biomarkers",
+        "Cell- and Tissue-Based Therapy",
+        "European Union",
+        "Flow Cytometry",
+        "Vaccines"
+      ],
+      "keywords": [
+        "WRIB",
+        "bioanalysis",
+        "biomarkers",
+        "cell therapy",
+        "gene therapy",
+        "immunogenicity",
+        "vaccine"
+      ]
+    },
+    {
+      "pmid": "38114562",
+      "pmc": "PMC10730564",
+      "doi": "10.1038/s41598-023-49214-x",
+      "title": "Author Correction: Insights into next generation sequencing guided antibody selection strategies.",
+      "abstract": "",
+      "journal": "Sci Rep",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Erasmus",
+          "fore_name": "M Frank",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA. ferasmus@specifica.bio."
+          ]
+        },
+        {
+          "last_name": "Ferrara",
+          "fore_name": "Fortunato",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "D'Angelo",
+          "fore_name": "Sara",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Spector",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Leal-Lopes",
+          "fore_name": "Camila",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "Teixeira",
+          "fore_name": "Andr\u00e9 A",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "S\u00f8rensen",
+          "fore_name": "Jesper",
+          "affiliations": [
+            "OpenEye, Cadence Molecular Sciences, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Nagpal",
+          "fore_name": "Suhani",
+          "affiliations": [
+            "OpenEye, Cadence Molecular Sciences, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Perea-Schmittle",
+          "fore_name": "Kathryn",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Choudhary",
+          "fore_name": "Alok",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Honnen",
+          "fore_name": "William",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Calianese",
+          "fore_name": "David",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Antonio Rodriguez Carnero",
+          "fore_name": "Luis",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "Cocklin",
+          "fore_name": "Simon",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Greiff",
+          "fore_name": "Victor",
+          "affiliations": [
+            "University of Oslo, Oslo, Norway."
+          ]
+        },
+        {
+          "last_name": "Pinter",
+          "fore_name": "Abraham",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Bradbury",
+          "fore_name": "Andrew R M",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA. abradbury@specifica.bio."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "38124744",
+      "pmc": "PMC1418924",
+      "doi": "10.1128/IAI.74.4.2128-2137.2006",
+      "title": "Immunogenicity of PE18, PE31, and PPE26 proteins from",
+      "abstract": "The large family of PE and PPE proteins accounts for as much as 10% of the genome of The investigation involved analyzing the immunoreactivity of the selected proteins using sera from TB patients, IGRA-positive household contacts, and IGRA-negative BCG vaccinated healthy donors from the TB endemic country Mozambique. Antigen-recall responses were examined in PBMC from these groups, including the evaluation of cellular responses in healthy unexposed individuals. Moreover, systemic priming and intranasal boosting with each protein, combined with the Quil-A adjuvant, were conducted in mice. We found that all three proteins are immunoreactive with sera from TB patients, IGRA-positive household contacts, and IGRA-negative BCG vaccinated healthy controls. Likewise, antigen-recall responses were induced in PBMC from all groups, and the proteins stimulated proliferation of peripheral blood mononuclear cells from healthy unexposed individuals. In mice, all three antigens induced IgG antibody responses in sera and predominantly IgG, rather than IgA, responses in bronchoalveolar lavage. Additionally, CD4+ and CD8+ effector memory T cell responses were observed in the spleen, with PE18 demonstrating the ability to induce tissue-resident memory T cells in the lungs. Having demonstrated immunogenicity in both humans and mice, the protective capacity of these antigens was evaluated by challenging immunized mice with low-dose aerosol of",
+      "journal": "Front Immunol",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Garc\u00eda-Bengoa",
+          "fore_name": "Mar\u00eda",
+          "affiliations": [
+            "Institute of Biochemistry, University of Veterinary Medicine Hannover, Hannover, Germany.",
+            "Research Center for Emerging Infections and Zoonosis (RIZ), University of Veterinary Medicine Hannover, Hannover, Germany.",
+            "LIONEX Diagnostics and Therapeutics GmbH, Braunschweig, Germany."
+          ]
+        },
+        {
+          "last_name": "Vergara",
+          "fore_name": "Emil Joseph",
+          "affiliations": [
+            "Institute for Infection and Immunity, St. George's University of London, London, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Tran",
+          "fore_name": "Andy C",
+          "affiliations": [
+            "Institute for Infection and Immunity, St. George's University of London, London, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Bossi",
+          "fore_name": "Lorenzo",
+          "affiliations": [
+            "Immunxperts SA, a Q\u00b2 Solutions Company, Gosselies, Belgium."
+          ]
+        },
+        {
+          "last_name": "Cooper",
+          "fore_name": "Andrea M",
+          "affiliations": [
+            "Department of Infection, Immunity and Inflammation, University of Leicester, Leicester, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Pearl",
+          "fore_name": "John E",
+          "affiliations": [
+            "Department of Infection, Immunity and Inflammation, University of Leicester, Leicester, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Muss\u00e1",
+          "fore_name": "Tuf\u00e1ria",
+          "affiliations": [
+            "Department of Microbiology, Faculty of Medicine, Eduardo Mondlane University, Maputo, Mozambique."
+          ]
+        },
+        {
+          "last_name": "von K\u00f6ckritz-Blickwede",
+          "fore_name": "Maren",
+          "affiliations": [
+            "Institute of Biochemistry, University of Veterinary Medicine Hannover, Hannover, Germany.",
+            "Research Center for Emerging Infections and Zoonosis (RIZ), University of Veterinary Medicine Hannover, Hannover, Germany."
+          ]
+        },
+        {
+          "last_name": "Singh",
+          "fore_name": "Mahavir",
+          "affiliations": [
+            "LIONEX Diagnostics and Therapeutics GmbH, Braunschweig, Germany."
+          ]
+        },
+        {
+          "last_name": "Reljic",
+          "fore_name": "Rajko",
+          "affiliations": [
+            "Institute for Infection and Immunity, St. George's University of London, London, United Kingdom."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Mice",
+        "Animals",
+        "Mycobacterium tuberculosis",
+        "Leukocytes, Mononuclear",
+        "BCG Vaccine",
+        "Antigens, Bacterial",
+        "Immunoglobulin G"
+      ],
+      "keywords": [
+        "PE18",
+        "PE31",
+        "PPE26",
+        "antigens",
+        "immunity",
+        "tuberculosis",
+        "vaccine"
+      ]
+    },
+    {
+      "pmid": "37884618",
+      "pmc": "PMC9352689",
+      "doi": "10.1145/304181.304187",
+      "title": "Insights into next generation sequencing guided antibody selection strategies.",
+      "abstract": "Therapeutic antibody discovery often relies on in-vitro display methods to identify lead candidates. Assessing selected output diversity traditionally involves random colony picking and Sanger sequencing, which has limitations. Next-generation sequencing (NGS) offers a cost-effective solution with increased read depth, allowing a comprehensive understanding of diversity. Our study establishes NGS guidelines for antibody drug discovery, demonstrating its advantages in expanding the number of unique HCDR3 clusters, broadening the number of high affinity antibodies, expanding the total number of antibodies recognizing different epitopes, and improving lead prioritization. Surprisingly, our investigation into the correlation between NGS-derived frequencies of CDRs and affinity revealed a lack of association, although this limitation could be moderately mitigated by leveraging NGS clustering, enrichment and/or relative abundance across different regions to enhance lead prioritization. This study highlights NGS benefits, offering insights, recommendations, and the most effective approach to leverage NGS in therapeutic antibody discovery.",
+      "journal": "Sci Rep",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Erasmus",
+          "fore_name": "M Frank",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA. ferasmus@specifica.bio."
+          ]
+        },
+        {
+          "last_name": "Ferrara",
+          "fore_name": "Fortunato",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "D'Angelo",
+          "fore_name": "Sara",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Spector",
+          "fore_name": "Laura",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Leal-Lopes",
+          "fore_name": "Camila",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "Teixeira",
+          "fore_name": "Andr\u00e9 A",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "S\u00f8rensen",
+          "fore_name": "Jesper",
+          "affiliations": [
+            "OpenEye, Cadence Molecular Sciences, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Nagpal",
+          "fore_name": "Suhani",
+          "affiliations": [
+            "OpenEye, Cadence Molecular Sciences, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Perea-Schmittle",
+          "fore_name": "Kathryn",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Choudhary",
+          "fore_name": "Alok",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Honnen",
+          "fore_name": "William",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Calianese",
+          "fore_name": "David",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Antonio Rodriguez Carnero",
+          "fore_name": "Luis",
+          "affiliations": [
+            "New Mexico Consortium, Los Alamos, USA."
+          ]
+        },
+        {
+          "last_name": "Cocklin",
+          "fore_name": "Simon",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA."
+          ]
+        },
+        {
+          "last_name": "Greiff",
+          "fore_name": "Victor",
+          "affiliations": [
+            "University of Oslo, Oslo, Norway."
+          ]
+        },
+        {
+          "last_name": "Pinter",
+          "fore_name": "Abraham",
+          "affiliations": [
+            "Public Health Research Institute, New Jersey Medical School, Rutgers, The State University of New Jersey, Newark, NJ, 07103, USA."
+          ]
+        },
+        {
+          "last_name": "Bradbury",
+          "fore_name": "Andrew R M",
+          "affiliations": [
+            "Specifica LLC, a Q2 Solutions Company, Santa Fe, USA. abradbury@specifica.bio."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "High-Throughput Nucleotide Sequencing",
+        "Antibodies",
+        "Epitopes"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "37537844",
+      "pmc": "PMC5957518",
+      "doi": "10.1016/j.cell.2018.03.022",
+      "title": "Polyclonal lymphoid expansion drives paraneoplastic autoimmunity in neuroblastoma.",
+      "abstract": "Neuroblastoma is a lethal childhood solid tumor of developing peripheral nerves. Two percent of children with neuroblastoma develop opsoclonus myoclonus ataxia syndrome (OMAS), a paraneoplastic disease characterized by cerebellar and brainstem-directed autoimmunity but typically with outstanding cancer-related outcomes. We compared tumor transcriptomes and tumor-infiltrating T and B cell repertoires from 38 OMAS subjects with neuroblastoma to 26 non-OMAS-associated neuroblastomas. We found greater B and T\u00a0cell infiltration in OMAS-associated tumors compared to controls and showed that both were polyclonal expansions. Tertiary lymphoid structures (TLSs) were enriched in OMAS-associated tumors. We identified significant enrichment of the major histocompatibility complex (MHC) class II allele HLA-DOB",
+      "journal": "Cell Rep",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Rosenberg",
+          "fore_name": "Miriam I",
+          "affiliations": [
+            "Hebrew University of Jerusalem, Edmond Safra Campus, Givat Ram, Jerusalem 91904, Israel. Electronic address: miriamirosenberg@gmail.com."
+          ]
+        },
+        {
+          "last_name": "Greenstein",
+          "fore_name": "Erez",
+          "affiliations": [
+            "Department of Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+          ]
+        },
+        {
+          "last_name": "Buchkovich",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Q2 Solutions, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Peres",
+          "fore_name": "Ayelet",
+          "affiliations": [
+            "Bio-engineering, Faculty of Engineering, Bar Ilan University, Ramat Gan, Israel; Bar Ilan Institute of Nanotechnologies and Advanced Materials, Bar Ilan University, Ramat Gan, Israel."
+          ]
+        },
+        {
+          "last_name": "Santoni-Rugiu",
+          "fore_name": "Eric",
+          "affiliations": [
+            "Department of Pathology, Rigshospitalet, Copenhagen University Hospital and Department of Clinical Medicine, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Lei",
+          "affiliations": [
+            "Pacific Northwest Research Institute, Seattle, WA 98122, USA."
+          ]
+        },
+        {
+          "last_name": "Mikl",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Department of Human Biology, Faculty of Natural Sciences, University of Haifa, Mount Carmel, Haifa 31905, Israel."
+          ]
+        },
+        {
+          "last_name": "Vaksman",
+          "fore_name": "Zalman",
+          "affiliations": [
+            "New York Genome Center, New York, NY 10013, USA."
+          ]
+        },
+        {
+          "last_name": "Gibbs",
+          "fore_name": "David L",
+          "affiliations": [
+            "Institute for Systems Biology, 401 Terry Avenue N, Seattle, WA 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Reshef",
+          "fore_name": "Dan",
+          "affiliations": [
+            "Department of Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+          ]
+        },
+        {
+          "last_name": "Salovin",
+          "fore_name": "Amy",
+          "affiliations": [
+            "Division of Neurology, Department of Pediatrics, Children's Hospital of Philadelphia, Philadelphia, PA 19104, USA."
+          ]
+        },
+        {
+          "last_name": "Irwin",
+          "fore_name": "Meredith S",
+          "affiliations": [
+            "Department of Pediatrics and Division of Hematology-Oncology, Hospital for Sick Children, University of Toronto, 555 University Avenue, Toronto, ON M5G1X8, Canada."
+          ]
+        },
+        {
+          "last_name": "Naranjo",
+          "fore_name": "Arlene",
+          "affiliations": [
+            "Department of Biostatistics, University of Florida, Children's Oncology Group Statistics & Data Center, Gainesville, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Ulitsky",
+          "fore_name": "Igor",
+          "affiliations": [
+            "Department of Immunology & Regenerative Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+          ]
+        },
+        {
+          "last_name": "de Alarcon",
+          "fore_name": "Pedro A",
+          "affiliations": [
+            "Department of Pediatrics, Hematology/Oncology, University of Illinois College of Medicine Peoria, Peoria, IL 61605, USA."
+          ]
+        },
+        {
+          "last_name": "Matthay",
+          "fore_name": "Katherine K",
+          "affiliations": [
+            "Department of Pediatrics, UCSF School of Medicine, San Francisco, CA 94143, USA."
+          ]
+        },
+        {
+          "last_name": "Weigman",
+          "fore_name": "Victor",
+          "affiliations": [
+            "Q2 Solutions, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Yaari",
+          "fore_name": "Gur",
+          "affiliations": [
+            "Bio-engineering, Faculty of Engineering, Bar Ilan University, Ramat Gan, Israel; Bar Ilan Institute of Nanotechnologies and Advanced Materials, Bar Ilan University, Ramat Gan, Israel."
+          ]
+        },
+        {
+          "last_name": "Panzer",
+          "fore_name": "Jessica A",
+          "affiliations": [
+            "Division of Neurology, Department of Pediatrics, Children's Hospital of Philadelphia, Philadelphia, PA 19104, USA."
+          ]
+        },
+        {
+          "last_name": "Friedman",
+          "fore_name": "Nir",
+          "affiliations": [
+            "Department of Immunology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+          ]
+        },
+        {
+          "last_name": "Maris",
+          "fore_name": "John M",
+          "affiliations": [
+            "Department of Pediatrics and Division of Oncology, Children's Hospital of Philadelphia and Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA 19104, USA. Electronic address: maris@chop.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Child",
+        "Humans",
+        "Autoimmunity",
+        "Neuroblastoma",
+        "Opsoclonus-Myoclonus Syndrome",
+        "Autoantibodies",
+        "Genes, MHC Class II",
+        "Ataxia"
+      ],
+      "keywords": [
+        "CP: Cancer",
+        "CP: Immunology",
+        "IgH",
+        "TCRB",
+        "ataxia",
+        "autoimmunity",
+        "immune profiling",
+        "myoclonus",
+        "neuroblastoma",
+        "opsoclonus",
+        "paraneoplastic",
+        "repertoires"
+      ]
+    },
+    {
+      "pmid": "37569416",
+      "pmc": "PMC7110012",
+      "doi": "10.1111/j.1745-7270.2007.00283.x",
+      "title": "Biochemical and Functional Characterization of the Three Zebrafish Transglutaminases 2.",
+      "abstract": "Transglutaminase 2 (TG2) is a multifunctional protein widely distributed in various tissues and involved in many physiological and pathological processes. However, its actual role in biological processes is often controversial as TG2 shows different effects in these processes depending on its localization, cell type, or experimental conditions. We characterized the enzymatic and functional properties of TG2 proteins expressed in Danio rerio (zebrafish) to provide the basis for using this established animal model as a reliable tool to characterize TG2 functions in vivo. We confirmed the existence of three genes orthologous to human TG2 (zTGs2) in the zebrafish genome and their expression and function during embryonic development. We produced and purified the zTGs2s as recombinant proteins and showed that, like the human enzyme, zTGs2 catalyzes a Ca",
+      "journal": "Int J Mol Sci",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Lisetto",
+          "fore_name": "Manuel",
+          "affiliations": [
+            "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy."
+          ]
+        },
+        {
+          "last_name": "Fattorini",
+          "fore_name": "Mariagiulia",
+          "affiliations": [
+            "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy."
+          ]
+        },
+        {
+          "last_name": "Lanza",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy."
+          ]
+        },
+        {
+          "last_name": "Gerdol",
+          "fore_name": "Marco",
+          "affiliations": [
+            "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy."
+          ]
+        },
+        {
+          "last_name": "Griffin",
+          "fore_name": "Martin",
+          "affiliations": [
+            "College of Health and Life Sciences, Aston University, Aston Triangle, Birmingham B4 7ET, UK."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Zhuo",
+          "affiliations": [
+            "College of Health and Life Sciences, Aston University, Aston Triangle, Birmingham B4 7ET, UK."
+          ]
+        },
+        {
+          "last_name": "Ferrara",
+          "fore_name": "Fortunato",
+          "affiliations": [
+            "Specifica a Q2 Solutions Company, Santa Fe, NM 87501, USA."
+          ]
+        },
+        {
+          "last_name": "Sblattero",
+          "fore_name": "Daniele",
+          "affiliations": [
+            "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Apoptosis",
+        "Catalysis",
+        "Cell Adhesion",
+        "Fibroblasts",
+        "Gene Expression",
+        "HEK293 Cells",
+        "Phylogeny",
+        "Protein Conformation",
+        "Protein Glutamine gamma Glutamyltransferase 2",
+        "Recombinant Proteins",
+        "Zebrafish",
+        "Zebrafish Proteins"
+      ],
+      "keywords": [
+        "apoptosis",
+        "cell adhesion",
+        "enzyme",
+        "transglutaminase",
+        "zebrafish"
+      ]
+    },
+    {
+      "pmid": "37584364",
+      "doi": "10.4155/bio-2023-0056",
+      "title": "A sensitive LC-MS/MS assay to quantitate free payload Aur0101 from ADC PYX-201 in rat and monkey plasma.",
+      "abstract": "",
+      "journal": "Bioanalysis",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Yin",
+          "fore_name": "Feng",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Ahsan",
+          "fore_name": "Farah",
+          "affiliations": [
+            "Q2 Solutions BioSciences LLC, 19 Brown Road, Ithaca, NY 14850, USA."
+          ]
+        },
+        {
+          "last_name": "Pinkas",
+          "fore_name": "Jan",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Das",
+          "fore_name": "Biplab",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Frank",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Zheng",
+          "fore_name": "Nancy",
+          "affiliations": [
+            "Amador Bioscience, Inc., 4695 Chabot Drive, Pleasanton, CA\u00a094588, USA."
+          ]
+        },
+        {
+          "last_name": "Hahn",
+          "fore_name": "David",
+          "affiliations": [
+            "Amador Bioscience, Inc., 4695 Chabot Drive, Pleasanton, CA\u00a094588, USA."
+          ]
+        },
+        {
+          "last_name": "Amrite",
+          "fore_name": "Aniruddha",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Jianwen",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Adhikari",
+          "fore_name": "Diana",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Sikora",
+          "fore_name": "Jack",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Shaheen",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        },
+        {
+          "last_name": "Harriman",
+          "fore_name": "Shawn",
+          "affiliations": [
+            "Pyxis Oncology, Inc., 321 Harrison Avenue, Suite 1, Boston, MA 02118, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Rats",
+        "Animals",
+        "Chromatography, Liquid",
+        "Haplorhini",
+        "Tandem Mass Spectrometry",
+        "Immunoconjugates",
+        "Antineoplastic Agents",
+        "Reproducibility of Results"
+      ],
+      "keywords": [
+        "ADC",
+        "Aur0101",
+        "LC\u2013MS/MS",
+        "microtubule inhibitor",
+        "oncology",
+        "preclinical",
+        "small molecule",
+        "toxicokinetic",
+        "validation"
+      ]
+    }
+  ]
+}

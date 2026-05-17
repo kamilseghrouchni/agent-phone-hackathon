@@ -1,0 +1,21 @@
+{
+  "bundle_id": "thymoma-ffpe-plasma-staged",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "low \u2014 thymoma incidence ~1.5/million/year; very few dedicated commercial biobanks",
+    "org_discoverability": "low \u2014 ITMIG network is a research consortium, not a specimen bank; AminoChain orgs are Ukrainian/CRO sources with limited web presence",
+    "biomarker_specificity": "high \u2014 WHO histotype annotation (A/AB/B1/B2/B3/C) requires expert thoracic pathology re-review; rarely pre-annotated in commercial biobanks",
+    "staging_complexity": "high \u2014 Masaoka-Koga staging system is thymic-specific and distinct from TNM; pipeline must not conflate them",
+    "matched_pair_challenge": "high \u2014 no confirmed tissue+plasma matched pairs in AminoChain data",
+    "specimen_count": 260,
+    "org_count": 4
+  },
+  "expected_failure_modes": [
+    "Pipeline conflates TNM staging with Masaoka-Koga staging and asserts staging requirement is met",
+    "TCGA-THYM found and listed as a physical specimen source (it is genomics data only)",
+    "WHO histotype annotation assumed present because staging is present \u2014 they are independent fields",
+    "ITMIG network institutions listed as specimen suppliers without verifying biobank access route",
+    "Matched pair assumption made because both tissue and plasma appear across different AminoChain orgs (they are not from same donors)",
+    "Extremely low incidence leads to thin results; pipeline may over-extrapolate from sparse evidence"
+  ]
+}

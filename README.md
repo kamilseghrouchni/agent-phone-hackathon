@@ -1,19 +1,48 @@
-# agent-phone-hackathon
+# vCRO MVP — Conversational Biobank Discovery
 
-**YC Call My Agent Hackathon — San Francisco**
 
-A live-on-stage demo: an agent closes a biospecimen procurement contract end-to-end, from a buyer's PDF intake to a settled payment + calendar invite. Five sponsors fire live in one chain: **AgentMail · Browser Use · AgentPhone · Stripe · Supermemory**.
+## Run it
 
-## The five beats
+```bash
+# 1. set your API key
+cp .env.example .env.local
+# put your ANTHROPIC_API_KEY in .env.local
 
-1. **Upload** — drop NovaCure's biospecimen procurement PDF → agent extracts 35 fields into an `IntakeForm`.
-2. **Confirm** — top-strip shows the 6 search-key fields with inline edit; full 35-field intake collapsible.
-3. **Enrich** — 3 concurrent Browser Use sessions scrape RefMed (+XLSX), Geneticist, Audubon, each with a clickable Chromium iframe. Crovi.bio appears as a 4th card from internal directory. Conviction tiers computed live.
-4. **Launch** — multi-select supplier cards → pick Crovi.bio → sequence template strip reveals the 5-stage chain.
-5. **Chain** — Form (waitlist) → Call (3 questions, your phone rings) → Email + Quote → SMS (you authorize "$10") → Stripe transfer ($10 lands in Revolut) → Calendar invite. Filled Intake §1-8 + Quote shown side-by-side as climax.
+# 2. install
+npm install
 
-## Repo layout
+# 3. data prep (one-time)
+npm run data:prep
 
-- [`SPEC.md`](./SPEC.md) — **implementation truth.** Architecture, schemas, the 35-field intake categorization, build verticals (F1-V7), file plan, demo runbook, pre-flight de-risking, services checklist, env vars, order of attack, hard rules.
+# 4. dev
+npm run dev
+# open http://localhost:3000
+```
 
-Start in `SPEC.md` §11 (pre-flight de-risking) and §12 (services to set up) before writing any code.
+## Architecture (one line each)
+
+- `data/specimens.db` — 486,754 specimens, 161,374 donors, 18 institutes (gitignored, copied from AminoChain dump)
+- `data/enriched/` — `orgs.json`, `publications.json`, `synonyms.json`, `curated_queries.json`, `views.db` (FTS5 + longitudinal materialized view)
+- `app/api/agent/route.ts` — `streamText` with 4 tools, Sonnet 4.6, prompt caching
+- `lib/filters.ts` — delta merge + synonym resolution + signature hashing
+- `lib/tools/*` — server-side tool implementations (deterministic; LLM only calls them)
+- `components/Canvas/Canvas.tsx` — slot registry + insert/replace/dim mutation engine
+- `components/ChatRail/ChatRail.tsx` — streaming chat with tool-call cards
+- `components/primitives/*` — `InstituteList`, `PublicationPanel`, `GapCard`, `RequestForm`
+
+## What the LLM does
+
+1. Extracts filters from natural language into tool args (no separate parse step)
+2. Picks the right tool: `query_specimens` / `find_publications` / `compare_institutes` / `open_request_form`
+3. Narrates briefly
+
+Everything else (SQL, grouping, gap detection, ranking, fuzzy match, layout) is deterministic on the server.
+
+## Try
+
+Curated chips on the landing page cover six demo roles: happy-path, rich-publications, thin-result → source_wider, multi-gap, longitudinal, follow-up-to-compare. Then talk back to the agent:
+
+- "drop ones without contact emails"
+- "group by country"
+- "only longitudinal donors"
+- "compare Mayo SPORE vs ProteoGenex"

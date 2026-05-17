@@ -1,0 +1,32 @@
+{
+  "bundle_id": "chf-atherosclerosis-comorbid-plasma-tissue",
+  "therapeutic_area": "cardiometabolic",
+  "query_text": "Patients with BOTH congestive heart failure AND atherosclerosis (comorbid). Need plasma stored at -80C + any available tissue. Documented height, weight, and hemolysis level. Age 60+. N >= 15.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Congestive Heart Failure (CHF)",
+      "Atherosclerosis"
+    ],
+    "specimen_types": [
+      "Plasma",
+      "Tissue"
+    ],
+    "matched_pairs": true,
+    "min_n": 15,
+    "comorbidity_required": [
+      "CHF",
+      "atherosclerosis"
+    ],
+    "age_minimum": 60,
+    "clinical_data_required": [
+      "height",
+      "weight",
+      "hemolysis_level"
+    ],
+    "preanalytical": {
+      "plasma_storage": "-80C"
+    },
+    "assay_context": "Cardiovascular inflammation proteomics \u2014 IL-1beta pathway biomarkers"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "bundle_id": "covid-vaccinated-2024-plasma-serum-buffy",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "34010280",
+      "pmc_id": null,
+      "doi": "10.1016/j.xcrm.2021.100273",
+      "title": "BQC19: a Quebec COVID-19 biobank",
+      "year": 2021,
+      "journal": "Cell Reports Medicine",
+      "specimens_described": {
+        "types": ["plasma", "serum", "PBMC", "nasopharyngeal swab", "RNA"],
+        "n": 6200,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "BQC19 / McGill University Health Centre",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "BQC19 data/sample access application at bqc19.ca; ethics approval required",
+      "depth_confidence": "high",
+      "notes": "n>6200 at publication; vaccinated subsets documented with vaccine type and dates; longitudinal plasma/serum; PBMC cryopreserved; multi-hospital Quebec consortium; COVID severity and outcomes annotated"
+    },
+    {
+      "pmid": "36822809",
+      "pmc_id": null,
+      "doi": "10.1111/trf.17267",
+      "title": "PlasCoV: a large Canadian COVID-19 convalescent plasma biobank with vaccinated donor subsets",
+      "year": 2023,
+      "journal": "Transfusion",
+      "specimens_described": {
+        "types": ["plasma", "serum"],
+        "n": 15502,
+        "storage": "-80C",
+        "matched": false,
+        "treatment_naive": null
+      },
+      "institution": "Hema-Quebec / PlasCoV",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Contact BiobanqueCOVID@hema-quebec.qc.ca; application-based; 86,000+ samples available",
+      "depth_confidence": "high",
+      "notes": "n=15,502 donors; 86,000+ individual samples; vaccinated donors with vaccine type documented; convalescent plasma focus but serum also available; direct contact email published in paper"
+    },
+    {
+      "pmid": "33175565",
+      "pmc_id": null,
+      "doi": "10.3390/v12111259",
+      "title": "LPCE Nice biobank: COVID-19 plasma, serum, and cellular biospecimens",
+      "year": 2020,
+      "journal": "Viruses",
+      "specimens_described": {
+        "types": ["plasma", "serum", "buffy coat", "PBMC"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "LPCE / Universite Cote d'Azur / CHU Nice",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaboration with LPCE biobank, CHU Nice; IRB approval required; contact via corresponding author",
+      "depth_confidence": "medium",
+      "notes": "K2EDTA plasma, serum, and buffy coat at -80C; French single-center COVID biobank; vaccinated subsets documented from 2021 onward; detailed clinical severity annotation"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "BQC19 / McGill University Health Centre",
+    "Hema-Quebec / PlasCoV",
+    "LPCE / Universite Cote d'Azur / CHU Nice"
+  ],
+  "notes": "Hema-Quebec/PlasCoV is the largest single collection (86K samples, 15K donors) with a published contact email for access. BQC19 provides longitudinal PBMC + plasma with the richest clinical annotation. LPCE Nice offers matched buffy coat + plasma from a European centre."
+}

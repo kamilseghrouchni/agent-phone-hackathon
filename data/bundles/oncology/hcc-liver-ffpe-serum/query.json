@@ -1,0 +1,35 @@
+{
+  "bundle_id": "hcc-liver-ffpe-serum",
+  "therapeutic_area": "oncology",
+  "query_text": "Hepatocellular carcinoma FFPE or frozen liver tissue with matched serum. TNM staged. Etiology documented (HBV, HCV, alcohol, NASH). Child-Pugh score preferred. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Hepatocellular carcinoma",
+      "HCC",
+      "Liver cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "staging_required": "TNM staged",
+    "histology_required": "hepatocellular carcinoma",
+    "preservation": "Fixed or Frozen",
+    "min_n": 30,
+    "treatment_status": "surgical resection preferred (not transplant explants)",
+    "matched_pairs": true,
+    "preanalytical": {
+      "tube_type": "SST or red-top",
+      "storage_temp": "-80C"
+    },
+    "clinical_data_required": [
+      "TNM_stage",
+      "HBV_HCV_status",
+      "etiology",
+      "Child_Pugh_score",
+      "AFP_level"
+    ],
+    "assay_context": "HCC early detection biomarker panel — serum proteomics and methylation markers for hepatitis-driven vs NASH-driven HCC stratification"
+  }
+}

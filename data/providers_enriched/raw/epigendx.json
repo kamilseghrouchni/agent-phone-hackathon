@@ -1,0 +1,885 @@
+{
+  "name": "EpigenDx",
+  "cleaned_name": "EpigenDx",
+  "aliases_tried": [
+    "EpigenDx"
+  ],
+  "publication_total": 5,
+  "search_queries": [
+    "\"EpigenDx\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "38522372",
+      "pmc": "PMC3521971",
+      "doi": "10.1038/npp.2012.149",
+      "title": "Stress biomarkers and child development in young children in Bangladesh.",
+      "abstract": "Hundreds of millions of children in low- and middle-income countries are exposed to chronic stressors, such as poverty, poor sanitation and hygiene, and sub-optimal nutrition. These stressors can have physiological consequences for children and may ultimately have detrimental effects on child development. This study explores associations between biological measures of chronic stress in early life and developmental outcomes in a large cohort of young children living in rural Bangladesh. We assessed physiologic measures of stress in the first two years of life using measures of the hypothalamic-pituitary-adrenal (HPA) axis (salivary cortisol and glucocorticoid receptor gene methylation), the sympathetic-adrenal-medullary (SAM) system (salivary alpha-amylase, heart rate, and blood pressure), and oxidative status (F2-isoprostanes). We assessed child development in the first two years of life with the MacArthur-Bates Communicative Development Inventories (CDI), the WHO gross motor milestones, and the Extended Ages and Stages Questionnaire (EASQ). We compared development outcomes of children at the 75th and 25th percentiles of stress biomarker distributions while adjusting for potential confounders using generalized additive models, which are statistical models where the outcome is predicted by a potentially non-linear function of predictor variables. We analyzed data from 684 children (49% female) at both 14 and 28 months of age; we included an additional 765 children at 28 months of age. We detected a significant relationship between HPA axis activity and child development, where increased HPA axis activity was associated with poor development outcomes. Specifically, we found that cortisol reactivity (coefficient -0.15, 95% CI (-0.29, -0.01)) and post-stressor levels (coefficient -0.12, 95% CI (-0.24, -0.01)) were associated with CDI comprehension score, post-stressor cortisol was associated with combined EASQ score (coefficient -0.22, 95% CI (-0.41, -0.04), and overall glucocorticoid receptor methylation was associated with CDI expression score (coefficient -0.09, 95% CI (-0.17, -0.01)). We did not detect a significant relationship between SAM activity or oxidative status and child development. Our observations reveal associations between the physiological evidence of stress in the HPA axis with developmental status in early childhood. These findings add to the existing evidence exploring the developmental consequences of early life stress.",
+      "journal": "Psychoneuroendocrinology",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Butzin-Dozier",
+          "fore_name": "Zachary",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Mertens",
+          "fore_name": "Andrew N",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Sophia T",
+          "affiliations": [
+            "Division of Infectious Diseases and Geographic Medicine, Stanford University,\u00a0Stanford,\u00a0CA,\u00a0USA."
+          ]
+        },
+        {
+          "last_name": "Granger",
+          "fore_name": "Douglas A",
+          "affiliations": [
+            "Institute for Interdisciplinary Salivary Bioscience Research, University of California,\u00a0Irvine,\u00a0CA,\u00a0USA; Department of Pediatrics, Johns Hopkins University School of Medicine,\u00a0Baltimore,\u00a0MD,\u00a0USA."
+          ]
+        },
+        {
+          "last_name": "Pitchik",
+          "fore_name": "Helen O",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Il'yasova",
+          "fore_name": "Dora",
+          "affiliations": [
+            "Duke University School of Medicine,\u00a0Durham,\u00a0NC,\u00a0USA."
+          ]
+        },
+        {
+          "last_name": "Tofail",
+          "fore_name": "Fahmida",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Md Ziaur",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Spasojevic",
+          "fore_name": "Ivan",
+          "affiliations": [
+            "Duke University School of Medicine,\u00a0Durham,\u00a0NC,\u00a0USA."
+          ]
+        },
+        {
+          "last_name": "Shalev",
+          "fore_name": "Idan",
+          "affiliations": [
+            "Department of Biobehavioral Health, Pennsylvania State University,\u00a0University Park,\u00a0PA,\u00a0USA."
+          ]
+        },
+        {
+          "last_name": "Ali",
+          "fore_name": "Shahjahan",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Karim",
+          "fore_name": "Mohammed Rabiul",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Shahriar",
+          "fore_name": "Sunny",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Famida",
+          "fore_name": "Syeda Luthfa",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Shuman",
+          "fore_name": "Gabrielle",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Shoab",
+          "fore_name": "Abul K",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Akther",
+          "fore_name": "Salma",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Hossen",
+          "fore_name": "Md Saheen",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Mutsuddi",
+          "fore_name": "Palash",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Mahbubur",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Unicomb",
+          "fore_name": "Leanne",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Das",
+          "fore_name": "Kishor K",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Liying",
+          "affiliations": [
+            "EpigenDx, Inc.,\u00a0Hopkinton,\u00a0MA,\u00a0USA."
+          ]
+        },
+        {
+          "last_name": "Meyer",
+          "fore_name": "Ann",
+          "affiliations": [
+            "EpigenDx, Inc.,\u00a0Hopkinton,\u00a0MA,\u00a0USA."
+          ]
+        },
+        {
+          "last_name": "Stewart",
+          "fore_name": "Christine P",
+          "affiliations": [
+            "Department of Nutrition, University of California, Davis, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Hubbard",
+          "fore_name": "Alan E",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Naved",
+          "fore_name": "Ruchira Tabassum",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Parvin",
+          "fore_name": "Kausar",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Mamun",
+          "fore_name": "Md Mahfuz Al",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research,\u00a0Dhaka,\u00a0Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Luby",
+          "fore_name": "Stephen P",
+          "affiliations": [
+            "Division of Infectious Diseases and Geographic Medicine, Stanford University,\u00a0Stanford,\u00a0CA,\u00a0USA."
+          ]
+        },
+        {
+          "last_name": "Colford",
+          "fore_name": "John M",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Fernald",
+          "fore_name": "Lia C H",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Audrie",
+          "affiliations": [
+            "Department of Microbiology and Environmental Toxicology, University of California, Santa Cruz, CA, USA. Electronic address: audrielin@ucsc.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Child",
+        "Humans",
+        "Child, Preschool",
+        "Female",
+        "Male",
+        "Child Development",
+        "Hydrocortisone",
+        "Hypothalamo-Hypophyseal System",
+        "Receptors, Glucocorticoid",
+        "Bangladesh",
+        "Pituitary-Adrenal System",
+        "Biomarkers",
+        "Saliva",
+        "Stress, Psychological"
+      ],
+      "keywords": [
+        "Alpha-amylase",
+        "Child development",
+        "Cortisol",
+        "Stress"
+      ]
+    },
+    {
+      "pmid": "38670986",
+      "pmc": "PMC5013424",
+      "doi": "10.1136/bmjopen-2016-011094",
+      "title": "A cluster-randomized trial of water, sanitation, handwashing and nutritional interventions on stress and epigenetic programming.",
+      "abstract": "A regulated stress response is essential for healthy child growth and development trajectories. We conducted a cluster-randomized trial in rural Bangladesh (funded by the Bill & Melinda Gates Foundation, ClinicalTrials.gov NCT01590095) to assess the effects of an integrated nutritional, water, sanitation, and handwashing intervention on child health. We previously reported on the primary outcomes of the trial, linear growth and caregiver-reported diarrhea. Here, we assessed additional prespecified outcomes: physiological stress response, oxidative stress, and DNA methylation (N\u2009=\u2009759, ages 1-2 years). Eight neighboring pregnant women were grouped into a study cluster. Eight geographically adjacent clusters were block-randomized into the control or the combined nutrition, water, sanitation, and handwashing (N\u2009+\u2009WSH) intervention group (receiving nutritional counseling and lipid-based nutrient supplements, chlorinated drinking water, upgraded sanitation, and handwashing with soap). Participants and data collectors were not masked, but analyses were masked. There were 358 children (68 clusters) in the control group and 401 children (63 clusters) in the intervention group. We measured four F2-isoprostanes isomers (iPF(2\u03b1)-III; 2,3-dinor-iPF(2\u03b1)-III; iPF(2\u03b1)-VI; 8,12-iso-iPF(2\u03b1)-VI), salivary alpha-amylase and cortisol, and methylation of the glucocorticoid receptor (NR3C1) exon 1F promoter including the NGFI-A binding site. Compared with control, the N\u2009+\u2009WSH group had lower concentrations of F2-isoprostanes isomers (differences ranging from -0.16 to -0.19\u2009log\u2009ng/mg of creatinine, P\u2009<\u20090.01), elevated post-stressor cortisol (0.24\u2009log\u2009\u00b5g/dl; P\u2009<\u20090.01), higher cortisol residualized gain scores (0.06\u2009\u00b5g/dl; P\u2009=\u20090.023), and decreased methylation of the NGFI-A binding site (-0.04; P\u2009=\u20090.037). The N\u2009+\u2009WSH intervention enhanced adaptive responses of the physiological stress system in early childhood.",
+      "journal": "Nat Commun",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Lin",
+          "fore_name": "Audrie",
+          "affiliations": [
+            "Department of Microbiology and Environmental Toxicology, University of California, Santa Cruz, Santa Cruz, CA, USA. audrielin@ucsc.edu."
+          ]
+        },
+        {
+          "last_name": "Mertens",
+          "fore_name": "Andrew N",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Md Ziaur",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Sophia T",
+          "affiliations": [
+            "Division of Infectious Diseases and Geographic Medicine, Stanford University, Stanford, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Il'yasova",
+          "fore_name": "Dora",
+          "affiliations": [
+            "Department of Medicine, Duke University, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Spasojevic",
+          "fore_name": "Ivan",
+          "affiliations": [
+            "Department of Medicine, Duke University, Durham, NC, USA.",
+            "PK/PD Core Laboratory, Duke Cancer Institute, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Ali",
+          "fore_name": "Shahjahan",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Stewart",
+          "fore_name": "Christine P",
+          "affiliations": [
+            "Institute for Global Nutrition, University of California Davis, Davis, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Fernald",
+          "fore_name": "Lia C H",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Kim",
+          "fore_name": "Lisa",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Liying",
+          "affiliations": [
+            "EpigenDx Inc., Hopkinton, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Meyer",
+          "fore_name": "Ann",
+          "affiliations": [
+            "EpigenDx Inc., Hopkinton, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Karim",
+          "fore_name": "Md Rabiul",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Shahriar",
+          "fore_name": "Sunny",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Shuman",
+          "fore_name": "Gabrielle",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Arnold",
+          "fore_name": "Benjamin F",
+          "affiliations": [
+            "Francis I. Proctor Foundation, University of California, San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Hubbard",
+          "fore_name": "Alan E",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Famida",
+          "fore_name": "Syeda L",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Akther",
+          "fore_name": "Salma",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Hossen",
+          "fore_name": "Md Saheen",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Mutsuddi",
+          "fore_name": "Palash",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Shoab",
+          "fore_name": "Abul K",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Shalev",
+          "fore_name": "Idan",
+          "affiliations": [
+            "Department of Biobehavioral Health, Pennsylvania State University, University Park, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Mahbubur",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Unicomb",
+          "fore_name": "Leanne",
+          "affiliations": [
+            "Infectious Diseases Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Heaney",
+          "fore_name": "Christopher D",
+          "affiliations": [
+            "Department of Environmental Health and Engineering, Johns Hopkins University, Baltimore, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Kariger",
+          "fore_name": "Patricia",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Colford",
+          "fore_name": "John M",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Luby",
+          "fore_name": "Stephen P",
+          "affiliations": [
+            "Division of Infectious Diseases and Geographic Medicine, Stanford University, Stanford, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Granger",
+          "fore_name": "Douglas A",
+          "affiliations": [
+            "Institute for Interdisciplinary Salivary Bioscience Research, University of California, Irvine, Irvine, CA, USA.",
+            "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Hand Disinfection",
+        "Female",
+        "Sanitation",
+        "Bangladesh",
+        "Male",
+        "DNA Methylation",
+        "Infant",
+        "Epigenesis, Genetic",
+        "Child, Preschool",
+        "Pregnancy",
+        "Oxidative Stress",
+        "Stress, Physiological",
+        "Rural Population",
+        "Adult",
+        "Diarrhea",
+        "Receptors, Glucocorticoid"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "37519068",
+      "pmc": "PMC4773593",
+      "doi": "10.1111/gbb.12858",
+      "title": "Maternal upbringing and selective breeding for voluntary exercise behavior modify patterns of DNA methylation and expression of genes in the mouse brain.",
+      "abstract": "Selective breeding has been utilized to study the genetic basis of exercise behavior, but research suggests that epigenetic mechanisms, such as DNA methylation, also contribute to this behavior. In a previous study, we demonstrated that the brains of mice from a genetically selected high runner (HR) line have sex-specific changes in DNA methylation patterns in genes known to be genomically imprinted compared to those from a non-selected control (C) line. Through cross-fostering, we also found that maternal upbringing can modify the DNA methylation patterns of additional genes. Here, we identify an additional set of genes in which DNA methylation patterns and gene expression may be altered by selection for increased wheel-running activity and maternal upbringing. We performed bisulfite sequencing and gene expression assays of 14 genes in the brain and found alterations in DNA methylation and gene expression for Bdnf, Pde4d and Grin2b. Decreases in Bdnf methylation correlated with significant increases in Bdnf gene expression in the hippocampus of HR compared to C mice. Cross-fostering also influenced the DNA methylation patterns for Pde4d in the cortex and Grin2b in the hippocampus, with associated changes in gene expression. We also found that the DNA methylation patterns for Atrx and Oxtr in the cortex and Atrx and Bdnf in the hippocampus were further modified by sex. Together with our previous study, these results suggest that DNA methylation and the resulting change in gene expression may interact with early-life influences to shape adult exercise behavior.",
+      "journal": "Genes Brain Behav",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Latchney",
+          "fore_name": "Sarah E",
+          "affiliations": [
+            "Department of Biology, St. Mary's College of Maryland, St. Mary's City, Maryland, USA."
+          ]
+        },
+        {
+          "last_name": "Cadney",
+          "fore_name": "Marcell D",
+          "affiliations": [
+            "Department of Evolution, Ecology, and Organismal Biology, University of California, Riverside, California, USA.",
+            "Neuroscience Research Institute, University of California, Santa Barbara, California, USA."
+          ]
+        },
+        {
+          "last_name": "Hopkins",
+          "fore_name": "Anthony",
+          "affiliations": [
+            "EpigenDx, Inc., Hopkinton, Massachusetts, USA."
+          ]
+        },
+        {
+          "last_name": "Garland",
+          "fore_name": "Theodore",
+          "affiliations": [
+            "Department of Evolution, Ecology, and Organismal Biology, University of California, Riverside, California, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Male",
+        "Female",
+        "Mice",
+        "Animals",
+        "DNA Methylation",
+        "Brain-Derived Neurotrophic Factor",
+        "Selective Breeding",
+        "Epigenesis, Genetic",
+        "Brain",
+        "Hippocampus"
+      ],
+      "keywords": [
+        "Bdnf",
+        "DNA methylation",
+        "Grin2b",
+        "Pde4d",
+        "bisulfite sequencing",
+        "brain",
+        "cross-fostering",
+        "cyclic AMP response element-binding protein",
+        "exercise",
+        "genetic selection",
+        "wheel-running"
+      ]
+    },
+    {
+      "pmid": "37745503",
+      "pmc": "PMC3521971",
+      "doi": "10.1038/npp.2012.149",
+      "title": "Stress Biomarkers and Child Development in Young Children in Bangladesh.",
+      "abstract": "Hundreds of millions of children in low- and middle-income countries are exposed to chronic stressors, such as poverty, poor sanitation and hygiene, and sub-optimal nutrition. These stressors can have physiological consequences for children and may ultimately have detrimental effects on child development. This study explores associations between biological measures of chronic stress in early life and developmental outcomes in a large cohort of young children living in rural Bangladesh. We assessed physiologic measures of stress in the first two years of life using measures of the hypothalamic-pituitary-adrenal (HPA) axis (salivary cortisol and glucocorticoid receptor gene methylation), the sympathetic-adrenal-medullary (SAM) system (salivary alpha-amylase, heart rate, and blood pressure), and oxidative status (F2-isoprostanes). We assessed child development in the first two years of life with the MacArthur-Bates Communicative Development Inventories (CDI), the WHO gross motor milestones, and the Extended Ages and Stages Questionnaire (EASQ). We compared development outcomes of children at the 75th and 25th percentiles of stress biomarker distributions while adjusting for potential confounders (hereafter referred to as contrasts) using generalized additive models, which are statistical models where the outcome is predicted by a potentially non-linear function of predictor variables. We analyzed data from 684 children (49% female) at both 14 and 28 months of age; we included an additional 765 children at 28 months of age. We observed 135 primary contrasts of the differences in child development outcomes at the 75 Our observations reveal associations between the physiological evidence of stress in the HPA axis with developmental status in early childhood. These findings add to the existing evidence exploring the developmental consequences of early life stress.",
+      "journal": "medRxiv",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Butzin-Dozier",
+          "fore_name": "Zachary",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA USA."
+          ]
+        },
+        {
+          "last_name": "Mertens",
+          "fore_name": "Andrew N",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA USA."
+          ]
+        },
+        {
+          "last_name": "Tan",
+          "fore_name": "Sophia T",
+          "affiliations": [
+            "Division of HIV, Infectious Diseases, and Global Medicine, University of California, San Francisco, San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Granger",
+          "fore_name": "Douglas A",
+          "affiliations": [
+            "Institute for Interdisciplinary Salivary Bioscience Research, University of California, Irvine, Irvine, CA USA.",
+            "Department of Pediatrics, Johns Hopkins University School of Medicine, Baltimore, MD USA."
+          ]
+        },
+        {
+          "last_name": "Pitchik",
+          "fore_name": "Helen O",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA USA."
+          ]
+        },
+        {
+          "last_name": "Il'yasova",
+          "fore_name": "Dora",
+          "affiliations": [
+            "Duke University School of Medicine, Durham, NC USA."
+          ]
+        },
+        {
+          "last_name": "Tofail",
+          "fore_name": "Fahmida",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Md Ziaur",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Spasojevic",
+          "fore_name": "Ivan",
+          "affiliations": [
+            "Duke University School of Medicine, Durham, NC USA."
+          ]
+        },
+        {
+          "last_name": "Shalev",
+          "fore_name": "Idan",
+          "affiliations": [
+            "Department of Biobehavioral Health, Pennsylvania State University, University Park, PA USA."
+          ]
+        },
+        {
+          "last_name": "Ali",
+          "fore_name": "Shahjahan",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Karim",
+          "fore_name": "Mohammed Rabiul",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Shahriar",
+          "fore_name": "Sunny",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Famida",
+          "fore_name": "Syeda Luthfa",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Shuman",
+          "fore_name": "Gabrielle",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA USA."
+          ]
+        },
+        {
+          "last_name": "Shoab",
+          "fore_name": "Abul K",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Akther",
+          "fore_name": "Salma",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Hossen",
+          "fore_name": "Md Saheen",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Mutsuddi",
+          "fore_name": "Palash",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Rahman",
+          "fore_name": "Mahbubur",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Unicomb",
+          "fore_name": "Leanne",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Das",
+          "fore_name": "Kishor K",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Yan",
+          "fore_name": "Liying",
+          "affiliations": [
+            "EpigenDx, Inc., Hopkinton, MA USA."
+          ]
+        },
+        {
+          "last_name": "Meyer",
+          "fore_name": "Ann",
+          "affiliations": [
+            "EpigenDx, Inc., Hopkinton, MA USA."
+          ]
+        },
+        {
+          "last_name": "Stewart",
+          "fore_name": "Christine P",
+          "affiliations": [
+            "Department of Nutrition, University of California Davis, Davis, CA USA."
+          ]
+        },
+        {
+          "last_name": "Hubbard",
+          "fore_name": "Alan",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA USA."
+          ]
+        },
+        {
+          "last_name": "Tabassum Naved",
+          "fore_name": "Ruchira",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Parvin",
+          "fore_name": "Kausar",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Mamun",
+          "fore_name": "Md Mahfuz Al",
+          "affiliations": [
+            "International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Luby",
+          "fore_name": "Stephen P",
+          "affiliations": [
+            "Division of Infectious Diseases and Geographic Medicine, Stanford University, Stanford, CA USA."
+          ]
+        },
+        {
+          "last_name": "Colford",
+          "fore_name": "John M",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA USA."
+          ]
+        },
+        {
+          "last_name": "Fernald",
+          "fore_name": "Lia C H",
+          "affiliations": [
+            "School of Public Health, University of California, Berkeley, Berkeley, CA USA."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Audrie",
+          "affiliations": [
+            "Department of Microbiology and Environmental Toxicology, University of California, Santa Cruz, Santa Cruz, CA USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "35988119",
+      "pmc": "PMC6072066",
+      "doi": "10.1038/ng709",
+      "title": "DNA Methylation Analysis of Imprinted Genes in the Cortex and Hippocampus of Cross-Fostered Mice Selectively Bred for Increased Voluntary Wheel-Running.",
+      "abstract": "We have previously shown that high runner (HR) mice (from a line genetically selected for increased wheel-running behavior) have distinct, genetically based, neurobiological phenotypes as compared with non-selected control (C) mice. However, developmental programming effects during early life, including maternal care and parent-of-origin-dependent expression of imprinted genes, can also contribute to variation in physical activity. Here, we used cross-fostering to address two questions. First, do HR mice have altered DNA methylation profiles of imprinted genes in the brain compared to C mice? Second, does maternal upbringing further modify the DNA methylation status of these imprinted genes? To address these questions, we cross-fostered all offspring at birth to create four experimental groups: C pups to other C dams, HR pups to other HR dams, C pups to HR dams, and HR pups to C dams. Bisulfite sequencing of 16 imprinted genes in the cortex and hippocampus revealed that the HR line had altered DNA methylation patterns of the paternally imprinted genes, Rasgrf1 and Zdbf2, as compared with the C line. Both fostering between the HR and C lines and sex modified the DNA methylation profiles for the paternally expressed genes Mest, Peg3, Igf2, Snrpn, and Impact. Ig-DMR, a gene with multiple paternal and maternal imprinted clusters, was also affected by maternal upbringing and sex. Our results suggest that differential methylation patterns of imprinted genes in the brain could contribute to evolutionary increases in wheel-running behavior and are also dependent on maternal upbringing and sex.",
+      "journal": "Behav Genet",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Latchney",
+          "fore_name": "Sarah E",
+          "affiliations": [
+            "Department of Biology, St. Mary's College of Maryland, 18952 E. Fisher Rd, Saint Mary's City, MD, 20686, USA. selatchney@smcm.edu."
+          ]
+        },
+        {
+          "last_name": "Cadney",
+          "fore_name": "Marcell D",
+          "affiliations": [
+            "Department of Evolution, Ecology, and Organismal Biology, University of California, Riverside, CA, 92521, USA."
+          ]
+        },
+        {
+          "last_name": "Hopkins",
+          "fore_name": "Austin",
+          "affiliations": [
+            "EpigenDx, Inc, Hopkinton, MA, 01748, USA."
+          ]
+        },
+        {
+          "last_name": "Garland",
+          "fore_name": "Theodore",
+          "affiliations": [
+            "Department of Evolution, Ecology, and Organismal Biology, University of California, Riverside, CA, 92521, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "DNA Methylation",
+        "Genomic Imprinting",
+        "Hippocampus",
+        "Mice",
+        "ras-GRF1"
+      ],
+      "keywords": [
+        "Bisulfite sequencing",
+        "Brain",
+        "Cross-fostering",
+        "Exercise",
+        "Maternal effects",
+        "Parent-of-origin genes"
+      ]
+    }
+  ]
+}

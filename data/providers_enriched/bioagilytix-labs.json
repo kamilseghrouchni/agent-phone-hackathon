@@ -1,0 +1,216 @@
+{
+  "id": "bioagilytix-labs",
+  "name": "BioAgilytix Labs",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "BioAgilytix Labs"
+  ],
+  "search_queries": [
+    "\"BioAgilytix Labs\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 18,
+  "publications_indexed": 18,
+  "address_hints": [
+    "BioAgilytix Labs, Durham, NC, USA",
+    "BioAgilytix Labs, 2300 Englert Drive, Durham, NC 27713, USA",
+    "BioAgilytix Labs, 2300 Englert Drive, Durham, NC, 27713, USA",
+    "BioAgilytix Labs, Durham, North Carolina, 27713, USA",
+    "Bioanalytical Operations, BioAgilytix Labs, Durham, North Carolina, USA"
+  ],
+  "contact_emails": [
+    "Amanda.hays@bioagilytix.com",
+    "Elizabeth.butala@bioagilytix.com"
+  ],
+  "sample_types": [
+    {
+      "type": "serum",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "39696894",
+        "37880551"
+      ]
+    },
+    {
+      "type": "plasma",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "35536018"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "AIDS Vaccines",
+      "n_papers": 1
+    },
+    {
+      "area": "HIV Antibodies",
+      "n_papers": 1
+    },
+    {
+      "area": "HIV Infections",
+      "n_papers": 1
+    },
+    {
+      "area": "HIV Seropositivity",
+      "n_papers": 1
+    },
+    {
+      "area": "HIV-1",
+      "n_papers": 1
+    },
+    {
+      "area": "Infectious Disease Transmission, Vertical",
+      "n_papers": 1
+    },
+    {
+      "area": "Pregnancy",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Regeneron Pharmaceuticals",
+      "co_pubs": 6
+    },
+    {
+      "name": "Charles River Laboratories",
+      "co_pubs": 5
+    },
+    {
+      "name": "Smithers",
+      "co_pubs": 4
+    },
+    {
+      "name": "Non-Clinical Disposition and Bioanalysis",
+      "co_pubs": 4
+    },
+    {
+      "name": "REGENXBIO Inc",
+      "co_pubs": 3
+    },
+    {
+      "name": "Johnson & Johnson Innovative Medicine",
+      "co_pubs": 3
+    },
+    {
+      "name": "Biomarker and BioAnalytical Sciences",
+      "co_pubs": 3
+    },
+    {
+      "name": "Bioanalytical and Molecular Assays",
+      "co_pubs": 3
+    },
+    {
+      "name": "Pharmaceutical Development Services",
+      "co_pubs": 3
+    },
+    {
+      "name": "Revelation Biosciences",
+      "co_pubs": 3
+    },
+    {
+      "name": "Amgen Inc",
+      "co_pubs": 3
+    },
+    {
+      "name": "Bioanalytical Sciences",
+      "co_pubs": 3
+    },
+    {
+      "name": "Discovery and Translational Research",
+      "co_pubs": 3
+    },
+    {
+      "name": "Clinical Pharmacology",
+      "co_pubs": 3
+    },
+    {
+      "name": "Translational Biomarkers and Bioanalysis",
+      "co_pubs": 3
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41491260",
+      "doi": "10.1056/NEJMoa2211644",
+      "pmc": "10073725",
+      "year": 2026,
+      "journal": "AAPS J",
+      "title": "Assessment of Immune Responses Against AAV Encoded Transgene Products."
+    },
+    {
+      "pmid": "41332298",
+      "doi": "10.1208/s12248-025-01122-w",
+      "pmc": "PMC7786041",
+      "year": 2025,
+      "journal": "Bioanalysis",
+      "title": "Rethinking validation paradigms for qPCR and dPCR assays in bioanalysis."
+    },
+    {
+      "pmid": "40804295",
+      "doi": "10.1208/s12248-025-01118-6",
+      "pmc": "11586355",
+      "year": 2025,
+      "journal": "AAPS J",
+      "title": "Assessment of Neutralizing Antibody Activity in Clinical Studies: Use of Surrogate Measurements Instead of Stand-alone Assays."
+    },
+    {
+      "pmid": "40823769",
+      "doi": "10.1080/17576180.2025.2529119",
+      "pmc": "PMC12026151",
+      "year": 2025,
+      "journal": "Bioanalysis",
+      "title": "17th GCC Closed Forum: Integrative Bioanalysis, Patient-centric Sampling, Emerging Technologies, Data Integrity, Sample Reconciliation, Discrepancies of ELISpot Data, Cross-validation Harmonization, Ultrasensitive Platforms for ADA Assays, Remote Regulatory Assessments, Shedding Assays by PCR, and Biomarker Tissue Assays."
+    },
+    {
+      "pmid": "40069400",
+      "doi": "10.1186/s41120-021-00050-1",
+      "pmc": "2751302",
+      "year": 2025,
+      "journal": "AAPS J",
+      "title": "Best Practices and Recommendations for Non-Liquid Matrices Bioanalysis."
+    },
+    {
+      "pmid": "39696894",
+      "doi": "10.1016/j.jim.2018.10.001",
+      "pmc": "PMC8816448",
+      "year": 2025,
+      "journal": "Bioanalysis",
+      "title": "Development of a validated novel bead extraction method for the detection of anti-PEG antibodies in human serum."
+    },
+    {
+      "pmid": "39032144",
+      "doi": "10.1002/cyto.b.22198",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Cytometry B Clin Cytom",
+      "title": "Implementation of flow cytometry testing on rare matrix samples: Special considerations and best practices when the sample is unique or difficult to obtain."
+    },
+    {
+      "pmid": "39231893",
+      "doi": "10.1208/s12248-024-00965-z",
+      "pmc": null,
+      "year": 2024,
+      "journal": "AAPS J",
+      "title": "Correction to: Neutralizing Antibody Sample Testing and Report Harmonization."
+    },
+    {
+      "pmid": "38992280",
+      "doi": "10.1111/cei.12742",
+      "pmc": "4837239",
+      "year": 2024,
+      "journal": "AAPS J",
+      "title": "Neutralizing Antibody Sample Testing and Report Harmonization."
+    },
+    {
+      "pmid": "37880551",
+      "doi": "10.1038/gt.2017.95",
+      "pmc": "PMC5746592",
+      "year": 2023,
+      "journal": "Pharm Res",
+      "title": "Validation of Anti-Adeno Associated Virus Serotype rh10 (AAVrh.10) Total and Neutralizing Antibody Immunogenicity Assays."
+    }
+  ]
+}

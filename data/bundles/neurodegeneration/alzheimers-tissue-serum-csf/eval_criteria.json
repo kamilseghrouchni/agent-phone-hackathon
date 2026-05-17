@@ -1,0 +1,221 @@
+{
+  "bundle_id": "alzheimers-tissue-serum-csf",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "CHTN Eastern",
+        "BIOMEDICA CRO",
+        "Stibion",
+        "NDRI"
+      ],
+      "pass": "find >= 30% of ground truth orgs OR find >= 2 orgs with matching tissue specimens",
+      "notes": "Pipeline searches PubMed/CTgov/web — may find ROSMAP/ADNI/ACT brain banks not in AminoChain. Those are valid finds. CHTN and NDRI are the highest-priority targets (US-based, well-documented). Braak staging documentation is the key differentiator."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data",
+        "Braak stage availability must cite a specific source — not assumed from autopsy context"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name",
+        "tissue_region"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "postmortem_interval",
+        "storage_temp",
+        "neuropathological_protocol"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "CHTN Eastern": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "2-3",
+            "MD": "2-3"
+          },
+          "specimen_count": 180,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "CHTN is a well-established NCI network with documented protocols and named contacts. Braak staging is available through neuropathology program but not pre-indexed."
+        },
+        "NDRI": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "1-2"
+          },
+          "specimen_count": 30,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "NDRI provides generic contact and tissue access but collection protocol depth is lower than CHTN. Braak staging status unknown without direct inquiry."
+        },
+        "Stibion": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "1-2"
+          },
+          "specimen_count": 50,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "European biobank with reasonable contact and specimen counts but limited published protocol documentation."
+        },
+        "BIOMEDICA CRO": {
+          "expected_scores": {
+            "SI": "1-2",
+            "CR": "2-3",
+            "CF": "1-2",
+            "MD": "1-2"
+          },
+          "specimen_count": 40,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "Commercial CRO with procurement network. Generic contact available. Protocol depth low — Braak staging unlikely without special arrangement."
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "braak_stage",
+          "reason": "not indexed in specimen registries — requires neuropathology report from source institution"
+        },
+        {
+          "field": "cerad_score",
+          "reason": "not indexed — must be confirmed via neuropathology program at each org"
+        },
+        {
+          "field": "neuropathological_confirmation",
+          "reason": "implied by autopsy program context but not universally indexed — requires per-case confirmation"
+        },
+        {
+          "field": "csf_availability",
+          "reason": "CSF not confirmed as available at all orgs — 28 urine specimens found, CSF requires direct inquiry"
+        },
+        {
+          "field": "postmortem_interval",
+          "reason": "critical for RNA quality — not indexed in AminoChain"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not available in specimen data — requires direct inquiry"
+        },
+        {
+          "field": "freeze_thaw_count",
+          "reason": "not tracked in specimen registries"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "CHTN Eastern": 180,
+        "NDRI": 30,
+        "Stibion": 50,
+        "BIOMEDICA CRO": 40
+      },
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs OR finds valid academic brain banks (ROSMAP, ACT, NACC) not present in AminoChain"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented specimen counts — every N cites a source",
+        "no invented contacts — every email traces to paper/website/registry",
+        "no training-data fills for cost or biomarker data",
+        "Braak stage availability must NOT be assumed — requires explicit source"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "amyloid_beta": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    },
+    "tau": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    },
+    "p_tau": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    }
+  }
+}

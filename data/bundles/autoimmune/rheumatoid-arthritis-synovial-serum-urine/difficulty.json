@@ -1,0 +1,17 @@
+{
+  "bundle_id": "rheumatoid-arthritis-synovial-serum-urine",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium \u2014 serum and urine are available but synovial tissue biopsy is invasive and collected at fewer sites",
+    "org_discoverability": "medium \u2014 BIOMEDICA CRO and NDRI are findable; Stibion is a niche Dutch autoimmune specialist with lower PubMed presence",
+    "biomarker_specificity": "high \u2014 RF, anti-CCP, and medication history not tracked in any biospecimen registry",
+    "specimen_count": 284,
+    "org_count": 3
+  },
+  "expected_failure_modes": [
+    "Synovial tissue biopsy requires ultrasound guidance and is performed at specialist rheumatology centers, not routine commercial biobanking \u2014 only 27 tissue specimens in AminoChain",
+    "Treatment-naive RA patients are primarily enrolled in clinical trials (TACERA, SERA, PRAIRIE), not biobanks \u2014 pipeline may find these but specimen re-access is not equivalent to commercial procurement",
+    "RF and anti-CCP documentation varies across centers and is not tracked in biospecimen registries \u2014 pipeline must not hallucinate documented status",
+    "AminoChain has only 13 synovial fluid specimens across 3 orgs \u2014 N >= 30 synovial specimens is unlikely without multi-org aggregation and direct inquiry"
+  ]
+}

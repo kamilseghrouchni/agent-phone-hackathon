@@ -1,0 +1,249 @@
+{
+  "id": "bgi-genomics",
+  "name": "BGI Genomics",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "BGI Genomics"
+  ],
+  "search_queries": [
+    "\"BGI Genomics\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 354,
+  "publications_indexed": 25,
+  "address_hints": [
+    "BGI Genomics, Shenzhen, China",
+    "BGI Genomics, Shenzhen, China (Y.Z., S.G., Y.M., Y.L., X.C., J.W., Y.C., S.L., N.Z., Z.H., X.Z., H.H., H.J., S.Z., L.Z., J.Z., X.S.)",
+    "BGI Genomics, BGI-Shenzhen, Shenzhen, 518083, China",
+    "Hebei Industrial Technology Research Institute of Genomics in Maternal & Child Health, Clin Lab, BGI Genomics, Shijiazhuang, China",
+    "BGI Genomics, Shenzhen, 518083, China"
+  ],
+  "contact_emails": [
+    "chenchao4@genomics.cn",
+    "fangxd@gzucm.edu.cn",
+    "pengzhiyu@bgi.com",
+    "qinyouwen@genomics.cn",
+    "tangchong@bgi.com",
+    "yangyun@genomics.cn",
+    "zhaolijian@genomics.cn"
+  ],
+  "sample_types": [
+    {
+      "type": "plasma",
+      "n_papers": 4,
+      "evidence_pmids": [
+        "42069757",
+        "41637907",
+        "41681029"
+      ]
+    },
+    {
+      "type": "stool/feces",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "42013850",
+        "41882673"
+      ]
+    },
+    {
+      "type": "cell lines",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "41258878",
+        "41763432"
+      ]
+    },
+    {
+      "type": "serum",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41916296"
+      ]
+    },
+    {
+      "type": "saliva",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "42013850"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Pregnancy",
+      "n_papers": 2
+    },
+    {
+      "area": "Cholangiocarcinoma",
+      "n_papers": 1
+    },
+    {
+      "area": "Bile Duct Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Biomarkers, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Tumor Microenvironment",
+      "n_papers": 1
+    },
+    {
+      "area": "Tongue Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Cell Line, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Carcinoma, Squamous Cell",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "College of Life Sciences",
+      "co_pubs": 10
+    },
+    {
+      "name": "BGI Research",
+      "co_pubs": 3
+    },
+    {
+      "name": "State Key Laboratory of Genome and Multi-omics Technologies",
+      "co_pubs": 3
+    },
+    {
+      "name": "School of Public Health",
+      "co_pubs": 2
+    },
+    {
+      "name": "Institute of Reproduction and Development",
+      "co_pubs": 2
+    },
+    {
+      "name": "Medical Technology College",
+      "co_pubs": 2
+    },
+    {
+      "name": "Shanghai Key Laboratory of Female Reproductive Endocrine Related Diseases",
+      "co_pubs": 2
+    },
+    {
+      "name": "Changzhou Maternal and Child Health Care Hospital",
+      "co_pubs": 2
+    },
+    {
+      "name": "Women's Hospital of Nanjing Medical University",
+      "co_pubs": 2
+    },
+    {
+      "name": "Zhuhai Center for Maternal and Child Health Care",
+      "co_pubs": 1
+    },
+    {
+      "name": "Clinical Transformation and Application Key Lab for Obstetrics and Gynecology",
+      "co_pubs": 1
+    },
+    {
+      "name": "Inner Mongolia Maternity and Child Health Care Hospital",
+      "co_pubs": 1
+    },
+    {
+      "name": "Jiangmen Central Hospital",
+      "co_pubs": 1
+    },
+    {
+      "name": "Shenzhen Baoan Women's and Children's Hospital",
+      "co_pubs": 1
+    },
+    {
+      "name": "Guangdong Provincial Reproductive Science Institute",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "42069757",
+      "doi": "10.1038/s41467-026-72682-4",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Nat Commun",
+      "title": "Cell-free DNA fragmentomics for preeclampsia risk assessment."
+    },
+    {
+      "pmid": "42036683",
+      "doi": "10.1016/j.cels.2020.08.015",
+      "pmc": "PMC7588622",
+      "year": 2026,
+      "journal": "Genome Biol",
+      "title": "Highly\u00a0efficient\u00a0chromatin\u00a0conformation\u00a0capture\u00a0with\u00a0post-enrichment\u00a0in\u00a0single\u00a0cells\u00a0by\u00a0HiChew."
+    },
+    {
+      "pmid": "42043777",
+      "doi": "10.3389/fped.2023.1283880",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Diagnosis (Berl)",
+      "title": "Diagnostic uncertainty as a public health imperative: a call for R69 code adoption."
+    },
+    {
+      "pmid": "42017236",
+      "doi": "10.1161/HYPERTENSIONAHA.125.26388",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Hypertension",
+      "title": "Association Between Cardiovascular Polygenic Risk and White Matter Hyperintensities: An Observational Study From the UK Biobank."
+    },
+    {
+      "pmid": "41916296",
+      "doi": "10.1016/j.lungcan.2013.07.016",
+      "pmc": "PMC3339379",
+      "year": 2026,
+      "journal": "Cell Rep Med",
+      "title": "Robust transcriptomic hallmarks targeting intratumor heterogeneity in intrahepatic cholangiocarcinoma."
+    },
+    {
+      "pmid": "42013850",
+      "doi": "10.1016/j.xcrm.2026.102761",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Cell Rep Med",
+      "title": "Distinct signatures in the human gut and oral microbiomes of gastric cancer."
+    },
+    {
+      "pmid": "41957375",
+      "doi": "10.1038/s41597-026-07166-7",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Sci Data",
+      "title": "Haplotype-resolved chromosomal-level genome assembly of Chrysaora achlyos (black sea nettle)."
+    },
+    {
+      "pmid": "41927590",
+      "doi": "10.1038/s41525-026-00565-0",
+      "pmc": null,
+      "year": 2026,
+      "journal": "NPJ Genom Med",
+      "title": "Population-scale genomic screening reveals high frequency of actionable secondary findings in Chinese newborns."
+    },
+    {
+      "pmid": "41258878",
+      "doi": "10.1158/1541-7786.MCR-25-0724",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Mol Cancer Res",
+      "title": "MTHFD2-Mediated Ubiquitination and Degradation of FOXO1 Promote Tongue Squamous Cell Carcinoma Progression."
+    },
+    {
+      "pmid": "41763432",
+      "doi": "10.1016/j.ijbiomac.2026.151045",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Int J Biol Macromol",
+      "title": "Panax notoginseng saponins protect the blood-brain barrier against oxidative stress by activating the Akap12-PI3K/AKT-AQP1 signaling axis."
+    }
+  ]
+}

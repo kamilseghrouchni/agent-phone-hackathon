@@ -1,0 +1,76 @@
+{
+  "bundle_id": "prostate-acinar-high-grade-ffpe-serum",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": null,
+      "pmc_id": "PMC5700705",
+      "doi": "10.1186/s12967-017-1362-9",
+      "title": "King's Health Partners Prostate Cancer BioBank (KHP PCaBB): design and initial cohort",
+      "year": 2017,
+      "journal": "Journal of Translational Medicine",
+      "specimens_described": {
+        "types": ["serum", "FFPE blocks", "fresh frozen tissue", "plasma", "urine"],
+        "n": 1553,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "King's Health Partners Prostate Cancer BioBank (KHP PCaBB) / King's College London",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Application to KHP PCaBB access committee (prostatecancerbiobank.org.uk); IRB and MTA required",
+      "depth_confidence": "high",
+      "notes": "n=489 serum at -80C + n=1064 FFPE; Gleason score documented on all cases; acinar adenocarcinoma confirmed histologically; radical prostatectomy and biopsy specimens; PSA trajectory documented; London-based UK collection"
+    },
+    {
+      "pmid": "24115205",
+      "pmc_id": null,
+      "doi": "10.1158/1940-6207.CAPR-13-0001",
+      "title": "Prostate Cancer Biorepository Network (PCBN): a DoD-funded multi-site biobank",
+      "year": 2013,
+      "journal": "Cancer Prevention Research",
+      "specimens_described": {
+        "types": ["FFPE blocks", "serum", "plasma", "fresh frozen tissue"],
+        "n": null,
+        "storage": "-80C and room temperature (paraffin)",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Prostate Cancer Biorepository Network (PCBN) / WashU / DoD",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "Application to PCBN; DoD-funded network; coordinated through WashU; contact pcbn@wustl.edu",
+      "depth_confidence": "medium",
+      "notes": "FFPE + serum from radical prostatectomy; Gleason documented; multi-site US network; DoD-funded; acinar adenocarcinoma focus; pathology review centralized at WashU; access via application"
+    },
+    {
+      "pmid": "35490048",
+      "pmc_id": "PMC9117451",
+      "doi": "10.1007/s11912-022-01259-3",
+      "title": "Weill Cornell Medicine SPORE in Prostate Cancer: biobank and clinical resource",
+      "year": 2022,
+      "journal": "Current Oncology Reports",
+      "specimens_described": {
+        "types": ["FFPE blocks", "plasma", "serum", "fresh frozen tissue", "urine"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Weill Cornell Medicine SPORE / Englander Institute for Precision Medicine",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "WCM SPORE collaborative access; NCI SPORE program; IRB and MTA required; contact SPORE administrative core",
+      "depth_confidence": "high",
+      "notes": "Radical prostatectomy biobank with FFPE, plasma, serum, and urine; Gleason and ISUP grade group documented; acinar adenocarcinoma confirmed; genomic data (WGS, RNA-seq) linked on subset; longitudinal plasma at recurrence"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "King's Health Partners Prostate Cancer BioBank (KHP PCaBB)",
+    "Prostate Cancer Biorepository Network (PCBN) / WashU",
+    "Weill Cornell Medicine SPORE"
+  ],
+  "notes": "KHP PCaBB (UK) has the clearest access route via a dedicated portal and n=489 serum + n=1064 FFPE. PCBN is the US multi-site equivalent via DoD with acinar adenocarcinoma focus. WCM SPORE adds genomic linkage and longitudinal plasma. All three require formal application with IRB."
+}

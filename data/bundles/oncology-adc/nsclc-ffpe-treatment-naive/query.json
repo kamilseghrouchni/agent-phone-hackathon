@@ -1,0 +1,24 @@
+{
+  "bundle_id": "nsclc-ffpe-treatment-naive",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "NSCLC FFPE tissue blocks, treatment-naive patients, for TROP2 IHC screening. Need matched serum for circulating biomarker correlation. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Non-Small cell lung cancer (NSCLC)"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "biomarkers_required": [],
+    "biomarkers_desired": [
+      "TROP2"
+    ],
+    "preservation": "Fixed",
+    "min_n": 30,
+    "treatment_status": "treatment-naive",
+    "matched_pairs": true,
+    "assay_context": "TROP2 IHC screening for ADC patient selection"
+  }
+}

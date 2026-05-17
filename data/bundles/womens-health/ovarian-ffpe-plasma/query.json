@@ -1,0 +1,24 @@
+{
+  "bundle_id": "ovarian-ffpe-plasma",
+  "therapeutic_area": "womens-health",
+  "query_text": "Ovarian cancer FFPE + matched plasma for folate receptor alpha (FRa) and TROP2 expression. Treatment-naive. N >= 40.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Ovarian cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "biomarkers_desired": [
+      "FRa",
+      "TROP2"
+    ],
+    "preservation": "Fixed",
+    "min_n": 40,
+    "treatment_status": "treatment-naive preferred",
+    "matched_pairs": true,
+    "assay_context": "Ovarian cancer ADC target expression profiling"
+  }
+}

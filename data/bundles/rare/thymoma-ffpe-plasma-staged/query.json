@@ -1,0 +1,25 @@
+{
+  "bundle_id": "thymoma-ffpe-plasma-staged",
+  "therapeutic_area": "rare",
+  "query_text": "Thymoma or thymic carcinoma FFPE tissue with matched plasma. Masaoka-Koga staged. WHO histological classification documented (type A, AB, B1, B2, B3, or C). N >= 20.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Thymoma",
+      "Thymic carcinoma"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "staging_required": "Masaoka-Koga (any stage)",
+    "preservation": "Fixed",
+    "matched_pairs": true,
+    "clinical_data_required": [
+      "WHO_histological_classification",
+      "Masaoka-Koga_stage",
+      "pathology_report"
+    ],
+    "assay_context": "Thymic epithelial tumor biomarker development — WHO histotype-stratified analysis"
+  }
+}

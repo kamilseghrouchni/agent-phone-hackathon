@@ -1,0 +1,198 @@
+{
+  "id": "ppd-laboratories",
+  "name": "PPD Laboratories (Thermo Fisher)",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "PPD Laboratories",
+    "Thermo Fisher"
+  ],
+  "search_queries": [
+    "\"PPD Laboratories\"[Affiliation] AND 2022:3000[pdat]",
+    "\"Thermo Fisher\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 1261,
+  "publications_indexed": 25,
+  "address_hints": [
+    "Research and Development Biologics by LC-MS/MS, PPD Laboratories, Richmond, Virginia 23230, United States",
+    "PPD Laboratories, Richmond, VA, USA",
+    "PPD Laboratories, Richmond, Virginia, USA",
+    "Department of Pharmaceutics, School of Pharmacy, Virginia Commonwealth University, Richmond, VA, USA; PPD Laboratories, Richmond, VA, USA",
+    "PPD Laboratories, Wayne, PA, USA"
+  ],
+  "contact_emails": [
+    "catherine.delguidice@ppd.com",
+    "delguidicece@vcu.edu"
+  ],
+  "sample_types": [
+    {
+      "type": "serum",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "36269894",
+        "35495877"
+      ]
+    },
+    {
+      "type": "plasma",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "35576733"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "COVID-19",
+      "n_papers": 1
+    },
+    {
+      "area": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Faculty of Pharmacy",
+      "co_pubs": 3
+    },
+    {
+      "name": "Department of Pharmaceutics",
+      "co_pubs": 2
+    },
+    {
+      "name": "Axis Clinical",
+      "co_pubs": 2
+    },
+    {
+      "name": "CIRION",
+      "co_pubs": 2
+    },
+    {
+      "name": "Alturas Analytics",
+      "co_pubs": 2
+    },
+    {
+      "name": "BRI - a Frontage Company",
+      "co_pubs": 2
+    },
+    {
+      "name": "Altasciences",
+      "co_pubs": 2
+    },
+    {
+      "name": "Pyxant Labs",
+      "co_pubs": 2
+    },
+    {
+      "name": "ICON Laboratory Services",
+      "co_pubs": 2
+    },
+    {
+      "name": "CR Medicon",
+      "co_pubs": 2
+    },
+    {
+      "name": "KCAS Bioanalytical & Biomarker Services",
+      "co_pubs": 2
+    },
+    {
+      "name": "Keystone Bioanalytical",
+      "co_pubs": 2
+    },
+    {
+      "name": "Indianapolis",
+      "co_pubs": 2
+    },
+    {
+      "name": "CellCarta",
+      "co_pubs": 2
+    },
+    {
+      "name": "Mercodia",
+      "co_pubs": 2
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "36269894",
+      "doi": "10.1152/ajplung.00476.2016",
+      "pmc": "PMC9448003",
+      "year": 2022,
+      "journal": "Anal Chem",
+      "title": "Multiplex Hybrid Antigen-Capture LC-MRM Quantification in Sera and Nasal Lining Fluid of AZD7442, a SARS-CoV-2-Targeting Antibody Combination."
+    },
+    {
+      "pmid": "35576733",
+      "doi": "10.1016/j.jpba.2022.114823",
+      "pmc": null,
+      "year": 2022,
+      "journal": "J Pharm Biomed Anal",
+      "title": "Comparison of methods for quantitative analysis of ranibizumab and bevacizumab in human plasma using various bioanalytical techniques, including microfluidic immunoassay, triple quadrupole, and high-resolution liquid chromatography-tandem mass spectrometry approaches."
+    },
+    {
+      "pmid": "35703321",
+      "doi": "10.4155/bio-2022-0109",
+      "pmc": null,
+      "year": 2022,
+      "journal": "Bioanalysis",
+      "title": "Recommendations on qPCR/ddPCR assay validation by GCC."
+    },
+    {
+      "pmid": "35451621",
+      "doi": "10.1016/j.ophtha.2008.04.023",
+      "pmc": "6855484",
+      "year": 2022,
+      "journal": "Anal Bioanal Chem",
+      "title": "Intact quantitative bioanalytical method development and fit-for-purpose validation of a monoclonal antibody and its related fab fragment in human vitreous and aqueous humor using LC-HRMS."
+    },
+    {
+      "pmid": "35495877",
+      "doi": "10.1002/cti2.1385",
+      "pmc": "PMC7165447",
+      "year": 2022,
+      "journal": "Clin Transl Immunology",
+      "title": "Validation and performance of a multiplex serology assay to quantify antibody responses following SARS-CoV-2 infection or vaccination."
+    },
+    {
+      "pmid": "35135309",
+      "doi": "10.4155/bio-2022-0010",
+      "pmc": null,
+      "year": 2022,
+      "journal": "Bioanalysis",
+      "title": "Recommendations on ELISpot assay validation by the GCC."
+    },
+    {
+      "pmid": "41190976",
+      "doi": "10.1016/j.jval.2025.09.3055",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Value Health",
+      "title": "Health Economics and Outcomes Research in the New Era of Artificial Intelligence: Catch Me If You Can."
+    },
+    {
+      "pmid": "41972211",
+      "doi": "10.1101/2022.04.05.486988",
+      "pmc": "PMC10343045",
+      "year": 2026,
+      "journal": "Pain Rep",
+      "title": "Electroencephalography during acute painful procedures in neonates: a scoping review."
+    },
+    {
+      "pmid": "41969623",
+      "doi": "10.1002/acr2.11477",
+      "pmc": "PMC9469483",
+      "year": 2026,
+      "journal": "Contemp Clin Trials Commun",
+      "title": "Diversity in clinical Trials: The example of systemic lupus erythematosus."
+    },
+    {
+      "pmid": "41875590",
+      "doi": "10.1016/j.jchromb.2026.125020",
+      "pmc": null,
+      "year": 2026,
+      "journal": "J Chromatogr B Analyt Technol Biomed Life Sci",
+      "title": "Multi-laboratory development of bioanalytical methods for two cyclic peptides, cyclorasin9A5 and 3003pep."
+    }
+  ]
+}

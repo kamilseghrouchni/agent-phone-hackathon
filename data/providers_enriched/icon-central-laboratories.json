@@ -1,0 +1,127 @@
+{
+  "id": "icon-central-laboratories",
+  "name": "ICON Central Laboratories",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "ICON Central Laboratories"
+  ],
+  "search_queries": [
+    "\"ICON Central Laboratories\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 4,
+  "publications_indexed": 4,
+  "address_hints": [
+    "ICON Central Laboratories, New York, NY, USA",
+    "ICON Central Laboratories, Farmingdale, NY, USA",
+    "Department of Pathology, ICON Central Laboratories Inc, Farmingdale, New York, USA"
+  ],
+  "contact_emails": [],
+  "sample_types": [
+    {
+      "type": "plasma",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "37766505"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "HIV Infections",
+      "n_papers": 1
+    },
+    {
+      "area": "Inflammation",
+      "n_papers": 1
+    },
+    {
+      "area": "Inflammatory Bowel Diseases",
+      "n_papers": 1
+    },
+    {
+      "area": "Prostatic Neoplasms",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Northwestern University Feinberg School of Medicine",
+      "co_pubs": 2
+    },
+    {
+      "name": "University of California",
+      "co_pubs": 2
+    },
+    {
+      "name": "University of North Florida",
+      "co_pubs": 1
+    },
+    {
+      "name": "MRC Clinical Trials Unit at UCL",
+      "co_pubs": 1
+    },
+    {
+      "name": "Joint Clinical Research Centre",
+      "co_pubs": 1
+    },
+    {
+      "name": "University of Padova",
+      "co_pubs": 1
+    },
+    {
+      "name": "Makerere University College of Health Sciences",
+      "co_pubs": 1
+    },
+    {
+      "name": "Infectious Diseases Institute Core Laboratory",
+      "co_pubs": 1
+    },
+    {
+      "name": "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration",
+      "co_pubs": 1
+    },
+    {
+      "name": "Baylor College of Medicine Children's Foundation-Uganda",
+      "co_pubs": 1
+    },
+    {
+      "name": "UCL Great Ormond Street Institute of Child Health",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "39001615",
+      "doi": "10.1093/jme/tjae060",
+      "pmc": null,
+      "year": 2024,
+      "journal": "J Med Entomol",
+      "title": "F-actin and heparan sulfate proteoglycan distribution in female mosquito salivary glands and ducts."
+    },
+    {
+      "pmid": "37766505",
+      "doi": "10.1177/2050313X221079444",
+      "pmc": "PMC7783943",
+      "year": 2023,
+      "journal": "J Int AIDS Soc",
+      "title": "Effect of dolutegravir on folate, vitamin B12 and mean corpuscular volume levels among children and adolescents with HIV: a sub-study of the ODYSSEY randomized controlled trial."
+    },
+    {
+      "pmid": "34035460",
+      "doi": "10.1038/s41391-021-00392-7",
+      "pmc": "PMC5029667",
+      "year": 2022,
+      "journal": "Prostate Cancer Prostatic Dis",
+      "title": "Inflammatory bowel disease induces inflammatory and pre-neoplastic changes in the prostate."
+    },
+    {
+      "pmid": "34158596",
+      "doi": "10.18632/oncotarget.8070",
+      "pmc": null,
+      "year": 2022,
+      "journal": "Prostate Cancer Prostatic Dis",
+      "title": "Correction: Inflammatory bowel disease induces inflammatory and preneoplastic changes in the prostate."
+    }
+  ]
+}

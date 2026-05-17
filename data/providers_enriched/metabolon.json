@@ -1,0 +1,269 @@
+{
+  "id": "metabolon",
+  "name": "Metabolon",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Metabolon"
+  ],
+  "search_queries": [
+    "\"Metabolon\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 107,
+  "publications_indexed": 25,
+  "address_hints": [
+    "Metabolon Inc, Durham, NC, USA",
+    "Metabolon, Inc, Morrisville, NC, USA",
+    "Metabolon, Inc., 617 Davis Drive, Suite 100, Morrisville, NC 27560, USA",
+    "Metabolon, Morrisville, NC, USA",
+    "Metabolon Inc., Morrisville, NC 27560, USA"
+  ],
+  "contact_emails": [
+    "AKennedy@metabolon.com"
+  ],
+  "sample_types": [
+    {
+      "type": "plasma",
+      "n_papers": 7,
+      "evidence_pmids": [
+        "41960328",
+        "41787388",
+        "41590636"
+      ]
+    },
+    {
+      "type": "serum",
+      "n_papers": 7,
+      "evidence_pmids": [
+        "41787388",
+        "41503571",
+        "41590636"
+      ]
+    },
+    {
+      "type": "stool/feces",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "41503571",
+        "41345102"
+      ]
+    },
+    {
+      "type": "PBMCs",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "40709330",
+        "39340428"
+      ]
+    },
+    {
+      "type": "cell lines",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "39928031",
+        "37461585"
+      ]
+    },
+    {
+      "type": "breast milk",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41651070"
+      ]
+    },
+    {
+      "type": "CSF",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41787388"
+      ]
+    },
+    {
+      "type": "urine",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41503571"
+      ]
+    },
+    {
+      "type": "saliva",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "40632657"
+      ]
+    },
+    {
+      "type": "whole blood",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "39340428"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Amyotrophic Lateral Sclerosis",
+      "n_papers": 2
+    },
+    {
+      "area": "Nutritional Status",
+      "n_papers": 1
+    },
+    {
+      "area": "Maternal Nutritional Physiological Phenomena",
+      "n_papers": 1
+    },
+    {
+      "area": "Cardiovascular Diseases",
+      "n_papers": 1
+    },
+    {
+      "area": "Tumor Necrosis Factor-alpha",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Tan Tock Seng Hospital",
+      "co_pubs": 3
+    },
+    {
+      "name": "Lee Kong Chian School of Medicine",
+      "co_pubs": 3
+    },
+    {
+      "name": "National Skin Centre",
+      "co_pubs": 3
+    },
+    {
+      "name": "Boston Children's Hospital",
+      "co_pubs": 3
+    },
+    {
+      "name": "King's College London",
+      "co_pubs": 2
+    },
+    {
+      "name": "Brigham and Women's Hospital",
+      "co_pubs": 2
+    },
+    {
+      "name": "Sheffield Institute for Translational Neuroscience",
+      "co_pubs": 2
+    },
+    {
+      "name": "Virginia Commonwealth University and Richmond VA Medical Center",
+      "co_pubs": 2
+    },
+    {
+      "name": "Microbiome Analysis Center",
+      "co_pubs": 2
+    },
+    {
+      "name": "Genome Institute of Singapore",
+      "co_pubs": 2
+    },
+    {
+      "name": "School of Public Health",
+      "co_pubs": 2
+    },
+    {
+      "name": "Khoo Teck Puat Hospital",
+      "co_pubs": 2
+    },
+    {
+      "name": "Department of Twin Research & Genetic Epidemiology",
+      "co_pubs": 2
+    },
+    {
+      "name": "Universit\u00e0 Degli Studi di Milano",
+      "co_pubs": 2
+    },
+    {
+      "name": "University of Washington",
+      "co_pubs": 2
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41975099",
+      "doi": "10.1038/nmeth.2019",
+      "pmc": "3855844",
+      "year": 2026,
+      "journal": "Nat Cell Biol",
+      "title": "Lipid-trap mass spectrometry identifies lipid-protein interactions in cells."
+    },
+    {
+      "pmid": "41651070",
+      "doi": "10.3390/metabo9050099",
+      "pmc": "PMC6572224",
+      "year": 2026,
+      "journal": "J Nutr",
+      "title": "Untargeted Metabolomics Analysis of Human Milk from Breastfeeding Bangladeshi Women Reveals Amino Acid Metabolic Pathways Associated with Maternal Nutritional Status and Infant Growth."
+    },
+    {
+      "pmid": "41960328",
+      "doi": "10.21203/rs.3.rs-9237764/v1",
+      "pmc": "PMC3014770",
+      "year": 2026,
+      "journal": "Res Sq",
+      "title": "Metabolic Adaptations to Caloric Restriction: Time- and Group-Dependent Metabolomic Signatures from the CALERIE"
+    },
+    {
+      "pmid": "41787388",
+      "doi": "10.4103/1673-5374.276333",
+      "pmc": "PMC7437589",
+      "year": 2026,
+      "journal": "BMC Med",
+      "title": "Hypothesis-free evaluation of circulating metabolome provides cell-specific insights regarding the role of energy substrate availability in amyotrophic lateral sclerosis."
+    },
+    {
+      "pmid": "41752089",
+      "doi": "10.3389/fnagi.2023.1151848",
+      "pmc": "PMC10213779",
+      "year": 2026,
+      "journal": "Int J Mol Sci",
+      "title": "Antisense Dipeptide Repeat Proteins Drive Widescale Purine Metabolism Aberration in"
+    },
+    {
+      "pmid": "41503571",
+      "doi": "10.1172/jci.insight.133410",
+      "pmc": "PMC8259255",
+      "year": 2026,
+      "journal": "JHEP Rep",
+      "title": "The multi-omic basis for hepatic encephalopathy recurrence: Analysis of the THEMATIC trial."
+    },
+    {
+      "pmid": "41469377",
+      "doi": "10.1038/s41467-025-65774-0",
+      "pmc": "PMC12764833",
+      "year": 2025,
+      "journal": "Nat Commun",
+      "title": "The Health for Life in Singapore (HELIOS) Study: delivering precision medicine research for Asian populations."
+    },
+    {
+      "pmid": "41590636",
+      "doi": "10.1371/journal.pone.0091997",
+      "pmc": "PMC3958417",
+      "year": 2025,
+      "journal": "Metabolites",
+      "title": "Dried Blood Spots Capture a Wide Range of Metabolic Pathways and Biological Characteristics Associated with Fish Oil Supplementation, Fasting, and the Postprandial State."
+    },
+    {
+      "pmid": "41430033",
+      "doi": "10.1038/s41588-018-0135-7",
+      "pmc": "PMC6104805",
+      "year": 2025,
+      "journal": "Metabolomics",
+      "title": "Dried blood spots capture a wide range of metabolic pathways and biological changes associated with exercise."
+    },
+    {
+      "pmid": "41345102",
+      "doi": "10.3945/jn.114.205476",
+      "pmc": "PMC5724768",
+      "year": 2025,
+      "journal": "Nat Commun",
+      "title": "Faecal metabolites as a readout of habitual diet capture dietary interactions with the gut microbiome."
+    }
+  ]
+}

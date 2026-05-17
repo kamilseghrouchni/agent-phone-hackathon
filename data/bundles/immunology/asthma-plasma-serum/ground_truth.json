@@ -1,0 +1,139 @@
+{
+  "bundle_id": "asthma-plasma-serum",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 213,
+    "total_secondary_specimens": 214,
+    "total_donors": 94,
+    "organizations": [
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 64
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 213,
+          "type": "Plasma"
+        },
+        "secondary": {
+          "count": 214,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 19,
+      "treatment_naive": 0,
+      "matched_pair_donors": 64,
+      "demographics": {
+        "mean_age": 49.8,
+        "n_with_age": 427,
+        "countries": [
+          "UKR"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "001da982d119...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Plasma",
+      "sex": "Male",
+      "age": 22,
+      "diagnoses": [
+        "Asthma",
+        "Psoriasis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Treatment of the Main Diagnosis: Medications: Cyanocobalamin, i/m, from 19-Sep-2023 to 28-Sep-2023, Betametasone, ointment, from 19-Sep-2023 to 9-Oct-2023, Electrolyte solution, i/v, once a day, from 19-Sep-2023 to 28-Sep-2023; Treatment of Concomitant Diseases: No",
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "17de0dd5ac45...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Plasma",
+      "sex": "Male",
+      "age": 41,
+      "diagnoses": [
+        "Asthma",
+        "Psoriasis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Treatment of the Main Diagnosis: Medications: Electrolyte solution 200 ml, i/v, once in 2 days, from 2-Jul-2024 to 10-Jul-2024, Cyanocobalamin 0.5 mg, i/m, once a day, from 2-Jul-2024 to 12-Jul-2024, Salicylic acid, ointment, once a day, since 2-Jul-2024, Calcium gluconate 500 mg, i/m, once a day, from 2-Jul-2024 to 11-Jul-2024, Sodium thiosulfate 1500 mg, i/v, once in 2 days, since 3-Jul-2024; Treatment of Concomitant Diseases: No",
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "3df4f7ee1383...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Plasma",
+      "sex": "Male",
+      "age": 41,
+      "diagnoses": [
+        "Asthma",
+        "Psoriasis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Treatment of the Main Diagnosis: Medications: Electrolyte solution 200 ml, i/v, once in 2 days, from 2-Jul-2024 to 10-Jul-2024, Cyanocobalamin 0.5 mg, i/m, once a day, from 2-Jul-2024 to 12-Jul-2024, Salicylic acid, ointment, once a day, since 2-Jul-2024, Calcium gluconate 500 mg, i/m, once a day, from 2-Jul-2024 to 11-Jul-2024, Sodium thiosulfate 1500 mg, i/v, once in 2 days, since 3-Jul-2024; Treatment of Concomitant Diseases: No",
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "501df3d1089c...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Plasma",
+      "sex": "Male",
+      "age": 41,
+      "diagnoses": [
+        "Asthma",
+        "Psoriasis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Treatment of the Main Diagnosis: Medications: Electrolyte solution 200 ml, i/v, once in 2 days, from 2-Jul-2024 to 10-Jul-2024, Cyanocobalamin 0.5 mg, i/m, once a day, from 2-Jul-2024 to 12-Jul-2024, Salicylic acid, ointment, once a day, since 2-Jul-2024, Calcium gluconate 500 mg, i/m, once a day, from 2-Jul-2024 to 11-Jul-2024, Sodium thiosulfate 1500 mg, i/v, once in 2 days, since 3-Jul-2024; Treatment of Concomitant Diseases: No",
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "4cb3a4729b82...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Plasma",
+      "sex": "Male",
+      "age": 41,
+      "diagnoses": [
+        "Asthma",
+        "Psoriasis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Treatment of the Main Diagnosis: Medications: Electrolyte solution 200 ml, i/v, once in 2 days, from 2-Jul-2024 to 10-Jul-2024, Cyanocobalamin 0.5 mg, i/m, once a day, from 2-Jul-2024 to 12-Jul-2024, Salicylic acid, ointment, once a day, since 2-Jul-2024, Calcium gluconate 500 mg, i/m, once a day, from 2-Jul-2024 to 11-Jul-2024, Sodium thiosulfate 1500 mg, i/v, once in 2 days, since 3-Jul-2024; Treatment of Concomitant Diseases: No",
+      "organization": "BIOMEDICA CRO"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

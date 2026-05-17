@@ -1,0 +1,19 @@
+{
+  "bundle_id": "esophageal-cancer-ffpe-plasma",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium — 640 total specimens across 7 orgs but matched plasma pairs limited (9 donors)",
+    "org_discoverability": "medium — commercial suppliers discoverable via web; BETRNet academic consortium harder",
+    "biomarker_specificity": "high — histotype subtype (SCC vs adenocarcinoma) is critical and regionally split; annotated in ~60% of tissue specimens",
+    "specimen_count": 640,
+    "org_count": 7,
+    "matched_pair_donors": 9
+  },
+  "expected_failure_modes": [
+    "SCC vs adenocarcinoma distinction is load-bearing: Asian biobanks are predominantly SCC, Western collections are predominantly EAC — pipeline must not aggregate without histotype confirmation",
+    "Only 9 confirmed matched FFPE-plasma pairs vs N=30 required — pipeline must surface this gap rather than asserting N is achievable",
+    "BETRNet consortium (major US academic esophageal biobank) is not accessible via AminoChain and requires direct academic contact — hard to discover via PubMed",
+    "Neoadjuvant treatment status filtering depends on free-text parsing — treatment-naive assertion may not survive per-specimen verification",
+    "Tumor location (GEJ vs mid-esophagus) not consistently documented — may affect assay context relevance"
+  ]
+}

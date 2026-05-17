@@ -1,0 +1,34 @@
+{
+  "bundle_id": "pls-csf-serum-pbmc-dna",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "Primary Lateral Sclerosis (PLS) biospecimens — CSF, serum, PBMC, and DNA from same patients. Rare upper motor neuron disease. Any available N.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Primary Lateral Sclerosis (PLS)"
+    ],
+    "specimen_types": [
+      "Cerebrospinal fluid (CSF)",
+      "Serum",
+      "PBMC",
+      "DNA"
+    ],
+    "biomarkers_desired": [
+      "NfL",
+      "GFAP",
+      "TDP-43"
+    ],
+    "matched_pairs": true,
+    "min_n": null,
+    "preanalytical": {
+      "csf_preservation": "cryopreserved",
+      "pbmc_isolation": "fresh or cryopreserved"
+    },
+    "clinical_data_required": [
+      "PLS diagnosis confirmed (upper motor neuron signs only)",
+      "disease duration at collection",
+      "functional rating scale (ALSFRS-R or PLS-specific)"
+    ],
+    "assay_context": "Upper motor neuron disease biomarker discovery — ultra-rare disease requiring any available matched specimens for baseline characterization"
+  }
+}

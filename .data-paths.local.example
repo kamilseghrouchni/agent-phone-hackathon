@@ -1,0 +1,9 @@
+# Local-only paths to the SQLite databases this repo expects but doesn't track.
+# Copy this file to .data-paths.local and edit the paths to point at your real DBs.
+# Run: bash scripts/link_data.sh   to create the symlinks.
+
+# Specimen DB (~2GB) — full AminoChain mirror. Required.
+SPECIMENS_DB=/absolute/path/to/specimens.db
+
+# Derived views DB (~tens of MB) — built by scripts/build_db_views.py. Required.
+VIEWS_DB=/absolute/path/to/views.db

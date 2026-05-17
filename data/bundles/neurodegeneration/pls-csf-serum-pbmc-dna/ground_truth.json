@@ -1,0 +1,140 @@
+{
+  "bundle_id": "pls-csf-serum-pbmc-dna",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 186,
+    "total_secondary_specimens": 343,
+    "total_donors": 20,
+    "organizations": [
+      "The Neuro C-BIG Repository"
+    ],
+    "matched_pair_donors": 15
+  },
+  "organizations": [
+    {
+      "name": "The Neuro C-BIG Repository",
+      "organization_id": "1425f7cb-6096-490e-858f-480b82197688",
+      "country": [
+        "CAN"
+      ],
+      "website": "https://www.mcgill.ca/neuro/research/open-biobank",
+      "contact_email": "cbig.mni@mcgill.ca",
+      "address": "3801 University Street Montreal, QC H3A 2B4 Canada",
+      "description": "A growing collection of biospecimens, longitudinal clinical and neuropsychiatric information, imaging and genetic data from patients with neurological disease as well as healthy controls. Contains dedicated PLS specimens alongside broader ALS/MND collections.",
+      "specimens": {
+        "primary": {
+          "count": 186,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 150,
+          "type": "DNA"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 15,
+      "demographics": {
+        "mean_age": 58.4,
+        "n_with_age": 529,
+        "countries": [
+          "CAN"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "pls-serum-001a...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Male",
+      "age": 56,
+      "diagnoses": [
+        "Neurological condition",
+        "Amyotrophic Lateral Sclerosis (ALS)",
+        "Primary Lateral Sclerosis (PLS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "pls-csf-001a...",
+      "specimen_type": "Cerebrospinal fluid (CSF)",
+      "preservation": "Frozen",
+      "source_site": "Cerebrospinal fluid (CSF)",
+      "sex": "Male",
+      "age": 56,
+      "diagnoses": [
+        "Neurological condition",
+        "Amyotrophic Lateral Sclerosis (ALS)",
+        "Primary Lateral Sclerosis (PLS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "pls-pbmc-001a...",
+      "specimen_type": "PBMC",
+      "preservation": "Cryopreserved",
+      "source_site": "Peripheral blood",
+      "sex": "Female",
+      "age": 62,
+      "diagnoses": [
+        "Neurological condition",
+        "Primary Lateral Sclerosis (PLS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "pls-dna-001a...",
+      "specimen_type": "DNA",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Female",
+      "age": 62,
+      "diagnoses": [
+        "Neurological condition",
+        "Primary Lateral Sclerosis (PLS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "pls-serum-002a...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Male",
+      "age": 49,
+      "diagnoses": [
+        "Primary Lateral Sclerosis (PLS)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    }
+  ],
+  "coverage_gaps": {
+    "pls_confirmed_vs_als": "PLS specimens co-labeled with ALS in registry — pure PLS confirmation requires neuropathology review",
+    "upper_motor_neuron_only": "not indexed — clinical confirmation required per donor",
+    "disease_duration_at_collection": "not indexed — requires clinical data linkage",
+    "alsfrs_r_score": "0.0% annotated — requires direct inquiry",
+    "consent_scope": "not available in specimen data — requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data",
+    "pbmc_viability": "not indexed — requires direct inquiry on thaw viability records"
+  }
+}

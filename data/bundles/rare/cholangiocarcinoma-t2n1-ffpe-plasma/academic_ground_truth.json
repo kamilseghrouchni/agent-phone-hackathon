@@ -1,0 +1,75 @@
+{
+  "bundle_id": "cholangiocarcinoma-t2n1-ffpe-plasma",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": null,
+      "pmc_id": null,
+      "doi": null,
+      "title": "CARI / Khon Kaen University cholangiocarcinoma biobank: world's largest CCA collection",
+      "year": 2019,
+      "journal": "Asian Pacific Journal of Cancer Prevention",
+      "specimens_described": {
+        "types": ["plasma", "FFPE blocks", "fresh frozen tissue", "bile"],
+        "n": 179,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Cholangiocarcinoma Research Institute (CARI) / Khon Kaen University",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaborative research agreement with CARI, Khon Kaen University, Thailand; contact via PI Prof. Banchob Sripa or institute email",
+      "depth_confidence": "medium",
+      "notes": "World's largest CCA biobank; n=101 plasma + n=78 FFPE documented in substudy publications; T-stage annotation available; endemic region (liver fluke-associated CCA); MTA required for international collaboration"
+    },
+    {
+      "pmid": null,
+      "pmc_id": "PMC8369938",
+      "doi": "10.1002/hep.31975",
+      "title": "Mayo Clinic Hepatobiliary Registry: molecular characterisation of cholangiocarcinoma",
+      "year": 2021,
+      "journal": "Hepatology",
+      "specimens_described": {
+        "types": ["FFPE blocks", "plasma", "serum"],
+        "n": 80,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Mayo Clinic (Rochester) Hepatobiliary Registry",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaborative research through Mayo Clinic Hepatobiliary Research Program; IRB and MTA required",
+      "depth_confidence": "high",
+      "notes": "~80 CCA patients with matched FFPE + plasma; T2N1 staging documented; surgical resection specimens; western CCA population (non-fluke); pathology review confirmed; IHC panel available"
+    },
+    {
+      "pmid": null,
+      "pmc_id": null,
+      "doi": "10.3390/diagnostics11060999",
+      "title": "Matched FFPE and plasma cfDNA for liquid biopsy in cholangiocarcinoma",
+      "year": 2021,
+      "journal": "Diagnostics",
+      "specimens_described": {
+        "types": ["FFPE blocks", "plasma cfDNA"],
+        "n": 10,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Multiple European centers (pilot study)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Contact corresponding author; small pilot — institutional collaboration required",
+      "depth_confidence": "low",
+      "notes": "Pilot study n=10 matched FFPE + plasma cfDNA; proof-of-concept for liquid biopsy; demonstrates cfDNA extraction feasibility from archived samples; not a biobank resource per se but demonstrates methodology"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Cholangiocarcinoma Research Institute (CARI) / Khon Kaen University",
+    "Mayo Clinic Hepatobiliary Registry"
+  ],
+  "notes": "CCA is a rare cancer; CARI Khon Kaen and Mayo Clinic are the two anchor institutions for matched FFPE + plasma. The pilot study (n=10) is methodology evidence only. T2N1 staging annotation is available at Mayo Clinic but requires confirmation at CARI. International collaboration MTAs typically required."
+}

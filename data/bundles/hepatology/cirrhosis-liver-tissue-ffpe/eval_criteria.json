@@ -1,0 +1,201 @@
+{
+  "bundle_id": "cirrhosis-liver-tissue-ffpe",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "ProteoGenex"
+      ],
+      "expected_academic_orgs": [
+        "NIDDK NASH CRN",
+        "KUMC liver biobank",
+        "MGH NAFLD cohort",
+        "Edinburgh liver biobank",
+        "European NAFLD Registry"
+      ],
+      "pass": "find ProteoGenex OR find >= 2 academic liver biobank sources with cirrhosis tissue",
+      "notes": "AminoChain coverage is a single org with only 3 donors. Pipeline is expected and rewarded for finding academic sources not in AminoChain. Finding only ProteoGenex without surfacing academic sources is a weak pass. Finding 0 sources is a fail."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "ProteoGenex": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "1-2",
+            "MD": "2-3"
+          },
+          "specimen_count": 174,
+          "donor_count": 3,
+          "has_contact": true,
+          "has_biomarkers": false,
+          "notes": "High specimen count but only 3 donors \u2014 SI score must reflect donor diversity gap; etiology not annotated; CF score low because collection protocol unknown for explant tissue"
+        },
+        "NIDDK NASH CRN": {
+          "expected_scores": {
+            "SI": "4-5",
+            "CR": "3-4",
+            "CF": "3-4",
+            "MD": "4-5"
+          },
+          "specimen_count": "varies by site",
+          "donor_count": "large",
+          "has_contact": true,
+          "has_biomarkers": true,
+          "notes": "Expected academic find; if found, should score high on collection protocol and publication depth"
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "donor_diversity_check": {
+      "check": "pipeline must surface the 3-donor constraint on ProteoGenex and flag it explicitly",
+      "pass": "ProteoGenex flagged as low donor diversity (N=3) despite high specimen count",
+      "fail": "pipeline treats 174 specimens as 174 independent cases without flagging donor count",
+      "hard_gate": true
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "etiology",
+          "reason": "not annotated in AminoChain data \u2014 critical query requirement for ProteoGenex specimens"
+        },
+        {
+          "field": "METAVIR_F4_confirmation",
+          "reason": "63% staging-like data but METAVIR F4 requires pathology confirmation \u2014 not confirmed in registry"
+        },
+        {
+          "field": "Child-Pugh_score",
+          "reason": "not tracked in any AminoChain source"
+        },
+        {
+          "field": "explant_vs_biopsy",
+          "reason": "specimen source procedure (biopsy vs transplant explant) not annotated"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not in any public registry \u2014 requires direct inquiry"
+        },
+        {
+          "field": "commercial_use_terms",
+          "reason": "not documented publicly \u2014 requires negotiation"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs": {
+        "ProteoGenex": 174
+      },
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs OR at least 2 academic liver biobank sources identified",
+      "notes": "Given the thin AminoChain coverage, academic sources meeting query criteria are equally valid \u2014 evaluation MUST credit academic finds even if not in AminoChain"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented specimen counts \u2014 every N cites a source",
+        "no invented contacts \u2014 every email traces to paper/website/registry",
+        "no training-data fills for cost or biomarker data",
+        "ProteoGenex specimen count (174) must not be presented as 174 independent donors"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "etiology_documented": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed \u2014 required by query"
+    },
+    "METAVIR_F4": {
+      "annotated": "partial",
+      "pct": 63.0,
+      "status": "staging-like data present but METAVIR F4 confirmation requires pathology review"
+    },
+    "Child-Pugh": {
+      "annotated": 0,
+      "pct": 0.0,
+      "status": "not_indexed"
+    }
+  }
+}

@@ -1,0 +1,2919 @@
+{
+  "name": "Biognosys",
+  "cleaned_name": "Biognosys",
+  "aliases_tried": [
+    "Biognosys"
+  ],
+  "publication_total": 38,
+  "search_queries": [
+    "\"Biognosys\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41380996",
+      "pmc": "PMC12240826",
+      "doi": "10.1101/2023.01.30.526204",
+      "title": "Enhanced Identifications and Quantification Through Retention Time Down-Sampling in Fast-Cycling Diagonal-PASEF Methods.",
+      "abstract": "Data-independent acquisition (DIA) mass spectrometry is essential for comprehensive quantification of proteomes, enabling deeper insights into cellular processes and disease mechanisms. On the timsTOF platform, diagonal-PASEF acquisition methods have recently been introduced to directly and continuously cover the observed diagonal shape of the peptide precursor ion distributions. Diagonal-PASEF has already shown great promise, and its adaptation as a routine workflow can be further pushed with improved method development as well as enhanced algorithmic solutions. Here, we conducted a systematic and comprehensive optimization of diagonal-PASEF for 17-min gradients on the timsTOF HT in conjunction with Spectronaut. We demonstrate that Spectronaut fully supports all tested diagonal-PASEF methods independent of the number of slices or overlaps and with minimal user intervention required. We derive an optimized analysis strategy where we coupled diagonal-PASEF acquisitions to retention time down-sampling by summation (RTsum) and thereby exploit the fast-cycling nature of diagonal-PASEF methods. Through the combination of RTsum with diagonal-PASEF, we demonstrate that this strategy yields higher signal-to-noise ratios while retaining the peak shape for analytes of interest ultimately improving overall number of peptide and protein identifications of diagonal-PASEF. Importantly, combining RTsum with diagonal-PASEF improved overall identifications and quantitative precision when compared to dia-PASEF with variable quadrupole isolation widths and across different input amounts for cell line injections. We also tested the performance of diagonal-PASEF in controlled quantitative experiments where diagonal-PASEF outperformed dia-PASEF in the overall number of retained candidates below 1% or 5% error-rate, quantitative precision, and identifications on peptide level and protein level. These data indicate that RTsum demonstrates a positive use case of the high sampling rate of diagonal-PASEF and might therefore be a valuable addition to existing analysis pipelines. Collectively, our findings imply that diagonal-PASEF is developing into a competitive alternative to dia-PASEF and that the data analysis options are making fast progress.",
+      "journal": "Mol Cell Proteomics",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Below",
+          "fore_name": "Christopher R",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bernhardt",
+          "fore_name": "Oliver M",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Kaspar-Sch\u00f6nefeld",
+          "fore_name": "Stephanie",
+          "affiliations": [
+            "Bruker Daltonics GmbH & Co. KG, Bremen, Germany."
+          ]
+        },
+        {
+          "last_name": "Willems",
+          "fore_name": "Sander",
+          "affiliations": [
+            "Bruker Belgium NV, Kontich, Belgium."
+          ]
+        },
+        {
+          "last_name": "Coronado",
+          "fore_name": "Edoardo",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Karemaker",
+          "fore_name": "Ino D",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland; ETH Zurich, Institute of Biochemistry, Z\u00fcrich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Streckenbach",
+          "fore_name": "Bettina",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Pepelnjak",
+          "fore_name": "Monika",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "R\u00e4ss",
+          "fore_name": "Luca",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Sch\u00e4r",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Trede",
+          "fore_name": "Dennis",
+          "affiliations": [
+            "Bruker Daltonics GmbH & Co. KG, Bremen, Germany."
+          ]
+        },
+        {
+          "last_name": "Krieger",
+          "fore_name": "Jonathan R",
+          "affiliations": [
+            "Bruker Ltd, Milton, Canada."
+          ]
+        },
+        {
+          "last_name": "Gandhi",
+          "fore_name": "Tejas",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bruderer",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland. Electronic address: roland.bruderer@biognosys.com."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Proteomics",
+        "Humans",
+        "Algorithms",
+        "Peptides",
+        "Mass Spectrometry",
+        "Proteome",
+        "Signal-To-Noise Ratio"
+      ],
+      "keywords": [
+        "dia-PASEF",
+        "diagonal-PASEF",
+        "discovery proteomics"
+      ]
+    },
+    {
+      "pmid": "41254360",
+      "pmc": "PMC4095988",
+      "doi": "10.1016/j.critrevonc.2013.01.005",
+      "title": "Unveiling proteomic and peptide-level modifications in cerebrospinal fluid and plasma in normal cognitive aging.",
+      "abstract": "Normal cognitive aging is accompanied by molecular changes in the brain and periphery, but the specific proteomic and peptide-level alterations remain poorly defined. This study aimed to characterize age-related protein and peptide modifications by analyzing matched cerebrospinal fluid (CSF) and plasma samples from cognitively normal individuals. Mass spectrometry was used to profile the proteome and peptide-level data of CSF and plasma samples from young (n\u2009=\u200952; mean age 29\u2009\u00b1\u20095.9 years; 4% male) and older (n\u2009=\u200940; mean age 69\u2009\u00b1\u20096.3 years; 48% male) adults. Differential abundance analysis, gene set enrichment, and weighted correlation network analyses were performed to identify age-associated pathways. Protein cleavage, alternative splicing, and phosphorylation events were examined to capture post-translational modifications linked to aging. In CSF, aging is associated with significant upregulation of extracellular matrix (ECM) components, coagulation, and inflammatory pathways. In plasma, the insulin-like growth factor-1 (IGF-1) signaling pathway is notably downregulated. Peptide-level analysis reveals novel alternative cleavage and phosphorylation patterns in key proteins involved in lipid metabolism, ECM structure, axonogenesis, and synaptic activity, including APP, APOE, COL4A2, NRXN1, and NRCAM. These findings highlight distinct and compartment-specific molecular changes that occur with aging. This study provides a comprehensive proteomic and peptide-level landscape of normal cognitive aging, identifying both protein-level shifts and novel age-associated cleavage and phosphorylation events.",
+      "journal": "Commun Med (Lond)",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Kamalian",
+          "fore_name": "Aida",
+          "affiliations": [
+            "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Shichkova",
+          "fore_name": "Polina",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Tognetti",
+          "fore_name": "Marco",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Below",
+          "fore_name": "Christopher",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Ho",
+          "fore_name": "Sara G",
+          "affiliations": [
+            "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Bruderer",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Yuehan",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Lutz",
+          "fore_name": "Michael W",
+          "affiliations": [
+            "Department of Neurology, Duke University School of Medicine, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Moghekar",
+          "fore_name": "Abhay",
+          "affiliations": [
+            "Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA. am@jhmi.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41002294",
+      "pmc": "PMC9825490",
+      "doi": "10.1093/nar/gkac1040",
+      "title": "A Flexible End-to-End Automated Sample Preparation Workflow Enables Standardized and Scalable Bottom-up Proteomics.",
+      "abstract": "Bottom-up proteomics holds significant promise for clinical applications due to its high sensitivity and precision but is limited by labor-intensive, low-throughput sample preparation methods. Advanced automation is essential to enhance throughput, reproducibility, and accuracy and to allow standardization to make bottom-up proteomics amenable to large-scale studies. We developed a fully integrated, automated sample preparation platform that covers the entire process from biological sample input to mass-spectrometry-ready peptide output and can be applied to a multitude of biological samples. With this end-to-end solution, we achieved high intra- and interplate reproducibility, as well as longitudinal consistency, resulting in precise and reproducible workflows. We showed that our automated workflow surpasses established manual and semiautomated workflows, while improving time efficiency. Finally, we demonstrated the suitability of our automated sample preparation platform for drug development by performing high-content compound characterization for targeted protein degradation, where high throughput and quantitative accuracy are indispensable. For this, we coupled application-specific workflows to perform proteome profiling and confirm target degradation by precise protein quantification. Overall, our results highlight the selective degradation of specific proteins of interest for ten selected compounds across two cell lines. Thus, the automated sample preparation platform facilitates rapid adaptation to emerging developments in proteomics sample preparation, combining standardization, flexibility, and high-throughput capabilities to drive significant advancements in clinical assays and proteomics research.",
+      "journal": "Anal Chem",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Sch\u00e4r",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "R\u00e4ss",
+          "fore_name": "Luca",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Malinovska",
+          "fore_name": "Liliana",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Savickas",
+          "fore_name": "Simonas",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Cavallo",
+          "fore_name": "Francesca",
+          "affiliations": [
+            "Sygnature Discovery, Pennyfoot St, Nottingham NG1 1GR, U.K."
+          ]
+        },
+        {
+          "last_name": "Below",
+          "fore_name": "Christopher",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Tognetti",
+          "fore_name": "Marco",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Shichkova",
+          "fore_name": "Polina",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Gourdet",
+          "fore_name": "Benoit",
+          "affiliations": [
+            "Sygnature Discovery, Pennyfoot St, Nottingham NG1 1GR, U.K."
+          ]
+        },
+        {
+          "last_name": "Robles",
+          "fore_name": "Gonzalo",
+          "affiliations": [
+            "Sygnature Discovery, Pennyfoot St, Nottingham NG1 1GR, U.K."
+          ]
+        },
+        {
+          "last_name": "Iu",
+          "fore_name": "Leo",
+          "affiliations": [
+            "Sygnature Discovery, Pennyfoot St, Nottingham NG1 1GR, U.K."
+          ]
+        },
+        {
+          "last_name": "Vowinckel",
+          "fore_name": "Jakob",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Yuehan",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Hjerpe",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Sygnature Discovery, Pennyfoot St, Nottingham NG1 1GR, U.K."
+          ]
+        },
+        {
+          "last_name": "Bruderer",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys AG, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Proteomics",
+        "Workflow",
+        "Humans",
+        "Automation",
+        "Proteome"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40948775",
+      "pmc": "PMC6156492",
+      "doi": "10.1111/acel.12799",
+      "title": "Novel proteomics biomarkers of recurrent pregnancy loss reflect the dysregulation of immune interactions at the maternal-fetal interface.",
+      "abstract": "Miscarriages affect 50-70% of all gestations and 15-20% of clinically recognized pregnancies. Recurrent pregnancy loss (RPL) occurs in 1-5% of clinical pregnancies and has an enormous demographic impact. However, the etiologies and molecular pathways of RPL are scarcely understood, and therefore, reliable diagnostic and preventive methods are not yet available. Here, we aimed to discover novel biomarkers for RPL using next-generation proteomics technology to help develop early and effective diagnostic tools. First-trimester blood samples were collected from women with RPL ( Altogether, 651 proteins were identified and quantified across all samples. When comparing \"early control\" and \"late control\" samples, 60 proteins [11 predominantly placenta-expressed (PPE)] were DA. When analyzing all cases, 50 DA proteins were found in RPL (top 3 down: PZP, PSG9, CGB; top 3 up: C4BPA, HBA, HBB), among which 11 PPE proteins were found, all downregulated. Enriched GO terms included 'placental function', 'oxidative processes', 'immune function', and 'blood coagulation' related biological processes. When cases were split into early and late RPL groups, 40 DA proteins were identified in early RPL (top 3 down: SHBG, CGB, CGA; top 3 up: C4BPA, SAMP, C4BPB) and 90 in late RPL (top 3 down: PZP, PAPPA, PSG9; top 3 up: THBS1, ECM1, HBB), among which only 15 were shared by both RPL groups. In early RPL, only 'placental function' and 'immune function' related biological processes were enriched, while in late RPL the top enriched GO terms included 'placental function', 'oxidative processes', 'immune function', 'blood coagulation', 'angiogenesis', 'cell migration', and 'blood circulation' related biological processes. Among GO terms, only 'placental function' related biological processes were enriched when early- and late RPL DA proteins were analyzed together. Furthermore, the areas under the ROC curves were >0.9 for two protein candidates in all RPL, for five proteins in early RPL, and for ten proteins in late RPL. Among these candidates, CGB and PAPPA were validated by immunoassay which showed a good correlation with MS data (R We discovered distinct as well as shared molecular pathways associated with RPL pathogenesis before and after the start of placental circulation and identified novel biomarkers for these pathways which have outstanding discriminative properties. Our results may facilitate a better understanding of the molecular pathways of RPL. However, larger clinical studies are needed to investigate whether the identified biomarkers also have predictive power for RPL before pregnancies fail and to test drugs for the modulation of the identified disease pathways and the prevention of RPL. Our findings highlight the importance of the maternal immune system in maintaining successful pregnancy and suggest that targeting immune pathways may offer novel therapeutic approaches for RPL.",
+      "journal": "Front Immunol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "T\u00f3th",
+          "fore_name": "Eszter",
+          "affiliations": [
+            "Systems Biology of Reproduction Research Group, Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Posta",
+          "fore_name": "M\u00e1t\u00e9",
+          "affiliations": [
+            "Systems Biology of Reproduction Research Group, Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest,\u00a0Hungary.",
+            "Doctoral College, K\u00e1roly R\u00e1cz Conservative Medicine Division, Semmelweis University, Budapest,\u00a0Hungary.",
+            "Department of Bioinformatics, Semmelweis University, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Gy\u00f6rffy",
+          "fore_name": "D\u00e1niel",
+          "affiliations": [
+            "Systems Biology of Reproduction Research Group, Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest,\u00a0Hungary.",
+            "Faculty of Information Technology and Bionics, P\u00e1zm\u00e1ny P\u00e9ter Catholic University, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Oravecz",
+          "fore_name": "Orsolya",
+          "affiliations": [
+            "Systems Biology of Reproduction Research Group, Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest,\u00a0Hungary.",
+            "Doctoral School of Biology, Institute of Biology, ELTE E\u00f6tv\u00f6s Lor\u00e1nd University, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Farkas",
+          "fore_name": "Emese",
+          "affiliations": [
+            "Systems Biology of Reproduction Research Group, Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest,\u00a0Hungary.",
+            "Doctoral College, K\u00e1roly R\u00e1cz Conservative Medicine Division, Semmelweis University, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Balogh",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Systems Biology of Reproduction Research Group, Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Escher",
+          "fore_name": "Claudia",
+          "affiliations": [
+            "Biognosys AG, Schlieren,\u00a0Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bober",
+          "fore_name": "Magdalena",
+          "affiliations": [
+            "Biognosys AG, Schlieren,\u00a0Switzerland."
+          ]
+        },
+        {
+          "last_name": "Szil\u00e1gyi",
+          "fore_name": "Andr\u00e1s",
+          "affiliations": [
+            "Systems Biology of Reproduction Research Group, Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Hupuczi",
+          "fore_name": "Petronella",
+          "affiliations": [
+            "Maternity Private Clinic of Obstetrics and Gynecology, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Veress",
+          "fore_name": "Lajos",
+          "affiliations": [
+            "Department of Pharmacology and Pharmacother, University of Debrecen, Debrecen,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "T\u00f6r\u00f6k",
+          "fore_name": "Olga",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Faculty of Medicine, University of Debrecen, Debrecen,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Nagy",
+          "fore_name": "S\u00e1ndor",
+          "affiliations": [
+            "Department of Obstetrics of Gynecology, Sz\u00e9chenyi Istv\u00e1n University, Gy\u0151r,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Rinner",
+          "fore_name": "Oliver",
+          "affiliations": [
+            "Biognosys AG, Schlieren,\u00a0Switzerland."
+          ]
+        },
+        {
+          "last_name": "Erez",
+          "fore_name": "Offer",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Ben-Gurion University, Beer Sheba,\u00a0Israel."
+          ]
+        },
+        {
+          "last_name": "Papp",
+          "fore_name": "Zolt\u00e1n",
+          "affiliations": [
+            "Maternity Private Clinic of Obstetrics and Gynecology, Budapest,\u00a0Hungary.",
+            "Department of Obstetrics and Gynecology, Semmelweis University, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "\u00c1cs",
+          "fore_name": "N\u00e1ndor",
+          "affiliations": [
+            "Department of Obstetrics and Gynecology, Semmelweis University, Budapest,\u00a0Hungary."
+          ]
+        },
+        {
+          "last_name": "Than",
+          "fore_name": "N\u00e1ndor G\u00e1bor",
+          "affiliations": [
+            "Systems Biology of Reproduction Research Group, Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest,\u00a0Hungary.",
+            "Maternity Private Clinic of Obstetrics and Gynecology, Budapest,\u00a0Hungary.",
+            "Department of Obstetrics and Gynecology, Semmelweis University, Budapest,\u00a0Hungary."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Pregnancy",
+        "Abortion, Habitual",
+        "Biomarkers",
+        "Proteomics",
+        "Adult",
+        "Maternal-Fetal Exchange",
+        "Pregnancy Trimester, First",
+        "Proteome"
+      ],
+      "keywords": [
+        "clinical proteomics",
+        "diagnostics",
+        "high-dimensional",
+        "miscarriage",
+        "personalized medicine",
+        "prevention",
+        "reproduction",
+        "systems biology"
+      ]
+    },
+    {
+      "pmid": "40748658",
+      "pmc": "PMC2902522",
+      "doi": "10.1371/journal.pone.0011541",
+      "title": "Exosomes released from senescent cells and circulatory exosomes isolated from human plasma reveal aging-associated proteomic and lipid signatures.",
+      "abstract": "Senescence emerged as significant mechanism of aging and age-related diseases, offering an attractive target for clinical interventions. Senescent cells release a senescence-associated secretory phenotype (SASP), including exosomes that may act as signal transducers between distal tissues, and propagate secondary senescence. However, the composition of exosomal SASP components remains underexplored. We identified ~1,300 exosome proteins released by senescent primary human lung fibroblasts induced by three different senescence inducers. In parallel, a small human plasma cohort from young (20-26 years) and old (65-74 years) individuals revealed 1,350 exosome proteins and 171 plasma exosome proteins were altered in old individuals. Of the age-regulated plasma exosome proteins, we observed 52 exosomal SASP factors that were also regulated in exosomes from the senescent fibroblasts, SERPINs, Prothrombin, Coagulation factor V, Plasminogen, and Reelin. We identified 247 exosome lipids. Following senescence induction phosphatidylcholines, phosphatidylethanolamines, and sphingomyelins increased significantly indicating cellular membrane changes. Significantly changed proteins were related to extracellular matrix remodeling and inflammation, both potentially detrimental pathways that can damage surrounding tissues and even induce secondary senescence. Our proof-of-principle study - even though initially from a rather small human cohort - suggested potential senescence biomarker candidates, enabling future surveillance of senescence burden in the aging population.",
+      "journal": "Aging (Albany NY)",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Patel",
+          "fore_name": "Sandip Kumar",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA."
+          ]
+        },
+        {
+          "last_name": "Bons",
+          "fore_name": "Joanna",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA."
+          ]
+        },
+        {
+          "last_name": "Rose",
+          "fore_name": "Jacob P",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA."
+          ]
+        },
+        {
+          "last_name": "Chappel",
+          "fore_name": "Jessie R",
+          "affiliations": [
+            "Bioinformatics Research Center, Department of Biological Sciences, North Carolina State University, Raleigh, NC 27606, USA."
+          ]
+        },
+        {
+          "last_name": "Beres",
+          "fore_name": "Rebecca L",
+          "affiliations": [
+            "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA."
+          ]
+        },
+        {
+          "last_name": "Watson",
+          "fore_name": "Mark A",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA."
+          ]
+        },
+        {
+          "last_name": "Webster",
+          "fore_name": "Corey",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA."
+          ]
+        },
+        {
+          "last_name": "Burton",
+          "fore_name": "Jordan B",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA."
+          ]
+        },
+        {
+          "last_name": "Bruderer",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Biognosys AG, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Desprez",
+          "fore_name": "Pierre-Yves",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA.",
+            "California Pacific Medical Centre, Research Institute, San Francisco, CA 94107, USA."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys AG, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Campisi",
+          "fore_name": "Judith",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA."
+          ]
+        },
+        {
+          "last_name": "Baker",
+          "fore_name": "Erin S",
+          "affiliations": [
+            "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, NC 27514, USA."
+          ]
+        },
+        {
+          "last_name": "Schilling",
+          "fore_name": "Birgit",
+          "affiliations": [
+            "The Buck Institute for Research on Aging, Novato, CA 94945, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Exosomes",
+        "Aged",
+        "Aging",
+        "Cellular Senescence",
+        "Adult",
+        "Proteomics",
+        "Fibroblasts",
+        "Young Adult",
+        "Proteome",
+        "Male",
+        "Biomarkers",
+        "Senescence-Associated Secretory Phenotype",
+        "Female"
+      ],
+      "keywords": [
+        "aging",
+        "data-independent acquisitions",
+        "exosomes",
+        "proteomics",
+        "senescence"
+      ]
+    },
+    {
+      "pmid": "40497334",
+      "doi": "10.1021/acs.analchem.5c00897",
+      "title": "Enhancing Sensitivity in Low-Load Proteomics Orbitrap Workflows via SLIM Integration.",
+      "abstract": "A Structures for Lossless Ion Manipulation-Orbitrap Exploris 480 (SLIM-OE) ion mobility mass spectrometry (IM-MS) platform was developed, integrating SLIM IM separation with Orbitrap MS analysis. A \"staggered IMS\" mode was designed to acquire IM-",
+      "journal": "Anal Chem",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Deng",
+          "fore_name": "Liulin",
+          "affiliations": [
+            "MOBILion Systems, Inc., 4 Hillman Drive, Suite 130, Chadds Ford, Pennsylvania 19317, United States."
+          ]
+        },
+        {
+          "last_name": "Adamson",
+          "fore_name": "Brian",
+          "affiliations": [
+            "Thermo Fisher Scientific, 355 River Oaks, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "McKenzie-Coe",
+          "fore_name": "Alan",
+          "affiliations": [
+            "MOBILion Systems, Inc., 4 Hillman Drive, Suite 130, Chadds Ford, Pennsylvania 19317, United States."
+          ]
+        },
+        {
+          "last_name": "Fort",
+          "fore_name": "Kyle L",
+          "affiliations": [
+            "Thermo Fisher Scientific, Hanna-Kunath-Stra\u00dfe 11, 28199 Bremen, Germany."
+          ]
+        },
+        {
+          "last_name": "W\u00f6rner",
+          "fore_name": "Tobias P",
+          "affiliations": [
+            "Thermo Fisher Scientific, Hanna-Kunath-Stra\u00dfe 11, 28199 Bremen, Germany."
+          ]
+        },
+        {
+          "last_name": "Bernhardt",
+          "fore_name": "Oliver",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, 8952 Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bruderer",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, 8952 Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Gandhi",
+          "fore_name": "Tejas",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, 8952 Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, 8952 Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wouters",
+          "fore_name": "Eloy R",
+          "affiliations": [
+            "Thermo Fisher Scientific, 355 River Oaks, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "Dunyach",
+          "fore_name": "Jean-Jacques",
+          "affiliations": [
+            "Thermo Fisher Scientific, 355 River Oaks, San Jose, California 95134, United States."
+          ]
+        },
+        {
+          "last_name": "Makarov",
+          "fore_name": "Alexander",
+          "affiliations": [
+            "Thermo Fisher Scientific, Hanna-Kunath-Stra\u00dfe 11, 28199 Bremen, Germany."
+          ]
+        },
+        {
+          "last_name": "DeBord",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "MOBILion Systems, Inc., 4 Hillman Drive, Suite 130, Chadds Ford, Pennsylvania 19317, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Proteomics",
+        "Humans",
+        "HeLa Cells",
+        "Workflow",
+        "Tandem Mass Spectrometry",
+        "Ion Mobility Spectrometry",
+        "Proteins"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40447611",
+      "pmc": "PMC6323896",
+      "doi": "10.1093/nar/gky1106",
+      "title": "A robust multiplex-DIA workflow profiles protein turnover regulations associated with cisplatin resistance and aneuploidy.",
+      "abstract": "Quantifying protein turnover is fundamental to understanding cellular processes and advancing drug discovery. Multiplex-DIA mass spectrometry (MS), combined with dynamic SILAC labeling (pulse-SILAC, or pSILAC) reliably measures protein turnover and degradation kinetics. Previous multiplex-DIA-MS workflows have employed various strategies including leveraging the highest isotopic labeling channels to enhance the detection of isotopic signal pairs. Here we present a robust workflow that integrates a machine learning algorithm and channel-specific statistical filtering, enabling dynamic adaptation to channel ratio changes across multiplexed experiments and enhancing both coverage and accuracy of protein turnover profiling. We also introduce KdeggeR, a data analysis tool optimized for pSILAC-DIA experiments, which determines and visualizes peptide and protein degradation profiles. Our workflow is broadly applicable, as demonstrated on 2-channel and 3-channel DIA datasets and across two MS platforms. Applying this framework to an aneuploid cancer cell model before and after cisplatin resistance, we uncover strong proteome buffering of key protein complex subunits encoded by the aneuploid genome mediated by protein degradation. We identify resistance-associated turnover signatures, including mitochondrial metabolic adaptation via accelerated degradation of respiratory complexes I and IV. Our approach provides a powerful platform for high-throughput, quantitative analysis of proteome dynamics and stability in health and disease.",
+      "journal": "Nat Commun",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Salovska",
+          "fore_name": "Barbora",
+          "affiliations": [
+            "Department of Pharmacology, Yale University School of Medicine, New Haven, CT, USA.",
+            "Cancer Biology Institute, Yale University School of Medicine, West Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Wenxue",
+          "affiliations": [
+            "Department of Pharmacology, Yale University School of Medicine, New Haven, CT, USA.",
+            "Cancer Biology Institute, Yale University School of Medicine, West Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Bernhardt",
+          "fore_name": "Oliver M",
+          "affiliations": [
+            "Biognosys AG, Zurich-Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Germain",
+          "fore_name": "Pierre-Luc",
+          "affiliations": [
+            "Institute for Neuroscience, Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Qinyue",
+          "affiliations": [
+            "Department of Pharmacology, Yale University School of Medicine, New Haven, CT, USA.",
+            "Cancer Biology Institute, Yale University School of Medicine, West Haven, CT, USA.",
+            "Master Program of Public Health, Department of Chronic Disease Epidemiology, Yale School of Public Health, New Haven, CT, USA."
+          ]
+        },
+        {
+          "last_name": "Gandhi",
+          "fore_name": "Tejas",
+          "affiliations": [
+            "Biognosys AG, Zurich-Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys AG, Zurich-Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Yansheng",
+          "affiliations": [
+            "Department of Pharmacology, Yale University School of Medicine, New Haven, CT, USA. yansheng.liu@yale.edu.",
+            "Cancer Biology Institute, Yale University School of Medicine, West Haven, CT, USA. yansheng.liu@yale.edu.",
+            "Department of Biomedical Informatics & Data Science, Yale University School of Medicine, New Haven, CT, USA. yansheng.liu@yale.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Cisplatin",
+        "Humans",
+        "Aneuploidy",
+        "Drug Resistance, Neoplasm",
+        "Workflow",
+        "Proteomics",
+        "Mass Spectrometry",
+        "Proteome",
+        "Cell Line, Tumor",
+        "Proteolysis",
+        "Isotope Labeling",
+        "Machine Learning",
+        "Mitochondria"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40393041",
+      "pmc": "PMC6516149",
+      "doi": "10.1002/glia.22683",
+      "title": "A multiscale electro-metabolic model of a rat neocortical circuit reveals the impact of ageing on central cortical layers.",
+      "abstract": "The high energetic demands of the brain arise primarily from neuronal activity. Neurons consume substantial energy to transmit information as electrical signals and maintain their resting membrane potential. These energetic requirements are met by the neuro-glial-vascular (NGV) ensemble, which generates energy in a coupled metabolic process. In ageing, metabolic function becomes impaired, producing less energy and, consequently, the system is unable to sustain the neuronal energetic needs. We propose a multiscale model of electro-metabolic coupling in a reconstructed rat neocortex. This combines an electro-morphologically reconstructed electrophysiological model with a detailed NGV metabolic model. Our results demonstrate that the large-scale model effectively captures electro-metabolic processes at the circuit level, highlighting the importance of heterogeneity within the circuit, where energetic demands vary according to neuronal characteristics. Finally, in metabolic ageing, our model indicates that the middle cortical layers are particularly vulnerable to energy impairment.",
+      "journal": "PLoS Comput Biol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Farina",
+          "fore_name": "Sofia",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Cattabiani",
+          "fore_name": "Alessandro",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Mandge",
+          "fore_name": "Darshan",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Shichkova",
+          "fore_name": "Polina",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland.",
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Isbister",
+          "fore_name": "James B",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Jacquemier",
+          "fore_name": "Jean",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "King",
+          "fore_name": "James G",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Markram",
+          "fore_name": "Henry",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland.",
+            "Brain Mind Institute, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Keller",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Blue Brain Project, \u00c9cole polytechnique f\u00e9d\u00e9rale de Lausanne (EPFL), Geneva, Switzerland."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Rats",
+        "Neocortex",
+        "Aging",
+        "Models, Neurological",
+        "Neurons",
+        "Energy Metabolism",
+        "Neuroglia",
+        "Computational Biology"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "40235590",
+      "pmc": "PMC4824408",
+      "doi": "10.1002/imt2.43",
+      "title": "Serum proteomics reveals survival-associated biomarkers in pancreatic cancer patients treated with chemoimmunotherapy.",
+      "abstract": "Immunotherapy has transformed the landscape of cancer treatment but remains largely ineffective for patients with pancreatic ductal adenocarcinoma (PDAC). Some patients, however, show improved outcomes when treated with a combination of immunotherapy and chemotherapy. Here, we conducted deep serum proteome analysis to investigate the protein profiles of PDAC patients and changes during this combinatorial treatment. Utilizing an advanced serum workflow, we quantified 1,011 proteins across 211 samples from 62 patients. Glycolytic enzymes were associated with survival in anti-PD-1-treated patients, with their abundances significantly correlating with expression levels in tumor biopsies. Notably, a set of protein biomarkers was found to be highly predictive of survival in anti-PD-1-treated patients (area under the curve [AUC]\u00a0= 0.91). Overall, our data demonstrate the potential of deep serum proteomics for precision medicine, offering a powerful tool to guide patient selection for treatment through minimally invasive serum protein biomarker measurements.",
+      "journal": "iScience",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Tognetti",
+          "fore_name": "Marco",
+          "affiliations": [
+            "Biognosys, Schlieren, 8952 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Chatterjee",
+          "fore_name": "Lopamudra",
+          "affiliations": [
+            "Precision Proteomics Center, Swiss Institute of Allergy and Asthma Research (SIAF), University of Zurich, 7265 Davos, Switzerland.",
+            "The LOOP Zurich, 8044 Zurich, Switzerland.",
+            "Swiss Institute of Bioinformatics (SIB), 1015 Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Beaton",
+          "fore_name": "Nigel",
+          "affiliations": [
+            "Biognosys, Schlieren, 8952 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Sklodowski",
+          "fore_name": "Kamil",
+          "affiliations": [
+            "Biognosys, Schlieren, 8952 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bruderer",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Biognosys, Schlieren, 8952 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys, Schlieren, 8952 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Messner",
+          "fore_name": "Christoph B",
+          "affiliations": [
+            "Precision Proteomics Center, Swiss Institute of Allergy and Asthma Research (SIAF), University of Zurich, 7265 Davos, Switzerland.",
+            "The LOOP Zurich, 8044 Zurich, Switzerland.",
+            "Swiss Institute of Bioinformatics (SIB), 1015 Lausanne, Switzerland."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Body substance sample",
+        "Cancer",
+        "Proteomics",
+        "Treatment"
+      ]
+    },
+    {
+      "pmid": "40332396",
+      "pmc": "PMC8534154",
+      "doi": "10.3390/biom11101534",
+      "title": "Inhibition of ABCG2 by SCO-101 Enhances Chemotherapy Efficacy in Cancer.",
+      "abstract": "Chemotherapy resistance, particularly multidrug resistance (MDR), remains a significant barrier to effective cancer treatment, leading to high mortality rates. The development of novel therapeutic strategies targeting key molecular mechanisms to counteract drug resistance is thus an urgent clinical need. In this study, we evaluated the potential of the small molecule SCO-101 to restore chemotherapy sensitivity in drug-resistant cancer cells. Using in silico and in vitro models such as molecular docking, cell viability, colony formation, dye efflux, transporter assays and chemotherapy retention, we assessed the impact of SCO-101 on drug retention and response in several drug-resistant cancer cells. SCO-101 was found to inhibit the activity of breast cancer resistance protein (BCRP/ABCG2) and UDP Glucuronosyltransferase Family 1 Member A1 (UGT1A1), two key proteins involved in drug resistance by cellular drug excretion and drug metabolism. Our results demonstrate that inhibition of these proteins by SCO-101 leads to increased intracellular drug accumulation, enhancing the cytotoxic effects of chemotherapy agents. Additionally, we identified a strong correlation between high ABCG2 expression and MDR in non-drug-resistant models, where cells exhibiting elevated ABCG2 levels displayed chemotherapy resistance, which was effectively reversed by SCO-101 co-treatment. These findings highlight the therapeutic potential of SCO-101 in overcoming MDR by inhibiting drug efflux mechanisms and metabolism, thereby enhancing chemotherapy efficacy. SCO-101 is currently undergoing clinical trials as an orally administered drug and is considered a promising strategy for improving cancer treatment outcomes in patients with drug-resistant tumors.",
+      "journal": "Int J Mol Sci",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Pfeiffer",
+          "fore_name": "Anamarija",
+          "affiliations": [
+            "Biognosys AG, 8952 Schlieren, Switzerland.",
+            "Scandion Oncology A/S, Symbion, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Di Leo",
+          "fore_name": "Luca",
+          "affiliations": [
+            "Scandion Oncology A/S, Symbion, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Bechmann",
+          "fore_name": "Marc Baker",
+          "affiliations": [
+            "Scandion Oncology A/S, Symbion, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Nawabi",
+          "fore_name": "Mubeen",
+          "affiliations": [
+            "Genmab A/S, Carl Jacobsens Vej 30, 2500 Valby, Denmark."
+          ]
+        },
+        {
+          "last_name": "Ambj\u00f8rner",
+          "fore_name": "Sophie",
+          "affiliations": [
+            "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Ardeshir-Larijani",
+          "fore_name": "Diba",
+          "affiliations": [
+            "Scandion Oncology A/S, Symbion, 2100 Copenhagen, Denmark.",
+            "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Colstrup",
+          "fore_name": "Louise Thybo",
+          "affiliations": [
+            "Scandion Oncology A/S, Symbion, 2100 Copenhagen, Denmark.",
+            "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Borchert",
+          "fore_name": "Signe Vedel",
+          "affiliations": [
+            "Department of Science and Environment, Roskilde University, 4000 Roskilde, Denmark."
+          ]
+        },
+        {
+          "last_name": "Saaby",
+          "fore_name": "Lasse",
+          "affiliations": [
+            "Bioneer A/S, Kogle Alle 2, 2970 H\u00f8rsholm, Denmark.",
+            "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Brodin",
+          "fore_name": "Birger",
+          "affiliations": [
+            "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Gajhede",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Lund",
+          "fore_name": "Xamuel Loft",
+          "affiliations": [
+            "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark.",
+            "Institut Laue-Langevin, 71 Avenue de Martyrs, 38042 Grenoble, France."
+          ]
+        },
+        {
+          "last_name": "\u010ce\u010dkov\u00e1",
+          "fore_name": "Martina",
+          "affiliations": [
+            "Department of Pharmacology and Toxicology, Faculty of Pharmacy in Hradec Kralove, Charles University, Akademika Heyrovskeho 1203, 500 05 Hradec Kralove, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Br\u00fcnner",
+          "fore_name": "Nils",
+          "affiliations": [
+            "Scandion Oncology A/S, Symbion, 2100 Copenhagen, Denmark.",
+            "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Stenvang",
+          "fore_name": "Jan",
+          "affiliations": [
+            "Scandion Oncology A/S, Symbion, 2100 Copenhagen, Denmark.",
+            "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "ATP Binding Cassette Transporter, Subfamily G, Member 2",
+        "Humans",
+        "Neoplasm Proteins",
+        "Drug Resistance, Neoplasm",
+        "Antineoplastic Agents",
+        "Molecular Docking Simulation",
+        "Cell Line, Tumor",
+        "Neoplasms",
+        "Drug Resistance, Multiple",
+        "Cell Survival",
+        "Heterocyclic Compounds, 4 or More Rings",
+        "Diketopiperazines"
+      ],
+      "keywords": [
+        "ABCG2",
+        "BCRP",
+        "SCO-101",
+        "UGT1A1",
+        "cancer multidrug resistance"
+      ]
+    },
+    {
+      "pmid": "40184423",
+      "pmc": "PMC10174426",
+      "doi": "10.3389/fneur.2023.1103026",
+      "title": "Seizure and redox rescue in a model of glucose transport deficiency.",
+      "abstract": "Disruptions of energy supply to the brain are associated with many neurodegenerative pathologies and are difficult to study due to numerous interlinked metabolic pathways. We explored the effects of diminished energy supply on brain metabolism using a computational model of the neuro-glia-vasculature ensemble, in the form of a neuron, an astrocyte and local blood supply. As a case study, we investigated the glucose transporter type-1 deficiency syndrome (GLUT1-DS), a childhood affliction characterized by impaired glucose utilization and associated with phenotypes including seizures. Compared to neurons, astrocytes exhibited markedly higher metabolite concentration variabilities for all but a few redox species. This effect could signal a role for astrocytes in absorbing the shock of blood nutrient fluctuations. Redox balances were disrupted in GLUT1-DS with lower levels of reducing equivalent carriers NADH and ATP. The best non-glucose nutrient or pharmacotherapies for re-establishing redox normalcy involved lactate, the keto-diet (\u03b2-hydroxybutyrate), NAD and Q10 supplementation, suggesting a possible glucose sparing mechanism. GLUT1-DS seizures resulted from after-discharge neuronal firing caused by post-stimulus ATP reductions and impaired Na+/K+-ATPase, which can be rescued by restoring either normal glucose or by relatively small increases in neuronal ATP.",
+      "journal": "PLoS Comput Biol",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Coggan",
+          "fore_name": "Jay S",
+          "affiliations": [
+            "Blue Brain Project, EPFL: \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne, Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Shichkova",
+          "fore_name": "Polina",
+          "affiliations": [
+            "Blue Brain Project, EPFL: \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne, Geneva, Switzerland.",
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Markram",
+          "fore_name": "Henry",
+          "affiliations": [
+            "Blue Brain Project, EPFL: \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne, Geneva, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Keller",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Blue Brain Project, EPFL: \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne, Geneva, Switzerland."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Oxidation-Reduction",
+        "Seizures",
+        "Humans",
+        "Glucose",
+        "Glucose Transporter Type 1",
+        "Neurons",
+        "Carbohydrate Metabolism, Inborn Errors",
+        "Brain",
+        "Astrocytes",
+        "Models, Neurological",
+        "NAD",
+        "Computer Simulation",
+        "Computational Biology",
+        "Monosaccharide Transport Proteins"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "39352225",
+      "doi": "10.1021/acs.jproteome.2c00422",
+      "title": "Circulating Proteins Associated with Anti-IL6 Receptor Therapeutic Resistance in the Sera of Patients with Severe COVID-19.",
+      "abstract": "Circulating proteomes provide a snapshot of the physiological state of a human organism responding to pathogenic challenges and drug interventions. The outcomes of patients with COVID-19 and acute respiratory distress syndrome triggered by the SARS-CoV2 virus remain uncertain. Tocilizumab is an anti-interleukin-6 treatment that exerts encouraging clinical activity by controlling the cytokine storm and improving respiratory distress in patients with COVID-19. We investigate the biological determinants of therapeutic outcomes after tocilizumab treatment. Overall, 28 patients hospitalized due to severe COVID-19 who were treated with tocilizumab intravenously were included in this study. Sera were collected before and after tocilizumab, and the patient's outcome was evaluated until day 30 post-tocilizumab infusion for favorable therapeutic response to tocilizumab and mortality. Hyperreaction monitoring measurements by liquid chromatography-mass spectrometry-based proteomic analysis with data-independent acquisition quantified 510 proteins and 7019 peptides in the serum of patients. Alterations in the serum proteome reflect COVID-19 outcomes in patients treated with tocilizumab. Our results suggested that circulating proteins associated with the most significant prognostic impact belonged to the complement system, platelet degranulation, acute-phase proteins, and the Fc-epsilon receptor signaling pathway. Among these, upregulation of the complement system by activation of the classical pathway was associated with poor response to tocilizumab, and upregulation of Fc-epsilon receptor signaling was associated with lower mortality.",
+      "journal": "J Proteome Res",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Michot",
+          "fore_name": "Jean-Marie",
+          "affiliations": [
+            "D\u00e9partement des Innovations Th\u00e9rapeutiques et des Essais Pr\u00e9coces (DITEP), Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Dozio",
+          "fore_name": "Vito",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Rohmer",
+          "fore_name": "Julien",
+          "affiliations": [
+            "Service de M\u00e9decine Interne, H\u00f4pital Foch, Suresnes 92150, France."
+          ]
+        },
+        {
+          "last_name": "Pommeret",
+          "fore_name": "Fanny",
+          "affiliations": [
+            "D\u00e9partement de M\u00e9decine, Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Roumier",
+          "fore_name": "Mathilde",
+          "affiliations": [
+            "Service de M\u00e9decine Interne, H\u00f4pital Foch, Suresnes 92150, France."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Haochen",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Sklodowki",
+          "fore_name": "Kamil",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Danlos",
+          "fore_name": "Fran\u00e7ois-Xavier",
+          "affiliations": [
+            "D\u00e9partement de M\u00e9decine, Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Ouali",
+          "fore_name": "Kaissa",
+          "affiliations": [
+            "D\u00e9partement de M\u00e9decine, Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Kishazi",
+          "fore_name": "Edina",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Naigeon",
+          "fore_name": "Marie",
+          "affiliations": [
+            "INSERM U1015, Gustave Roussy Cancer Campus, Villejuif 94800, France.",
+            "Laboratoire d'Immunomonitoring en Oncologie, Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France.",
+            "Universit\u00e9 Paris Saclay, Facult\u00e9 de Pharmacie, Chatenay-Malabry F-92296, France."
+          ]
+        },
+        {
+          "last_name": "Griscelli",
+          "fore_name": "Franck",
+          "affiliations": [
+            "D\u00e9partement de biologie et pathologie, Gustave Roussy Cancer Campus, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Gachot",
+          "fore_name": "Bertrand",
+          "affiliations": [
+            "Unit\u00e9 de Pathologie Infectieuse, Gustave Roussy Cancer Campus, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Groh",
+          "fore_name": "Matthieu",
+          "affiliations": [
+            "Service de M\u00e9decine Interne, H\u00f4pital Foch, Suresnes 92150, France."
+          ]
+        },
+        {
+          "last_name": "Bacciarello",
+          "fore_name": "Giulia",
+          "affiliations": [
+            "D\u00e9partement de M\u00e9decine, Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Stoclin",
+          "fore_name": "Annabelle",
+          "affiliations": [
+            "Unit\u00e9 de Pathologie Infectieuse, Gustave Roussy Cancer Campus, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Willekens",
+          "fore_name": "Christophe",
+          "affiliations": [
+            "D\u00e9partement d'h\u00e9matologie, Gustave Roussy Cancer Campus, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Sakkal",
+          "fore_name": "Madona",
+          "affiliations": [
+            "D\u00e9partement des Innovations Th\u00e9rapeutiques et des Essais Pr\u00e9coces (DITEP), Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Bayle",
+          "fore_name": "Arnaud",
+          "affiliations": [
+            "D\u00e9partement des Innovations Th\u00e9rapeutiques et des Essais Pr\u00e9coces (DITEP), Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Zitvogel",
+          "fore_name": "Laurence",
+          "affiliations": [
+            "INSERM U1015, Gustave Roussy Cancer Campus, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Silvin",
+          "fore_name": "Aymeric",
+          "affiliations": [
+            "INSERM U1015, Gustave Roussy Cancer Campus, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Soria",
+          "fore_name": "Jean-Charles",
+          "affiliations": [
+            "D\u00e9partement des Innovations Th\u00e9rapeutiques et des Essais Pr\u00e9coces (DITEP), Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France.",
+            "Universit\u00e9 Paris Saclay, Facult\u00e9 de M\u00e9decine, Le Kremlin-Bic\u00eatre 94270, France."
+          ]
+        },
+        {
+          "last_name": "Barlesi",
+          "fore_name": "Fabrice",
+          "affiliations": [
+            "D\u00e9partement de M\u00e9decine, Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Beeler",
+          "fore_name": "Kristina",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Andr\u00e9",
+          "fore_name": "Fabrice",
+          "affiliations": [
+            "D\u00e9partement de M\u00e9decine, Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France.",
+            "Universit\u00e9 Paris Saclay, Facult\u00e9 de M\u00e9decine, Le Kremlin-Bic\u00eatre 94270, France.",
+            "Unit\u00e9 INSERM U981, Gustave Roussy Cancer Campus, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Vasse",
+          "fore_name": "Marc",
+          "affiliations": [
+            "Universit\u00e9 Paris Saclay, Facult\u00e9 de Pharmacie, Chatenay-Malabry F-92296, France.",
+            "Service de biologie clinique, H\u00f4pital Foch, Suresnes 92150, France.",
+            "Unit\u00e9 INSERM U1176, Le Kremlin-Bic\u00eatre, Universit\u00e9 Paris Saclay, Facult\u00e9 de M\u00e9decine, Le Kremlin-Bic\u00eatre 94270, France."
+          ]
+        },
+        {
+          "last_name": "Chaput",
+          "fore_name": "Nathalie",
+          "affiliations": [
+            "INSERM U1015, Gustave Roussy Cancer Campus, Villejuif 94800, France.",
+            "Laboratoire d'Immunomonitoring en Oncologie, Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France."
+          ]
+        },
+        {
+          "last_name": "Ackermann",
+          "fore_name": "Felix",
+          "affiliations": [
+            "Service de M\u00e9decine Interne, H\u00f4pital Foch, Suresnes 92150, France."
+          ]
+        },
+        {
+          "last_name": "Escher",
+          "fore_name": "Claudia",
+          "affiliations": [
+            "Biognosys, Wagistrasse 21, Schlieren 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Marabelle",
+          "fore_name": "Aur\u00e9lien",
+          "affiliations": [
+            "D\u00e9partement des Innovations Th\u00e9rapeutiques et des Essais Pr\u00e9coces (DITEP), Gustave Roussy, Universit\u00e9 Paris-Saclay, Villejuif 94800, France.",
+            "INSERM U1015, Gustave Roussy Cancer Campus, Villejuif 94800, France.",
+            "Universit\u00e9 Paris Saclay, Facult\u00e9 de M\u00e9decine, Le Kremlin-Bic\u00eatre 94270, France.",
+            "Centre d'investigation clinique - bioth\u00e9rapie, INSERM CICBT1428, Villejuif 94800, France."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Antibodies, Monoclonal, Humanized",
+        "Male",
+        "Female",
+        "COVID-19",
+        "Receptors, Interleukin-6",
+        "Middle Aged",
+        "Aged",
+        "SARS-CoV-2",
+        "COVID-19 Drug Treatment",
+        "Proteomics",
+        "Proteome",
+        "Chromatography, Liquid",
+        "Blood Proteins",
+        "Aged, 80 and over",
+        "Interleukin-6"
+      ],
+      "keywords": [
+        "COVID-19",
+        "anti-interleukin 6 receptor therapy",
+        "calprotectin",
+        "candidate proteins",
+        "proteomics",
+        "thrombospondin-1"
+      ]
+    },
+    {
+      "pmid": "39554001",
+      "pmc": "PMC6323896",
+      "doi": "10.1093/nar/gky1106",
+      "title": "A Comprehensive and Robust Multiplex-DIA Workflow Profiles Protein Turnover Regulations Associated with Cisplatin Resistance.",
+      "abstract": "Measuring protein turnover is essential for understanding cellular biological processes and advancing drug discovery. The multiplex DIA mass spectrometry (DIA-MS) approach, combined with dynamic SILAC labeling (pulse-SILAC, or pSILAC), has proven to be a reliable method for analyzing protein turnover and degradation kinetics. Previous multiplex DIA-MS workflows have employed various strategies, including leveraging the highest isotopic labeling channels of peptides to enhance the detection of isotopic MS signal pairs or clusters. In this study, we introduce an improved and robust workflow that integrates a novel machine learning strategy and channel-specific statistical filtering, enabling dynamic adaptation to systematic or temporal variations in channel ratios. This allows comprehensive profiling of protein turnover throughout the pSILAC experiment without relying solely on the highest channel signals. Additionally, we developed",
+      "journal": "bioRxiv",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Salovska",
+          "fore_name": "Barbora",
+          "affiliations": [
+            "Department of Pharmacology, Yale University School of Medicine, New Haven, CT 06520, USA.",
+            "Cancer Biology Institute, Yale University School of Medicine, West Haven, CT 06516, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Wenxue",
+          "affiliations": [
+            "Department of Pharmacology, Yale University School of Medicine, New Haven, CT 06520, USA.",
+            "Cancer Biology Institute, Yale University School of Medicine, West Haven, CT 06516, USA."
+          ]
+        },
+        {
+          "last_name": "Bernhardt",
+          "fore_name": "Oliver M",
+          "affiliations": [
+            "Biognosys Zurich-Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Germain",
+          "fore_name": "Pierre-Luc",
+          "affiliations": [
+            "Institute for Neuroscience, Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Gandhi",
+          "fore_name": "Tejas",
+          "affiliations": [
+            "Biognosys Zurich-Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys Zurich-Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Liu",
+          "fore_name": "Yansheng",
+          "affiliations": [
+            "Department of Pharmacology, Yale University School of Medicine, New Haven, CT 06520, USA.",
+            "Cancer Biology Institute, Yale University School of Medicine, West Haven, CT 06516, USA.",
+            "Department of Biomedical Informatics & Data Science, Yale University School of Medicine, New Haven, CT 06510, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Aneuploidy",
+        "DIA",
+        "Drug resistance",
+        "Mass spectrometry",
+        "Multiplex DIA",
+        "Protein turnover",
+        "pulse SILAC"
+      ]
+    },
+    {
+      "pmid": "39273294",
+      "pmc": "PMC2988912",
+      "doi": "10.1016/j.ijbiomac.2024.131282",
+      "title": "A Combined Proteomic and Transcriptomic Signature Is Predictive of Response to Anti-PD-1 Treatment: A Retrospective Study in Metastatic Melanoma Patients.",
+      "abstract": "Resistance biomarkers are needed to identify patients with advanced melanoma obtaining a response to ICI treatment and developing resistance later. We searched a combination of molecular signatures of response to ICIs in patients with metastatic melanoma. In a retrospective study on patients with metastatic melanoma treated with an anti-PD-1 agent carried out at Istituto Nazionale Tumori-IRCCS-Fondazione \"G. Pascale\", Naples, Italy. We integrated a whole proteome profiling of metastatic tissue with targeted transcriptomics. To assess the prognosis of patients according to groups of low and high risk, we used PFS and OS as outcomes. To identify the proteins and mRNAs gene signatures associated with the patient's response groups, the discriminant analysis for sparse data performed via partial least squares procedure was performed. Tissue samples from 22 patients were analyzed. A combined protein and gene signature associated with poorer response to ICI immunotherapy in terms of PFS and OS was identified. The PFS and OS Kaplan-Meier curves were significantly better for patients with high expression of the protein signature compared to patients with low expression of the protein signature and who were high-risk (Protein: HR = 0.023, 95% CI: 0.003-0.213;",
+      "journal": "Int J Mol Sci",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Mallardo",
+          "fore_name": "Domenico",
+          "affiliations": [
+            "Department of Melanoma, Cancer Immunotherapy and Development Therapeutics, Istituto Nazionale Tumori-IRCCS Fondazione \"G. Pascale\", 80131 Napoli, Italy."
+          ]
+        },
+        {
+          "last_name": "Fordellone",
+          "fore_name": "Mario",
+          "affiliations": [
+            "Mental and Physical Health and Preventive Medicine, Medical Statistics Unit, University of Campania \"Luigi Vanvitelli\", 81100 Naples, Italy."
+          ]
+        },
+        {
+          "last_name": "White",
+          "fore_name": "Andrew",
+          "affiliations": [
+            "NanoString Technologies, Seattle, WA 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Vowinckel",
+          "fore_name": "Jakob",
+          "affiliations": [
+            "Biognosys AG, 8952 Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bailey",
+          "fore_name": "Michael",
+          "affiliations": [
+            "NanoString Technologies, Seattle, WA 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Sparano",
+          "fore_name": "Francesca",
+          "affiliations": [
+            "Department of Melanoma, Cancer Immunotherapy and Development Therapeutics, Istituto Nazionale Tumori-IRCCS Fondazione \"G. Pascale\", 80131 Napoli, Italy."
+          ]
+        },
+        {
+          "last_name": "Sorrentino",
+          "fore_name": "Antonio",
+          "affiliations": [
+            "Department of Melanoma, Cancer Immunotherapy and Development Therapeutics, Istituto Nazionale Tumori-IRCCS Fondazione \"G. Pascale\", 80131 Napoli, Italy."
+          ]
+        },
+        {
+          "last_name": "Mallardo",
+          "fore_name": "Mario",
+          "affiliations": [
+            "Department of Melanoma, Cancer Immunotherapy and Development Therapeutics, Istituto Nazionale Tumori-IRCCS Fondazione \"G. Pascale\", 80131 Napoli, Italy."
+          ]
+        },
+        {
+          "last_name": "Facchini",
+          "fore_name": "Bianca Arianna",
+          "affiliations": [
+            "Department of Melanoma, Cancer Immunotherapy and Development Therapeutics, Istituto Nazionale Tumori-IRCCS Fondazione \"G. Pascale\", 80131 Napoli, Italy."
+          ]
+        },
+        {
+          "last_name": "De Filippi",
+          "fore_name": "Rosaria",
+          "affiliations": [
+            "Department of Clinical Medicine and Surgery, Universit\u00e0 degli Studi di Napoli Federico II, 80138 Naples, Italy."
+          ]
+        },
+        {
+          "last_name": "Ferrara",
+          "fore_name": "Gerardo",
+          "affiliations": [
+            "Department of Pathology and Cytopathology, Istituto Nazionale Tumori IRCCS Fondazione \"G. Pascale\", 80131 Napoli, Italy."
+          ]
+        },
+        {
+          "last_name": "Vanella",
+          "fore_name": "Vito",
+          "affiliations": [
+            "Department of Melanoma, Cancer Immunotherapy and Development Therapeutics, Istituto Nazionale Tumori-IRCCS Fondazione \"G. Pascale\", 80131 Napoli, Italy."
+          ]
+        },
+        {
+          "last_name": "Beeler",
+          "fore_name": "Kristina",
+          "affiliations": [
+            "Biognosys AG, 8952 Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Chiodini",
+          "fore_name": "Paolo",
+          "affiliations": [
+            "Mental and Physical Health and Preventive Medicine, Medical Statistics Unit, University of Campania \"Luigi Vanvitelli\", 81100 Naples, Italy."
+          ]
+        },
+        {
+          "last_name": "Cesano",
+          "fore_name": "Alessandra",
+          "affiliations": [
+            "NanoString Technologies, Seattle, WA 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Warren",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "NanoString Technologies, Seattle, WA 98109, USA."
+          ]
+        },
+        {
+          "last_name": "Ascierto",
+          "fore_name": "Paolo A",
+          "affiliations": [
+            "Department of Melanoma, Cancer Immunotherapy and Development Therapeutics, Istituto Nazionale Tumori-IRCCS Fondazione \"G. Pascale\", 80131 Napoli, Italy."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Melanoma",
+        "Female",
+        "Male",
+        "Retrospective Studies",
+        "Transcriptome",
+        "Proteomics",
+        "Middle Aged",
+        "Immune Checkpoint Inhibitors",
+        "Aged",
+        "Prognosis",
+        "Programmed Cell Death 1 Receptor",
+        "Biomarkers, Tumor",
+        "Adult",
+        "Gene Expression Profiling",
+        "Gene Expression Regulation, Neoplastic",
+        "Proteome",
+        "Skin Neoplasms",
+        "Neoplasm Metastasis"
+      ],
+      "keywords": [
+        "gene signature",
+        "immune checkpoint inhibitor",
+        "metastatic melanoma",
+        "protein signature",
+        "response biomarker"
+      ]
+    },
+    {
+      "pmid": "38964537",
+      "doi": "10.1016/j.jprot.2024.105246",
+      "title": "Proceedings of the EuBIC-MS developers meeting 2023.",
+      "abstract": "The 2023 European Bioinformatics Community for Mass Spectrometry (EuBIC-MS) Developers Meeting was held from January 15th to January 20th, 2023, in Congressi Stefano Franscin at Monte Verit\u00e0 in Ticino, Switzerland. The participants were scientists and developers working in computational mass spectrometry (MS), metabolomics, and proteomics. The 5-day program was split between introductory keynote lectures and parallel hackathon sessions focusing on \"Artificial Intelligence in proteomics\" to stimulate future directions in the MS-driven omics areas. During the latter, the participants developed bioinformatics tools and resources addressing outstanding needs in the community. The hackathons allowed less experienced participants to learn from more advanced computational MS experts and actively contribute to highly relevant research projects. We successfully produced several new tools applicable to the proteomics community by improving data analysis and facilitating future research.",
+      "journal": "J Proteomics",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Beltrao",
+          "fore_name": "Pedro",
+          "affiliations": [
+            "Department of Biology, ETH Z\u00fcrich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Van Den Bossche",
+          "fore_name": "Tim",
+          "affiliations": [
+            "VIB-UGent Center for Medical Biotechnology, 9052 Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000 Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Gabriels",
+          "fore_name": "Ralf",
+          "affiliations": [
+            "VIB-UGent Center for Medical Biotechnology, 9052 Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000 Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Holstein",
+          "fore_name": "Tanja",
+          "affiliations": [
+            "VIB-UGent Center for Medical Biotechnology, 9052 Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000 Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Kockmann",
+          "fore_name": "Tobias",
+          "affiliations": [
+            "Functional Genomics Center Z\u00fcrich, ETH Z\u00fcrich/University of Z\u00fcrich, Winterthurerstrasse 190, CH-8057 Z\u00fcrich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Nameni",
+          "fore_name": "Alireza",
+          "affiliations": [
+            "VIB-UGent Center for Medical Biotechnology, 9052 Zwijnaarde, Belgium; Department of Biomolecular Medicine, Ghent University, 9000 Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Panse",
+          "fore_name": "Christian",
+          "affiliations": [
+            "Functional Genomics Center Z\u00fcrich, ETH Z\u00fcrich/University of Z\u00fcrich, Winterthurerstrasse 190, CH-8057 Z\u00fcrich, Switzerland; Swiss Institute of Bioinformatics, Quartier Sorge - Batiment Amphipole, 1015 Lausanne, Switzerland. Electronic address: cp@fgcz.ethz.ch."
+          ]
+        },
+        {
+          "last_name": "Schlapbach",
+          "fore_name": "Ralph",
+          "affiliations": [
+            "Functional Genomics Center Z\u00fcrich, ETH Z\u00fcrich/University of Z\u00fcrich, Winterthurerstrasse 190, CH-8057 Z\u00fcrich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Lautenbacher",
+          "fore_name": "Ludwig",
+          "affiliations": [
+            "Computational Mass Spectrometry, TUM School of Life Sciences, Technical University of Munich, Maximus-von-Imhof-Forum 3, D - 85354 Freising, Germany."
+          ]
+        },
+        {
+          "last_name": "Mattanovich",
+          "fore_name": "Matthias",
+          "affiliations": [
+            "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Blegdamsvej 3B, DK-2200 Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Nesvizhskii",
+          "fore_name": "Alexey",
+          "affiliations": [
+            "Departments of Pathology and Computational Medicine and Bioinfoirmatics, University of Michigan, Ann Arbor, MI 48105, USA."
+          ]
+        },
+        {
+          "last_name": "Van Puyvelde",
+          "fore_name": "Bart",
+          "affiliations": [
+            "ProGenTomics, Laboratory of Pharmaceutical Biotechnology, Ghent University, Ottergemsesteenweg 460, BE-9000 Ghent, Belgium."
+          ]
+        },
+        {
+          "last_name": "Scheid",
+          "fore_name": "Jonas",
+          "affiliations": [
+            "Department of Peptide-based Immunotherapy, Institute of Immunology, University and University hospital T\u00fcbingen, Auf der Morgenstelle 15, D-72076 T\u00fcbingen, Germany; Quantitative Biology Center (QBiC), University of T\u00fcbingen, Auf der Morgenstelle 10, D-72076 T\u00fcbingen, Germany."
+          ]
+        },
+        {
+          "last_name": "Schw\u00e4mmle",
+          "fore_name": "Veit",
+          "affiliations": [
+            "Department of Biochemistry and Molecular Biology, University of Southern Denmark, Campusvej 55, 5230 Odense, Denmark."
+          ]
+        },
+        {
+          "last_name": "Strauss",
+          "fore_name": "Maximilian",
+          "affiliations": [
+            "Proteomics Program, Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Susmelj",
+          "fore_name": "Anna Klimovskaia",
+          "affiliations": [
+            "Biognosys, Schlieren, Z\u00fcrich 8952, Switzerland; Now AI Center ETH Z\u00fcrich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "The",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "TUM School of Life Sciences Technische Universit\u00e4t M\u00fcnchen, D - 85354 Freising, Germany."
+          ]
+        },
+        {
+          "last_name": "Webel",
+          "fore_name": "Henry",
+          "affiliations": [
+            "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark."
+          ]
+        },
+        {
+          "last_name": "Wilhelm",
+          "fore_name": "Mathias",
+          "affiliations": [
+            "Computational Mass Spectrometry, TUM School of Life Sciences, Technical University of Munich, Maximus-von-Imhof-Forum 3, D - 85354 Freising, Germany."
+          ]
+        },
+        {
+          "last_name": "Winkelhardt",
+          "fore_name": "Dirk",
+          "affiliations": [
+            "Ruhr-Universit\u00e4t Bochum, Germany."
+          ]
+        },
+        {
+          "last_name": "Wolski",
+          "fore_name": "Witold E",
+          "affiliations": [
+            "Functional Genomics Center Z\u00fcrich, ETH Z\u00fcrich/University of Z\u00fcrich, Winterthurerstrasse 190, CH-8057 Z\u00fcrich, Switzerland; Swiss Institute of Bioinformatics, Quartier Sorge - Batiment Amphipole, 1015 Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Xi",
+          "fore_name": "Muyao",
+          "affiliations": [
+            "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, Blegdamsvej 3B, DK-2200 Copenhagen, Denmark."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Proteomics",
+        "Humans",
+        "Mass Spectrometry",
+        "Computational Biology",
+        "Metabolomics",
+        "Artificial Intelligence"
+      ],
+      "keywords": [
+        "Artificial intelligence",
+        "Benchmark development",
+        "Bioinformatics",
+        "Computational mass spectrometry",
+        "Deep learning",
+        "Mass spectrometry",
+        "Metabolomics",
+        "Metaproteomics",
+        "Predicted spectra",
+        "Proteomics",
+        "Spectrum clustering",
+        "Visualization"
+      ]
+    },
+    {
+      "pmid": "38691771",
+      "pmc": "PMC4159666",
+      "doi": "10.1074/mcp.M113.031591",
+      "title": "Optimizing Spectronaut Search Parameters to Improve Data Quality with Minimal Proteome Coverage Reductions in DIA Analyses of Heterogeneous Samples.",
+      "abstract": "Data-independent acquisition has seen breakthroughs that enable comprehensive proteome profiling using short gradients. As the proteome coverage continues to increase, the quality of the data generated becomes much more relevant. Using Spectronaut, we show that the default search parameters can be easily optimized to minimize the occurrence of false positives across different samples. Using an immunological infection model system to demonstrate the impact of adjusting search settings, we analyzed",
+      "journal": "J Proteome Res",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Baker",
+          "fore_name": "Christa P",
+          "affiliations": [
+            "Division of Cell Signalling & Immunology, School of Life Sciences, University of Dundee, Dundee DD1 5EH, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Bruderer",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Zurich 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Abbott",
+          "fore_name": "James",
+          "affiliations": [
+            "Data Analysis Group, Division of Computational Biology, School of Life Sciences, University of Dundee, Dundee DD1 5EH, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Arthur",
+          "fore_name": "J Simon C",
+          "affiliations": [
+            "Division of Cell Signalling & Immunology, School of Life Sciences, University of Dundee, Dundee DD1 5EH, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Brenes",
+          "fore_name": "Alejandro J",
+          "affiliations": [
+            "Division of Cell Signalling & Immunology, School of Life Sciences, University of Dundee, Dundee DD1 5EH, United Kingdom."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Mice",
+        "Proteome",
+        "Candida albicans",
+        "Proteomics",
+        "Macrophages",
+        "Data Accuracy",
+        "Peptides"
+      ],
+      "keywords": [
+        "C. albicans",
+        "DIA",
+        "M. musculus",
+        "XIC",
+        "data quality",
+        "false positives",
+        "immunology",
+        "infection",
+        "multispecies",
+        "spectronaut"
+      ]
+    },
+    {
+      "pmid": "38565978",
+      "pmc": "PMC6827209",
+      "doi": "10.1186/s12943-019-1090-3",
+      "title": "Simultaneous targeted and discovery-driven clinical proteotyping using hybrid-PRM/DIA.",
+      "abstract": "Clinical samples are irreplaceable, and their transformation into searchable and reusable digital biobanks is critical for conducting statistically empowered retrospective and integrative research studies. Currently, mainly data-independent acquisition strategies are employed to digitize clinical sample cohorts comprehensively. However, the sensitivity of DIA is limited, which is why selected marker candidates are often additionally measured targeted by parallel reaction monitoring. Here, we applied the recently co-developed hybrid-PRM/DIA technology as a new intelligent data acquisition strategy that allows for the comprehensive digitization of rare clinical samples at the proteotype level. Hybrid-PRM/DIA enables enhanced measurement sensitivity for a specific set of analytes of current clinical interest by the intelligent triggering of multiplexed parallel reaction monitoring (MSxPRM) in combination with the discovery-driven digitization of the clinical biospecimen using DIA. Heavy-labeled reference peptides were utilized as triggers for MSxPRM and monitoring of endogenous peptides. We first evaluated hybrid-PRM/DIA in a clinical context on a pool of 185 selected proteotypic peptides for tumor-associated antigens derived from 64 annotated human protein groups. We demonstrated improved reproducibility and sensitivity for the detection of endogenous peptides, even at lower concentrations near the detection limit. Up to 179 MSxPRM scans were shown not to affect the overall DIA performance. Next, we applied hybrid-PRM/DIA for the integrated digitization of biobanked melanoma samples using a set of 30 AQUA peptides against 28 biomarker candidates with relevance in molecular tumor board evaluations of melanoma patients. Within the DIA-detected approximately 6500 protein groups, the selected marker candidates such as UFO, CDK4, NF1, and PMEL could be monitored consistently and quantitatively using MSxPRM scans, providing additional confidence for supporting future clinical decision-making. Combining PRM and DIA measurements provides a new strategy for the sensitive and reproducible detection of protein markers from patients currently being discussed in molecular tumor boards in combination with the opportunity to discover new biomarker candidates.",
+      "journal": "Clin Proteomics",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Goetze",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "Institute of Translational Medicine (ITM), Department of Health Sciences and Technology (D-HEST), ETH Zurich, Zurich, Switzerland. sandra.goetze@hest.ethz.ch.",
+            "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland. sandra.goetze@hest.ethz.ch.",
+            "ETH PHRT Swiss Multi-Omics Center (SMOC), Zurich, Switzerland. sandra.goetze@hest.ethz.ch."
+          ]
+        },
+        {
+          "last_name": "van Drogen",
+          "fore_name": "Audrey",
+          "affiliations": [
+            "Institute of Translational Medicine (ITM), Department of Health Sciences and Technology (D-HEST), ETH Zurich, Zurich, Switzerland.",
+            "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland.",
+            "ETH PHRT Swiss Multi-Omics Center (SMOC), Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Albinus",
+          "fore_name": "Jonas B",
+          "affiliations": [
+            "Institute of Translational Medicine (ITM), Department of Health Sciences and Technology (D-HEST), ETH Zurich, Zurich, Switzerland.",
+            "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Fort",
+          "fore_name": "Kyle L",
+          "affiliations": [
+            "Thermo Fisher Scientific (Bremen) GmbH, Bremen, Germany."
+          ]
+        },
+        {
+          "last_name": "Gandhi",
+          "fore_name": "Tejas",
+          "affiliations": [
+            "Biognosys, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Robbiani",
+          "fore_name": "Damiano",
+          "affiliations": [
+            "Biognosys, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Laforte",
+          "fore_name": "V\u00e9ronique",
+          "affiliations": [
+            "Biognosys, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Levesque",
+          "fore_name": "Mitchell P",
+          "affiliations": [
+            "Department of Dermatology, University Hospital Zurich, University of Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Xuan",
+          "fore_name": "Yue",
+          "affiliations": [
+            "Thermo Fisher Scientific (Bremen) GmbH, Bremen, Germany."
+          ]
+        },
+        {
+          "last_name": "Wollscheid",
+          "fore_name": "Bernd",
+          "affiliations": [
+            "Institute of Translational Medicine (ITM), Department of Health Sciences and Technology (D-HEST), ETH Zurich, Zurich, Switzerland. bernd.wollscheid@hest.ethz.ch.",
+            "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland. bernd.wollscheid@hest.ethz.ch."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Clinical phenotyping",
+        "Data-independent acquisition (DIA)",
+        "Diagnostics",
+        "Hybrid-DIA",
+        "Hybrid-PRM/DIA",
+        "Melanoma",
+        "Molecular tumor board",
+        "Parallel reaction monitoring (PRM)",
+        "Proteotyping",
+        "Translational proteomics"
+      ]
+    },
+    {
+      "pmid": "37775337",
+      "doi": "10.1002/pmic.202300162",
+      "title": "Substantial downregulation of mitochondrial and peroxisomal proteins during acute kidney injury revealed by data-independent acquisition proteomics.",
+      "abstract": "Acute kidney injury (AKI) manifests as a major health concern, particularly for the elderly. Understanding AKI-related proteome changes is critical for prevention and development of novel therapeutics to recover kidney function and to mitigate the susceptibility for recurrent AKI or development of chronic kidney disease. In this study, mouse kidneys were subjected to ischemia-reperfusion injury, and the contralateral kidneys remained uninjured to enable comparison and assess injury-induced changes in the kidney proteome. A ZenoTOF 7600 mass spectrometer was optimized for data-independent acquisition (DIA) to achieve comprehensive protein identification and quantification. Short microflow gradients and the generation of a deep kidney-specific spectral library allowed for high-throughput, comprehensive protein quantification. Upon AKI, the kidney proteome was completely remodeled, and over half of the 3945 quantified protein groups changed significantly. Downregulated proteins in the injured kidney were involved in energy production, including numerous peroxisomal matrix proteins that function in fatty acid oxidation, such as ACOX1, CAT, EHHADH, ACOT4, ACOT8, and Scp2. Injured kidneys exhibited severely damaged tissues and injury markers. The comprehensive and sensitive kidney-specific DIA-MS assays feature high-throughput analytical capabilities to achieve deep coverage of the kidney proteome, and will serve as useful tools for developing novel therapeutics to remediate kidney function.",
+      "journal": "Proteomics",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Burton",
+          "fore_name": "Jordan B",
+          "affiliations": [
+            "Buck Institute for Research on Aging, Novato, California, USA."
+          ]
+        },
+        {
+          "last_name": "Silva-Barbosa",
+          "fore_name": "Anne",
+          "affiliations": [
+            "Department of Pediatrics, School of Medicine, Medical Center Children's Hospital of Pittsburgh, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Bons",
+          "fore_name": "Joanna",
+          "affiliations": [
+            "Buck Institute for Research on Aging, Novato, California, USA."
+          ]
+        },
+        {
+          "last_name": "Rose",
+          "fore_name": "Jacob",
+          "affiliations": [
+            "Buck Institute for Research on Aging, Novato, California, USA."
+          ]
+        },
+        {
+          "last_name": "Pfister",
+          "fore_name": "Katherine",
+          "affiliations": [
+            "Department of Pediatrics, School of Medicine, Medical Center Children's Hospital of Pittsburgh, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Simona",
+          "fore_name": "Fabia",
+          "affiliations": [
+            "Biognosys, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Gandhi",
+          "fore_name": "Tejas",
+          "affiliations": [
+            "Biognosys, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bernhardt",
+          "fore_name": "Oliver",
+          "affiliations": [
+            "Biognosys, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Hunter",
+          "fore_name": "Christie L",
+          "affiliations": [
+            "SCIEX, Redwood City, California, USA."
+          ]
+        },
+        {
+          "last_name": "Goetzman",
+          "fore_name": "Eric S",
+          "affiliations": [
+            "Department of Pediatrics, School of Medicine, Medical Center Children's Hospital of Pittsburgh, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Sims-Lucas",
+          "fore_name": "Sunder",
+          "affiliations": [
+            "Department of Pediatrics, School of Medicine, Medical Center Children's Hospital of Pittsburgh, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+          ]
+        },
+        {
+          "last_name": "Schilling",
+          "fore_name": "Birgit",
+          "affiliations": [
+            "Buck Institute for Research on Aging, Novato, California, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Mice",
+        "Animals",
+        "Aged",
+        "Proteomics",
+        "Proteome",
+        "Down-Regulation",
+        "Kidney",
+        "Acute Kidney Injury"
+      ],
+      "keywords": [
+        "acute kidney injury",
+        "data independent acquisition",
+        "mass spectrometry",
+        "proteomics"
+      ]
+    },
+    {
+      "pmid": "38353833",
+      "pmc": "PMC8765328",
+      "doi": "10.1002/jev2.12190",
+      "title": "Size-exclusion chromatography combined with DIA-MS enables deep proteome profiling of extracellular vesicles from melanoma plasma and serum.",
+      "abstract": "Extracellular vesicles (EVs) are important players in melanoma progression, but their use as clinical biomarkers has been limited by the difficulty of profiling blood-derived EV proteins with high depth of coverage, the requirement for large input amounts, and complex protocols. Here, we provide a streamlined and reproducible experimental workflow to identify plasma- and serum- derived EV proteins of healthy donors and melanoma patients using minimal amounts of sample input. SEC-DIA-MS couples size-exclusion chromatography to EV concentration and deep-proteomic profiling using data-independent acquisition. From as little as 200\u00a0\u00b5L of plasma per patient in a cohort of three healthy donors and six melanoma patients, we identified and quantified 2896 EV-associated proteins, achieving a 3.5-fold increase in depth compared to previously published melanoma studies. To compare the EV-proteome to unenriched blood, we employed an automated workflow to deplete the 14 most abundant proteins from plasma and serum and thereby approximately doubled protein group identifications versus native blood. The EV proteome diverged from corresponding unenriched plasma and serum, and unlike the latter, separated healthy donor and melanoma patient samples. Furthermore, known melanoma markers, such as MCAM, TNC, and TGFBI, were upregulated in melanoma EVs but not in depleted melanoma plasma, highlighting the specific information contained in EVs. Overall, EVs were significantly enriched in intact membrane proteins and proteins related to SNARE protein interactions and T-cell biology. Taken together, we demonstrated the increased sensitivity of an EV-based proteomic workflow that can be easily applied to larger melanoma cohorts and other indications.",
+      "journal": "Cell Mol Life Sci",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Lattmann",
+          "fore_name": "Evelyn",
+          "affiliations": [
+            "Department of Dermatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "R\u00e4ss",
+          "fore_name": "Luca",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Tognetti",
+          "fore_name": "Marco",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "G\u00f3mez",
+          "fore_name": "Julia M Mart\u00ednez",
+          "affiliations": [
+            "Department of Dermatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Lapaire",
+          "fore_name": "Val\u00e9rie",
+          "affiliations": [
+            "Department of Dermatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bruderer",
+          "fore_name": "Roland",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Yuehan",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Steinmetz",
+          "fore_name": "Lars M",
+          "affiliations": [
+            "Stanford Genome Technology Center, Stanford University, Palo Alto, CA, USA. Lars.Steinmetz@stanford.edu.",
+            "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA. Lars.Steinmetz@stanford.edu.",
+            "Genome Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany. Lars.Steinmetz@stanford.edu."
+          ]
+        },
+        {
+          "last_name": "Levesque",
+          "fore_name": "Mitchell P",
+          "affiliations": [
+            "Department of Dermatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland. Mitchell.Levesque@usz.ch."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Proteome",
+        "Melanoma",
+        "Proteomics",
+        "Chromatography, Gel",
+        "Extracellular Vesicles"
+      ],
+      "keywords": [
+        "Exosome",
+        "Extracellular vesicle",
+        "Mass spectrometry",
+        "Melanoma",
+        "Proteomics",
+        "Size-exclusion chromatography"
+      ]
+    },
+    {
+      "pmid": "38086796",
+      "pmc": "PMC6956771",
+      "doi": "10.1214/aos/1074290335",
+      "title": "Elovanoid-N34 modulates TXNRD1 key in protection against oxidative stress-related diseases.",
+      "abstract": "The thioredoxin (TXN) system is an NADPH + H",
+      "journal": "Cell Death Dis",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Calandria",
+          "fore_name": "Jorgelina M",
+          "affiliations": [
+            "Neuroscience Center of Excellence, School of Medicine, Louisiana State University Health New Orleans, New Orleans, LA, USA."
+          ]
+        },
+        {
+          "last_name": "Bhattacharjee",
+          "fore_name": "Surjyadipta",
+          "affiliations": [
+            "Neuroscience Center of Excellence, School of Medicine, Louisiana State University Health New Orleans, New Orleans, LA, USA."
+          ]
+        },
+        {
+          "last_name": "Kala-Bhattacharjee",
+          "fore_name": "Sayantani",
+          "affiliations": [
+            "Neuroscience Center of Excellence, School of Medicine, Louisiana State University Health New Orleans, New Orleans, LA, USA."
+          ]
+        },
+        {
+          "last_name": "Mukherjee",
+          "fore_name": "Pranab K",
+          "affiliations": [
+            "Neuroscience Center of Excellence, School of Medicine, Louisiana State University Health New Orleans, New Orleans, LA, USA."
+          ]
+        },
+        {
+          "last_name": "Feng",
+          "fore_name": "Yuehan",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Vowinckel",
+          "fore_name": "Jakob",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Treiber",
+          "fore_name": "Tobias",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Bazan",
+          "fore_name": "Nicolas G",
+          "affiliations": [
+            "Neuroscience Center of Excellence, School of Medicine, Louisiana State University Health New Orleans, New Orleans, LA, USA. nbazan@lsuhsc.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Thioredoxin Reductase 1",
+        "Oxidation-Reduction",
+        "Protein Isoforms",
+        "Cytosol",
+        "Oxidative Stress",
+        "Lipids"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "38090549",
+      "pmc": "PMC3570296",
+      "doi": "10.1161/CIRCRESAHA.116.309804",
+      "title": "The atrial and ventricular myocardial proteome of end-stage lamin heart disease.",
+      "abstract": "Lamins A/C (encoded by",
+      "journal": "Acta Myol",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Topriceanu",
+          "fore_name": "Constantin-Cristian",
+          "affiliations": [
+            "UCL MRC Unit for Lifelong Health and Ageing, University College London, London, UK.",
+            "UCL Institute of Cardiovascular Science, University College London, London, UK.",
+            "Cardiac MRI Unit, Barts Heart Centre, London, UK."
+          ]
+        },
+        {
+          "last_name": "Alfarih",
+          "fore_name": "Mashael",
+          "affiliations": [
+            "UCL MRC Unit for Lifelong Health and Ageing, University College London, London, UK.",
+            "UCL Institute of Cardiovascular Science, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Hughes",
+          "fore_name": "Alun D",
+          "affiliations": [
+            "UCL MRC Unit for Lifelong Health and Ageing, University College London, London, UK.",
+            "UCL Institute of Cardiovascular Science, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Shiwani",
+          "fore_name": "Hunain",
+          "affiliations": [
+            "Cardiac MRI Unit, Barts Heart Centre, London, UK."
+          ]
+        },
+        {
+          "last_name": "Chan",
+          "fore_name": "Fiona",
+          "affiliations": [
+            "UCL MRC Unit for Lifelong Health and Ageing, University College London, London, UK.",
+            "UCL Institute of Cardiovascular Science, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Mohiddin",
+          "fore_name": "Saidi A",
+          "affiliations": [
+            "Biomedical Research Unit at Barts, Barts Heart Center, London, UK."
+          ]
+        },
+        {
+          "last_name": "Moody",
+          "fore_name": "William",
+          "affiliations": [
+            "Centre for Cardiovascular Sciences, University of Birmingham, Birmingham, UK.",
+            "Department of Cardiology, The Queen Elizabeth Hospital Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "Steeds",
+          "fore_name": "Richard P",
+          "affiliations": [
+            "Centre for Cardiovascular Sciences, University of Birmingham, Birmingham, UK.",
+            "Department of Cardiology, The Queen Elizabeth Hospital Birmingham, UK."
+          ]
+        },
+        {
+          "last_name": "O'Brien",
+          "fore_name": "Benjamin",
+          "affiliations": [
+            "Department of Perioperative Medicine, St. Bartholomew's Hospital, London, UK.",
+            "Department of Cardiac Anesthesiology and Intensive Care Medicine, German Heart Center, Berlin, Germany.",
+            "Department of Cardiac Anesthesiology and Intensive Care Medicine, Charit\u00e9 Berlin, Berlin, Germany.",
+            "Outcomes Research Consortium, Department of Outcomes Research, The Cleveland Clinic, Ohio, USA."
+          ]
+        },
+        {
+          "last_name": "Vowinckel",
+          "fore_name": "Jakob",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Syrris",
+          "fore_name": "Petros",
+          "affiliations": [
+            "UCL Institute of Cardiovascular Science, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Coats",
+          "fore_name": "Caroline",
+          "affiliations": [
+            "Queen Elizabeth University Hospital, Glasgow, UK."
+          ]
+        },
+        {
+          "last_name": "Pettit",
+          "fore_name": "Stephen",
+          "affiliations": [
+            "Advanced Heart Failure and Transplant Unit, Royal Papworth Hospital, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Arbustini",
+          "fore_name": "Eloisa",
+          "affiliations": [
+            "Transplant Research Area and Centre for Inherited Cardiovascular Diseases, Department of Medical Sciences and Infectious Diseases, IRCCS San Matteo Hospital Foundation, Pavia, Italy."
+          ]
+        },
+        {
+          "last_name": "Moon",
+          "fore_name": "James C",
+          "affiliations": [
+            "UCL Institute of Cardiovascular Science, University College London, London, UK.",
+            "Cardiac MRI Unit, Barts Heart Centre, London, UK."
+          ]
+        },
+        {
+          "last_name": "Captur",
+          "fore_name": "Gabriella",
+          "affiliations": [
+            "UCL MRC Unit for Lifelong Health and Ageing, University College London, London, UK.",
+            "UCL Institute of Cardiovascular Science, University College London, London, UK.",
+            "The Royal Free Hospital, Centre for Inherited Heart Muscle Conditions, Cardiology Department, Pond Street, Hampstead, London, UK."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Heart Ventricles",
+        "Proteome",
+        "Prealbumin",
+        "Lamin Type B",
+        "Pilot Projects",
+        "Cardiomyopathy, Dilated",
+        "Lamin Type A",
+        "Heart Atria",
+        "Mutation"
+      ],
+      "keywords": [
+        "compensatory expression",
+        "lamin heart disease",
+        "proteomics",
+        "remodelling"
+      ]
+    },
+    {
+      "pmid": "37645250",
+      "pmc": "PMC3886036",
+      "doi": "10.1007/s00251-022-01274-5",
+      "title": "Analysis of the interferon-\u03b3-induced secretome of intestinal endothelial cells: putative impact on epithelial barrier dysfunction in IBD.",
+      "abstract": "The development of inflammatory bowel diseases (IBD) involves the breakdown of two barriers: the epithelial barrier and the gut-vascular barrier (GVB). The destabilization of each barrier can promote initiation and progression of the disease. Interestingly, first evidence is available that both barriers are communicating through secreted factors that may accordingly serve as targets for therapeutic modulation of barrier functions. Interferon (IFN)-\u03b3 is among the major pathogenesis factors in IBD and can severely impair both barriers. In order to identify factors transmitting signals from the GVB to the epithelial cell barrier, we analyzed the secretome of IFN-\u03b3-treated human intestinal endothelial cells (HIEC). To this goal, HIEC were isolated in high purity from normal colon tissues. HIEC were either untreated or stimulated with IFN-\u03b3 (10\u00a0U/mL). After 48\u00a0h, conditioned media (CM) were harvested and subjected to comparative hyper reaction monitoring mass spectrometry (HRM\u2122 MS). In total, 1,084 human proteins were detected in the HIEC-CM. Among these, 43 proteins were present in significantly different concentrations between the CM of IFN-\u03b3- and control-stimulated HIEC. Several of these proteins were also differentially expressed in various murine colitis models as compared to healthy animals supporting the relevance of these proteins secreted by inflammatory activated HIEC in the inter-barrier communication in IBD. The angiocrine pathogenic impact of these differentially secreted HIEC proteins on the epithelial cell barrier and their perspectives as targets to treat IBD by modulation of trans-barrier communication is discussed in detail.",
+      "journal": "Front Cell Dev Biol",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Naschberger",
+          "fore_name": "Elisabeth",
+          "affiliations": [
+            "Division of Molecular and Experimental Surgery, Department of Surgery, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany."
+          ]
+        },
+        {
+          "last_name": "Flierl",
+          "fore_name": "Christian",
+          "affiliations": [
+            "Division of Molecular and Experimental Surgery, Department of Surgery, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Jinghao",
+          "affiliations": [
+            "Division of Molecular and Experimental Surgery, Department of Surgery, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany."
+          ]
+        },
+        {
+          "last_name": "Erkert",
+          "fore_name": "Lena",
+          "affiliations": [
+            "Department of Medicine I, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany."
+          ]
+        },
+        {
+          "last_name": "Gamez-Belmonte",
+          "fore_name": "Reyes",
+          "affiliations": [
+            "Department of Medicine I, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany."
+          ]
+        },
+        {
+          "last_name": "Gonzalez-Acera",
+          "fore_name": "Miguel",
+          "affiliations": [
+            "Department of Medicine I, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany."
+          ]
+        },
+        {
+          "last_name": "Bober",
+          "fore_name": "Magdalena",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Mehnert",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Becker",
+          "fore_name": "Christoph",
+          "affiliations": [
+            "Department of Medicine I, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany."
+          ]
+        },
+        {
+          "last_name": "Schellerer",
+          "fore_name": "Vera S",
+          "affiliations": [
+            "Department of Pediatric Surgery, University Medicine Greifswald, Greifswald, Germany."
+          ]
+        },
+        {
+          "last_name": "Britzen-Laurent",
+          "fore_name": "Nathalie",
+          "affiliations": [
+            "Division of Surgical Research, Department of Surgery, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany."
+          ]
+        },
+        {
+          "last_name": "St\u00fcrzl",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Division of Molecular and Experimental Surgery, Department of Surgery, Universit\u00e4tsklinikum Erlangen, Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU), Erlangen, Germany.",
+            "Comprehensive Cancer Center Erlangen-EMN, Universit\u00e4tsklinikum Erlangen, Erlangen, Germany."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "IBD-inflammatory bowel disease",
+        "angiocrine",
+        "barrier",
+        "cytokines",
+        "endothelial",
+        "interferon",
+        "paracrine",
+        "secretion"
+      ]
+    },
+    {
+      "pmid": "36653529",
+      "doi": "10.1038/s41596-023-00808-9",
+      "title": "Author Correction: Proteome-wide structural changes measured with limited proteolysis-mass spectrometry: an advanced protocol for high-throughput applications.",
+      "abstract": "",
+      "journal": "Nat Protoc",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Malinovska",
+          "fore_name": "Liliana",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Cappelletti",
+          "fore_name": "Valentina",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Kohler",
+          "fore_name": "Devon",
+          "affiliations": [
+            "Khoury College of Computer Sciences, Northeastern University, Boston, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Piazza",
+          "fore_name": "Ilaria",
+          "affiliations": [
+            "Max Delbr\u00fcck Center for Molecular Medicine in the Helmholtz Association (MDC Berlin), Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "Tsai",
+          "fore_name": "Tsung-Heng",
+          "affiliations": [
+            "Department of Mathematical Sciences, Kent State University, Kent, OH, USA."
+          ]
+        },
+        {
+          "last_name": "Pepelnjak",
+          "fore_name": "Monika",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Stalder",
+          "fore_name": "Patrick",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "D\u00f6rig",
+          "fore_name": "Christian",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Sesterhenn",
+          "fore_name": "Fabian",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Els\u00e4sser",
+          "fore_name": "Franziska",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Kralickova",
+          "fore_name": "Lucie",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Beaton",
+          "fore_name": "Nigel",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys AG, Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "de Souza",
+          "fore_name": "Natalie",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Vitek",
+          "fore_name": "Olga",
+          "affiliations": [
+            "Khoury College of Computer Sciences, Northeastern University, Boston, MA, USA. o.vitek@northeastern.edu."
+          ]
+        },
+        {
+          "last_name": "Picotti",
+          "fore_name": "Paola",
+          "affiliations": [
+            "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland. picotti@imsb.biol.ethz.ch."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "36946414",
+      "doi": "10.1093/bib/bbad103",
+      "title": "Poincar\u00e9 maps for visualization of large protein families.",
+      "abstract": "In the era of constantly increasing amounts of the available protein data, a relevant and interpretable visualization becomes crucial, especially for tasks requiring human expertise. Poincar\u00e9 disk projection has previously demonstrated its important efficiency for visualization of biological data such as single-cell RNAseq data. Here, we develop a new method Poincar\u00e9MSA for visual representation of complex relationships between protein sequences based on Poincar\u00e9 maps embedding. We demonstrate its efficiency and potential for visualization of protein family topology as well as evolutionary and functional annotation of uncharacterized sequences. Poincar\u00e9MSA is implemented in open source Python code with available interactive Google Colab notebooks as described at https://www.dsimb.inserm.fr/POINCARE_MSA.",
+      "journal": "Brief Bioinform",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Susmelj",
+          "fore_name": "Anna Klimovskaia",
+          "affiliations": [
+            "Swiss Data Science Center, ETH Zurich and EPFL, Zurich, Switzerland.",
+            "Biognosys AG, Wagistrasse 21, 8952 Schlieren, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Ren",
+          "fore_name": "Yani",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9 and Universit\u00e9 des Antilles and Universit\u00e9 de la R\u00e9union, INSERM, BIGR, F-75014 Paris, France."
+          ]
+        },
+        {
+          "last_name": "Vander Meersche",
+          "fore_name": "Yann",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9 and Universit\u00e9 des Antilles and Universit\u00e9 de la R\u00e9union, INSERM, BIGR, F-75014 Paris, France."
+          ]
+        },
+        {
+          "last_name": "Gelly",
+          "fore_name": "Jean-Christophe",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9 and Universit\u00e9 des Antilles and Universit\u00e9 de la R\u00e9union, INSERM, BIGR, F-75014 Paris, France."
+          ]
+        },
+        {
+          "last_name": "Galochkina",
+          "fore_name": "Tatiana",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9 and Universit\u00e9 des Antilles and Universit\u00e9 de la R\u00e9union, INSERM, BIGR, F-75014 Paris, France."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Software",
+        "Proteins",
+        "Amino Acid Sequence",
+        "Biological Evolution"
+      ],
+      "keywords": [
+        "data visualization",
+        "dimensionality reduction",
+        "machine learning",
+        "multiple sequence alignment",
+        "protein evolution",
+        "protein function",
+        "protein sequence",
+        "sequence similarity"
+      ]
+    },
+    {
+      "pmid": "37018319",
+      "pmc": "PMC3489535",
+      "doi": "10.32614/RJ-2017-028",
+      "title": "MSstats Version 4.0: Statistical Analyses of Quantitative Mass Spectrometry-Based Proteomic Experiments with Chromatography-Based Quantification at Scale.",
+      "abstract": "The",
+      "journal": "J Proteome Res",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Kohler",
+          "fore_name": "Devon",
+          "affiliations": [
+            "Khoury College of Computer Science, Northeastern University, Boston, Massachusetts 02115, United States."
+          ]
+        },
+        {
+          "last_name": "Staniak",
+          "fore_name": "Mateusz",
+          "affiliations": [
+            "University of Wroc\u0142aw, Wroc\u0142aw 50-137, Poland."
+          ]
+        },
+        {
+          "last_name": "Tsai",
+          "fore_name": "Tsung-Heng",
+          "affiliations": [
+            "Khoury College of Computer Science, Northeastern University, Boston, Massachusetts 02115, United States."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Ting",
+          "affiliations": [
+            "Khoury College of Computer Science, Northeastern University, Boston, Massachusetts 02115, United States."
+          ]
+        },
+        {
+          "last_name": "Shulman",
+          "fore_name": "Nicholas",
+          "affiliations": [
+            "Department of Genome Sciences, University of Washington, Seattle, Washington 98195, United States."
+          ]
+        },
+        {
+          "last_name": "Bernhardt",
+          "fore_name": "Oliver M",
+          "affiliations": [
+            "Biognosys, Z\u00fcrich 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "MacLean",
+          "fore_name": "Brendan X",
+          "affiliations": [
+            "Department of Genome Sciences, University of Washington, Seattle, Washington 98195, United States."
+          ]
+        },
+        {
+          "last_name": "Nesvizhskii",
+          "fore_name": "Alexey I",
+          "affiliations": [
+            "Department of Pathology and Computational Medicine & Bioinformatics, University of Michigan, Ann Arbor, Michigan 48109, United States."
+          ]
+        },
+        {
+          "last_name": "Reiter",
+          "fore_name": "Lukas",
+          "affiliations": [
+            "Biognosys, Z\u00fcrich 8952, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Sabido",
+          "fore_name": "Eduard",
+          "affiliations": [
+            "Center for Genomic Regulation, Barcelona Institute of Science and Technology, Barcelona 08003, Spain.",
+            "Universitat Pompeu Fabra, Barcelona 08002, Spain."
+          ]
+        },
+        {
+          "last_name": "Choi",
+          "fore_name": "Meena",
+          "affiliations": [
+            "Khoury College of Computer Science, Northeastern University, Boston, Massachusetts 02115, United States."
+          ]
+        },
+        {
+          "last_name": "Vitek",
+          "fore_name": "Olga",
+          "affiliations": [
+            "Khoury College of Computer Science, Northeastern University, Boston, Massachusetts 02115, United States."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Proteomics",
+        "Research Design",
+        "Software",
+        "Mass Spectrometry",
+        "Chromatography, Liquid"
+      ],
+      "keywords": [
+        "Bioinformatics",
+        "Mass spectrometry",
+        "Quantitative proteomics",
+        "Statistical inference",
+        "Statistical modeling"
+      ]
+    }
+  ]
+}

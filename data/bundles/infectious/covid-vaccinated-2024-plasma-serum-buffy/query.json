@@ -1,0 +1,29 @@
+{
+  "bundle_id": "covid-vaccinated-2024-plasma-serum-buffy",
+  "therapeutic_area": "infectious",
+  "query_text": "COVID-19 positive patients collected in 2024, with documented vaccination status (manufacturer + dose count). Need plasma + serum + buffy coat trio from same donor. Must have HIV/HepB/HepC screening documented as negative. Both male and female. N >= 50.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Coronavirus (Covid)"
+    ],
+    "specimen_types": [
+      "Plasma",
+      "Serum",
+      "Buffy coat"
+    ],
+    "matched_pairs": true,
+    "min_n": 50,
+    "collection_date_minimum": 2024,
+    "clinical_data_required": [
+      "vaccination_status",
+      "vaccine_manufacturer",
+      "dose_count",
+      "HIV_negative",
+      "HepB_negative",
+      "HepC_negative"
+    ],
+    "sex_balance": "both required",
+    "assay_context": "Variant-specific neutralizing antibody titer assay \u2014 next-gen COVID vaccine development"
+  }
+}

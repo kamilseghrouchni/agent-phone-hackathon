@@ -1,0 +1,21 @@
+{
+  "bundle_id": "pd-dna-blood",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "Parkinson's disease DNA + matched blood samples for LRRK2/GBA genetic screening. N >= 50.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Parkinson's disease (PD)"
+    ],
+    "specimen_types": [
+      "DNA",
+      "Whole blood"
+    ],
+    "biomarkers_desired": [
+      "LRRK2",
+      "GBA"
+    ],
+    "min_n": 50,
+    "assay_context": "PD genetic risk variant screening"
+  }
+}

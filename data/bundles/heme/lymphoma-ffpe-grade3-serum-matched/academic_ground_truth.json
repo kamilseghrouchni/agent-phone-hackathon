@@ -1,0 +1,97 @@
+{
+  "bundle_id": "lymphoma-ffpe-grade3-serum-matched",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "37511690",
+      "pmc_id": "PMC10381579",
+      "doi": null,
+      "title": "Biobank Cote d'Azur: A Lymphoid Malignancy Tissue Repository in Nice, France",
+      "year": 2023,
+      "journal": "Cancers",
+      "specimens_described": {
+        "types": ["FFPE tissue", "blood"],
+        "n": 363,
+        "storage": "FFPE blocks + frozen blood",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Nice University Hospital / Biobank Cote d'Azur",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Biobank Cote d'Azur formal request / MTA",
+      "depth_confidence": "high",
+      "notes": "363 lymphoid malignancy cases with paired FFPE and blood. Includes follicular lymphoma, DLBCL, and other B-cell lymphomas. Grade 3 FL cases likely included in the 363 — grade stratification needs clarification with biobank. Formal biobank with established access process."
+    },
+    {
+      "pmid": "38428430",
+      "pmc_id": "PMC10983045",
+      "doi": null,
+      "title": "Mayo Clinic Lymphoma SPORE Biobank: Follicular Lymphoma Grade 3 Cohort",
+      "year": 2024,
+      "journal": "Blood Advances",
+      "specimens_described": {
+        "types": ["FFPE tissue", "serum"],
+        "n": 129,
+        "storage": "FFPE + frozen serum",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Mayo Clinic Lymphoma SPORE",
+      "institution_type": "cancer_center",
+      "contact_extractable": true,
+      "access_route": "SPORE tissue core / contact: Novak.Anne@mayo.edu",
+      "depth_confidence": "high",
+      "notes": "129 follicular lymphoma cases with matched FFPE and serum. Direct contact available: Novak.Anne@mayo.edu (SPORE biospecimen coordinator). Grade 3 FL enriched in this cohort per study design. Strongest match for this bundle given matched FFPE+serum and grade specificity."
+    },
+    {
+      "pmid": "37954086",
+      "pmc_id": "PMC10634215",
+      "doi": null,
+      "title": "FFPE and Plasma Biomarker Profiling in DLBCL and PMBCL at Ghent University Hospital",
+      "year": 2023,
+      "journal": "Leukemia",
+      "specimens_described": {
+        "types": ["FFPE tissue", "plasma"],
+        "n": 55,
+        "storage": "FFPE + frozen plasma",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Ghent University Hospital",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "corresponding author / institutional biobank request",
+      "depth_confidence": "medium",
+      "notes": "55 DLBCL/PMBCL cases with matched FFPE and plasma. Not strictly grade 3 FL — aggressive B-cell lymphomas. May satisfy bundled FFPE+liquid requirement but disease subtype diverges from grade 3 specification. Access route via corresponding author."
+    },
+    {
+      "pmid": "35795062",
+      "pmc_id": "PMC9252432",
+      "doi": null,
+      "title": "Circulating Tumor DNA in Treatment-Naive Follicular Lymphoma: FFPE and Plasma Paired Analysis",
+      "year": 2022,
+      "journal": "Blood",
+      "specimens_described": {
+        "types": ["FFPE tissue", "plasma"],
+        "n": null,
+        "storage": "FFPE + frozen plasma",
+        "matched": true,
+        "treatment_naive": true
+      },
+      "institution": "Multi-institutional (not specified)",
+      "institution_type": "consortium",
+      "contact_extractable": true,
+      "access_route": "corresponding author / consortium access",
+      "depth_confidence": "medium",
+      "notes": "Treatment-naive FL with matched FFPE+plasma cfDNA. Treatment-naive status confirmed — valuable for pre-treatment biomarker work. N not extractable from abstract. Multi-institutional; access requires corresponding author contact. Grade not explicitly specified as grade 3."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Nice University Hospital / Biobank Cote d'Azur",
+    "Mayo Clinic Lymphoma SPORE",
+    "Ghent University Hospital"
+  ],
+  "notes": "Best match for matched FFPE+serum requirement is Mayo Clinic SPORE (PMC10983045) — has direct contact (Novak.Anne@mayo.edu), grade 3 FL focus, and n=129 with confirmed FFPE+serum pairing. Nice Biobank (PMC10381579) is the largest at n=363 but grade stratification unconfirmed. Serum vs plasma distinction: Mayo has serum, Ghent has plasma — eval should check whether the bundle specifies serum strictly. Treatment-naive status confirmed only for PMC9252432."
+}

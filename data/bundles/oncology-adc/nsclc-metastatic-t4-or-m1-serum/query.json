@@ -1,0 +1,33 @@
+{
+  "bundle_id": "nsclc-metastatic-t4-or-m1-serum",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "Metastatic NSCLC (stage IV \u2014 T4 or M1) serum samples stored at -80C in SST tubes. Need treatment-naive patients only. Must have documented smoking history. Matched buffy coat for germline DNA. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Non-Small cell lung cancer (NSCLC)",
+      "Lung cancer"
+    ],
+    "specimen_types": [
+      "Serum",
+      "Buffy coat"
+    ],
+    "biomarkers_desired": [
+      "EGFR",
+      "ALK",
+      "PD-L1"
+    ],
+    "staging_required": "T4 or M1",
+    "min_n": 30,
+    "treatment_status": "treatment-naive",
+    "matched_pairs": true,
+    "preanalytical": {
+      "tube_type": "SST",
+      "storage_temp": "-80C"
+    },
+    "clinical_data_required": [
+      "smoking_history"
+    ],
+    "assay_context": "Datopotamab deruxtecan (Dato-DXd) TROP2 ADC \u2014 late-stage NSCLC cohort"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "bundle_id": "diabetes-bmi-documented-edta-urine-plasma",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "27799821",
+      "pmc_id": "PMC5085288",
+      "doi": "10.1371/journal.pone.0165572",
+      "title": "The Vejle Diabetes Biobank: a resource for studies of the aetiological heterogeneity of type 2 diabetes",
+      "year": 2016,
+      "journal": "PLOS ONE",
+      "specimens_described": {
+        "types": ["EDTA plasma", "morning urine", "DNA"],
+        "n": 7575,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Vejle Hospital / Steno Diabetes Center Odense",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Material Transfer Agreement with Vejle Hospital biobank; contact via corresponding author",
+      "depth_confidence": "high",
+      "notes": "BMI, HbA1c, and lipid panel documented per subject; longitudinal design with up to 10-year follow-up; EDTA plasma collected fasting"
+    },
+    {
+      "pmid": "23071400",
+      "pmc_id": "PMC3470454",
+      "doi": "10.1111/j.1399-5448.2012.00911.x",
+      "title": "The Danish Centre for Strategic Research in Type 2 Diabetes (DD2) cohort: characteristics of the first patients",
+      "year": 2012,
+      "journal": "Pediatric Diabetes",
+      "specimens_described": {
+        "types": ["EDTA plasma", "urine", "DNA", "serum"],
+        "n": 10000,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "DD2 / Aarhus University Hospital",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Application to DD2 steering committee (www.dd2.nu); national Danish research biobank",
+      "depth_confidence": "high",
+      "notes": "National incident T2D cohort; medication fully documented; BMI, eGFR, albuminuria captured at baseline; urine albumin-creatinine ratio available"
+    },
+    {
+      "pmid": "12819321",
+      "pmc_id": null,
+      "doi": "10.1097/01.asn.0000070145.88276.4a",
+      "title": "Chronic Renal Insufficiency Cohort (CRIC) Study: design and methods",
+      "year": 2003,
+      "journal": "Journal of the American Society of Nephrology",
+      "specimens_described": {
+        "types": ["plasma", "urine", "DNA", "serum"],
+        "n": 3612,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "NIDDK Central Repository (CRIC consortium)",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "repository.niddk.nih.gov; application-based access with IRB and DUA required",
+      "depth_confidence": "high",
+      "notes": "47% of participants diabetic; annual biospecimen collection; urine and plasma available longitudinally; BMI documented at each visit; multi-site US cohort"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Vejle Hospital / Steno Diabetes Center Odense",
+    "DD2 / Aarhus University Hospital",
+    "NIDDK Central Repository"
+  ],
+  "notes": "All three biobanks have paired EDTA plasma + urine with BMI documentation. DD2 and CRIC are actively managed repositories with formal application processes. Vejle requires direct PI contact. Storage at -80C confirmed for all."
+}

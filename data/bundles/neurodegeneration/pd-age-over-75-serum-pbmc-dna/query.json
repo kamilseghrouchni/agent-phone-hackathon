@@ -1,0 +1,28 @@
+{
+  "bundle_id": "pd-age-over-75-serum-pbmc-dna",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "Parkinson's disease patients aged 75+ with serum + PBMCs + DNA from same donor. Need documented medication history. Cryopreserved PBMCs required. Collected 2020 or later. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Parkinson's disease (PD)",
+      "Neurological condition"
+    ],
+    "specimen_types": [
+      "Serum",
+      "PBMCs",
+      "DNA"
+    ],
+    "matched_pairs": true,
+    "min_n": 30,
+    "age_minimum": 75,
+    "collection_date_minimum": 2020,
+    "preanalytical": {
+      "pbmc_preservation": "cryopreserved"
+    },
+    "clinical_data_required": [
+      "medication_history"
+    ],
+    "assay_context": "LRRK2 kinase inhibitor trial \u2014 elderly PD immunophenotyping + genotyping"
+  }
+}

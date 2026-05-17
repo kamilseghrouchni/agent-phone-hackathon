@@ -1,0 +1,25 @@
+{
+  "bundle_id": "psoriasis-skin-biopsy-plasma-serum",
+  "therapeutic_area": "autoimmune",
+  "query_text": "Psoriasis skin punch biopsy (lesional + non-lesional paired) with matched plasma and serum. PASI score documented. Moderate-to-severe disease (PASI >= 10). N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Psoriasis",
+      "Moderate-to-severe psoriasis"
+    ],
+    "specimen_types": [
+      "Tissue (skin punch biopsy)",
+      "Plasma",
+      "Serum"
+    ],
+    "min_n": 30,
+    "matched_pairs": true,
+    "disease_severity_minimum": "PASI >= 10",
+    "clinical_data_required": [
+      "PASI_score",
+      "lesional_vs_nonlesional_annotation"
+    ],
+    "assay_context": "Psoriasis skin biopsy biomarker discovery, lesional vs non-lesional transcriptomics or proteomics"
+  }
+}

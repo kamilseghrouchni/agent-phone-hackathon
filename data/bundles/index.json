@@ -1,0 +1,259 @@
+{
+  "generated_at": "",
+  "total_bundles": 23,
+  "bundles": [
+    {
+      "bundle_id": "tnbc-er-neg-pr-neg-ffpe",
+      "area": "oncology-adc",
+      "query_text": "Triple-negative breast cancer FFPE \u2014 must be ER-negative AND PR-negative confirmed by IHC. Need grade 3+ invasive ductal",
+      "intent": "commission",
+      "difficulty": "hard",
+      "primary_specimens": 576,
+      "organizations": 7,
+      "matched_pairs": 5,
+      "path": "oncology-adc/tnbc-er-neg-pr-neg-ffpe"
+    },
+    {
+      "bundle_id": "nsclc-metastatic-t4-or-m1-serum",
+      "area": "oncology-adc",
+      "query_text": "Metastatic NSCLC (stage IV \u2014 T4 or M1) serum samples stored at -80C in SST tubes. Need treatment-naive patients only. Mu",
+      "intent": "commission",
+      "difficulty": "hard",
+      "primary_specimens": 209,
+      "organizations": 1,
+      "matched_pairs": 26,
+      "path": "oncology-adc/nsclc-metastatic-t4-or-m1-serum"
+    },
+    {
+      "bundle_id": "bladder-t2plus-ffpe-urine",
+      "area": "oncology-adc",
+      "query_text": "Muscle-invasive bladder cancer (T2+) FFPE with papillary urothelial histology. Need matched urine collected in EDTA/Azid",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 344,
+      "organizations": 7,
+      "matched_pairs": 1,
+      "path": "oncology-adc/bladder-t2plus-ffpe-urine"
+    },
+    {
+      "bundle_id": "crc-t3n1-ffpe-plasma-matched",
+      "area": "oncology-adc",
+      "query_text": "Colorectal adenocarcinoma FFPE, specifically T3N1M0 or T3N1M1 staging, with matched K2EDTA plasma at -80C. Need tumor pe",
+      "intent": "commission",
+      "difficulty": "easy",
+      "primary_specimens": 531,
+      "organizations": 6,
+      "matched_pairs": 16,
+      "path": "oncology-adc/crc-t3n1-ffpe-plasma-matched"
+    },
+    {
+      "bundle_id": "pancreatic-late-stage-ffpe-serum",
+      "area": "oncology-adc",
+      "query_text": "Pancreatic ductal adenocarcinoma FFPE, T2+ staging, with matched serum stored in Vacutainer SST at -80C. Need BMI and we",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 428,
+      "organizations": 5,
+      "matched_pairs": 38,
+      "path": "oncology-adc/pancreatic-late-stage-ffpe-serum"
+    },
+    {
+      "bundle_id": "melanoma-high-grade-tissue-k2edta-plasma",
+      "area": "immuno-oncology",
+      "query_text": "High-grade (grade 3+) cutaneous melanoma FFPE with T4N0 or nodal-positive staging. Need matched K2EDTA plasma at -80C. R",
+      "intent": "commission",
+      "difficulty": "easy",
+      "primary_specimens": 1755,
+      "organizations": 7,
+      "matched_pairs": 62,
+      "path": "immuno-oncology/melanoma-high-grade-tissue-k2edta-plasma"
+    },
+    {
+      "bundle_id": "lung-scc-streck-bct-liquid-biopsy",
+      "area": "immuno-oncology",
+      "query_text": "Lung squamous cell carcinoma (SCC) \u2014 need liquid biopsy specimens collected in Streck BCT tubes (cell-free DNA preservat",
+      "intent": "commission",
+      "difficulty": "impossible",
+      "primary_specimens": 0,
+      "organizations": 0,
+      "matched_pairs": 0,
+      "path": "immuno-oncology/lung-scc-streck-bct-liquid-biopsy"
+    },
+    {
+      "bundle_id": "als-csf-serum-dna-trio",
+      "area": "neurodegeneration",
+      "query_text": "ALS patients with CSF + serum + DNA from the same donor (trio specimens). CSF must be cryopreserved. Need documented age",
+      "intent": "commission",
+      "difficulty": "hard",
+      "primary_specimens": 241,
+      "organizations": 1,
+      "matched_pairs": 20,
+      "path": "neurodegeneration/als-csf-serum-dna-trio"
+    },
+    {
+      "bundle_id": "pd-age-over-75-serum-pbmc-dna",
+      "area": "neurodegeneration",
+      "query_text": "Parkinson's disease patients aged 75+ with serum + PBMCs + DNA from same donor. Need documented medication history. Cryo",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 368,
+      "organizations": 2,
+      "matched_pairs": 136,
+      "path": "neurodegeneration/pd-age-over-75-serum-pbmc-dna"
+    },
+    {
+      "bundle_id": "ms-csf-serum-recent-collection",
+      "area": "neurodegeneration",
+      "query_text": "Multiple sclerosis CSF + matched serum, collected 2023 or later. Need frozen storage. Documented MS subtype (RRMS vs PPM",
+      "intent": "commission",
+      "difficulty": "hard",
+      "primary_specimens": 241,
+      "organizations": 1,
+      "matched_pairs": 7,
+      "path": "neurodegeneration/ms-csf-serum-recent-collection"
+    },
+    {
+      "bundle_id": "diabetes-bmi-documented-edta-urine-plasma",
+      "area": "cardiometabolic",
+      "query_text": "Type 2 diabetes patients with documented BMI > 30 and weight in kg. Need EDTA urine (morning collection, simple spin) + ",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 266,
+      "organizations": 2,
+      "matched_pairs": 46,
+      "path": "cardiometabolic/diabetes-bmi-documented-edta-urine-plasma"
+    },
+    {
+      "bundle_id": "chf-atherosclerosis-comorbid-plasma-tissue",
+      "area": "cardiometabolic",
+      "query_text": "Patients with BOTH congestive heart failure AND atherosclerosis (comorbid). Need plasma stored at -80C + any available t",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 700,
+      "organizations": 2,
+      "matched_pairs": 93,
+      "path": "cardiometabolic/chf-atherosclerosis-comorbid-plasma-tissue"
+    },
+    {
+      "bundle_id": "copd-k2edta-plasma-buffy-bal",
+      "area": "immunology",
+      "query_text": "COPD patients with K2EDTA plasma at -80C + buffy coat + BAL fluid from same donor. Need documented pack-year smoking his",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 412,
+      "organizations": 2,
+      "matched_pairs": 53,
+      "path": "immunology/copd-k2edta-plasma-buffy-bal"
+    },
+    {
+      "bundle_id": "asthma-medication-documented-serum-plasma",
+      "area": "immunology",
+      "query_text": "Asthma patients with documented current medication list. Need paired serum + plasma, both from same blood draw. Must hav",
+      "intent": "commission",
+      "difficulty": "hard",
+      "primary_specimens": 214,
+      "organizations": 1,
+      "matched_pairs": 64,
+      "path": "immunology/asthma-medication-documented-serum-plasma"
+    },
+    {
+      "bundle_id": "covid-vaccinated-2024-plasma-serum-buffy",
+      "area": "infectious",
+      "query_text": "COVID-19 positive patients collected in 2024, with documented vaccination status (manufacturer + dose count). Need plasm",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 1028,
+      "organizations": 2,
+      "matched_pairs": 428,
+      "path": "infectious/covid-vaccinated-2024-plasma-serum-buffy"
+    },
+    {
+      "bundle_id": "lymphoma-ffpe-grade3-serum-matched",
+      "area": "heme",
+      "query_text": "Non-Hodgkin lymphoma FFPE tissue, grade 3+, with matched serum at -80C. Need documented tumor size and pathological grad",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 375,
+      "organizations": 7,
+      "matched_pairs": 0,
+      "path": "heme/lymphoma-ffpe-grade3-serum-matched"
+    },
+    {
+      "bundle_id": "cholangiocarcinoma-t2n1-ffpe-plasma",
+      "area": "rare",
+      "query_text": "Intrahepatic cholangiocarcinoma FFPE, T2N1 or higher staging, with matched plasma. Need documented surgical procedure an",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 200,
+      "organizations": 4,
+      "matched_pairs": 15,
+      "path": "rare/cholangiocarcinoma-t2n1-ffpe-plasma"
+    },
+    {
+      "bundle_id": "glioblastoma-frozen-plasma-young",
+      "area": "rare",
+      "query_text": "Glioblastoma fresh-frozen tissue (NOT FFPE) + matched plasma from patients under 60. Need documented IDH mutation status",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 258,
+      "organizations": 9,
+      "matched_pairs": 47,
+      "path": "rare/glioblastoma-frozen-plasma-young"
+    },
+    {
+      "bundle_id": "ovarian-t3-ffpe-plasma-er-annotated",
+      "area": "womens-health",
+      "query_text": "Advanced ovarian cancer (T3+) FFPE with ER and PR receptor status documented. Need matched plasma at -80C. Only serous h",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 462,
+      "organizations": 6,
+      "matched_pairs": 20,
+      "path": "womens-health/ovarian-t3-ffpe-plasma-er-annotated"
+    },
+    {
+      "bundle_id": "cervical-young-t1-ffpe-hiv-screened",
+      "area": "womens-health",
+      "query_text": "Cervical cancer in patients under 40, T1N0 staging, FFPE tissue. Must have documented HIV/HepB/HepC negative status. Nee",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 238,
+      "organizations": 4,
+      "matched_pairs": 22,
+      "path": "womens-health/cervical-young-t1-ffpe-hiv-screened"
+    },
+    {
+      "bundle_id": "multi-cancer-comorbid-covid-tissue",
+      "area": "cross-cutting",
+      "query_text": "Cancer patients who also had documented COVID-19 \u2014 any solid tumor FFPE with documented vaccination status. Need samples",
+      "intent": "commission",
+      "difficulty": "hard",
+      "primary_specimens": 692,
+      "organizations": 1,
+      "matched_pairs": 0,
+      "path": "cross-cutting/multi-cancer-comorbid-covid-tissue"
+    },
+    {
+      "bundle_id": "breast-idc-her2-er-pr-ki67-full-panel",
+      "area": "cross-cutting",
+      "query_text": "Invasive ductal breast carcinoma FFPE with COMPLETE biomarker panel: HER2/neu + ER + PR + Ki67 ALL documented on the SAM",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 576,
+      "organizations": 7,
+      "matched_pairs": 5,
+      "path": "cross-cutting/breast-idc-her2-er-pr-ki67-full-panel"
+    },
+    {
+      "bundle_id": "prostate-acinar-high-grade-ffpe-serum",
+      "area": "cross-cutting",
+      "query_text": "Prostate acinar adenocarcinoma, Gleason grade 3+4 or higher (grade 2+ in structured data), T2+ staging. FFPE tissue with",
+      "intent": "commission",
+      "difficulty": "medium",
+      "primary_specimens": 427,
+      "organizations": 6,
+      "matched_pairs": 40,
+      "path": "cross-cutting/prostate-acinar-high-grade-ffpe-serum"
+    }
+  ]
+}

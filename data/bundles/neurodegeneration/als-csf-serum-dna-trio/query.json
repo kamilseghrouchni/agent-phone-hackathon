@@ -1,0 +1,30 @@
+{
+  "bundle_id": "als-csf-serum-dna-trio",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "ALS patients with CSF + serum + DNA from the same donor (trio specimens). CSF must be cryopreserved. Need documented age > 50 at collection. Require both sporadic and familial ALS subtypes in the cohort. N >= 20 trios.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Amyotrophic Lateral Sclerosis (ALS)"
+    ],
+    "specimen_types": [
+      "Cerebrospinal fluid (CSF)",
+      "Serum",
+      "DNA"
+    ],
+    "biomarkers_desired": [
+      "NfL",
+      "SOD1"
+    ],
+    "matched_pairs": true,
+    "min_n": 20,
+    "age_minimum": 50,
+    "preanalytical": {
+      "csf_preservation": "cryopreserved"
+    },
+    "clinical_data_required": [
+      "als_subtype_sporadic_vs_familial"
+    ],
+    "assay_context": "SOD1 antisense oligonucleotide trial \u2014 baseline NfL stratification"
+  }
+}

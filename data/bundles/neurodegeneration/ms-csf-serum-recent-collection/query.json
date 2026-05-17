@@ -1,0 +1,24 @@
+{
+  "bundle_id": "ms-csf-serum-recent-collection",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "Multiple sclerosis CSF + matched serum, collected 2023 or later. Need frozen storage. Documented MS subtype (RRMS vs PPMS vs SPMS). Both male and female donors needed \u2014 at least 40% each sex. N >= 25.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Multiple Sclerosis (MS)",
+      "Neurological condition"
+    ],
+    "specimen_types": [
+      "Cerebrospinal fluid (CSF)",
+      "Serum"
+    ],
+    "matched_pairs": true,
+    "min_n": 25,
+    "collection_date_minimum": 2023,
+    "sex_balance": "at least 40% each sex",
+    "clinical_data_required": [
+      "ms_subtype"
+    ],
+    "assay_context": "Bruton's tyrosine kinase (BTK) inhibitor \u2014 CSF biomarker panel"
+  }
+}

@@ -1,0 +1,171 @@
+# Call channel — voice via AgentPhone, in-call retrieval via Moss.
+# Demo path is roughly:
+#   introduce_request → ask_availability → ask_biomarker_status →
+#   ask_price_per_case → (optional counter_with_quote) → wrap_with_followup
+#
+# Slot grammar reference:
+#   parsed_query.<path>      — fields from the user's ParsedQuery
+#   supplier.<path>          — fields from BiobankOpportunity
+#   prior.<action_id>.<f>    — extraction from an earlier turn in this run
+#   cross_channel.<field>    — Supermemory cross-channel query result
+#   agent_identity.<field>   — the BD persona the agent uses for this supplier
+#   literal:<value>          — hardcoded string
+#
+# Format helpers: comma_join, first, title_case, currency, count, lowercase
+
+channel: call
+agent_persona_required: true     # the agent speaks AS a named BD person
+actions:
+
+  - id: introduce_request
+    category: outreach
+    prerequisites: []
+    extracts: []
+    utterance_template: |
+      Hi {bd_recipient}, this is {agent_name} from {agent_company}. I'm
+      sourcing biospecimens for a {use_case} project — looking at
+      {n_cases} {primary_specimen} cases of {primary_disease}. Is this a
+      decent time for a quick capability check?
+    slots:
+      bd_recipient:        { source: supplier.contact.bd_name, fallback: "the team" }
+      agent_name:          { source: agent_identity.name }
+      agent_company:       { source: agent_identity.company }
+      use_case:            { source: parsed_query.use_case }
+      n_cases:             { source: "parsed_query.specimens[0].n_cases", format: count }
+      primary_specimen:    { source: "parsed_query.specimens[0].type" }
+      primary_disease:     { source: "parsed_query.diseases[0]", format: title_case }
+    success_criteria: "transcript_contains_acknowledgement"
+    next_action_hints: [ask_availability]
+
+  - id: ask_availability
+    category: question
+    prerequisites: [introduce_request]
+    extracts:
+      - field: availability_confirmed
+        type: boolean
+        description: Does the supplier claim to have any matching cases?
+      - field: estimated_n_available
+        type: number
+        description: Their stated count of matching cases, if given.
+      - field: caveats
+        type: string
+        description: Any qualifiers ("most are stage III", "naive only", etc.)
+    utterance_template: |
+      Specifically I need {n_plasma} plasma cases and {n_ffpe} FFPE blocks
+      of {primary_disease}, {stage_filter}{treatment_filter}. Roughly how
+      many of those do you have available right now?
+    slots:
+      n_plasma:           { source: "parsed_query.specimens[type=plasma].n_cases", format: count, fallback: "" }
+      n_ffpe:             { source: "parsed_query.specimens[type=FFPE block].n_cases", format: count, fallback: "" }
+      primary_disease:    { source: "parsed_query.diseases[0]", format: title_case }
+      stage_filter:       { source: parsed_query.stages, format: stage_phrase, fallback: "any stage" }
+      treatment_filter:   { source: parsed_query.treatment_status, format: treatment_phrase, fallback: "" }
+    success_criteria: "extracts.availability_confirmed != null"
+    next_action_hints: [ask_biomarker_status, ask_price_per_case, wrap_with_followup]
+
+  - id: ask_biomarker_status
+    category: question
+    prerequisites: [ask_availability]
+    extracts:
+      - field: biomarker_breakdown
+        type: "dict<string, ratio>"
+        description: Per-marker positivity rate among matching cases.
+      - field: ihc_available
+        type: boolean
+        description: Do they have IHC slides for the markers?
+    utterance_template: |
+      Do you have biomarker status on those cases — specifically
+      {biomarkers}? We need either NGS or IHC results in the metadata.
+    slots:
+      biomarkers:         { source: parsed_query.biomarkers, format: comma_join, fallback: "EGFR, KRAS, ALK" }
+    success_criteria: "extracts.biomarker_breakdown != null OR extracts.ihc_available != null"
+    next_action_hints: [ask_price_per_case, ask_turnaround]
+
+  - id: ask_price_per_case
+    category: question
+    prerequisites: [ask_availability]
+    extracts:
+      - field: price_per_case_usd
+        type: number
+        description: Quoted unit price in USD per case.
+      - field: price_band
+        type: "enum:low|mid|high|undisclosed"
+        description: Rough band if a hard number isn't given.
+      - field: minimum_order
+        type: number
+        description: Any minimum case count.
+    utterance_template: |
+      What's your typical per-case pricing for {primary_disease} cases
+      with the biomarker layer? Ballpark is fine.
+    slots:
+      primary_disease:    { source: "parsed_query.diseases[0]", format: title_case }
+    success_criteria: "extracts.price_per_case_usd != null OR extracts.price_band != null"
+    next_action_hints: [ask_turnaround, counter_with_quote, wrap_with_followup]
+
+  - id: ask_turnaround
+    category: question
+    prerequisites: [ask_availability]
+    extracts:
+      - field: turnaround_weeks
+        type: number
+        description: Lead time from PO to shipment, in weeks.
+      - field: shipping_constraints
+        type: string
+        description: Cold-chain or geography caveats.
+    utterance_template: |
+      And turnaround — if we placed an order this week, how long to first
+      shipment?
+    slots: {}
+    success_criteria: "extracts.turnaround_weeks != null"
+    next_action_hints: [counter_with_quote, wrap_with_followup]
+
+  - id: counter_with_quote
+    category: escalate
+    prerequisites: [ask_price_per_case]
+    extracts:
+      - field: price_match_offered
+        type: boolean
+      - field: revised_price_usd
+        type: number
+    utterance_template: |
+      One quick thing — {competitor_name} just quoted us
+      {competitor_price} for the same panel. Can you match or beat that?
+    slots:
+      competitor_name:    { source: cross_channel.competitor_name }
+      competitor_price:   { source: cross_channel.competitor_price_usd, format: currency }
+    cross_channel_required: true   # Planner can only pick this if Supermemory has a competitor quote
+    success_criteria: "extracts.price_match_offered != null"
+    next_action_hints: [wrap_with_followup]
+
+  - id: wrap_with_followup
+    category: wrap
+    prerequisites: [ask_availability]
+    extracts:
+      - field: agreed_next_step
+        type: string
+        description: What they committed to send (formal quote, sample list, etc.)
+      - field: followup_email
+        type: string
+        description: The email they want the formal RFQ sent to.
+    utterance_template: |
+      Helpful, thank you. I'll send the request brief over to
+      {followup_email_fallback} this afternoon and you can come back with
+      a firm quote. Good?
+    slots:
+      followup_email_fallback: { source: supplier.contact.email, fallback: "your inbox" }
+    success_criteria: "extracts.agreed_next_step != null"
+    next_action_hints: []
+
+  - id: wrap_up_graceful
+    category: wrap
+    prerequisites: []
+    extracts:
+      - field: graceful_exit
+        type: boolean
+    utterance_template: |
+      Actually let me come back to this — I'll send a written brief and
+      circle back. Thank you for the time.
+    slots: {}
+    success_criteria: "extracts.graceful_exit != null"
+    next_action_hints: []
+    fallback_for: rate_limit       # the runtime falls back to this on LLM/API timeout

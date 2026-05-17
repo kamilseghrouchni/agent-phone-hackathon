@@ -1,0 +1,53 @@
+{
+  "bundle_id": "cervical-young-t1-ffpe-hiv-screened",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "36526993",
+      "pmc_id": "PMC9756582",
+      "doi": "10.1186/s12885-022-10380-4",
+      "title": "Zimbabwe cervical cancer biorepository: FFPE specimens with HIV documentation",
+      "year": 2022,
+      "journal": "BMC Cancer",
+      "specimens_described": {
+        "types": ["FFPE blocks", "DNA"],
+        "n": 410,
+        "storage": "room temperature (paraffin)",
+        "matched": false,
+        "treatment_naive": null
+      },
+      "institution": "Parirenyatwa Group of Hospitals / University of Zimbabwe",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaborative agreement with University of Zimbabwe College of Health Sciences; IRB and MTA required; contact corresponding author",
+      "depth_confidence": "high",
+      "notes": "n=410 FFPE cervical cancer; HIV status documented (serology); squamous cell carcinoma and adenocarcinoma; FIGO stage I-II dominant; young patient population (median age <45); HPV type on subset"
+    },
+    {
+      "pmid": "34582476",
+      "pmc_id": "PMC8478215",
+      "doi": "10.1186/s12879-021-06718-3",
+      "title": "HIV-HPV co-infection and cervical cancer risk in Zimbabwe",
+      "year": 2021,
+      "journal": "BMC Infectious Diseases",
+      "specimens_described": {
+        "types": ["FFPE blocks", "cervical swabs"],
+        "n": null,
+        "storage": "room temperature (paraffin)",
+        "matched": false,
+        "treatment_naive": null
+      },
+      "institution": "Parirenyatwa Group of Hospitals / University of Zimbabwe",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Same institutional access as primary biorepository paper; collaborative research with UZ",
+      "depth_confidence": "medium",
+      "notes": "Draws from same Zimbabwe biorepository; HPV genotyping and HIV serology documented; confirms HIV screening approach; FIGO stage I-II in majority; young women (20-44) dominant"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Parirenyatwa Group of Hospitals / University of Zimbabwe"
+  ],
+  "notes": "Both papers draw from the same Parirenyatwa Hospital / University of Zimbabwe biorepository. It is the only identified collection meeting all criteria: FFPE, HIV screened, young patients, Stage I dominant. Single-institution collection; international collaboration requires MTA and local IRB. No commercial access route identified."
+}

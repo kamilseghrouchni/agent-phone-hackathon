@@ -1,0 +1,191 @@
+{
+  "bundle_id": "nsclc-serum-pdl1",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 209,
+    "total_secondary_specimens": 0,
+    "total_donors": 96,
+    "organizations": [
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 209,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 203,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 62.9,
+        "n_with_age": 209,
+        "countries": [
+          "UKR"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "02bb0efa97c1...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "1d873ec6e47a...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "48124e30f9b7...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "7334cdbcea51...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Lung cancer",
+        "Diabetes",
+        "Coronavirus (Covid)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "006f252e6e0b...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Serum",
+      "sex": "Female",
+      "age": 76,
+      "diagnoses": [
+        "Skin cancer",
+        "Non-Small cell lung cancer (NSCLC)",
+        "Squamous cell cancer (SCC)",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Lung cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0
+      },
+      "treatments": "Treatment of the Main Diagnosis: Not treated; Treatment of Concomitant Diseases: No",
+      "organization": "BIOMEDICA CRO"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

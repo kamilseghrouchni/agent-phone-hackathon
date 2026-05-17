@@ -1,0 +1,110 @@
+{
+  "bundle_id": "rheumatoid-arthritis-synovial-serum-urine",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_specimens": 284,
+    "total_donors": 73,
+    "organizations": [
+      "BIOMEDICA CRO",
+      "Stibion",
+      "NDRI"
+    ],
+    "matched_pair_donors": 0
+  },
+  "specimen_breakdown": {
+    "Urine": 138,
+    "Serum": 54,
+    "Plasma": 50,
+    "Tissue": 27,
+    "Synovial fluid": 13
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "Urine": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Synovial fluid": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "stibion-org-id",
+      "country": [
+        "NLD"
+      ],
+      "website": "https://www.stibion.nl/",
+      "contact_email": "info@stibion.nl",
+      "address": "",
+      "description": "Stibion is a Dutch biospecimen provider specializing in autoimmune disease samples.",
+      "specimens": {
+        "Urine": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Synovial fluid": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["NLD"]
+      }
+    },
+    {
+      "name": "NDRI",
+      "organization_id": "ndri-org-id",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.ndriresource.org/",
+      "contact_email": "info@ndriresource.org",
+      "address": "",
+      "description": "NDRI is a nonprofit human tissue and organ procurement organization providing high-quality biospecimens to the research community.",
+      "specimens": {
+        "Urine": {"count": null, "note": "share not published per-org"},
+        "Serum": {"count": null, "note": "share not published per-org"},
+        "Plasma": {"count": null, "note": "share not published per-org"},
+        "Tissue": {"count": null, "note": "share not published per-org"},
+        "Synovial fluid": {"count": null, "note": "share not published per-org"}
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "countries": ["USA"]
+      }
+    }
+  ],
+  "coverage_gaps": {
+    "rf_status": "not tracked in AminoChain specimen registries \u2014 requires clinical record linkage",
+    "anti_ccp_status": "not tracked in AminoChain specimen registries \u2014 requires clinical record linkage",
+    "medication_history": "not tracked in specimen registries \u2014 requires clinical record linkage or prospective protocol",
+    "treatment_naive_flag": "not reliably tracked \u2014 treatment-naive RA patients primarily enrolled in clinical trials, not commercial biobanks",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

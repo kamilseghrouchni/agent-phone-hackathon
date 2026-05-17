@@ -1,0 +1,203 @@
+{
+  "bundle_id": "copd-bal-tissue",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 3,
+    "total_secondary_specimens": 370,
+    "total_donors": 272,
+    "organizations": [
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 3,
+          "type": "Bronchoalveolar lavage fluid"
+        },
+        "secondary": {
+          "count": 240,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 219,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 63.3,
+        "n_with_age": 243,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Bronchoalveolar lavage fluid"
+        },
+        "secondary": {
+          "count": 108,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 66.1,
+        "n_with_age": 108,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Bronchoalveolar lavage fluid"
+        },
+        "secondary": {
+          "count": 19,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 19,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 67.0,
+        "n_with_age": 19,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "NDRI",
+      "organization_id": "a8ee3e47-6144-4e75-8870-1ec8c132f9f8",
+      "country": [
+        "USA"
+      ],
+      "website": "https://ndriresource.org/",
+      "contact_email": "info@ndriresource.org",
+      "address": "Three Parkway 1601 Cherry Street, Suite 1700 Philadelphia, PA 19102 USA",
+      "description": "We provide human biospecimens worldwide to advance biomedical/bioscience research & development.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Bronchoalveolar lavage fluid"
+        },
+        "secondary": {
+          "count": 3,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 68.0,
+        "n_with_age": 3,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "53bbe498f4c1...",
+      "specimen_type": "Bronchoalveolar lavage fluid",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 61,
+      "diagnoses": [
+        "Diabetes Type 1",
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Diabetes"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Treatment of the Main Diagnosis: Medications: Cefazolin 1000 mg, i/v, 2 times a day, from 9-Dec-2024 to 23-Dec-2024, Magnesium sulfate 1250 mg, i/v, from 9-Dec-2024 to 23-Dec-2024, Magnesium asparaginate: 40 mg/ml, Potassium asparaginate: 45.2 mg/ml, i/v, from 9-Dec-2024 to 20-Dec-2024; Treatment of Concomitant Diseases: Medications: Insulin glargine 20 IU, s/c, once a day, Metformin and Empagliflozin 12.5 mg / 1000 mg, per os, once a day",
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "2539a2426148...",
+      "specimen_type": "Bronchoalveolar lavage fluid",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 64,
+      "diagnoses": [
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Asthma"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Treatment of the Main Diagnosis: Medication: Theophylline 60 mg, i/v, once a day, from 12-Dec-2024 to 19-Dec-2024, Dexamethasone 4 mg, i/v, once a day, from 12-Dec-2024 to 19-Dec-2024, Formoterol and Budesonide 4.5 mcg / 160 mcg, inhalation, 2 times a day, Acetylcysteine 600 mg, per os, once a day, from 12-Dec-2024 to 20-Dec-2024; Treatment of Concomitant Diseases: Medications: Betamethasone 6.43 mg, i/m, once, 12-Dec-2024",
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "7ed379509e25...",
+      "specimen_type": "Bronchoalveolar lavage fluid",
+      "preservation": "Frozen",
+      "source_site": "Lung",
+      "sex": "Male",
+      "age": 25,
+      "diagnoses": [
+        "Chronic Obstructive Pulmonary Disease (COPD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Treatment of the Main Diagnosis: Medications: Cefazolin 1000 mg, i/v, 2 times a day, from 9-Dec-2024 to 19-Dec-2024, Acetylcysteine 200 mg, per os, 2 times a day, from 15-Dec-2024 to 23-Dec-2024, Azithromycin 500 mg, per os, once a day, from 9-Dec-2024 to 14-Dec-2024; Treatment of Concomitant Diseases: No",
+      "organization": "BIOMEDICA CRO"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

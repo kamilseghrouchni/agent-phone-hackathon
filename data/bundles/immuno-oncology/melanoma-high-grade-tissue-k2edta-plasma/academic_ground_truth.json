@@ -1,0 +1,118 @@
+{
+  "bundle_id": "melanoma-high-grade-tissue-k2edta-plasma",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "40075679",
+      "pmc_id": "PMC11899103",
+      "doi": null,
+      "title": "Circulating Cell-Free DNA and Tumor Tissue Profiling in Metastatic Melanoma: A Comparative Study",
+      "year": 2025,
+      "journal": "Cancers",
+      "specimens_described": {
+        "types": ["K2-EDTA plasma", "tumor tissue"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": true
+      },
+      "institution": "Semmelweis University / Lund University",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "corresponding author / institutional biobank request",
+      "depth_confidence": "high",
+      "notes": "Treatment-naive metastatic melanoma cohort. Paired EDTA plasma and tumor tissue collected at baseline before systemic therapy. Multi-institutional collaboration between Semmelweis (Budapest) and Lund."
+    },
+    {
+      "pmid": "19966936",
+      "pmc_id": "PMC2776290",
+      "doi": null,
+      "title": "Establishment of a Melanoma Biospecimen Repository at NYU Langone Medical Center",
+      "year": 2009,
+      "journal": "American Journal of Translational Research",
+      "specimens_described": {
+        "types": ["EDTA blood", "FFPE tissue blocks"],
+        "n": 974,
+        "storage": "FFPE blocks + frozen blood",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "NYU Langone Medical Center / Interdisciplinary Melanoma Cooperative Group (IMCG)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "IMCG biobank request / MTA",
+      "depth_confidence": "high",
+      "notes": "974 blood specimens (EDTA) and 1142 FFPE blocks from melanoma patients. Large established biobank with formal access route via NYU IMCG. Treatment-naive status not uniformly documented for all specimens."
+    },
+    {
+      "pmid": "30123920",
+      "pmc_id": "PMC6098996",
+      "doi": null,
+      "title": "The Lund Melanoma Biobank: A Resource for Translational Research",
+      "year": 2018,
+      "journal": "Journal of Investigative Dermatology",
+      "specimens_described": {
+        "types": ["tumor tissue", "blood"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Lund University / Skane University Hospital",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Lund University biobank / Cancer Moonshot collaboration request",
+      "depth_confidence": "medium",
+      "notes": "Lund Cancer Moonshot melanoma biobank. Tissue and blood stored at -80C. Formal biobank infrastructure with multi-institutional access potential. Exact N not specified in abstract."
+    },
+    {
+      "pmid": "40841414",
+      "pmc_id": "PMC12370905",
+      "doi": null,
+      "title": "epiMelanoma: Epigenomic Characterisation of Melanoma Using K2-EDTA Plasma cfDNA",
+      "year": 2025,
+      "journal": "Scientific Reports",
+      "specimens_described": {
+        "types": ["K2-EDTA plasma"],
+        "n": 199,
+        "storage": null,
+        "matched": false,
+        "treatment_naive": null
+      },
+      "institution": "epiMelanoma Consortium",
+      "institution_type": "consortium",
+      "contact_extractable": true,
+      "access_route": "consortium data access request / corresponding author",
+      "depth_confidence": "medium",
+      "notes": "199 participants with K2-EDTA plasma for cfDNA epigenomics. Consortium study — access route requires contact with lead PI. Storage conditions not specified in available metadata."
+    },
+    {
+      "pmid": "38677880",
+      "pmc_id": "PMC11057279",
+      "doi": null,
+      "title": "Stage III Melanoma FFPE Biobank at the Netherlands Cancer Institute",
+      "year": 2024,
+      "journal": "European Journal of Cancer",
+      "specimens_described": {
+        "types": ["FFPE tissue"],
+        "n": null,
+        "storage": "FFPE",
+        "matched": false,
+        "treatment_naive": true
+      },
+      "institution": "Netherlands Cancer Institute (NKI) Amsterdam",
+      "institution_type": "cancer_center",
+      "contact_extractable": true,
+      "access_route": "NKI biobank / MTA required",
+      "depth_confidence": "high",
+      "notes": "Stage III melanoma treatment-naive FFPE specimens at NKI Amsterdam. Well-documented biobank with formal MTA-based access. Blood/plasma not mentioned — tissue only."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Lund University / Semmelweis University",
+    "NYU Langone Medical Center / IMCG",
+    "Netherlands Cancer Institute (NKI) Amsterdam"
+  ],
+  "notes": "Strong evidence base for melanoma tissue + K2-EDTA plasma. Three institutions have formal biobank infrastructure with documented access routes (NYU IMCG, Lund, NKI). The epiMelanoma consortium (PMC12370905) is the most direct K2-EDTA plasma match with 199 participants. Treatment-naive status is confirmed for Semmelweis/Lund (PMC11899103) and NKI (PMC11057279). NYU IMCG is the largest repository at 974+ specimens with mixed treatment history."
+}

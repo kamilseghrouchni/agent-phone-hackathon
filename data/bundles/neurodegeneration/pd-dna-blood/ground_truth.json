@@ -1,0 +1,203 @@
+{
+  "bundle_id": "pd-dna-blood",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 451,
+    "total_secondary_specimens": 571,
+    "total_donors": 774,
+    "organizations": [
+      "The Neuro C-BIG Repository"
+    ],
+    "matched_pair_donors": 81
+  },
+  "organizations": [
+    {
+      "name": "The Neuro C-BIG Repository",
+      "organization_id": "1425f7cb-6096-490e-858f-480b82197688",
+      "country": [
+        "CAN"
+      ],
+      "website": "https://www.mcgill.ca/neuro/research/open-biobank",
+      "contact_email": "cbig.mni@mcgill.ca",
+      "address": "3801 University Street Montreal, QC H3A 2B4 Canada",
+      "description": "A growing collection of biospecimens, longitudinal clinical and neuropsychiatric information, imaging and genetic data from patients with neurological disease as well as healthy controls.",
+      "specimens": {
+        "primary": {
+          "count": 451,
+          "type": "DNA"
+        },
+        "secondary": {
+          "count": 561,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 81,
+      "demographics": {
+        "mean_age": 67.3,
+        "n_with_age": 1012,
+        "countries": [
+          "CAN"
+        ]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "DNA"
+        },
+        "secondary": {
+          "count": 6,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 69.8,
+        "n_with_age": 6,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "9e6ec4c7-b5b4-4f16-a009-eb268f9edf66",
+      "country": [
+        "NLD"
+      ],
+      "website": "https://www.stibion.nl",
+      "contact_email": "info@stibion.nl",
+      "address": "Colosseum 65, 7521 PP, Enschede, The Netherlands",
+      "description": "Stichting Biobank Oost Nederland (Stibion), based in the Netherlands, manages and distributes urine and plasma samples from an active cohort of individuals aged 45 and older. The study collects urine ",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "DNA"
+        },
+        "secondary": {
+          "count": 4,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 72.8,
+        "n_with_age": 4,
+        "countries": [
+          "NLD"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "0023d5973306...",
+      "specimen_type": "DNA",
+      "preservation": "Frozen",
+      "source_site": "Cellular material",
+      "sex": "Female",
+      "age": 70,
+      "diagnoses": [
+        "Neurological condition",
+        "Parkinson's disease (PD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "00097ffd13da...",
+      "specimen_type": "DNA",
+      "preservation": "Frozen",
+      "source_site": "Cellular material",
+      "sex": "Female",
+      "age": 78,
+      "diagnoses": [
+        "Neurological condition",
+        "Parkinson's disease (PD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "002bf63f67b1...",
+      "specimen_type": "DNA",
+      "preservation": "Frozen",
+      "source_site": "Cellular material",
+      "sex": "Male",
+      "age": 62,
+      "diagnoses": [
+        "Neurological condition",
+        "Parkinson's disease (PD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "0005bc4758ee...",
+      "specimen_type": "DNA",
+      "preservation": "Frozen",
+      "source_site": "Cellular material",
+      "sex": "Male",
+      "age": 73,
+      "diagnoses": [
+        "Neurological condition",
+        "Parkinson's disease (PD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "004aed1e04b8...",
+      "specimen_type": "DNA",
+      "preservation": "Frozen",
+      "source_site": "Cellular material",
+      "sex": "Male",
+      "age": 75,
+      "diagnoses": [
+        "Neurological condition",
+        "Parkinson's disease (PD)"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "er": "0.0% annotated \u2014 effectively not available",
+    "pr": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

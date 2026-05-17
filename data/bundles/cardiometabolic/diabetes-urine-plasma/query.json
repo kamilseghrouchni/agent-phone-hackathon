@@ -1,0 +1,19 @@
+{
+  "bundle_id": "diabetes-urine-plasma",
+  "therapeutic_area": "cardiometabolic",
+  "query_text": "Type 2 diabetes urine + plasma for GLP-1 response biomarker study. Longitudinal across weight trajectories. N >= 50.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Diabetes",
+      "Type 2 diabetes"
+    ],
+    "specimen_types": [
+      "Urine",
+      "Plasma"
+    ],
+    "min_n": 50,
+    "matched_pairs": true,
+    "assay_context": "GLP-1 class drug response biomarkers"
+  }
+}

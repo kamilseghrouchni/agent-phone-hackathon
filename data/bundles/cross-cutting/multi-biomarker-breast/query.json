@@ -1,0 +1,23 @@
+{
+  "bundle_id": "multi-biomarker-breast",
+  "therapeutic_area": "cross-cutting",
+  "query_text": "Breast cancer FFPE with ALL of HER2, ER, PR, Ki67 annotated. For multi-marker classifier training. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Breast cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)"
+    ],
+    "biomarkers_required": [
+      "HER2",
+      "ER",
+      "PR",
+      "Ki67"
+    ],
+    "preservation": "Fixed",
+    "min_n": 30,
+    "assay_context": "Multi-marker breast cancer subtype classifier"
+  }
+}

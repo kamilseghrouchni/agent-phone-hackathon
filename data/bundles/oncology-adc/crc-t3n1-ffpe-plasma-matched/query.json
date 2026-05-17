@@ -1,0 +1,30 @@
+{
+  "bundle_id": "crc-t3n1-ffpe-plasma-matched",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "Colorectal adenocarcinoma FFPE, specifically T3N1M0 or T3N1M1 staging, with matched K2EDTA plasma at -80C. Need tumor percentage documented. Treatment-naive preferred but post-surgical resection samples acceptable. N >= 50 paired.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Colon cancer",
+      "Gastrointestinal disorder"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "staging_required": "T3N1",
+    "histology_required": "adenocarcinoma",
+    "preservation": "Fixed",
+    "min_n": 50,
+    "treatment_status": "treatment-naive preferred, post-surgical OK",
+    "matched_pairs": true,
+    "preanalytical": {
+      "tube_type": "K2EDTA",
+      "storage_temp": "-80C"
+    },
+    "clinical_data_required": [
+      "tumor_percentage"
+    ],
+    "assay_context": "Tusamitamab ravtansine (CEACAM5 ADC) \u2014 MRD ctDNA assay validation"
+  }
+}

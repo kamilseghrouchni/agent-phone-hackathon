@@ -1,0 +1,20 @@
+{
+  "bundle_id": "lymphoma-tissue-serum",
+  "therapeutic_area": "heme",
+  "query_text": "Lymphoma FFPE tissue + matched serum for B-cell marker profiling. Subtype annotation (Hodgkin vs NHL) needed. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Lymphoma",
+      "Hodgkin lymphoma",
+      "Non-Hodgkin lymphoma"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "min_n": 30,
+    "matched_pairs": true,
+    "assay_context": "B-cell lymphoma subtype biomarker discovery"
+  }
+}

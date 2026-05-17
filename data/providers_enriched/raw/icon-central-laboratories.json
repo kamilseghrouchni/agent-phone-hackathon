@@ -1,0 +1,671 @@
+{
+  "name": "ICON Central Laboratories",
+  "cleaned_name": "ICON Central Laboratories",
+  "aliases_tried": [
+    "ICON Central Laboratories"
+  ],
+  "publication_total": 4,
+  "search_queries": [
+    "\"ICON Central Laboratories\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "39001615",
+      "doi": "10.1093/jme/tjae060",
+      "title": "F-actin and heparan sulfate proteoglycan distribution in female mosquito salivary glands and ducts.",
+      "abstract": "Directly involved in the \"suck-and-spit\" physiology, female mosquito salivary glands (SGs) primarily imbibe blood for egg development and release anticoagulants to keep blood flowing. Indirectly involved, mosquitoes can uptake arboviruses during blood feeding from a viremic host. This research examined the presence of the filamentous cytoplasmic contractile protein (F-actin) and heparan sulfate proteoglycan (HSPG), in the female mosquito SGs. Immunofluorescent antibody labeling of actin molecules or HSPG combined with anatomy suggests that F-actin forms a network in the SG lobe parenchymal cells attached to intralobar ducts by HSPG. In addition, F-actin twists around intralobar SG ducts in a beaded manner, altogether involved in the expulsion of SG secretions. This arrangement in female Aedes aegypti SGs, suggests that F-actin structures are integrally involved in transmitting infectious agents into hosts.",
+      "journal": "J Med Entomol",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Bowers",
+          "fore_name": "Doria Fassbinder",
+          "affiliations": [
+            "Department of Biology, University of North Florida, Jacksonville, FL, USA."
+          ]
+        },
+        {
+          "last_name": "Ciano",
+          "fore_name": "Kristin Ann",
+          "affiliations": [
+            "ICON Central Laboratories, Farmingdale, NY, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Salivary Glands",
+        "Female",
+        "Aedes",
+        "Actins",
+        "Heparan Sulfate Proteoglycans"
+      ],
+      "keywords": [
+        "Sindbis virus",
+        "arbovirus",
+        "blood feeding",
+        "immunohistochemistry"
+      ]
+    },
+    {
+      "pmid": "37766505",
+      "pmc": "PMC7783943",
+      "doi": "10.1177/2050313X221079444",
+      "title": "Effect of dolutegravir on folate, vitamin B12 and mean corpuscular volume levels among children and adolescents with HIV: a sub-study of the ODYSSEY randomized controlled trial.",
+      "abstract": "Dolutegravir-based antiretroviral therapy (ART) is the preferred antiretroviral treatment for children and adolescents living with HIV. A large surveillance study in Botswana previously raised concerns about an association between pre-conception dolutegravir and neural tube defects. Before these concerns were subsequently resolved, we set up a sub-study to look at the effect of dolutegravir on levels of folate and vitamin B12 in children and adolescents within the randomized ODYSSEY trial, as folate and vitamin B12 are known to play a crucial role in neural tube development. We conducted the sub-study among Ugandan ODYSSEY participants and compared folate and vitamin B12 between children randomized to dolutegravir-based ART (DTG) and non-dolutegravir-based standard-of-care treatment (SOC). Plasma folate was measured at enrolment and week 4 on stored samples; in addition, plasma and red blood cell (RBC) folate and vitamin B12 were assayed at week \u226596 in prospectively collected samples. RBC mean corpuscular volume (MCV) was measured 24-weekly in all ODYSSEY participants. Samples analysed in the sub-study were collected between September 2016 and October 2020. A total of 229 children aged \u22656 years were included in the sub-study with median age at trial enrolment of 12.3 (interquartile range [IQR] 9.0, 14.7) years, and CD4 count of 501 (IQR 228, 695); 112 (49%) children were male. Most participants (225/229, 98%) had plasma folate results at enrolment and 214 (93%) children had results available for RBC folate, vitamin B12 and plasma folate at week \u226596. MCV results were analysed on 679 children aged \u22656 years enrolled in ODYSSEY. At week 4, mean plasma folate was significantly higher in the dolutegravir arm than in SOC (difference [DTG-SOC] 1.6 ng/ml, 95% CI 0.8, 2.3; p<0.001), and this difference persisted to week \u226596 (2.7 ng/ml, 95% CI 1.7, 3.7; p<0.001). Mean RBC folate at \u226596 weeks was also higher in the DTG arm (difference 73 ng/ml, 95% CI 3, 143; p = 0.041). There was no difference in the treatment arms for vitamin B12 levels at \u226596 weeks or change in MCV through trial follow-up. Plasma and RBC folate levels were higher in children and adolescents receiving dolutegravir-based ART than on other ART regimens. Further studies are needed to clarify the mechanisms of these interactions and the clinical implications of increased blood folate levels.",
+      "journal": "J Int AIDS Soc",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Barlow-Mosha",
+          "fore_name": "Linda Namutebi",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Ahimbisibwe",
+          "fore_name": "Grace Miriam",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Chappell",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, London, UK."
+          ]
+        },
+        {
+          "last_name": "Amuge",
+          "fore_name": "Pauline Mary",
+          "affiliations": [
+            "Baylor College of Medicine Children's Foundation-Uganda, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Nanduudu",
+          "fore_name": "Annet",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Kaudha",
+          "fore_name": "Elizabeth",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Amukele",
+          "fore_name": "Timothy",
+          "affiliations": [
+            "Department of Pathology, ICON Central Laboratories Inc, Farmingdale, New York, USA."
+          ]
+        },
+        {
+          "last_name": "Balamusani",
+          "fore_name": "David",
+          "affiliations": [
+            "Infectious Diseases Institute Core Laboratory, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Kafufu",
+          "fore_name": "Bosco",
+          "affiliations": [
+            "Infectious Diseases Institute Core Laboratory, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Nimwesiga",
+          "fore_name": "Audrey",
+          "affiliations": [
+            "Infectious Diseases Institute Core Laboratory, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Kataike",
+          "fore_name": "Hajira",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Namwanje",
+          "fore_name": "Rosemary",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Kasangaki",
+          "fore_name": "Gladys",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Mulindwa",
+          "fore_name": "Alice",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Muzorah",
+          "fore_name": "Gerald Agaba",
+          "affiliations": [
+            "Baylor College of Medicine Children's Foundation-Uganda, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Bbuye",
+          "fore_name": "Dickson",
+          "affiliations": [
+            "Baylor College of Medicine Children's Foundation-Uganda, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Musiime",
+          "fore_name": "Victor",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda.",
+            "Department of Paediatrics and Child Health, Makerere University College of Health Sciences, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Mujyambere",
+          "fore_name": "Emmanuel",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Ssenyonga",
+          "fore_name": "Mark",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Mulima",
+          "fore_name": "Disan",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Kyambadde",
+          "fore_name": "Raymonds Crespo",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Namusanje",
+          "fore_name": "Josephine",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Isabirye",
+          "fore_name": "Richard",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Nabalamba",
+          "fore_name": "Mariam",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Nakirya",
+          "fore_name": "Barbara Musoke",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Kityo",
+          "fore_name": "Cissy",
+          "affiliations": [
+            "Joint Clinical Research Centre, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Kekitiinwa",
+          "fore_name": "Adeodata R",
+          "affiliations": [
+            "Baylor College of Medicine Children's Foundation-Uganda, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Giaquinto",
+          "fore_name": "Carlo",
+          "affiliations": [
+            "Department of Women and Child Health, University of Padova, Padova, Italy."
+          ]
+        },
+        {
+          "last_name": "Copp",
+          "fore_name": "Andrew",
+          "affiliations": [
+            "UCL Great Ormond Street Institute of Child Health, London, UK."
+          ]
+        },
+        {
+          "last_name": "Gibb",
+          "fore_name": "Diana M",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, London, UK."
+          ]
+        },
+        {
+          "last_name": "Ford",
+          "fore_name": "Deborah",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, London, UK."
+          ]
+        },
+        {
+          "last_name": "Musoke",
+          "fore_name": "Philippa",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda.",
+            "Department of Paediatrics and Child Health, Makerere University College of Health Sciences, Kampala, Uganda."
+          ]
+        },
+        {
+          "last_name": "Turkova",
+          "fore_name": "Anna",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, London, UK."
+          ]
+        },
+        {
+          "last_name": "",
+          "fore_name": "",
+          "affiliations": [
+            "Makerere University-Johns Hopkins University (MU-JHU) Research Collaboration, Kampala, Uganda."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Male",
+        "Child",
+        "Adolescent",
+        "Humans",
+        "Female",
+        "Folic Acid",
+        "Vitamin B 12",
+        "Erythrocyte Indices",
+        "HIV Infections",
+        "Dolutegravir"
+      ],
+      "keywords": [
+        "HIV",
+        "adolescents",
+        "children",
+        "dolutegravir",
+        "folate",
+        "vitamin B12"
+      ]
+    },
+    {
+      "pmid": "34035460",
+      "pmc": "PMC5029667",
+      "doi": "10.1038/s41391-021-00392-7",
+      "title": "Inflammatory bowel disease induces inflammatory and pre-neoplastic changes in the prostate.",
+      "abstract": "Inflammatory bowel disease (IBD) has been implicated as a risk factor for prostate cancer, however, the mechanism of how IBD leads to prostate tumorigenesis is not known. Here, we investigated whether chronic intestinal inflammation leads to pro-inflammatory changes associated with tumorigenesis in the prostate. Using clinical samples of men with IBD who underwent prostatectomy, we analyzed whether prostate tumors had differences in lymphocyte infiltrate compared to non-IBD controls. In a mouse model of chemically-induced intestinal inflammation, we investigated whether chronic intestinal inflammation could be transferred to the wild-type mouse prostate. In addition, mouse prostates were evaluated for activation of pro-oncogenic signaling and genomic instability. A higher proportion of men with IBD had T and B lymphocyte infiltration within prostate tumors. Mice with chronic colitis showed significant increases in prostatic CD45\u2009+\u2009leukocyte infiltration and elevation of three pro-inflammatory cytokines-TIMP-1, CCL5, and CXCL1 and activation of AKT and NF-kB signaling pathways. Lastly, mice with chronic colitis had greater prostatic oxidative stress/DNA damage, and prostate epithelial cells had undergone cell cycle arrest. These data suggest chronic intestinal inflammation is associated with an inflammatory-rich, pro-tumorigenic prostatic phenotype which may explain how gut inflammation fosters prostate cancer development in men with IBD.",
+      "journal": "Prostate Cancer Prostatic Dis",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Desai",
+          "fore_name": "Anuj S",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Sagar",
+          "fore_name": "Vinay",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Lysy",
+          "fore_name": "Barbara",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Weiner",
+          "fore_name": "Adam B",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Ko",
+          "fore_name": "Oliver S",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Driscoll",
+          "fore_name": "Conor",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Rodriguez",
+          "fore_name": "Yara",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Vatapalli",
+          "fore_name": "Rajita",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Unno",
+          "fore_name": "Kenji",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Han",
+          "fore_name": "Huiying",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Cohen",
+          "fore_name": "Jason E",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Vo",
+          "fore_name": "Amanda X",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Pham",
+          "fore_name": "Minh",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Shin",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Jain-Poster",
+          "fore_name": "Ketan",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Ross",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA.",
+            "ICON Central Laboratories, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Morency",
+          "fore_name": "Elizabeth G",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Meyers",
+          "fore_name": "Travis J",
+          "affiliations": [
+            "Department of Epidemiology and Biostatistics, University of California, San Francisco (UCSF), San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Witte",
+          "fore_name": "John S",
+          "affiliations": [
+            "Department of Epidemiology and Biostatistics, University of California, San Francisco (UCSF), San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Abdulkadir",
+          "fore_name": "Sarki A",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Kundu",
+          "fore_name": "Shilajit D",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA. s-kundu@northwestern.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Carcinogenesis",
+        "Colitis",
+        "Dextran Sulfate",
+        "Disease Models, Animal",
+        "Humans",
+        "Inflammation",
+        "Inflammatory Bowel Diseases",
+        "Male",
+        "Mice",
+        "Mice, Inbred C57BL",
+        "Prostate",
+        "Prostatic Neoplasms"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "34158596",
+      "doi": "10.18632/oncotarget.8070",
+      "title": "Correction: Inflammatory bowel disease induces inflammatory and preneoplastic changes in the prostate.",
+      "abstract": "",
+      "journal": "Prostate Cancer Prostatic Dis",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Desai",
+          "fore_name": "Anuj S",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Sagar",
+          "fore_name": "Vinay",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Lysy",
+          "fore_name": "Barbara",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Weiner",
+          "fore_name": "Adam B",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Ko",
+          "fore_name": "Oliver S",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Driscoll",
+          "fore_name": "Conor",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Rodriguez",
+          "fore_name": "Yara",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Vatapalli",
+          "fore_name": "Rajita",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Unno",
+          "fore_name": "Kenji",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Han",
+          "fore_name": "Huiying",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Cohen",
+          "fore_name": "Jason E",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Vo",
+          "fore_name": "Amanda X",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Pham",
+          "fore_name": "Minh",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Shin",
+          "fore_name": "Michael",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Jain-Poster",
+          "fore_name": "Ketan",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Ross",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA.",
+            "ICON Central Laboratories, New York, NY, USA."
+          ]
+        },
+        {
+          "last_name": "Morency",
+          "fore_name": "Elizabeth G",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Meyers",
+          "fore_name": "Travis J",
+          "affiliations": [
+            "Department of Epidemiology and Biostatistics, University of California, San Francisco (UCSF), San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Witte",
+          "fore_name": "John S",
+          "affiliations": [
+            "Department of Epidemiology and Biostatistics, University of California, San Francisco (UCSF), San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Wu",
+          "fore_name": "Jennifer",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Abdulkadir",
+          "fore_name": "Sarki A",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Kundu",
+          "fore_name": "Shilajit D",
+          "affiliations": [
+            "Department of Urology, Northwestern University Feinberg School of Medicine, Chicago, IL, USA. s-kundu@northwestern.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    }
+  ]
+}

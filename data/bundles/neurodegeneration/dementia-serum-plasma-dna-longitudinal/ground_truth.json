@@ -1,0 +1,304 @@
+{
+  "bundle_id": "dementia-serum-plasma-dna-longitudinal",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 617,
+    "total_secondary_specimens": 373,
+    "total_donors": 332,
+    "organizations": [
+      "C-BIG",
+      "ProteoGenex",
+      "CHTN Eastern",
+      "Stibion",
+      "NDRI",
+      "BIOMEDICA CRO"
+    ],
+    "matched_pair_donors": 80
+  },
+  "organizations": [
+    {
+      "name": "The Neuro C-BIG Repository",
+      "organization_id": "1425f7cb-6096-490e-858f-480b82197688",
+      "country": [
+        "CAN"
+      ],
+      "website": "https://www.mcgill.ca/neuro/research/open-biobank",
+      "contact_email": "cbig.mni@mcgill.ca",
+      "address": "3801 University Street Montreal, QC H3A 2B4 Canada",
+      "description": "A growing collection of biospecimens, longitudinal clinical and neuropsychiatric information, imaging and genetic data from patients with neurological disease as well as healthy controls.",
+      "specimens": {
+        "primary": {
+          "count": 210,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 163,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 45,
+      "demographics": {
+        "mean_age": 68.2,
+        "n_with_age": 210,
+        "countries": [
+          "CAN"
+        ]
+      }
+    },
+    {
+      "name": "ProteoGenex",
+      "organization_id": "proteogenex-001",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "Inglewood, CA, USA",
+      "description": "ProteoGenex is a commercial biospecimen supplier offering disease-specific human biospecimens including serum, plasma, and PBMC from neurological disease donors.",
+      "specimens": {
+        "primary": {
+          "count": 150,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 70,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 15,
+      "demographics": {
+        "mean_age": 72.8,
+        "n_with_age": 150,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "chtn-eastern-001",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.chtn.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "University of Pennsylvania, Philadelphia, PA, USA",
+      "description": "The Cooperative Human Tissue Network (CHTN) Eastern Division collects and distributes human tissue and fluid specimens for biomedical research.",
+      "specimens": {
+        "primary": {
+          "count": 100,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 60,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 10,
+      "demographics": {
+        "mean_age": 76.5,
+        "n_with_age": 100,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "Stibion",
+      "organization_id": "stibion-001",
+      "country": [
+        "NLD"
+      ],
+      "website": "https://www.stibion.nl/",
+      "contact_email": "info@stibion.nl",
+      "address": "Netherlands",
+      "description": "Stibion is a European biobank specializing in neurological disease specimens.",
+      "specimens": {
+        "primary": {
+          "count": 80,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 50,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 5,
+      "demographics": {
+        "mean_age": 75.3,
+        "n_with_age": 80,
+        "countries": [
+          "NLD"
+        ]
+      }
+    },
+    {
+      "name": "NDRI",
+      "organization_id": "ndri-001",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.ndriresource.org/",
+      "contact_email": "info@ndriresource.org",
+      "address": "National Disease Research Interchange, Philadelphia, PA, USA",
+      "description": "NDRI procures and distributes human tissues and fluids for biomedical research.",
+      "specimens": {
+        "primary": {
+          "count": 55,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 20,
+          "type": "DNA"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 3,
+      "demographics": {
+        "mean_age": 74.1,
+        "n_with_age": 55,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally.",
+      "specimens": {
+        "primary": {
+          "count": 22,
+          "type": "Serum"
+        },
+        "secondary": {
+          "count": 10,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 2,
+      "demographics": {
+        "mean_age": 71.0,
+        "n_with_age": 22,
+        "countries": [
+          "UKR"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "dem-serum-001a...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Female",
+      "age": 71,
+      "diagnoses": [
+        "Alzheimer's Disease (AD)",
+        "Dementia"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "dem-plasma-001a...",
+      "specimen_type": "Plasma",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Female",
+      "age": 71,
+      "diagnoses": [
+        "Alzheimer's Disease (AD)",
+        "Dementia"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "dem-serum-002a...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Male",
+      "age": 68,
+      "diagnoses": [
+        "Dementia",
+        "Lewy Body Dementia"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "dem-dna-001a...",
+      "specimen_type": "DNA",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Male",
+      "age": 68,
+      "diagnoses": [
+        "Dementia",
+        "Lewy Body Dementia"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "The Neuro C-BIG Repository"
+    },
+    {
+      "specimen_id": "dem-serum-003a...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Female",
+      "age": 80,
+      "diagnoses": [
+        "Dementia",
+        "Vascular Dementia"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": null,
+      "organization": "Stibion"
+    }
+  ],
+  "coverage_gaps": {
+    "longitudinal_timepoints": "not indexed per donor in AminoChain — requires direct inquiry with each organization",
+    "mmse_score": "0.0% annotated — requires clinical data linkage",
+    "moca_score": "0.0% annotated — requires clinical data linkage",
+    "dementia_subtype": "partially indexed — AD labeled; vascular/Lewy body not consistently separated",
+    "consent_scope": "not available in specimen data — requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data",
+    "timepoint_interval": "not tracked — requires direct inquiry with each organization"
+  }
+}

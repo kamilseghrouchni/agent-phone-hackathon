@@ -1,0 +1,29 @@
+{
+  "bundle_id": "bladder-t2plus-ffpe-urine",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "Muscle-invasive bladder cancer (T2+) FFPE with papillary urothelial histology. Need matched urine collected in EDTA/Azide/Glycerol preservative. HIV/HepB/HepC screening status must be documented. N >= 20.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Bladder Cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Urine"
+    ],
+    "staging_required": "T2+",
+    "histology_required": "papillary urothelial carcinoma",
+    "preservation": "Fixed",
+    "min_n": 20,
+    "matched_pairs": true,
+    "preanalytical": {
+      "urine_preservative": "EDTA/Azide/Glycerol"
+    },
+    "clinical_data_required": [
+      "HIV_status",
+      "HepB_status",
+      "HepC_status"
+    ],
+    "assay_context": "Enfortumab vedotin Nectin-4 CDx \u2014 urine ctDNA concordance"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bundle_id": "thyroid-cancer-ffpe-serum-staged",
+  "therapeutic_area": "oncology",
+  "query_text": "Papillary thyroid carcinoma FFPE tissue with matched serum, TNM staged. BRAF V600E mutation status documented. N >= 50.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Papillary thyroid carcinoma",
+      "Thyroid cancer",
+      "PTC"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "staging_required": "TNM staged",
+    "histology_required": "papillary carcinoma",
+    "preservation": "Fixed",
+    "min_n": 50,
+    "treatment_status": "pre-operative preferred, post-thyroidectomy acceptable",
+    "matched_pairs": true,
+    "preanalytical": {
+      "tube_type": "SST or red-top",
+      "storage_temp": "-80C"
+    },
+    "clinical_data_required": [
+      "TNM_stage",
+      "BRAF_V600E_status",
+      "tumor_size",
+      "lymph_node_involvement"
+    ],
+    "assay_context": "BRAF V600E-targeted therapy companion diagnostics — cfDNA and proteomics panel for thyroid cancer recurrence monitoring"
+  }
+}

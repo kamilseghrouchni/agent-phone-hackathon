@@ -1,0 +1,24 @@
+{
+  "bundle_id": "gastric-ffpe",
+  "therapeutic_area": "oncology-adc",
+  "query_text": "Gastric/stomach cancer FFPE tissue for HER2 and CLDN18.2 co-expression study. N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Stomach cancer",
+      "Gastrointestinal disorder"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)"
+    ],
+    "biomarkers_required": [
+      "HER2"
+    ],
+    "biomarkers_desired": [
+      "CLDN18.2"
+    ],
+    "preservation": "Fixed",
+    "min_n": 30,
+    "assay_context": "HER2/CLDN18.2 co-expression for bispecific ADC"
+  }
+}

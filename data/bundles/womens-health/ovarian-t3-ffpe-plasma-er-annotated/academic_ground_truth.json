@@ -1,0 +1,97 @@
+{
+  "bundle_id": "ovarian-t3-ffpe-plasma-er-annotated",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "29568184",
+      "pmc_id": "PMC5872529",
+      "doi": "10.1200/JCO.2017.75.1387",
+      "title": "COEUR: a Canadian multisite ovarian cancer biobank",
+      "year": 2018,
+      "journal": "Journal of Clinical Oncology",
+      "specimens_described": {
+        "types": ["FFPE blocks", "serum", "plasma", "ascites", "fresh frozen tissue"],
+        "n": 1246,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "COEUR / CRCHUM / Canadian Cancer Trials Group",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Application to COEUR Scientific Committee; coordinated through CRCHUM Montreal; 12 contributing Canadian biobanks",
+      "depth_confidence": "high",
+      "notes": "n=1246 HGSC (high-grade serous carcinoma); FFPE + serum matched; ER/PR annotation available on subset; FIGO stage III dominates; 12 biobanks contributing; longitudinal serum at surgery and recurrence"
+    },
+    {
+      "pmid": "38971004",
+      "pmc_id": "PMC12052217",
+      "doi": "10.1158/1055-9965.EPI-23-1374",
+      "title": "Washington University Gynecologic Oncology Tissue Bank: ovarian cancer specimens with matched plasma",
+      "year": 2024,
+      "journal": "Cancer Epidemiology, Biomarkers & Prevention",
+      "specimens_described": {
+        "types": ["FFPE blocks", "plasma", "ascites", "fresh frozen tissue"],
+        "n": 227,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "Washington University in St. Louis Gynecologic Oncology Tissue Bank",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaborative research agreement with WashU GynOnc; IRB and MTA required",
+      "depth_confidence": "high",
+      "notes": "n=227 ovarian cancer; FFPE + plasma matched; ER annotation documented; Stage III/IV dominant; HER2 status available on subset; detailed treatment history (platinum, taxane) recorded"
+    },
+    {
+      "pmid": "27139372",
+      "pmc_id": null,
+      "doi": "10.1093/annonc/mdw119",
+      "title": "Estrogen receptor expression in high-grade serous ovarian cancer: an HGSC TMAs study",
+      "year": 2016,
+      "journal": "Annals of Oncology",
+      "specimens_described": {
+        "types": ["FFPE TMA sections"],
+        "n": 875,
+        "storage": "room temperature (paraffin)",
+        "matched": false,
+        "treatment_naive": false
+      },
+      "institution": "Multiple European centers (TMA consortium)",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "TMA slides available through consortium agreement; contact corresponding author",
+      "depth_confidence": "medium",
+      "notes": "n=875 HGSC FFPE TMAs with ER/PR IHC scoring; no matched plasma; validates ER annotation approach; useful as annotation reference; FIGO stage III predominant"
+    },
+    {
+      "pmid": null,
+      "pmc_id": null,
+      "doi": null,
+      "title": "NRG Biospecimen Bank (GOG legacy): ovarian cancer FFPE, plasma, and serum archive",
+      "year": 2020,
+      "journal": "NRG Oncology institutional resource",
+      "specimens_described": {
+        "types": ["FFPE blocks", "plasma", "serum", "frozen tissue"],
+        "n": 3500000,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "NRG Oncology Biospecimen Bank / UCSF",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "NRG Oncology correlative science committee application; nrgoncology.org/biospecimen-bank",
+      "depth_confidence": "medium",
+      "notes": ">3.5 million specimens from GOG legacy trials; ovarian cancer dominant; FFPE + plasma + serum from randomised trial participants; ER/PR annotation from trial protocols; access requires NRG membership or collaboration"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "COEUR / CRCHUM / Canadian Cancer Trials Group",
+    "Washington University GynOnc Tissue Bank",
+    "NRG Oncology Biospecimen Bank / UCSF"
+  ],
+  "notes": "COEUR (n=1246) and NRG (>3.5M specimens) are the two largest sources with ER annotation and matched FFPE + plasma. WashU provides a smaller but deeply annotated single-centre collection. The TMA paper (n=875) is ER annotation evidence but not a biobank access point."
+}

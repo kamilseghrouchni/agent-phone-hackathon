@@ -1,0 +1,19 @@
+{
+  "bundle_id": "alzheimers-tissue-serum-csf",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium — brain tissue is available through autopsy programs (CHTN, NDRI, ROSMAP) but not through standard commercial biobanks",
+    "org_discoverability": "medium — CHTN and NDRI are well-indexed in PubMed; Stibion and BIOMEDICA CRO less so",
+    "biomarker_specificity": "medium — Braak staging requires neuropathology expertise and is a hard filter, not a standard indexed field",
+    "specimen_count": 300,
+    "org_count": 4
+  },
+  "expected_failure_modes": [
+    "Pipeline finds ADNI/ROSMAP/ACT (data cohorts with data access) rather than autopsy tissue banks — these are valid but incomplete for tissue-level queries",
+    "Braak staging assumed from autopsy program context without explicit documentation — hard gate violation",
+    "Neuropathological confirmation treated as guaranteed for any dementia brain bank — requires per-case verification",
+    "CSF availability inferred from tissue program without explicit confirmation — CSF is a separate collection workflow at autopsy",
+    "Pipeline may not distinguish frozen tissue from FFPE — different pre-analytical implications for RNA-seq vs IHC",
+    "May not find commercial biobanks (Stibion, BIOMEDICA CRO) through PubMed — they publish less than academic autopsy programs"
+  ]
+}

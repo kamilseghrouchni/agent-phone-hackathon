@@ -1,0 +1,17 @@
+{
+  "bundle_id": "psoriasis-skin-biopsy-plasma-serum",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium \u2014 psoriasis tissue exists in commercial biobanks but paired lesional/non-lesional is rare",
+    "org_discoverability": "medium \u2014 procurement CROs and tissue banks publish less than academic centers",
+    "biomarker_specificity": "high \u2014 PASI score and lesional/non-lesional pairing are hard requirements not tracked in registries",
+    "specimen_count": 562,
+    "org_count": 3
+  },
+  "expected_failure_modes": [
+    "Lesional vs non-lesional pairing is not tracked in any biospecimen registry \u2014 pipeline must flag as unknown, not infer",
+    "PASI documentation is standard in clinical trials but rare in commercial biobanks \u2014 may surface trial cohorts that don't provide physical specimens",
+    "Psoriasis tissue is mostly collected in academic dermatology research, not commercial biobanks \u2014 pipeline may under-index commercial sources",
+    "May find valid academic dermatology cohorts (GPPGA, Biobank of biobanks psoriasis) that are data-access only, not specimen re-access"
+  ]
+}

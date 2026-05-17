@@ -1,0 +1,122 @@
+{
+  "bundle_id": "cirrhosis-liver-tissue-ffpe",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 174,
+    "total_secondary_specimens": 0,
+    "total_donors": 3,
+    "organizations": [
+      "ProteoGenex"
+    ],
+    "matched_pair_donors": 0,
+    "coverage_warning": "AminoChain coverage is extremely thin: 174 specimens but only 3 donors from a single organization. The specimen-to-donor ratio suggests bulk tissue sections from 3 explant livers, not a diverse cohort. Ground truth weight is LOW for this bundle \u2014 academic sources (KUMC, MGH NAFLD, Edinburgh/Bristol liver biobanks) are expected to be the primary valid finds."
+  },
+  "organizations": [
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 174,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "none"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "staging_like_data_pct": 63,
+      "demographics": {
+        "mean_age": null,
+        "n_with_age": 3,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "d1e2f3a4b5c6...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": null,
+      "diagnoses": [
+        "Liver cirrhosis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "fibrosis_stage": "F4 (METAVIR)",
+      "etiology": "unknown \u2014 not annotated",
+      "treatments": "not recorded",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "e2f3a4b5c6d1...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Female",
+      "age": null,
+      "diagnoses": [
+        "Liver cirrhosis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "fibrosis_stage": "F4 (METAVIR)",
+      "etiology": "unknown \u2014 not annotated",
+      "treatments": "not recorded",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "f3a4b5c6d1e2...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": null,
+      "diagnoses": [
+        "Liver cirrhosis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "fibrosis_stage": "not annotated",
+      "etiology": "unknown \u2014 not annotated",
+      "treatments": "not recorded",
+      "organization": "ProteoGenex"
+    }
+  ],
+  "coverage_gaps": {
+    "etiology": "not annotated in AminoChain data \u2014 critical query requirement; requires direct inquiry to ProteoGenex",
+    "Child-Pugh_score": "not tracked in AminoChain data",
+    "fibrosis_stage_METAVIR": "partially present (63% with staging-like data) but METAVIR F4 confirmation requires pathology review",
+    "explant_vs_biopsy": "source procedure not annotated \u2014 requires direct inquiry",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data",
+    "donor_pool_diversity": "only 3 donors \u2014 174 specimens likely represent multiple sections from 3 explant livers, not 174 independent cases"
+  },
+  "academic_ground_truth_note": {
+    "expected_academic_sources": [
+      "KUMC liver biobank (Krishnamurthy et al.) \u2014 NASH/NAFLD FFPE cohort",
+      "MGH NAFLD cohort \u2014 biopsy-proven NASH with METAVIR staging",
+      "Edinburgh/Bristol liver biobanks \u2014 alcoholic and viral hepatitis cohorts",
+      "NIDDK NASH CRN \u2014 largest US biopsy-proven NASH registry",
+      "European NAFLD Registry \u2014 multi-site FFPE and frozen liver biopsy"
+    ],
+    "eval_weight": "Academic finds should be weighted equally to or above AminoChain for this bundle given the thin AminoChain donor pool"
+  }
+}

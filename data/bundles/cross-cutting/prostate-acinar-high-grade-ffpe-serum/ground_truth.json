@@ -1,0 +1,359 @@
+{
+  "bundle_id": "prostate-acinar-high-grade-ffpe-serum",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 427,
+    "total_secondary_specimens": 239,
+    "total_donors": 410,
+    "organizations": [
+      "ProteoGenex",
+      "BIOMEDICA CRO",
+      "Ukraine Research Group",
+      "CSD Bio",
+      "CHTN Eastern",
+      "Reference Medicine"
+    ],
+    "matched_pair_donors": 40
+  },
+  "organizations": [
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 245,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 33,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {
+        "ER": 159,
+        "PR": 159
+      },
+      "tnm_staged": 140,
+      "treatment_naive": 278,
+      "matched_pair_donors": 5,
+      "demographics": {
+        "mean_age": 61.8,
+        "n_with_age": 278,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 76,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 202,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 276,
+      "treatment_naive": 0,
+      "matched_pair_donors": 35,
+      "demographics": {
+        "mean_age": 67.2,
+        "n_with_age": 278,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": [
+        "UKR"
+      ],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research. We focus on the development of biobanks and the use of high-quality ",
+      "specimens": {
+        "primary": {
+          "count": 88,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 2,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 71,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 66.6,
+        "n_with_age": 90,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "CSD Bio",
+      "organization_id": "fe7fb818-c267-4388-8e7c-3f5fd6f8edc2",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://www.csdbio.com.ua/",
+      "contact_email": "d.obukhov@csd.com.ua",
+      "address": "",
+      "description": "CSD BIO is Ukrainian Biobank prone to empower researchers with the tools for advancing precision medicine\u200b. Our biorepository offers an extensive inventory of biospecimens as well as an exclusive labo",
+      "specimens": {
+        "primary": {
+          "count": 15,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 15,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 68.3,
+        "n_with_age": 15,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "primary": {
+          "count": 2,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 65.0,
+        "n_with_age": 2,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "Medical Gate",
+      "organization_id": "0d6ee50f-4b67-468c-8385-8687c24030dc",
+      "country": [
+        "TUR"
+      ],
+      "website": "http://www.medicalgatebio.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "MEDICAL GATE has a staff specialized in every stage of clinical research.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 2,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 2,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 63.5,
+        "n_with_age": 2,
+        "countries": [
+          "TUR"
+        ]
+      }
+    },
+    {
+      "name": "Reference Medicine",
+      "organization_id": "59472417-e35a-4f24-8491-f46679319297",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.referencemedicine.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "Designed by researchers, for researchers.",
+      "specimens": {
+        "primary": {
+          "count": 1,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 0,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 1,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 70.0,
+        "n_with_age": 1,
+        "countries": [
+          "USA"
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "0289c0f2a798...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Prostate",
+      "sex": "Male",
+      "age": 67,
+      "diagnoses": [
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Atherosclerosis",
+        "Pneumonia (PNA)",
+        "Prostate cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "006021d345ac...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Prostate",
+      "sex": "Male",
+      "age": 67,
+      "diagnoses": [
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Atherosclerosis",
+        "Pneumonia (PNA)",
+        "Prostate cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "068cd9d055d8...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Prostate",
+      "sex": "Male",
+      "age": 67,
+      "diagnoses": [
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Atherosclerosis",
+        "Pneumonia (PNA)",
+        "Prostate cancer"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": null,
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "024854ed4fd0...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Prostate",
+      "sex": "Male",
+      "age": 47,
+      "diagnoses": [
+        "Atherosclerosis",
+        "Neurological condition",
+        "Gastrointestinal disorder",
+        "Encephalopathy",
+        "Pneumonia (PNA)",
+        "Cirrhosis",
+        "Prostate cancer"
+      ],
+      "biomarkers": {
+        "ER": "negative",
+        "PR": "negative"
+      },
+      "tnm": null,
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "10155a1fffe1...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Prostate",
+      "sex": "Male",
+      "age": 47,
+      "diagnoses": [
+        "Atherosclerosis",
+        "Neurological condition",
+        "Gastrointestinal disorder",
+        "Encephalopathy",
+        "Pneumonia (PNA)",
+        "Cirrhosis",
+        "Prostate cancer"
+      ],
+      "biomarkers": {
+        "ER": "negative",
+        "PR": "negative"
+      },
+      "tnm": null,
+      "treatments": "Chemo Treatment: no; Radio Treatment: no; Hormonal Treatment: no",
+      "organization": "ProteoGenex"
+    }
+  ],
+  "coverage_gaps": {
+    "her2": "0.0% annotated \u2014 effectively not available",
+    "ki67": "0.0% annotated \u2014 effectively not available",
+    "pd-l1": "0.0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

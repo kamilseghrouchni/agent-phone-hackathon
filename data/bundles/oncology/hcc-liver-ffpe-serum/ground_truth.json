@@ -1,0 +1,232 @@
+{
+  "bundle_id": "hcc-liver-ffpe-serum",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 228,
+    "total_secondary_specimens": 63,
+    "total_donors": 112,
+    "organizations": [
+      "BIOMEDICA CRO",
+      "CSD Bio",
+      "ProteoGenex"
+    ],
+    "matched_pair_donors": 4,
+    "tnm_staged_pct": 0.97
+  },
+  "organizations": [
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": ["UKR"],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally.",
+      "specimens": {
+        "primary": {
+          "count": 148,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 24,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 148,
+      "treatment_naive": 0,
+      "matched_pair_donors": 4,
+      "demographics": {
+        "mean_age": 58.3,
+        "n_with_age": 148,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "CSD Bio",
+      "organization_id": "fe7fb818-c267-4388-8e7c-3f5fd6f8edc2",
+      "country": ["UKR"],
+      "website": "https://www.csdbio.com.ua/",
+      "contact_email": "d.obukhov@csd.com.ua",
+      "address": "",
+      "description": "CSD BIO is Ukrainian Biobank prone to empower researchers with the tools for advancing precision medicine.",
+      "specimens": {
+        "primary": {
+          "count": 52,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 29,
+          "type": "Plasma"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 52,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 61.0,
+        "n_with_age": 52,
+        "countries": ["UKR"]
+      }
+    },
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": ["USA"],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 28,
+          "type": "Tissue"
+        },
+        "secondary": {
+          "count": 10,
+          "type": "Serum"
+        }
+      },
+      "biomarkers": {
+        "AFP": 6,
+        "HBsAg": 4
+      },
+      "tnm_staged": 28,
+      "treatment_naive": 28,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 60.7,
+        "n_with_age": 28,
+        "countries": ["USA"]
+      }
+    }
+  ],
+  "specimen_sample": [
+    {
+      "specimen_id": "p1q2r3s4t5u6...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": 55,
+      "diagnoses": [
+        "Hepatocellular carcinoma",
+        "Liver cancer",
+        "Hepatitis B"
+      ],
+      "biomarkers": "HBsAg: positive; AFP: elevated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": 2.0
+      },
+      "treatments": "Surgical resection",
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "q2r3s4t5u6v7...",
+      "specimen_type": "Serum",
+      "preservation": "Frozen",
+      "source_site": "Peripheral blood",
+      "sex": "Male",
+      "age": 55,
+      "diagnoses": [
+        "Hepatocellular carcinoma",
+        "Hepatitis B"
+      ],
+      "biomarkers": "AFP: elevated",
+      "tnm": {
+        "T": 2.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 2.0,
+        "grade": 2.0
+      },
+      "treatments": "Surgical resection",
+      "organization": "BIOMEDICA CRO"
+    },
+    {
+      "specimen_id": "r3s4t5u6v7w8...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": 63,
+      "diagnoses": [
+        "Hepatocellular carcinoma",
+        "Liver cancer",
+        "Cirrhosis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 3.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 3.0,
+        "grade": 3.0
+      },
+      "treatments": "Surgical resection",
+      "organization": "CSD Bio"
+    },
+    {
+      "specimen_id": "s4t5u6v7w8x9...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Female",
+      "age": 58,
+      "diagnoses": [
+        "Hepatocellular carcinoma",
+        "Liver cancer",
+        "NASH"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 1.0,
+        "N": 0.0,
+        "M": 0.0,
+        "stage": 1.0,
+        "grade": 2.0
+      },
+      "treatments": "Surgical resection",
+      "organization": "ProteoGenex"
+    },
+    {
+      "specimen_id": "t5u6v7w8x9y0...",
+      "specimen_type": "Tissue",
+      "preservation": "Fixed",
+      "source_site": "Liver",
+      "sex": "Male",
+      "age": 70,
+      "diagnoses": [
+        "Hepatocellular carcinoma",
+        "Liver cancer",
+        "Hepatitis C",
+        "Cirrhosis"
+      ],
+      "biomarkers": "none annotated",
+      "tnm": {
+        "T": 4.0,
+        "N": 1.0,
+        "M": 0.0,
+        "stage": 4.0,
+        "grade": 3.0
+      },
+      "treatments": null,
+      "organization": "BIOMEDICA CRO"
+    }
+  ],
+  "coverage_gaps": {
+    "etiology_documentation": "HBV/HCV status annotated in <10% of specimens — etiology is not tracked in most commercial biobank registries",
+    "Child_Pugh_score": "not annotated in any AminoChain HCC listing — requires direct inquiry with clinical partners",
+    "NASH_etiology": "NASH-driven HCC rare in Eastern European collections; Western cohorts needed",
+    "transplant_explant_exclusion": "resection-only requirement excludes transplant explants — must confirm source procedure at inquiry",
+    "frozen_liver": "predominantly FFPE at commercial suppliers — frozen liver tissue very limited",
+    "consent_scope": "not available in specimen data — requires direct inquiry",
+    "matched_serum": "only BIOMEDICA CRO has confirmed matched pairs (4 donors) — well below N=30 threshold"
+  }
+}

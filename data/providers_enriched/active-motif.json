@@ -1,0 +1,195 @@
+{
+  "id": "active-motif",
+  "name": "Active Motif",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Active Motif"
+  ],
+  "search_queries": [
+    "\"Active Motif\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 8,
+  "publications_indexed": 8,
+  "address_hints": [
+    "Advanced Research Laboratory, Active Motif, 1914 Palomar Oaks Way STE 150, Carlsbad, CA, 92008, USA",
+    "Active Motif, Carlsbad, United States",
+    "Active Motif, Carlsbad, CA",
+    "Active Motif, Inc., Carlsbad, CA 92008, USA",
+    "Advanced Research Laboratory, Active Motif, 1914 Palomar Oaks Way STE 150, Carlsbad, CA 92008, USA"
+  ],
+  "contact_emails": [
+    "bdelatte@activemotif.com"
+  ],
+  "sample_types": [
+    {
+      "type": "cell lines",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "41081756",
+        "38437498"
+      ]
+    },
+    {
+      "type": "CSF",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "34999736"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Cell Line, Tumor",
+      "n_papers": 2
+    },
+    {
+      "area": "Breast Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Leukemia, Myeloid, Acute",
+      "n_papers": 1
+    },
+    {
+      "area": "Xenograft Model Antitumor Assays",
+      "n_papers": 1
+    },
+    {
+      "area": "Prostatic Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Tumor Suppressor Protein p53",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Baylor College of Medicine",
+      "co_pubs": 2
+    },
+    {
+      "name": "Pfizer",
+      "co_pubs": 1
+    },
+    {
+      "name": "Pfizer Oncology",
+      "co_pubs": 1
+    },
+    {
+      "name": "Karolinska Institutet",
+      "co_pubs": 1
+    },
+    {
+      "name": "The University of Texas Southwestern Medical Center",
+      "co_pubs": 1
+    },
+    {
+      "name": "Pfizer Center for Therapeutic Innovation",
+      "co_pubs": 1
+    },
+    {
+      "name": "Foghorn Therapeutics",
+      "co_pubs": 1
+    },
+    {
+      "name": "The University of Texas MD Anderson Cancer Center",
+      "co_pubs": 1
+    },
+    {
+      "name": "University of Colorado Boulder",
+      "co_pubs": 1
+    },
+    {
+      "name": "Institute of Genomics and Integrative Biology",
+      "co_pubs": 1
+    },
+    {
+      "name": "University of Rochester Medical Center",
+      "co_pubs": 1
+    },
+    {
+      "name": "New Brunswick Heart Centre",
+      "co_pubs": 1
+    },
+    {
+      "name": "IEH Laboratories & Consulting Group",
+      "co_pubs": 1
+    },
+    {
+      "name": "University of Texas Medical Branch",
+      "co_pubs": 1
+    },
+    {
+      "name": "Institute of Environmental Health",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41081756",
+      "doi": "10.1038/s41586-021-03994-2",
+      "pmc": "PMC8555464",
+      "year": 2025,
+      "journal": "Elife",
+      "title": "KDM5 demethylases suppress R-loop-mediated 'viral mimicry' and DNA damage in breast cancer cells."
+    },
+    {
+      "pmid": "38437498",
+      "doi": "10.1182/blood.2023022832",
+      "pmc": "PMC7146021",
+      "year": 2024,
+      "journal": "Blood",
+      "title": "BRG1/BRM inhibitor targets AML stem cells and exerts superior preclinical efficacy combined with BET or menin inhibitor."
+    },
+    {
+      "pmid": "38390960",
+      "doi": "10.1038/s41598-021-99291-z",
+      "pmc": "PMC8492686",
+      "year": 2024,
+      "journal": "J Dev Biol",
+      "title": "Developmental Impacts of Epigenetics and Metabolism in COVID-19."
+    },
+    {
+      "pmid": "37938830",
+      "doi": "10.1016/j.molcel.2018.10.017",
+      "pmc": "PMC3124471",
+      "year": 2023,
+      "journal": "Development",
+      "title": "Competition for H2A.Z underlies the developmental impacts of repetitive element de-repression."
+    },
+    {
+      "pmid": "35710818",
+      "doi": "10.1038/ncomms8211",
+      "pmc": "PMC4544751",
+      "year": 2022,
+      "journal": "Commun Biol",
+      "title": "Anchor-based bisulfite sequencing determines genome-wide DNA methylation."
+    },
+    {
+      "pmid": "35645252",
+      "doi": "10.1016/j.sjbs.2021.10.020",
+      "pmc": "PMC8511869",
+      "year": 2022,
+      "journal": "Epigenomes",
+      "title": "Insights into Cardiovascular Defects and Cardiac Epigenome in the Context of COVID-19."
+    },
+    {
+      "pmid": "34898263",
+      "doi": "10.1016/j.jmb.2015.09.014",
+      "pmc": "PMC2245901",
+      "year": 2022,
+      "journal": "J Bacteriol",
+      "title": "Distinct Interaction Mechanism of RNA Polymerase and ResD at Proximal and Distal Subsites for Transcription Activation of Nitrite Reductase in Bacillus subtilis."
+    },
+    {
+      "pmid": "34999736",
+      "doi": "10.1038/s41388-021-02169-7",
+      "pmc": "PMC3355558",
+      "year": 2022,
+      "journal": "Oncogene",
+      "title": "Elevated expression of the colony-stimulating factor 1 (CSF1) induces prostatic intraepithelial neoplasia dependent of epithelial-Gp130."
+    }
+  ]
+}

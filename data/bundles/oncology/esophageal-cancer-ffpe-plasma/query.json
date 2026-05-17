@@ -1,0 +1,36 @@
+{
+  "bundle_id": "esophageal-cancer-ffpe-plasma",
+  "therapeutic_area": "oncology",
+  "query_text": "Esophageal cancer (squamous cell or adenocarcinoma), FFPE with matched plasma. TNM staged, treatment-naive or pre-neoadjuvant. Histology subtype documented. N >= 30 paired.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Esophageal squamous cell carcinoma",
+      "Esophageal adenocarcinoma",
+      "Esophageal cancer",
+      "ESCC",
+      "EAC"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "staging_required": "TNM staged",
+    "histology_required": "squamous cell carcinoma OR adenocarcinoma — histotype must be documented",
+    "preservation": "Fixed",
+    "min_n": 30,
+    "treatment_status": "treatment-naive or pre-neoadjuvant chemotherapy",
+    "matched_pairs": true,
+    "preanalytical": {
+      "tube_type": "K2EDTA",
+      "storage_temp": "-80C"
+    },
+    "clinical_data_required": [
+      "TNM_stage",
+      "histology_subtype",
+      "tumor_location",
+      "neoadjuvant_treatment_status"
+    ],
+    "assay_context": "Esophageal cancer liquid biopsy development — ctDNA panel validation with matched FFPE for variant confirmation"
+  }
+}

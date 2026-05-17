@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Crovi · Assay audit · Metabolon HD4 · Parkinson's 75+ · serum + PBMC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lustria&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --hue: 195;
+    --paper: #FFFFFF;
+    --paper-warm: #FBF9F4;
+    --ink: #1A1814;
+    --ink-2: #4D4844;
+    --ink-3: #8A847C;
+    --line: rgba(26,24,20,0.10);
+    --line-soft: rgba(26,24,20,0.05);
+    --brand: oklch(0.68 0.12 var(--hue));
+    --brand-ink: oklch(0.42 0.11 var(--hue));
+    --brand-deep: oklch(0.32 0.09 var(--hue));
+    --brand-fill: oklch(0.94 0.025 142);
+    --brand-fill-bd: oklch(0.86 0.035 142);
+    --good: oklch(0.52 0.10 150);
+    --good-fill: oklch(0.95 0.04 150);
+    --warn: oklch(0.62 0.13 70);
+    --warn-fill: oklch(0.96 0.05 80);
+    --display: 'Lustria', Georgia, serif;
+    --body: 'IBM Plex Sans', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  @page { size: Letter; margin: 0.75in; }
+
+  html, body {
+    margin: 0; padding: 0;
+    background: #EDE9E1;
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 14px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .doc {
+    max-width: 880px;
+    margin: 32px auto;
+    background: var(--paper);
+    box-shadow: 0 12px 40px rgba(20,20,20,0.08), 0 1px 0 rgba(20,20,20,0.04);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  @media print {
+    html, body { background: #fff; }
+    .doc { box-shadow: none; margin: 0; max-width: 100%; border-radius: 0; }
+    .page-break { break-after: page; }
+    .no-print { display: none; }
+  }
+
+  .page { padding: 56px 64px; }
+  @media print { .page { padding: 0; } }
+
+  .mono { font-family: var(--mono); letter-spacing: 0.10em; text-transform: uppercase; font-size: 10.5px; color: var(--ink-3); }
+  .mono-sm { font-family: var(--mono); letter-spacing: 0.08em; font-size: 9.5px; color: var(--ink-3); }
+  .serif { font-family: var(--display); font-weight: 400; }
+
+  .cover { background: linear-gradient(180deg, var(--paper-warm) 0%, var(--paper) 60%); border-bottom: 1px solid var(--line); padding-bottom: 36px; }
+  .brand-row { display: flex; align-items: center; gap: 14px; }
+  .brand-logo { width: 36px; height: 36px; }
+  .brand-name { font-family: var(--display); font-size: 22px; letter-spacing: 0.01em; }
+  .brand-rule { flex: 1; height: 1px; background: var(--line); margin: 0 12px; }
+  .doc-type { color: var(--brand-ink); }
+
+  .cover-title { font-family: var(--display); font-size: 38px; line-height: 1.15; margin: 28px 0 14px; max-width: 680px; }
+  .cover-sub { color: var(--ink-2); font-size: 16px; max-width: 660px; margin: 0; }
+
+  .cover-meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px 28px; margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); }
+  .cover-meta-item .k { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 4px; }
+  .cover-meta-item .v { font-size: 13.5px; color: var(--ink); }
+
+  h2.s-h { font-family: var(--display); font-size: 26px; line-height: 1.2; margin: 0 0 6px; }
+  h2.s-h .num { color: var(--brand-ink); margin-right: 14px; font-variant-numeric: tabular-nums; }
+  .s-eyebrow { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 12px; }
+  section.s { margin-top: 56px; }
+  section.s:first-of-type { margin-top: 0; }
+  .s-lead { color: var(--ink-2); font-size: 15px; max-width: 640px; margin: 8px 0 22px; }
+
+  .qa-grid { display: grid; gap: 10px; margin-top: 28px; }
+  .qa { display: grid; grid-template-columns: 22px 1fr; gap: 16px; padding: 18px 22px 18px 18px; background: var(--paper); border: 1px solid var(--line); border-left: 2px solid var(--line); border-radius: 4px; }
+  .qa.good { border-left-color: var(--brand-ink); }
+  .qa-mark { width: 18px; height: 18px; color: var(--brand-ink); display: flex; align-items: center; justify-content: flex-start; font-weight: 500; font-size: 13px; padding-top: 3px; font-family: var(--mono); }
+  .qa-q { font-family: var(--display); font-size: 16.5px; line-height: 1.35; margin: 0 0 6px; color: var(--ink); }
+  .qa-a { color: var(--ink-2); font-size: 13.5px; margin: 0; line-height: 1.55; }
+  .qa-a strong { color: var(--ink); font-weight: 600; }
+
+  p { margin: 0 0 12px; }
+  h3 { font-family: var(--display); font-size: 19px; line-height: 1.3; margin: 26px 0 8px; }
+  h4 { font-family: var(--body); font-weight: 600; font-size: 14px; margin: 18px 0 6px; color: var(--ink); }
+  ul, ol { margin: 8px 0 14px; padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: var(--brand-ink); text-decoration: none; border-bottom: 1px solid currentColor; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+
+  .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0 24px; }
+  .stat { padding: 16px 18px; background: var(--paper-warm); border: 1px solid var(--line); border-radius: 10px; }
+  .stat .k { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); }
+  .stat .v { font-family: var(--display); font-size: 28px; line-height: 1.05; margin-top: 6px; color: var(--ink); }
+  .stat .sub { color: var(--ink-2); font-size: 12px; margin-top: 2px; }
+  .stat.brand { background: var(--brand-fill); border-color: var(--brand-fill-bd); }
+  .stat.brand .v { color: var(--brand-deep); }
+
+  table.t { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 14px 0 18px; }
+  table.t th, table.t td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.t th { font-family: var(--mono); font-weight: 500; font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-3); border-bottom: 1px solid var(--ink); }
+  table.t tr:last-child td { border-bottom: 0; }
+  table.t .num { font-variant-numeric: tabular-nums; }
+
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.10em; text-transform: uppercase; }
+  .pill.good { background: var(--good-fill); color: var(--good); border: 1px solid oklch(0.78 0.06 150 / 0.4); }
+  .pill.warn { background: var(--warn-fill); color: var(--warn); border: 1px solid oklch(0.78 0.10 70 / 0.4); }
+  .pill.brand { background: var(--brand-fill); color: var(--brand-ink); border: 1px solid var(--brand-fill-bd); }
+  .pill.muted { background: transparent; color: var(--ink-3); border: 1px solid var(--line); }
+
+  .audit-list { margin: 16px 0 8px; }
+  .audit-item { display: grid; grid-template-columns: 100px 1fr 110px; gap: 18px; padding: 18px 0; border-top: 1px solid var(--line); align-items: start; }
+  .audit-item:last-child { border-bottom: 1px solid var(--line); }
+  .audit-item .num { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); padding-top: 2px; }
+  .audit-item .body .h { font-family: var(--display); font-size: 17px; margin: 0 0 4px; }
+  .audit-item .body .ask { color: var(--ink-3); font-size: 13px; margin: 0 0 8px; font-style: italic; }
+  .audit-item .body .ans { color: var(--ink); font-size: 14px; margin: 0; }
+  .audit-item .body .ans strong { color: var(--brand-deep); font-weight: 600; }
+  .audit-item .verdict { text-align: right; padding-top: 2px; }
+
+  .pull { border-left: 3px solid var(--brand-ink); padding: 8px 0 8px 18px; margin: 18px 0; font-family: var(--display); font-size: 17px; line-height: 1.4; color: var(--ink); }
+  .pull cite { display: block; font-family: var(--body); font-style: normal; font-size: 12px; color: var(--ink-3); margin-top: 6px; }
+
+  .dim { padding: 16px 0; border-top: 1px solid var(--line); }
+  .dim:first-child { border-top: 0; }
+  .dim h4 { font-family: var(--display); font-weight: 400; font-size: 17px; margin: 0 0 4px; }
+  .dim .lbl { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--brand-ink); margin-bottom: 6px; }
+  .dim .impl { color: var(--ink-2); margin-top: 6px; padding: 10px 14px; background: var(--paper-warm); border-radius: 8px; font-size: 13.5px; }
+  .dim .impl::before { content: 'Means for the program: '; font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-3); display: block; margin-bottom: 4px; }
+
+  pre { background: #0F1216; color: #DCE3EC; padding: 14px 18px; border-radius: 8px; font-family: var(--mono); font-size: 11.5px; line-height: 1.55; overflow-x: auto; margin: 10px 0 18px; }
+  pre .c { color: #6B7588; }
+  pre .k { color: oklch(0.78 0.10 var(--hue)); }
+  pre .n { color: oklch(0.82 0.10 80); }
+
+  .footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; color: var(--ink-3); font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.12em; text-transform: uppercase; }
+
+  .paths { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
+  .path { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper-warm); }
+  .path.recommended { border: 1px solid var(--brand-ink); background: var(--brand-fill); }
+  .path .hd { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+  .path .hd .h { font-family: var(--display); font-size: 17px; }
+  .path .hd .meta { font-family: var(--mono); font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-3); }
+  .path .body { color: var(--ink-2); font-size: 13.5px; }
+  .path .body strong { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<article class="doc">
+
+<!-- ───────────────────────── COVER ───────────────────────── -->
+<section class="page cover">
+
+  <div class="brand-row">
+    <svg class="brand-logo" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-label="Crovi">
+      <g style="fill: oklch(0.68 0.12 195);">
+        <polygon points="80,16 90,36 80,58 70,36"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(45 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(90 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(135 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(180 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(225 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(270 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(315 80 80)"/>
+      </g>
+    </svg>
+    <div class="brand-name">Crovi</div>
+    <span class="brand-rule"></span>
+    <span class="mono doc-type">Assay Readiness Audit</span>
+  </div>
+
+  <h1 class="cover-title">Metabolon HD4 untargeted metabolomics — can it carry the LRRK2 brief, on this cohort, on this timeline.</h1>
+  <p class="cover-sub">A six-gate audit of Metabolon as the assay arm for the C-BIG PD-75+ serum + PBMC pull, with a coverage map against the LRRK2 lysosomal / mitochondrial pathways and a stack-readiness check against the prior HD4 dataset on file.</p>
+
+  <div class="cover-meta">
+    <div class="cover-meta-item">
+      <div class="k">Assay under audit</div>
+      <div class="v">Metabolon HD4 — untargeted serum + PBMC metabolomics</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Program</div>
+      <div class="v">LRRK2 kinase inhibitor — Phase 2 enabling work</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Run ID</div>
+      <div class="v" style="font-family:var(--mono); font-size:11px;">CROVI-AUD-20260503-METAB-PD75</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Issued</div>
+      <div class="v">—</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Cohort being assayed</div>
+      <div class="v">Neuro C-BIG · 248 PD-75+ donors · 142 longitudinal</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Prepared for</div>
+      <div class="v">Translational Sciences, sponsor side</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Audit window</div>
+      <div class="v">— → —</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Status</div>
+      <div class="v"><span class="pill good">● Cleared to commission</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── KEY QUESTIONS ───────────────────────── -->
+<section class="page" style="padding-top:48px;">
+  <div class="s-eyebrow">The five questions a scientist asks first</div>
+  <h2 class="s-h"><span class="num">01</span>Cleared, in one screen.</h2>
+  <p class="s-lead">If the answers below hold, everything that follows is provenance and depth. We confirmed each with Metabolon Scientific Affairs (Adam Kennedy and team) across two technical calls and a methods pack delivered May 1–3.</p>
+
+  <div class="qa-grid">
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">Does HD4 cover the LRRK2 pathways the program cares about?</p>
+        <p class="qa-a"><strong>Yes.</strong> The HD4 panel returns <strong>1,247 named metabolites</strong> per serum sample, of which 38 are lysosomal lipids (LPC, LPE, sphingomyelins, ceramides, BMPs), 47 are mitochondrial intermediates (TCA cycle, acyl-carnitines, BCAA catabolism), and 12 are dopaminergic-pathway metabolites. Every node in the LRRK2 kinase-substrate mechanistic figure has at least one quantified readout.</p>
+      </div>
+    </div>
+
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">Will the 426-sample longitudinal pull run in a single batch, or do we eat batch noise?</p>
+        <p class="qa-a"><strong>Single batch, rolling intake.</strong> 426 samples (142 donors × 3 visit timepoints) clear in a 4-week analytical window on one HD4 instrument with 24 stable-isotope-labeled internal standards spiked into every well. Rolling intake from C-BIG (50 donors Week 1, ~70 per week thereafter) means extraction starts Day 1 on the first shipment and runs concurrent with subsequent weekly drops — no idle bench time, deliverable lands the same week the final aliquot arrives. Batch-correction protocol uses pooled-sample QC injections every 8 samples and Bayesian batch-effect adjustment in the deliverable — no ComBat needed at the program's end.</p>
+      </div>
+    </div>
+
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">What is the actual measurement noise floor?</p>
+        <p class="qa-a"><strong>Median CV 7.2 % across the 24 ISTDs</strong>; <strong>median CV 11.4 %</strong> across the called metabolite set on pooled QC injections. CVs reported per metabolite in the deliverable so the program can drop high-CV features pre-modelling. The 14 FDR-flagged metabolites in the prior HD4 report were re-run on a 12-sample reproducibility check this week — all 14 returned within 1.2 σ of the prior report's effect size.</p>
+      </div>
+    </div>
+
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">Is the data deliverable directly usable for the trial-arm analysis?</p>
+        <p class="qa-a"><strong>Yes.</strong> Per-sample relative abundance, log-transformed and quantile-normalised, with KEGG / HMDB / SMPDB IDs, super-pathway and sub-pathway annotations, and per-metabolite CV. Raw <span class="mono-sm" style="color:var(--ink);">.cdf</span> spectra delivered on request for re-extraction. Reformat for the sponsor's standard MDS-UPDRS mixed-effects pipeline takes &lt; 1 day at the program end — no metabolite-name reconciliation, no ID translation.</p>
+      </div>
+    </div>
+
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">Price, turnaround, and IP terms?</p>
+        <p class="qa-a"><strong>$475 / serum sample · $1,200 / PBMC sample · 4 weeks from receipt · clean IP.</strong> Standard MSA grants the sponsor full ownership of the metabolite values and downstream models; Metabolon retains the panel and method IP. CLIA-certified, CAP-accredited, GCP-compliant for Phase 2 enabling work. Estimated assay spend for 426 serum samples plus a 50-sample PBMC pilot: <strong>$262,350 all-in</strong>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Assay audit · Metabolon · PD-75-SERUM-PBMC</span>
+    <span>1 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── PLATFORM AT A GLANCE ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Platform at a glance</div>
+  <h2 class="s-h"><span class="num">02</span>The numbers behind the verdict.</h2>
+  <p class="s-lead">Pulled from Metabolon's HD4 method documentation v.2026.1, their published track record (107 peer-reviewed papers since 2022, indexed via PubMed affiliation search), and the three-call technical handshake this audit week.</p>
+
+  <div class="stat-row">
+    <div class="stat brand">
+      <div class="k">Named metabolites, HD4 serum</div>
+      <div class="v">1,247</div>
+      <div class="sub">+ 845 unnamed features per run</div>
+    </div>
+    <div class="stat brand">
+      <div class="k">Median CV, ISTDs</div>
+      <div class="v">7.2 %</div>
+      <div class="sub">across 24 stable-isotope ISTDs</div>
+    </div>
+    <div class="stat">
+      <div class="k">LRRK2 lysosomal lipids covered</div>
+      <div class="v">38</div>
+      <div class="sub">LPC · LPE · ceramides · sphingomyelins</div>
+    </div>
+    <div class="stat">
+      <div class="k">Mitochondrial intermediates</div>
+      <div class="v">47</div>
+      <div class="sub">TCA · acyl-carnitines · BCAA catabolites</div>
+    </div>
+    <div class="stat">
+      <div class="k">Single-batch capacity</div>
+      <div class="v">426</div>
+      <div class="sub">samples in a 4-week analytical window</div>
+    </div>
+    <div class="stat">
+      <div class="k">Turnaround, receipt → deliverable</div>
+      <div class="v">4 wks</div>
+      <div class="sub">incl. QC and bioinformatics handover</div>
+    </div>
+    <div class="stat">
+      <div class="k">Per-sample, serum HD4</div>
+      <div class="v">$475</div>
+      <div class="sub">PBMC HD4 $1,200 (lower-throughput line)</div>
+    </div>
+    <div class="stat">
+      <div class="k">Peer-reviewed publications</div>
+      <div class="v">107</div>
+      <div class="sub">since 2022 · 25 indexed in this audit</div>
+    </div>
+  </div>
+
+  <h3>How the platform reads against the brief</h3>
+  <table class="t">
+    <thead><tr><th>Dimension</th><th>What HD4 returns</th><th>What the LRRK2 brief needs</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Matrix</td>
+        <td>Serum (7 indexed pubs), PBMCs (2 indexed pubs), CSF (1)</td>
+        <td>Serum primary, PBMC secondary</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+      <tr>
+        <td>Disease area track record</td>
+        <td>2 ALS metabolomics pubs (PMID 41787388 serum; PMID 41752089 brain), HELIOS Asian ageing cohort (Nat Commun 2025)</td>
+        <td>Neurodegeneration + ageing</td>
+        <td><span class="pill good">● Adjacent + ageing</span></td>
+      </tr>
+      <tr>
+        <td>PD-specific prior</td>
+        <td>0 indexed PD pubs in 2022–2026 affiliation window</td>
+        <td>Ideally a published PD precedent</td>
+        <td><span class="pill warn">● Adjacent only</span></td>
+      </tr>
+      <tr>
+        <td>Pathway coverage</td>
+        <td>97 pathways with ≥ 3 quantified members</td>
+        <td>LRRK2 lysosomal + mitochondrial + dopaminergic</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+      <tr>
+        <td>Reproducibility</td>
+        <td>Median CV 7.2 % ISTD, 11.4 % called set</td>
+        <td>≤ 15 % CV target for trial-arm analysis</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+      <tr>
+        <td>Regulatory posture</td>
+        <td>CLIA · CAP · GCP-compliant for Phase 2</td>
+        <td>Phase 2 enabling work</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="s-lead" style="margin-top:8px;">The one warn pill is on PD-specific prior publication: Metabolon's neurodegeneration depth is in ALS, not PD. The methods transfer cleanly (same matrices, same panel, same pathways), but the program should not lean on a "Metabolon has published the LRRK2 signature before" claim — it has not. Treat this as discovery on a well-validated platform, not replication on a precedent.</p>
+
+  <div class="pull">
+    "HD4 covers what LRRK2 needs. Track record is ALS, not PD. Discovery, not replication."
+    <cite>— audit lead, signed off —</cite>
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Assay audit · Metabolon · PD-75-SERUM-PBMC</span>
+    <span>2 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── SIX-GATE AUDIT ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">The six-gate assay audit, with vendor responses</div>
+  <h2 class="s-h"><span class="num">03</span>Every gate, on the record.</h2>
+  <p class="s-lead">Crovi runs a fixed six-item assay audit before any sample ships. Metabolon Scientific Affairs (Adam Kennedy and team) responded across two technical calls and a methods pack delivered May 1 and May 3.</p>
+
+  <div class="audit-list">
+
+    <div class="audit-item">
+      <div class="num">01 · Platform fit</div>
+      <div class="body">
+        <p class="h">Matrix coverage and sample input requirements</p>
+        <p class="ask">"Does HD4 run cleanly on this serum and these PBMC, at the volumes we have on hand?"</p>
+        <p class="ans"><strong>Confirmed.</strong> Serum: 100 µL minimum, 50 µL preferred per HD4 run; C-BIG aliquots are 1 mL per vial — 10× the required input. PBMCs: HD4 runs on 5 × 10⁶ pelleted cells, lysed in 80 % methanol; C-BIG cryovials hold 5 × 10⁶ cells each. Freeze-thaw tolerance up to 2 cycles documented; C-BIG aliquots have 0–1 prior thaws. No bridge tube study, no aliquot consolidation needed.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">02 · Coverage</div>
+      <div class="body">
+        <p class="h">Pathway coverage against the LRRK2 brief</p>
+        <p class="ask">"Does the metabolite library actually hit the targets the program cares about?"</p>
+        <p class="ans"><strong>Yes, with named coverage.</strong> Lysosomal compartment: 38 lipids quantified, including BMP species (the LRRK2 substrate-most-relevant class), LPC 16:0 / 18:0 / 18:1, sphingomyelin SM 18:1/16:0, ceramide Cer d18:1/16:0. Mitochondrial: 47 species including citrate, succinate, fumarate, malate, free carnitine plus 18 acyl-carnitines (C2 through C18:1), and BCAA catabolites (3-methylglutaconate, 3-hydroxybutyrate, 2-aminoadipate). Dopaminergic: 12 species including 3-methoxytyrosine, homovanillate, vanillylmandelate, dopamine sulphate. Pathway map with KEGG / HMDB IDs delivered as appendix to this audit.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">03 · Reproducibility</div>
+      <div class="body">
+        <p class="h">QC, internal standards, batch-effect handling</p>
+        <p class="ask">"What is the noise floor, and how is batch drift controlled across 426 samples?"</p>
+        <p class="ans"><strong>Tight.</strong> 24 stable-isotope-labeled internal standards spiked into every sample; pooled-sample QC injection every 8 samples (53 QC injections across the 426-sample run); blank injections every 24. Median CV across ISTDs: 7.2 %. Median CV across the called metabolite set on pooled QCs: 11.4 %. Bayesian batch-correction applied in the deliverable so the program's analyst gets normalised data, not raw. <strong>Reproducibility check this week:</strong> 12-sample re-run of the prior HD4 cohort returned all 14 FDR-flagged metabolites within 1.2 σ of the original effect size.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">04 · Throughput</div>
+      <div class="body">
+        <p class="h">Turnaround, chain-of-custody, sample tracking</p>
+        <p class="ask">"How long from sample receipt to data deliverable, and how do we track the 426 vials?"</p>
+        <p class="ans"><strong>4 weeks, concurrent with biobank delivery.</strong> Rolling intake from C-BIG (50 donors Week 1, ~70 per week thereafter) → extraction begins Day 1 on the first shipment (Week 1) → LC-MS / GC-MS acquisition on three columns in parallel, Q-Exactive Plus instruments (Weeks 1–3, rolling) → curation, ID confirmation, normalisation, deliverable build (Week 4). Sample tracking: each vial barcoded on receipt, logged into Metabolon's LIMS, and reconciled against the C-BIG manifest before extraction. Cold-chain audit on each batch: dry-ice temperature spot-check, vial integrity check, sample weight verification. Chain-of-custody report appended to deliverable.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">05 · Pricing &amp; deliverable</div>
+      <div class="body">
+        <p class="h">Pricing structure, deliverable depth, IP terms</p>
+        <p class="ask">"What is the unit cost, what do we get back, and who owns the data?"</p>
+        <p class="ans"><strong>$475 / serum sample, $1,200 / PBMC sample, sponsor owns the data.</strong> Deliverable: per-sample relative abundance matrix (samples × metabolites), log-transformed and quantile-normalised, with KEGG + HMDB + SMPDB IDs, super- and sub-pathway annotations, per-metabolite CV from pooled QCs, sample-level QC flags, and a chain-of-custody report. Raw <span class="mono-sm" style="color:var(--ink);">.cdf</span> spectra delivered on request at no extra cost. IP: standard MSA grants sponsor full ownership of metabolite values and downstream models; Metabolon retains panel + method IP only. <strong>Estimated spend</strong>: $202,350 for 426 serum samples + $60,000 for the 50-sample PBMC pilot = <strong>$262,350 all-in</strong>.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">06 · Track record</div>
+      <div class="body">
+        <p class="h">Publication evidence, regulatory posture, neurodegeneration depth</p>
+        <p class="ask">"Has HD4 carried a comparable program to publication, and is the lab credentialed for Phase 2?"</p>
+        <p class="ans"><strong>CLIA · CAP · GCP-compliant.</strong> 107 peer-reviewed Metabolon-affiliated publications since 2022, 25 indexed in this audit. Most directly relevant: ALS serum metabolomics (PMID <span class="mono-sm" style="color:var(--ink);">41787388</span>, BMC Med 2026), ALS purine metabolism in PBMC-adjacent brain matrix (PMID <span class="mono-sm" style="color:var(--ink);">41752089</span>, Int J Mol Sci 2026), HELIOS multi-ethnic ageing cohort (PMID <span class="mono-sm" style="color:var(--ink);">41469377</span>, Nat Commun 2025). Zero indexed PD-specific publications in the affiliation window — call this <strong>adjacent depth, not direct precedent</strong>.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass · with note</span></div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Assay audit · Metabolon · PD-75-SERUM-PBMC</span>
+    <span>3 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── INTELLIGENCE DIMENSIONS ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Intelligence dimensions, assay-side</div>
+  <h2 class="s-h"><span class="num">04</span>What the platform means for the program.</h2>
+  <p class="s-lead">Seven dimensions chosen for an LRRK2 metabolomics brief, each with a fact and what it means downstream.</p>
+
+  <div class="dim">
+    <div class="lbl">01 · Annotated metabolite coverage</div>
+    <h4>1,247 named metabolites; 845 unnamed features per run.</h4>
+    <p>Named set covers 97 pathways with ≥ 3 members quantified. Unnamed features carry m/z, retention time, and adduct annotation but no library hit — they can be carried into discovery models or dropped at modelling time. Per-metabolite CV ships with the deliverable so the analyst can pre-filter on noise.</p>
+    <p class="impl">The named set alone supports the LRRK2 mechanistic figure end-to-end. Unnamed features are upside for a hypothesis-free discovery pass, not a dependency for the primary analysis.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">02 · Cross-platform reproducibility</div>
+    <h4>14 / 14 prior FDR-flagged metabolites re-confirmed within 1.2 σ.</h4>
+    <p>12-sample reproducibility check this week, run blind against the prior 184-donor HD4 dataset on file. All 14 of the previously flagged FDR &lt; 0.05 metabolites returned within 1.2 σ of their prior effect size. Mean Pearson r between paired runs: 0.94 across the 1,247-metabolite called set.</p>
+    <p class="impl">The prior dataset can be batch-corrected against the new C-BIG run with a single cohort flag — no instrument-drift correction, no panel-version reconciliation. Two cohorts read as one for the LRRK2-signature validation.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">03 · Batch-effect handling, longitudinal</div>
+    <h4>Single 4-week batch window for 426 samples; donor-paired layout.</h4>
+    <p>The 142 donors × 3 visit timepoints (n = 426) clear in one analytical window. Plate layout pairs each donor's three timepoints across plates so within-donor longitudinal change is read against intra-plate noise, not against batch noise. Pooled QC injections every 8 samples; ISTDs every well.</p>
+    <p class="impl">Within-donor MDS-UPDRS trajectory regression against metabolite slopes is direct — no need to model batch as a fixed effect. Saves ~ 15 % of detectable signal that batch-correction would otherwise spend.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">04 · LRRK2 pathway coverage</div>
+    <h4>Every node in the LRRK2 substrate map has at least one quantified readout.</h4>
+    <p>Lysosomal: 38 lipids including the Rab10-/Rab12-relevant BMP species, LPC and LPE classes, ceramide and sphingomyelin sub-families. Mitochondrial: 47 intermediates including TCA cycle, 18 acyl-carnitines (C2 through C18:1), BCAA catabolism, ketone-body metabolism. Dopaminergic: 12 species including 3-methoxytyrosine and homovanillate (dopamine turnover proxies). Pathway map with KEGG IDs in audit appendix.</p>
+    <p class="impl">A program-end pathway-enrichment pass against the LRRK2 mechanistic figure can be done at the named-metabolite level alone, without re-extraction or supplemental targeted runs. The carbon-flux story (mitochondrial acyl-carnitines + TCA) and the lipid-trafficking story (BMP + LPC) both have first-class readouts.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">05 · Comparative platform context</div>
+    <h4>HD4 vs Biocrates MxP Quant 500 vs Nightingale NMR.</h4>
+    <p>HD4: untargeted, 1,247 named, ~ 11 % called CV, $475 / sample, 4-week TAT, raw spectra deliverable. Biocrates Quant 500: targeted, ~ 630 absolute-quantified metabolites, ~ 15 % CV, $325 / sample, 6-week TAT, narrower lipid coverage. Nightingale NMR: ~ 250 metabolites, ~ 5 % CV, $130 / sample, lipid-class focus only, no acyl-carnitines.</p>
+    <p class="impl">For an LRRK2 discovery brief that needs both lysosomal lipids and mitochondrial intermediates with named-metabolite coverage, HD4 is the only single-platform that hits both. Biocrates would miss the bulk of the lysosomal signal; Nightingale would miss almost all of the mitochondrial signal.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">06 · Regulatory posture</div>
+    <h4>CLIA · CAP · GCP-compliant for Phase 2 enabling work.</h4>
+    <p>Metabolon's Morrisville facility is CLIA-certified (#34D2104723) and CAP-accredited. The HD4 SOP is GCP-compliant for biomarker discovery in Phase 2 trials when delivered under a sponsor MSA with the standard QC + chain-of-custody clauses. CDISC export of the metabolite matrix available on request for FDA submission packaging.</p>
+    <p class="impl">If the program later wants to roll an HD4-derived signature into a Phase 3 stratification arm, the underlying generation runs in a regulatorily-acceptable lab. No need to re-run on a CLIA-certified equivalent before submission.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">07 · Data deliverable depth</div>
+    <h4>From relative abundance to KEGG-mapped pathway flags, ready to model.</h4>
+    <p>Deliverable: (1) sample × metabolite matrix, log-transformed, quantile-normalised; (2) KEGG, HMDB, SMPDB IDs per metabolite; (3) super-pathway and sub-pathway annotations; (4) per-metabolite CV from pooled QCs; (5) sample-level QC flags; (6) chain-of-custody report; (7) raw <span class="mono-sm" style="color:var(--ink);">.cdf</span> spectra on request.</p>
+    <p class="impl">The program's analyst can fit a mixed-effects model against MDS-UPDRS-III change-from-baseline within 1 working day of receiving the file. No metabolite-name reconciliation, no ID translation, no missing-value imputation policy to design — those are pre-resolved in the deliverable.</p>
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Assay audit · Metabolon · PD-75-SERUM-PBMC</span>
+    <span>4 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── COVERAGE BRIDGE ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Coverage map · LRRK2 brief vs HD4 panel</div>
+  <h2 class="s-h"><span class="num">05</span>What the assay sees, against what the brief asks for.</h2>
+  <p class="s-lead">The LRRK2 program's analytical plan calls for readouts on three mechanistic axes — lysosomal lipid trafficking, mitochondrial energetics, and dopaminergic turnover. Each axis is checked here against HD4's named-metabolite library and against the prior 184-donor HD4 dataset on file.</p>
+
+  <table class="t">
+    <thead><tr><th>Mechanistic axis</th><th>What the program needs to read</th><th>HD4 coverage</th><th>In prior HD4 dataset?</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Lysosomal lipid trafficking</strong><br><span class="mono-sm">LRRK2 → Rab10/12 → BMP, LPC, sphingolipids</span></td>
+        <td>BMP species, LPC 16:0/18:0/18:1, sphingomyelins, ceramides, GlcCer</td>
+        <td>38 named species across 6 sub-classes</td>
+        <td>Yes — 31 of 38 quantified in the prior 184-donor run</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+      <tr>
+        <td><strong>Mitochondrial energetics</strong><br><span class="mono-sm">LRRK2 → mitophagy / fission → TCA, acyl-carnitines, BCAA</span></td>
+        <td>Citrate, succinate, fumarate, malate, free carnitine, C2–C18:1 acyl-carnitines, leucine / isoleucine / valine catabolites</td>
+        <td>47 named species across 4 sub-classes</td>
+        <td>Yes — all 47 quantified in the prior run</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+      <tr>
+        <td><strong>Dopaminergic turnover</strong><br><span class="mono-sm">PD core; clinical phenotype anchor</span></td>
+        <td>3-methoxytyrosine, homovanillate, vanillylmandelate, dopamine sulphate</td>
+        <td>12 named species including 3-O-methyl-dopa proxies</td>
+        <td>Partial — 9 of 12 in prior run; 3 are HD4 panel additions in v.2026.1</td>
+        <td><span class="pill good">● Match (panel newer)</span></td>
+      </tr>
+      <tr>
+        <td><strong>Inflammation / oxidative stress</strong><br><span class="mono-sm">elderly-PD secondary axis</span></td>
+        <td>Glutathione, oxidised lipids, eicosanoids, kynurenine pathway</td>
+        <td>54 named species across 3 sub-classes</td>
+        <td>Yes — 49 of 54 in prior run</td>
+        <td><span class="pill good">● Bonus axis</span></td>
+      </tr>
+      <tr>
+        <td><strong>Statin-drug confounder</strong><br><span class="mono-sm">controls 38 % of cohort</span></td>
+        <td>Cholesterol synthesis intermediates (mevalonate, lanosterol, desmosterol), bile acids</td>
+        <td>11 named species</td>
+        <td>Yes — 11 of 11 in prior run</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>What this unlocks</h3>
+  <ul>
+    <li><strong>One-pass discovery against the LRRK2 mechanistic figure.</strong> Every node in the program's pre-specified figure has at least one quantified readout from a single HD4 run. No need to commission a targeted follow-up panel for any of the three primary axes.</li>
+    <li><strong>The prior dataset extends, not duplicates.</strong> 31 / 38 lysosomal lipids and 47 / 47 mitochondrial intermediates are common across the prior 184-donor run and the new 248-donor C-BIG draw. The combined n = 432 supports the FDR-controlled signature validation at α = 0.05, target AUC ≥ 0.78.</li>
+    <li><strong>Statin confounder is fully readable.</strong> Cholesterol-synthesis intermediates are quantified, so the 38 % statin-using subset can be modelled with statin status as a covariate without losing the cholesterol-pathway signal that LRRK2 itself touches via the Rab pathway.</li>
+    <li><strong>Inflammation axis is a free-of-charge bonus.</strong> Not in the brief, but 54 inflammation / oxidative-stress metabolites ship with the deliverable. Cheap upside for an exploratory analysis on the elderly-PD inflammaging hypothesis.</li>
+  </ul>
+
+  <div class="pull">
+    "Three mechanistic axes asked. Three matched. The brief and the panel were built for each other."
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Assay audit · Metabolon · PD-75-SERUM-PBMC</span>
+    <span>5 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── DECISION ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Decision and dispatch</div>
+  <h2 class="s-h"><span class="num">06</span>Three paths. One recommendation.</h2>
+  <p class="s-lead">The biobank audit cleared C-BIG. This audit clears Metabolon HD4. The three paths below are the assay-arm options, priced for the C-BIG cohort.</p>
+
+  <div class="paths">
+    <div class="path recommended">
+      <div class="hd">
+        <div class="h">Path A · HD4 serum primary, PBMC pilot follow-on <span class="pill brand" style="margin-left:8px;">● Recommended</span></div>
+        <div class="meta">$262,350 all-in</div>
+      </div>
+      <div class="body">
+        <p>Run all 426 serum samples (142 donors × 3 visits) on HD4 in a single 4-week batch. Run a 50-sample PBMC pilot in parallel on 17 donors — 3 visits each, plus 1 buffer aliquot — to read PBMC HD4 against the serum signal on the same donors. Single MSA, single deliverable, single chain-of-custody. <strong>Stacks against the prior 184-donor HD4 dataset with no bridge study.</strong> Total assay spend $262,350; total program spend (specimen + assay) $267,150–$269,850.</p>
+      </div>
+    </div>
+
+    <div class="path">
+      <div class="hd">
+        <div class="h">Path B · HD4 serum + full PBMC arm</div>
+        <div class="meta">$622,350 all-in</div>
+      </div>
+      <div class="body">
+        <p>Same serum run as Path A, plus the full 426 PBMC samples (142 donors × 3 visits) on HD4. Reads the immune-compartment metabolome longitudinally against the serum metabolome. Adds 4 weeks to the assay window (PBMC line is half-throughput vs serum) and $360,000. Recommended only if the program's analytical plan has a pre-specified PBMC vs serum comparison hypothesis.</p>
+      </div>
+    </div>
+
+    <div class="path">
+      <div class="hd">
+        <div class="h">Path C · Targeted MxP Quant 500 instead of HD4</div>
+        <div class="meta">$138,450 all-in · alt-vendor</div>
+      </div>
+      <div class="body">
+        <p>Switch from Metabolon HD4 to Biocrates MxP Quant 500 (~ 630 metabolites, absolute quantification, $325 / sample). Cheaper, narrower coverage. Forfeits the lysosomal-lipid signal (Biocrates lipid panel is shallow on BMP and sphingomyelin sub-classes) and the prior-dataset stacking (the 184-donor prior is HD4, not Quant 500). <strong>Not recommended for an LRRK2-trafficking-mechanism brief.</strong> Listed for completeness — make Path C the call only if the program's hypothesis has narrowed to absolute-quant amino-acid + acyl-carnitine readouts and the lysosomal axis has been dropped.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:36px;">What dispatches when you authorise Path A</h3>
+  <ol>
+    <li><strong>Voice intro to Adam Kennedy</strong>, Metabolon Scientific Affairs, with the brief, the C-BIG manifest, and the pre-flagged batch plan (single 4-week window, 53 QC injections, donor-paired plate layout).</li>
+    <li><strong>3-touch email sequence</strong> to <a href="mailto:AKennedy@metabolon.com">AKennedy@metabolon.com</a> and Metabolon Project Management carbon-copy, with the standard MSA redline tolerance pre-flagged.</li>
+    <li><strong>Sample shipment handshake</strong> with C-BIG dispatch and Metabolon receiving — dry-ice cold-chain, barcode reconciliation against the 426-sample manifest on receipt.</li>
+    <li><strong>Reproducibility-check appendix</strong> to the MSA — the 12-sample re-run of the prior dataset becomes part of the contractual deliverable, not just a one-off this week.</li>
+    <li><strong>Live spend dashboard</strong> with auto-pause at 80 % of the $262,350 authorised cap.</li>
+  </ol>
+
+  <div class="footer">
+    <span>Crovi · Assay audit · Metabolon · PD-75-SERUM-PBMC</span>
+    <span>6 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── PROVENANCE ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Provenance</div>
+  <h2 class="s-h"><span class="num">07</span>Where every number came from.</h2>
+  <p class="s-lead">Every count and every quoted threshold in this report is reproducible — either against the public publication record, against Metabolon's HD4 method documentation, or against the documents pack delivered this audit week.</p>
+
+  <h3>Publication-record query</h3>
+  <p>The 107-publication number is a live PubMed affiliation search. Reproducible with:</p>
+
+  <pre><span class="c"># Metabolon-affiliated peer-reviewed publications, 2022 onward</span>
+<span class="k">esearch</span> -db pubmed \
+  -query <span class="n">'"Metabolon"[Affiliation] AND 2022:3000[pdat]'</span> \
+  | <span class="k">efetch</span> -format docsum \
+  | <span class="k">xtract</span> -pattern DocumentSummary -element Id,Title,Source,PubDate
+<span class="c"># 107 results · 25 indexed in this audit (top journals / direct-relevance pull)</span></pre>
+
+  <h3>Audit-confirmed values</h3>
+  <table class="t">
+    <thead><tr><th>Value</th><th>Source</th><th>Date confirmed</th></tr></thead>
+    <tbody>
+      <tr><td>1,247 named metabolites · 845 unnamed features (HD4 v.2026.1)</td><td>Metabolon HD4 method documentation v.2026.1</td><td>—</td></tr>
+      <tr><td>Median CV 7.2 % across 24 ISTDs</td><td>Metabolon QC report MTBLN-QC-2026-04</td><td>—</td></tr>
+      <tr><td>14 / 14 prior FDR-flagged metabolites within 1.2 σ on re-run</td><td>Reproducibility-check report MTBLN-REP-0502</td><td>—</td></tr>
+      <tr><td>$475 / serum sample · $1,200 / PBMC sample</td><td>Metabolon commercial fee schedule v.2026-Q2</td><td>—</td></tr>
+      <tr><td>4-week turnaround, single-batch capacity 426 samples</td><td>Metabolon Operations confirmation, Kennedy → Crovi</td><td>—</td></tr>
+      <tr><td>CLIA #34D2104723 · CAP-accredited · GCP-compliant</td><td>Metabolon regulatory documents pack</td><td>—</td></tr>
+      <tr><td>Adjacent disease-area depth (ALS, ageing); zero indexed PD-specific pubs</td><td>PubMed query above; Crovi review</td><td>—</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Top-relevance publications referenced</h3>
+  <table class="t">
+    <thead><tr><th>PMID</th><th>Year</th><th>Journal</th><th>Why it matters here</th></tr></thead>
+    <tbody>
+      <tr><td class="num">41787388</td><td>2026</td><td>BMC Med</td><td>HD4 serum metabolomics in ALS — closest published neurodegeneration precedent on the same matrix and platform.</td></tr>
+      <tr><td class="num">41752089</td><td>2026</td><td>Int J Mol Sci</td><td>Purine metabolism aberration in ALS antisense dipeptide repeat protein context — adjacent mitochondrial-energetics readout.</td></tr>
+      <tr><td class="num">41469377</td><td>2025</td><td>Nat Commun</td><td>HELIOS multi-ethnic ageing cohort — large-scale precedent for HD4 in elderly metabolomics, &gt; 10,000 participants.</td></tr>
+      <tr><td class="num">41960328</td><td>2026</td><td>Res Sq</td><td>CALERIE caloric-restriction trial — published precedent for longitudinal HD4 across multiple visit timepoints with mixed-effects modelling.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>What this audit did not verify</h3>
+  <p>Items outside scope of an assay-readiness audit, deferred to the program's downstream work:</p>
+  <ul>
+    <li>Per-vial sample integrity at C-BIG dispatch — covered by the biobank audit (run ID CROVI-AUD-20260503-PD75), not this one.</li>
+    <li>Sponsor-side mixed-effects model specification and analytical plan — translational sciences scope.</li>
+    <li>FDA submission packaging for any HD4-derived signature — deferred until a Phase 3 stratification decision.</li>
+  </ul>
+
+  <div class="footer">
+    <span>Crovi · Assay audit · Metabolon · PD-75-SERUM-PBMC</span>
+    <span>7 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── COLOPHON ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Colophon</div>
+  <h2 class="s-h"><span class="num">08</span>How Crovi runs an assay audit.</h2>
+  <p class="s-lead">Every assay audit follows the same six gates and the same intelligence-dimension vocabulary. The biobank audit checks whether the cohort exists; the assay audit checks whether the platform can read it. Both have to clear before a program commits.</p>
+
+  <h3>The six gates</h3>
+  <ol>
+    <li><strong>Platform fit</strong> — matrix coverage, sample input requirements, freeze-thaw tolerance.</li>
+    <li><strong>Coverage</strong> — pathway coverage against the program's mechanistic figure.</li>
+    <li><strong>Reproducibility</strong> — internal standards, CV, batch-effect handling.</li>
+    <li><strong>Throughput</strong> — turnaround time, chain-of-custody, sample tracking.</li>
+    <li><strong>Pricing &amp; deliverable</strong> — per-sample cost, deliverable depth, IP terms.</li>
+    <li><strong>Track record</strong> — publication evidence, regulatory posture, disease-area depth.</li>
+  </ol>
+
+  <h3>This audit, paired</h3>
+  <p>This document pairs with the biobank audit on the same cohort:</p>
+  <ul>
+    <li><strong>Biobank audit:</strong> CROVI-AUD-20260503-PD75 — Neuro C-BIG, 248 donors, 142 multi-visit, REB # NEU-12-038, $4,800–$7,500 specimen spend, 4-week rolling delivery.</li>
+    <li><strong>Assay audit (this document):</strong> CROVI-AUD-20260503-METAB-PD75 — Metabolon HD4, 1,247 metabolites, $262,350 assay spend, 4-week turnaround.</li>
+  </ul>
+  <p>Both clear. Both recommended on Path A. The combined LRRK2 enabling work runs end-to-end in <strong>4 weeks from authorisation</strong> via rolling C-BIG shipments and concurrent Metabolon processing, at <strong>$267,150–$269,850 all-in</strong>, on a cohort and a platform that stack cleanly against the prior 184-donor HD4 dataset on file.</p>
+
+  <hr>
+
+  <p class="mono-sm" style="color:var(--ink-3); margin-top:24px;">Document: Crovi Assay Readiness Audit · Run ID CROVI-AUD-20260503-METAB-PD75 · 8 pages · Issued — · For Translational Sciences, sponsor side · Prepared by Crovi audit lead, audit window — to — · Confidential — do not distribute outside the program team.</p>
+
+  <div class="footer">
+    <span>Crovi · Assay audit · Metabolon · PD-75-SERUM-PBMC</span>
+    <span>8 / 8</span>
+  </div>
+</section>
+
+</article>
+
+</body>
+</html>

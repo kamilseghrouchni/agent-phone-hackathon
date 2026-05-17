@@ -1,0 +1,34 @@
+{
+  "bundle_id": "alzheimers-tissue-serum-csf",
+  "therapeutic_area": "neurodegeneration",
+  "query_text": "Alzheimer's disease brain tissue (frozen or FFPE) with matched serum. CSF if available. Braak staging documented. Neuropathologically confirmed AD. N >= 30 with tissue.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Alzheimer's Disease (AD)"
+    ],
+    "specimen_types": [
+      "Brain tissue (frozen or FFPE)",
+      "Serum",
+      "Cerebrospinal fluid (CSF)"
+    ],
+    "biomarkers_desired": [
+      "amyloid-beta",
+      "tau",
+      "p-tau"
+    ],
+    "matched_pairs": true,
+    "min_n": 30,
+    "preanalytical": {
+      "tissue_preservation": "frozen or FFPE",
+      "neuropath_confirmed": true,
+      "braak_staging_required": true
+    },
+    "clinical_data_required": [
+      "Braak stage",
+      "neuropathological confirmation",
+      "CERAD score"
+    ],
+    "assay_context": "AD proteomic or transcriptomic profiling — requires neuropathologically staged tissue with matched fluid biomarkers"
+  }
+}

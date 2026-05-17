@@ -1,0 +1,3193 @@
+{
+  "name": "Eurofins Genomics + Biopharma",
+  "cleaned_name": "Eurofins Genomics + Biopharma",
+  "aliases_tried": [
+    "Eurofins Genomics + Biopharma",
+    "Eurofins Genomics",
+    "Biopharma"
+  ],
+  "publication_total": 1529,
+  "search_queries": [
+    "\"Eurofins Genomics + Biopharma\"[Affiliation] AND 2022:3000[pdat]",
+    "\"Eurofins Genomics\"[Affiliation] AND 2022:3000[pdat]",
+    "\"Biopharma\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41500010",
+      "doi": "10.1016/j.bioorg.2025.109429",
+      "title": "A Phenstatin-based indole-chalcone hybrid as novel anti-inflammatory agent targeting the NLRP3 Inflammasome: Leads from computational and preclinical studies.",
+      "abstract": "Dysregulated activation of NLRP3 inflammasome contributes to tumor development and progression. We previously identified and characterized 9a, a phenstatin-based indole-chalcone hybrid exhibiting potent anti-oral cancer activity. This study was aimed at understanding the mechanistic role of hybrid 9a in regulating the NLRP3 inflammasome pathway, using an array of computational and experimental approaches. We established an inflammasome activation model using oral squamous carcinoma cell line AW13516 and evaluated effect of 9a. Transcriptome profiling of these cells revealed, 9a distinctly downregulated the expression of NLRP3, GSDMD, IL-1\u03b2, and mitochondrial proteins, closely resembling the inhibitory effects of NLRP3-specific inhibitor MCC950. Molecular Dynamics simulation further demonstrated stable association of 9a with NLRP3, supporting direct molecular interaction. These observations were validated by co-localization studies using immunofluorescence and confocal microscopy, which confirmed attenuation of inflammasome activation in AW13516 cells, as evidenced by reduced puncta formation and vesicle exocytosis. Real-time PCR, immunohistochemistry and western blotting analyses further confirmed the inhibitory effect of 9a on inflammasome-associated gene and protein expression. Functional assays in NLRP3 knockdown cells (AW13516",
+      "journal": "Bioorg Chem",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Meher",
+          "fore_name": "Rajesh Kumar",
+          "affiliations": [
+            "Kode Lab. Tumor Immunology & Immunotherapy Group, Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India."
+          ]
+        },
+        {
+          "last_name": "Maharana",
+          "fore_name": "Jitendra",
+          "affiliations": [
+            "Department of Bioinformatics, Odisha University of Agriculture and Technology, Bhubaneswar, Odisha 751003, India."
+          ]
+        },
+        {
+          "last_name": "Kovvuri",
+          "fore_name": "Jeshma",
+          "affiliations": [
+            "Department of Humanities and Sciences, Vardhaman College of Engineering (Autonomous), Shamshabad, Hyderabad, Telangana 501218, India."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "K Nirmal",
+          "affiliations": [
+            "Anti-Cancer Drug Screening Facility (ACDSF), Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India."
+          ]
+        },
+        {
+          "last_name": "Pradhan",
+          "fore_name": "Trupti",
+          "affiliations": [
+            "Kode Lab. Tumor Immunology & Immunotherapy Group, Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India."
+          ]
+        },
+        {
+          "last_name": "Kailaje",
+          "fore_name": "Vaishali",
+          "affiliations": [
+            "Digital Imaging Facility, Advanced Centre for Treatment, Research & Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India."
+          ]
+        },
+        {
+          "last_name": "Ingle",
+          "fore_name": "Arvind",
+          "affiliations": [
+            "Laboratory Animal Facility, Animal Oncology Group, Advanced Centre for Treatment, Research & Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India; Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai 400094, India."
+          ]
+        },
+        {
+          "last_name": "Sen",
+          "fore_name": "Subrata",
+          "affiliations": [
+            "Anti-Cancer Drug Screening Facility (ACDSF), Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India."
+          ]
+        },
+        {
+          "last_name": "Barkume",
+          "fore_name": "Madan",
+          "affiliations": [
+            "Anti-Cancer Drug Screening Facility (ACDSF), Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India."
+          ]
+        },
+        {
+          "last_name": "Patkar",
+          "fore_name": "Meena",
+          "affiliations": [
+            "Kode Lab. Tumor Immunology & Immunotherapy Group, Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India."
+          ]
+        },
+        {
+          "last_name": "Vaibhaw",
+          "fore_name": "Anand",
+          "affiliations": [
+            "Kode Lab. Tumor Immunology & Immunotherapy Group, Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India."
+          ]
+        },
+        {
+          "last_name": "Mir",
+          "fore_name": "Showkat Ahmad",
+          "affiliations": [
+            "School of Life Sciences, Sambalpur University, Jyoti Vihar, Burla, Odisha 768019, India."
+          ]
+        },
+        {
+          "last_name": "Ghosh",
+          "fore_name": "Arpita",
+          "affiliations": [
+            "Eurofins Genomics India Pvt Ltd., Hoondi, Bengaluru, Karnataka 560048, India."
+          ]
+        },
+        {
+          "last_name": "Kamte",
+          "fore_name": "Sanjeev",
+          "affiliations": [
+            "Eurofins Genomics India Pvt Ltd., Hoondi, Bengaluru, Karnataka 560048, India."
+          ]
+        },
+        {
+          "last_name": "Kamal",
+          "fore_name": "Ahmed",
+          "affiliations": [
+            "Birla Institute of Technology & Science, Pilani, Hyderabad Campus, Telangana 500078, India."
+          ]
+        },
+        {
+          "last_name": "Kode",
+          "fore_name": "Jyoti",
+          "affiliations": [
+            "Kode Lab. Tumor Immunology & Immunotherapy Group, Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India; Anti-Cancer Drug Screening Facility (ACDSF), Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre, Navi Mumbai 410210, India; Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai 400094, India. Electronic address: jkode@actrec.gov.in."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "NLR Family, Pyrin Domain-Containing 3 Protein",
+        "Humans",
+        "Inflammasomes",
+        "Animals",
+        "Mice",
+        "Indoles",
+        "Molecular Structure",
+        "Structure-Activity Relationship",
+        "Dose-Response Relationship, Drug",
+        "Chalcone",
+        "Chalcones",
+        "Antineoplastic Agents",
+        "Anti-Inflammatory Agents, Non-Steroidal",
+        "Drug Screening Assays, Antitumor",
+        "Anti-Inflammatory Agents",
+        "Cell Line, Tumor"
+      ],
+      "keywords": [
+        "Anti-cancer efficacy",
+        "Gene silencing",
+        "Hybrid 9a",
+        "Inflammasome pathway",
+        "Molecular Dynamics Simulation",
+        "NLRP3 inhibitors",
+        "Oral cancer"
+      ]
+    },
+    {
+      "pmid": "41410801",
+      "pmc": "PMC9746098",
+      "doi": "10.1186/s13059-022-02816-6",
+      "title": "Generation and characterization of early stage oral cancer cell line of buccal mucosa of Indian origin.",
+      "abstract": "Being topmost cancer in India, oral cancer management warrants discovery of novel biomarkers, treatment strategies, and targets to help with early diagnosis, treatment, and recovery. To have a continuous supply of cells, the study was aimed at generation and characterization of established cell line from buccal mucosa (BM) tumors from patients of Indian origin which can be developed as a pre-clinical tool for biomedical application. Surgically resected tumor tissue from histo-pathologically confirmed oral cancer were processed for explant culture. TBM-02 cell line was passaged and characterized for morphology and function. Further, the cell line was silenced for inflammasome pathway gene NLRP3 to evaluate its linkage with oral cancer tumorigenesis. TBM-02, successfully established from BM, was maintained up to 100 passages, exhibited epithelioid morphology, high EpCam expression and triploid ploidy with chromosomal aberrations. Novelty and human origin of TBM-02 was authenticated by Short Tandem Repeats profiling and comparison with DSMZ database. TBM-02 revealed tumorigenic potential in vitro and in vivo which was abrogated on silencing NLRP3. Increased expression of NLRP3, hallmark of chronic inflammation in TBM-02, was validated at protein and gene level and in xenograft. TBM-02 demonstrated migratory potential and was found to be a sensitive tool to study drug response. RNA sequencing demonstrated upregulation of oral cancer-associated genes and pathways. Thus, in current study, we have reported development of novel cell line from early-stage buccal mucosa cancer patient which has a strong potential to be developed\u00a0and to be used as pre-clinical model for improving oral cancer management and therapeutics.",
+      "journal": "Hum Cell",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "George",
+          "fore_name": "Akhila",
+          "affiliations": [
+            "Kode Lab, Tumor Immunology and Immunotherapy (TII) Group, Advanced Centre for Treatment, Research and Education in Cancer (ACTREC), Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India.",
+            "Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai, 400094, India."
+          ]
+        },
+        {
+          "last_name": "Nair",
+          "fore_name": "Sudhir",
+          "affiliations": [
+            "Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai, 400094, India.",
+            "Department of Surgical Oncology, Tata Memorial Hospital, Tata Memorial Centre, Mumbai, 400012, India.",
+            "Head and Neck Disease Management Group, Tata Memorial Hospital, Tata Memorial Centre, Mumbai, 400012, India."
+          ]
+        },
+        {
+          "last_name": "Prabhash",
+          "fore_name": "Kumar",
+          "affiliations": [
+            "Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai, 400094, India.",
+            "Head and Neck Disease Management Group, Tata Memorial Hospital, Tata Memorial Centre, Mumbai, 400012, India.",
+            "Department of Medical Oncology, Tata Memorial Hospital, Tata Memorial Centre, Parel, Mumbai, 400012, India.",
+            "Homi Bhabha Cancer Hospital & Research Centre (HBCH&RC), Tata Memorial Centre, Muzaffarpur, Bihar, 842004, India."
+          ]
+        },
+        {
+          "last_name": "Thakur",
+          "fore_name": "Sayujata",
+          "affiliations": [
+            "Kode Lab, Tumor Immunology and Immunotherapy (TII) Group, Advanced Centre for Treatment, Research and Education in Cancer (ACTREC), Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India."
+          ]
+        },
+        {
+          "last_name": "Gera",
+          "fore_name": "Poonam",
+          "affiliations": [
+            "Biorepository Facility, ACTREC, Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India."
+          ]
+        },
+        {
+          "last_name": "Singh",
+          "fore_name": "Arjun",
+          "affiliations": [
+            "Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai, 400094, India.",
+            "Department of Surgical Oncology, Tata Memorial Hospital, Tata Memorial Centre, Mumbai, 400012, India.",
+            "Head and Neck Disease Management Group, Tata Memorial Hospital, Tata Memorial Centre, Mumbai, 400012, India."
+          ]
+        },
+        {
+          "last_name": "Chaturvedi",
+          "fore_name": "Pankaj",
+          "affiliations": [
+            "Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai, 400094, India.",
+            "Department of Surgical Oncology, Tata Memorial Hospital, Tata Memorial Centre, Mumbai, 400012, India.",
+            "Head and Neck Disease Management Group, Tata Memorial Hospital, Tata Memorial Centre, Mumbai, 400012, India."
+          ]
+        },
+        {
+          "last_name": "Rane",
+          "fore_name": "Swapnil",
+          "affiliations": [
+            "Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai, 400094, India.",
+            "Head and Neck Disease Management Group, Tata Memorial Hospital, Tata Memorial Centre, Mumbai, 400012, India.",
+            "Department of Pathology and Digital and Computational Oncology, ACTREC, Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India."
+          ]
+        },
+        {
+          "last_name": "Pradhan",
+          "fore_name": "Trupti",
+          "affiliations": [
+            "Kode Lab, Tumor Immunology and Immunotherapy (TII) Group, Advanced Centre for Treatment, Research and Education in Cancer (ACTREC), Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India."
+          ]
+        },
+        {
+          "last_name": "Sen",
+          "fore_name": "Subrata",
+          "affiliations": [
+            "Anti-Cancer Drug Screening Facility (ACDSF), ACTREC, Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India."
+          ]
+        },
+        {
+          "last_name": "Barkume",
+          "fore_name": "Madan",
+          "affiliations": [
+            "Anti-Cancer Drug Screening Facility (ACDSF), ACTREC, Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India."
+          ]
+        },
+        {
+          "last_name": "Shetty",
+          "fore_name": "Dhanlaxmi",
+          "affiliations": [
+            "Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai, 400094, India.",
+            "Department of Cancer Cytogenetics, ACTREC, Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India."
+          ]
+        },
+        {
+          "last_name": "Chaubal",
+          "fore_name": "Kruti",
+          "affiliations": [
+            "Department of Cancer Cytogenetics, ACTREC, Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India."
+          ]
+        },
+        {
+          "last_name": "Ghosh",
+          "fore_name": "Arpita",
+          "affiliations": [
+            "Eurofins Genomics India Pvt. Ltd, Bengaluru, Karnataka, India."
+          ]
+        },
+        {
+          "last_name": "Kamte",
+          "fore_name": "Sanjeev",
+          "affiliations": [
+            "Eurofins Genomics India Pvt. Ltd, Bengaluru, Karnataka, India."
+          ]
+        },
+        {
+          "last_name": "Kode",
+          "fore_name": "Jyoti Anand",
+          "affiliations": [
+            "Kode Lab, Tumor Immunology and Immunotherapy (TII) Group, Advanced Centre for Treatment, Research and Education in Cancer (ACTREC), Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India. jkode@actrec.gov.in.",
+            "Homi Bhabha National Institute (HBNI), Training School Complex, Anushakti Nagar, Mumbai, 400094, India. jkode@actrec.gov.in.",
+            "Anti-Cancer Drug Screening Facility (ACDSF), ACTREC, Tata Memorial Centre, Kharghar, Navi Mumbai, 410210, India. jkode@actrec.gov.in."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Mouth Neoplasms",
+        "Humans",
+        "Mouth Mucosa",
+        "India",
+        "NLR Family, Pyrin Domain-Containing 3 Protein",
+        "Cell Line, Tumor",
+        "Carcinogenesis",
+        "Animals",
+        "Inflammasomes"
+      ],
+      "keywords": [
+        "Cell line",
+        "Cell xenograft",
+        "Chemosensitivity",
+        "Early-stage buccal mucosa cancer",
+        "Generation and establishment of cell line",
+        "NLRP3 therapeutic target",
+        "Pre-clinical screening tool"
+      ]
+    },
+    {
+      "pmid": "40726009",
+      "pmc": "PMC11927307",
+      "doi": "10.1186/s13072-025-00576-8",
+      "title": "Epigenetic Age Monitoring in Professional Soccer Players for Tracking Recovery and the Effects of Strenuous Exercise.",
+      "abstract": "Elite sports have become increasingly professionalized and personalized, with soccer players facing a high number of games per season. This trend presents significant challenges in optimizing training for peak performance and requires rigorous monitoring of athletes to prevent overload and reduce injury risks. The emerging field of epigenetic clocks offers promising new pathways for developing useful biomarkers that enhance training management. This study investigates the effects of intense physical activity on epigenetic age markers in professional soccer players across multiple games and during a championship season. We analyzed DNA methylation data from saliva samples collected before and after physical activity. Vigorous physical activity was found to rejuvenate epigenetic clocks, with significant decreases in DNAmGrimAge2 and DNAmFitAge observed immediately after games. Among player subgroups, midfielders exhibited the most substantial epigenetic rejuvenation effect following games. Additionally, the study suggests a potential link between DNA methylation patterns and injury occurrence. Overall, our study suggests that DNA methylation-based biomarkers may have applications in monitoring athlete performance and managing physical stress.",
+      "journal": "Aging Cell",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Brooke",
+          "fore_name": "Robert T",
+          "affiliations": [
+            "Epigenetic Clock Development Foundation, Torrance, California, USA."
+          ]
+        },
+        {
+          "last_name": "Kocher",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "EB House Austria, Research Program for Molecular Therapy of Genodermatoses, Department of Dermatology and Allergology, University Hospital of the Paracelsus Medical University Salzburg, Salzburg, Austria.",
+            "DNAthlete Austria GmbH, Salzburg, Austria."
+          ]
+        },
+        {
+          "last_name": "Zauner",
+          "fore_name": "Roland",
+          "affiliations": [
+            "EB House Austria, Research Program for Molecular Therapy of Genodermatoses, Department of Dermatology and Allergology, University Hospital of the Paracelsus Medical University Salzburg, Salzburg, Austria."
+          ]
+        },
+        {
+          "last_name": "Gordevicius",
+          "fore_name": "Juozas",
+          "affiliations": [
+            "Epigenetic Clock Development Foundation, Torrance, California, USA."
+          ]
+        },
+        {
+          "last_name": "Mil\u010di\u016bt\u0117",
+          "fore_name": "Milda",
+          "affiliations": [
+            "Epigenetic Clock Development Foundation, Torrance, California, USA."
+          ]
+        },
+        {
+          "last_name": "Nowakowski",
+          "fore_name": "Marc",
+          "affiliations": [
+            "DNAthlete Austria GmbH, Salzburg, Austria."
+          ]
+        },
+        {
+          "last_name": "Haser",
+          "fore_name": "Christian",
+          "affiliations": [
+            "Eintracht Frankfurt Fu\u00dfball AG, Frankfurt am Main, Germany."
+          ]
+        },
+        {
+          "last_name": "Blobel",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Eintracht Frankfurt Fu\u00dfball AG, Frankfurt am Main, Germany."
+          ]
+        },
+        {
+          "last_name": "Sieland",
+          "fore_name": "Johanna",
+          "affiliations": [
+            "Eintracht Frankfurt Fu\u00dfball AG, Frankfurt am Main, Germany."
+          ]
+        },
+        {
+          "last_name": "Langhoff",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Eurofins Genomics Europe, Aarhus, Denmark."
+          ]
+        },
+        {
+          "last_name": "Banzer",
+          "fore_name": "Winfried",
+          "affiliations": [
+            "Eintracht Frankfurt Fu\u00dfball AG, Frankfurt am Main, Germany.",
+            "Division of Preventive and Sports Medicine, Institute of Occupational, Social and Environmental Medicine, Goethe University Frankfurt, Frankfurt am Main, Germany."
+          ]
+        },
+        {
+          "last_name": "Horvath",
+          "fore_name": "Steve",
+          "affiliations": [
+            "Epigenetic Clock Development Foundation, Torrance, California, USA.",
+            "Altos Labs, Cambridge, UK."
+          ]
+        },
+        {
+          "last_name": "Pfab",
+          "fore_name": "Florian",
+          "affiliations": [
+            "DNAthlete Austria GmbH, Salzburg, Austria.",
+            "Eintracht Frankfurt Fu\u00dfball AG, Frankfurt am Main, Germany.",
+            "DNAthlete AG, Schaan, Liechtenstein.",
+            "Technische Universitaet Munich, Munich, Germany.",
+            "Brighton & Hove Albion Football Club, Brigthon, UK."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Soccer",
+        "Epigenesis, Genetic",
+        "DNA Methylation",
+        "Male",
+        "Exercise",
+        "Athletes",
+        "Adult",
+        "Young Adult",
+        "Saliva",
+        "Biomarkers",
+        "Aging"
+      ],
+      "keywords": [
+        "C\u2010reactive protein",
+        "FitAge",
+        "GrimAge2",
+        "exercise",
+        "soccer",
+        "sports injury"
+      ]
+    },
+    {
+      "pmid": "40155393",
+      "pmc": "PMC6086827",
+      "doi": "10.1038/s41541-025-01104-1",
+      "title": "Virus detection by short read high throughput sequencing in a high virus low cellular background.",
+      "abstract": "The safety of all biological products includes demonstrating the absence of adventitious viruses by testing various types of samples at different stages of the manufacturing process. Seven laboratories evaluated short-read high-throughput sequencing (HTS) for sensitivity and breadth of adventitious virus detection using viruses with distinct physicochemical and genome properties. These five viruses are currently designated as CBER NGS Virus Reagents and include: Epstein-Barr virus (EBV; or human herpes virus 4), feline leukemia virus (FeLV), respiratory syncytial virus (RSV), mammalian orthoreovirus type 1 (Reo1), and porcine circovirus type 1 (PCV1). To evaluate adventitious virus detection in a biological material with a high production virus titer and low cellular background, the 5 viruses were mixed and different copies of the viral genomes spiked into 1 - 5 \u00d7 10",
+      "journal": "NPJ Vaccines",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Chin",
+          "fore_name": "Pei-Ju",
+          "affiliations": [
+            "Office of Vaccines Research and Review, Center for Biologics Evaluation and Review, U.S. Food and Drug Administration, Silver Spring, MD, 20993, USA."
+          ]
+        },
+        {
+          "last_name": "Lambert",
+          "fore_name": "Christophe",
+          "affiliations": [
+            "GSK, Rue de l'Institut 89, Rixensart, Belgium."
+          ]
+        },
+        {
+          "last_name": "Beurdelay",
+          "fore_name": "Pascale",
+          "affiliations": [
+            "PathoQuest, 11 rue Watt, Paris, France.",
+            "Depixus, 3-5 Imp. Reille, Paris, France."
+          ]
+        },
+        {
+          "last_name": "Charlebois",
+          "fore_name": "Robert L",
+          "affiliations": [
+            "Sanofi, 1755 Steeles Avenue West, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Colinet",
+          "fore_name": "Anne-Sophie",
+          "affiliations": [
+            "GSK, Rue de l'Institut 89, Rixensart, Belgium."
+          ]
+        },
+        {
+          "last_name": "Eloit",
+          "fore_name": "Marc",
+          "affiliations": [
+            "PathoQuest, 11 rue Watt, Paris, France."
+          ]
+        },
+        {
+          "last_name": "Gilchrist",
+          "fore_name": "Shanaz",
+          "affiliations": [
+            "Sanofi, 1755 Steeles Avenue West, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Gilleece",
+          "fore_name": "Maria",
+          "affiliations": [
+            "Biogen 5000 Davis Drive, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Hess",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "Biogen 5000 Davis Drive, Durham, NC, USA."
+          ]
+        },
+        {
+          "last_name": "Leimbach",
+          "fore_name": "Andreas",
+          "affiliations": [
+            "Eurofins Genomics Europe Pharma and Diagnostics Products & Services Sanger/PCR GmbH, Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "de Man",
+          "fore_name": "Tom J B",
+          "affiliations": [
+            "MilliporeSigma, Rockville, MD, USA."
+          ]
+        },
+        {
+          "last_name": "Vandeputte",
+          "fore_name": "Olivier",
+          "affiliations": [
+            "GSK, Rue de l'Institut 89, Rixensart, Belgium."
+          ]
+        },
+        {
+          "last_name": "Walas",
+          "fore_name": "Dawid",
+          "affiliations": [
+            "MilliporeSigma, Rockville, MD, USA.",
+            "Institut de Recherche et Development Servier, 91190 Gif-sur-Yvette, France and Department of Physiology, Institute of Medical Sciences, University of Opole, Opole, Poland."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Weihong",
+          "affiliations": [
+            "Eurofins Lancaster Laboratories, Inc, Lancaster, PA, USA."
+          ]
+        },
+        {
+          "last_name": "Khan",
+          "fore_name": "Arifa S",
+          "affiliations": [
+            "Office of Vaccines Research and Review, Center for Biologics Evaluation and Review, U.S. Food and Drug Administration, Silver Spring, MD, 20993, USA. arifa.khan@fda.hhs.gov."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "39848204",
+      "doi": "10.1016/j.fsigen.2025.103228",
+      "title": "Evaluating genome-wide and targeted forensic sequencing approaches to kinship determination.",
+      "abstract": "Kinship determination is a valuable tool in forensic genetics, with applications including familial searching, disaster victim identification, and investigative genetic genealogy. Conventional typing of small numbers of autosomal short tandem repeats (STRs) confidently identifies only first-degree relatives. Massively parallel sequencing (MPS) can access more STRs and resolve alleles identical by length but differing in sequence (isoalleles), which may increase the power of kinship estimation, particularly when combined with additional sequenced single nucleotide polymorphism (SNP) loci, as in the ForenSeq DNA Signature Prep kit. MPS sequencing of \u223c10,000 SNPs is available in the ForenSeq Kintelligence kit, promising detection of more distant kin, while SNP chips carrying hundreds of thousands of markers increase resolution still further. Here we evaluate these different resolutions in a set of pedigrees, and via simulations. As expected, the key factor influencing the precision of kinship estimation is the number of markers analysed and MPS-based analysis of STRs increases resolution, with the full set of ForenSeq DNA Signature Prep kit markers allowing detection of third-degree relatives. Since SNP chips include non-autosomal (X- and Y-chromosomal, and mitochondrial [mtDNA]) markers, we ask how these perform within the pedigrees, cross-referencing to Y-STR sequence data. We highlight the importance of understanding haplogroup resolutions in the increasingly complex Y and mtDNA phylogenies, to avoid false exclusions. Incorporation of X-SNPs allows tracing of X-chromosome segments within families. These different approaches can add value to kinship estimation, but some require simpler bioinformatic interfaces to make them more widely accessible in practice, and also access to appropriate allele frequency data to avoid problems associated with ancestry mis-specification.",
+      "journal": "Forensic Sci Int Genet",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Colucci",
+          "fore_name": "Margherita",
+          "affiliations": [
+            "Department of Genetics, Genomics & Cancer Sciences, University of Leicester, University Road, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Wetton",
+          "fore_name": "Jon H",
+          "affiliations": [
+            "Department of Genetics, Genomics & Cancer Sciences, University of Leicester, University Road, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Rolf",
+          "fore_name": "Burkhard",
+          "affiliations": [
+            "Eurofins Genomics and Forensics Campus, Ebersberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Sheehan",
+          "fore_name": "Nuala",
+          "affiliations": [
+            "Department of Population Health Sciences, University of Leicester, University Road, Leicester, UK."
+          ]
+        },
+        {
+          "last_name": "Jobling",
+          "fore_name": "Mark A",
+          "affiliations": [
+            "Department of Genetics, Genomics & Cancer Sciences, University of Leicester, University Road, Leicester, UK. Electronic address: maj4@le.ac.uk."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "High-Throughput Nucleotide Sequencing",
+        "Polymorphism, Single Nucleotide",
+        "Pedigree",
+        "Microsatellite Repeats",
+        "DNA Fingerprinting",
+        "Sequence Analysis, DNA",
+        "Forensic Genetics",
+        "Chromosomes, Human, Y",
+        "DNA, Mitochondrial",
+        "Male",
+        "Genome, Human",
+        "Genetic Markers",
+        "Chromosomes, Human, X"
+      ],
+      "keywords": [
+        "ForenSeq DNA Signature Kit",
+        "ForenSeq Kintelligence Kit",
+        "Genome-wide SNP analysis",
+        "Human pedigree analysis",
+        "Kinship determination",
+        "MtDNA",
+        "STRs",
+        "X chromosome",
+        "Y chromosome"
+      ]
+    },
+    {
+      "pmid": "39408568",
+      "pmc": "PMC11277239",
+      "doi": "10.3390/ijms25147745",
+      "title": "The Effects of Brodalumab on the Fungal Microbiome in Patients with Psoriasis.",
+      "abstract": "The gut microbiota plays a critical role in immune system function, with dysbiosis linked to systemic inflammation, contributing to conditions like psoriasis and depression. Although biological treatments for severe psoriasis are known to impact gut bacteria, less is understood about their effects on fungi. This study aims to investigate fungal gut microbiota changes in psoriasis patients transitioning from TNF-\u03b1 inhibitors to brodalumab. Fecal samples from 20 patients were analyzed using Illumina MiSeq sequencing of the ITS2 region of 18S rRNA. Microbial diversity was assessed through Bray-Curtis dissimilarity and the Shannon-Wiener index. Clinical outcomes were measured using clinical scores for psoriasis and depression severity, with statistical analysis performed via Wilcoxon signed-rank tests and PERMANOVA. Results showed that Ascomycota was the dominant fungal phylum in both treatment groups, with",
+      "journal": "Int J Mol Sci",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Vi\u017elin",
+          "fore_name": "Admir",
+          "affiliations": [
+            "Department of Dermatology and Venereology, Institute of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, 413 45 Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Bajramovi\u0107",
+          "fore_name": "Aj\u0161a",
+          "affiliations": [
+            "Faculty of Medicine, Sarajevo School of Science and Technology (SSST), 71000 Sarajevo, Bosnia and Herzegovina."
+          ]
+        },
+        {
+          "last_name": "Bj\u00f6rkman",
+          "fore_name": "Ylva Andersch",
+          "affiliations": [
+            "Department of Dermatology and Venereology, Institute of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, 413 45 Gothenburg, Sweden.",
+            "Department of Dermatology and Venereology, Sahlgrenska University Hospital, Region V\u00e4stra G\u00f6taland, 413 45 Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Yadhu",
+          "affiliations": [
+            "Eurofins Genomics, 78467 Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "G\u00f6the",
+          "fore_name": "Maria",
+          "affiliations": [
+            "Eurofins Genomics, 78467 Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Gillstedt",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Department of Dermatology and Venereology, Institute of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, 413 45 Gothenburg, Sweden.",
+            "Department of Dermatology and Venereology, Sahlgrenska University Hospital, Region V\u00e4stra G\u00f6taland, 413 45 Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Osman\u010devi\u0107",
+          "fore_name": "Amra",
+          "affiliations": [
+            "Department of Dermatology and Venereology, Institute of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, 413 45 Gothenburg, Sweden.",
+            "Department of Dermatology and Venereology, Sahlgrenska University Hospital, Region V\u00e4stra G\u00f6taland, 413 45 Gothenburg, Sweden."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Psoriasis",
+        "Female",
+        "Male",
+        "Middle Aged",
+        "Adult",
+        "Antibodies, Monoclonal, Humanized",
+        "Gastrointestinal Microbiome",
+        "Mycobiome",
+        "Feces",
+        "Fungi",
+        "Aged"
+      ],
+      "keywords": [
+        "TNF-alpha inhibitors",
+        "brodalumab",
+        "fungi",
+        "gut microbiome",
+        "psoriasis"
+      ]
+    },
+    {
+      "pmid": "39062988",
+      "pmc": "PMC4021573",
+      "doi": "10.1186/2049-2618-2-11",
+      "title": "No Evidence of Gut Microbiota Alteration in Psoriasis Patients Switching to Brodalumab after Loss of TNF\u03b1 Inhibition Effect.",
+      "abstract": "Biological agents used to treat severe psoriasis may alter the gut microbiota, though current knowledge is limited. This study examines whether switching from TNF\u03b1 inhibitors, from which patients had reduced or lost effect, to brodalumab, an IL-17 inhibitor, affects the gut microbiota in patients with psoriasis and how these changes correlate with the clinical variables of psoriasis severity and depressive symptoms. Fecal samples from patients were collected before the treatment switch and 12 weeks after the switch and were analyzed for the microbiota composition using next-generation sequencing targeting the V3-V5 region of the 16S rRNA gene, followed by bioinformatics analysis. No significant changes in overall gut microbiota composition were observed after the treatment switch, although individual variations in the Firmicutes/Bacteroidetes ratio were noted, and no significant correlations with clinical variables were found. These findings suggest that short-term changes in gut microbiota in patients with psoriasis are limited and that dysbiosis may be influenced by the interplay of various microbial populations rather than specific taxa. This study provides a foundation for further research into the effects of biological treatments on the gut microbiota in patients with psoriasis.",
+      "journal": "Int J Mol Sci",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Vi\u017elin",
+          "fore_name": "Admir",
+          "affiliations": [
+            "Department of Dermatology and Venereology, Institute of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, 413 45 Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Andersch Bj\u00f6rkman",
+          "fore_name": "Ylva",
+          "affiliations": [
+            "Department of Dermatology and Venereology, Institute of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, 413 45 Gothenburg, Sweden.",
+            "Department of Dermatology and Venereology, Sahlgrenska University Hospital, Region V\u00e4stra G\u00f6taland, 413 45 Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Yadhu",
+          "affiliations": [
+            "Eurofins Genomics, 78467 Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "G\u00f6the",
+          "fore_name": "Maria",
+          "affiliations": [
+            "Eurofins Genomics, 78467 Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Gillstedt",
+          "fore_name": "Martin",
+          "affiliations": [
+            "Department of Dermatology and Venereology, Institute of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, 413 45 Gothenburg, Sweden.",
+            "Department of Dermatology and Venereology, Sahlgrenska University Hospital, Region V\u00e4stra G\u00f6taland, 413 45 Gothenburg, Sweden."
+          ]
+        },
+        {
+          "last_name": "Osman\u010devi\u0107",
+          "fore_name": "Amra",
+          "affiliations": [
+            "Department of Dermatology and Venereology, Institute of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, 413 45 Gothenburg, Sweden.",
+            "Department of Dermatology and Venereology, Sahlgrenska University Hospital, Region V\u00e4stra G\u00f6taland, 413 45 Gothenburg, Sweden."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Psoriasis",
+        "Gastrointestinal Microbiome",
+        "Female",
+        "Male",
+        "Middle Aged",
+        "Adult",
+        "Antibodies, Monoclonal, Humanized",
+        "Tumor Necrosis Factor-alpha",
+        "RNA, Ribosomal, 16S",
+        "Feces",
+        "Aged",
+        "Dysbiosis",
+        "Interleukin-17"
+      ],
+      "keywords": [
+        "TNF\u03b1",
+        "brodalumab",
+        "depression",
+        "gut microbiota",
+        "psoriasis"
+      ]
+    },
+    {
+      "pmid": "38711146",
+      "pmc": "PMC3031573",
+      "doi": "10.1006/jmbi.2000.4042",
+      "title": "Teaching transposon classification as a means to crowd source the curation of repeat annotation - a tardigrade perspective.",
+      "abstract": "The advancement of sequencing technologies results in the rapid release of hundreds of new genome assemblies a year providing unprecedented resources for the study of genome evolution. Within this context, the significance of in-depth analyses of repetitive elements, transposable elements (TEs) in particular, is increasingly recognized in understanding genome evolution. Despite the plethora of available bioinformatic tools for identifying and annotating TEs, the phylogenetic distance of the target species from a curated and classified database of repetitive element sequences constrains any automated annotation effort. Moreover, manual curation of raw repeat libraries is deemed essential due to the frequent incompleteness of automatically generated consensus sequences. Here, we present an example of a crowd-sourcing effort aimed at curating and annotating TE libraries of two non-model species built around a collaborative, peer-reviewed teaching process. Manual curation and classification are time-consuming processes that offer limited short-term academic rewards and are typically confined to a few research groups where methods are taught through hands-on experience. Crowd-sourcing efforts could therefore offer a significant opportunity to bridge the gap between learning the methods of curation effectively and empowering the scientific community with high-quality, reusable repeat libraries. The collaborative manual curation of TEs from two tardigrade species, for which there were no TE libraries available, resulted in the successful characterization of hundreds of new and diverse TEs in a reasonable time frame. Our crowd-sourcing setting can be used as a teaching reference guide for similar projects: A hidden treasure awaits discovery within non-model organisms.",
+      "journal": "Mob DNA",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Peona",
+          "fore_name": "Valentina",
+          "affiliations": [
+            "Department of Organismal Biology - Systematic Biology, Evolutionary Biology Centre, Uppsala University, Uppsala, SE-752 36, Sweden. valentina.peona@nrm.se.",
+            "Swiss Ornithological Institute Vogelwarte, Sempach, CH-6204, Switzerland. valentina.peona@nrm.se.",
+            "Department of Bioinformatics and Genetics, Swedish Natural History Museum, Stockholm, Sweden. valentina.peona@nrm.se."
+          ]
+        },
+        {
+          "last_name": "Martelossi",
+          "fore_name": "Jacopo",
+          "affiliations": [
+            "Department of Biological Geological and Environmental Science, University of Bologna, Via Selmi 3, Bologna, 40126, Italy. jacopo.martelossi2@unibo.it."
+          ]
+        },
+        {
+          "last_name": "Almojil",
+          "fore_name": "Dareen",
+          "affiliations": [
+            "New York University Abu Dhabi, Saadiyat Island, United Arab Emirates."
+          ]
+        },
+        {
+          "last_name": "Bocharkina",
+          "fore_name": "Julia",
+          "affiliations": [
+            "Skolkovo Institute of Science and Technology, Moscow, Russia."
+          ]
+        },
+        {
+          "last_name": "Br\u00e4nnstr\u00f6m",
+          "fore_name": "Ioana",
+          "affiliations": [
+            "Natural History Museum, Oslo University, Oslo, Norway.",
+            "Department of Ecology and Genetics, Uppsala University, Uppsala, Sweden."
+          ]
+        },
+        {
+          "last_name": "Brown",
+          "fore_name": "Max",
+          "affiliations": [
+            "Anglia Ruskin University, East Rd, Cambridge, CB1 1PT, UK."
+          ]
+        },
+        {
+          "last_name": "Cang",
+          "fore_name": "Alice",
+          "affiliations": [
+            "University of Arizona, Tucson, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Carrasco-Valenzuela",
+          "fore_name": "Tom\u00e0s",
+          "affiliations": [
+            "Evolutionary Genetics Department, Leibniz Institute for Zoo and Wildlife Research, 10315, Berlin, Germany.",
+            "Berlin Center for Genomics in Biodiversity Research, 14195, Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "DeVries",
+          "fore_name": "Jon",
+          "affiliations": [
+            "Reed College, Portland, OR, United States of America."
+          ]
+        },
+        {
+          "last_name": "Doellman",
+          "fore_name": "Meredith",
+          "affiliations": [
+            "Department of Ecology and Evolution, The University of Chicago, Chicago, IL, 60637, USA.",
+            "Department of Biological Sciences, University of Notre Dame, Notre Dame, IN, 46556, USA."
+          ]
+        },
+        {
+          "last_name": "Elsner",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Evolutionary Biology & Ecology, University of Freiburg, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Esp\u00edndola-Hern\u00e1ndez",
+          "fore_name": "Pamela",
+          "affiliations": [
+            "Research Unit Comparative Microbiome Analysis (COMI), Helmholtz Zentrum M\u00fcnchen, Ingolst\u00e4dter Landstra\u00dfe 1, D-85764, Neuherberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Montoya",
+          "fore_name": "Guillermo Friis",
+          "affiliations": [
+            "Royal Botanic Gardens, Kew, Richmond, Surrey, TW9 3AE, UK."
+          ]
+        },
+        {
+          "last_name": "Gaspar",
+          "fore_name": "Bence",
+          "affiliations": [
+            "Institute of Evolution and Ecology, University of Tuebingen, Tuebingen, Germany."
+          ]
+        },
+        {
+          "last_name": "Zagorski",
+          "fore_name": "Danijela",
+          "affiliations": [
+            "Institute of Botany, Czech Academy of Sciences, Pr\u016fhonice, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Ha\u0142akuc",
+          "fore_name": "Pawe\u0142",
+          "affiliations": [
+            "Institute of Evolutionary Biology, Faculty of Biology, Biological and Chemical Research Centre, University of Warsaw, Warsaw, Poland."
+          ]
+        },
+        {
+          "last_name": "Ivanovska",
+          "fore_name": "Beti",
+          "affiliations": [
+            "Institute of Genetics and Biotechnology, Hungarian University of Agriculture and Life Sciences, Budapest, Hungary."
+          ]
+        },
+        {
+          "last_name": "Laumer",
+          "fore_name": "Christopher",
+          "affiliations": [
+            "The Natural History Museum, Cromwell Road, London, SW6 7SJ, UK."
+          ]
+        },
+        {
+          "last_name": "Lehmann",
+          "fore_name": "Robert",
+          "affiliations": [
+            "Biological and Environmental Science and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia."
+          ]
+        },
+        {
+          "last_name": "Bo\u0161tjan\u010di\u0107",
+          "fore_name": "Ljudevit Luka",
+          "affiliations": [
+            "LOEWE Centre for Translational Biodiversity Genomics (LOEWE-TBG), Senckenberganlage 25, 60325, Frankfurt, Germany."
+          ]
+        },
+        {
+          "last_name": "Mashoodh",
+          "fore_name": "Rahia",
+          "affiliations": [
+            "Department of Genetics, Environment & Evolution, Centre for Biodiversity & Environment Research, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Mazzoleni",
+          "fore_name": "Sofia",
+          "affiliations": [
+            "Department of Ecology, Faculty of Science, Charles University, Prague, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Mouton",
+          "fore_name": "Alice",
+          "affiliations": [
+            "INBIOS-Conservation Genetic Lab, University of Liege, Liege, Belgium."
+          ]
+        },
+        {
+          "last_name": "Nilsson",
+          "fore_name": "Maria Anna",
+          "affiliations": [
+            "LOEWE Centre for Translational Biodiversity Genomics (LOEWE-TBG), Senckenberganlage 25, 60325, Frankfurt, Germany."
+          ]
+        },
+        {
+          "last_name": "Pei",
+          "fore_name": "Yifan",
+          "affiliations": [
+            "Department of Organismal Biology - Systematic Biology, Evolutionary Biology Centre, Uppsala University, Uppsala, SE-752 36, Sweden.",
+            "Centre for Molecular Biodiversity Research, Leibniz Institute for the Analysis of Biodiversity Change, Adenauerallee 127, 53113, Bonn, Germany."
+          ]
+        },
+        {
+          "last_name": "Potente",
+          "fore_name": "Giacomo",
+          "affiliations": [
+            "Department of Systematic and Evolutionary Botany, University of Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Provataris",
+          "fore_name": "Panagiotis",
+          "affiliations": [
+            "German Cancer Research Center, NGS Core Facility, DKFZ-ZMBH Alliance, 69120, Heidelberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Pardos-Blas",
+          "fore_name": "Jos\u00e9 Ram\u00f3n",
+          "affiliations": [
+            "Departamento de Biodiversidad y Biolog\u00eda Evolutiva, Museo Nacional de Ciencias Naturales (MNCN-CSIC), Jos\u00e9 Guti\u00e9rrez Abascal 2, Madrid, 28006, Spain."
+          ]
+        },
+        {
+          "last_name": "Raut",
+          "fore_name": "Ravindra",
+          "affiliations": [
+            "Department of Biotechnology, National Institute of Technology Durgapur, Durgapur, India."
+          ]
+        },
+        {
+          "last_name": "Sbaffi",
+          "fore_name": "Tomasa",
+          "affiliations": [
+            "Molecular Ecology Group (MEG), National Research Council of Italy - Water Research Institute (CNR-IRSA), Verbania, Italy."
+          ]
+        },
+        {
+          "last_name": "Schwarz",
+          "fore_name": "Florian",
+          "affiliations": [
+            "Eurofins Genomics Europe Pharma and Diagnostics Products & Services Sales GmbH, Ebersberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Stapley",
+          "fore_name": "Jessica",
+          "affiliations": [
+            "Plant Pathology Group, Institute of Integrative Biology, ETH Zurich, Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Stevens",
+          "fore_name": "Lewis",
+          "affiliations": [
+            "Tree of Life, Wellcome Sanger Institute, Cambridge, CB10 1SA, UK."
+          ]
+        },
+        {
+          "last_name": "Sultana",
+          "fore_name": "Nusrat",
+          "affiliations": [
+            "Department of Botany, Jagannath Univerity, Dhaka, 1100, Bangladesh."
+          ]
+        },
+        {
+          "last_name": "Symonova",
+          "fore_name": "Radka",
+          "affiliations": [
+            "Institute of Hydrobiology, Biology Centre of the Czech Academy of Sciences, \u010cesk\u00e9 Bud\u011bjovice, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Tahami",
+          "fore_name": "Mohadeseh S",
+          "affiliations": [
+            "Department of Biological and Environmental Science, University of Jyv\u00e4skyl\u00e4, P.O. Box 35, Jyv\u00e4skyl\u00e4, 40014, Finland."
+          ]
+        },
+        {
+          "last_name": "Urz\u00ec",
+          "fore_name": "Alice",
+          "affiliations": [
+            "Centogene GmbH, Am Strande 7, 18055, Rostock, Germany."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Heidi",
+          "affiliations": [
+            "Department of Ecology & Evolutionary Biology, University of California, Los Angeles, Los Angeles, CA, United States of America."
+          ]
+        },
+        {
+          "last_name": "Yusuf",
+          "fore_name": "Abdullah",
+          "affiliations": [
+            "Zell- und Molekularbiologie der Pflanzen, Technische Universit\u00e4t Dresden, Dresden, Germany."
+          ]
+        },
+        {
+          "last_name": "Pecoraro",
+          "fore_name": "Carlo",
+          "affiliations": [
+            "Physalia-courses, 10249, Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "Suh",
+          "fore_name": "Alexander",
+          "affiliations": [
+            "Department of Organismal Biology - Systematic Biology, Evolutionary Biology Centre, Uppsala University, Uppsala, SE-752 36, Sweden. a.suh@leibniz-lib.de.",
+            "School of Biological Sciences, University of East Anglia, Norwich Research Park, Norwich, NR4 7TU, UK. a.suh@leibniz-lib.de.",
+            "Present address: Centre for Molecular Biodiversity Research, Leibniz Institute for the Analysis of Biodiversity Change, Adenauerallee 160, 53113, Bonn, Germany. a.suh@leibniz-lib.de."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Annotation",
+        "Genome assembly",
+        "Library",
+        "Manual curation",
+        "Non-model organism",
+        "Transposable elements"
+      ]
+    },
+    {
+      "pmid": "37861205",
+      "pmc": "PMC9926627",
+      "doi": "10.1186/s13148-023-01440-w",
+      "title": "Plasma cell-free DNA methylation analysis for ovarian cancer detection: Analysis of samples from a case-control study and an ovarian cancer screening trial.",
+      "abstract": "Analysis of cell-free DNA methylation (cfDNAme), alone or combined with CA125, could help to detect ovarian cancers earlier and may reduce mortality. We assessed cfDNAme in regions of ZNF154, C2CD4D and WNT6 via targeted bisulfite sequencing in diagnostic and early detection (preceding diagnosis) settings. Diagnostic samples were obtained via prospective blood collection in cell-free DNA tubes in a convenience series of patients with a pelvic mass. Early detection samples were matched case-control samples derived from the UK Familial Ovarian Cancer Screening Study (UKFOCSS). In the diagnostic set (n",
+      "journal": "Int J Cancer",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Herzog",
+          "fore_name": "Chiara",
+          "affiliations": [
+            "European Translational Oncology Prevention and Screening (EUTOPS) Institute, Hall in Tirol, Austria.",
+            "Research Institute for Biomedical Aging Research, Universit\u00e4t Innsbruck, Innsbruck, Austria."
+          ]
+        },
+        {
+          "last_name": "Jones",
+          "fore_name": "Allison",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Evans",
+          "fore_name": "Iona",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Reisel",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Olaitan",
+          "fore_name": "Adeola",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Doufekas",
+          "fore_name": "Konstantinos",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "MacDonald",
+          "fore_name": "Nicola",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "R\u00e5destad",
+          "fore_name": "Angelique Fl\u00f6ter",
+          "affiliations": [
+            "Department of Women's and Children's Health, Division of Obstetrics and Gynecology, Karolinska Institutet and Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Gemzell-Danielsson",
+          "fore_name": "Kristina",
+          "affiliations": [
+            "Department of Women's and Children's Health, Division of Obstetrics and Gynecology, Karolinska Institutet and Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Zikan",
+          "fore_name": "Michal",
+          "affiliations": [
+            "Department of Gynecology and Obstetrics, Charles University in Prague, First Faculty of Medicine and Hospital, Na Bulovce, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Cibula",
+          "fore_name": "David",
+          "affiliations": [
+            "Department of Gynaecology, Obstetrics and Neonatology, First Faculty of Medicine, Charles University, Prague and, General University Hospital, Prague, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Dost\u00e1lek",
+          "fore_name": "Luk\u00e1\u0161",
+          "affiliations": [
+            "Department of Gynaecology, Obstetrics and Neonatology, First Faculty of Medicine, Charles University, Prague and, General University Hospital, Prague, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Paprotka",
+          "fore_name": "Tobias",
+          "affiliations": [
+            "GENEWIZ Germany GmbH, Bahnhofstra\u00dfe, Germany."
+          ]
+        },
+        {
+          "last_name": "Leimbach",
+          "fore_name": "Andreas",
+          "affiliations": [
+            "Eurofins Genomics Europe Sequencing GmbH, Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Schmitt",
+          "fore_name": "Markus",
+          "affiliations": [
+            "Eurofins Genomics Europe Sequencing GmbH, Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Ryan",
+          "fore_name": "Andy",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Gentry-Maharaj",
+          "fore_name": "Aleksandra",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK.",
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Apostolidou",
+          "fore_name": "Sophia",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Rosenthal",
+          "fore_name": "Adam N",
+          "affiliations": [
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Menon",
+          "fore_name": "Usha",
+          "affiliations": [
+            "MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, University College London, London, UK."
+          ]
+        },
+        {
+          "last_name": "Widschwendter",
+          "fore_name": "Martin",
+          "affiliations": [
+            "European Translational Oncology Prevention and Screening (EUTOPS) Institute, Hall in Tirol, Austria.",
+            "Research Institute for Biomedical Aging Research, Universit\u00e4t Innsbruck, Innsbruck, Austria.",
+            "Department of Women's Cancer, UCL EGA Institute for Women's Health, University College London, London, UK.",
+            "Department of Women's and Children's Health, Division of Obstetrics and Gynecology, Karolinska Institutet and Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Case-Control Studies",
+        "Prospective Studies",
+        "DNA Methylation",
+        "Early Detection of Cancer",
+        "Ovarian Neoplasms",
+        "Biomarkers, Tumor",
+        "CA-125 Antigen",
+        "Kruppel-Like Transcription Factors"
+      ],
+      "keywords": [
+        "cell-free DNA",
+        "diagnosis",
+        "methylation",
+        "ovarian cancer"
+      ]
+    },
+    {
+      "pmid": "37196091",
+      "pmc": "PMC4009616",
+      "doi": "10.1126/sciadv.adf2982",
+      "title": "Mice with humanized livers reveal the role of hepatocyte clocks in rhythmic behavior.",
+      "abstract": "The synchronization of circadian clock depends on a central pacemaker located in the suprachiasmatic nuclei. However, the potential feedback of peripheral signals on the central clock remains poorly characterized. To explore whether peripheral organ circadian clocks may affect the central pacemaker, we used a chimeric model in which mouse hepatocytes were replaced by human hepatocytes. Liver humanization led to reprogrammed diurnal gene expression and advanced the phase of the liver circadian clock that extended to muscle and the entire rhythmic physiology. Similar to clock-deficient mice, liver-humanized mice shifted their rhythmic physiology more rapidly to the light phase under day feeding. Our results indicate that hepatocyte clocks can affect the central pacemaker and offer potential perspectives to apprehend pathologies associated with altered circadian physiology.",
+      "journal": "Sci Adv",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Delb\u00e8s",
+          "fore_name": "Anne-Sophie",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9, CNRS, Unit\u00e9 de Biologie Fonctionnelle et Adaptative, Paris, France."
+          ]
+        },
+        {
+          "last_name": "Qui\u00f1ones",
+          "fore_name": "Mar",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9, CNRS, Unit\u00e9 de Biologie Fonctionnelle et Adaptative, Paris, France.",
+            "Instituto de Investigaci\u00f3n Sanitaria de Santiago de Compostela, Complexo Hospitalario Universitario de Santiago (CHUS/SERGAS), Traves\u00eda da Choupana s/n, 15706, Santiago de Compostela, Spain.",
+            "CIBER de Fisiopatolog\u00eda de la Obesidad y la Nutrici\u00f3n (CIBEROBN), Instituto de Salud Carlos III, 28029, Madrid, Spain."
+          ]
+        },
+        {
+          "last_name": "Gobet",
+          "fore_name": "C\u00e9dric",
+          "affiliations": [
+            "Nestl\u00e9 Research, Soci\u00e9t\u00e9 des Produits Nestl\u00e9, CH-1015 Lausanne, Switzerland.",
+            "School of Life Sciences, Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne, Lausanne CH-1015, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Castel",
+          "fore_name": "Julien",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9, CNRS, Unit\u00e9 de Biologie Fonctionnelle et Adaptative, Paris, France."
+          ]
+        },
+        {
+          "last_name": "Denis",
+          "fore_name": "Rapha\u00ebl G P",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9, CNRS, Unit\u00e9 de Biologie Fonctionnelle et Adaptative, Paris, France.",
+            "Institut Cochin, Universit\u00e9 Paris Cit\u00e9, INSERM U1016, CNRS UMR 8104, Paris 75014, France."
+          ]
+        },
+        {
+          "last_name": "Berthelet",
+          "fore_name": "J\u00e9r\u00e9my",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9, CNRS, Unit\u00e9 Epigenetique et Destin Cellulaire, Paris F-75013, France."
+          ]
+        },
+        {
+          "last_name": "Weger",
+          "fore_name": "Benjamin D",
+          "affiliations": [
+            "Nestl\u00e9 Research, Soci\u00e9t\u00e9 des Produits Nestl\u00e9, CH-1015 Lausanne, Switzerland.",
+            "Institute for Molecular Bioscience, The University of Queensland, St.\u00a0Lucia, QLD 4072 Australia."
+          ]
+        },
+        {
+          "last_name": "Challet",
+          "fore_name": "Etienne",
+          "affiliations": [
+            "Institute for Cellular and Integrative Neurosciences, CNRS and University of Strasbourg, Strasbourg, France."
+          ]
+        },
+        {
+          "last_name": "Charpagne",
+          "fore_name": "Aline",
+          "affiliations": [
+            "Nestl\u00e9 Research, Soci\u00e9t\u00e9 des Produits Nestl\u00e9, CH-1015 Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Metairon",
+          "fore_name": "Sylviane",
+          "affiliations": [
+            "Nestl\u00e9 Research, Soci\u00e9t\u00e9 des Produits Nestl\u00e9, CH-1015 Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Piccand",
+          "fore_name": "Julie",
+          "affiliations": [
+            "Nestl\u00e9 Research, Soci\u00e9t\u00e9 des Produits Nestl\u00e9, CH-1015 Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Kraus",
+          "fore_name": "Marine",
+          "affiliations": [
+            "Nestl\u00e9 Research, Soci\u00e9t\u00e9 des Produits Nestl\u00e9, CH-1015 Lausanne, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Rohde",
+          "fore_name": "Bettina H",
+          "affiliations": [
+            "Eurofins Genomics Europe Sequencing GmbH, European Genome and Diagnostics Centre, Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Bial",
+          "fore_name": "John",
+          "affiliations": [
+            "Capsigen Inc., Vancouver, WA, USA."
+          ]
+        },
+        {
+          "last_name": "Wilson",
+          "fore_name": "Elizabeth M",
+          "affiliations": [
+            "Yecuris Corporation, Portland, OR, USA."
+          ]
+        },
+        {
+          "last_name": "Vedin",
+          "fore_name": "Lise-Lotte",
+          "affiliations": [
+            "Cardio Metabolic Unit, Department of Medicine and department of Laboratory Medicine, Karolinska Institute, Huddinge, Sweden."
+          ]
+        },
+        {
+          "last_name": "Minniti",
+          "fore_name": "Mirko E",
+          "affiliations": [
+            "Cardio Metabolic Unit, Department of Medicine and department of Laboratory Medicine, Karolinska Institute, Huddinge, Sweden."
+          ]
+        },
+        {
+          "last_name": "Pedrelli",
+          "fore_name": "Matteo",
+          "affiliations": [
+            "Cardio Metabolic Unit, Department of Medicine and department of Laboratory Medicine, Karolinska Institute, Huddinge, Sweden.",
+            "Medical Unit Endocrinology, Theme Inflammation and Ageing, Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Parini",
+          "fore_name": "Paolo",
+          "affiliations": [
+            "Cardio Metabolic Unit, Department of Medicine and department of Laboratory Medicine, Karolinska Institute, Huddinge, Sweden.",
+            "Medical Unit Endocrinology, Theme Inflammation and Ageing, Karolinska University Hospital, Stockholm, Sweden."
+          ]
+        },
+        {
+          "last_name": "Gachon",
+          "fore_name": "Fr\u00e9d\u00e9ric",
+          "affiliations": [
+            "Nestl\u00e9 Research, Soci\u00e9t\u00e9 des Produits Nestl\u00e9, CH-1015 Lausanne, Switzerland.",
+            "School of Life Sciences, Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne, Lausanne CH-1015, Switzerland.",
+            "Institute for Molecular Bioscience, The University of Queensland, St.\u00a0Lucia, QLD 4072 Australia."
+          ]
+        },
+        {
+          "last_name": "Luquet",
+          "fore_name": "Serge",
+          "affiliations": [
+            "Universit\u00e9 Paris Cit\u00e9, CNRS, Unit\u00e9 de Biologie Fonctionnelle et Adaptative, Paris, France."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Mice",
+        "Animals",
+        "Circadian Rhythm",
+        "Liver",
+        "Hepatocytes",
+        "Circadian Clocks",
+        "Suprachiasmatic Nucleus"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "36840276",
+      "pmc": "PMC1206241",
+      "doi": "10.1093/genetics/138.3.963",
+      "title": "High-Density Linkage Maps from Japanese Rice",
+      "abstract": "The genetic dissection of agronomically important traits in closely related Japanese rice cultivars is still in its infancy mainly because of the narrow genetic diversity within",
+      "journal": "Plants (Basel)",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Fekih",
+          "fore_name": "Rym",
+          "affiliations": [
+            "Food Resources Education and Research Center, Graduate School of Agricultural Science, Kobe University, Kasai 675-2103, Japan."
+          ]
+        },
+        {
+          "last_name": "Ishimaru",
+          "fore_name": "Yohei",
+          "affiliations": [
+            "Food Resources Education and Research Center, Graduate School of Agricultural Science, Kobe University, Kasai 675-2103, Japan."
+          ]
+        },
+        {
+          "last_name": "Okada",
+          "fore_name": "Satoshi",
+          "affiliations": [
+            "Food Resources Education and Research Center, Graduate School of Agricultural Science, Kobe University, Kasai 675-2103, Japan.",
+            "Bioscience and Biotechnology Center, Nagoya University, Nagoya 464-8601, Japan."
+          ]
+        },
+        {
+          "last_name": "Maeda",
+          "fore_name": "Michihiro",
+          "affiliations": [
+            "Food Resources Education and Research Center, Graduate School of Agricultural Science, Kobe University, Kasai 675-2103, Japan."
+          ]
+        },
+        {
+          "last_name": "Miyagi",
+          "fore_name": "Ryutaro",
+          "affiliations": [
+            "Eurofins Genomics K.K., Tokyo 143-0003, Japan."
+          ]
+        },
+        {
+          "last_name": "Obana",
+          "fore_name": "Takahiro",
+          "affiliations": [
+            "Eurofins Genomics K.K., Tokyo 143-0003, Japan."
+          ]
+        },
+        {
+          "last_name": "Suzuki",
+          "fore_name": "Kazuyo",
+          "affiliations": [
+            "Toyota Motor Corporation, Toyota 471-8571, Japan."
+          ]
+        },
+        {
+          "last_name": "Inamori",
+          "fore_name": "Minoru",
+          "affiliations": [
+            "Toyota Motor Corporation, Toyota 471-8571, Japan."
+          ]
+        },
+        {
+          "last_name": "Enoki",
+          "fore_name": "Hiroyuki",
+          "affiliations": [
+            "Toyota Motor Corporation, Toyota 471-8571, Japan."
+          ]
+        },
+        {
+          "last_name": "Yamasaki",
+          "fore_name": "Masanori",
+          "affiliations": [
+            "Food Resources Education and Research Center, Graduate School of Agricultural Science, Kobe University, Kasai 675-2103, Japan.",
+            "Graduate School of Science and Technology, Niigata University, Niigata 950-2181, Japan."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "GRAS-Di genotyping",
+        "Japanese rice",
+        "genetic linkage map",
+        "japonica subspecies",
+        "recombinant inbred lines"
+      ]
+    },
+    {
+      "pmid": "36680148",
+      "pmc": "PMC9047469",
+      "doi": "10.1038/s41392-022-00997-x",
+      "title": "Genomic Epidemiology of the SARS-CoV-2 Epidemic in Cyprus from November 2020 to October 2021: The Passage of Waves of Alpha and Delta Variants of Concern.",
+      "abstract": "The emergence of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in December 2019 resulted in the coronavirus disease 2019 (COVID-19) pandemic, which has had devastating repercussions for public health. Over the course of this pandemic, the virus has continuously been evolving, resulting in new, more infectious variants that have frequently led to surges of new SARS-CoV-2 infections. In the present study, we performed detailed genetic, phylogenetic, phylodynamic and phylogeographic analyses to examine the SARS-CoV-2 epidemic in Cyprus using 2352 SARS-CoV-2 sequences from infected individuals in Cyprus during November 2020 to October 2021. During this period, a total of 61 different lineages and sublineages were identified, with most falling into three groups: B.1.258 & sublineages, Alpha (B.1.1.7 & Q. sublineages), and Delta (B.1.617.2 & AY. sublineages), each encompassing a set of S gene mutations that primarily confer increased transmissibility as well as immune evasion. Specifically, these lineages were coupled with surges of new infections in Cyprus, resulting in the following: the second wave of SARS-CoV-2 infections in Cyprus, comprising B.1.258 & sublineages, during late autumn 2020/beginning of winter 2021; the third wave, comprising Alpha (B.1.1.7 & Q. sublineages), during spring 2021; and the fourth wave, comprising Delta (B.1.617.2 & AY. sublineages) during summer 2021. Additionally, it was identified that these lineages were primarily imported from and exported to the UK, Greece, and Sweden; many other migration links were also identified, including Switzerland, Denmark, Russia, and Germany. Taken together, the results of this study indicate that the SARS-CoV-2 epidemic in Cyprus was characterized by successive introduction of new lineages from a plethora of countries, resulting in the generation of waves of infection. Overall, this study highlights the importance of investigating the spatiotemporal evolution of the SARS-CoV-2 epidemic in the context of Cyprus, as well as the impact of protective measures placed to mitigate transmission of the virus, providing necessary information to safeguard public health.",
+      "journal": "Viruses",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Chrysostomou",
+          "fore_name": "Andreas C",
+          "affiliations": [
+            "Department of Biological Sciences, University of Cyprus, Aglantzia, Nicosia 2109, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Vrancken",
+          "fore_name": "Bram",
+          "affiliations": [
+            "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven, 3000 Leuven, Belgium.",
+            "Spatial Epidemiology Lab (SpELL), Universit\u00e9 Libre de Bruxelles, 1050 Bruxelles, Belgium."
+          ]
+        },
+        {
+          "last_name": "Haralambous",
+          "fore_name": "Christos",
+          "affiliations": [
+            "Unit for Surveillance and Control of Communicable Diseases, Ministry of Health, Nicosia 1148, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Alexandrou",
+          "fore_name": "Maria",
+          "affiliations": [
+            "Microbiology Department, Larnaca General Hospital, Larnaca 6301, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Aristokleous",
+          "fore_name": "Antonia",
+          "affiliations": [
+            "Department of Biological Sciences, University of Cyprus, Aglantzia, Nicosia 2109, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Christodoulou",
+          "fore_name": "Christina",
+          "affiliations": [
+            "Department of Molecular Virology, Cyprus Institute of Neurology and Genetics, Nicosia 2371, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Gregoriou",
+          "fore_name": "Ioanna",
+          "affiliations": [
+            "Unit for Surveillance and Control of Communicable Diseases, Ministry of Health, Nicosia 1148, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Ioannides",
+          "fore_name": "Marios",
+          "affiliations": [
+            "NIPD Genetics, Nicosia 2409, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Kalakouta",
+          "fore_name": "Olga",
+          "affiliations": [
+            "Unit for Surveillance and Control of Communicable Diseases, Ministry of Health, Nicosia 1148, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Karagiannis",
+          "fore_name": "Christos",
+          "affiliations": [
+            "Microbiology Department, Nicosia General Hospital, Nicosia 2029, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Koumbaris",
+          "fore_name": "George",
+          "affiliations": [
+            "NIPD Genetics, Nicosia 2409, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Loizides",
+          "fore_name": "Charalambos",
+          "affiliations": [
+            "NIPD Genetics, Nicosia 2409, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Mendris",
+          "fore_name": "Michail",
+          "affiliations": [
+            "Microbiology Department, Limassol General Hospital, Limassol 4131, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Papastergiou",
+          "fore_name": "Panagiotis",
+          "affiliations": [
+            "Microbiology Department, Limassol General Hospital, Limassol 4131, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Patsalis",
+          "fore_name": "Philippos C",
+          "affiliations": [
+            "NIPD Genetics, Nicosia 2409, Cyprus.",
+            "Medical School, University of Nicosia, Nicosia 2417, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Pieridou",
+          "fore_name": "Despo",
+          "affiliations": [
+            "Microbiology Department, Nicosia General Hospital, Nicosia 2029, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Richter",
+          "fore_name": "Jan",
+          "affiliations": [
+            "Department of Molecular Virology, Cyprus Institute of Neurology and Genetics, Nicosia 2371, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Schmitt",
+          "fore_name": "Markus",
+          "affiliations": [
+            "Eurofins Genomics Sequencing Europe, 85560 Ebersberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Shammas",
+          "fore_name": "Christos",
+          "affiliations": [
+            "S.C.I.N.A Bioanalysis Sciomedical Centre Ltd., Limassol 4040, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Stylianou",
+          "fore_name": "Dora C",
+          "affiliations": [
+            "Department of Biological Sciences, University of Cyprus, Aglantzia, Nicosia 2109, Cyprus."
+          ]
+        },
+        {
+          "last_name": "Themistokleous",
+          "fore_name": "Giorgos",
+          "affiliations": [
+            "Microbiology Department, Larnaca General Hospital, Larnaca 6301, Cyprus."
+          ]
+        },
+        {
+          "last_name": "The Comessar Network",
+          "fore_name": "",
+          "affiliations": []
+        },
+        {
+          "last_name": "Lemey",
+          "fore_name": "Philippe",
+          "affiliations": [
+            "Department of Microbiology, Immunology and Transplantation, Rega Institute, KU Leuven, 3000 Leuven, Belgium."
+          ]
+        },
+        {
+          "last_name": "Kostrikis",
+          "fore_name": "Leondios G",
+          "affiliations": [
+            "Department of Biological Sciences, University of Cyprus, Aglantzia, Nicosia 2109, Cyprus.",
+            "Cyprus Academy of Sciences, Letters, and Arts, 60-68 Phaneromenis Street, Nicosia 1011, Cyprus."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "SARS-CoV-2",
+        "Cyprus",
+        "Phylogeny",
+        "COVID-19",
+        "Genomics",
+        "Pandemics"
+      ],
+      "keywords": [
+        "COVID-19",
+        "Cyprus",
+        "SARS-CoV-2",
+        "molecular epidemiology"
+      ]
+    },
+    {
+      "pmid": "35865713",
+      "pmc": "PMC3873017",
+      "doi": "10.1016/j.aquaculture.2022.738135",
+      "title": "Comparison of two commercial methods for smooth-shelled mussels (",
+      "abstract": "Seafood international trade has increased the labeling requirements in standards and regulations to include product information that enable traders and consumers to make informed choices. The European Union (EU) Regulation No. 1379/2013 imposes the declaration of an official commercial designation and scientific names for all the fishery and aquaculture products to be offered for sale to the final consumers. DNA analyses are used to enforce this regulation and to test authenticity in processed foods. We compared the performance of two mono-locus approaches for species identification (SI) in 61",
+      "journal": "Food Chem (Oxf)",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Asorey",
+          "fore_name": "Cynthia M",
+          "affiliations": [
+            "Food Quality Research Center. Universidad de Chile, Santiago, Chile.",
+            "Universidad Cat\u00f3lica del Norte, Facultad de Ciencias del Mar, Sala de Colecciones Biol\u00f3gicas, Departamento de Biolog\u00eda Marina, Larrondo 1281, Coquimbo, Chile."
+          ]
+        },
+        {
+          "last_name": "Jilberto",
+          "fore_name": "Felipe",
+          "affiliations": [
+            "Food Quality Research Center. Universidad de Chile, Santiago, Chile.",
+            "Universidad de Chile, Facultad de Ciencias Agron\u00f3micas, Departamento de Producci\u00f3n Animal, Avenida Santa Rosa 11315, La Pintana, Santiago, Chile.",
+            "Universidad de Chile, Facultad de Ciencias Qu\u00edmicas y Farmac\u00e9uticas, Departamento de Ciencia de los Alimentos y Tecnolog\u00eda Qu\u00edmica, Santiago, Chile."
+          ]
+        },
+        {
+          "last_name": "Haase",
+          "fore_name": "Ilka",
+          "affiliations": [
+            "Eurofins Genomics, Anzinger Str. 7a, 85560 Ebersberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Schubbert",
+          "fore_name": "Rainer",
+          "affiliations": [
+            "Eurofins Genomics, Anzinger Str. 7a, 85560 Ebersberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Ang\u00e9lica Larra\u00edn",
+          "fore_name": "Mar\u00eda",
+          "affiliations": [
+            "Food Quality Research Center. Universidad de Chile, Santiago, Chile.",
+            "Universidad de Chile, Facultad de Ciencias Qu\u00edmicas y Farmac\u00e9uticas, Departamento de Ciencia de los Alimentos y Tecnolog\u00eda Qu\u00edmica, Santiago, Chile."
+          ]
+        },
+        {
+          "last_name": "Araneda",
+          "fore_name": "Cristi\u00e1n",
+          "affiliations": [
+            "Food Quality Research Center. Universidad de Chile, Santiago, Chile.",
+            "Universidad de Chile, Facultad de Ciencias Agron\u00f3micas, Departamento de Producci\u00f3n Animal, Avenida Santa Rosa 11315, La Pintana, Santiago, Chile."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "DNA sequence analysis",
+        "FINS",
+        "H1C gene",
+        "HRM",
+        "PAPM",
+        "Seafood traceability"
+      ]
+    },
+    {
+      "pmid": "35641884",
+      "pmc": "PMC3890232",
+      "doi": "10.1016/j.copbio.2008.07.007",
+      "title": "Transcriptomic analysis reveals mode of action of butyric acid supplementation in an intensified CHO cell fed-batch process.",
+      "abstract": "Process intensification is increasingly used in the mammalian biomanufacturing industry. The key driver of this trend is the need for more efficient and flexible production strategies to cope with the increased demand for biotherapeutics predicted in the next years. Therefore, such intensified production strategies should be designed, established, and characterized. We established a CHO cell process consisting of an intensified fed-batch (iFB), which is inoculated by an N-1 perfusion process that reaches high cell concentrations (100\u2009\u00d7\u200910",
+      "journal": "Biotechnol Bioeng",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Schulze",
+          "fore_name": "Markus",
+          "affiliations": [
+            "Product Development Cell Culture Technologies, Sartorius Stedim Biotech GmbH, G\u00f6ttingen, Germany.",
+            "Bioprocess Engineering, Wageningen University, Wageningen, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Yadhu",
+          "affiliations": [
+            "Eurofins Genomics Europe Sequencing GmbH, Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Rattay",
+          "fore_name": "Merle",
+          "affiliations": [
+            "Corporate Research Advanced Cell Biology, Sartorius Stedim Cellca GmbH, Ulm, Germany."
+          ]
+        },
+        {
+          "last_name": "Niemann",
+          "fore_name": "Julia",
+          "affiliations": [
+            "Corporate Research BioProcessing Upstream, Sartorius Stedim Biotech GmbH, G\u00f6ttingen, Germany."
+          ]
+        },
+        {
+          "last_name": "Wijffels",
+          "fore_name": "Rene H",
+          "affiliations": [
+            "Bioprocess Engineering, Wageningen University, Wageningen, The Netherlands.",
+            "Biosciences and Aquaculture, Nord University, Bod\u00f8, Norway."
+          ]
+        },
+        {
+          "last_name": "Martens",
+          "fore_name": "Dirk E",
+          "affiliations": [
+            "Bioprocess Engineering, Wageningen University, Wageningen, The Netherlands."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Batch Cell Culture Techniques",
+        "Bioreactors",
+        "Butyric Acid",
+        "CHO Cells",
+        "Cricetinae",
+        "Cricetulus",
+        "Dietary Supplements",
+        "Immunoglobulin G",
+        "Transcriptome"
+      ],
+      "keywords": [
+        "CHO cell culture",
+        "N-1 perfusion",
+        "butyric acid",
+        "intensified fed-batch",
+        "process intensification",
+        "transcriptomics"
+      ]
+    },
+    {
+      "pmid": "35235349",
+      "pmc": "PMC2647324",
+      "doi": "10.1126/sciadv.abl9051",
+      "title": "Premature aging in mice with error-prone protein synthesis.",
+      "abstract": "The main source of error in gene expression is messenger RNA decoding by the ribosome. Translational accuracy has been suggested on a purely correlative basis to positively coincide with maximum possible life span among different rodent species, but causal evidence that translation errors accelerate aging in vivo and limit life span is lacking. We have now addressed this question experimentally by creating heterozygous knock-in mice that express the ribosomal ambiguity mutation RPS9 D95N, resulting in genome-wide error-prone translation. Here, we show that",
+      "journal": "Sci Adv",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Shcherbakov",
+          "fore_name": "Dimitri",
+          "affiliations": [
+            "Institut f\u00fcr Medizinische Mikrobiologie, Universit\u00e4t Z\u00fcrich, CH-8006 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Nigri",
+          "fore_name": "Martina",
+          "affiliations": [
+            "Anatomisches Institut, Universit\u00e4t Z\u00fcrich, and Institut f\u00fcr Bewegungswissenschaften und Sport, ETH Z\u00fcrich, CH-8057 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Akbergenov",
+          "fore_name": "Rashid",
+          "affiliations": [
+            "Institut f\u00fcr Medizinische Mikrobiologie, Universit\u00e4t Z\u00fcrich, CH-8006 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Brilkova",
+          "fore_name": "Margarita",
+          "affiliations": [
+            "Institut f\u00fcr Medizinische Mikrobiologie, Universit\u00e4t Z\u00fcrich, CH-8006 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Mantovani",
+          "fore_name": "Matilde",
+          "affiliations": [
+            "Institut f\u00fcr Medizinische Mikrobiologie, Universit\u00e4t Z\u00fcrich, CH-8006 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Petit",
+          "fore_name": "Patricia Isnard",
+          "affiliations": [
+            "genOway, F-69362 Lyon Cedex 07, France."
+          ]
+        },
+        {
+          "last_name": "Grimm",
+          "fore_name": "Amandine",
+          "affiliations": [
+            "Universit\u00e4re Psychiatrische Kliniken Basel, Transfaculty Research Platform Molecular and Cognitive Neurosciences, CH-4055 Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Karol",
+          "fore_name": "Agnieszka A",
+          "affiliations": [
+            "Musculoskeletal Research Unit (MSRU), Vetsuisse Faculty, University of Zurich, CH-8057 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Teo",
+          "fore_name": "Youjin",
+          "affiliations": [
+            "Institut f\u00fcr Medizinische Mikrobiologie, Universit\u00e4t Z\u00fcrich, CH-8006 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Sanch\u00f3n",
+          "fore_name": "Adri\u00e1n Cort\u00e9s",
+          "affiliations": [
+            "Institut f\u00fcr Medizinische Mikrobiologie, Universit\u00e4t Z\u00fcrich, CH-8006 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Kumar",
+          "fore_name": "Yadhu",
+          "affiliations": [
+            "Eurofins Genomics Europe Sequencing GmbH, D-78467 Konstanz, Germany."
+          ]
+        },
+        {
+          "last_name": "Eckert",
+          "fore_name": "Anne",
+          "affiliations": [
+            "Universit\u00e4re Psychiatrische Kliniken Basel, Transfaculty Research Platform Molecular and Cognitive Neurosciences, CH-4055 Basel, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Thiam",
+          "fore_name": "Kader",
+          "affiliations": [
+            "genOway, F-69362 Lyon Cedex 07, France."
+          ]
+        },
+        {
+          "last_name": "Seebeck",
+          "fore_name": "Petra",
+          "affiliations": [
+            "Zurich Integrative Rodent Physiology (ZIRP), University of Zurich, CH-8057 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Wolfer",
+          "fore_name": "David P",
+          "affiliations": [
+            "Anatomisches Institut, Universit\u00e4t Z\u00fcrich, and Institut f\u00fcr Bewegungswissenschaften und Sport, ETH Z\u00fcrich, CH-8057 Zurich, Switzerland."
+          ]
+        },
+        {
+          "last_name": "B\u00f6ttger",
+          "fore_name": "Erik C",
+          "affiliations": [
+            "Institut f\u00fcr Medizinische Mikrobiologie, Universit\u00e4t Z\u00fcrich, CH-8006 Zurich, Switzerland."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Aging",
+        "Aging, Premature",
+        "Animals",
+        "Longevity",
+        "Mammals",
+        "Mice",
+        "Reactive Oxygen Species",
+        "Telomere"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "35205227",
+      "pmc": "PMC5070165",
+      "doi": "10.1186/s12864-016-3147-7",
+      "title": "Population Structure and Diversity in European Honey Bees (",
+      "abstract": "Whole-genome sequencing has become routine for population genetic studies. Sequencing of individuals provides maximal data but is rather expensive and fewer samples can be studied. In contrast, sequencing a pool of samples (pool-seq) can provide sufficient data, while presenting less of an economic challenge. Few studies have compared the two approaches to infer population genetic structure and diversity in real datasets. Here, we apply individual sequencing (ind-seq) and pool-seq to the study of Western honey bees ( We collected honey bee workers that belonged to 14 populations, including 13 subspecies, totaling 1347 colonies, who were individually (139 individuals) and pool-sequenced (14 pools). We compared allele frequencies, genetic diversity estimates, and population structure as inferred by the two approaches. Pool-seq and ind-seq revealed near identical population structure and genetic diversities, albeit at different costs. While pool-seq provides genome-wide polymorphism data at considerably lower costs, ind-seq can provide additional information, including the identification of population substructures, hybridization, or individual outliers. If costs are not the limiting factor, we recommend using ind-seq, as population genetic structure can be inferred similarly well, with the advantage gained from individual genetic information. Not least, it also significantly reduces the effort required for the collection of numerous samples and their further processing in the laboratory.",
+      "journal": "Genes (Basel)",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Chen",
+          "fore_name": "Chao",
+          "affiliations": [
+            "Institute of Apicultural Research, Chinese Academy of Agricultural Sciences, Beijing 100093, China.",
+            "Key Laboratory of Pollinating Insect Biology, Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+          ]
+        },
+        {
+          "last_name": "Parejo",
+          "fore_name": "Melanie",
+          "affiliations": [
+            "Department of Genetics, Physical Anthropology and Animal Physiology, Faculty of Science and Technology, University of the Basque Country (UPV/EHU), 48940 Leioa, Spain.",
+            "Swiss Bee Research Center, Agroscope, 3003 Bern, Switzerland."
+          ]
+        },
+        {
+          "last_name": "Momeni",
+          "fore_name": "Jamal",
+          "affiliations": [
+            "Eurofins Genomics, 8200 Aarhus, Denmark."
+          ]
+        },
+        {
+          "last_name": "Langa",
+          "fore_name": "Jorge",
+          "affiliations": [
+            "Department of Genetics, Physical Anthropology and Animal Physiology, Faculty of Science and Technology, University of the Basque Country (UPV/EHU), 48940 Leioa, Spain."
+          ]
+        },
+        {
+          "last_name": "Nielsen",
+          "fore_name": "Rasmus O",
+          "affiliations": [
+            "Eurofins Genomics, 8200 Aarhus, Denmark."
+          ]
+        },
+        {
+          "last_name": "Shi",
+          "fore_name": "Wei",
+          "affiliations": [
+            "Institute of Apicultural Research, Chinese Academy of Agricultural Sciences, Beijing 100093, China.",
+            "Key Laboratory of Pollinating Insect Biology, Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+          ]
+        },
+        {
+          "last_name": "Smartbees Wp Diversity Contributors",
+          "fore_name": "",
+          "affiliations": []
+        },
+        {
+          "last_name": "Vingborg",
+          "fore_name": "Rikke",
+          "affiliations": [
+            "Eurofins Genomics, 8200 Aarhus, Denmark."
+          ]
+        },
+        {
+          "last_name": "Kryger",
+          "fore_name": "Per",
+          "affiliations": [
+            "Department of Agroecology, Aarhus University, 4200 Slagelse, Denmark."
+          ]
+        },
+        {
+          "last_name": "Bouga",
+          "fore_name": "Maria",
+          "affiliations": [
+            "Lab of Agricultural Zoology and Entomology, Agricultural University of Athens, 11855 Athens, Greece."
+          ]
+        },
+        {
+          "last_name": "Estonba",
+          "fore_name": "Andone",
+          "affiliations": [
+            "Department of Genetics, Physical Anthropology and Animal Physiology, Faculty of Science and Technology, University of the Basque Country (UPV/EHU), 48940 Leioa, Spain."
+          ]
+        },
+        {
+          "last_name": "Meixner",
+          "fore_name": "Marina",
+          "affiliations": [
+            "LLH Bee Institute Kirchhain, 35274 Kirchhain, Germany."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Bees",
+        "Hybridization, Genetic",
+        "Polymorphism, Single Nucleotide",
+        "Whole Genome Sequencing"
+      ],
+      "keywords": [
+        "Apis mellifera",
+        "diversity",
+        "pool-sequencing",
+        "population structure",
+        "whole-genome sequencing"
+      ]
+    },
+    {
+      "pmid": "36817240",
+      "pmc": "PMC3001097",
+      "doi": "10.1080/20961790.2021.1886679",
+      "title": "An inter-laboratory study of DNA-based identity, parentage and species testing in animal forensic genetics.",
+      "abstract": "The probative value of animal forensic genetic evidence relies on laboratory accuracy and reliability. Inter-laboratory comparisons allow laboratories to evaluate their performance on specific tests and analyses and to continue to monitor their output. The International Society for Animal Genetics (ISAG) administered animal forensic comparison tests (AFCTs) in 2016 and 2018 to assess the limitations and capabilities of laboratories offering forensic identification, parentage and species determination services. The AFCTs revealed that analyses of low DNA template concentrations (\u2264300\u2009pg/\u00b5L) constitute a significant challenge that has prevented many laboratories from reporting correct identification and parentage results. Moreover, a lack of familiarity with species testing protocols, interpretation guidelines and representative databases prevented over a quarter of the participating laboratories from submitting correct species determination results. Several laboratories showed improvement in their genotyping accuracy over time. However, the use of forensically validated standards, such as a standard forensic short tandem repeat (STR) kit, preferably with an allelic ladder, and stricter guidelines for STR typing, may have prevented some common issues from occurring, such as genotyping inaccuracies, missing data, elevated stutter products and loading errors. The AFCTs underscore the importance of conducting routine forensic comparison tests to allow laboratories to compare results from each other. Laboratories should keep improving their scientific and technical capabilities and continuously evaluate their personnel's proficiency in critical techniques such as low copy number (LCN) analysis and species testing. Although this is the first time that the ISAG has conducted comparison tests for forensic testing, findings from these AFCTs may serve as the foundation for continuous improvements of the overall quality of animal forensic genetic testing.",
+      "journal": "Forensic Sci Res",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Kanthaswamy",
+          "fore_name": "Sreetharan",
+          "affiliations": [
+            "School of Mathematics and Natural Sciences, Arizona State University (ASU) at the West Campus, Glendale, AZ, USA.",
+            "California National Primate Research Center, University of California, Davis, CA, USA.",
+            "Evolutionary Biology Graduate Program, School of Life Sciences, Arizona State University, Tempe, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Brendel",
+          "fore_name": "Torsten",
+          "affiliations": [
+            "Eurofins Genomics Europe Applied Genomics GmbH, Ebersberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Cancela",
+          "fore_name": "Luis",
+          "affiliations": [
+            "IDENTITAS, Montevideo, Uruguay."
+          ]
+        },
+        {
+          "last_name": "Andrade de Oliveira",
+          "fore_name": "Denise A",
+          "affiliations": [
+            "Laborat\u00f3rio de Gen\u00e9tica, Escola de Veterin\u00e1ria da UFMG, Belo Horizonte, Brazil."
+          ]
+        },
+        {
+          "last_name": "Brenig",
+          "fore_name": "Bertram",
+          "affiliations": [
+            "Institute of Veterinary Medicine, University of Goettingen, Goettingen, Germany."
+          ]
+        },
+        {
+          "last_name": "Cons",
+          "fore_name": "Carmen",
+          "affiliations": [
+            "Facultad de Veterinaria, Laboratorio de Gen\u00e9tica Bioqu\u00edmica (LAGENBIO), Instituto Agroalimentario de Arag\u00f3n-IA2 (Universidad de Zaragoza-CITA), Zaragoza, Spain."
+          ]
+        },
+        {
+          "last_name": "Crespi",
+          "fore_name": "Julian A",
+          "affiliations": [
+            "Facultad de Ciencias Veterinarias UNLP, IGEVET - Instituto de Gen\u00e9tica Veterinaria (UNLP-CONICET LA PLATA), La Plata, Argentina."
+          ]
+        },
+        {
+          "last_name": "Dajbychov\u00e1",
+          "fore_name": "Mark\u00e9ta",
+          "affiliations": [
+            "Genomia s.r.o., Plze\u0148, Czech Republic."
+          ]
+        },
+        {
+          "last_name": "Feldl",
+          "fore_name": "Andreas",
+          "affiliations": [
+            "Eurofins Genomics Europe Applied Genomics GmbH, Ebersberg, Germany."
+          ]
+        },
+        {
+          "last_name": "Itoh",
+          "fore_name": "Tomohito",
+          "affiliations": [
+            "Maebashi Institute of Animal Science, Livestock Improvement Association of Japan (LIAJ), Maebashi, Japan."
+          ]
+        },
+        {
+          "last_name": "Landi",
+          "fore_name": "Vincenzo",
+          "affiliations": [
+            "Department of Veterinary Medicine, Animal Breeding and Genetics, University of Bari \"Aldo Moro\", Valenzano, Italy."
+          ]
+        },
+        {
+          "last_name": "Martinez",
+          "fore_name": "Amparo",
+          "affiliations": [
+            "Department of Genetics, Faculty of Veterinary Sciences, University of C\u00f3rdoba, C\u00f3rdoba, Spain."
+          ]
+        },
+        {
+          "last_name": "Natonek-Wisniewska",
+          "fore_name": "Malgorzata",
+          "affiliations": [
+            "Department of Animal Molecular Biology, National Research Institute of Animal Production, Balice, Poland."
+          ]
+        },
+        {
+          "last_name": "Oldt",
+          "fore_name": "Robert F",
+          "affiliations": [
+            "School of Mathematics and Natural Sciences, Arizona State University (ASU) at the West Campus, Glendale, AZ, USA.",
+            "California National Primate Research Center, University of California, Davis, CA, USA.",
+            "Evolutionary Biology Graduate Program, School of Life Sciences, Arizona State University, Tempe, AZ, USA."
+          ]
+        },
+        {
+          "last_name": "Radko",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Department of Animal Molecular Biology, National Research Institute of Animal Production, Balice, Poland."
+          ]
+        },
+        {
+          "last_name": "Ram\u00edrez",
+          "fore_name": "Oscar",
+          "affiliations": [
+            "Vetgenomics SL, Barcelona, Spain."
+          ]
+        },
+        {
+          "last_name": "Rodellar",
+          "fore_name": "Clementina",
+          "affiliations": [
+            "Facultad de Veterinaria, Laboratorio de Gen\u00e9tica Bioqu\u00edmica (LAGENBIO), Instituto Agroalimentario de Arag\u00f3n-IA2 (Universidad de Zaragoza-CITA), Zaragoza, Spain."
+          ]
+        },
+        {
+          "last_name": "Ruiz-Gir\u00f3n",
+          "fore_name": "Manuel",
+          "affiliations": [
+            "Laboratorio de Biolog\u00eda Molecular y Gen\u00f3mica, Hispalis Biolab S.L.U., Seville, Spain."
+          ]
+        },
+        {
+          "last_name": "Schikorski",
+          "fore_name": "David",
+          "affiliations": [
+            "Laboratoire LABOFARM-GENINDEXE, LOUDEAC Cedex, France."
+          ]
+        },
+        {
+          "last_name": "Turba",
+          "fore_name": "Mar\u00eda Elena",
+          "affiliations": [
+            "Genefast SRL, Forl\u00ec, Italy."
+          ]
+        },
+        {
+          "last_name": "Giovambatista",
+          "fore_name": "Guillermo",
+          "affiliations": [
+            "Facultad de Ciencias Veterinarias UNLP, IGEVET - Instituto de Gen\u00e9tica Veterinaria (UNLP-CONICET LA PLATA), La Plata, Argentina."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Forensic sciences",
+        "comparison test",
+        "forensic DNA analysis",
+        "forensic genetics",
+        "individual identification",
+        "parentage test",
+        "species test"
+      ]
+    },
+    {
+      "pmid": "41696869",
+      "pmc": "PMC5852210",
+      "doi": "10.1038/s41398-018-0116-8",
+      "title": "GutMIND: A multi-cohort machine learning framework for integrative characteristics of the microbiota-gut-brain axis in neuropsychiatric disorders.",
+      "abstract": "Emerging evidence underscores bidirectional communication along the microbiota-gut-brain axis in neuropsychiatric disorders. However, the field lacks dedicated metagenomic resources with standardized phenotyping for these conditions. Existing single-cohort studies face inherent limitations due to restricted sample sizes, confounding heterogeneity, and methodological fragmentation, compromising reproducibility and mechanistic insights. To overcome these challenges, we constructed the Gut Microbiome in Multinational Integrated Neuropsychiatric Disorders (GutMIND) database, a comprehensive resource integrating shotgun metagenomic data with harmonized metadata. Adhering to a standardized preprocessing protocol and rigorous quality control workflow, this dataset represents the largest gut-brain microbiome repository to date, encompassing 31 studies across 12 countries (",
+      "journal": "Gut Microbes",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Ju",
+          "fore_name": "Yanmei",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, People's Republic of China.",
+            "BGI Research, Wuhan, People's Republic of China.",
+            "BGI Research, Shenzhen, People's Republic of China.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Lin",
+          "fore_name": "Shutian",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, People's Republic of China.",
+            "BGI Research, Shenzhen, People's Republic of China.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, People's Republic of China.",
+            "BGI Precision Nutrition, Shenzhen, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Shaohua",
+          "affiliations": [
+            "Department of Psychiatry, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, People's Republic of China.",
+            "The Key Laboratory of Mental Disorder's Management of Zhejiang Province, Hangzhou, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Jin",
+          "fore_name": "Xin",
+          "affiliations": [
+            "College of Life Sciences, University of Chinese Academy of Sciences, Beijing, People's Republic of China.",
+            "BGI Research, Shenzhen, People's Republic of China.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Liang",
+          "affiliations": [
+            "BGI Research, Wuhan, People's Republic of China.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, People's Republic of China.",
+            "BGI Precision Nutrition, Shenzhen, People's Republic of China.",
+            "Shenzhen Engineering Laboratory of Detection and Intervention of Human Intestinal Microbiome, BGI Research, Shenzhen, People's Republic of China.",
+            "Qingdao-Europe Advanced Institute for Life Sciences, BGI Research, Qingdao, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Tao",
+          "affiliations": [
+            "BGI Research, Wuhan, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Yudan",
+          "affiliations": [
+            "Shaan Probiomicros Co. Ltd., Suzhou, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Liping",
+          "affiliations": [
+            "Ningbo mBioU Biopharma Co. Ltd., Ningbo, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Ma",
+          "fore_name": "Xiancang",
+          "affiliations": [
+            "Shaanxi Provincial Key Laboratory of Biological Psychiatry, Xi'an, People's Republic of China.",
+            "Department of Psychiatry, the First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Zhu",
+          "fore_name": "Feng",
+          "affiliations": [
+            "Shaanxi Provincial Key Laboratory of Biological Psychiatry, Xi'an, People's Republic of China.",
+            "Center for Translational Medicine, the First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, People's Republic of China."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Ruijin",
+          "affiliations": [
+            "BGI Research, Wuhan, People's Republic of China.",
+            "BGI Research, Shenzhen, People's Republic of China.",
+            "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, People's Republic of China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Gastrointestinal Microbiome",
+        "Machine Learning",
+        "Mental Disorders",
+        "Brain",
+        "Cohort Studies",
+        "Bacteria",
+        "Male",
+        "Metagenomics",
+        "Female",
+        "Brain-Gut Axis",
+        "Biomarkers"
+      ],
+      "keywords": [
+        "Microbiota-gut-brain axis",
+        "machine learning",
+        "microbial biomarkers",
+        "neuropsychiatric disorders"
+      ]
+    },
+    {
+      "pmid": "42007674",
+      "pmc": "PMC11580248",
+      "doi": "10.1136/jitc-2025-SITC2025.0596",
+      "title": "LILRB2 inhibition by blocking antibody ES009 reprograms immunosuppressive myeloid cells and enhances T-cell-mediated tumor immunity.",
+      "abstract": "The inhibitory receptor leukocyte immunoglobulin-like receptor B2 (LILRB2), expressed on myeloid cells like monocytes and tumor-resident myeloid cells, sustains an immunosuppressive tumor microenvironment and promotes tumor progression. Phase 1 clinical studies of LILRB2-targeting drug candidates have shown favorable safety, dose-dependent target engagement, and preliminary antitumor activity, both as monotherapy and in combination with anti-PD-1. These findings support the blockade of LILRB2 to reprogram myeloid cells and enhance immunotherapy. Building on this, we have developed ES009, a nanomolar affinity LILRB2 blocking antibody using hybridoma technology. The activity of ES009 was evaluated in preclinical studies and compared to clinical-stage reference antibodies. ES009 demonstrated comparable or superior efficacy, attributed to its nanomolar affinity for a unique epitope. It effectively reprogrammed anti-inflammatory myeloid cells toward pro-inflammatory phenotypes, overcoming macrophage-mediated T cell suppression both as a single agent and in synergy with anti-PD-1 blockade. These preclinical findings support the development of ES009 as a novel LILRB2-targeting therapeutic.",
+      "journal": "Hum Vaccin Immunother",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Niu",
+          "fore_name": "Xiaofeng",
+          "affiliations": [
+            "Discovery Department, Elpiscience Biopharma, Shanghai, P.R. China."
+          ]
+        },
+        {
+          "last_name": "Wang",
+          "fore_name": "Chunnian",
+          "affiliations": [
+            "Discovery Department, Elpiscience Biopharma, Shanghai, P.R. China."
+          ]
+        },
+        {
+          "last_name": "Hu",
+          "fore_name": "Yanfen",
+          "affiliations": [
+            "Discovery Department, Elpiscience Biopharma, Shanghai, P.R. China."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Jun",
+          "affiliations": [
+            "Discovery Department, Elpiscience Biopharma, Shanghai, P.R. China."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Xiaoli",
+          "affiliations": [
+            "Discovery Department, Elpiscience Biopharma, Shanghai, P.R. China."
+          ]
+        },
+        {
+          "last_name": "Qiu",
+          "fore_name": "Quan",
+          "affiliations": [
+            "Discovery Department, Elpiscience Biopharma, Shanghai, P.R. China."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Hongtao",
+          "affiliations": [
+            "Discovery Department, Elpiscience Biopharma, Shanghai, P.R. China."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Receptors, Immunologic",
+        "Animals",
+        "Myeloid Cells",
+        "Humans",
+        "Mice",
+        "T-Lymphocytes",
+        "Antibodies, Blocking",
+        "Membrane Glycoproteins",
+        "Tumor Microenvironment",
+        "Neoplasms",
+        "Immunotherapy",
+        "Female",
+        "Cell Line, Tumor"
+      ],
+      "keywords": [
+        "ES009",
+        "LILRB2",
+        "PD-1",
+        "immunotherapy",
+        "myeloid cells",
+        "tumor microenvironment"
+      ]
+    },
+    {
+      "pmid": "41996252",
+      "pmc": "PMC5465077",
+      "doi": "10.1021/acs.jcim.3c00308",
+      "title": "Multi-modal feature learning to prioritize ADCs with favorable half-life in mice.",
+      "abstract": "Favorable pharmacokinetic (PK) properties of antibody-drug conjugates (ADCs) enable higher systemic exposure and are associated with improved clinical efficacy, yet ADC PK optimization remains largely empirical and resource-intensive. We developed an",
+      "journal": "MAbs",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Zhu",
+          "fore_name": "Xiang-Wei",
+          "affiliations": [
+            "Department of Preclinical Development, Sutro Biopharma, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Jani",
+          "fore_name": "Khushboo",
+          "affiliations": [
+            "Department of Preclinical Development, Sutro Biopharma, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Gu",
+          "fore_name": "Wenjia",
+          "affiliations": [
+            "Department of Preclinical Development, Sutro Biopharma, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Guterman",
+          "fore_name": "Mia",
+          "affiliations": [
+            "Department of Preclinical Development, Sutro Biopharma, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Polyakov",
+          "fore_name": "Valery R",
+          "affiliations": [
+            "Department of Preclinical Development, Sutro Biopharma, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Gerber",
+          "fore_name": "Hans-Peter",
+          "affiliations": [
+            "Department of Preclinical Development, Sutro Biopharma, South San Francisco, CA, USA."
+          ]
+        },
+        {
+          "last_name": "Rubas",
+          "fore_name": "Werner",
+          "affiliations": [
+            "Department of Preclinical Development, Sutro Biopharma, South San Francisco, CA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Mice",
+        "Half-Life",
+        "Mice, Inbred C57BL",
+        "Immunoconjugates",
+        "Antibodies, Monoclonal",
+        "Machine Learning",
+        "Humans"
+      ],
+      "keywords": [
+        "AlphaFold Multimer",
+        "Antibody-drug conjugates",
+        "pharmacokinetics",
+        "preclinical development",
+        "protein language model"
+      ]
+    },
+    {
+      "pmid": "41805639",
+      "pmc": "PMC8723895",
+      "doi": "10.3346/JKMS.2022.37.E17",
+      "title": "Safety, immunogenicity, and effectiveness of the MAV/06 varicella vaccine: A comprehensive review of a new strain vaccine.",
+      "abstract": "Most of licensed varicella vaccines are based on the Oka strain, while MAV/06 strain vaccines were exclusively developed by GC Biopharma Corp. in South Korea. This paper aims to summarize and present more than 30\u2009y of accumulated evidence from about 40 unpublished and published studies on safety, immunogenicity, and effectiveness of MAV/06 vaccines. The safety of MAV/06 vaccines has been confirmed through various clinical trials and post-marketing studies. Outstanding humoral and cell-mediated immunogenicity of the MAV/06 vaccines has been demonstrated in diverse clinical trials and real-world studies. For example, a seroconversion rate of the MAV/06 vaccine (BARYCELA inj.) was close to 100%. Moreover, several after-approval epidemiological studies in Korean and Filipino children have supported the effectiveness of MAV/06 vaccines, although it remains to be further confirmed in future studies. In terms of safety, immunogenicity, and effectiveness, MAV/06 strain varicella vaccines are comparable to Oka strain vaccines.",
+      "journal": "Hum Vaccin Immunother",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Shin",
+          "fore_name": "Younchul",
+          "affiliations": [
+            "Development of Research and Development, GC Biopharma Corp., Yongin, Republic of Korea."
+          ]
+        },
+        {
+          "last_name": "Ryu",
+          "fore_name": "Hyunji",
+          "affiliations": [
+            "Development of Research and Development, GC Biopharma Corp., Yongin, Republic of Korea."
+          ]
+        },
+        {
+          "last_name": "Kim",
+          "fore_name": "Gwanglok",
+          "affiliations": [
+            "Development of Research and Development, GC Biopharma Corp., Yongin, Republic of Korea."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Shinha",
+          "affiliations": [
+            "Development of Research and Development, GC Biopharma Corp., Yongin, Republic of Korea."
+          ]
+        },
+        {
+          "last_name": "Lee",
+          "fore_name": "Jaewoo",
+          "affiliations": [
+            "Development of Research and Development, GC Biopharma Corp., Yongin, Republic of Korea.",
+            "Department of Pharmacy, Ajou University, Suwon, Republic of Korea."
+          ]
+        },
+        {
+          "last_name": "Choi",
+          "fore_name": "BongKyoo",
+          "affiliations": [
+            "Development of Research and Development, GC Biopharma Corp., Yongin, Republic of Korea.",
+            "Department of Biohealth Regulatory Science, Sungkyunkwan University, Suwon, Republic of Korea."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Chickenpox Vaccine",
+        "Chickenpox",
+        "Immunogenicity, Vaccine",
+        "Vaccine Efficacy",
+        "Antibodies, Viral",
+        "Herpesvirus 3, Human",
+        "Republic of Korea",
+        "Clinical Trials as Topic",
+        "Child"
+      ],
+      "keywords": [
+        "MAV/06 strain",
+        "Varicella vaccines",
+        "cost-effective",
+        "effectiveness",
+        "immunogenicity",
+        "safety"
+      ]
+    },
+    {
+      "pmid": "41627968",
+      "pmc": "PMC12060023",
+      "doi": "10.1016/S1473-3099(25)00236-1",
+      "title": "Phase 1/2 randomized, observer-blind clinical trial of a first-generation, mRNA-based vaccine against seasonal influenza and COVID-19 in healthy adults.",
+      "abstract": "A multicomponent vaccine against seasonal influenza and COVID-19 could reduce disease burden in adults by providing simultaneous protection in a single-dose regimen. The first-generation, mRNA-based, multicomponent mRNA-1073 vaccine, combining antigens encoded by mRNA-1010 (influenza) and mRNA-1273 (COVID-19) vaccines, was investigated in a phase 1/2 clinical trial. This stratified, observer-blinded study randomly assigned healthy adults (18-75\u2009years) to receive mRNA-1073 (25-\u00b5g, 50-\u00b5g, or 100-\u00b5g)\u2009+\u2009placebo, mRNA-1273 (50-\u03bcg)\u2009+\u2009placebo, mRNA-1010 (50-\u03bcg)\u2009+\u2009placebo, or co-administered mRNA-1010 (50-\u03bcg)\u2009+\u2009mRNA-1273 (50-\u03bcg) on day 1. Primary study objectives were safety and reactogenicity. Secondary study objectives assessed humoral immunogenicity against vaccine-matched influenza and SARS-CoV-2 strains at day 29 and all evaluable time points through day 181. An exploratory objective was to further characterize immune responses across the study vaccines. Overall, 550 participants were randomly assigned to receive study vaccination. mRNA-1073 exhibited dose-dependent reactogenicity. Most solicited adverse reactions were grade 1 or 2 in severity; no grade 4 events, serious adverse events related to study vaccination, or deaths were reported. A single dose of mRNA-1073 elicited durable immune responses through 6\u2009months against all vaccine-matched influenza and SARS-CoV-2 strains. Systems serology analysis indicated that mRNA-1073 induced robust, balanced antibody responses with comparable immune profiles to mRNA-1010\u2009+\u2009mRNA-1273. mRNA-1073\u00a0had an acceptable safety profile and elicited durable immune responses against all vaccine-matched influenza and SARS-CoV-2 strains, supporting ongoing evaluations of mRNA-based multicomponent vaccines that simultaneously protect against seasonal influenza and COVID-19 in a single dose.",
+      "journal": "Hum Vaccin Immunother",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Rudman Spergel",
+          "fore_name": "Amanda K",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Henry",
+          "fore_name": "Carole",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Nachbagauer",
+          "fore_name": "Raffael",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Kaplonek",
+          "fore_name": "Paulina",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Astley",
+          "fore_name": "Eleanor",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Avanesov",
+          "fore_name": "Andrei",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Bertera",
+          "fore_name": "Harry",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Carmona",
+          "fore_name": "Lizbeth",
+          "affiliations": [
+            "Research and Development, Moderna Biopharma Canada Corporation, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Cizmeci",
+          "fore_name": "Deniz",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Collins",
+          "fore_name": "Avi",
+          "affiliations": [
+            "Research and Development, Moderna Biopharma Canada Corporation, Toronto, ON, Canada."
+          ]
+        },
+        {
+          "last_name": "Embry",
+          "fore_name": "Alan",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Guo",
+          "fore_name": "Ruiting",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Mao",
+          "fore_name": "Xuezhou",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Pucci",
+          "fore_name": "Alicia",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Shao",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Shih-Lu-Lee",
+          "fore_name": "Jessica",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Yu",
+          "fore_name": "Wen-Han",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Brune",
+          "fore_name": "Daniel",
+          "affiliations": [
+            "Clinical Research, Optimal Research, Peoria, IL, USA."
+          ]
+        },
+        {
+          "last_name": "Chu",
+          "fore_name": "Laurence",
+          "affiliations": [
+            "Clinical Research, Avacare Clinical Research Network, Austin, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Irfan",
+          "fore_name": "Muhammad",
+          "affiliations": [
+            "Clinical Research, Dynamed Clinical Research, LP, Tomball, TX, USA."
+          ]
+        },
+        {
+          "last_name": "Alter",
+          "fore_name": "Galit",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Ananworanich",
+          "fore_name": "Jintanat",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        },
+        {
+          "last_name": "Shaw",
+          "fore_name": "Christine A",
+          "affiliations": [
+            "Research and Development, Moderna, Inc., Cambridge, MA, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Adult",
+        "Middle Aged",
+        "Male",
+        "Influenza, Human",
+        "Female",
+        "COVID-19",
+        "Influenza Vaccines",
+        "Young Adult",
+        "Antibodies, Viral",
+        "Aged",
+        "COVID-19 Vaccines",
+        "SARS-CoV-2",
+        "Adolescent",
+        "Immunogenicity, Vaccine",
+        "2019-nCoV Vaccine mRNA-1273",
+        "Healthy Volunteers",
+        "Vaccines, Synthetic",
+        "Single-Blind Method",
+        "mRNA Vaccines"
+      ],
+      "keywords": [
+        "Multicomponent vaccine",
+        "SARS-CoV-2",
+        "influenza",
+        "messenger RNA",
+        "phase 1/2",
+        "randomized clinical trial"
+      ]
+    },
+    {
+      "pmid": "42005830",
+      "pmc": "PMC6924920",
+      "doi": "10.21769/BioProtoc.3465",
+      "title": "Mitochondrial inhibition enhances the sensitivity of pancreatic ductal adenocarcinoma cells to oncolytic adenovirus.",
+      "abstract": "The metabolism of cancer cells is associated with resistance to anticancer therapies. Pancreatic ductal adenocarcinoma (PDAC) cells exhibit glycolytic and non-glycolytic subtypes. Although oncolytic virotherapy is a novel antitumor modality, the relationship between metabolism and virus sensitivity remains unclear. We demonstrated the cytopathic activity of telomerase-specific, replication-competent oncolytic adenoviruses OBP-301 and p53-armed OBP-702 against PDAC cells. Here, we show the role of metabolism in the virus sensitivity of PDAC cells. The virus sensitivity of human PDAC cells of glycolytic (MIA PaCa-2, PK-45H) and non-glycolytic (PK-59, Capan-2) subtypes was assessed by evaluating replication, glycolysis, and glutamine metabolism through exposure to hypoxia and glucose deprivation or treatment with the mitochondrial metabolism inhibitor CPI-613. Glycolytic PDAC cells were sensitive, and non-glycolytic cells were resistant to oncolytic adenoviruses, which was improved by hypoxia and glucose deprivation or CPI-613 treatment to induce glycolytic activation. OBP-702-mediated p53 activation modulated glutamine metabolism to promote virus sensitivity.",
+      "journal": "Mol Ther Oncol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Shoji",
+          "fore_name": "Ryohei",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Tazawa",
+          "fore_name": "Hiroshi",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan.",
+            "Center for Innovative Clinical Medicine, Okayama University Hospital, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Kuroda",
+          "fore_name": "Shinji",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Nishiyama",
+          "fore_name": "Takeyoshi",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Kajiwara",
+          "fore_name": "Yoshinori",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Yamada",
+          "fore_name": "Motohiko",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Nagai",
+          "fore_name": "Yasuo",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Inoue",
+          "fore_name": "Hiroaki",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Hashimoto",
+          "fore_name": "Naoyuki",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Kikuchi",
+          "fore_name": "Satoru",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Yoshida",
+          "fore_name": "Ryuichi",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Umeda",
+          "fore_name": "Yuzo",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan.",
+            "Department of HBP and Breast Surgery, Ehime University Graduate School of Medicine, Toon, Ehime 791-0295, Japan."
+          ]
+        },
+        {
+          "last_name": "Urata",
+          "fore_name": "Yasuo",
+          "affiliations": [
+            "Oncolys BioPharma, Inc., Tokyo 105-0001, Japan."
+          ]
+        },
+        {
+          "last_name": "Kagawa",
+          "fore_name": "Shunsuke",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        },
+        {
+          "last_name": "Fujiwara",
+          "fore_name": "Toshiyoshi",
+          "affiliations": [
+            "Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama 700-8558, Japan."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "CPI-613",
+        "MT: Regular Issue",
+        "PET/CT",
+        "glycolysis",
+        "oncolytic virotherapy",
+        "pancreatic cancer"
+      ]
+    },
+    {
+      "pmid": "41825538",
+      "doi": "10.1016/j.jbiotec.2026.03.008",
+      "title": "Peptonics: Shear protection and foam prevention in mammalian cell cultures producing monoclonal antibodies and viral vectors for gene therapy.",
+      "abstract": "Biologics produced by cell culture are central to modern pharmaceutical production. In this context, the surfactants added to culture media for protecting cells from shear are essential for ensuring product yield and quality. Commercial surfactants exhibit lot-to-lot variability, which has caused failures in production campaigns. Addressing this issue, our team introduced Peptonics, a family of peptidic surfactants that offer comparable tensioactivity to Pluronics while improving cell productivity and removing foaming issues. Peptonics were originally demonstrated on model Chinese Hamster Ovary (CHO) cells cultured in stirred-tank bioreactors and different growth media. Herein, we extend the application of Peptonic ih-T1010 to other CHO and HEK293 cells producing monoclonal antibodies (mAbs) and adeno-associated virus (AAVs) in selected media. In fed-batch bioreactors, ih-T1010 supported peak viable CHO cell densities up to 1.3\u00b710",
+      "journal": "J Biotechnol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Zhang",
+          "fore_name": "Ka",
+          "affiliations": [
+            "KBI Biopharma, 1101 Hamlin Rd, Durham, NC 27704, USA; Department of Chemical and Biomolecular Engineering, NC State University, Raleigh, NC 27695, USA."
+          ]
+        },
+        {
+          "last_name": "Barbieri",
+          "fore_name": "Eduardo",
+          "affiliations": [
+            "Chromagenix, 1791 Varsity Dr., Raleigh, NC 27606, USA."
+          ]
+        },
+        {
+          "last_name": "Minzoni",
+          "fore_name": "Arianna",
+          "affiliations": [
+            "Department of Chemical and Biomolecular Engineering, NC State University, Raleigh, NC 27695, USA; North Carolina Viral Vector Initiative in Research and Learning (NC-VVIRAL), NC State University, Raleigh, NC 27695, USA."
+          ]
+        },
+        {
+          "last_name": "Brino",
+          "fore_name": "Brandon",
+          "affiliations": [
+            "Department of Chemical and Biomolecular Engineering, NC State University, Raleigh, NC 27695, USA; North Carolina Viral Vector Initiative in Research and Learning (NC-VVIRAL), NC State University, Raleigh, NC 27695, USA."
+          ]
+        },
+        {
+          "last_name": "Shastry",
+          "fore_name": "Shriarjun",
+          "affiliations": [
+            "Department of Chemical and Biomolecular Engineering, NC State University, Raleigh, NC 27695, USA; North Carolina Viral Vector Initiative in Research and Learning (NC-VVIRAL), NC State University, Raleigh, NC 27695, USA; Biomanufacturing Training and Education Center (BTEC), NC State University, Raleigh, NC 27695, USA."
+          ]
+        },
+        {
+          "last_name": "Hurst",
+          "fore_name": "Morgan",
+          "affiliations": [
+            "Department of Chemical and Biomolecular Engineering, NC State University, Raleigh, NC 27695, USA; North Carolina Viral Vector Initiative in Research and Learning (NC-VVIRAL), NC State University, Raleigh, NC 27695, USA."
+          ]
+        },
+        {
+          "last_name": "Gracieux-Singleton",
+          "fore_name": "M Cyndell",
+          "affiliations": [
+            "Biomanufacturing Training and Education Center (BTEC), NC State University, Raleigh, NC 27695, USA."
+          ]
+        },
+        {
+          "last_name": "Rameez",
+          "fore_name": "Shahid",
+          "affiliations": [
+            "Merck & Co., Inc., Rahway, NJ 07065, USA."
+          ]
+        },
+        {
+          "last_name": "Mostafa",
+          "fore_name": "Sigma",
+          "affiliations": [
+            "KBI Biopharma, 1101 Hamlin Rd, Durham, NC 27704, USA."
+          ]
+        },
+        {
+          "last_name": "Menegatti",
+          "fore_name": "Stefano",
+          "affiliations": [
+            "Department of Chemical and Biomolecular Engineering, NC State University, Raleigh, NC 27695, USA; Chromagenix, 1791 Varsity Dr., Raleigh, NC 27606, USA; North Carolina Viral Vector Initiative in Research and Learning (NC-VVIRAL), NC State University, Raleigh, NC 27695, USA; Biomanufacturing Training and Education Center (BTEC), NC State University, Raleigh, NC 27695, USA. Electronic address: smenega@ncsu.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "CHO Cells",
+        "Cricetulus",
+        "Humans",
+        "Antibodies, Monoclonal",
+        "Animals",
+        "HEK293 Cells",
+        "Bioreactors",
+        "Genetic Therapy",
+        "Dependovirus",
+        "Surface-Active Agents",
+        "Genetic Vectors",
+        "Cricetinae",
+        "Cell Culture Techniques",
+        "Culture Media"
+      ],
+      "keywords": [
+        "Antibodies",
+        "Mammalian cells",
+        "Peptoids",
+        "Surfactants",
+        "Viral vectors"
+      ]
+    },
+    {
+      "pmid": "42016311",
+      "pmc": "PMC4414005",
+      "doi": "10.2217/rme-2019-0068",
+      "title": "Safety evaluation of repeated intra-articular injections of human adipose-derived mesenchymal stem cells in",
+      "abstract": "Mesenchymal stem cells (MSCs) have demonstrated significant potential in tissue regeneration; however, safety concerns remain a primary barrier to their clinical implementation. To further substantiate and expand upon these safety findings, an exhaustive safety evaluation was performed in non-human primates. No mortalities of",
+      "journal": "iScience",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Chen",
+          "fore_name": "Zhongjin",
+          "affiliations": [
+            "Regenerative Medicine Business Unit, Cellular Biopharma (Shanghai) Co., Ltd., Shanghai 200233, China."
+          ]
+        },
+        {
+          "last_name": "Lei",
+          "fore_name": "Jigang",
+          "affiliations": [
+            "Regenerative Medicine Business Unit, Cellular Biopharma (Shanghai) Co., Ltd., Shanghai 200233, China."
+          ]
+        },
+        {
+          "last_name": "Chen",
+          "fore_name": "Xingyi",
+          "affiliations": [
+            "Regenerative Medicine Business Unit, Cellular Biopharma (Shanghai) Co., Ltd., Shanghai 200233, China."
+          ]
+        },
+        {
+          "last_name": "Xie",
+          "fore_name": "Haohao",
+          "affiliations": [
+            "Regenerative Medicine Business Unit, Cellular Biopharma (Shanghai) Co., Ltd., Shanghai 200233, China."
+          ]
+        },
+        {
+          "last_name": "Dai",
+          "fore_name": "Yuhao",
+          "affiliations": [
+            "Regenerative Medicine Business Unit, Cellular Biopharma (Shanghai) Co., Ltd., Shanghai 200233, China."
+          ]
+        },
+        {
+          "last_name": "Bu",
+          "fore_name": "Jingjing",
+          "affiliations": [
+            "Regenerative Medicine Business Unit, Cellular Biopharma (Shanghai) Co., Ltd., Shanghai 200233, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Dong",
+          "affiliations": [
+            "Regenerative Medicine Business Unit, Cellular Biopharma (Shanghai) Co., Ltd., Shanghai 200233, China."
+          ]
+        },
+        {
+          "last_name": "Xu",
+          "fore_name": "Liang",
+          "affiliations": [
+            "Regenerative Medicine Business Unit, Cellular Biopharma (Shanghai) Co., Ltd., Shanghai 200233, China.",
+            "Orthopedics and Sport Medicine Center of Shanghai Jiahui International Hospital, Shanghai 200231, China."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "biological sciences",
+        "immunology"
+      ]
+    }
+  ]
+}

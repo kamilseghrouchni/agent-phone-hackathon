@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Crovi logo icon">
+  <title>Crovi logo icon</title>
+  <style>
+    .crovi-mark { fill: oklch(0.68 0.12 195); }
+  </style>
+  <g class="crovi-mark">
+    <polygon points="80,16 90,36 80,58 70,36"/>
+    <polygon points="80,16 90,36 80,58 70,36" transform="rotate(45 80 80)"/>
+    <polygon points="80,16 90,36 80,58 70,36" transform="rotate(90 80 80)"/>
+    <polygon points="80,16 90,36 80,58 70,36" transform="rotate(135 80 80)"/>
+    <polygon points="80,16 90,36 80,58 70,36" transform="rotate(180 80 80)"/>
+    <polygon points="80,16 90,36 80,58 70,36" transform="rotate(225 80 80)"/>
+    <polygon points="80,16 90,36 80,58 70,36" transform="rotate(270 80 80)"/>
+    <polygon points="80,16 90,36 80,58 70,36" transform="rotate(315 80 80)"/>
+  </g>
+</svg>

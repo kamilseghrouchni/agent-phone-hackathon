@@ -1,0 +1,76 @@
+{
+  "bundle_id": "bladder-t2plus-ffpe-urine",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "39483518",
+      "pmc_id": "PMC11525467",
+      "doi": null,
+      "title": "The ProCaB biobank: a prospective collection of bladder and prostate cancer biospecimens at UZ Leuven",
+      "year": 2024,
+      "journal": "BJU International",
+      "specimens_described": {
+        "types": ["FFPE", "urine", "blood"],
+        "n": null,
+        "storage": "FFPE archival, urine and blood at -80C",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "UZ Leuven (University Hospitals Leuven)",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "ProCaB biobank access request via UZ Leuven Biobank; Belgian ethics committee approval required",
+      "depth_confidence": "high",
+      "notes": "Bladder cancer including T2+ MIBC with matched FFPE + urine + blood. Biobank explicitly described with named infrastructure (ProCaB). Prospective collection is a strong quality signal for pre-analytical consistency."
+    },
+    {
+      "pmid": "36540001",
+      "pmc_id": null,
+      "doi": null,
+      "title": "The UROSCAN cohort: a Swedish population-based bladder cancer biobank with long-term follow-up",
+      "year": 2022,
+      "journal": "Scandinavian Journal of Urology",
+      "specimens_described": {
+        "types": ["FFPE", "blood"],
+        "n": 1825,
+        "storage": "FFPE archival + blood, long-term storage",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Lund University / UROSCAN Sweden",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "UROSCAN consortium access request; Swedish ethical review board approval; population-based registry linkage",
+      "depth_confidence": "high",
+      "notes": "Large n=1825 population-based bladder cancer biobank. FFPE + blood with long-term follow-up is a major scale signal. Urine not described in this cohort — partial match on specimen type. UROSCAN is well-indexed and access-route clear."
+    },
+    {
+      "pmid": null,
+      "pmc_id": null,
+      "doi": "10.1038/s41467-022-33980-9",
+      "title": "Multi-omic analysis of the urothelial carcinoma genome reveals oncogenic subtypes with therapeutic implications",
+      "year": 2022,
+      "journal": "Nature Communications",
+      "specimens_described": {
+        "types": ["FFPE", "plasma", "PBMCs"],
+        "n": 218,
+        "storage": "FFPE + plasma + PBMCs (storage conditions in methods)",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "BCAN (Bladder Cancer Advocacy Network) / UC-GENOME consortium",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "BCAN data access request; UC-GENOME consortium data sharing agreement; dbGaP deposition possible",
+      "depth_confidence": "medium",
+      "notes": "n=218 metastatic urothelial carcinoma with FFPE + plasma + PBMCs. Multi-omic data available. Urine not described — partial match. DOI-only citation; verify PMID and PMC indexing for pipeline recall testing."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "UZ Leuven",
+    "Lund University / UROSCAN",
+    "BCAN consortium"
+  ],
+  "notes": "Three distinct retrieval targets with different access routes. UZ Leuven ProCaB (PMC11525467) is strongest match — prospective, named biobank, urine included. UROSCAN is highest scale but lacks urine. BCAN/UC-GENOME is metastatic + multi-omic but no urine. Pipeline should retrieve on queries combining bladder cancer + FFPE + urine biobank OR MIBC + biospecimen. The DOI-only Nature Communications paper may require europepmc or DOI-lookup for retrieval."
+}

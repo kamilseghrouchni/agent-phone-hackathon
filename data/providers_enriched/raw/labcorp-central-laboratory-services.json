@@ -1,0 +1,108 @@
+{
+  "name": "Labcorp Central Laboratory Services",
+  "cleaned_name": "Labcorp Central Laboratory Services",
+  "aliases_tried": [
+    "Labcorp Central Laboratory Services"
+  ],
+  "publication_total": 2,
+  "search_queries": [
+    "\"Labcorp Central Laboratory Services\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "38634379",
+      "pmc": "PMC9967190",
+      "doi": "10.4155/bio-2024-0007",
+      "title": "Observations from a decade of oligonucleotide bioanalysis by LC-MS.",
+      "abstract": "There is a growing need for efficient bioanalysis of oligonucleotide therapeutics. This broad class of molecules presents numerous challenges relative to traditional small molecule therapeutics. Methodologies including ligand-binding assays or polymerase chain reaction may be fit-for-purpose in many instances, but liquid chromatography coupled to mass spectrometry (LC-MS) often delivers the best balance of sensitivity and selectivity. Over the last decade, we have engaged with many such molecules and derived insights into challenges and solutions. Herein, we provide four case studies illustrating challenges we have encountered. These issues include low or variable analyte recovery, poor resolution from related species, chromatographic abnormalities or challenging sensitivity. We present a summary of considerations, based on these experiences, to assist others working in the area.",
+      "journal": "Bioanalysis",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Ewles",
+          "fore_name": "Matthew",
+          "affiliations": [
+            "Labcorp Early Development\u00a0Laboratories Limited; Otley Road, Harrogate; North Yorkshire, HG3 1PY, UK."
+          ]
+        },
+        {
+          "last_name": "Ledvina",
+          "fore_name": "Aaron R",
+          "affiliations": [
+            "Labcorp Early Development\u00a0Laboratories, Inc.; 3301 Kinsman Blvd., Madison, WI 53704, USA."
+          ]
+        },
+        {
+          "last_name": "Powers",
+          "fore_name": "Brendan",
+          "affiliations": [
+            "Labcorp Early Development\u00a0Laboratories, Inc.; 3301 Kinsman Blvd., Madison, WI 53704, USA."
+          ]
+        },
+        {
+          "last_name": "Thomas",
+          "fore_name": "C Eric",
+          "affiliations": [
+            "Labcorp Central Laboratory\u00a0Services Limited Partnership; 8211 SciCor Drive, Indianapolis, IN 46214, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Oligonucleotides",
+        "Chromatography, Liquid",
+        "Humans",
+        "Mass Spectrometry",
+        "Liquid Chromatography-Mass Spectrometry"
+      ],
+      "keywords": [
+        "HRMS",
+        "LC-MS",
+        "bioanalysis",
+        "chromatographic",
+        "oligonucleotide",
+        "perspective",
+        "siRNA",
+        "triple quadrupole"
+      ]
+    },
+    {
+      "pmid": "36740214",
+      "doi": "10.1016/j.vph.2023.107144",
+      "title": "Long-acting opioids and cardiovascular diseases: Help or hindrance!",
+      "abstract": "Opioids are widely being used for chronic pain management, cough and diarrhea suppressants, anesthetic agents, and opioid de-addiction therapy. Opioid receptors, present in the central nervous system and peripheral tissues, are documented to regulate several cardiac functions through different signaling pathways. Long-acting opioids (LAO) have been successfully evaluated for their beneficial effects in various cardiovascular diseases viz. myocardial infarction, ischemic reperfusion injuries, atherosclerosis etc. However, on the other hand, several research studies pointed towards the harmful effects of LAOs which are mainly associated with QTc prolongation, torsade de pointes, ventricular arrhythmias, and cardiac arrest. This review shall familiarize readers with the benefits as well as the harmful effects of long-acting opioids in cardiovascular diseases. We have also provided an overview of cardiac opioid receptors, endogenous cardiac opioid peptides, and regulation of cardiovascular functions by central and cardiac opioid receptors.",
+      "journal": "Vascul Pharmacol",
+      "year": 2023,
+      "authors": [
+        {
+          "last_name": "Mehta",
+          "fore_name": "Ankita",
+          "affiliations": [
+            "Labcorp Central Laboratory Services Limited Partnership, Bangalore, India."
+          ]
+        },
+        {
+          "last_name": "Patel",
+          "fore_name": "Bhoomika M",
+          "affiliations": [
+            "National Forensic Sciences University, Gandhinagar, India. Electronic address: bhoomika.patel@nfsu.ac.in."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Analgesics, Opioid",
+        "Methadone",
+        "Cardiovascular Diseases",
+        "Torsades de Pointes",
+        "Receptors, Opioid"
+      ],
+      "keywords": [
+        "Buprenorphine",
+        "Cardiac opioid receptors",
+        "Long-acting opioids (LAO)",
+        "Methadone",
+        "Naltrexone"
+      ]
+    }
+  ]
+}

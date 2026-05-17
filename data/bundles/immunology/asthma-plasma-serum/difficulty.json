@@ -1,0 +1,17 @@
+{
+  "bundle_id": "asthma-plasma-serum",
+  "difficulty": "hard",
+  "factors": {
+    "data_availability": "low",
+    "org_discoverability": "hard \u2014 mostly commercial biobanks, less PubMed presence",
+    "biomarker_specificity": "low \u2014 no specific biomarker filtering required",
+    "specimen_count": 213,
+    "org_count": 1
+  },
+  "expected_failure_modes": [
+    "May not find commercial biobanks (BIOMEDICA CRO) through PubMed \u2014 they publish less than academic centers",
+    "Treatment-naive filtering depends on parsing free-text treatment fields \u2014 may miss nuance",
+    "Thin data \u2014 system should honestly report scarcity, not hallucinate sources",
+    "May find valid sources NOT in AminoChain (academic cohorts, biobanks) \u2014 these are correct finds, just unverifiable against this ground truth"
+  ]
+}

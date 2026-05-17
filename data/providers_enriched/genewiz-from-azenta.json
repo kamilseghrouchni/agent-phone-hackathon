@@ -1,0 +1,233 @@
+{
+  "id": "genewiz-from-azenta",
+  "name": "GENEWIZ from Azenta",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "GENEWIZ from Azenta",
+    "GENEWIZ",
+    "Azenta"
+  ],
+  "search_queries": [
+    "\"GENEWIZ from Azenta\"[Affiliation] AND 2022:3000[pdat]",
+    "\"GENEWIZ\"[Affiliation] AND 2022:3000[pdat]",
+    "\"Azenta\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 11,
+  "publications_indexed": 14,
+  "address_hints": [
+    "GENEWIZ from Azenta Life Sciences, 111 Corporate Boulevard, South Plainfield, NJ 07080, USA",
+    "GENEWIZ from Azenta Life Sciences, South Plainfield, USA"
+  ],
+  "contact_emails": [],
+  "sample_types": [
+    {
+      "type": "cell lines",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "40621474"
+      ]
+    },
+    {
+      "type": "urine",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "39971624"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Biomarkers, Tumor",
+      "n_papers": 2
+    },
+    {
+      "area": "Diabetes Mellitus, Type 2",
+      "n_papers": 1
+    },
+    {
+      "area": "Obesity",
+      "n_papers": 1
+    },
+    {
+      "area": "Hepatitis B virus",
+      "n_papers": 1
+    },
+    {
+      "area": "Hepatitis B",
+      "n_papers": 1
+    },
+    {
+      "area": "Early Detection of Cancer",
+      "n_papers": 1
+    },
+    {
+      "area": "Ovarian Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Fetal Blood",
+      "n_papers": 1
+    },
+    {
+      "area": "Pregnancy",
+      "n_papers": 1
+    },
+    {
+      "area": "Tumor Microenvironment",
+      "n_papers": 1
+    },
+    {
+      "area": "Urinary Bladder Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Carcinoma, Transitional Cell",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "University of Oxford",
+      "co_pubs": 3
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "co_pubs": 1
+    },
+    {
+      "name": "Caring Cross",
+      "co_pubs": 1
+    },
+    {
+      "name": "Glycostem Therapeutics",
+      "co_pubs": 1
+    },
+    {
+      "name": "Lentigen",
+      "co_pubs": 1
+    },
+    {
+      "name": "Cergentis",
+      "co_pubs": 1
+    },
+    {
+      "name": "Castle Creek Biosci",
+      "co_pubs": 1
+    },
+    {
+      "name": "Sampled",
+      "co_pubs": 1
+    },
+    {
+      "name": "National Measurement Laboratory (NML at LGC)",
+      "co_pubs": 1
+    },
+    {
+      "name": "Genomic Vision",
+      "co_pubs": 1
+    },
+    {
+      "name": "National Institute of Standards and Technology",
+      "co_pubs": 1
+    },
+    {
+      "name": "Mission Bio",
+      "co_pubs": 1
+    },
+    {
+      "name": "Eli Lilly",
+      "co_pubs": 1
+    },
+    {
+      "name": "Mosaic Biosciences",
+      "co_pubs": 1
+    },
+    {
+      "name": "OpenEye",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "40621474",
+      "doi": "10.1016/0197-2456(86)90046-2",
+      "pmc": "PMC3409785",
+      "year": 2025,
+      "journal": "Mol Ther Methods Clin Dev",
+      "title": "Interlaboratory assessment of candidate reference materials for lentiviral vector copy number and integration site measurements."
+    },
+    {
+      "pmid": "39496931",
+      "doi": "10.1080/19420862.2021.1980942",
+      "pmc": "PMC8654478",
+      "year": 2024,
+      "journal": "Nat Biotechnol",
+      "title": "AIntibody: an experimentally validated in silico antibody discovery design challenge."
+    },
+    {
+      "pmid": "40897178",
+      "doi": "10.1093/bioinformatics/btp033",
+      "pmc": "PMC2672624",
+      "year": 2025,
+      "journal": "Cell Rep Med",
+      "title": "Oral virome metagenomic catalog links Porphyromonas gingivalis phages to obesity and type 2 diabetes."
+    },
+    {
+      "pmid": "39962085",
+      "doi": "10.1016/S2468-1253(23)00315-1",
+      "pmc": "PMC7616036",
+      "year": 2025,
+      "journal": "Sci Rep",
+      "title": "Whole genome sequencing of hepatitis B virus using tiled amplicon (HEPTILE) and probe based enrichment on Illumina and Nanopore platforms."
+    },
+    {
+      "pmid": "39360992",
+      "doi": "10.1093/ve/vey007",
+      "pmc": "PMC5961307",
+      "year": 2024,
+      "journal": "Bioinformatics",
+      "title": "Castanet: a pipeline for rapid analysis of targeted multi-pathogen genomic data."
+    },
+    {
+      "pmid": "37861205",
+      "doi": "10.1186/s13148-023-01440-w",
+      "pmc": "PMC9926627",
+      "year": 2024,
+      "journal": "Int J Cancer",
+      "title": "Plasma cell-free DNA methylation analysis for ovarian cancer detection: Analysis of samples from a case-control study and an ovarian cancer screening trial."
+    },
+    {
+      "pmid": "35192776",
+      "doi": "10.1080/16078454.2022.2029255",
+      "pmc": null,
+      "year": 2022,
+      "journal": "Hematology",
+      "title": "Comparison of transcriptome profiles of nucleated red blood cells in cord blood between preterm and full-term neonates."
+    },
+    {
+      "pmid": "39501790",
+      "doi": "10.1089/bio.2023.0156",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Biopreserv Biobank",
+      "title": "Challenges and Opportunities for Collaboration Between Academic Biobanks and Industry: Results of an International Survey of Academic Biobanks."
+    },
+    {
+      "pmid": "39133809",
+      "doi": "10.1089/bio.2017.0109",
+      "pmc": "PMC11708182",
+      "year": 2025,
+      "journal": "Biopreserv Biobank",
+      "title": "Standard PREanalytical Code Version 4.0."
+    },
+    {
+      "pmid": "40586306",
+      "doi": "10.1371/journal.pcbi.1004094",
+      "pmc": "PMC4368642",
+      "year": 2025,
+      "journal": "Nucleic Acids Res",
+      "title": "Identification and correction of time-series transcriptomic anomalies."
+    }
+  ]
+}

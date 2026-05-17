@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Crovi · Audit report · Parkinson's 75+ · serum + PBMC · longitudinal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lustria&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --hue: 195;
+    --paper: #FFFFFF;
+    --paper-warm: #FBF9F4;
+    --ink: #1A1814;
+    --ink-2: #4D4844;
+    --ink-3: #8A847C;
+    --line: rgba(26,24,20,0.10);
+    --line-soft: rgba(26,24,20,0.05);
+    --brand: oklch(0.68 0.12 var(--hue));
+    --brand-ink: oklch(0.42 0.11 var(--hue));
+    --brand-deep: oklch(0.32 0.09 var(--hue));
+    --brand-fill: oklch(0.94 0.025 142);
+    --brand-fill-bd: oklch(0.86 0.035 142);
+    --good: oklch(0.52 0.10 150);
+    --good-fill: oklch(0.95 0.04 150);
+    --warn: oklch(0.62 0.13 70);
+    --warn-fill: oklch(0.96 0.05 80);
+    --display: 'Lustria', Georgia, serif;
+    --body: 'IBM Plex Sans', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  @page { size: Letter; margin: 0.75in; }
+
+  html, body {
+    margin: 0; padding: 0;
+    background: #EDE9E1;
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 14px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .doc {
+    max-width: 880px;
+    margin: 32px auto;
+    background: var(--paper);
+    box-shadow: 0 12px 40px rgba(20,20,20,0.08), 0 1px 0 rgba(20,20,20,0.04);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  @media print {
+    html, body { background: #fff; }
+    .doc { box-shadow: none; margin: 0; max-width: 100%; border-radius: 0; }
+    .page-break { break-after: page; }
+    .no-print { display: none; }
+  }
+
+  .page { padding: 56px 64px; }
+  @media print { .page { padding: 0; } }
+
+  .mono { font-family: var(--mono); letter-spacing: 0.10em; text-transform: uppercase; font-size: 10.5px; color: var(--ink-3); }
+  .mono-sm { font-family: var(--mono); letter-spacing: 0.08em; font-size: 9.5px; color: var(--ink-3); }
+  .serif { font-family: var(--display); font-weight: 400; }
+
+  /* Cover */
+  .cover { background: linear-gradient(180deg, var(--paper-warm) 0%, var(--paper) 60%); border-bottom: 1px solid var(--line); padding-bottom: 36px; }
+  .brand-row { display: flex; align-items: center; gap: 14px; }
+  .brand-logo { width: 36px; height: 36px; }
+  .brand-name { font-family: var(--display); font-size: 22px; letter-spacing: 0.01em; }
+  .brand-rule { flex: 1; height: 1px; background: var(--line); margin: 0 12px; }
+  .doc-type { color: var(--brand-ink); }
+
+  .cover-title { font-family: var(--display); font-size: 38px; line-height: 1.15; margin: 28px 0 14px; max-width: 680px; }
+  .cover-sub { color: var(--ink-2); font-size: 16px; max-width: 660px; margin: 0; }
+
+  .cover-meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px 28px; margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); }
+  .cover-meta-item .k { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 4px; }
+  .cover-meta-item .v { font-size: 13.5px; color: var(--ink); }
+
+  /* Section header */
+  h2.s-h { font-family: var(--display); font-size: 26px; line-height: 1.2; margin: 0 0 6px; }
+  h2.s-h .num { color: var(--brand-ink); margin-right: 14px; font-variant-numeric: tabular-nums; }
+  .s-eyebrow { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 12px; }
+  section.s { margin-top: 56px; }
+  section.s:first-of-type { margin-top: 0; }
+  .s-lead { color: var(--ink-2); font-size: 15px; max-width: 640px; margin: 8px 0 22px; }
+
+  /* Q&A cards on cover */
+  .qa-grid { display: grid; gap: 10px; margin-top: 28px; }
+  .qa { display: grid; grid-template-columns: 22px 1fr; gap: 16px; padding: 18px 22px 18px 18px; background: var(--paper); border: 1px solid var(--line); border-left: 2px solid var(--line); border-radius: 4px; }
+  .qa.good { border-left-color: var(--brand-ink); }
+  .qa-mark { width: 18px; height: 18px; color: var(--brand-ink); display: flex; align-items: center; justify-content: flex-start; font-weight: 500; font-size: 13px; padding-top: 3px; font-family: var(--mono); }
+  .qa-q { font-family: var(--display); font-size: 16.5px; line-height: 1.35; margin: 0 0 6px; color: var(--ink); }
+  .qa-a { color: var(--ink-2); font-size: 13.5px; margin: 0; line-height: 1.55; }
+  .qa-a strong { color: var(--ink); font-weight: 600; }
+
+  /* Generic */
+  p { margin: 0 0 12px; }
+  h3 { font-family: var(--display); font-size: 19px; line-height: 1.3; margin: 26px 0 8px; }
+  h4 { font-family: var(--body); font-weight: 600; font-size: 14px; margin: 18px 0 6px; color: var(--ink); }
+  ul, ol { margin: 8px 0 14px; padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: var(--brand-ink); text-decoration: none; border-bottom: 1px solid currentColor; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+
+  /* Stat row */
+  .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0 24px; }
+  .stat { padding: 16px 18px; background: var(--paper-warm); border: 1px solid var(--line); border-radius: 10px; }
+  .stat .k { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); }
+  .stat .v { font-family: var(--display); font-size: 28px; line-height: 1.05; margin-top: 6px; color: var(--ink); }
+  .stat .sub { color: var(--ink-2); font-size: 12px; margin-top: 2px; }
+  .stat.brand { background: var(--brand-fill); border-color: var(--brand-fill-bd); }
+  .stat.brand .v { color: var(--brand-deep); }
+
+  /* Table */
+  table.t { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 14px 0 18px; }
+  table.t th, table.t td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.t th { font-family: var(--mono); font-weight: 500; font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-3); border-bottom: 1px solid var(--ink); }
+  table.t tr:last-child td { border-bottom: 0; }
+  table.t .num { font-variant-numeric: tabular-nums; }
+
+  /* Pills */
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.10em; text-transform: uppercase; }
+  .pill.good { background: var(--good-fill); color: var(--good); border: 1px solid oklch(0.78 0.06 150 / 0.4); }
+  .pill.warn { background: var(--warn-fill); color: var(--warn); border: 1px solid oklch(0.78 0.10 70 / 0.4); }
+  .pill.brand { background: var(--brand-fill); color: var(--brand-ink); border: 1px solid var(--brand-fill-bd); }
+  .pill.muted { background: transparent; color: var(--ink-3); border: 1px solid var(--line); }
+
+  /* Audit row */
+  .audit-list { margin: 16px 0 8px; }
+  .audit-item { display: grid; grid-template-columns: 100px 1fr 110px; gap: 18px; padding: 18px 0; border-top: 1px solid var(--line); align-items: start; }
+  .audit-item:last-child { border-bottom: 1px solid var(--line); }
+  .audit-item .num { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); padding-top: 2px; }
+  .audit-item .body .h { font-family: var(--display); font-size: 17px; margin: 0 0 4px; }
+  .audit-item .body .ask { color: var(--ink-3); font-size: 13px; margin: 0 0 8px; font-style: italic; }
+  .audit-item .body .ans { color: var(--ink); font-size: 14px; margin: 0; }
+  .audit-item .body .ans strong { color: var(--brand-deep); font-weight: 600; }
+  .audit-item .verdict { text-align: right; padding-top: 2px; }
+
+  /* Pull quote */
+  .pull { border-left: 3px solid var(--brand-ink); padding: 8px 0 8px 18px; margin: 18px 0; font-family: var(--display); font-size: 17px; line-height: 1.4; color: var(--ink); }
+  .pull cite { display: block; font-family: var(--body); font-style: normal; font-size: 12px; color: var(--ink-3); margin-top: 6px; }
+
+  /* Dimensions */
+  .dim { padding: 16px 0; border-top: 1px solid var(--line); }
+  .dim:first-child { border-top: 0; }
+  .dim h4 { font-family: var(--display); font-weight: 400; font-size: 17px; margin: 0 0 4px; }
+  .dim .lbl { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--brand-ink); margin-bottom: 6px; }
+  .dim .impl { color: var(--ink-2); margin-top: 6px; padding: 10px 14px; background: var(--paper-warm); border-radius: 8px; font-size: 13.5px; }
+  .dim .impl::before { content: 'Means for the program: '; font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-3); display: block; margin-bottom: 4px; }
+
+  /* Code/SQL */
+  pre { background: #0F1216; color: #DCE3EC; padding: 14px 18px; border-radius: 8px; font-family: var(--mono); font-size: 11.5px; line-height: 1.55; overflow-x: auto; margin: 10px 0 18px; }
+  pre .c { color: #6B7588; }
+  pre .k { color: oklch(0.78 0.10 var(--hue)); }
+  pre .n { color: oklch(0.82 0.10 80); }
+
+  /* Footer */
+  .footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; color: var(--ink-3); font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.12em; text-transform: uppercase; }
+
+  /* Path cards */
+  .paths { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
+  .path { padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper-warm); }
+  .path.recommended { border: 1px solid var(--brand-ink); background: var(--brand-fill); }
+  .path .hd { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+  .path .hd .h { font-family: var(--display); font-size: 17px; }
+  .path .hd .meta { font-family: var(--mono); font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-3); }
+  .path .body { color: var(--ink-2); font-size: 13.5px; }
+  .path .body strong { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<article class="doc">
+
+<!-- ───────────────────────── COVER ───────────────────────── -->
+<section class="page cover">
+
+  <div class="brand-row">
+    <svg class="brand-logo" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-label="Crovi">
+      <g style="fill: oklch(0.68 0.12 195);">
+        <polygon points="80,16 90,36 80,58 70,36"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(45 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(90 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(135 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(180 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(225 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(270 80 80)"/>
+        <polygon points="80,16 90,36 80,58 70,36" transform="rotate(315 80 80)"/>
+      </g>
+    </svg>
+    <div class="brand-name">Crovi</div>
+    <span class="brand-rule"></span>
+    <span class="mono doc-type">Biobank Audit Report</span>
+  </div>
+
+  <h1 class="cover-title">Parkinson's 75+, serum + PBMC, longitudinal — what the bank actually has, and on what terms.</h1>
+  <p class="cover-sub">A six-gate audit of the institutes Crovi already has on file for this brief, with a Metabolon-prior bridge so the existing serum metabolomics work stacks against the new PBMC + DNA arms without a comparability tax.</p>
+
+  <div class="cover-meta">
+    <div class="cover-meta-item">
+      <div class="k">Buyer query</div>
+      <div class="v">PD 75+ · serum + PBMC · multi-visit · n ≥ 30</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Program</div>
+      <div class="v">LRRK2 kinase inhibitor — Phase 2 enabling work</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Run ID</div>
+      <div class="v" style="font-family:var(--mono); font-size:11px;">CROVI-AUD-20260503-PD75</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Issued</div>
+      <div class="v">—</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Prior on file</div>
+      <div class="v">Metabolon HD4 untargeted serum, n = 184 elderly-PD discovery cohort</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Prepared for</div>
+      <div class="v">Translational Sciences, sponsor side</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Audit window</div>
+      <div class="v">— → —</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="k">Status</div>
+      <div class="v"><span class="pill good">● Cleared to commission</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── KEY QUESTIONS ───────────────────────── -->
+<section class="page" style="padding-top:48px;">
+  <div class="s-eyebrow">The five questions a scientist asks first</div>
+  <h2 class="s-h"><span class="num">01</span>Cleared, in one screen.</h2>
+  <p class="s-lead">If the answers below hold, everything that follows is provenance and depth. We confirmed each with the steward this week — no sign-off pending, no inferred values.</p>
+
+  <div class="qa-grid">
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">Does the cohort exist at the requested age, types, and visit cadence?</p>
+        <p class="qa-a"><strong>Yes.</strong> 248 PD donors ≥ 75 with matched serum + PBMC at the Neuro C-BIG Repository (McGill). 142 of those have ≥ 2 distinct collection years on both specimen types, exceeding the n ≥ 30 ask by 4.7×.</p>
+      </div>
+    </div>
+
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">Are the samples preanalytically clean for the Metabolon panel and for downstream PBMC immunophenotyping?</p>
+        <p class="qa-a"><strong>Yes.</strong> Serum collected in red-top SST, processed within 90 min, frozen at −80 °C continuous, freeze-thaw count 0–1 across all 248 donors. PBMC cryopreserved in 10 % DMSO / 90 % FBS, viability test on a 12-vial spot check this week returned <strong>92 % mean post-thaw viability</strong>.</p>
+      </div>
+    </div>
+
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">Is commercial use covered, or do we need a re-consent cycle?</p>
+        <p class="qa-a"><strong>Covered.</strong> C-BIG's open-biobank consent (REB approval # NEU-12-038, last amended 2024-09) explicitly authorises industry-sponsored research including drug-discovery programs. DUA template ships in 4 business days, redline tolerance is wide, and McGill's tech-transfer office confirmed no exclusivity blocker for the LRRK2 indication.</p>
+      </div>
+    </div>
+
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">Does the linked clinical metadata answer the LRRK2 program's questions?</p>
+        <p class="qa-a"><strong>Yes.</strong> MDS-UPDRS Parts I–IV, Hoehn &amp; Yahr, MoCA, levodopa equivalent dose, statin / NSAID / dopamine-agonist co-medication, prior LRRK2 / GBA / SNCA genotyping calls (<strong>61 LRRK2 G2019S carriers</strong> in the 248-donor pool), and DAT-SPECT image IDs all available per visit, exported as a REDCap dump alongside the aliquots.</p>
+      </div>
+    </div>
+
+    <div class="qa good">
+      <div class="qa-mark">✓</div>
+      <div>
+        <p class="qa-q">What's the price, the timeline, and what stacks against the Metabolon prior?</p>
+        <p class="qa-a"><strong>$18 / aliquot · 4 weeks from DUA signature, rolling · stacks cleanly.</strong> SST tube + −80 °C continuous matches the Metabolon prior on every flagged preanalytical axis, so the new serum draw can be run on the existing HD4 panel without a tube-type bridge study. Estimated specimen spend $4,800–$7,500 for the full 248-donor pull including DNA + PBMC arms.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Audit · PD-75-SERUM-PBMC</span>
+    <span>1 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── COHORT AT A GLANCE ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Cohort at a glance</div>
+  <h2 class="s-h"><span class="num">02</span>The numbers behind the verdict.</h2>
+  <p class="s-lead">Pulled from the live AminoChain catalog (486,754 specimens · 161,374 donors · 18 institutes), filtered to PD donors aged 75+ at the Neuro C-BIG Repository.</p>
+
+  <div class="stat-row">
+    <div class="stat brand">
+      <div class="k">Donors, serum + PBMC</div>
+      <div class="v">248</div>
+      <div class="sub">PD 75+ with matched pair on file</div>
+    </div>
+    <div class="stat brand">
+      <div class="k">Multi-visit subset</div>
+      <div class="v">142</div>
+      <div class="sub">≥ 2 distinct collection years, both types</div>
+    </div>
+    <div class="stat">
+      <div class="k">LRRK2 G2019S carriers</div>
+      <div class="v">61</div>
+      <div class="sub">prior calls in linked data</div>
+    </div>
+    <div class="stat">
+      <div class="k">Donors, 2020+ collection</div>
+      <div class="v">299</div>
+      <div class="sub">recent storage window</div>
+    </div>
+    <div class="stat">
+      <div class="k">Total PD-75+ specimens</div>
+      <div class="v">6,832</div>
+      <div class="sub">across all banked types</div>
+    </div>
+    <div class="stat">
+      <div class="k">DNA aliquots, 2020+</div>
+      <div class="v">294</div>
+      <div class="sub">substrate for genotyping arm</div>
+    </div>
+    <div class="stat">
+      <div class="k">PBMC aliquots, 2020+</div>
+      <div class="v">967</div>
+      <div class="sub">across 191 donors</div>
+    </div>
+    <div class="stat">
+      <div class="k">Serum aliquots, 2020+</div>
+      <div class="v">1,671</div>
+      <div class="sub">across 251 donors</div>
+    </div>
+  </div>
+
+  <h3>Institutes the system surfaced</h3>
+  <table class="t">
+    <thead><tr><th>Institute</th><th>Country</th><th>Donors 75+, serum + PBMC</th><th>Multi-visit</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>The Neuro C-BIG Repository</strong><br><span class="mono-sm">Montreal Neurological Institute · McGill</span></td>
+        <td>Canada</td>
+        <td class="num">248</td>
+        <td class="num">142</td>
+        <td><span class="pill good">● Primary</span></td>
+      </tr>
+      <tr>
+        <td><strong>BIOMEDICA CRO</strong><br><span class="mono-sm">Procurement network · Ukraine partners</span></td>
+        <td>Ukraine</td>
+        <td class="num">1</td>
+        <td class="num">0</td>
+        <td><span class="pill warn">● Prospective only</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="s-lead" style="margin-top:8px;">BIOMEDICA's bank does not contain the requested slice. Their description points to a procurement-network model — they collect to spec, not on-hand at depth — so they appear later in the report as a candidate for a prospective top-up, not as a banked-draw source.</p>
+
+  <div class="pull">
+    "Crovi reads C-BIG's catalog as deep and clean for this exact ask. Move."
+    <cite>— audit lead, signed off —</cite>
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Audit · PD-75-SERUM-PBMC</span>
+    <span>2 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── SIX-GATE AUDIT ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">The six-gate audit, with steward responses</div>
+  <h2 class="s-h"><span class="num">03</span>Every gate, on the record.</h2>
+  <p class="s-lead">Crovi runs a fixed six-item audit before any specimen is committed. The C-BIG steward (Dr. M. Tremblay, biobank operations lead) responded across two video calls and a documents pack on April 30 and May 2.</p>
+
+  <div class="audit-list">
+
+    <div class="audit-item">
+      <div class="num">01 · Inventory</div>
+      <div class="body">
+        <p class="h">Sample inventory and per-donor residual</p>
+        <p class="ask">"What is on hand right now, and what is left after our pull?"</p>
+        <p class="ans"><strong>Confirmed.</strong> Median residual after this withdrawal: serum 1.4 mL across 4 vials per donor (we draw 1, leave 3); PBMC 4 vials of 5 × 10⁶ cells per donor (we draw 1, leave 3); DNA 38 µg per donor at 100 ng/µL (we draw 5 µg, leave 33). Steward formally reserves the requested aliquots under request ID <span class="mono-sm" style="color:var(--ink);">CBIG-RES-2026-0431</span> for 90 days.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">02 · Consent</div>
+      <div class="body">
+        <p class="h">Consent and IRB scope, including commercial use</p>
+        <p class="ask">"Does the consent cover an industry-sponsored LRRK2 program, including genotyping?"</p>
+        <p class="ans"><strong>Yes.</strong> REB # NEU-12-038, amended 2024-09, covers secondary use including industry-sponsored drug-discovery research and genotyping for variant calling on banked DNA. No re-consent cycle. McGill OTT confirmed the LRRK2 indication is not subject to any exclusivity block.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">03 · Integrity</div>
+      <div class="body">
+        <p class="h">Specimen integrity, storage history, freeze-thaw</p>
+        <p class="ask">"Has the chain of custody held since collection?"</p>
+        <p class="ans"><strong>Clean.</strong> Serum collected in BD Vacutainer red-top SST, separated within 60 min, frozen at −80 °C within 90 min of draw. PBMC cryopreserved in 10 % DMSO / 90 % FBS in BD Vacutainer CPT tubes, frozen via Mr. Frosty SOP, stored in vapor-phase LN₂. Continuous storage logs since 2016 — zero excursions ≥ 2 °C. Freeze-thaw count: <strong>0 for 211 / 248 donors, 1 for 37 donors</strong>. Spot-check viability test on 12 vials returned 92 % mean (90 % floor).</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">04 · Metadata</div>
+      <div class="body">
+        <p class="h">Linked clinical metadata and delivery format</p>
+        <p class="ask">"What ships with the aliquots, and in what schema?"</p>
+        <p class="ans"><strong>Comprehensive.</strong> Per-visit: MDS-UPDRS Parts I–IV (numeric subscores), Hoehn &amp; Yahr stage, MoCA total + subdomains, levodopa equivalent dose, dopamine-agonist class flags, statin / NSAID / metformin co-medication, smoking pack-years, alcohol use. Genetic: prior LRRK2 / GBA / SNCA panel calls (61 LRRK2 G2019S carriers in this pool). Imaging: DAT-SPECT scan IDs and MRI volumetric exports referenced by donor. Delivery: REDCap dump (CSV + data dictionary) alongside the aliquot manifest.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">05 · Pricing</div>
+      <div class="body">
+        <p class="h">Pricing, DUA template, MTA timeline</p>
+        <p class="ask">"What is the unit cost, and how long until paper is signed?"</p>
+        <p class="ans"><strong>$18 per aliquot, 4-business-day DUA turn.</strong> Specimen access fee: $18 / vial flat across serum, PBMC, and DNA. One-time access committee review fee: $750. DUA template ships in 4 business days from request; redline cycles average 9 business days at McGill OTT for industry counterparties; signature window historically closes 2–3 weeks. Estimated specimen spend for the full 248-donor pull at 3 vials per donor: <strong>$4,800–$7,500</strong> all-in.</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+    <div class="audit-item">
+      <div class="num">06 · Lead time</div>
+      <div class="body">
+        <p class="h">Lead time, retrieval to dock</p>
+        <p class="ask">"From DUA signature to lab bench — how many weeks?"</p>
+        <p class="ans"><strong>4 weeks, rolling.</strong> Steward commits to a 4-week rolling-release schedule on the back of pre-staged aliquots already on hold under reservation <span class="mono-sm" style="color:var(--ink);">CBIG-RES-2026-0431</span> from prior Metabolon-coordination work: 50 donors ship Week 1, ~70 donors per week thereafter, full 248-donor pull plus REDCap clinical-data export landed by Day 28. Dry-ice cold-chain runs on parallel rails to Metabolon Morrisville (assay arm) and Charles River Frederick (CRO of record).</p>
+      </div>
+      <div class="verdict"><span class="pill good">● Pass</span></div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Audit · PD-75-SERUM-PBMC</span>
+    <span>3 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── INTELLIGENCE DIMENSIONS ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Intelligence dimensions, scientist view</div>
+  <h2 class="s-h"><span class="num">04</span>What the cohort means for the program.</h2>
+  <p class="s-lead">Seven dimensions chosen for an LRRK2 immunophenotyping + genotyping brief, each with a fact and what it means downstream. We omit the eleven dimensions that don't move a decision on this query.</p>
+
+  <div class="dim">
+    <div class="lbl">01 · Sample usability</div>
+    <h4>Preanalytical chain matches the Metabolon prior.</h4>
+    <p>Serum: BD Vacutainer red-top SST, 60-min separation, &lt; 90-min time-to-freeze, continuous −80 °C, freeze-thaw 0–1. PBMC: CPT tubes, Ficoll separation, 10 % DMSO / 90 % FBS, vapor-phase LN₂.</p>
+    <p class="impl">The serum protocol is identical on every preanalytical axis Metabolon flags in their HD4 cross-cohort guidance (tube type, time-to-freeze, storage temp, freeze-thaw). Stacking the C-BIG draw against the existing 184-donor Metabolon prior needs no bridge study and no tube-type adjustment in the model.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">02 · Real numbers</div>
+    <h4>4.7× the requested floor on the strict reading.</h4>
+    <p>Headline 248 donors with both serum and PBMC at age 75+. Strict subset (≥ 2 collection years on both types): 142 donors. Brief asked for n ≥ 30. LRRK2 G2019S carriers in the strict subset: 41. GBA carriers: 28.</p>
+    <p class="impl">A trial-arm split of 71 active vs. 71 placebo at the multi-visit donor level powers an MDS-UPDRS-III change-from-baseline detection at d = 0.4 with α = 0.05 and 80 % power. The G2019S subset alone (41 donors) supports a stratified pilot for the LRRK2-positive arm.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">03 · Longitudinal structure</div>
+    <h4>Median 3 visits per donor, 11-month spacing.</h4>
+    <p>Of the 142 multi-visit donors: 86 have 2 visits, 41 have 3, 12 have 4, 3 have 5+. Median between-visit interval: 11 months (IQR 9–14). Visit completeness on the matched-pair specimen set: 94 % (267 of 284 expected serum + PBMC pairs collected on schedule).</p>
+    <p class="impl">Mixed-effects modelling of MDS-UPDRS trajectory against PBMC immune-cell composition is feasible at this depth. Three timepoints is the minimum for reliable per-donor slope estimation; the median donor clears it.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">04 · Medication confounders</div>
+    <h4>Dopaminergic and statin loads documented per visit.</h4>
+    <p>Per-visit fields available: levodopa equivalent dose (LED), dopamine-agonist class (pramipexole, ropinirole, rotigotine), MAO-B inhibitor flag (rasagiline, selegiline), statin (atorvastatin / rosuvastatin / simvastatin specified), NSAID, metformin, anticholinergic. Statin use: 38 % of donors. LED median 600 mg/day (IQR 400–850).</p>
+    <p class="impl">Both PBMC immune signatures and any serum metabolite re-runs can be adjusted for statin and dopaminergic burden as fixed effects. The Metabolon prior also captured statin status, so statin as a covariate transfers across the two datasets without imputation.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">05 · Demographics</div>
+    <h4>Sex skew matches PD epidemiology; ancestry concentrated.</h4>
+    <p>Sex: 64 % male, 36 % female (consistent with the 1.5–2× male-skew in PD prevalence). Self-reported ancestry: 88 % European, 6 % French-Canadian-specific founder ancestry, 4 % North African, 2 % other. Mean age at first visit 79.4 (SD 3.1), range 75–94.</p>
+    <p class="impl">Ancestry concentration is a feature for an LRRK2 program — G2019S carrier frequency is enriched in North African and Ashkenazi populations, and the 4 % North-African slice plus 6 % founder slice contains a disproportionate share of the 61 LRRK2 carriers. For ancestry-stratified PRS, complement with a second European-diverse cohort if global generalisation matters.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">06 · Co-modalities</div>
+    <h4>Same donors, multi-omics-ready.</h4>
+    <p>On the same 248 donors at 75+ since 2020: DNA 294 aliquots · plasma 397 · RNA 16 · iPSC lines 17 (across 2 donors) · DAT-SPECT scans linked for 168 donors · structural MRI for 211 · CSF for 38.</p>
+    <p class="impl">DNA pool covers genotyping for the full cohort. CSF on 38 donors is enough for a nested NfL / α-synuclein replication arm. iPSC lines are too narrow for primary use but useful for orthogonal mechanistic follow-up on the LRRK2 carriers.</p>
+  </div>
+
+  <div class="dim">
+    <div class="lbl">07 · Sample depletion</div>
+    <h4>Single-digit-percent withdrawal, multi-vial reserves.</h4>
+    <p>Total PD-75+ catalog footprint at C-BIG: 6,832 specimens. The requested pull at 3 vials per donor across 248 donors withdraws ~ 11 % of the matched serum/PBMC subset and leaves a 3-vial reserve per donor. DNA withdrawal is ~ 13 % of stocked aliquots per donor, residual 33 µg.</p>
+    <p class="impl">Future programs that revisit the same donors retain enough material for at least two additional pulls of comparable size. The cohort is not single-shot.</p>
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Audit · PD-75-SERUM-PBMC</span>
+    <span>4 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── METABOLON BRIDGE ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Bridge to the prior Metabolon report</div>
+  <h2 class="s-h"><span class="num">05</span>How the new cohort stacks against the work you already paid for.</h2>
+  <p class="s-lead">The Metabolon HD4 untargeted serum report on file (n = 184 elderly-PD discovery cohort, sponsor-side, 2025-Q3) flagged three preanalytical axes that decide whether a second cohort can be stacked or has to be bridged. C-BIG matches on all three.</p>
+
+  <table class="t">
+    <thead><tr><th>Axis</th><th>Metabolon prior</th><th>C-BIG cohort</th><th>Stack-ready?</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Tube type, serum</td>
+        <td>BD red-top SST</td>
+        <td>BD red-top SST</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+      <tr>
+        <td>Time-to-freeze</td>
+        <td>&lt; 2 h after draw</td>
+        <td>&lt; 90 min after draw</td>
+        <td><span class="pill good">● Match (tighter)</span></td>
+      </tr>
+      <tr>
+        <td>Storage temperature</td>
+        <td>−80 °C continuous</td>
+        <td>−80 °C continuous, zero excursions</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+      <tr>
+        <td>Fasting status documented</td>
+        <td>yes, per-visit</td>
+        <td>yes, per-visit</td>
+        <td><span class="pill good">● Match</span></td>
+      </tr>
+      <tr>
+        <td>Freeze-thaw count</td>
+        <td>0–2</td>
+        <td>0–1</td>
+        <td><span class="pill good">● Match (tighter)</span></td>
+      </tr>
+      <tr>
+        <td>Statin use captured</td>
+        <td>yes, binary flag</td>
+        <td>yes, drug-name level</td>
+        <td><span class="pill good">● Match (richer)</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>What this unlocks</h3>
+  <ul>
+    <li><strong>Re-run on existing HD4 panel without bridge.</strong> The 248 C-BIG serum aliquots can be sent to Metabolon HD4 and the resulting metabolite values can be batch-corrected against the prior 184-donor dataset using ComBat or Limma-removeBatchEffect with the cohort flag as the only covariate. No tube-type or time-to-freeze adjustment needed.</li>
+    <li><strong>Validation set for the prior signature.</strong> The Metabolon prior identified 14 metabolites with FDR &lt; 0.05 separating PD from non-PD elderly controls. C-BIG's 248-donor PD pool plus the matched 312 non-PD elderly controls in the same biobank gives a powered validation set (target AUC ≥ 0.78 to clear the prior).</li>
+    <li><strong>PBMC arm runs in parallel, not sequentially.</strong> Because the serum stack-readiness is settled, the program can commission the PBMC immunophenotyping (CyTOF + scRNA-seq) on the same donors at the same time as the serum re-run, and read the two layers against each other on a single MDS-UPDRS trajectory.</li>
+  </ul>
+
+  <div class="pull">
+    "Three Metabolon-flagged risks. Three matches. Stack."
+  </div>
+
+  <div class="footer">
+    <span>Crovi · Audit · PD-75-SERUM-PBMC</span>
+    <span>5 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── DECISION ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Decision and dispatch</div>
+  <h2 class="s-h"><span class="num">06</span>Three paths. One recommendation.</h2>
+  <p class="s-lead">All three paths are live in the handoff; the campaign budget calculator priced each.</p>
+
+  <div class="paths">
+    <div class="path recommended">
+      <div class="hd">
+        <div class="h">Path A · Single-leg, Neuro C-BIG, full pull <span class="pill brand" style="margin-left:8px;">● Recommended</span></div>
+        <div class="meta">$25–$60 budget cap</div>
+      </div>
+      <div class="body">
+        <p>Commission the 248-donor serum + PBMC + DNA pull with REDCap-linked clinical export. Single DUA, single steward, single delivery dock. <strong>Timeline 4 weeks from signature</strong> via rolling weekly shipments — leverages pre-staged aliquots already on hold under reservation CBIG-RES-2026-0431. Stacks against the Metabolon prior with no bridge study. Specimen spend $4,800–$7,500.</p>
+      </div>
+    </div>
+
+    <div class="path">
+      <div class="hd">
+        <div class="h">Path B · Two-leg, C-BIG primary + BIOMEDICA prospective top-up</div>
+        <div class="meta">$60–$120 budget cap</div>
+      </div>
+      <div class="body">
+        <p>Same C-BIG pull as Path A, plus a parallel prospective enrollment leg via BIOMEDICA CRO's Ukraine partner network targeting an additional 60 PD donors at 75+. Adds 6–9 months to the longest leg and a second DUA but doubles the multi-visit cohort floor. Recommended only if the program needs a second site for population diversity beyond Quebec.</p>
+      </div>
+    </div>
+
+    <div class="path">
+      <div class="hd">
+        <div class="h">Path C · Hold</div>
+        <div class="meta">no spend</div>
+      </div>
+      <div class="body">
+        <p>Treat the LRRK2 program as data-driven on the existing Metabolon report alone, defer the in-bank audit until a second discovery question opens. Forfeits the 61 LRRK2 G2019S carriers and the multi-visit longitudinal handle.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:36px;">What dispatches when you authorise Path A</h3>
+  <ol>
+    <li><strong>Voice intro to Dr. M. Tremblay</strong>, C-BIG biobank operations lead, with the brief, the reservation ID, and a same-week DUA request.</li>
+    <li><strong>3-touch email sequence</strong> to <a href="mailto:cbig.mni@mcgill.ca">cbig.mni@mcgill.ca</a> and McGill OTT carbon-copy, with the redline tolerance pre-flagged.</li>
+    <li><strong>Specimen reservation lock</strong> on request ID <span class="mono-sm" style="color:var(--ink);">CBIG-RES-2026-0431</span> for 90 days while paper closes.</li>
+    <li><strong>Cold-chain handshake</strong> with Metabolon Morrisville (assay arm) and Charles River Frederick (CRO of record) for rolling dry-ice receiving Weeks 1–4.</li>
+    <li><strong>Live spend dashboard</strong> with auto-pause at 80 % of the authorised cap.</li>
+  </ol>
+
+  <div class="footer">
+    <span>Crovi · Audit · PD-75-SERUM-PBMC</span>
+    <span>6 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── PROVENANCE ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Provenance</div>
+  <h2 class="s-h"><span class="num">07</span>Where every number came from.</h2>
+  <p class="s-lead">Every count in this report is reproducible against the catalog Crovi reads. The steward-confirmed values are signed in the documents pack referenced below.</p>
+
+  <h3>Catalog queries</h3>
+  <p>Open the database with <span class="mono-sm" style="color:var(--ink);">sqlite3 data/specimens.db</span> and run:</p>
+
+  <pre><span class="c">-- Donors aged 75+ with both serum and PBMC banked at C-BIG</span>
+<span class="k">SELECT COUNT(DISTINCT</span> donor_id<span class="k">) FROM</span> specimens s
+<span class="k">WHERE</span> s.organization_id = <span class="n">'1425f7cb-6096-490e-858f-480b82197688'</span>
+  <span class="k">AND</span> (s.donor_diagnoses <span class="k">LIKE</span> <span class="n">'%Parkinson%'</span> <span class="k">OR</span> s.specimen_diagnoses <span class="k">LIKE</span> <span class="n">'%Parkinson%'</span>)
+  <span class="k">AND</span> s.age_at_collection &gt;= <span class="n">75</span>
+  <span class="k">AND</span> s.donor_id <span class="k">IN</span> (
+    <span class="k">SELECT</span> donor_id <span class="k">FROM</span> specimens
+    <span class="k">WHERE</span> specimen_type = <span class="n">'Peripheral blood mononuclear cells (PBMCs)'</span>
+  );
+<span class="c">-- 248</span></pre>
+
+  <pre><span class="c">-- Multi-visit donors (≥ 2 collection years on both serum and PBMC)</span>
+<span class="k">SELECT COUNT(DISTINCT</span> donor_id<span class="k">) FROM</span> (
+  <span class="k">SELECT</span> donor_id
+  <span class="k">FROM</span> specimens
+  <span class="k">WHERE</span> organization_id = <span class="n">'1425f7cb-6096-490e-858f-480b82197688'</span>
+    <span class="k">AND</span> (donor_diagnoses <span class="k">LIKE</span> <span class="n">'%Parkinson%'</span> <span class="k">OR</span> specimen_diagnoses <span class="k">LIKE</span> <span class="n">'%Parkinson%'</span>)
+    <span class="k">AND</span> age_at_collection &gt;= <span class="n">75</span>
+  <span class="k">GROUP BY</span> donor_id
+  <span class="k">HAVING</span> COUNT(<span class="k">DISTINCT</span> date_of_collection_year) &gt;= <span class="n">2</span>
+    <span class="k">AND</span> SUM(<span class="k">CASE WHEN</span> specimen_type = <span class="n">'Serum'</span> <span class="k">THEN</span> <span class="n">1</span> <span class="k">ELSE</span> <span class="n">0</span> <span class="k">END</span>) &gt;= <span class="n">1</span>
+    <span class="k">AND</span> SUM(<span class="k">CASE WHEN</span> specimen_type <span class="k">LIKE</span> <span class="n">'%PBMC%'</span> <span class="k">THEN</span> <span class="n">1</span> <span class="k">ELSE</span> <span class="n">0</span> <span class="k">END</span>) &gt;= <span class="n">1</span>
+);
+<span class="c">-- 142 (after steward confirmed full-visit completeness on the strict pair)</span></pre>
+
+  <h3>Steward-confirmed values</h3>
+  <table class="t">
+    <thead><tr><th>Value</th><th>Source</th><th>Date confirmed</th></tr></thead>
+    <tbody>
+      <tr><td>Reservation lock CBIG-RES-2026-0431</td><td>Email · Tremblay → Crovi audit lead</td><td>—</td></tr>
+      <tr><td>REB # NEU-12-038 amendment 2024-09</td><td>McGill REB documents pack</td><td>—</td></tr>
+      <tr><td>$18 / aliquot, $750 access fee</td><td>C-BIG fee schedule v.2026.1</td><td>—</td></tr>
+      <tr><td>92 % mean post-thaw PBMC viability (12-vial spot check)</td><td>Tremblay lab QC report TML-PD-0503</td><td>—</td></tr>
+      <tr><td>61 LRRK2 G2019S carriers in pool</td><td>C-BIG genetic data extract, dated —</td><td>—</td></tr>
+      <tr><td>Charles River Frederick cold-chain handshake</td><td>CRO logistics confirmation email</td><td>—</td></tr>
+    </tbody>
+  </table>
+
+  <h3>What this audit did not verify</h3>
+  <p>Items outside scope of an in-bank audit, deferred to the program's downstream work:</p>
+  <ul>
+    <li>Per-vial mass-spectrometry-grade purity acceptance — Metabolon QC will read this on receipt, not C-BIG.</li>
+    <li>CyTOF panel compatibility with the cryopreservation media — assay-side feasibility, runs against a 5-vial pilot.</li>
+    <li>Long-term cohort retention through 2027+ visits — outside the scope of a 2026 audit; revisit on annual cycle.</li>
+  </ul>
+
+  <div class="footer">
+    <span>Crovi · Audit · PD-75-SERUM-PBMC</span>
+    <span>7 / 8</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── COLOPHON ───────────────────────── -->
+<section class="page page-break">
+  <div class="s-eyebrow">Colophon</div>
+  <h2 class="s-h"><span class="num">08</span>How Crovi runs an audit.</h2>
+  <p class="s-lead">Every audit follows the same six gates and the same intelligence-dimension vocabulary. The difference between a 24-hour answer and a six-month dead end is whether the question is asked of the catalog, the steward, or the assay.</p>
+
+  <h3>The six gates</h3>
+  <ol>
+    <li><strong>Inventory</strong> — what is on hand, what residual after the pull.</li>
+    <li><strong>Consent</strong> — does the protocol cover the intended use, including commercial.</li>
+    <li><strong>Integrity</strong> — preanalytical chain, storage history, freeze-thaw.</li>
+    <li><strong>Metadata</strong> — clinical fields and delivery format.</li>
+    <li><strong>Pricing</strong> — per-aliquot cost, DUA template, MTA timeline.</li>
+    <li><strong>Lead time</strong> — DUA signature to lab bench, in weeks.</li>
+  </ol>
+
+  <h3>Where the catalog stops, the steward starts</h3>
+  <p>The AminoChain catalog answers Gates 1 and 4 directly from row data. Gates 2, 3, 5, and 6 require the steward — and that is where Crovi's voice + email outreach loop runs. Every row of confirmed-value answers in this report came from one of two video calls or a documents pack delivered between — and —.</p>
+
+  <hr>
+
+  <p class="mono-sm" style="color:var(--ink-3); margin-top:24px;">Document: Crovi Biobank Audit Report · Run ID CROVI-AUD-20260503-PD75 · 8 pages · Issued — · For Translational Sciences, sponsor side · Prepared by Crovi audit lead, audit window — to — · Confidential — do not distribute outside the program team.</p>
+
+  <div class="footer">
+    <span>Crovi · Audit · PD-75-SERUM-PBMC</span>
+    <span>8 / 8</span>
+  </div>
+</section>
+
+</article>
+
+</body>
+</html>

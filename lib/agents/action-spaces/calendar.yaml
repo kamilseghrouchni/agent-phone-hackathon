@@ -1,0 +1,104 @@
+# Calendar channel — booking actions. Browser Use for Calendly headless;
+# direct API for crovi.bio's Notion Cal (which has a hosted booking
+# webhook).
+
+channel: calendar
+agent_persona_required: false
+actions:
+
+  - id: book_intro_call
+    category: action
+    prerequisites: []
+    extracts:
+      - field: booking_id
+        type: string
+      - field: scheduled_at
+        type: string
+        description: ISO timestamp of the chosen slot.
+      - field: meeting_url
+        type: string
+    parameters:
+      attendee_name:     { source: agent_identity.name }
+      attendee_email:    { source: agent_identity.email }
+      duration_minutes:  { literal: 15 }
+      preferred_window:  { source: state.preferred_meeting_window, fallback: "next 48h, business hours, Pacific" }
+      booking_url:       { source: supplier.contact.calendar_url }
+      topic:             { source: parsed_query.use_case, format: meeting_topic }
+    submission_method: browser_use_cloud
+    success_criteria: "extracts.booking_id != null OR extracts.scheduled_at != null"
+    next_action_hints: [confirm_booking, send_calendar_invite]
+
+  - id: propose_alternate_slot
+    category: question
+    prerequisites: [book_intro_call]
+    extracts:
+      - field: alternate_slot_iso
+        type: string
+      - field: alternate_accepted
+        type: boolean
+    parameters:
+      reason:            { source: prior.book_intro_call.booking_failure_reason, fallback: "no slot in preferred window" }
+      proposed_iso:      { source: state.next_available_slot }
+    submission_method: handoff_to_correspond_agent
+    success_criteria: "extracts.alternate_slot_iso != null OR extracts.alternate_accepted != null"
+    next_action_hints: [book_intro_call]
+
+  - id: confirm_booking
+    category: confirmation
+    prerequisites: [book_intro_call]
+    extracts:
+      - field: booking_verified
+        type: boolean
+      - field: ics_url
+        type: string
+    parameters:
+      booking_id:        { source: prior.book_intro_call.booking_id }
+    submission_method: none
+    success_criteria: "extracts.booking_verified != null"
+    next_action_hints: []
+
+  - id: send_calendar_invite
+    category: action
+    prerequisites: []
+    extracts:
+      - field: invite_id
+        type: string
+      - field: scheduled_at
+        type: string
+    parameters:
+      attendee_email:    { source: supplier.contact.email }
+      organiser_email:   { source: agent_identity.email }
+      duration_minutes:  { literal: 30 }
+      topic:             { source: parsed_query.use_case, format: meeting_topic }
+      notion_cal_url:    { source: state.crovi_notion_cal_url }
+    submission_method: direct_webhook        # crovi.bio Notion Cal hosted booking
+    success_criteria: "extracts.invite_id != null"
+    next_action_hints: [confirm_booking]
+
+  - id: reschedule
+    category: action
+    prerequisites: [confirm_booking]
+    extracts:
+      - field: rescheduled_at
+        type: string
+      - field: rescheduled_booking_id
+        type: string
+    parameters:
+      existing_booking_id: { source: prior.book_intro_call.booking_id }
+      new_window:          { source: state.preferred_meeting_window }
+    submission_method: browser_use_cloud
+    success_criteria: "extracts.rescheduled_at != null"
+    next_action_hints: [confirm_booking]
+
+  - id: decline_gracefully
+    category: wrap
+    prerequisites: []
+    extracts:
+      - field: declined_reason
+        type: string
+    parameters:
+      reason:            { literal: "no overlapping availability in window" }
+    submission_method: handoff_to_correspond_agent
+    success_criteria: "extracts.declined_reason != null"
+    next_action_hints: []
+    fallback_for: no_slot_available

@@ -1,0 +1,20 @@
+{
+  "bundle_id": "cervical-ffpe-serum",
+  "therapeutic_area": "womens-health",
+  "query_text": "Cervical cancer FFPE tissue + serum for tisotumab vedotin companion diagnostic development. Tissue factor expression data preferred.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Cervical cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Serum"
+    ],
+    "biomarkers_desired": [
+      "Tissue Factor"
+    ],
+    "preservation": "Fixed",
+    "assay_context": "Tissue factor expression for tisotumab vedotin CDx"
+  }
+}

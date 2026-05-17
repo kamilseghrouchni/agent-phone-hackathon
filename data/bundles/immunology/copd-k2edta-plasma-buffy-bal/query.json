@@ -1,0 +1,28 @@
+{
+  "bundle_id": "copd-k2edta-plasma-buffy-bal",
+  "therapeutic_area": "immunology",
+  "query_text": "COPD patients with K2EDTA plasma at -80C + buffy coat + BAL fluid from same donor. Need documented pack-year smoking history and FEV1 values. Treatment-naive (no prior ICS or biologics). N >= 10 trios.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Chronic Obstructive Pulmonary Disease (COPD)"
+    ],
+    "specimen_types": [
+      "Plasma",
+      "Buffy coat",
+      "Bronchoalveolar lavage fluid"
+    ],
+    "matched_pairs": true,
+    "min_n": 10,
+    "treatment_status": "treatment-naive",
+    "preanalytical": {
+      "tube_type": "K2EDTA",
+      "storage_temp": "-80C"
+    },
+    "clinical_data_required": [
+      "smoking_pack_years",
+      "FEV1"
+    ],
+    "assay_context": "Dupixent COPD expansion \u2014 Type 2 inflammation biomarker discovery"
+  }
+}

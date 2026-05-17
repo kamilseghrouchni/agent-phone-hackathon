@@ -1,0 +1,70 @@
+# SMS channel — AgentPhone SMS. Compressed compared to email; one
+# question per message, ~160 chars per send. Used for suppliers with a
+# mobile-first BD person.
+
+channel: sms
+agent_persona_required: true
+actions:
+
+  - id: send_initial_ping
+    category: outreach
+    prerequisites: []
+    extracts:
+      - field: thread_id
+        type: string
+    utterance_template: |
+      Hi {bd_recipient_name} — {agent_name} from {agent_company}. Quick
+      one: do you have {n_cases} {primary_disease} {primary_specimen}
+      cases available? Happy to send full spec by email if helpful.
+    slots:
+      bd_recipient_name:  { source: supplier.contact.bd_name, fallback: "" }
+      agent_name:         { source: agent_identity.name }
+      agent_company:      { source: agent_identity.company }
+      n_cases:            { source: "parsed_query.specimens[0].n_cases", format: count }
+      primary_disease:    { source: "parsed_query.diseases[0]" }
+      primary_specimen:   { source: "parsed_query.specimens[0].type" }
+    success_criteria: "extracts.thread_id != null"
+    next_action_hints: [confirm_availability, send_quote_request]
+
+  - id: confirm_availability
+    category: question
+    prerequisites: [send_initial_ping]
+    extracts:
+      - field: availability_confirmed
+        type: boolean
+      - field: estimated_n_available
+        type: number
+    utterance_template: |
+      Got it — to confirm, roughly how many cases? A ballpark number
+      works.
+    slots: {}
+    success_criteria: "extracts.availability_confirmed != null"
+    next_action_hints: [send_quote_request, wrap_short]
+
+  - id: send_quote_request
+    category: action
+    prerequisites: [confirm_availability]
+    extracts:
+      - field: quote_band
+        type: "enum:low|mid|high|undisclosed"
+      - field: quote_followup_email_promised
+        type: boolean
+    utterance_template: |
+      Per-case pricing band on those? And if easier, send the formal
+      quote to {agent_email} — we'll route from there.
+    slots:
+      agent_email:        { source: agent_identity.email }
+    success_criteria: "extracts.quote_band != null OR extracts.quote_followup_email_promised != null"
+    next_action_hints: [wrap_short]
+
+  - id: wrap_short
+    category: wrap
+    prerequisites: [send_initial_ping]
+    extracts:
+      - field: closed_loop
+        type: boolean
+    utterance_template: |
+      Perfect — thanks. Standing by on your end.
+    slots: {}
+    success_criteria: "extracts.closed_loop != null"
+    next_action_hints: []

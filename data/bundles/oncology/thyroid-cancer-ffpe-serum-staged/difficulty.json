@@ -1,0 +1,19 @@
+{
+  "bundle_id": "thyroid-cancer-ffpe-serum-staged",
+  "difficulty": "medium",
+  "factors": {
+    "data_availability": "medium — 891 total specimens but BRAF V600E annotation nearly absent in commercial biobanks",
+    "org_discoverability": "medium — commercial suppliers discoverable; academic thyroid surgery biobanks harder to find",
+    "biomarker_specificity": "high — BRAF V600E mutation status is a hard requirement; annotated in <2% of available specimens",
+    "specimen_count": 891,
+    "org_count": 8,
+    "matched_pair_donors": 14
+  },
+  "expected_failure_modes": [
+    "BRAF V600E annotation not tracked in most commercial biobank registries — pipeline must not present BRAF-annotated specimens as widely available",
+    "Thyroid cancer literature focuses on FNA cytology not surgical FFPE — PubMed search may surface cohorts that do not have matched FFPE",
+    "Serum matching is rare in thyroid surgery studies — 14 confirmed matched pairs vs N=50 required is a structural gap the pipeline must surface",
+    "Buffy coat specimens (Stibion, 214 specimens) should not be recommended as serum equivalents",
+    "May find valid academic sources (SEER-linked thyroid biobanks, NCI TCGA-THCA cohort) not in AminoChain"
+  ]
+}

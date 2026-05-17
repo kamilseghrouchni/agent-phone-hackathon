@@ -1,0 +1,76 @@
+{
+  "bundle_id": "pd-age-over-75-serum-pbmc-dna",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "30564614",
+      "pmc_id": "PMC6292383",
+      "doi": null,
+      "title": "The Parkinson's Progression Markers Initiative (PPMI): A Decade of Progress",
+      "year": 2018,
+      "journal": "Journal of Parkinson's Disease",
+      "specimens_described": {
+        "types": ["serum", "PBMC", "DNA", "CSF", "urine"],
+        "n": 4200,
+        "storage": "frozen (-80C)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "PPMI / Michael J. Fox Foundation (50 sites worldwide)",
+      "institution_type": "foundation_consortium",
+      "contact_extractable": true,
+      "access_route": "ppmi-info.org data/sample access; Coriell biorepository for specimens",
+      "depth_confidence": "high",
+      "notes": "4200+ participants at 50 sites with serum, PBMC, DNA, CSF, and urine. Full trio (serum+PBMC+DNA) confirmed. Age distribution spans broad PD range — age >75 subset needs filtering from the full cohort; not a dedicated elderly-onset PD collection. Specimens distributed via Coriell Institute. Well-documented access process through PPMI portal."
+    },
+    {
+      "pmid": "26442452",
+      "pmc_id": "PMC4824671",
+      "doi": null,
+      "title": "The Parkinson's Disease Biomarkers Program (PDBP): A Resource for PD Research",
+      "year": 2016,
+      "journal": "Journal of Parkinson's Disease",
+      "specimens_described": {
+        "types": ["CSF", "DNA", "PBMC", "serum"],
+        "n": 1082,
+        "storage": "frozen (-80C)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "PDBP / NINDS (Coriell Institute as biorepository)",
+      "institution_type": "government_consortium",
+      "contact_extractable": true,
+      "access_route": "NINDS PDBP data access; contact PDBP-OPS@mail.nih.gov; specimens via Coriell",
+      "depth_confidence": "high",
+      "notes": "1082 participants with CSF, DNA, PBMC, and serum. Full trio confirmed. NINDS-funded with formal access via Coriell Institute. Direct operations contact: PDBP-OPS@mail.nih.gov. Age >75 subset available but requires cohort filtering — not pre-stratified by age. Established access infrastructure with NIH backing."
+    },
+    {
+      "pmid": "32934108",
+      "pmc_id": null,
+      "doi": null,
+      "title": "Parkinson's Disease within the UK Biobank: Genetic and Phenotypic Characteristics",
+      "year": 2020,
+      "journal": "Movement Disorders",
+      "specimens_described": {
+        "types": ["serum", "DNA"],
+        "n": null,
+        "storage": "frozen",
+        "matched": false,
+        "treatment_naive": null
+      },
+      "institution": "UK Biobank",
+      "institution_type": "national_biobank",
+      "contact_extractable": true,
+      "access_route": "UK Biobank access application; ukbiobank.ac.uk",
+      "depth_confidence": "medium",
+      "notes": "PD cases within 500K participant UK Biobank. Serum and DNA available; PBMC not confirmed as banked specimen type for UK Biobank. Age >75 cases available given UK Biobank age range (40-69 at recruitment, now older with follow-up). PBMC gap is the key limitation for this bundle. Formal application-based access with processing fees."
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "PPMI / Michael J. Fox Foundation (via Coriell)",
+    "PDBP / NINDS (via Coriell)",
+    "UK Biobank"
+  ],
+  "notes": "Strong sourcing landscape. PPMI and PDBP both have the full serum+PBMC+DNA trio with formal access via Coriell Institute. The age >75 constraint is the key filter: neither PPMI nor PDBP pre-stratify by age >75, but both are large enough (1082–4200 participants) to yield sufficient elderly-onset PD cases. UK Biobank has serum+DNA but PBMC availability is unconfirmed — classify as partial. Eval should check: (1) what fraction of PPMI/PDBP n falls in the >75 age bucket, and (2) whether UK Biobank has PBMC or equivalent stored PBMCs for the PD sub-cohort."
+}

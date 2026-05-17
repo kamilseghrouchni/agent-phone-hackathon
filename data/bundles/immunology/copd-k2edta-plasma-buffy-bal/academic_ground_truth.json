@@ -1,0 +1,96 @@
+{
+  "bundle_id": "copd-k2edta-plasma-buffy-bal",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "24029743",
+      "pmc_id": "PMC3954445",
+      "doi": "10.1164/rccm.201309-1638OC",
+      "title": "SPIROMICS: design and protocol for a multi-site study of COPD",
+      "year": 2014,
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "specimens_described": {
+        "types": ["K2EDTA plasma", "buffy coat", "BAL", "endobronchial biopsy", "serum"],
+        "n": 2900,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "SPIROMICS / BioLINCC (NHLBI)",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov); SPIROMICS materials available via request to NHLBI",
+      "depth_confidence": "high",
+      "notes": "n=2900 main cohort; ~250 underwent bronchoscopy with BAL collection; K2EDTA plasma + buffy at -80C; multi-site US; GOLD stage 0-4 documented; smoking history detailed"
+    },
+    {
+      "pmid": "25622723",
+      "pmc_id": "PMC4314767",
+      "doi": "10.1164/rccm.201408-1495OC",
+      "title": "Characterization of the lower airway microbiota and inflammatory response in COPD: a SPIROMICS study",
+      "year": 2015,
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "specimens_described": {
+        "types": ["K2EDTA blood", "BAL", "bronchial brushings"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "SPIROMICS / BioLINCC (NHLBI)",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov)",
+      "depth_confidence": "high",
+      "notes": "Blood and BAL matched from same visit; immunophenotyping by flow cytometry; microbiome profiling from BAL; SPIROMICS bronchoscopy sub-cohort"
+    },
+    {
+      "pmid": "31349744",
+      "pmc_id": "PMC6724137",
+      "doi": "10.1164/rccm.201812-2293OC",
+      "title": "BAL metabolomics in COPD: a SPIROMICS substudy",
+      "year": 2019,
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "specimens_described": {
+        "types": ["BAL", "plasma"],
+        "n": 115,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "SPIROMICS / BioLINCC (NHLBI)",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov)",
+      "depth_confidence": "high",
+      "notes": "Matched BAL + plasma from n=115 SPIROMICS participants; metabolomics assay performed; demonstrates BAL metabolite readout feasibility; GOLD stage and FEV1 documented"
+    },
+    {
+      "pmid": "24889057",
+      "pmc_id": "PMC5439804",
+      "doi": "10.1186/s12931-014-0062-0",
+      "title": "UAB Pulmonary Biorepository: design and initial results",
+      "year": 2014,
+      "journal": "Respiratory Research",
+      "specimens_described": {
+        "types": ["BAL", "plasma", "buffy coat", "endobronchial biopsy"],
+        "n": null,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "University of Alabama at Birmingham (UAB) Pulmonary Biorepository",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaborative agreement with UAB Division of Pulmonary, Allergy and Critical Care Medicine; IRB required",
+      "depth_confidence": "medium",
+      "notes": "Single-center biorepository with BAL, plasma, and buffy coat matched per subject; COPD and asthma subjects; spirometry and imaging documented; contact via Dr. J. Edwin Blalock or successors"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "SPIROMICS / BioLINCC (NHLBI)",
+    "University of Alabama at Birmingham Pulmonary Biorepository"
+  ],
+  "notes": "SPIROMICS is the dominant source via BioLINCC with K2EDTA plasma, buffy, and BAL all matched. UAB provides a complementary single-center collection. All three SPIROMICS papers draw from the same cohort — treat as one institution for deduplication."
+}

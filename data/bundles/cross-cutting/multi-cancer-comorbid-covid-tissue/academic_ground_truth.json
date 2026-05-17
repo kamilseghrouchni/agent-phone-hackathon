@@ -1,0 +1,76 @@
+{
+  "bundle_id": "multi-cancer-comorbid-covid-tissue",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "35841694",
+      "pmc_id": "PMC9250824",
+      "doi": "10.1038/s41379-022-01110-5",
+      "title": "Baden-Wurttemberg autopsy COVID-19 registry: a multisite FFPE and cryo-tissue biobank",
+      "year": 2022,
+      "journal": "Modern Pathology",
+      "specimens_described": {
+        "types": ["FFPE blocks", "cryopreserved tissue"],
+        "n": 12149,
+        "storage": "-80C and room temperature (paraffin)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Baden-Wurttemberg COVID Autopsy Registry / BBMRI-Eric Germany",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "BBMRI-Eric sample locator; application to registry coordinating center; contact via GCS-Netz (German COVID autopsy network)",
+      "depth_confidence": "high",
+      "notes": "4383 FFPE + 7766 cryopreserved tissue blocks from COVID-19 autopsies; cancer comorbidity documented (oncologic history at death); multi-organ sampling; linked to BBMRI-Eric infrastructure; de-identified with clinical metadata"
+    },
+    {
+      "pmid": "38691298",
+      "pmc_id": "PMC11493920",
+      "doi": "10.3390/cancers16091727",
+      "title": "Cancer and COVID-19 co-occurrence: autopsy findings from Semmelweis University Budapest",
+      "year": 2024,
+      "journal": "Cancers",
+      "specimens_described": {
+        "types": ["FFPE blocks", "cryopreserved tissue"],
+        "n": 100,
+        "storage": "-80C and room temperature (paraffin)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "Semmelweis University / 2nd Department of Pathology Budapest",
+      "institution_type": "academic_medical_center",
+      "contact_extractable": true,
+      "access_route": "Collaborative agreement with Semmelweis University 2nd Pathology; IRB required; contact corresponding author",
+      "depth_confidence": "high",
+      "notes": "100 cancer + COVID autopsy cases; multiple cancer types (lung, colorectal, hematologic); FFPE and frozen matched; COVID PCR status and severity documented; detailed oncologic history"
+    },
+    {
+      "pmid": "35531493",
+      "pmc_id": "PMC9073019",
+      "doi": "10.1038/s41467-022-30982-7",
+      "title": "DeRegCOVID: a German autopsy registry for COVID-19 tissue research",
+      "year": 2022,
+      "journal": "Nature Communications",
+      "specimens_described": {
+        "types": ["FFPE blocks", "fresh frozen tissue"],
+        "n": 18674,
+        "storage": "-80C and room temperature (paraffin)",
+        "matched": true,
+        "treatment_naive": null
+      },
+      "institution": "DeRegCOVID / German COVID Autopsy Network (GCS-Netz)",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Application via DeRegCOVID portal (deregcovid.de); BBMRI-Eric linked; IRB and DUA required",
+      "depth_confidence": "high",
+      "notes": "18,674 tissue samples from 1,129 autopsies across 12 German institutions; multi-organ; cancer comorbidity documented; COVID PCR confirmed; linked to clinical records; largest German COVID autopsy collection"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "Baden-Wurttemberg COVID Autopsy Registry / BBMRI-Eric Germany",
+    "Semmelweis University Budapest",
+    "DeRegCOVID / GCS-Netz"
+  ],
+  "notes": "DeRegCOVID (n=18,674 tissues) and Baden-Wurttemberg registry (n=12,149) are the two largest collections with BBMRI-linked access. Both overlap with the same German network (GCS-Netz). Semmelweis provides a smaller Eastern European collection. All require formal application; cancer comorbidity is a documented field in all three."
+}

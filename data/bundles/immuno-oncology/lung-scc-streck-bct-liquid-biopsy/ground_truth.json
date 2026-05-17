@@ -1,0 +1,316 @@
+{
+  "bundle_id": "lung-scc-streck-bct-liquid-biopsy",
+  "source": "aminochain",
+  "extraction_date": "",
+  "summary": {
+    "total_primary_specimens": 0,
+    "total_secondary_specimens": 1887,
+    "total_donors": 1513,
+    "organizations": [],
+    "matched_pair_donors": 0
+  },
+  "organizations": [
+    {
+      "name": "ProteoGenex",
+      "organization_id": "39576032-ee6b-40ae-b2b7-6bb368281575",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.proteogenex.com/",
+      "contact_email": "dsuchkov@proteogenex.com",
+      "address": "460 Hindry Ave, Unit A, Inglewood CA, 90301 USA",
+      "description": "ProteoGenex is an established innovative provider of human biological specimens and clinical information of the highest quality.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 1240,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {
+        "ER": 544,
+        "PR": 544,
+        "Ki67": 24
+      },
+      "tnm_staged": 1077,
+      "treatment_naive": 1240,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 58.8,
+        "n_with_age": 1240,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "BIOMEDICA CRO",
+      "organization_id": "2ae3534e-ae64-4956-8c42-2f64b720ff33",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://biomedica-cro.com/",
+      "contact_email": "office@biomedica-cro.com",
+      "address": "",
+      "description": "We do biosample procurement through a broad network of partnered hospitals in Ukraine and supply them globally. Human biospecimen collection is an easy task with us.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 379,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 374,
+      "treatment_naive": 1,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 59.6,
+        "n_with_age": 379,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "Reference Medicine",
+      "organization_id": "59472417-e35a-4f24-8491-f46679319297",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.referencemedicine.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "Designed by researchers, for researchers.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 87,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 81,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 62.4,
+        "n_with_age": 87,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "Ukraine Research Group",
+      "organization_id": "8c6af273-0fa7-4f0d-9bc8-aa4cb15f8d79",
+      "country": [
+        "UKR"
+      ],
+      "website": "http://ukraineresearch.com/",
+      "contact_email": "sales@ukrresearch.com",
+      "address": "4a Lukasha St, Office 2, Lviv, 79012, Ukraine",
+      "description": "The mission of the Ukraine Research Group is to promote the development of advanced technologies for precision biomedical research. We focus on the development of biobanks and the use of high-quality ",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 82,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 71,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 61.7,
+        "n_with_age": 80,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "CHTN Eastern",
+      "organization_id": "f5eaef2d-c061-45f0-84ff-c08e1cf6908c",
+      "country": [
+        "USA"
+      ],
+      "website": "https://www.chtneast.org/",
+      "contact_email": "dfitzsim@pennmedicine.upenn.edu",
+      "address": "3400 Spruce Street, 565 Dulles, Philadelphia, Pennsylvania 19104",
+      "description": "Serving the Research Community with Quality Biospecimens for more than 30 years!",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 47,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 65.1,
+        "n_with_age": 47,
+        "countries": [
+          "USA"
+        ]
+      }
+    },
+    {
+      "name": "France Tissue Bank",
+      "organization_id": "24896abd-fc2c-4310-a02e-d5fbd211562e",
+      "country": [
+        "FRA"
+      ],
+      "website": "https://francetissuebank.com/en",
+      "contact_email": "contact@francetissuebank.com",
+      "address": "",
+      "description": "France Tissue Bank \u2013 Your trusted partner for high-quality, responsive biospecimen sourcing\n\nLooking for high-standard, reliable samples with fast turnaround times? France Tissue Bank (FTB) is your id",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 32,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 15,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 68.1,
+        "n_with_age": 32,
+        "countries": [
+          "FRA"
+        ]
+      }
+    },
+    {
+      "name": "Medical Gate",
+      "organization_id": "0d6ee50f-4b67-468c-8385-8687c24030dc",
+      "country": [
+        "TUR"
+      ],
+      "website": "http://www.medicalgatebio.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "MEDICAL GATE has a staff specialized in every stage of clinical research.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 13,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 13,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 57.7,
+        "n_with_age": 13,
+        "countries": [
+          "TUR"
+        ]
+      }
+    },
+    {
+      "name": "CSD Bio",
+      "organization_id": "fe7fb818-c267-4388-8e7c-3f5fd6f8edc2",
+      "country": [
+        "UKR"
+      ],
+      "website": "https://www.csdbio.com.ua/",
+      "contact_email": "d.obukhov@csd.com.ua",
+      "address": "",
+      "description": "CSD BIO is Ukrainian Biobank prone to empower researchers with the tools for advancing precision medicine\u200b. Our biorepository offers an extensive inventory of biospecimens as well as an exclusive labo",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 6,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 6,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": 69.2,
+        "n_with_age": 6,
+        "countries": [
+          "UKR"
+        ]
+      }
+    },
+    {
+      "name": "JLR Life Sciences",
+      "organization_id": "235e6ec4-ad5e-4ed8-9fa9-3f566c045ff8",
+      "country": [
+        null
+      ],
+      "website": "https://jlrlifesciences.com/",
+      "contact_email": "aminochainprovider@aminochain.io",
+      "address": "",
+      "description": "High-quality biospecimens. Precision lab services. One trusted partner.",
+      "specimens": {
+        "primary": {
+          "count": 0,
+          "type": "Other"
+        },
+        "secondary": {
+          "count": 1,
+          "type": "Tissue"
+        }
+      },
+      "biomarkers": {},
+      "tnm_staged": 0,
+      "treatment_naive": 0,
+      "matched_pair_donors": 0,
+      "demographics": {
+        "mean_age": null,
+        "n_with_age": 0,
+        "countries": [
+          null
+        ]
+      }
+    }
+  ],
+  "specimen_sample": [],
+  "coverage_gaps": {
+    "her2": "0% annotated \u2014 effectively not available",
+    "er": "0% annotated \u2014 effectively not available",
+    "pr": "0% annotated \u2014 effectively not available",
+    "ki67": "0% annotated \u2014 effectively not available",
+    "pd-l1": "0% annotated \u2014 effectively not available",
+    "consent_scope": "not available in specimen data \u2014 requires direct inquiry",
+    "freeze_thaw_count": "not tracked in AminoChain data"
+  }
+}

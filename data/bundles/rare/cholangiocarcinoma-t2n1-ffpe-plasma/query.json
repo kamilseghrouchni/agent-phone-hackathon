@@ -1,0 +1,25 @@
+{
+  "bundle_id": "cholangiocarcinoma-t2n1-ffpe-plasma",
+  "therapeutic_area": "rare",
+  "query_text": "Intrahepatic cholangiocarcinoma FFPE, T2N1 or higher staging, with matched plasma. Need documented surgical procedure and pathology report including tumor size. HIV/HepB/HepC status required. Any N \u2014 this is rare.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Cholangiocarcinoma"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "staging_required": "T2N1+",
+    "preservation": "Fixed",
+    "matched_pairs": true,
+    "clinical_data_required": [
+      "surgical_procedure",
+      "tumor_size",
+      "pathology_report",
+      "HIV_HepB_HepC_status"
+    ],
+    "assay_context": "FGFR2 selective inhibitor \u2014 ctDNA minimal residual disease monitoring"
+  }
+}

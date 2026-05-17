@@ -1,0 +1,237 @@
+{
+  "id": "q-solutions",
+  "name": "Q\u00b2 Solutions (IQVIA Labs)",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Q\u00b2 Solutions",
+    "IQVIA Labs"
+  ],
+  "search_queries": [
+    "\"Q\u00b2 Solutions\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 39,
+  "publications_indexed": 25,
+  "address_hints": [
+    "ImmunXperts SA, a Q\u00b2 Solutions Company, Gosselies,\u00a0Belgium",
+    "Immunxperts SA, a Q\u00b2 Solutions Company, Gosselies, Belgium"
+  ],
+  "contact_emails": [],
+  "sample_types": [
+    {
+      "type": "PBMCs",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "38768755",
+        "38124744"
+      ]
+    },
+    {
+      "type": "serum",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41733120"
+      ]
+    },
+    {
+      "type": "plasma",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "41085630"
+      ]
+    },
+    {
+      "type": "BAL",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "38124744"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "COVID-19",
+      "n_papers": 5
+    },
+    {
+      "area": "COVID-19 Vaccines",
+      "n_papers": 3
+    },
+    {
+      "area": "Acinetobacter Infections",
+      "n_papers": 1
+    },
+    {
+      "area": "Bacterial Vaccines",
+      "n_papers": 1
+    },
+    {
+      "area": "Vaccination",
+      "n_papers": 1
+    },
+    {
+      "area": "Vaccines, Inactivated",
+      "n_papers": 1
+    },
+    {
+      "area": "Vaccine Efficacy",
+      "n_papers": 1
+    },
+    {
+      "area": "Vaccines",
+      "n_papers": 1
+    },
+    {
+      "area": "Mycobacterium tuberculosis",
+      "n_papers": 1
+    },
+    {
+      "area": "BCG Vaccine",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Q2 Solutions",
+      "co_pubs": 6
+    },
+    {
+      "name": "Specifica LLC",
+      "co_pubs": 4
+    },
+    {
+      "name": "New Mexico Consortium",
+      "co_pubs": 4
+    },
+    {
+      "name": "University of Oslo",
+      "co_pubs": 3
+    },
+    {
+      "name": "Public Health Research Institute",
+      "co_pubs": 3
+    },
+    {
+      "name": "OpenEye",
+      "co_pubs": 3
+    },
+    {
+      "name": "Institute for Infection and Immunity",
+      "co_pubs": 2
+    },
+    {
+      "name": "Cerba Research",
+      "co_pubs": 2
+    },
+    {
+      "name": "Geneva",
+      "co_pubs": 2
+    },
+    {
+      "name": "BioAgilytix",
+      "co_pubs": 2
+    },
+    {
+      "name": "Nexelis",
+      "co_pubs": 2
+    },
+    {
+      "name": "University of Pittsburgh",
+      "co_pubs": 2
+    },
+    {
+      "name": "UK Health Security Agency",
+      "co_pubs": 2
+    },
+    {
+      "name": "Collegeville",
+      "co_pubs": 2
+    },
+    {
+      "name": "Celerion",
+      "co_pubs": 2
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41733120",
+      "doi": "10.1002/art.70105",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Arthritis Rheumatol",
+      "title": "Multi-Omic Profiling Reveals Immune Cell Priming Signature Linked to Lupus Prognosis."
+    },
+    {
+      "pmid": "41085630",
+      "doi": "10.1038/s41423-019-0304-3",
+      "pmc": "5777204",
+      "year": 2026,
+      "journal": "Methods Mol Biol",
+      "title": "MHC II MAPPs for High-Confident Immunogenicity Risk Assessment of Biotherapeutics."
+    },
+    {
+      "pmid": "40692205",
+      "doi": "10.1111/pbi.70278",
+      "pmc": "PMC7092803",
+      "year": 2026,
+      "journal": "Plant Biotechnol J",
+      "title": "Structural Design and Immunogenicity of a Novel Self-Adjuvanting Mucosal Vaccine Candidate for SARS-CoV-2 Expressed in Plants."
+    },
+    {
+      "pmid": "41058705",
+      "doi": "10.1128/spectrum.03061-22",
+      "pmc": "PMC9927488",
+      "year": 2025,
+      "journal": "Front Immunol",
+      "title": "Humoral response induced after intranasal vaccination with heat inactivated"
+    },
+    {
+      "pmid": "39165120",
+      "doi": "10.1002/cyto.b.22202",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Cytometry B Clin Cytom",
+      "title": "Flow cytometry assay modifications: Recommendations for method validation based on CLSI H62 guidelines."
+    },
+    {
+      "pmid": "40184253",
+      "doi": "10.48550/arXiv.1810.11363",
+      "pmc": "PMC5734394",
+      "year": 2025,
+      "journal": "Cell Rep",
+      "title": "A global collaboration for systematic analysis of broad-ranging antibodies against the SARS-CoV-2 spike protein."
+    },
+    {
+      "pmid": "41221645",
+      "doi": null,
+      "pmc": null,
+      "year": 2025,
+      "journal": "J Biosci",
+      "title": "Genetic insights into"
+    },
+    {
+      "pmid": "39476337",
+      "doi": "10.1111/plb.13733",
+      "pmc": "PMC2593669",
+      "year": 2025,
+      "journal": "Plant Biol (Stuttg)",
+      "title": "Shifts in plant architecture drive species-specific responses to drought in a Sorghum recombinant inbred line population."
+    },
+    {
+      "pmid": "38708549",
+      "doi": "10.1038/s41591-023-02534-x",
+      "pmc": "PMC8175055",
+      "year": 2024,
+      "journal": "Hum Vaccin Immunother",
+      "title": "Driving consistency: CEPI-Centralized Laboratory Network's conversion factor initiative for SARS-CoV-2 clinical assays used for efficacy assessment of COVID vaccines."
+    },
+    {
+      "pmid": "39444224",
+      "doi": "10.1002/cyto.a.24902",
+      "pmc": null,
+      "year": 2024,
+      "journal": "Cytometry A",
+      "title": "Potential and challenges of clinical high-dimensional flow cytometry: A call to action."
+    }
+  ]
+}

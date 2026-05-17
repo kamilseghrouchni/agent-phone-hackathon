@@ -1,0 +1,1364 @@
+{
+  "name": "Diagenode",
+  "cleaned_name": "Diagenode",
+  "aliases_tried": [
+    "Diagenode"
+  ],
+  "publication_total": 11,
+  "search_queries": [
+    "\"Diagenode\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publications": [
+    {
+      "pmid": "41957676",
+      "doi": "10.1186/s13059-026-04060-8",
+      "title": "Long-read sequencing identifies aberrant fragmentation patterns linked to elevated cell-free DNA levels in cancer.",
+      "abstract": "Altered circulating cell-free DNA (cfDNA) fragmentation patterns serve as cancer biomarkers, yet standard short-read sequencing fails to capture the full fragment-length spectrum. Although cancer patients often exhibit elevated cfDNA, the relationship between high cfDNA concentration and altered fragmentation remains poorly defined. To address this question, we leverage Oxford Nanopore (ONT) sequencing, which captures the full fragment-length spectrum and enables cell type inference via DNA methylation markers. We perform ONT whole-genome sequencing on a pan-cancer cohort and a neuroendocrine cancer cohort, both with elevated cfDNA levels. In both cohorts, the highest cfDNA levels are characterized by either hypofragmentation or hyperfragmentation. Hypofragmented samples (characterized by 1-4\u00a0kb fragments) exhibit hallmarks of DNASE1L3-mediated fragmentation due to blood-derived\u00a0DNA release during delayed blood processing, while samples with ultra-long fragments (>\u20097.5\u00a0kb) indicate release due to\u00a0cell lysis during plasma processing. In contrast, the short (<145 bp) fragments of\u00a0hyperfragmented cancer samples are not artifactual, and they are characterized by\u00a0elevated levels of both cancer- and blood-derived DNA, suggesting an inflammatory or other systemic response as opposed to a cancer-specific fragmentation mechanism. These findings differentiate biological from artifactual fragmentation, broaden our understanding of high\u00a0cfDNA levels and\u00a0hyperfragmentation\u00a0in cancer, and establish long-read sequencing as a robust tool for biomarker discovery.",
+      "journal": "Genome Biol",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Berman",
+          "fore_name": "Benjamin P",
+          "affiliations": [
+            "Volition America LLC, Henderson, NV, USA. ben.berman@mail.huji.ac.il.",
+            "Department of Developmental Biology and Cancer Research, The Hebrew University of Jerusalem, The Institute for Medical Research Israel-Canada, Jerusalem, Israel. ben.berman@mail.huji.ac.il."
+          ]
+        },
+        {
+          "last_name": "Erdman",
+          "fore_name": "Sarah A",
+          "affiliations": [
+            "Volition America LLC, Henderson, NV, USA."
+          ]
+        },
+        {
+          "last_name": "Wheeler",
+          "fore_name": "Christina",
+          "affiliations": [
+            "Volition America LLC, Henderson, NV, USA."
+          ]
+        },
+        {
+          "last_name": "Cayford",
+          "fore_name": "Justin",
+          "affiliations": [
+            "Volition America LLC, Henderson, NV, USA."
+          ]
+        },
+        {
+          "last_name": "Turatsinze",
+          "fore_name": "Jean-Valery",
+          "affiliations": [
+            "Belgian Volition SRL, Parc Scientifique Crealys, Isnes, Belgium.",
+            "Present Address: Diagenode/Hologic, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Ouzounova",
+          "fore_name": "Maria",
+          "affiliations": [
+            "Gastroenterology and Technologies for Health (Universit\u00e9 Claude Bernard Lyon 1, INSERM U1052, CNRS UMR5286, Centre L\u00e9on B\u00e9rard), Cancer Research Center of Lyon, Lyon, France."
+          ]
+        },
+        {
+          "last_name": "Piecyk",
+          "fore_name": "Marie",
+          "affiliations": [
+            "Center for Innovation in Cancerology of Lyon (CICLY) UR3738, Faculty of Medicine and Maieutic Lyon Sud, Claude Bernard University Lyon I, Oullins, 69921, France.",
+            "Department of Biochemistry and Molecular Biology, Lyon-Sud Hospital, Hospices Civils de Lyon, Pierre-B\u00e9nite, 69495, France."
+          ]
+        },
+        {
+          "last_name": "Herzog",
+          "fore_name": "Marielle",
+          "affiliations": [
+            "Belgian Volition SRL, Parc Scientifique Crealys, Isnes, Belgium."
+          ]
+        },
+        {
+          "last_name": "Payen-Gay",
+          "fore_name": "L\u00e9a",
+          "affiliations": [
+            "Center for Innovation in Cancerology of Lyon (CICLY) UR3738, Faculty of Medicine and Maieutic Lyon Sud, Claude Bernard University Lyon I, Oullins, 69921, France.",
+            "Department of Biochemistry and Molecular Biology, Lyon-Sud Hospital, Hospices Civils de Lyon, Pierre-B\u00e9nite, 69495, France.",
+            "Toxicology Department, Institute of Pharmacy and Biology of Lyon (ISPB), Claude Bernard University, Lyon I 8 Avenue Rockefeller, Lyon, 69008, France."
+          ]
+        },
+        {
+          "last_name": "Walter",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Gastroenterology and Technologies for Health (Universit\u00e9 Claude Bernard Lyon 1, INSERM U1052, CNRS UMR5286, Centre L\u00e9on B\u00e9rard), Cancer Research Center of Lyon, Lyon, France.",
+            "Department of Medical Oncology, Edouard Herriot Hospital, Hospices Civils de Lyon, Lyon, France."
+          ]
+        },
+        {
+          "last_name": "Kelly",
+          "fore_name": "Theresa K",
+          "affiliations": [
+            "Volition America LLC, Henderson, NV, USA. t.kelly@volition.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41588113",
+      "pmc": "PMC3390257",
+      "doi": "10.1038/nrm3025",
+      "title": "TORC1-dependent translation drives chromatin remodeling during the germ-cell-to-maternal transition in Drosophila.",
+      "abstract": "Proper oogenesis requires a programmed transition from an undifferentiated germ-cell gene expression program to a maternal gene-expression state. While this process depends on the heterochromatin-mediated silencing of germ-cell genes, the upstream mechanisms that enforce this transcriptional shift remain unclear. Here, we uncover a translation-driven chromatin remodeling program that promotes oocyte fate in Drosophila. Through a loss of function screen, we identify TORC1 activity (Mio, Raptor), ribosome biogenesis (Zfrp8, Bystin, Aramis), and a translation factor (eEF1\u03b11) as essential for silencing the germ-cell program. We show that TORC1 activity increases during oocyte specification, and that disruption of TORC1 activity, translation, or ribosome biogenesis during this window impairs heterochromatin maintenance at germ-cell gene loci. Polysome profiling reveals that Zfrp8 promotes translation of the nuclear pore component Nucleoporin 44A (Nup44A), whose function is independently required for chromatin organization and repression of a cohort of germ-cell genes. Taken together, our findings reveal that a transient increase in translation orchestrates chromatin remodeling to ensure commitment to oocyte fate.",
+      "journal": "EMBO J",
+      "year": 2026,
+      "authors": [
+        {
+          "last_name": "Kotb",
+          "fore_name": "Noor M",
+          "affiliations": [
+            "Department of Biomedical Sciences/Wadsworth Center, University at Albany State University of New York (SUNY), Albany, NY, 12202, USA.",
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA.",
+            "Hologic Diagenode, 400 Morris Avenue, Suite 101, Denville, NJ, 07834, USA."
+          ]
+        },
+        {
+          "last_name": "Ulukaya",
+          "fore_name": "Gulay",
+          "affiliations": [
+            "Bioinformatics for Next-Generation Sequencing (BiNGS) Core, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Ramamoorthy",
+          "fore_name": "Anupriya",
+          "affiliations": [
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Park",
+          "fore_name": "Lina Seojin",
+          "affiliations": [
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Julia",
+          "affiliations": [
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Hasson",
+          "fore_name": "Dan",
+          "affiliations": [
+            "Bioinformatics for Next-Generation Sequencing (BiNGS) Core, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA.",
+            "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA.",
+            "Graduate School of Biomedical Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Rangan",
+          "fore_name": "Prashanth",
+          "affiliations": [
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA. prashanth.rangan@mssm.edu.",
+            "Graduate School of Biomedical Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA. prashanth.rangan@mssm.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Drosophila Proteins",
+        "Chromatin Assembly and Disassembly",
+        "Female",
+        "Oogenesis",
+        "Transcription Factors",
+        "Protein Biosynthesis",
+        "Drosophila melanogaster",
+        "Oocytes",
+        "Germ Cells",
+        "Gene Expression Regulation, Developmental"
+      ],
+      "keywords": [
+        "Chromatin",
+        "Oocyte",
+        "Ribosome",
+        "TORC1",
+        "Translation"
+      ]
+    },
+    {
+      "pmid": "40161787",
+      "pmc": "PMC3390257",
+      "doi": "10.1038/nrm3025",
+      "title": "TORC1-driven translation of",
+      "abstract": "Oocyte specification is a critical developmental transition that requires the coordinated repression of germ cell-specific genes and activation of the maternal program to support embryogenesis. In Drosophila, the timely repression of germ cell and early oogenesis genes is essential for this transition, yet the mechanisms that coordinate this process remain unclear. Here, we uncover an unexpected translation-chromatin axis, where transient Target of Rapamycin Complex 1 (TORC1)-driven translation triggers chromatin remodeling, ensuring irreversible oocyte fate commitment. Through a screen, we identified ribosome biogenesis regulators, including Zinc finger protein RP-8 (Zfrp8) and TORC1 components, as key mediators of gene silencing. We show that TORC1 activity increases during oocyte specification, and disrupting ribosome biogenesis, translation, or TORC1 function prevents proper heterochromatin formation, leading to epigenetic instability. Polysome-seq analysis of",
+      "journal": "bioRxiv",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Kotb",
+          "fore_name": "Noor M",
+          "affiliations": [
+            "Department of Biomedical Sciences/Wadsworth Center, University at Albany State University of New York (SUNY), Albany, New York 12202, USA.",
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NewYork 10029, USA.",
+            "Current address, Hologic Diagenode, 400 Morris Avenue, Suite 101, Denville, New Jersey 07834, USA."
+          ]
+        },
+        {
+          "last_name": "Ulukaya",
+          "fore_name": "Gulay",
+          "affiliations": [
+            "Bioinformatics for Next-Generation Sequencing (BiNGS) Core, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Ramamoorthy",
+          "fore_name": "Anupriya",
+          "affiliations": [
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NewYork 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Park",
+          "fore_name": "Lina Seojin",
+          "affiliations": [
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NewYork 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Tang",
+          "fore_name": "Julia",
+          "affiliations": [
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NewYork 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Hasson",
+          "fore_name": "Dan",
+          "affiliations": [
+            "Bioinformatics for Next-Generation Sequencing (BiNGS) Core, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, New York 10029, USA.",
+            "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, New York 10029, USA.",
+            "Graduate School of Biomedical Sciences, Icahn School of Medicine at Mount Sinai, New York, New York 10029, USA."
+          ]
+        },
+        {
+          "last_name": "Rangan",
+          "fore_name": "Prashanth",
+          "affiliations": [
+            "Department of Cell, Developmental, and Regenerative Biology, Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NewYork 10029, USA.",
+            "Graduate School of Biomedical Sciences, Icahn School of Medicine at Mount Sinai, New York, New York 10029, USA."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "Drosophila",
+        "Ribosome biogenesis",
+        "TORC1",
+        "Translation",
+        "chromatin",
+        "epigenetics",
+        "germ line",
+        "oocyte specification"
+      ]
+    },
+    {
+      "pmid": "39814241",
+      "doi": "10.1016/j.ygeno.2025.110995",
+      "title": "Differences in maternal diet fiber content influence patterns of gene expression and chromatin accessibility in fetuses and piglets.",
+      "abstract": "This study investigates the impact of maternal gestation diets with varying fiber contents on gene expression and chromatin accessibility in fetuses and piglets fed a low fiber diet post weaning. High-fiber maternal diets, enriched with sugar beet pulp or pea internal fiber, were compared to a low-fiber maternal diet to evaluate their effects on liver and muscle tissues. The findings demonstrate that maternal high-fiber diets significantly alter chromatin accessibility, predicted transcription factor activity and transcriptional landscape in both fetuses and piglets. A gene set enrichment analysis revealed over-expression of gene ontology terms related to metabolic processes and under-expression of those linked to immune responses in piglets from sows given the high-fiber diets during gestation. This suggests better metabolic health and immune tolerance of the fetus and offspring, in line with the documented epigenetic effects of short chain fatty acids on immune and metabolic pathways. A deconvolution analysis of the bulk RNA-seq data was performed using cell-type specific markers from a single cell transcriptome atlas of adult pigs. These results confirmed that the transcriptomic and chromatin accessibility data do not reflect different cell type compositions between maternal diet groups but rather phenotypic changes triggered by maternal nutrition in shaping the epigenetic and transcriptional environment of fetus and offspring. Our findings have implications for improving animal health and productivity as well as broader implications for human health, suggesting that optimizing maternal diet with high-fiber content could enhance metabolic health and immune function in the formative years after birth and potentially to adulthood.",
+      "journal": "Genomics",
+      "year": 2025,
+      "authors": [
+        {
+          "last_name": "Chalabi",
+          "fore_name": "Smahane",
+          "affiliations": [
+            "Universit\u00e9 Paris-Saclay, INRAE, AgroParisTech, 78350 Jouy-en-Josas, France."
+          ]
+        },
+        {
+          "last_name": "Loonen",
+          "fore_name": "Linda",
+          "affiliations": [
+            "Microbe Interactomics Group, Dept. Animal Sciences, Wageningen University & Research (WUR), Wageningen, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Boekhorst",
+          "fore_name": "Jos",
+          "affiliations": [
+            "Microbe Interactomics Group, Dept. Animal Sciences, Wageningen University & Research (WUR), Wageningen, the Netherlands."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Houcheng",
+          "affiliations": [
+            "Center for Quantitative Genetics and Genomics, Aarhus University, Aarhus 8000, Denmark."
+          ]
+        },
+        {
+          "last_name": "Fang",
+          "fore_name": "Lingzhao",
+          "affiliations": [
+            "Center for Quantitative Genetics and Genomics, Aarhus University, Aarhus 8000, Denmark."
+          ]
+        },
+        {
+          "last_name": "Harrison",
+          "fore_name": "Peter W",
+          "affiliations": [
+            "European Molecular Biology Laboratory, European Bioinformatics Institute, Cambridge, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Lakhal",
+          "fore_name": "Wassim",
+          "affiliations": [
+            "Diagenode, Li\u00e8ge Science Park, Rue du Bois Saint-Jean 3, 4102 Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Lluch",
+          "fore_name": "Jerome",
+          "affiliations": [
+            "INRAE, US 1426, GeT-PlaGe, Genotoul, Castanet-Tolosan, France."
+          ]
+        },
+        {
+          "last_name": "Sokolov",
+          "fore_name": "Alexey",
+          "affiliations": [
+            "European Molecular Biology Laboratory, European Bioinformatics Institute, Cambridge, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Djebali",
+          "fore_name": "Sarah",
+          "affiliations": [
+            "IRSD, Universit\u00e9 de Toulouse, INSERM, INRAE, ENVT, Univ Toulouse III - Paul Sabatier (UPS), Toulouse, France."
+          ]
+        },
+        {
+          "last_name": "Rau",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Universit\u00e9 Paris-Saclay, INRAE, AgroParisTech, 78350 Jouy-en-Josas, France."
+          ]
+        },
+        {
+          "last_name": "Giuffra",
+          "fore_name": "Elisabetta",
+          "affiliations": [
+            "Universit\u00e9 Paris-Saclay, INRAE, AgroParisTech, 78350 Jouy-en-Josas, France. Electronic address: elisabetta.giuffra@inrae.fr."
+          ]
+        },
+        {
+          "last_name": "Wells",
+          "fore_name": "Jerry",
+          "affiliations": [
+            "Microbe Interactomics Group, Dept. Animal Sciences, Wageningen University & Research (WUR), Wageningen, the Netherlands. Electronic address: jerry.wells@wur.nl."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Female",
+        "Dietary Fiber",
+        "Chromatin",
+        "Pregnancy",
+        "Swine",
+        "Fetus",
+        "Transcriptome",
+        "Maternal Nutritional Physiological Phenomena",
+        "Diet",
+        "Gene Expression Regulation, Developmental",
+        "Liver"
+      ],
+      "keywords": [
+        "Deconvolution",
+        "Epigenetics",
+        "High fiber",
+        "Liver",
+        "Muscle",
+        "Nutrition",
+        "SCFA"
+      ]
+    },
+    {
+      "pmid": "38732397",
+      "pmc": "PMC300752",
+      "doi": "10.1104/pp.103.028076",
+      "title": "Heterotrophy Compared to Photoautotrophy for Growth Characteristics and Pigment Compositions in Batch Cultures of Four Green Microalgae.",
+      "abstract": "Four strains of green microalgae (",
+      "journal": "Plants (Basel)",
+      "year": 2024,
+      "authors": [
+        {
+          "last_name": "Le",
+          "fore_name": "Thanh Tung",
+          "affiliations": [
+            "Laboratory of Bioenergetics, InBios/PhytoSystems, Department of Life Sciences, University of Li\u00e8ge, Chemin de la Vall\u00e9e 4, 4000 Li\u00e8ge, Belgium.",
+            "Research Institute for Marine Fisheries, 224 Le Lai Street, Ngo Quyen District, Hai Phong City 04000, Vietnam."
+          ]
+        },
+        {
+          "last_name": "Corato",
+          "fore_name": "Am\u00e9lie",
+          "affiliations": [
+            "Laboratory of Bioenergetics, InBios/PhytoSystems, Department of Life Sciences, University of Li\u00e8ge, Chemin de la Vall\u00e9e 4, 4000 Li\u00e8ge, Belgium.",
+            "Diagenode, Li\u00e8ge Science Park, Rue du Bois Saint-Jean 3, 4102 Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Gerards",
+          "fore_name": "Thomas",
+          "affiliations": [
+            "Laboratory of Bioenergetics, InBios/PhytoSystems, Department of Life Sciences, University of Li\u00e8ge, Chemin de la Vall\u00e9e 4, 4000 Li\u00e8ge, Belgium.",
+            "D\u00e9partement de la Recherche et du D\u00e9veloppement Technologique, SPW, Place de la Wallonie 1 (B3), 5100 Namur, Belgium."
+          ]
+        },
+        {
+          "last_name": "G\u00e9rin",
+          "fore_name": "St\u00e9phanie",
+          "affiliations": [
+            "Laboratory of Bioenergetics, InBios/PhytoSystems, Department of Life Sciences, University of Li\u00e8ge, Chemin de la Vall\u00e9e 4, 4000 Li\u00e8ge, Belgium.",
+            "Genetics and Physiology of Microalgae, InBios/PhytoSystems, Department of Life Sciences, University of Li\u00e8ge, Chemin de la Vall\u00e9e 4, 4000 Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Remacle",
+          "fore_name": "Claire",
+          "affiliations": [
+            "Genetics and Physiology of Microalgae, InBios/PhytoSystems, Department of Life Sciences, University of Li\u00e8ge, Chemin de la Vall\u00e9e 4, 4000 Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Franck",
+          "fore_name": "Fabrice",
+          "affiliations": [
+            "Laboratory of Bioenergetics, InBios/PhytoSystems, Department of Life Sciences, University of Li\u00e8ge, Chemin de la Vall\u00e9e 4, 4000 Li\u00e8ge, Belgium."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "growth",
+        "heterotrophy",
+        "microalgae",
+        "photoacclimation",
+        "photoautotrophy",
+        "pigment content",
+        "weak light effect"
+      ]
+    },
+    {
+      "pmid": "37521535",
+      "pmc": "PMC4589892",
+      "doi": "10.1101/038612",
+      "title": "Automated ChIPmentation procedure on limited biological material of the human blood fluke",
+      "abstract": "In living cells, the genetic information stored in the DNA sequence is always associated with chromosomal and extra-chromosomal epigenetic information. Chromatin is formed by the DNA and associated proteins, in particular histones. Covalent histone modifications are important bearers of epigenetic information and as such have been increasingly studied since about the year 2000. One of the principal techniques to gather information about the association between DNA and modified histones is chromatin immunoprecipitation (ChIP), also combined with massive sequencing (ChIP-Seq). Automated ChIPmentation procedure is a convenient alternative to native chromatin immunoprecipitation (N-ChIP). It is now routinely used for ChIP-Seq in many model species, using in general roughly 10",
+      "journal": "Wellcome Open Res",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Lasica",
+          "fore_name": "Chrystelle",
+          "affiliations": [
+            "IHPE, Univ Perpignan Via Domitia, CNRS, IFREMER, Univ Montpellier, Perpignan, 66860, France."
+          ]
+        },
+        {
+          "last_name": "de Carvalho Augusto",
+          "fore_name": "Ronaldo",
+          "affiliations": [
+            "IHPE, Univ Perpignan Via Domitia, CNRS, IFREMER, Univ Montpellier, Perpignan, 66860, France.",
+            "LBMC, Laboratoire de Biologie et Mod\u00e9lisation de la Cellule Univ Lyon, ENS de Lyon, Universit\u00e9 Claude Bernard Lyon 1, CNRS, UMR 5239, INSERM, U1210,, Lyon, 69000, France."
+          ]
+        },
+        {
+          "last_name": "Mon\u00e9",
+          "fore_name": "H\u00e9l\u00e8ne",
+          "affiliations": [
+            "IHPE, Univ Perpignan Via Domitia, CNRS, IFREMER, Univ Montpellier, Perpignan, 66860, France."
+          ]
+        },
+        {
+          "last_name": "Mouahid",
+          "fore_name": "Gabriel",
+          "affiliations": [
+            "IHPE, Univ Perpignan Via Domitia, CNRS, IFREMER, Univ Montpellier, Perpignan, 66860, France."
+          ]
+        },
+        {
+          "last_name": "Chaparro",
+          "fore_name": "Cristian",
+          "affiliations": [
+            "IHPE, Univ Perpignan Via Domitia, CNRS, IFREMER, Univ Montpellier, Perpignan, 66860, France."
+          ]
+        },
+        {
+          "last_name": "Veillard",
+          "fore_name": "Anne-Cl\u00e9mence",
+          "affiliations": [
+            "Diagenode, Seraing, 4100, Belgium."
+          ]
+        },
+        {
+          "last_name": "Zelisko-Schmidt",
+          "fore_name": "Agnieszka",
+          "affiliations": [
+            "Diagenode, Seraing, 4100, Belgium."
+          ]
+        },
+        {
+          "last_name": "Grunau",
+          "fore_name": "Christoph",
+          "affiliations": [
+            "IHPE, Univ Perpignan Via Domitia, CNRS, IFREMER, Univ Montpellier, Perpignan, 66860, France."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        "ChIP-seq",
+        "ChIPmentation",
+        "Epigenetics",
+        "N-ChIP",
+        "Schistosoma mansoni",
+        "limited biological material"
+      ]
+    },
+    {
+      "pmid": "36550163",
+      "pmc": "PMC9780217",
+      "doi": "10.1038/s41467-022-35539-0",
+      "title": "Publisher Correction: Epigenetic alterations of repeated relapses in patient-matched childhood ependymomas.",
+      "abstract": "",
+      "journal": "Nat Commun",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Zhao",
+          "fore_name": "Sibo",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Jane and John Justin Neurosciences Center, Cook Children's Medical Center, Fort Worth, TX, 76104, USA.",
+            "Hematology and Oncology Center, Cook Children's Medical Center, Fort Worth, TX, 76104, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jia",
+          "affiliations": [
+            "Center for Epigenetics & Disease Prevention, Texas A&M University, Houston, TX, 77030, USA.",
+            "Center for Translational Cancer Research, Institute of Biosciences and Technology, Texas A&M University, Houston, TX, 77030, USA.",
+            "State Key Laboratory of Respiratory Disease, National Clinical Research Center for Respiratory Disease, Guangzhou Institute of Respiratory Health, the First Affiliated Hospital of Guangzhou Medical University; and Guangzhou Laboratory, Bioland, 510120, Guangzhou, Guangdong, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Huiyuan",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Qi",
+          "fore_name": "Lin",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Program of Precision Medicine PDOX Modeling of Pediatric Tumors, Division of Hematology-Oncology, Neuro-Oncology & Stem Cell transplantation, Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Yuchen",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Program of Precision Medicine PDOX Modeling of Pediatric Tumors, Division of Hematology-Oncology, Neuro-Oncology & Stem Cell transplantation, Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Kogiso",
+          "fore_name": "Mari",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Braun",
+          "fore_name": "Frank K",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Sophie",
+          "affiliations": [
+            "Program of Precision Medicine PDOX Modeling of Pediatric Tumors, Division of Hematology-Oncology, Neuro-Oncology & Stem Cell transplantation, Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Yulun",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Department of Neurosurgery and Brain and Nerve Research Laboratory, the First Affiliated Hospital, and Department of Neurosurgery, Dushu Lake Hospital, Suzhou Medical College, Soochow University, 215007, Suzhou, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jianfang",
+          "affiliations": [
+            "Center for Epigenetics & Disease Prevention, Texas A&M University, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Teo",
+          "fore_name": "Wan-Yee",
+          "affiliations": [
+            "Humphrey Oei Institute of Cancer Research, National Cancer Center Singapore, Singapore, 169610, Singapore.",
+            "Cancer and Stem Cell Biology Program, Duke-NUS Medical School Singapore, Singapore, Singapore.",
+            "KK Women's & Children's Hospital Singapore, Singapore, Singapore.",
+            "Institute of Molecular and Cell Biology, A*STAR, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lindsay",
+          "fore_name": "Holly",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Baxter",
+          "fore_name": "Patricia",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Su",
+          "fore_name": "Jack M F",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Adesina",
+          "fore_name": "Adekunle",
+          "affiliations": [
+            "Department of Pathology, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Laczik",
+          "fore_name": "Mikl\u00f3s",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Genevini",
+          "fore_name": "Paola",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Veillard",
+          "fore_name": "Anne-Clemence",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Schvartzman",
+          "fore_name": "Sol",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Berguet",
+          "fore_name": "Geoffrey",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Ding",
+          "fore_name": "Shi-Rong",
+          "affiliations": [
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine; Department of Radiation, Sun Yat-sen University Cancer Center, 510060, Guangzhou, Guangdong, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Liping",
+          "affiliations": [
+            "Clinical Cytogenetic Laboratory, Department of Pathology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Stephan",
+          "fore_name": "Clifford",
+          "affiliations": [
+            "Center for Translational Cancer Research, Institute of Biosciences and Technology, Texas A&M University, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Jianhua",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Davies",
+          "fore_name": "Peter J A",
+          "affiliations": [
+            "Center for Translational Cancer Research, Institute of Biosciences and Technology, Texas A&M University, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Xinyan",
+          "affiliations": [
+            "Clinical Cytogenetic Laboratory, Department of Pathology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Chintagumpala",
+          "fore_name": "Murali",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Parsons",
+          "fore_name": "Donald William",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Perlaky",
+          "fore_name": "Laszlo",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Xia",
+          "fore_name": "Yun-Fei",
+          "affiliations": [
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine; Department of Radiation, Sun Yat-sen University Cancer Center, 510060, Guangzhou, Guangdong, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Man",
+          "fore_name": "Tsz-Kwong",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Yun",
+          "affiliations": [
+            "Center for Epigenetics & Disease Prevention, Texas A&M University, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Deqiang",
+          "affiliations": [
+            "Center for Epigenetics & Disease Prevention, Texas A&M University, Houston, TX, 77030, USA. deqiangs@zju.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xiao-Nan",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA. xiaonan.li@northwestern.edu.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA. xiaonan.li@northwestern.edu.",
+            "Program of Precision Medicine PDOX Modeling of Pediatric Tumors, Division of Hematology-Oncology, Neuro-Oncology & Stem Cell transplantation, Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA. xiaonan.li@northwestern.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "36335125",
+      "pmc": "PMC6105278",
+      "doi": "10.1007/s00401-018-1877-0",
+      "title": "Epigenetic Alterations of Repeated Relapses in Patient-matched Childhood Ependymomas.",
+      "abstract": "Recurrence is frequent in pediatric ependymoma (EPN). Our longitudinal integrated analysis of 30 patient-matched repeated relapses (3.67\u2009\u00b1\u20091.76 times) over 13 years (5.8\u2009\u00b1\u20093.8) reveals stable molecular subtypes (RELA and PFA) and convergent DNA methylation reprogramming during serial relapses accompanied by increased orthotopic patient derived xenograft (PDX) (13/27) formation in the late recurrences. A set of differentially methylated CpGs (DMCs) and DNA methylation regions (DMRs) are found to persist in primary and relapse tumors (potential driver DMCs) and are acquired exclusively in the relapses (potential booster DMCs). Integrating with RNAseq reveals differentially expressed genes regulated by potential driver DMRs (CACNA1H, SLC12A7, RARA in RELA and HSPB8, GMPR, ITGB4 in PFA) and potential booster DMRs (PLEKHG1 in RELA and NOTCH, EPHA2, SUFU, FOXJ1 in PFA tumors). DMCs predicators of relapse are also identified in the primary tumors. This study provides a high-resolution epigenetic roadmap of serial EPN relapses and 13 orthotopic PDX models to facilitate biological and preclinical studies.",
+      "journal": "Nat Commun",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Zhao",
+          "fore_name": "Sibo",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Jane and John Justin Neurosciences Center, Cook Children's Medical Center, Fort Worth, TX, 76104, USA.",
+            "Hematology and Oncology Center, Cook Children's Medical Center, Fort Worth, TX, 76104, USA."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jia",
+          "affiliations": [
+            "Center for Epigenetics & Disease Prevention, Texas A&M University, Houston, TX, 77030, USA.",
+            "Center for Translational Cancer Research, Institute of Biosciences and Technology, Texas A&M University, Houston, TX, 77030, USA.",
+            "State Key Laboratory of Respiratory Disease, National Clinical Research Center for Respiratory Disease, Guangzhou Institute of Respiratory Health, the First Affiliated Hospital of Guangzhou Medical University; and Guangzhou Laboratory, Bioland, 510120, Guangzhou, Guangdong, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Zhang",
+          "fore_name": "Huiyuan",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Qi",
+          "fore_name": "Lin",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Program of Precision Medicine PDOX Modeling of Pediatric Tumors, Division of Hematology-Oncology, Neuro-Oncology & Stem Cell transplantation, Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Yuchen",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Program of Precision Medicine PDOX Modeling of Pediatric Tumors, Division of Hematology-Oncology, Neuro-Oncology & Stem Cell transplantation, Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Kogiso",
+          "fore_name": "Mari",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Braun",
+          "fore_name": "Frank K",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Xiao",
+          "fore_name": "Sophie",
+          "affiliations": [
+            "Program of Precision Medicine PDOX Modeling of Pediatric Tumors, Division of Hematology-Oncology, Neuro-Oncology & Stem Cell transplantation, Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Yulun",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Department of Neurosurgery and Brain and Nerve Research Laboratory, the First Affiliated Hospital, and Department of Neurosurgery, Dushu Lake Hospital, Suzhou Medical College, Soochow University, 215007, Suzhou, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Jianfang",
+          "affiliations": [
+            "Center for Epigenetics & Disease Prevention, Texas A&M University, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Teo",
+          "fore_name": "Wan-Yee",
+          "affiliations": [
+            "Humphrey Oei Institute of Cancer Research, National Cancer Center Singapore, Singapore, 169610, Singapore.",
+            "Cancer and Stem Cell Biology Program, Duke-NUS Medical School Singapore, Singapore, Singapore.",
+            "KK Women's & Children's Hospital Singapore, Singapore, Singapore.",
+            "Institute of Molecular and Cell Biology, A*STAR, Singapore, Singapore."
+          ]
+        },
+        {
+          "last_name": "Lindsay",
+          "fore_name": "Holly",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Baxter",
+          "fore_name": "Patricia",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Su",
+          "fore_name": "Jack M F",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Adesina",
+          "fore_name": "Adekunle",
+          "affiliations": [
+            "Department of Pathology, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Laczik",
+          "fore_name": "Mikl\u00f3s",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Genevini",
+          "fore_name": "Paola",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Veillard",
+          "fore_name": "Anne-Clemence",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Schvartzman",
+          "fore_name": "Sol",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Berguet",
+          "fore_name": "Geoffrey",
+          "affiliations": [
+            "Epigenetic Services, Diagenode, Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Ding",
+          "fore_name": "Shi-Rong",
+          "affiliations": [
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine; Department of Radiation, Sun Yat-sen University Cancer Center, 510060, Guangzhou, Guangdong, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Du",
+          "fore_name": "Liping",
+          "affiliations": [
+            "Clinical Cytogenetic Laboratory, Department of Pathology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Stephan",
+          "fore_name": "Clifford",
+          "affiliations": [
+            "Center for Translational Cancer Research, Institute of Biosciences and Technology, Texas A&M University, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Yang",
+          "fore_name": "Jianhua",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Davies",
+          "fore_name": "Peter J A",
+          "affiliations": [
+            "Center for Translational Cancer Research, Institute of Biosciences and Technology, Texas A&M University, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Lu",
+          "fore_name": "Xinyan",
+          "affiliations": [
+            "Clinical Cytogenetic Laboratory, Department of Pathology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+          ]
+        },
+        {
+          "last_name": "Chintagumpala",
+          "fore_name": "Murali",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Parsons",
+          "fore_name": "Donald William",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Perlaky",
+          "fore_name": "Laszlo",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Xia",
+          "fore_name": "Yun-Fei",
+          "affiliations": [
+            "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine; Department of Radiation, Sun Yat-sen University Cancer Center, 510060, Guangzhou, Guangdong, P. R. China."
+          ]
+        },
+        {
+          "last_name": "Man",
+          "fore_name": "Tsz-Kwong",
+          "affiliations": [
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Huang",
+          "fore_name": "Yun",
+          "affiliations": [
+            "Center for Epigenetics & Disease Prevention, Texas A&M University, Houston, TX, 77030, USA."
+          ]
+        },
+        {
+          "last_name": "Sun",
+          "fore_name": "Deqiang",
+          "affiliations": [
+            "Center for Epigenetics & Disease Prevention, Texas A&M University, Houston, TX, 77030, USA. deqiangs@zju.edu.cn."
+          ]
+        },
+        {
+          "last_name": "Li",
+          "fore_name": "Xiao-Nan",
+          "affiliations": [
+            "Pre-clinical Neuro-oncology Research Program, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA. xiaonan.li@northwestern.edu.",
+            "Texas Children's Cancer Center, Texas Children's Hospital, Baylor College of Medicine, Houston, TX, 77030, USA. xiaonan.li@northwestern.edu.",
+            "Program of Precision Medicine PDOX Modeling of Pediatric Tumors, Division of Hematology-Oncology, Neuro-Oncology & Stem Cell transplantation, Ann & Robert H. Lurie Children's Hospital of Chicago; Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA. xiaonan.li@northwestern.edu."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Child",
+        "Ependymoma",
+        "DNA Methylation",
+        "Recurrence",
+        "Epigenesis, Genetic",
+        "Symporters",
+        "K Cl- Cotransporters"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "35928544",
+      "pmc": "PMC8160090",
+      "doi": "10.1097/HS9.0000000000000763",
+      "title": "A Journey Into the Unknown: PhD Students in a European Training Network on Age-related Changes in Hematopoiesis Conduct Their Project During a Global Pandemic.",
+      "abstract": "",
+      "journal": "Hemasphere",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Pitsillidou",
+          "fore_name": "Christina",
+          "affiliations": [
+            "Dipartimento di Biotecnologie e Bioscienze, Universit\u00e0 degli Studi Milano-Bicocca, Milano, Italy.",
+            "FlowMetric Europe, Milan, Bresso, Italy."
+          ]
+        },
+        {
+          "last_name": "Alonso-Rubido",
+          "fore_name": "Sandra",
+          "affiliations": [
+            "Dipartimento di Biotecnologie e Bioscienze, Universit\u00e0 degli Studi Milano-Bicocca, Milano, Italy.",
+            "Diagenode SA, Ougr\u00e9e, Belgium."
+          ]
+        },
+        {
+          "last_name": "\u00c1vila-\u00c1vila",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Institute Curie, Orsay, France.",
+            "Centre National de la Recherche Scientifique UMR3348, Centre Universitaire, Orsay, France."
+          ]
+        },
+        {
+          "last_name": "Romero-Mulero",
+          "fore_name": "Mari Carmen",
+          "affiliations": [
+            "Max Planck Institute of Immunobiology and Epigenetics, Freiburg, Germany."
+          ]
+        },
+        {
+          "last_name": "Labedz",
+          "fore_name": "Agata",
+          "affiliations": [
+            "Dipartimento di Biotecnologie e Bioscienze, Universit\u00e0 degli Studi Milano-Bicocca, Milano, Italy."
+          ]
+        },
+        {
+          "last_name": "Oikonomou",
+          "fore_name": "Athanasios",
+          "affiliations": [
+            "Fondazione Tettamanti, Centro di Ricerca Tettamanti, Centro Maria Letizia Verga, Monza (MB), Italy.",
+            "Dipartimento di Medicina e Chirurgia, Universit\u00e0 degli Studi Milano-Bicocca, Monza (MB), Italy."
+          ]
+        },
+        {
+          "last_name": "Proietti",
+          "fore_name": "Ludovica",
+          "affiliations": [
+            "Institute of Medical Biochemistry, University of Veterinary Medicine, Vienna, Austria."
+          ]
+        },
+        {
+          "last_name": "Psychoyiou",
+          "fore_name": "Maria Eleni",
+          "affiliations": [
+            "Molecular Haematology, Comprehensive Cancer Centre, School of Cancer and Pharmaceutical Sciences, King's College London, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Tellez-Quijorna",
+          "fore_name": "Clara",
+          "affiliations": [
+            "Team of Epigenetics in Normal and Abnormal Hematopoiesis, CRCM (Centre de Recherche en Canc\u00e8rologie de Marseille), France."
+          ]
+        },
+        {
+          "last_name": "Hillary",
+          "fore_name": "Maniriho",
+          "affiliations": [
+            "Department of Human Molecular Genetics and Biochemistry, Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv-Yafo and Schneider Children's Medical Centre of Israel, Petach, Tikvah."
+          ]
+        },
+        {
+          "last_name": "Fasouli",
+          "fore_name": "Eirini Sofia",
+          "affiliations": [
+            "Dipartimento di Biotecnologie e Bioscienze, Universit\u00e0 degli Studi Milano-Bicocca, Milano, Italy.",
+            "Basic Research Center, Biomedical Research Foundation, Academy of Athens, Greece."
+          ]
+        },
+        {
+          "last_name": "Fern\u00e1ndez-Rodr\u00edguez",
+          "fore_name": "Guillermo",
+          "affiliations": [
+            "Department of Biology and Biotechnology \"Charles Darwin\", Sapienza University of Rome, Italy."
+          ]
+        },
+        {
+          "last_name": "Giner-Laguarda",
+          "fore_name": "Natalia",
+          "affiliations": [
+            "Department of Cellular and Molecular Biology, Centro de Investigaciones Biol\u00f3gicas Margarita Salas, Madrid, Spain."
+          ]
+        },
+        {
+          "last_name": "Skinder",
+          "fore_name": "Natalia",
+          "affiliations": [
+            "European Research Institute for the Biology of Ageing, University Medical Center Groningen, University of Groningen, Netherlands."
+          ]
+        },
+        {
+          "last_name": "Taroni",
+          "fore_name": "Chiara",
+          "affiliations": [
+            "Institut de G\u00e9n\u00e9tique et de Biologie Mol\u00e9culaire et Cellulaire (IGBMC), Institut National de la Sant\u00e9 et de la Recherche M\u00e9dicale (INSERM) U1258, Centre National de la Recherche Scientifique (CNRS) UMR 7104, Universit\u00e9 de Strasbourg, Illkirch, France."
+          ]
+        },
+        {
+          "last_name": "Strouboulis",
+          "fore_name": "John",
+          "affiliations": [
+            "Molecular Haematology, Comprehensive Cancer Centre, School of Cancer and Pharmaceutical Sciences, King's College London, United Kingdom."
+          ]
+        },
+        {
+          "last_name": "Katsantoni",
+          "fore_name": "Eleni",
+          "affiliations": [
+            "Basic Research Center, Biomedical Research Foundation, Academy of Athens, Greece."
+          ]
+        },
+        {
+          "last_name": "Ronchi",
+          "fore_name": "Antonella Ellena",
+          "affiliations": [
+            "Dipartimento di Biotecnologie e Bioscienze, Universit\u00e0 degli Studi Milano-Bicocca, Milano, Italy."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "35650556",
+      "pmc": "PMC8760670",
+      "doi": "10.1186/s12859-021-04544-3",
+      "title": "Correction: MGcount: a total RNA-seq quantification tool to address multi-mapping and multi-overlapping alignments ambiguity in non-coding transcripts.",
+      "abstract": "",
+      "journal": "BMC Bioinformatics",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Hita",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Epigenetics Unit, Diagenode s.a., Li\u00e8ge, Belgium.",
+            "Department of Biology, Humboldt-Universit\u00e4t Zu Berlin, Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "Brocart",
+          "fore_name": "Gilles",
+          "affiliations": [
+            "Epigenetics Unit, Diagenode s.a., Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Fernandez",
+          "fore_name": "Ana",
+          "affiliations": [
+            "Epigenetics Unit, Diagenode s.a., Li\u00e8ge, Belgium.",
+            "Department of Biology, Humboldt-Universit\u00e4t Zu Berlin, Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "Rehmsmeier",
+          "fore_name": "Marc",
+          "affiliations": [
+            "Department of Biology, Humboldt-Universit\u00e4t Zu Berlin, Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "Alemany",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Department of Anatomy and Embryology, Leiden University Medical Centre, Leiden, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Schvartzman",
+          "fore_name": "Sol",
+          "affiliations": [
+            "Epigenetics Unit, Diagenode s.a., Li\u00e8ge, Belgium. sol.schvartzman@diagenode.com."
+          ]
+        }
+      ],
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "35030988",
+      "pmc": "PMC8238499",
+      "doi": "10.1016/j.cell.2021.04.048",
+      "title": "MGcount: a total RNA-seq quantification tool to address multi-mapping and multi-overlapping alignments ambiguity in non-coding transcripts.",
+      "abstract": "Total-RNA sequencing (total-RNA-seq) allows the simultaneous study of both the coding and the non-coding transcriptome. Yet, computational pipelines have traditionally focused on particular biotypes, making assumptions that are not fullfilled by total-RNA-seq datasets. Transcripts from distinct RNA biotypes vary in length, biogenesis, and function, can overlap in a genomic region, and may be present in the genome with a high copy number. Consequently, reads from total-RNA-seq libraries may cause ambiguous genomic alignments, demanding for flexible quantification approaches. Here we present Multi-Graph count (MGcount), a total-RNA-seq quantification tool combining two strategies for handling ambiguous alignments. First, MGcount assigns reads hierarchically to small-RNA and long-RNA features to account for length disparity when transcripts overlap in the same genomic position. Next, MGcount aggregates RNA products with similar sequences where reads systematically multi-map using a graph-based approach. MGcount outputs a transcriptomic count matrix compatible with RNA-sequencing downstream analysis pipelines, with both bulk and single-cell resolution, and the graphs that model repeated transcript structures for different biotypes. The software can be used as a python module or as a single-file executable program. MGcount is a flexible total-RNA-seq quantification tool that successfully integrates reads that align to multiple genomic locations or that overlap with multiple gene features. Its approach is suitable for the simultaneous estimation of protein-coding, long non-coding and small non-coding transcript concentration, in both precursor and processed forms. Both source code and compiled software are available at https://github.com/hitaandrea/MGcount .",
+      "journal": "BMC Bioinformatics",
+      "year": 2022,
+      "authors": [
+        {
+          "last_name": "Hita",
+          "fore_name": "Andrea",
+          "affiliations": [
+            "Epigenetics unit, Diagenode s.a., Li\u00e8ge, Belgium.",
+            "Department of Biology, Humboldt-Universit\u00e4t zu Berlin, Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "Brocart",
+          "fore_name": "Gilles",
+          "affiliations": [
+            "Epigenetics unit, Diagenode s.a., Li\u00e8ge, Belgium."
+          ]
+        },
+        {
+          "last_name": "Fernandez",
+          "fore_name": "Ana",
+          "affiliations": [
+            "Epigenetics unit, Diagenode s.a., Li\u00e8ge, Belgium.",
+            "Department of Biology, Humboldt-Universit\u00e4t zu Berlin, Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "Rehmsmeier",
+          "fore_name": "Marc",
+          "affiliations": [
+            "Department of Biology, Humboldt-Universit\u00e4t zu Berlin, Berlin, Germany."
+          ]
+        },
+        {
+          "last_name": "Alemany",
+          "fore_name": "Anna",
+          "affiliations": [
+            "Department of Anatomy and Embryology, Leiden University Medical Centre, Leiden, The Netherlands."
+          ]
+        },
+        {
+          "last_name": "Schvartzman",
+          "fore_name": "Sol",
+          "affiliations": [
+            "Epigenetics unit, Diagenode s.a., Li\u00e8ge, Belgium. sol.schvartzman@diagenode.com."
+          ]
+        }
+      ],
+      "mesh_terms": [
+        "RNA",
+        "RNA-Seq",
+        "Sequence Analysis, RNA",
+        "Software",
+        "Transcriptome"
+      ],
+      "keywords": [
+        "Alignment",
+        "Counting",
+        "Map equation",
+        "Multi-mapping",
+        "Multi-overlapping",
+        "NGS",
+        "Non-coding",
+        "Quantification",
+        "RNA-seq",
+        "Single-cell",
+        "Small RNA"
+      ]
+    }
+  ]
+}

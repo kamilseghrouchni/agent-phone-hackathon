@@ -1,0 +1,32 @@
+{
+  "bundle_id": "ovarian-t3-ffpe-plasma-er-annotated",
+  "therapeutic_area": "womens-health",
+  "query_text": "Advanced ovarian cancer (T3+) FFPE with ER and PR receptor status documented. Need matched plasma at -80C. Only serous histology. Treatment-naive. Documented surgical procedure (debulking vs biopsy). N >= 30.",
+  "intent": "commission",
+  "parsed": {
+    "indication": [
+      "Ovarian cancer"
+    ],
+    "specimen_types": [
+      "Tissue (FFPE)",
+      "Plasma"
+    ],
+    "biomarkers_required": [
+      "ER",
+      "PR"
+    ],
+    "staging_required": "T3+",
+    "histology_required": "serous",
+    "preservation": "Fixed",
+    "min_n": 30,
+    "treatment_status": "treatment-naive",
+    "matched_pairs": true,
+    "preanalytical": {
+      "plasma_storage": "-80C"
+    },
+    "clinical_data_required": [
+      "surgical_procedure_type"
+    ],
+    "assay_context": "Mirvetuximab soravtansine (FRa ADC) \u2014 FRa/hormone receptor co-expression"
+  }
+}

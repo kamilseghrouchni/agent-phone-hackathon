@@ -1,0 +1,76 @@
+{
+  "bundle_id": "asthma-medication-documented-serum-plasma",
+  "source": "academic_literature",
+  "search_channels": ["pubmed", "medrxiv", "biorxiv", "europepmc"],
+  "papers": [
+    {
+      "pmid": "28866107",
+      "pmc_id": "PMC5832534",
+      "doi": "10.1164/rccm.201702-0352OC",
+      "title": "Characterization of participants in the Severe Asthma Research Program (SARP III)",
+      "year": 2018,
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "specimens_described": {
+        "types": ["serum", "plasma", "PBMC", "sputum", "urine"],
+        "n": 714,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "SARP / NHLBI",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov); SARP III specimens available via NHLBI BioLINCC",
+      "depth_confidence": "high",
+      "notes": "ICS, OCS, and biologic medication fully documented per subject; severe asthma focus; PBMC, serum, and plasma paired; multi-site US; n=714 with longitudinal visits"
+    },
+    {
+      "pmid": "19892860",
+      "pmc_id": "PMC2822971",
+      "doi": "10.1164/rccm.200905-0764OC",
+      "title": "SARP I and II: clinical features of severe asthma",
+      "year": 2010,
+      "journal": "American Journal of Respiratory and Critical Care Medicine",
+      "specimens_described": {
+        "types": ["serum", "plasma", "sputum"],
+        "n": 726,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "SARP / NHLBI",
+      "institution_type": "nci_network",
+      "contact_extractable": true,
+      "access_route": "BioLINCC application (biolincc.nhlbi.nih.gov)",
+      "depth_confidence": "high",
+      "notes": "SARP I+II combined n=726; medication documented including ICS dose, OCS use, and controller regimen; sputum differential cell count available; serum IgE and eosinophil counts documented"
+    },
+    {
+      "pmid": "32284828",
+      "pmc_id": "PMC7144315",
+      "doi": "10.1183/13993003.01556-2019",
+      "title": "BREATHE: a large-scale multi-centre cohort study of adult asthma in Denmark and Sweden",
+      "year": 2020,
+      "journal": "European Respiratory Journal",
+      "specimens_described": {
+        "types": ["serum", "plasma"],
+        "n": 1403,
+        "storage": "-80C",
+        "matched": true,
+        "treatment_naive": false
+      },
+      "institution": "BREATHE / Copenhagen University Hospital / Karolinska",
+      "institution_type": "biobank_consortium",
+      "contact_extractable": true,
+      "access_route": "Application to BREATHE steering committee; contact via corresponding author at Copenhagen University Hospital",
+      "depth_confidence": "high",
+      "notes": "n=1403 adults; ICS, LABA, OCS, and biologic therapy documented; serum and plasma paired; Scandinavian population; registry linkage with national prescription databases for medication verification"
+    }
+  ],
+  "expected_retrievable_institutions": [
+    "SARP / NHLBI (BioLINCC)",
+    "BREATHE / Copenhagen University Hospital",
+    "Karolinska Institutet"
+  ],
+  "notes": "SARP I/II and SARP III draw from the same US multi-site program and share BioLINCC access. BREATHE provides the largest Scandinavian equivalent. All three have rigorous medication documentation — the key differentiator for this bundle."
+}

@@ -1,0 +1,258 @@
+{
+  "id": "frontage-laboratories",
+  "name": "Frontage Laboratories",
+  "source": "pubmed",
+  "fetched_at": "",
+  "aliases_tried": [
+    "Frontage Laboratories"
+  ],
+  "search_queries": [
+    "\"Frontage Laboratories\"[Affiliation] AND 2022:3000[pdat]"
+  ],
+  "publication_total": 32,
+  "publications_indexed": 25,
+  "address_hints": [
+    "Frontage Laboratories, Exton, PA, USA",
+    "Frontage Laboratories, Inc, Deerfield Beach, FL, USA",
+    "Frontage Laboratories, Inc, Deerfield Beach, FL",
+    "Frontage Laboratories Inc., 700 Pennsylvania Dr, Exton, PA 19341, USA",
+    "Product Development, Frontage Laboratories, Inc., Exton, PA, USA"
+  ],
+  "contact_emails": [
+    "JLin@frontagelab.com",
+    "hmaithania@frontagelab.com"
+  ],
+  "sample_types": [
+    {
+      "type": "plasma",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "39350365",
+        "38114736"
+      ]
+    },
+    {
+      "type": "serum",
+      "n_papers": 2,
+      "evidence_pmids": [
+        "39350365",
+        "38114736"
+      ]
+    },
+    {
+      "type": "cell lines",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "39426236"
+      ]
+    },
+    {
+      "type": "stool/feces",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "38408729"
+      ]
+    },
+    {
+      "type": "CSF",
+      "n_papers": 1,
+      "evidence_pmids": [
+        "39350365"
+      ]
+    }
+  ],
+  "indication_areas": [
+    {
+      "area": "Neoplasms",
+      "n_papers": 2
+    },
+    {
+      "area": "Ovarian Neoplasms",
+      "n_papers": 2
+    },
+    {
+      "area": "Drug Resistance, Neoplasm",
+      "n_papers": 1
+    },
+    {
+      "area": "Antigens, Neoplasm",
+      "n_papers": 1
+    },
+    {
+      "area": "Carcinoma, Non-Small-Cell Lung",
+      "n_papers": 1
+    },
+    {
+      "area": "Lung Neoplasms",
+      "n_papers": 1
+    },
+    {
+      "area": "Cell Line, Tumor",
+      "n_papers": 1
+    },
+    {
+      "area": "Xenograft Model Antitumor Assays",
+      "n_papers": 1
+    },
+    {
+      "area": "Cardiovascular Diseases",
+      "n_papers": 1
+    },
+    {
+      "area": "Alzheimer Disease",
+      "n_papers": 1
+    },
+    {
+      "area": "Idiopathic Pulmonary Fibrosis",
+      "n_papers": 1
+    },
+    {
+      "area": "Cardiolipins",
+      "n_papers": 1
+    }
+  ],
+  "academic_partners": [
+    {
+      "name": "Department of Pharmaceutical Sciences",
+      "co_pubs": 3
+    },
+    {
+      "name": "FMC Corporation",
+      "co_pubs": 3
+    },
+    {
+      "name": "Department of Pharmacy Practice",
+      "co_pubs": 2
+    },
+    {
+      "name": "Department of Pharmacy",
+      "co_pubs": 2
+    },
+    {
+      "name": "University of Mississippi Medical Center",
+      "co_pubs": 2
+    },
+    {
+      "name": "Exponent",
+      "co_pubs": 2
+    },
+    {
+      "name": "College of Pharmacy",
+      "co_pubs": 1
+    },
+    {
+      "name": "Navinta LLC",
+      "co_pubs": 1
+    },
+    {
+      "name": "American Regent",
+      "co_pubs": 1
+    },
+    {
+      "name": "Flamma USA Group",
+      "co_pubs": 1
+    },
+    {
+      "name": "Slayback Pharma LLC",
+      "co_pubs": 1
+    },
+    {
+      "name": "Astellas Institute of Regenerative Medicine",
+      "co_pubs": 1
+    },
+    {
+      "name": "Odin Pharmaceuticals",
+      "co_pubs": 1
+    },
+    {
+      "name": "Florida Cancer Specialists and Research Institute",
+      "co_pubs": 1
+    },
+    {
+      "name": "Stat-Beyond Consulting",
+      "co_pubs": 1
+    }
+  ],
+  "top_publications": [
+    {
+      "pmid": "41678029",
+      "doi": "10.1002/bit.24999",
+      "pmc": "9102488",
+      "year": 2026,
+      "journal": "Ther Innov Regul Sci",
+      "title": "Viral Clearance: Safety and Efficiency of Biopharmaceuticals."
+    },
+    {
+      "pmid": "41780665",
+      "doi": "10.1016/j.chemphyslip.2026.105574",
+      "pmc": null,
+      "year": 2026,
+      "journal": "Chem Phys Lipids",
+      "title": "Lipid-based nanocarriers for antiviral drug delivery: A review of the advances, manufacturing technologies, therapeutic mechanisms, and clinical applications."
+    },
+    {
+      "pmid": "40785213",
+      "doi": "10.1080/09205063.2025.2545089",
+      "pmc": null,
+      "year": 2026,
+      "journal": "J Biomater Sci Polym Ed",
+      "title": "Overcoming resistance: targeted nanomedicine solutions for cancer therapy."
+    },
+    {
+      "pmid": "41741857",
+      "doi": "10.1002/jcb.10405",
+      "pmc": "12378134",
+      "year": 2026,
+      "journal": "AAPS PharmSciTech",
+      "title": "Radiopharmaceuticals: Status, Regulatory Landscape and Future Perspective."
+    },
+    {
+      "pmid": "41533999",
+      "doi": "10.1200/PO-25-00462",
+      "pmc": "PMC7390822",
+      "year": 2026,
+      "journal": "JCO Precis Oncol",
+      "title": "Gemogenovatucel-T Advantage in Clonal Tumor Mutation Burden-High Ovarian Cancer."
+    },
+    {
+      "pmid": "41407979",
+      "doi": "10.1016/j.jcis.2023.09.162",
+      "pmc": "3608844",
+      "year": 2025,
+      "journal": "AAPS J",
+      "title": "Implementing Synthetic Multi-Transmembrane Receptor Protein in a Duplex Immunoassay for Assessment of Neutralizing Antibody to a Bispecific Biotherapeutic."
+    },
+    {
+      "pmid": "41293187",
+      "doi": "10.3389/fimmu.2022.848279",
+      "pmc": "PMC9161695",
+      "year": 2025,
+      "journal": "Front Nutr",
+      "title": "The anti-allergic effect of"
+    },
+    {
+      "pmid": "40829890",
+      "doi": "10.1158/1535-7163.Mct-23-0506",
+      "pmc": "PMC10985467",
+      "year": 2025,
+      "journal": "Bioanalysis",
+      "title": "Bioanalysis for PK for antibody drug conjugates using ligand binding assay-challenges and bioanalytical strategies."
+    },
+    {
+      "pmid": "40389100",
+      "doi": "10.1016/j.tiv.2025.106080",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Toxicol In Vitro",
+      "title": "In vitro metabolic clearance of malathion in rats and humans."
+    },
+    {
+      "pmid": "40739687",
+      "doi": "10.2174/0113892010352443250402184623",
+      "pmc": null,
+      "year": 2025,
+      "journal": "Curr Pharm Biotechnol",
+      "title": "Spray Drying: A Promising Technique for Inhalable Vaccine Development."
+    }
+  ]
+}

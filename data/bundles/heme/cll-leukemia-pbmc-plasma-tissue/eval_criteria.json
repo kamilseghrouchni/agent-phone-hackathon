@@ -1,0 +1,218 @@
+{
+  "bundle_id": "cll-leukemia-pbmc-plasma-tissue",
+  "layer_1_data": {
+    "source_recall": {
+      "ground_truth_orgs": [
+        "France Tissue Bank",
+        "Ukraine Research Group",
+        "JLR Life Sciences",
+        "ProteoGenex",
+        "C-BIG",
+        "CHTN Eastern",
+        "CSD Bio",
+        "Medical Gate",
+        "Reference Medicine",
+        "BIOMEDICA CRO"
+      ],
+      "pass": "find >= 30% of ground truth orgs OR find >= 2 orgs with CLL-specific specimens",
+      "notes": "Pipeline may also surface 100K Genomes Project CLL cohort or Danish CLL study \u2014 those are data access cohorts, NOT physical specimen re-access. Pipeline must distinguish data access from specimen procurement. Academic hematology centers (Mayo, MD Anderson) are valid finds if they offer biospecimen requests."
+    },
+    "evidence_integrity": {
+      "checks": [
+        "every [documented] claim has verbatim quote + source ID",
+        "no 'likely'/'probably'/'typically' in Layer 1 facts",
+        "specimen counts cite a source, never estimated from training data"
+      ],
+      "pass": "zero violations",
+      "hard_gate": true
+    },
+    "pillar_coverage_per_source": {
+      "SI_fields": [
+        "specimen_type",
+        "n_value",
+        "storage_conditions",
+        "biorepository_name"
+      ],
+      "CR_fields": [
+        "contact_name",
+        "contact_email",
+        "website",
+        "access_route",
+        "consent_scope"
+      ],
+      "CF_fields": [
+        "preservation_method",
+        "collection_protocol",
+        "storage_temp",
+        "time_to_freeze"
+      ],
+      "MD_fields": [
+        "publication_count",
+        "publication_recency",
+        "trial_count",
+        "industry_partnerships"
+      ],
+      "pass": "mean >= 40% of available fields filled per source"
+    }
+  },
+  "layer_2_inference": {
+    "label_separation": {
+      "required_labels": [
+        "documented",
+        "verified",
+        "unverified",
+        "not_stated"
+      ],
+      "checks": [
+        "every claim carries one of the 4 labels",
+        "every [verified]/[unverified] cites the [documented] facts it's based on",
+        "hypotheses state what verification was attempted"
+      ],
+      "pass": ">= 80% of claims properly labeled",
+      "hard_gate": true
+    },
+    "score_calibration": {
+      "per_org_expected": {
+        "ProteoGenex": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Established commercial provider \u2014 good contact, IGHV status unlikely tracked"
+        },
+        "France Tissue Bank": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "1-2",
+            "MD": "2-3"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Commercial tissue bank \u2014 limited clinical annotation, IGHV status unknown"
+        },
+        "CHTN Eastern": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "4-5",
+            "CF": "2-3",
+            "MD": "3-4"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Academic tissue network with hematology focus \u2014 best chance for clinical annotation depth"
+        },
+        "Ukraine Research Group": {
+          "expected_scores": {
+            "SI": "3-4",
+            "CR": "3-4",
+            "CF": "1-2",
+            "MD": "unknown"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Procurement group \u2014 limited published literature presence, IGHV tracking unknown"
+        },
+        "BIOMEDICA CRO": {
+          "expected_scores": {
+            "SI": "2-3",
+            "CR": "4-5",
+            "CF": "1-2",
+            "MD": "3-4"
+          },
+          "has_contact": true,
+          "has_biomarkers": false,
+          "note": "Procurement CRO \u2014 good contact, weak collection protocol documentation"
+        }
+      },
+      "pass": "mean absolute error <= 1.0 per criterion vs expected range"
+    },
+    "gap_honesty": {
+      "must_flag_as_unknown": [
+        {
+          "field": "ighv_mutation_status",
+          "reason": "IGHV mutation status not tracked in any biospecimen registry \u2014 requires molecular testing or clinical records"
+        },
+        {
+          "field": "treatment_naive_flag",
+          "reason": "Treatment-naive CLL enrolled in clinical trials, not commercial biobanks \u2014 structural scarcity"
+        },
+        {
+          "field": "pbmc_cryopreservation_protocol",
+          "reason": "PBMC viability depends on cryopreservation protocol \u2014 not tracked in AminoChain data"
+        },
+        {
+          "field": "data_vs_specimen_access",
+          "reason": "100K Genomes CLL and Danish CLL cohorts are data-access only \u2014 physical specimen re-access is a separate gate"
+        },
+        {
+          "field": "consent_scope",
+          "reason": "not in any public registry \u2014 requires direct inquiry"
+        },
+        {
+          "field": "freeze_thaw_count",
+          "reason": "not tracked in specimen registries"
+        }
+      ],
+      "pass": "flag >= 60% of known unknowns",
+      "fail": "< 30% flagged (system presents incomplete picture as complete)"
+    }
+  },
+  "layer_3_output": {
+    "outreach_brief_required_fields": {
+      "documented": [
+        "specimens.types",
+        "specimens.n",
+        "specimens.source_id"
+      ],
+      "contacts": [
+        "name OR email"
+      ],
+      "scores": [
+        "SI",
+        "CR",
+        "CF",
+        "MD",
+        "readiness"
+      ],
+      "gaps": [
+        "field",
+        "status",
+        "what_to_ask"
+      ],
+      "outreach": [
+        "what_to_ask",
+        "opening_hook"
+      ]
+    },
+    "ground_truth_overlap": {
+      "aminochain_orgs_with_cll": {
+        "France Tissue Bank": "IGHV status and treatment-naive flag unknown",
+        "ProteoGenex": "IGHV status and treatment-naive flag unknown",
+        "CHTN Eastern": "IGHV status and treatment-naive flag unknown",
+        "Ukraine Research Group": "IGHV status and treatment-naive flag unknown",
+        "BIOMEDICA CRO": "IGHV status and treatment-naive flag unknown"
+      },
+      "pass": "at least 1 recommended source overlaps with AminoChain orgs OR surfaces a credible academic hematology biobank with CLL specimen access"
+    },
+    "hallucination_check": {
+      "checks": [
+        "no invented IGHV mutation status without a molecular testing source",
+        "no invented treatment-naive flags without clinical record citation",
+        "no invented PBMC viability claims without cryopreservation protocol citation",
+        "no conflation of data-access cohorts with physical specimen procurement",
+        "no invented contacts \u2014 every email traces to paper/website/registry"
+      ],
+      "hard_gate": true
+    }
+  },
+  "biomarker_availability": {
+    "ighv_mutation_status": "0.0% annotated in AminoChain \u2014 not tracked",
+    "treatment_naive_flag": "0.0% annotated \u2014 not tracked",
+    "pbmc_cryopreservation_protocol": "0.0% annotated \u2014 not tracked"
+  }
+}
