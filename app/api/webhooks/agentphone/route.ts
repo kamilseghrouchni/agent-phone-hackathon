@@ -359,6 +359,67 @@ async function handleCallCompleted(
   });
   appendEvidence(pointer.run_id, evidence);
 
+  // Supermemory: post-call tracking write — every Q&A pair + a call summary
+  // persisted under `supplier:<id>` for cross-run audit and future recall.
+  // Mirrors the poller path in build-handlers.ts startCallCompletionPoller.
+  try {
+    const { supermemory, supermemoryConfigured } = (await import(
+      "@/lib/integrations/supermemory"
+    )) as typeof import("@/lib/integrations/supermemory");
+    const transcript = evt.transcript ?? [];
+    if (supermemoryConfigured() && transcript.length > 0) {
+      let pairs = 0;
+      for (let i = 0; i < transcript.length; i++) {
+        const t = transcript[i];
+        if (t.turn !== "agent") continue;
+        const reply = transcript.slice(i + 1).find((x) => x.turn === "supplier");
+        if (!reply) continue;
+        await supermemory.add({
+          contextId: `supplier:${pointer.supplier_id}`,
+          content: `[run ${pointer.run_id} · call ${evt.call_id}] Q: ${t.text.trim()} A: ${reply.text.trim()}`,
+          metadata: {
+            supplier_id: pointer.supplier_id,
+            run_id: pointer.run_id,
+            call_id: evt.call_id,
+            channel: "call",
+            kind: "qa_pair",
+            timestamp: reply.timestamp ?? evt.completed_at,
+          },
+        });
+        pairs++;
+      }
+      const agentTurns = transcript.filter((t) => t.turn === "agent").length;
+      const supplierTurns = transcript.filter((t) => t.turn === "supplier").length;
+      await supermemory.add({
+        contextId: `supplier:${pointer.supplier_id}`,
+        content: `[run ${pointer.run_id} · call ${evt.call_id}] Stage-2 call complete · ${evt.duration_sec ?? 0}s · ${agentTurns} agent turns · ${supplierTurns} supplier turns · status=${evt.status}`,
+        metadata: {
+          supplier_id: pointer.supplier_id,
+          run_id: pointer.run_id,
+          call_id: evt.call_id,
+          channel: "call",
+          kind: "call_summary",
+          duration_sec: evt.duration_sec ?? 0,
+          completed_at: evt.completed_at,
+        },
+      });
+      const live = readChain(pointer.run_id);
+      if (live) {
+        live.stages.call.events.push({
+          event_id: `supermemory:tracking:${Date.now()}`,
+          timestamp: new Date().toISOString(),
+          direction: "system",
+          actor: "agent",
+          channel: "call",
+          text: `Supermemory: persisted ${pairs} Q&A pair${pairs === 1 ? "" : "s"} + 1 call summary under supplier:${pointer.supplier_id} (future-run recall + audit trail).`,
+        });
+        writeChain(live);
+      }
+    }
+  } catch {
+    // best-effort
+  }
+
   // Cascade — drive the chain to Stage 3 (email). The transition table
   // routes call/{complete,no_answer,failed} → email so all three statuses
   // advance; the difference is just the evidence quality, not the cascade.

@@ -151,6 +151,55 @@ export const supermemory = {
       },
     });
   },
+
+  // ----- cross-run supplier memory ----------------------------------------
+  // The three helpers above scope by `runId` (per-procurement). The two
+  // below scope by `supplierId` so memories persist ACROSS runs — every
+  // chain that contacts crovi.bio adds to its profile, and the next chain
+  // recalls that context before Stage 1 fires.
+  // ------------------------------------------------------------------------
+
+  /**
+   * Pre-chain recall: pull what we already know about this supplier from
+   * prior procurement runs. Returns up to 5 most-relevant memories +
+   * static/dynamic profile. Demo surfaces hit count + top quotes in the
+   * Timeline so the audience sees Supermemory fire.
+   */
+  async recallSupplierContext(
+    supplierId: string,
+    query?: string,
+  ): Promise<ProfileResult> {
+    return profile({
+      contextId: `supplier:${supplierId}`,
+      q:
+        query ??
+        `prior procurement interactions outcomes pricing capacity ${supplierId}`,
+      threshold: 0.6,
+    });
+  },
+
+  /**
+   * Post-chain write: persist a summary of THIS run's outcomes against
+   * this supplier so future chains can recall them. Stored under
+   * `supplier:<id>` containerTag, distinct from the per-run scope.
+   */
+  async writeChainCompletion(args: {
+    supplierId: string;
+    runId: string;
+    summary: string;
+    metadata?: Record<string, unknown>;
+  }): Promise<AddMemoryResult> {
+    return add({
+      contextId: `supplier:${args.supplierId}`,
+      content: `[run ${args.runId}] ${args.summary}`,
+      metadata: {
+        supplier_id: args.supplierId,
+        run_id: args.runId,
+        kind: "chain_completion",
+        ...args.metadata,
+      },
+    });
+  },
 };
 
 export default supermemory;

@@ -48,19 +48,13 @@ export const maxDuration = 60;
 // internal directory, not in the V1 enrichment scrape pool.
 // ---------------------------------------------------------------------------
 
-// Stage 1 form-fill target. Default to the REAL crovi.bio public intake
-// form (env `CROVI_INTAKE_FORM`, currently `https://crovi.bio/agent-launched`).
-// Playwright drives it best-effort — fills whatever input/textarea fields
-// match by name/aria/placeholder, screenshots stream into the Timeline
-// regardless. The audience watches the agent submit to the actual supplier
-// site, not a stub we own.
-//
-// Override with `CROVI_INTAKE_FORM_LOCAL=true` to fall back to the local
-// 25-field demo form (app/forms/crovi-intake) when the live page is down.
+// Stage 1 form-fill target — the REAL crovi.bio public intake page
+// (env `CROVI_INTAKE_FORM`, currently `https://crovi.bio/agent-launched`).
+// Playwright opens a visible Chromium window, navigates to this URL, and
+// reads the response copy. No fake field-typing — the page is the
+// demo's first audience touchpoint.
 const CROVI_FORM_URL =
-  process.env.CROVI_INTAKE_FORM_LOCAL === "true"
-    ? `${process.env.DEMO_BASE_URL ?? "http://localhost:3000"}/forms/crovi-intake`
-    : (process.env.CROVI_INTAKE_FORM ?? "https://crovi.bio/agent-launched");
+  process.env.CROVI_INTAKE_FORM ?? "https://crovi.bio/agent-launched";
 
 // For the demo, `DEMO_CALL_TARGET_PHONE` is YOUR phone — you play both the
 // crovi.bio BD persona (Stage 2 call rings you) and NovaCure procurement
@@ -104,6 +98,44 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
   } catch {
     // non-fatal
   }
+
+  // Supermemory recall — pull what we already know about this supplier
+  // from prior procurement runs. Surface as a chain event so the audience
+  // sees Supermemory fire in the Timeline. Non-fatal: chain proceeds even
+  // if Supermemory is misconfigured.
+  void (async () => {
+    try {
+      const { supermemory, supermemoryConfigured } = await import(
+        "@/lib/integrations/supermemory"
+      );
+      if (!supermemoryConfigured()) return;
+      const recall = await supermemory.recallSupplierContext(supplierId);
+      const live = loadChainState(runId);
+      if (!live) return;
+      const hitCount = recall.hits.length;
+      const profileBits =
+        (recall.static.length || 0) + (recall.dynamic.length || 0);
+      const topHit = recall.hits[0]?.content?.slice(0, 120);
+      appendEvent(live, "form", {
+        event_id: `supermemory:recall:${Date.now()}`,
+        timestamp: new Date().toISOString(),
+        direction: "system",
+        actor: "agent",
+        text:
+          hitCount + profileBits === 0
+            ? `Supermemory: no prior context for supplier:${supplierId} (cold). Recall ${recall.latency_ms}ms.`
+            : `Supermemory: recalled ${hitCount} prior memor${hitCount === 1 ? "y" : "ies"} + ${profileBits} profile fact${profileBits === 1 ? "" : "s"} for supplier:${supplierId} (${recall.latency_ms}ms)${topHit ? ` — "${topHit}"` : ""}`,
+        payload: {
+          hits: hitCount,
+          profile_facts: profileBits,
+          latency_ms: recall.latency_ms,
+        },
+      });
+      saveChainState(live);
+    } catch {
+      // best-effort
+    }
+  })();
 
   // Build the handler set the transition dispatcher will use. Shared
   // factory — the webhook handlers (agentphone call.completed, agentmail

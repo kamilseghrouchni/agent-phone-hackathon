@@ -235,10 +235,18 @@ export async function smsSend(
 
   try {
     const client = getClient();
+    // Route through a specific line if AGENTPHONE_SMS_NUMBER_ID is set —
+    // the agent has multiple numbers attached (sms + iMessage + voice) and
+    // SMS sends need to go through the SMS-cleared line specifically.
+    // Currently +12609930296 (cmpa2lpuc0365jz00b996y1q6) is the 10DLC-
+    // cleared SMS number. Swap to +14126543597 iMessage line via env if
+    // the demo prefers blue-bubble.
+    const numberId = process.env.AGENTPHONE_SMS_NUMBER_ID;
     const req: AgentPhone.SendMessageRequest = {
       agent_id: agentId,
       to_number: toNumber,
       body,
+      ...(numberId ? { number_id: numberId } : {}),
     };
     const res = (await client.messages.sendMessage(
       req,

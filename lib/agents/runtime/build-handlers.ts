@@ -210,6 +210,48 @@ async function fireMeetingStage(
       live.stages.meeting.completed_at = new Date().toISOString();
       live.stages.meeting.artifact_id = result.event_id;
       saveChainState(live);
+
+      // Supermemory write — persist this run's outcomes against the
+      // supplier so future chains can recall them. Surfaces in the next
+      // chain's pre-Stage-1 Supermemory recall event.
+      try {
+        const { supermemory, supermemoryConfigured } = await import(
+          "@/lib/integrations/supermemory"
+        );
+        if (supermemoryConfigured()) {
+          const callOk = live.stages.call.status === "complete";
+          const emailOk = live.stages.email.status === "complete";
+          const smsOk = live.stages.sms_pay.status === "complete";
+          const meetingOk = result.ok;
+          const summary = [
+            `Procurement chain completed for ${live.supplier_id}.`,
+            `Outcomes: call=${callOk ? "ok" : "skipped"} email=${emailOk ? "agreed" : "n/a"} sms_pay=${smsOk ? "settled $10" : "stub"} meeting=${meetingOk ? "booked" : "partial"}.`,
+            `Scope: 150 plasma + 75 FFPE, Stage III-IV NSCLC, budget $188K-$240K.`,
+          ].join(" ");
+          await supermemory.writeChainCompletion({
+            supplierId: live.supplier_id,
+            runId,
+            summary,
+            metadata: {
+              attendee_email: attendeeEmail,
+              meeting_event_id: result.event_id ?? null,
+            },
+          });
+          const after = loadChainState(runId);
+          if (after) {
+            appendEvent(after, "meeting", {
+              event_id: `supermemory:writeChainCompletion:${Date.now()}`,
+              timestamp: new Date().toISOString(),
+              direction: "system",
+              actor: "agent",
+              text: `Supermemory: chain summary persisted under supplier:${live.supplier_id} for future-run recall.`,
+            });
+            saveChainState(after);
+          }
+        }
+      } catch {
+        // best-effort — chain stays complete even if supermemory write fails
+      }
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       const live = loadChainState(runId);
@@ -338,6 +380,71 @@ export function startCallCompletionPoller(
       live.stages.call.completed_at = completedAt;
       live.stages.call.status = snap.status === "completed" ? "complete" : "fallback";
       saveChainState(live);
+
+      // Supermemory: post-call interaction tracking. Persist (a) each Q&A
+      // turn pair as an individual memory and (b) a high-level summary —
+      // all scoped to `supplier:<id>` so they accumulate across runs for
+      // audit + future-run recall. Surfaces as a Timeline event so the
+      // audience sees the tracking write happen.
+      try {
+        const { supermemory, supermemoryConfigured } = await import(
+          "@/lib/integrations/supermemory"
+        );
+        if (supermemoryConfigured() && transcript.length > 0) {
+          // Pair each agent turn with the supplier's next reply.
+          let pairsWritten = 0;
+          for (let i = 0; i < transcript.length; i++) {
+            const t = transcript[i];
+            if (t.turn !== "agent") continue;
+            const reply = transcript.slice(i + 1).find((x) => x.turn === "supplier");
+            if (!reply) continue;
+            await supermemory.add({
+              contextId: `supplier:${live.supplier_id}`,
+              content: `[run ${runId} · call ${callId}] Q: ${t.text.trim()} A: ${reply.text.trim()}`,
+              metadata: {
+                supplier_id: live.supplier_id,
+                run_id: runId,
+                call_id: callId,
+                channel: "call",
+                kind: "qa_pair",
+                turn_idx: i,
+                timestamp: reply.timestamp ?? completedAt,
+              },
+            });
+            pairsWritten++;
+          }
+          // High-level call summary
+          const agentTurns = transcript.filter((t) => t.turn === "agent").length;
+          const supplierTurns = transcript.filter((t) => t.turn === "supplier").length;
+          await supermemory.add({
+            contextId: `supplier:${live.supplier_id}`,
+            content: `[run ${runId} · call ${callId}] Stage-2 call complete · ${snap.duration_sec ?? 0}s · ${agentTurns} agent turns · ${supplierTurns} supplier turns · status=${snap.status}`,
+            metadata: {
+              supplier_id: live.supplier_id,
+              run_id: runId,
+              call_id: callId,
+              channel: "call",
+              kind: "call_summary",
+              duration_sec: snap.duration_sec ?? 0,
+              completed_at: completedAt,
+            },
+          });
+          const after = loadChainState(runId);
+          if (after) {
+            appendEvent(after, "call", {
+              event_id: `supermemory:tracking:${Date.now()}`,
+              timestamp: new Date().toISOString(),
+              direction: "system",
+              actor: "agent",
+              channel: "call",
+              text: `Supermemory: persisted ${pairsWritten} Q&A pair${pairsWritten === 1 ? "" : "s"} + 1 call summary under supplier:${live.supplier_id} (future-run recall + audit trail).`,
+            });
+            saveChainState(after);
+          }
+        }
+      } catch {
+        // best-effort — tracking write must not block the cascade
+      }
 
       // Write evidence (best-effort — the parser is tolerant of empty transcripts)
       try {
