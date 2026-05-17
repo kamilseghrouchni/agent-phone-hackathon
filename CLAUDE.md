@@ -14,5 +14,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Git
 
-Commits and PRs are authored as kamil seghrouchni <kamil.seg@gmail.com>.
-Never attribute to Claude.
+ALWAYS author commits and PRs as `kamil seghrouchni <kamil.seg@gmail.com>` — no exceptions.
+If the local git config uses a different email, pass `--author="kamil seghrouchni <kamil.seg@gmail.com>"` on every `git commit`. Do not run `git config` to change it.
+Never attribute commits to Claude (no `Co-Authored-By: Claude`, no tool tagline).
