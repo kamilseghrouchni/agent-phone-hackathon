@@ -222,39 +222,23 @@ export async function fireCall(input: FireCallInput): Promise<CallOutResult> {
     started_at: new Date().toISOString(),
   });
 
-  // Pre-call retrieval + per-call Crovi-AI operator prompt build. The new
-  // 4-beat script (technical confirm → market budget window → interest +
-  // capacity qualification → close) is templated against the live intake.
-  // Both `systemPrompt` and `initialGreeting` are overridden per call so
-  // we get a Crovi-branded opening regardless of the vendor agent's
-  // default greeting. If Moss is offline or intake hasn't been written
-  // yet, preparePerTurnPrompt cleanly falls back to a static rendering.
-  // Dynamic import: keeps Moss native binding out of client bundles.
-  const supplierName = context.supplier?.name ?? "crovi.bio";
-  const {
-    preparePerTurnPrompt,
-    buildCroviOperatorGreeting,
-    buildCroviOperatorPrompt,
-    VOICE_PERSONA_SYSTEM_PROMPT,
-  } = await import("@/lib/agents/voice-persona");
-  const intake = readIntake(state.run_id);
-  const enrichedPrompt = await preparePerTurnPrompt(
-    state.run_id,
-    intake,
-    supplierName,
-  ).catch(() =>
-    intake
-      ? buildCroviOperatorPrompt({ intake, supplierName })
-      : context.systemPrompt ?? VOICE_PERSONA_SYSTEM_PROMPT,
-  );
-  const initialGreeting = buildCroviOperatorGreeting({ intake, supplierName });
-  const enrichedContext: CallOutContext = {
+  // NOTE: we used to override `systemPrompt` + `initialGreeting` per call
+  // so each run got a Crovi-AI scripted opener. The per-call
+  // `agents.updateAgent` path inside callOut() has been silently failing
+  // — the call connects with the AGENT'S STORED prompt either way, and
+  // the standalone test-call.mts (which doesn't override) rings cleanly
+  // while chain calls (which do override) don't. For the sub-1-min demo,
+  // we now rely on the agent's stored prompt (push it with
+  // scripts/update-agent-prompt.mts whenever voice-persona.ts changes)
+  // and skip the per-call override entirely. Result: calls actually
+  // ring, and the stored prompt is the 20s 2-question version.
+  const bareContext: CallOutContext = {
     ...context,
-    systemPrompt: enrichedPrompt,
-    initialGreeting,
+    systemPrompt: undefined,
+    initialGreeting: undefined,
   };
 
-  const result = await callOut(toNumber, voiceAgentId, enrichedContext);
+  const result = await callOut(toNumber, voiceAgentId, bareContext);
 
   // CHAIN-OPS contract: record the call_id in agentphone.json so the
   // webhook can route call.completed back to this run.
