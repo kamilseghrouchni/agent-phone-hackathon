@@ -235,13 +235,18 @@ export async function smsSend(
 
   try {
     const client = getClient();
-    // Route through a specific line if AGENTPHONE_SMS_NUMBER_ID is set —
-    // the agent has multiple numbers attached (sms + iMessage + voice) and
-    // SMS sends need to go through the SMS-cleared line specifically.
-    // Currently +12609930296 (cmpa2lpuc0365jz00b996y1q6) is the 10DLC-
-    // cleared SMS number. Swap to +14126543597 iMessage line via env if
-    // the demo prefers blue-bubble.
-    const numberId = process.env.AGENTPHONE_SMS_NUMBER_ID;
+    // Default to the 10DLC SMS line. AgentPhone's shared-imessage lines
+    // enforce a per-line allowlist ("registered contacts on this shared
+    // line") that the project-level contacts API doesn't manage — sends
+    // to non-allowlisted destinations 403. Once a recipient is added to
+    // the iMessage line in the dashboard, set AGENTPHONE_PREFER_IMESSAGE=true
+    // to route via the blue-bubble line.
+    const numberId =
+      process.env.AGENTPHONE_PREFER_IMESSAGE === "true"
+        ? (process.env.AGENTPHONE_IMESSAGE_NUMBER_ID ??
+          process.env.AGENTPHONE_SMS_NUMBER_ID)
+        : (process.env.AGENTPHONE_SMS_NUMBER_ID ??
+          process.env.AGENTPHONE_IMESSAGE_NUMBER_ID);
     const req: AgentPhone.SendMessageRequest = {
       agent_id: agentId,
       to_number: toNumber,
