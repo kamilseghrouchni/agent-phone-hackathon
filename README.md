@@ -8,6 +8,10 @@ We read your 35-field request, surface the suppliers worth talking to, and run t
 
 <img src="docs/img/landing.png" alt="Crovi landing — drop the intake PDF, watch agents close it" width="100%" />
 
+### ▶ [Watch the 2-minute demo](https://screen.studio/share/hLz14aMG)
+
+PDF in → suppliers ranked → call placed → email sent → wire settled → meeting booked.
+
 </div>
 
 ---
