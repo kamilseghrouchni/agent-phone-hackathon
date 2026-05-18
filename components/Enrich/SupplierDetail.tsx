@@ -199,30 +199,69 @@ export function SupplierDetail({ supplierId, runId }: Props) {
     };
   }, [filterRaw]);
 
+  // Track the supplier we last successfully loaded so the filter-debounce
+  // effect (which fires on every keystroke against the SAME supplier) doesn't
+  // wipe the data — only a real supplier change should clear stale info.
+  const loadedSupplierIdRef = useRef<string | null>(null);
+
   useEffect(() => {
     let aborted = false;
+    // eslint-disable-next-line no-console
+    console.log("[SupplierDetail] effect fire", { supplierId, runId, filter });
     setLoading(true);
     setError(null);
+    // When supplierId changes, drop the previous supplier's payload immediately.
+    // Filter keystrokes against the same supplier skip this branch (the
+    // `loadedSupplierIdRef` check) so we don't flicker the inventory table.
+    if (loadedSupplierIdRef.current !== supplierId) {
+      setData(null);
+      // NOTE — we deliberately do NOT reset filterRaw/filter here. Doing so
+      // schedules a setFilter("") via the debounce effect, which then re-fires
+      // this same useEffect (filter is a dep), and during that brief window
+      // any in-flight fetch is aborted. In React 18 strict mode dev, the
+      // double-invoke amplifies the race and the "latest" fetch can end up
+      // marked aborted before its handlers run — the user sees
+      // "↻ fetching detail…" forever. Cheap fix: drop the auto-reset and
+      // let the user clear the filter manually if they want.
+    }
     const params = new URLSearchParams();
     if (runId) params.set("runId", runId);
     if (filter) params.set("q", filter);
     params.set("limit", "50");
-    fetch(`/api/suppliers/${supplierId}?${params.toString()}`)
+    const url = `/api/suppliers/${supplierId}?${params.toString()}`;
+    // eslint-disable-next-line no-console
+    console.log("[SupplierDetail] fetch start", url);
+    fetch(url)
       .then(async (r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return (await r.json()) as SupplierDetailResponse;
       })
       .then((payload) => {
+        // eslint-disable-next-line no-console
+        console.log("[SupplierDetail] fetch ok", {
+          supplierId,
+          aborted,
+          name: payload?.name,
+        });
         if (aborted) return;
+        loadedSupplierIdRef.current = supplierId;
         setData(payload);
         setLoading(false);
       })
       .catch((e: unknown) => {
+        // eslint-disable-next-line no-console
+        console.warn("[SupplierDetail] fetch err", {
+          supplierId,
+          aborted,
+          err: e,
+        });
         if (aborted) return;
         setError(e instanceof Error ? e.message : String(e));
         setLoading(false);
       });
     return () => {
+      // eslint-disable-next-line no-console
+      console.log("[SupplierDetail] effect cleanup → aborted", { supplierId });
       aborted = true;
     };
   }, [supplierId, runId, filter]);

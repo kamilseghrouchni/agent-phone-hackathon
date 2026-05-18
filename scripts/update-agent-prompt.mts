@@ -1,8 +1,20 @@
-// One-shot: push the 20s 2-question prompt to AgentPhone's stored agent.
+// One-shot: push the demo voice agent's stored config to AgentPhone.
 //
-// Why inlined: lib/agents/voice-persona.ts uses Next path aliases (@/)
-// that don't resolve under node --experimental-strip-types. Inlining
-// keeps this script standalone.
+// Pushes:
+//   - systemPrompt + beginMessage (2-question / ≤20s scenario — reverted
+//     from 3-question because longer calls surfaced turn-detection lag +
+//     missed-answer issues live)
+//   - denoisingMode = "noise-and-background-speech-cancellation" (keep —
+//     this part of the noise tuning was working well)
+//   - sttMode = "fast" — was "accurate" for the 3-question scenario; we
+//     trade some word accuracy for ~200ms lower latency per turn so the
+//     agent reacts quickly to short yes/no answers
+//   - maxSilenceMs = 30s — was 90s; lower so the call doesn't hang if a
+//     supplier line goes quiet
+//
+// Why inlined: lib/agents/voice-persona.ts uses Next path aliases (@/) that
+// don't resolve under node --experimental-strip-types. Inlining keeps this
+// script standalone.
 //
 // Usage:
 //   node --experimental-strip-types scripts/update-agent-prompt.mts
@@ -20,11 +32,13 @@ if (!apiKey || !agentId) {
   process.exit(1);
 }
 
+// Canonical NovaCure-shaped defaults (mirror voice-persona.ts fallbacks).
 const sponsor = "NovaCure Therapeutics";
 const study = "NSCLC liquid-biopsy validation study";
 const supplierName = "crovi.bio";
 const specimenQty = "150 plasma cases plus 75 matched FFPE blocks";
 const timeline = "next 8 weeks";
+const totalLowStr = "$200K";
 
 const systemPrompt = `You are CROVI — AI procurement orchestrator calling ${supplierName}'s BD line for ${sponsor}'s ${study}. Speak fast, warm, professional. One sentence per beat. If asked "are you an AI?" say: "Yes — I'm Crovi's orchestrator."
 
@@ -39,7 +53,7 @@ Q1 — SUPPLY:
 (If "yes" / "we can" / "should be possible" — acknowledge with "Got it." and move on. If "no" or strongly hedged, acknowledge "Understood, I'll flag that." and move on. NO follow-up questions.)
 
 Q2 — BUDGET:
-"And does roughly $213,750 total fit your pricing for this scope?"
+"And does roughly ${totalLowStr} total fit your pricing for this scope?"
 
 (Same rule — single acknowledgement, NO follow-ups.)
 
@@ -58,8 +72,11 @@ End the call immediately. Do NOT recap. Do NOT extend.
 const initialGreeting = `Hi, Crovi here for ${sponsor} — two quick yes/no questions to confirm fit, ok?`;
 
 console.log(`→ updating agent ${agentId.slice(0, 12)}…`);
-console.log(`  prompt length: ${systemPrompt.length} chars`);
-console.log(`  greeting: "${initialGreeting}"`);
+console.log(`  prompt length:  ${systemPrompt.length} chars`);
+console.log(`  greeting:       "${initialGreeting}"`);
+console.log(`  denoising:      noise-and-background-speech-cancellation (aggressive, +$0.005/min)`);
+console.log(`  stt:            fast (lower latency than 'accurate')`);
+console.log(`  maxSilenceMs:   30000 (30s)`);
 
 const client = new AgentPhoneClient({ token: apiKey });
 const t0 = Date.now();
@@ -71,10 +88,15 @@ try {
     agent_id: agentId,
     systemPrompt,
     beginMessage: initialGreeting,
+    denoisingMode: "noise-and-background-speech-cancellation",
+    sttMode: "fast",
+    maxSilenceMs: 30000,
   });
   console.log(`✓ updated +${Date.now() - t0}ms`);
   const r = result as Record<string, unknown>;
-  console.log(`  result keys: ${Object.keys(r).join(", ")}`);
+  for (const k of ["denoisingMode", "sttMode", "maxSilenceMs"] as const) {
+    if (k in r) console.log(`  ${k}: ${String(r[k])}`);
+  }
 } catch (err) {
   console.error(`✗ update failed +${Date.now() - t0}ms:`, err instanceof Error ? err.message : String(err));
   process.exit(2);

@@ -34,7 +34,6 @@ import { SupplierDetail } from "@/components/Enrich/SupplierDetail";
 import { ClimaxView, type ClimaxMode } from "@/components/Output/ClimaxView";
 import type { EnrichSupplierState } from "@/lib/agents/enrich";
 import type { ChainState } from "@/types/chain";
-import type { SupplierEvidence } from "@/types/evidence";
 
 type Step = "parse" | "clarify" | "running" | "results";
 type IntakePhase = "confirm" | "search" | "enrich" | "chain";
@@ -670,22 +669,28 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
         // Auto-focus the first scraping session for the audience — this is
         // the supplier whose live Chromium frames stream into the right
         // pane on first paint. The Live pane is the demo's load-bearing
-        // surface, so we prefer a supplier that actually has a session
-        // over the directory-only refmed inventory card.
-        const firstScrape = (data.states ?? []).find((s) => s.session);
+        // surface, so we prefer a supplier that CAN have a session
+        // (enrichment_mode !== 'directory') over the directory-only refmed
+        // inventory card. We deliberately do NOT key on `.session` here:
+        // enrich/start may return before the headless browser has booted
+        // its first handle, leaving `.session` null even for scrape
+        // suppliers, which used to silently drop us into Detail.
+        const firstScrape = (data.states ?? []).find(
+          (s) => s.supplier.enrichment_mode !== "directory",
+        );
         const refmed = (data.states ?? []).find(
           (s) => s.supplier.supplier_id === "refmed",
         );
         const firstAny = (data.states ?? [])[0];
-        // Pane open priority: first scraping supplier (Live can render) →
-        // refmed (inventory hero) → first available. Whichever wins, set
-        // the matching rightPaneView so the user lands on a usable pane,
-        // not a "No session selected" placeholder.
+        // Pane open priority: first scrape-capable supplier (Live can
+        // render) → refmed (inventory hero) → first available. Whichever
+        // wins, set the matching rightPaneView so the user lands on a
+        // usable pane, not a "No session selected" placeholder.
         const initialOpen = firstScrape ?? refmed ?? firstAny;
         if (initialOpen) {
           const id = initialOpen.supplier.supplier_id;
           setOpenedSupplierId(id);
-          if (initialOpen.session) {
+          if (initialOpen.supplier.enrichment_mode !== "directory") {
             setActiveSupplierId(id);
             setRightPaneView("session");
           } else {
@@ -786,17 +791,6 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
     if (meetingComplete) setClimaxMode("documents");
   }, [meetingComplete]);
 
-  // Provenance click — toggle to lineage view + scroll to the matching event.
-  const handleProvenanceClick = (eventId: string) => {
-    setClimaxMode("lineage");
-    // Defer the scroll until after the lineage view re-renders.
-    requestAnimationFrame(() => {
-      const el =
-        document.getElementById(eventId) ||
-        document.querySelector(`[data-event-id="${eventId}"]`);
-      el?.scrollIntoView({ behavior: "smooth", block: "center" });
-    });
-  };
 
   if (loadError) {
     return (
@@ -935,9 +929,18 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                   const opened = enrichStates.find(
                     (s) => s.supplier.supplier_id === id,
                   );
-                  const hasSession = !!opened?.session;
-                  setRightPaneView(hasSession ? "session" : "detail");
-                  if (hasSession) setActiveSupplierId(id);
+                  // BUGFIX — gate on supplier capability (enrichment_mode),
+                  // NOT on the stale `.session` field. `enrichStates` is
+                  // seeded once from /api/enrich/start; per-supplier SSE
+                  // updates live inside SupplierCardsGrid + SessionPanel and
+                  // never propagate back here. Using `!!opened?.session`
+                  // means a scrape supplier whose session hadn't booted
+                  // when enrich/start returned would forever look like a
+                  // directory entry and the Live tab would stay disabled.
+                  const canShowLive =
+                    !!opened && opened.supplier.enrichment_mode !== "directory";
+                  setRightPaneView(canShowLive ? "session" : "detail");
+                  if (canShowLive) setActiveSupplierId(id);
                 }}
                 onLaunch={(ids) => {
                   // The ONLY path that launches the chain from the enrich
@@ -968,12 +971,18 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                     setRightPaneView("session");
                     if (openedSupplierId) setActiveSupplierId(openedSupplierId);
                   }}
+                  // BUGFIX — same as onOpen: derive availability from
+                  // supplier capability, not from the stale `.session`
+                  // snapshot. Scrape suppliers (enrichment_mode !== 'directory')
+                  // can always show the Live tab — SessionPanel itself
+                  // handles the booting / live / terminal states from its
+                  // own SSE subscription.
                   disabled={
                     !openedSupplierId ||
                     !enrichStates.find(
                       (s) =>
                         s.supplier.supplier_id === openedSupplierId &&
-                        !!s.session,
+                        s.supplier.enrichment_mode !== "directory",
                     )
                   }
                   title="Live Chromium session"
@@ -1048,13 +1057,7 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                   )}
                 </div>
                 {meetingComplete && climaxMode === "documents" ? (
-                  <ClimaxView
-                    intake={intake}
-                    evidence={[] as SupplierEvidence[]}
-                    chain={chainState}
-                    selectedSupplierIds={selectedChainSuppliers.length ? selectedChainSuppliers : [chainState.supplier_id]}
-                    onProvenanceClick={handleProvenanceClick}
-                  />
+                  <ClimaxView chain={chainState} />
                 ) : (
                   // No more StageControls cockpit. The Timeline shows
                   // events streaming in naturally as each stage fires —

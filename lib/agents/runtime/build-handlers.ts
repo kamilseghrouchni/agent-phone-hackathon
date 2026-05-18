@@ -695,8 +695,12 @@ function stopPoller(key: string): void {
 // One active poller per (runId, threadId). 5-minute ceiling per thread.
 // ---------------------------------------------------------------------------
 
-const EMAIL_POLL_INTERVAL_MS = 8_000;
-const EMAIL_MAX_POLL_DURATION_MS = 5 * 60 * 1000; // 5 min ceiling per thread
+// 3s tick so the cascade fires within seconds of an "I agree" reply (was 8s
+// — 8s of lag during the demo's climax beat felt dead). 30-min ceiling so we
+// don't time out if the supplier takes their time to reply (was 5 min, which
+// silently killed the poller mid-demo).
+const EMAIL_POLL_INTERVAL_MS = 3_000;
+const EMAIL_MAX_POLL_DURATION_MS = 30 * 60 * 1000;
 const PROCESSED_INBOUND_IDS = new Map<string, Set<string>>(); // runId → set
 
 export function startEmailReplyPoller(runId: string, threadId: string): void {

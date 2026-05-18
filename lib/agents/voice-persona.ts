@@ -147,10 +147,17 @@ export function buildCroviOperatorPrompt(inputs: CroviOperatorInputs): string {
   const totalLowStr = formatUsd(budget.total_low);
   const totalHighStr = formatUsd(budget.total_high);
 
-  // Ultra-tight demo prompt. Hard ceilings:
-  //   - 20 seconds total call length
-  //   - 2 questions ONLY (supply confirm, budget confirm)
-  //   - No multi-line beats — every response is one sentence
+  // Tight demo prompt — 2 questions only, ≤ 20 seconds total.
+  // Reverted from the 3-question / 60s scenario because the longer call
+  // surfaced turn-detection lag + missed-answer issues live: every extra
+  // question is another chance for the agent to mis-classify a hedge or
+  // wait too long. Two yes/no questions keeps the timing tight enough that
+  // the audience sees a clean cascade.
+  //
+  // Parser anchors (classifyQuestionTurn) still match:
+  //   q1 → specimen quantity + baseline timepoint  (supply confirm)
+  //   q2 → budget total                            (budget confirm)
+  //   q3 unused in this scenario — parser tolerates absence.
   void stageShort;
   void totalHighStr;
   void treatmentLine;

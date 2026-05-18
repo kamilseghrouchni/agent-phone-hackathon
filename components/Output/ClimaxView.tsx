@@ -1,45 +1,24 @@
 "use client";
 // components/Output/ClimaxView.tsx
 //
-// Beat 5 climax — Filled Intake + Quote side-by-side. A right-pane header
-// toggle swaps the climax docs view with the chain Lineage timeline. The
-// workspace page owns the toggle state and passes it down so a provenance
-// pill click on the FilledIntake can auto-toggle to lineage mode.
+// Beat 5 climax — Quote-only, full-width. The Filled Intake §1–8 doc was
+// removed for the demo (audience reads the chain Timeline for provenance;
+// the climax just needs the deliverable on screen). A right-pane header
+// toggle in app/workspace/page.tsx still swaps this docs view with the
+// chain Lineage timeline.
 
-import { FilledIntake } from "./FilledIntake";
 import { Quote } from "./Quote";
-import type { IntakeForm } from "@/types/intake";
-import type { SupplierEvidence } from "@/types/evidence";
 import type { ChainState } from "@/types/chain";
 
 export type ClimaxMode = "documents" | "lineage";
 
 export interface ClimaxViewProps {
-  intake: IntakeForm;
-  evidence: SupplierEvidence[];
   chain: ChainState;
-  selectedSupplierIds: string[];
-  onProvenanceClick?: (eventId: string) => void;
 }
 
-export function ClimaxView({
-  intake,
-  evidence,
-  chain,
-  selectedSupplierIds,
-  onProvenanceClick,
-}: ClimaxViewProps) {
+export function ClimaxView({ chain }: ClimaxViewProps) {
   return (
     <div className="climax-split">
-      <div className="climax-pane climax-pane-intake">
-        <FilledIntake
-          intake={intake}
-          evidence={evidence}
-          chain={chain}
-          selectedSupplierIds={selectedSupplierIds}
-          onProvenanceClick={onProvenanceClick}
-        />
-      </div>
       <div className="climax-pane climax-pane-quote">
         <Quote spongeTransferId={chain.stages.sms_pay?.artifact_id} />
       </div>
