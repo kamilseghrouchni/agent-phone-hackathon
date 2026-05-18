@@ -222,39 +222,23 @@ export async function fireCall(input: FireCallInput): Promise<CallOutResult> {
     started_at: new Date().toISOString(),
   });
 
-  // Pre-call retrieval + per-call Crovi-AI operator prompt build. The new
-  // 4-beat script (technical confirm → market budget window → interest +
-  // capacity qualification → close) is templated against the live intake.
-  // Both `systemPrompt` and `initialGreeting` are overridden per call so
-  // we get a Crovi-branded opening regardless of the vendor agent's
-  // default greeting. If Moss is offline or intake hasn't been written
-  // yet, preparePerTurnPrompt cleanly falls back to a static rendering.
-  // Dynamic import: keeps Moss native binding out of client bundles.
-  const supplierName = context.supplier?.name ?? "crovi.bio";
-  const {
-    preparePerTurnPrompt,
-    buildCroviOperatorGreeting,
-    buildCroviOperatorPrompt,
-    VOICE_PERSONA_SYSTEM_PROMPT,
-  } = await import("@/lib/agents/voice-persona");
-  const intake = readIntake(state.run_id);
-  const enrichedPrompt = await preparePerTurnPrompt(
-    state.run_id,
-    intake,
-    supplierName,
-  ).catch(() =>
-    intake
-      ? buildCroviOperatorPrompt({ intake, supplierName })
-      : context.systemPrompt ?? VOICE_PERSONA_SYSTEM_PROMPT,
-  );
-  const initialGreeting = buildCroviOperatorGreeting({ intake, supplierName });
-  const enrichedContext: CallOutContext = {
+  // NOTE: we used to override `systemPrompt` + `initialGreeting` per call
+  // so each run got a Crovi-AI scripted opener. The per-call
+  // `agents.updateAgent` path inside callOut() has been silently failing
+  // — the call connects with the AGENT'S STORED prompt either way, and
+  // the standalone test-call.mts (which doesn't override) rings cleanly
+  // while chain calls (which do override) don't. For the sub-1-min demo,
+  // we now rely on the agent's stored prompt (push it with
+  // scripts/update-agent-prompt.mts whenever voice-persona.ts changes)
+  // and skip the per-call override entirely. Result: calls actually
+  // ring, and the stored prompt is the 20s 2-question version.
+  const bareContext: CallOutContext = {
     ...context,
-    systemPrompt: enrichedPrompt,
-    initialGreeting,
+    systemPrompt: undefined,
+    initialGreeting: undefined,
   };
 
-  const result = await callOut(toNumber, voiceAgentId, enrichedContext);
+  const result = await callOut(toNumber, voiceAgentId, bareContext);
 
   // CHAIN-OPS contract: record the call_id in agentphone.json so the
   // webhook can route call.completed back to this run.
@@ -292,10 +276,26 @@ export async function fireCall(input: FireCallInput): Promise<CallOutResult> {
     payload: { call_id: result.call_id, mode: result.mode, error: result.error },
   });
 
-  // If the wire call failed up front, mark the stage failed but still leave
-  // the pointer in place — webhook can still receive late events.
-  if (result.status === "failed" && result.mode === "missing_env") {
+  // Both failure shapes — missing env AND vendor down — escalate to "failed"
+  // so the transition table can route call.failed → email and the rest of
+  // the chain stays alive. A visible event narrates why.
+  // Why both: when AgentPhone's API is unreachable, callOut catches the
+  // throw and returns { status: "failed", mode: "real", error: "..." }.
+  // Previously only missing_env was marked, leaving real outages stuck
+  // in_progress forever (no webhook ever fires).
+  if (result.status === "failed") {
     setStageStatus(state, "call", "failed");
+    appendEvent(state, "call", {
+      event_id: `call:${result.call_id}:unavailable`,
+      timestamp: new Date().toISOString(),
+      direction: "system",
+      actor: "agent",
+      channel: "call",
+      text:
+        result.mode === "missing_env"
+          ? "Phone leg unavailable — AgentPhone credentials not configured. Skipping to email."
+          : `Phone leg unavailable — AgentPhone error: ${result.error ?? "unknown"}. Skipping to email.`,
+    });
   }
   saveChainState(state);
   return result;
@@ -339,8 +339,22 @@ export async function fireSmsPay(
     payload: { sms_id: result.sms_id, mode: result.mode, error: result.error },
   });
 
-  if (result.mode === "missing_env") {
+  // Same shape as the call leg: any failure (missing env or vendor down)
+  // marks the stage failed and narrates why, so the cockpit clearly shows
+  // the SMS leg degraded instead of spinning forever.
+  if (result.error || result.mode === "missing_env") {
     setStageStatus(state, "sms_pay", "failed");
+    appendEvent(state, "sms_pay", {
+      event_id: `sms_pay:${result.sms_id}:unavailable`,
+      timestamp: new Date().toISOString(),
+      direction: "system",
+      actor: "agent",
+      channel: "sms",
+      text:
+        result.mode === "missing_env"
+          ? "SMS leg unavailable — AgentPhone credentials not configured."
+          : `SMS leg unavailable — AgentPhone error: ${result.error}.`,
+    });
   }
   saveChainState(state);
   return result;
@@ -364,13 +378,16 @@ export function defaultChainHandlers(
   ctx: ChainHandlerContext,
   overrides: Partial<ChainHandlers> = {},
 ): ChainHandlers {
-  return {
+  // Two-step bag construction so the fire-* closures can call completeStage
+  // with the very same handlers object on phone-leg failure. JS closure
+  // capture across the assignment makes this safe.
+  const handlers: ChainHandlers = {
     fireCall: async (state) => {
       // Dynamic import: keep Moss native binding out of client bundles.
       const { VOICE_PERSONA_SYSTEM_PROMPT } = await import(
         "@/lib/agents/voice-persona"
       );
-      await fireCall({
+      const result = await fireCall({
         state,
         toNumber: ctx.supplierPhone,
         buyerPhone: ctx.buyerPhone,
@@ -380,14 +397,28 @@ export function defaultChainHandlers(
           ...ctx.callContext,
         },
       });
+      // Phone leg down? Cascade to email immediately rather than hang
+      // waiting for a call.completed webhook that will never arrive.
+      if (result.status === "failed") {
+        await completeStage(state, { stage: "call", kind: "failed" }, handlers);
+      }
     },
     fireSmsPay: async (state) => {
-      await fireSmsPay({
+      const result = await fireSmsPay({
         state,
         toNumber: ctx.buyerPhone,
         buyerPhone: ctx.buyerPhone,
         body: ctx.smsBody,
       });
+      // SMS leg down? Treat as "no_reply" so the chain terminates cleanly
+      // instead of waiting indefinitely for an inbound CONFIRMED.
+      if (result.error || result.mode === "missing_env") {
+        await completeStage(
+          state,
+          { stage: "sms_pay", kind: "no_reply" },
+          handlers,
+        );
+      }
     },
     // Owned by other agents — overridden by the caller wiring.
     fireEmail: overrides.fireEmail ?? (() => {}),
@@ -395,6 +426,7 @@ export function defaultChainHandlers(
     onFallback: overrides.onFallback,
     ...overrides,
   };
+  return handlers;
 }
 
 /**

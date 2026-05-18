@@ -141,6 +141,62 @@ export interface InboundEmail {
   received_at: string;
 }
 
+/**
+ * Fetch a thread + its messages from AgentMail. Used by the email-reply
+ * poller in build-handlers.ts to detect inbound replies on localhost where
+ * the AgentMail webhook has no public URL to fire into. Returns null when
+ * the SDK is unconfigured or the thread isn't found.
+ */
+export async function getThread(threadId: string): Promise<
+  | {
+      threadId: string;
+      messages: Array<{
+        messageId: string;
+        timestamp: string;
+        from: string;
+        labels?: unknown[];
+        text?: string;
+        extractedText?: string;
+        preview?: string;
+      }>;
+    }
+  | null
+> {
+  const c = getClient();
+  if (!c) return null;
+  try {
+    const t = (await c.threads.get(threadId)) as unknown as {
+      threadId?: string;
+      thread_id?: string;
+      messages?: Array<{
+        messageId?: string;
+        message_id?: string;
+        timestamp?: string;
+        from?: string;
+        labels?: unknown[];
+        text?: string;
+        extractedText?: string;
+        extracted_text?: string;
+        preview?: string;
+      }>;
+    };
+    return {
+      threadId: t.threadId ?? t.thread_id ?? threadId,
+      messages: (t.messages ?? []).map((m) => ({
+        messageId: String(m.messageId ?? m.message_id ?? ""),
+        timestamp: String(m.timestamp ?? new Date().toISOString()),
+        from: String(m.from ?? ""),
+        labels: m.labels,
+        text: m.text,
+        extractedText: m.extractedText ?? m.extracted_text,
+        preview: m.preview,
+      })).filter((m) => m.messageId),
+    };
+  } catch {
+    return null;
+  }
+}
+
 export function parseInboundWebhook(raw: unknown): InboundEmail | null {
   if (!raw || typeof raw !== "object") return null;
   const r = raw as Record<string, unknown>;

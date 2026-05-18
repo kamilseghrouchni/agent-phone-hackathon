@@ -38,6 +38,122 @@ export function getClient(): AgentPhoneClient {
 }
 
 // ---------------------------------------------------------------------------
+// Phone-number resolver
+//
+// Background: AgentPhone exposes lines by an internal `number_id` (opaque
+// string) but humans read .env.local in E.164. The PLATFORM SOURCE OF TRUTH
+// is the two E.164 env vars:
+//
+//   AGENTPHONE_PHONE_NUMBER  → the line CALLS go out on (must be voice-capable —
+//                              iMessage-type lines silently fail outbound voice)
+//   AGENTPHONE_SMS_NUMBER    → the line SMS and iMessage go out on
+//                              (set this to the iMessage line for blue bubbles,
+//                               or to the 10DLC line for green SMS)
+//
+// Legacy `_NUMBER_ID` env vars are kept as explicit overrides for callers that
+// have already pinned an id, but the E.164 vars are the primary knob. This
+// avoids the foot-gun where someone updates AGENTPHONE_PHONE_NUMBER to a new
+// line and forgets to also update AGENTPHONE_*_NUMBER_ID, leading to the
+// "can't make calls with iMessage numbers" class of bug.
+// ---------------------------------------------------------------------------
+
+interface NumberIndexEntry {
+  id: string;
+  phoneNumber: string;
+  type: string;
+  status: string;
+}
+
+let _numberIndex: Map<string, NumberIndexEntry> | null = null;
+let _numberIndexPromise: Promise<Map<string, NumberIndexEntry>> | null = null;
+
+async function loadNumberIndex(
+  client: AgentPhoneClient,
+): Promise<Map<string, NumberIndexEntry>> {
+  if (_numberIndex) return _numberIndex;
+  if (_numberIndexPromise) return _numberIndexPromise;
+  _numberIndexPromise = (async () => {
+    const resp = (await client.numbers.listNumbers()) as unknown as {
+      data?: Array<{
+        id?: string;
+        phoneNumber?: string;
+        type?: string;
+        status?: string;
+      }>;
+    };
+    const map = new Map<string, NumberIndexEntry>();
+    for (const n of resp.data ?? []) {
+      if (!n.id || !n.phoneNumber) continue;
+      map.set(n.phoneNumber, {
+        id: n.id,
+        phoneNumber: n.phoneNumber,
+        type: n.type ?? "unknown",
+        status: n.status ?? "unknown",
+      });
+    }
+    _numberIndex = map;
+    return map;
+  })();
+  return _numberIndexPromise;
+}
+
+/**
+ * Resolve an E.164 number string to its AgentPhone number_id by looking it up
+ * in the account's line list. Returns null when the number isn't on the
+ * account. Cached after first call — bounce the process to refresh.
+ */
+export async function resolveNumberIdFromE164(
+  phoneE164: string | undefined | null,
+): Promise<NumberIndexEntry | null> {
+  if (!phoneE164) return null;
+  const client = getClient();
+  const idx = await loadNumberIndex(client);
+  return idx.get(phoneE164) ?? null;
+}
+
+/**
+ * Resolve the outbound CALL line. Priority:
+ *   1. AGENTPHONE_CALL_FROM_NUMBER_ID (explicit override — power-user / scripts)
+ *   2. AGENTPHONE_PHONE_NUMBER (E.164, resolved via loadNumberIndex)
+ * Returns null if neither yields a valid id.
+ */
+async function resolveCallFromNumberId(): Promise<string | null> {
+  const explicit = process.env.AGENTPHONE_CALL_FROM_NUMBER_ID;
+  if (explicit) return explicit;
+  const e164 = process.env.AGENTPHONE_PHONE_NUMBER;
+  const hit = await resolveNumberIdFromE164(e164);
+  return hit?.id ?? null;
+}
+
+/**
+ * Resolve the outbound SMS / iMessage line. Priority:
+ *   1. AGENTPHONE_SMS_NUMBER (E.164 — the new primary knob)
+ *   2. Legacy _NUMBER_ID vars (back-compat): AGENTPHONE_PREFER_IMESSAGE picks
+ *      between AGENTPHONE_IMESSAGE_NUMBER_ID and AGENTPHONE_SMS_NUMBER_ID.
+ * Returns null if nothing resolves.
+ */
+async function resolveSmsFromNumberId(): Promise<string | null> {
+  const e164 = process.env.AGENTPHONE_SMS_NUMBER;
+  if (e164) {
+    const hit = await resolveNumberIdFromE164(e164);
+    if (hit) return hit.id;
+  }
+  // Legacy override path — kept so existing demos and CI keep working.
+  if (process.env.AGENTPHONE_PREFER_IMESSAGE === "true") {
+    return (
+      process.env.AGENTPHONE_IMESSAGE_NUMBER_ID ??
+      process.env.AGENTPHONE_SMS_NUMBER_ID ??
+      null
+    );
+  }
+  return (
+    process.env.AGENTPHONE_SMS_NUMBER_ID ??
+    process.env.AGENTPHONE_IMESSAGE_NUMBER_ID ??
+    null
+  );
+}
+
+// ---------------------------------------------------------------------------
 // Stage 2 — outbound voice call
 // ---------------------------------------------------------------------------
 
@@ -132,9 +248,31 @@ export async function callOut(
       }
     }
 
+    // Pin the caller-ID. Source of truth is AGENTPHONE_PHONE_NUMBER (E.164),
+    // resolved to a number_id via the account's line list — with the legacy
+    // AGENTPHONE_CALL_FROM_NUMBER_ID env var honored first for explicit
+    // overrides. We hard-fail if neither yields an id, because if we let the
+    // SDK fall back to "the agent's first attached number" we could end up
+    // dialing out from the iMessage-type line, which silently rejects voice
+    // (the exact bug class we're guarding against — "can't make calls with
+    // iMessage numbers").
+    const fromNumberId = await resolveCallFromNumberId();
+    if (!fromNumberId) {
+      return {
+        call_id: `missing_env_${Date.now()}`,
+        status: "failed",
+        to: toNumber,
+        from: fromNumber,
+        started_at,
+        mode: "missing_env",
+        error:
+          "Outbound voice line unresolved. Set AGENTPHONE_PHONE_NUMBER in .env.local to the E.164 number of a VOICE-CAPABLE line attached to the agent (iMessage-type lines do not support outbound voice).",
+      };
+    }
     const req: AgentPhone.CreateOutboundCallRequest = {
       agentId: voiceAgentId,
       toNumber,
+      fromNumberId,
       // DO NOT set systemPrompt / initialGreeting here — agent uses its
       // stored prompt (updated above per-run when needed).
     };
@@ -189,7 +327,12 @@ export async function smsSend(
   body: string,
 ): Promise<SmsSendResult> {
   const sent_at = new Date().toISOString();
-  const fromNumber = process.env.AGENTPHONE_PHONE_NUMBER ?? "(unset)";
+  // Display string priority: AGENTPHONE_SMS_NUMBER (the SMS-channel knob)
+  // falling back to AGENTPHONE_PHONE_NUMBER (legacy single-line config).
+  const fromNumber =
+    process.env.AGENTPHONE_SMS_NUMBER ??
+    process.env.AGENTPHONE_PHONE_NUMBER ??
+    "(unset)";
   const agentId = process.env.AGENTPHONE_VOICE_AGENT_ID;
 
   // STUB MODE — US 10DLC registration is required for outbound SMS via
@@ -208,7 +351,15 @@ export async function smsSend(
     };
   }
 
-  if (!process.env.AGENTPHONE_API_KEY || !process.env.AGENTPHONE_PHONE_NUMBER) {
+  // Guard on either AGENTPHONE_SMS_NUMBER (new primary) or the legacy
+  // AGENTPHONE_PHONE_NUMBER. We do NOT require both — a project that's only
+  // wired the new var should still be able to send.
+  const hasSmsLine =
+    process.env.AGENTPHONE_SMS_NUMBER ||
+    process.env.AGENTPHONE_PHONE_NUMBER ||
+    process.env.AGENTPHONE_SMS_NUMBER_ID ||
+    process.env.AGENTPHONE_IMESSAGE_NUMBER_ID;
+  if (!process.env.AGENTPHONE_API_KEY || !hasSmsLine) {
     return {
       sms_id: `missing_env_${Date.now()}`,
       to: toNumber,
@@ -235,13 +386,16 @@ export async function smsSend(
 
   try {
     const client = getClient();
-    // Route through a specific line if AGENTPHONE_SMS_NUMBER_ID is set —
-    // the agent has multiple numbers attached (sms + iMessage + voice) and
-    // SMS sends need to go through the SMS-cleared line specifically.
-    // Currently +12609930296 (cmpa2lpuc0365jz00b996y1q6) is the 10DLC-
-    // cleared SMS number. Swap to +14126543597 iMessage line via env if
-    // the demo prefers blue-bubble.
-    const numberId = process.env.AGENTPHONE_SMS_NUMBER_ID;
+    // Source of truth: AGENTPHONE_SMS_NUMBER (E.164). When that line is an
+    // iMessage shared line the message renders as iMessage; when it's a
+    // 10DLC SMS line it renders as plain SMS. AgentPhone's shared-imessage
+    // lines enforce a per-line allowlist ("registered contacts on this
+    // shared line") that the project-level contacts API doesn't manage —
+    // sends to non-allowlisted destinations 403.
+    //
+    // Legacy AGENTPHONE_*_NUMBER_ID env vars (+ AGENTPHONE_PREFER_IMESSAGE)
+    // are kept as a fallback for back-compat with older demos and CI.
+    const numberId = await resolveSmsFromNumberId();
     const req: AgentPhone.SendMessageRequest = {
       agent_id: agentId,
       to_number: toNumber,

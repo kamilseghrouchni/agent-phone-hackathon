@@ -70,6 +70,58 @@ function sourceHref(value: unknown, target: string | undefined): string | null {
   return null;
 }
 
+/**
+ * Render an extracted field value with provenance:
+ *   - URL values → the value text itself is the clickable anchor
+ *   - Non-URL values → the value renders as text, followed by a visible
+ *     "source ↗" pill linking to the page the field was scraped from
+ *   - No href → plain text
+ *
+ * Replaces the easy-to-miss ↗ arrow that the audience kept overlooking.
+ */
+function ValueWithSource({
+  value,
+  target,
+}: {
+  value: unknown;
+  target: string | undefined;
+}) {
+  if (value == null || (Array.isArray(value) && value.length === 0)) {
+    return <>—</>;
+  }
+  if (isUrl(value)) {
+    const href = String(value);
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+        className="extracted-link"
+        title={href}
+      >
+        {href}
+      </a>
+    );
+  }
+  const href = target && /^https?:\/\//i.test(target) ? target : null;
+  return (
+    <>
+      {formatValue(value)}
+      {href ? (
+        <a
+          href={href}
+          target="_blank"
+          rel="noreferrer"
+          className="source-pill"
+          title={`Source: ${href}`}
+        >
+          source ↗
+        </a>
+      ) : null}
+    </>
+  );
+}
+
 function shortTime(iso: string): string {
   return iso.slice(11, 19);
 }
@@ -172,6 +224,22 @@ export function SessionPanel({ supplierId, states }: Props) {
             src={`data:image/jpeg;base64,${frameB64}`}
             alt={`Headless Chromium viewport — ${supplier.supplier.name}`}
           />
+        ) : isTerminal ? (
+          // Session ended without ever emitting a frame (e.g., page.goto
+          // threw before the first screenshot tick). Show the status +
+          // action-log preview here instead of the "booting" spinner so the
+          // user understands the session ran but produced no visual.
+          <div className="session-frame-empty mono-sm">
+            <div>Session {pip.label} — no live frame captured.</div>
+            {handle?.error && (
+              <div style={{ marginTop: 6, opacity: 0.8 }}>
+                {handle.error.slice(0, 200)}
+              </div>
+            )}
+            <div style={{ marginTop: 6, opacity: 0.7 }}>
+              Action log below has the full trace.
+            </div>
+          </div>
         ) : (
           <div className="session-frame-empty mono-sm">
             ↻ booting headless Chromium…
@@ -205,7 +273,6 @@ export function SessionPanel({ supplierId, states }: Props) {
             {FIELD_ORDER.map(({ key, label }) => {
               const v = extracted[key];
               const filled = v != null && (Array.isArray(v) ? v.length > 0 : String(v).length > 0);
-              const href = filled ? sourceHref(v, handle?.target_url) : null;
               return (
                 <div
                   key={key}
@@ -213,19 +280,7 @@ export function SessionPanel({ supplierId, states }: Props) {
                 >
                   <dt className="mono-sm">{label}</dt>
                   <dd>
-                    {formatValue(v)}
-                    {href ? (
-                      <a
-                        href={href}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="source-link"
-                        aria-label="View source page"
-                        title={href}
-                      >
-                        {" "}↗
-                      </a>
-                    ) : null}
+                    <ValueWithSource value={v} target={handle?.target_url} />
                   </dd>
                 </div>
               );

@@ -223,10 +223,19 @@ async function handleSms(evt: InboundSmsEvent): Promise<NextResponse> {
         payResult && typeof payResult === "object" && "ok" in (payResult as Record<string, unknown>) && (payResult as { ok: unknown }).ok,
       );
     } else if (pay.createDownPayment) {
+      // Sponge wallet is at $1 USDC. The demo settles ONE transfer per run,
+      // so default to $1 (the full remaining balance). Override via
+      // SPONGE_DEMO_AMOUNT_CENTS — but capped at 100 cents to avoid
+      // accidentally requesting more than the wallet holds.
+      const envCents = Number(process.env.SPONGE_DEMO_AMOUNT_CENTS);
+      const demoCents = Math.min(
+        100,
+        Number.isFinite(envCents) && envCents > 0 ? envCents : 100,
+      );
       const r = (await pay.createDownPayment({
         runId: pointer.run_id,
         supplierId: pointer.supplier_id,
-        amountCents: 1000,
+        amountCents: demoCents,
       })) as { ok?: boolean };
       payResult = r;
       paySucceeded = Boolean(r?.ok);

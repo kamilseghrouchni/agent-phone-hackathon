@@ -25,7 +25,8 @@ import { ConfirmStrip } from "@/components/Intake/ConfirmStrip";
 import { FullIntakeAccordion } from "@/components/Intake/FullIntakeAccordion";
 import { SearchPhase } from "@/components/Search/SearchPhase";
 import { SequenceTemplate } from "@/components/Chain/SequenceTemplate";
-import { StageControls } from "@/components/Chain/StageControls";
+// StageControls cockpit removed — actions stream naturally one after
+// another via Timeline. No manual fire buttons in the demo.
 import { Timeline } from "@/components/Chain/Timeline";
 import { SupplierCardsGrid } from "@/components/Enrich/SupplierCardsGrid";
 import { SessionPanel } from "@/components/Enrich/SessionPanel";
@@ -33,7 +34,6 @@ import { SupplierDetail } from "@/components/Enrich/SupplierDetail";
 import { ClimaxView, type ClimaxMode } from "@/components/Output/ClimaxView";
 import type { EnrichSupplierState } from "@/lib/agents/enrich";
 import type { ChainState } from "@/types/chain";
-import type { SupplierEvidence } from "@/types/evidence";
 
 type Step = "parse" | "clarify" | "running" | "results";
 type IntakePhase = "confirm" | "search" | "enrich" | "chain";
@@ -573,10 +573,12 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
   const [activeSupplierId, setActiveSupplierId] = useState<string | null>(null);
   const [openedSupplierId, setOpenedSupplierId] = useState<string | null>(null);
   // Right-pane view mode for the opened supplier — Detail (data we have) or
-  // Live session (Chromium frame stream + action log). Detail is the default
-  // when the user clicks the card name.
+  // Live session (Chromium frame stream + action log). Live is the default
+  // when the user opens a scraping supplier; we auto-fall back to Detail
+  // when there is no session yet (directory-only suppliers like crovi.bio,
+  // or before the first SSE frame lands).
   const [rightPaneView, setRightPaneView] = useState<"detail" | "session">(
-    "detail",
+    "session",
   );
   const [enrichStarted, setEnrichStarted] = useState(false);
   const [selectedChainSuppliers, setSelectedChainSuppliers] = useState<string[]>([]);
@@ -584,6 +586,10 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
   // Chain state — driven by SSE, not a fixture.
   const [chainState, setChainState] = useState<ChainState | null>(null);
   const [chainStarted, setChainStarted] = useState(false);
+  // When the user launches via direct supplier click (auto-launch path), we
+  // skip the intermediate "▶ Launch sequence" confirmation screen and fire
+  // chain/start on chain-phase entry. The flag also drives the heading copy.
+  const [chainAutoFire, setChainAutoFire] = useState(false);
 
   // Climax/Lineage right-pane toggle (active once Stage 5 lands).
   const [climaxMode, setClimaxMode] = useState<ClimaxMode>("documents");
@@ -660,17 +666,37 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
         }
         const data = (await r.json()) as { states: EnrichSupplierState[] };
         setEnrichStates(data.states ?? []);
-        // Auto-focus the first scraping session for the audience.
-        const firstScrape = (data.states ?? []).find((s) => s.session);
-        if (firstScrape) setActiveSupplierId(firstScrape.supplier.supplier_id);
-        // Default-open RefMed (the inventory hero card) so the right pane is
-        // never empty when enrichment lands.
+        // Auto-focus the first scraping session for the audience — this is
+        // the supplier whose live Chromium frames stream into the right
+        // pane on first paint. The Live pane is the demo's load-bearing
+        // surface, so we prefer a supplier that CAN have a session
+        // (enrichment_mode !== 'directory') over the directory-only refmed
+        // inventory card. We deliberately do NOT key on `.session` here:
+        // enrich/start may return before the headless browser has booted
+        // its first handle, leaving `.session` null even for scrape
+        // suppliers, which used to silently drop us into Detail.
+        const firstScrape = (data.states ?? []).find(
+          (s) => s.supplier.enrichment_mode !== "directory",
+        );
         const refmed = (data.states ?? []).find(
           (s) => s.supplier.supplier_id === "refmed",
         );
         const firstAny = (data.states ?? [])[0];
-        const initialOpen = refmed ?? firstAny;
-        if (initialOpen) setOpenedSupplierId(initialOpen.supplier.supplier_id);
+        // Pane open priority: first scrape-capable supplier (Live can
+        // render) → refmed (inventory hero) → first available. Whichever
+        // wins, set the matching rightPaneView so the user lands on a
+        // usable pane, not a "No session selected" placeholder.
+        const initialOpen = firstScrape ?? refmed ?? firstAny;
+        if (initialOpen) {
+          const id = initialOpen.supplier.supplier_id;
+          setOpenedSupplierId(id);
+          if (initialOpen.supplier.enrichment_mode !== "directory") {
+            setActiveSupplierId(id);
+            setRightPaneView("session");
+          } else {
+            setRightPaneView("detail");
+          }
+        }
       } catch (e) {
         // eslint-disable-next-line no-console
         console.warn("enrich/start error", e);
@@ -678,25 +704,52 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
     })();
   }, [phase, intake, enrichStarted, runId]);
 
-  // Chain fire is now MANUAL — user clicks "Launch sequence" in the chain
-  // phase UI. (Previously auto-fired on phase entry; that made the run
-  // start before the audience could see the chrome, and re-firing on
-  // refresh was awkward. The Launch button below owns this now.)
+  // Chain fire — auto when the user single-click-launched a supplier from
+  // the enrich grid, manual when they hit the chain phase via the legacy
+  // "Launch sequence on selected (N)" multi-select button. The autoFire
+  // path is the smoother default; the manual button is preserved as a
+  // safety net for the multi-select flow.
   const launchChain = async () => {
     if (chainStarted) return;
     setChainStarted(true);
     const supplierId = selectedChainSuppliers[0] ?? "crovi_bio";
     try {
-      await fetch("/api/chain/start", {
+      const r = await fetch("/api/chain/start", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ runId, supplierId }),
       });
+      // Hydrate chainState immediately from the response so the Timeline
+      // mounts without a "Starting sequence…" gap — chain/start returns
+      // synchronously with form already complete and call in_progress
+      // (form fast-paths in <50ms; call is fire-and-forget on the same
+      // request).
+      if (r.ok) {
+        try {
+          const data = (await r.json()) as { chain?: ChainState };
+          if (data.chain) setChainState(data.chain);
+        } catch {
+          // SSE will fill in
+        }
+      }
     } catch (e) {
       console.warn("chain/start error", e);
       setChainStarted(false);
     }
   };
+
+  // Auto-launch the chain the moment we land in the chain phase via direct
+  // supplier click. Idempotent — guarded by chainStarted + chainAutoFire.
+  useEffect(() => {
+    if (phase !== "chain") return;
+    if (!chainAutoFire) return;
+    if (chainStarted) return;
+    if (selectedChainSuppliers.length === 0) return;
+    void launchChain();
+    // launchChain is stable enough for this — it only reads refs / state
+    // that don't change between renders of the same phase.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, chainAutoFire, chainStarted, selectedChainSuppliers]);
 
   // SSE: subscribe to live ChainState updates once we're in chain phase.
   useEffect(() => {
@@ -738,17 +791,6 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
     if (meetingComplete) setClimaxMode("documents");
   }, [meetingComplete]);
 
-  // Provenance click — toggle to lineage view + scroll to the matching event.
-  const handleProvenanceClick = (eventId: string) => {
-    setClimaxMode("lineage");
-    // Defer the scroll until after the lineage view re-renders.
-    requestAnimationFrame(() => {
-      const el =
-        document.getElementById(eventId) ||
-        document.querySelector(`[data-event-id="${eventId}"]`);
-      el?.scrollIntoView({ behavior: "smooth", block: "center" });
-    });
-  };
 
   if (loadError) {
     return (
@@ -872,11 +914,40 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                   setRightPaneView("session");
                 }}
                 onOpen={(id) => {
+                  // CONTRACT — onOpen ONLY mutates the right-pane preview.
+                  // It MUST NOT call setPhase, setSelectedChainSuppliers, or
+                  // setChainAutoFire. The Live session pane is the demo's
+                  // load-bearing surface during enrichment; routing onOpen
+                  // to the chain phase removes the user's ability to scan
+                  // suppliers in Live and is a regression — see the
+                  // "Restore Live session pane" task.
+                  //
+                  // Launch path lives ONLY in `onLaunch` below (the explicit
+                  // "Launch sequence on selected" button). Inspect path is
+                  // here + the ▣ pip (onPipClick).
                   setOpenedSupplierId(id);
-                  setRightPaneView("detail");
+                  const opened = enrichStates.find(
+                    (s) => s.supplier.supplier_id === id,
+                  );
+                  // BUGFIX — gate on supplier capability (enrichment_mode),
+                  // NOT on the stale `.session` field. `enrichStates` is
+                  // seeded once from /api/enrich/start; per-supplier SSE
+                  // updates live inside SupplierCardsGrid + SessionPanel and
+                  // never propagate back here. Using `!!opened?.session`
+                  // means a scrape supplier whose session hadn't booted
+                  // when enrich/start returned would forever look like a
+                  // directory entry and the Live tab would stay disabled.
+                  const canShowLive =
+                    !!opened && opened.supplier.enrichment_mode !== "directory";
+                  setRightPaneView(canShowLive ? "session" : "detail");
+                  if (canShowLive) setActiveSupplierId(id);
                 }}
                 onLaunch={(ids) => {
+                  // The ONLY path that launches the chain from the enrich
+                  // grid. Single-select or multi-select, the user always
+                  // goes through this button — never through onOpen.
                   setSelectedChainSuppliers(ids);
+                  setChainAutoFire(true);
                   setPhase("chain");
                 }}
                 activeSupplierId={activeSupplierId}
@@ -900,12 +971,18 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                     setRightPaneView("session");
                     if (openedSupplierId) setActiveSupplierId(openedSupplierId);
                   }}
+                  // BUGFIX — same as onOpen: derive availability from
+                  // supplier capability, not from the stale `.session`
+                  // snapshot. Scrape suppliers (enrichment_mode !== 'directory')
+                  // can always show the Live tab — SessionPanel itself
+                  // handles the booting / live / terminal states from its
+                  // own SSE subscription.
                   disabled={
                     !openedSupplierId ||
                     !enrichStates.find(
                       (s) =>
                         s.supplier.supplier_id === openedSupplierId &&
-                        !!s.session,
+                        s.supplier.enrichment_mode !== "directory",
                     )
                   }
                   title="Live Chromium session"
@@ -934,17 +1011,17 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
 
         {phase === "chain" && (
           <div className="iw-chain">
-            {!chainState || chainState.stages.form.status === "ready" ? (
+            {(!chainState || chainState.stages.form.status === "ready") &&
+            !chainAutoFire ? (
               <div className="iw-chain-launch">
                 <h2>Launch sequence</h2>
                 <p>
                   Drives: <strong>form-fill on crovi.bio</strong> → <strong>call your phone</strong> with
-                  the Crovi-AI operator → <strong>email contract to {`<your inbox>`}</strong> → <strong>SMS + $10 down-payment stub</strong> → <strong>book meeting on Notion calendar</strong>.
+                  the Crovi-AI operator → <strong>email contract to {`<your inbox>`}</strong> → on your "I agree" reply: <strong>Sponge $1 USDC wire + SMS receipt + Notion meeting</strong> fire in parallel.
                 </p>
                 <p className="iw-chain-launch-hint">
-                  Each stage cascades automatically on real wire events (call.completed,
-                  email reply, SMS CONFIRMED). You can also fire any stage in isolation
-                  from the stage cockpit once launched.
+                  Every action chains to the next as soon as the previous one lands —
+                  no manual buttons, no waiting. Total runtime under a minute.
                 </p>
                 <button
                   type="button"
@@ -954,6 +1031,16 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                 >
                   {chainStarted ? "Starting…" : "▶ Launch sequence"}
                 </button>
+              </div>
+            ) : !chainState ? (
+              <div className="iw-chain-launch">
+                <h2>
+                  <span className="live-dot" /> Starting sequence…
+                </h2>
+                <p className="iw-chain-launch-hint">
+                  Stage 1 form-fill is opening. The cockpit will appear as soon as
+                  the first wire event lands.
+                </p>
               </div>
             ) : (
               <>
@@ -970,22 +1057,15 @@ function IntakeWorkspace({ runId, initialPhase }: { runId: string; initialPhase:
                   )}
                 </div>
                 {meetingComplete && climaxMode === "documents" ? (
-                  <ClimaxView
-                    intake={intake}
-                    evidence={[] as SupplierEvidence[]}
-                    chain={chainState}
-                    selectedSupplierIds={selectedChainSuppliers.length ? selectedChainSuppliers : [chainState.supplier_id]}
-                    onProvenanceClick={handleProvenanceClick}
-                  />
+                  <ClimaxView chain={chainState} />
                 ) : (
-                  <>
-                    <StageControls
-                      runId={runId}
-                      chain={chainState}
-                      supplierId={chainState.supplier_id}
-                    />
-                    <Timeline chain={chainState} runId={runId} />
-                  </>
+                  // No more StageControls cockpit. The Timeline shows
+                  // events streaming in naturally as each stage fires —
+                  // form completes instantly, call fires, email lands,
+                  // SMS + Sponge + meeting fan out on agree. The user
+                  // shouldn't see "manual fire" buttons because the
+                  // demo's whole point is that nothing is manual.
+                  <Timeline chain={chainState} runId={runId} />
                 )}
               </>
             )}

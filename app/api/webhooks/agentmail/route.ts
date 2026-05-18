@@ -9,14 +9,13 @@ import { parseInboundWebhook } from "@/lib/integrations/agentmail";
 import { getSupplier } from "@/lib/data/suppliers";
 import { handleInbound } from "@/lib/agents/correspond";
 import {
-  buildHandlersForRun,
+  fanoutOnEmailAgree,
   isEmailAgreeReply,
 } from "@/lib/agents/runtime/build-handlers";
 import {
   loadChainState,
   appendEvent,
   saveChainState,
-  completeStage,
 } from "@/lib/agents/runtime/chain-runtime";
 
 function findRunBySupplierThread(threadId: string): { runId: string; supplierId: string } | null {
@@ -106,12 +105,10 @@ export async function POST(req: NextRequest) {
 
     if (isEmailAgreeReply(reply.text ?? "")) {
       try {
-        const handlers = buildHandlersForRun(found.runId);
-        await completeStage(
-          live,
-          { stage: "email", kind: "replied_yes" },
-          handlers,
-        );
+        // Skip the old completeStage(email, replied_yes) → fireSmsPay path.
+        // Email agree now fans out to Sponge wire + SMS notification +
+        // meeting all in parallel (no CONFIRMED gate).
+        await fanoutOnEmailAgree(found.runId, live);
         cascaded = true;
       } catch {
         // best-effort; webhook returns success either way

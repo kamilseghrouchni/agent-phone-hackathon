@@ -74,7 +74,7 @@ export function buildHandlersForRun(runId: string): ChainHandlers {
         ],
       },
       smsBody:
-        "Crovi.bio contract drafted — reply CONFIRMED to authorize $10 goodwill down payment and lock allocation.",
+        "Crovi.bio contract drafted — reply CONFIRMED to authorize $1 goodwill down payment and lock allocation.",
     },
     {
       fireEmail: async (state) => {
@@ -109,13 +109,12 @@ async function fireEmailStage(state: ChainState, runId: string): Promise<void> {
   const body = [
     `Hi ${CROVI_BIO.contact.bd_name ?? "Crovi.bio BD"},`,
     ``,
-    `Per our call, attached is the filled intake and a benchmarked quote for ${studyName} (${sponsorName}).`,
+    `Per our call, here's the filled intake + benchmarked quote for ${studyName} (${sponsorName}).`,
     ``,
     `Scope: 150 plasma + 75 matched FFPE/slides, Stage III-IV NSCLC,`,
     `EGFR/KRAS/ALK enriched. Total $213,750 (11% below industry median).`,
     ``,
-    `Terms: 30 days validity, $10 goodwill down payment via Sponge to lock allocation.`,
-    `Reply "I agree" to proceed.`,
+    `Reply "I agree" to lock allocation — funds wire and meeting auto-book on your reply.`,
     ``,
     `— Crovi Agent on behalf of ${sponsorName}`,
   ].join("\n");
@@ -147,6 +146,13 @@ async function fireEmailStage(state: ChainState, runId: string): Promise<void> {
       },
     });
     state.stages.email.artifact_id = sent.message_id;
+    // Localhost has no public webhook URL → AgentMail's reply webhook
+    // doesn't reach us. The poller below hits threads.get(thread_id)
+    // every 5s and treats each newly-seen inbound message exactly like
+    // the webhook would: append + cascade-on-agree.
+    if (sent.thread_id && !sent.thread_id.startsWith("unknown_")) {
+      startEmailReplyPoller(runId, sent.thread_id);
+    }
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
     appendEvent(state, "email", {
@@ -225,7 +231,7 @@ async function fireMeetingStage(
           const meetingOk = result.ok;
           const summary = [
             `Procurement chain completed for ${live.supplier_id}.`,
-            `Outcomes: call=${callOk ? "ok" : "skipped"} email=${emailOk ? "agreed" : "n/a"} sms_pay=${smsOk ? "settled $10" : "stub"} meeting=${meetingOk ? "booked" : "partial"}.`,
+            `Outcomes: call=${callOk ? "ok" : "skipped"} email=${emailOk ? "agreed" : "n/a"} sms_pay=${smsOk ? "settled $1" : "stub"} meeting=${meetingOk ? "booked" : "partial"}.`,
             `Scope: 150 plasma + 75 FFPE, Stage III-IV NSCLC, budget $188K-$240K.`,
           ].join(" ");
           await supermemory.writeChainCompletion({
@@ -280,12 +286,146 @@ async function fireMeetingStage(
   saveChainState(state);
 }
 
-/** Best-effort agree-detector for the email-reply webhook. */
+/**
+ * Email-agree fanout — fires Sponge transfer + SMS notification + meeting
+ * IN PARALLEL when the supplier agrees to the contract.
+ *
+ * Replaces the old SMS-CONFIRMED gate. The user explicitly didn't want a
+ * goodwill-confirmation step — agreeing to the contract is consent. We
+ * now:
+ *   1. Mark email complete
+ *   2. Fire Sponge USDC transfer (real $1 wire, see sponge.ts)
+ *   3. Send SMS as a NOTIFICATION ("✓ Allocation locked, $X settled")
+ *   4. Fire meeting in parallel with #2 and #3 — calendar Playwright needs
+ *      the runway and can't wait for SMS round-trips
+ *
+ * Both the agentmail webhook AND the email-reply poller call this when
+ * isEmailAgreeReply returns true. Idempotent — safe to call twice (each
+ * leg checks state and no-ops if already complete).
+ */
+export async function fanoutOnEmailAgree(
+  runId: string,
+  state: ChainState,
+): Promise<void> {
+  // 1. Mark email complete (idempotent).
+  const now = new Date().toISOString();
+  if (state.stages.email.status !== "complete") {
+    state.stages.email.status = "complete";
+    state.stages.email.completed_at = now;
+    saveChainState(state);
+  }
+
+  // 2 + 3 + 4: launch all in parallel.
+  const handlers = buildHandlersForRun(runId);
+  const tasks: Array<Promise<unknown>> = [];
+
+  if (state.stages.sms_pay.status !== "complete") {
+    tasks.push(fireSpongeAndNotify(runId));
+  }
+  if (state.stages.meeting.status !== "complete") {
+    tasks.push(Promise.resolve(handlers.fireMeeting(state)));
+  }
+
+  await Promise.allSettled(tasks);
+}
+
+/**
+ * Stage 4 fast path — Sponge USDC transfer + outbound SMS notification.
+ * The Sponge call writes the wire event and marks sms_pay complete
+ * itself (see lib/integrations/sponge.ts createDownPayment). After
+ * settlement we send a notification SMS with the Solscan link so the
+ * buyer sees the chain hash in their messages app.
+ */
+async function fireSpongeAndNotify(runId: string): Promise<void> {
+  const initial = loadChainState(runId);
+  if (!initial) return;
+  if (initial.stages.sms_pay.status === "complete") return;
+
+  initial.stages.sms_pay.status = "in_progress";
+  initial.stages.sms_pay.started_at = new Date().toISOString();
+  saveChainState(initial);
+
+  const envCents = Number(process.env.SPONGE_DEMO_AMOUNT_CENTS);
+  const amountCents = Math.min(
+    100,
+    Number.isFinite(envCents) && envCents > 0 ? envCents : 100,
+  );
+
+  const { createDownPayment } = await import("@/lib/integrations/sponge");
+  const tx = await createDownPayment({
+    runId,
+    supplierId: initial.supplier_id,
+    amountCents,
+  });
+
+  // After Sponge: re-read state (createDownPayment mutates it) and append
+  // an outbound SMS notification with the tx hash / solscan url.
+  const after = loadChainState(runId);
+  if (!after) return;
+
+  let solscanUrl: string | undefined;
+  let txHash: string | undefined;
+  for (const e of after.stages.sms_pay.events) {
+    const p = e.payload as
+      | { solscanUrl?: string; txHash?: string; transferId?: string }
+      | undefined;
+    if (p?.solscanUrl || p?.txHash || p?.transferId) {
+      solscanUrl = p.solscanUrl;
+      txHash = p.txHash ?? p.transferId;
+      break;
+    }
+  }
+  const amountUsd = (amountCents / 100).toFixed(2);
+  const body = tx.ok
+    ? solscanUrl
+      ? `✓ Allocation locked — $${amountUsd} USDC settled via Sponge. ${solscanUrl}`
+      : `✓ Allocation locked — $${amountUsd} USDC settled via Sponge${txHash ? ` (tx ${txHash.slice(0, 10)}…)` : ""}.`
+    : `Sponge transfer failed. We'll retry shortly.`;
+
+  try {
+    const { smsSend } = await import("@/lib/integrations/agentphone");
+    const sms = await smsSend(BUYER_PHONE, body);
+    appendEvent(after, "sms_pay", {
+      event_id: `sms_pay:notify:${sms.sms_id}`,
+      timestamp: sms.sent_at,
+      direction: "outbound",
+      actor: "agent",
+      channel: "sms",
+      text: body,
+      payload: { sms_id: sms.sms_id, mode: sms.mode, error: sms.error },
+    });
+    saveChainState(after);
+  } catch (err) {
+    // SMS down — Sponge already settled, log and move on. Meeting is
+    // already firing in parallel.
+    appendEvent(after, "sms_pay", {
+      event_id: `sms_pay:notify:failed_${Date.now()}`,
+      timestamp: new Date().toISOString(),
+      direction: "system",
+      actor: "agent",
+      channel: "sms",
+      text: `SMS notification failed: ${err instanceof Error ? err.message : String(err)}`,
+    });
+    saveChainState(after);
+  }
+}
+
+/** Best-effort agree-detector for the email-reply webhook + poller.
+ *
+ * Broad on purpose — BD replies are noisy and the demo can't bounce on
+ * phrasing. Matches: i agree, agree, agreed, approve, approved, confirm,
+ * confirmed, yes / ya / yep / yeah (standalone OK), ok / okay, sure,
+ * sounds good, lgtm, go (let's go / go ahead), perfect, great.
+ *
+ * Explicit no-detector wins so "no", "not now", "decline" don't false-fire.
+ */
 export function isEmailAgreeReply(body: string): boolean {
-  // "I agree" / "agree" / "yes" / "approved" / "confirmed" — broad on purpose
-  // so the demo doesn't bounce on phrasing nuances.
-  return /\b(i\s*agree|agreed?|approved|confirm(ed)?|yes,?\s*proceed|go\s+ahead)\b/i.test(
-    body,
+  const text = body.toLowerCase();
+  if (/\b(no\b|nope|not\s+(now|interested|today)|declin|reject|pass\b|hold\s+off)/i.test(text)) {
+    return false;
+  }
+  return /\b(i\s*agree|agreed?|approved?|confirm(ed)?|yes\b|yep\b|yeah\b|ya\b|ok(ay)?\b|sure\b|sounds?\s+good|lgtm|let'?s\s+(go|do)|go\s+ahead|perfect\b|great\b|👍|🤝)/i.test(
+    text,
   );
 }
 
@@ -308,8 +448,11 @@ export function isEmailAgreeReply(body: string): boolean {
 // ---------------------------------------------------------------------------
 
 const ACTIVE_POLLERS = new Map<string, NodeJS.Timeout>();
-const POLL_INTERVAL_MS = 5_000;
-const MAX_POLL_DURATION_MS = 10 * 60 * 1000; // 10 min ceiling per call
+const POLL_INTERVAL_MS = 3_000;
+// Demo budget: the call prompt caps at 20s. We give the poller 60s to
+// catch the post-call terminal status — anything past that, we cascade
+// to email as fallback so the chain doesn't visibly stall.
+const MAX_POLL_DURATION_MS = 60 * 1000;
 
 export function startCallCompletionPoller(
   runId: string,
@@ -330,7 +473,35 @@ export function startCallCompletionPoller(
     inFlight = true;
     try {
       if (Date.now() - startedAt > MAX_POLL_DURATION_MS) {
+        // Soft timeout: chain must keep moving for the demo. Mark the call
+        // as a no-answer fallback and cascade to email so the audience sees
+        // forward progress instead of a permanently spinning Stage 2.
         stopPoller(key);
+        const stalled = loadChainState(runId);
+        if (stalled) {
+          const completedAt = new Date().toISOString();
+          appendEvent(stalled, "call", {
+            event_id: `call:${callId}:timeout`,
+            timestamp: completedAt,
+            direction: "system",
+            actor: "agent",
+            channel: "call",
+            text: `Call did not reach a terminal status within ${Math.round(MAX_POLL_DURATION_MS / 1000)}s — treating as no-answer and cascading to email.`,
+          });
+          stalled.stages.call.artifact_id = callId;
+          stalled.stages.call.completed_at = completedAt;
+          stalled.stages.call.status = "fallback";
+          saveChainState(stalled);
+          const { completeStage } = await import(
+            "@/lib/agents/runtime/chain-runtime"
+          );
+          const handlers = buildHandlersForRun(runId);
+          await completeStage(
+            stalled,
+            { stage: "call", kind: "no_answer" },
+            handlers,
+          );
+        }
         return;
       }
       const { getCall, getCallTranscript } = await import(
@@ -508,4 +679,119 @@ function stopPoller(key: string): void {
     clearInterval(h);
     ACTIVE_POLLERS.delete(key);
   }
+}
+
+// ---------------------------------------------------------------------------
+// Email-reply poller — the no-webhook fallback path (mirror of the call
+// poller above).
+//
+// AgentMail's inbound webhook needs a public URL; on localhost without
+// ngrok, replies never reach us → Stage 3 hangs forever even when the
+// supplier replied "yes". This poller hits threads.get(thread_id) every
+// 8s, walks new inbound messages we haven't threaded yet, appends each to
+// the email stage timeline, and cascades to Stage 4 on the first
+// agree-flavoured reply (same isEmailAgreeReply check the webhook uses).
+//
+// One active poller per (runId, threadId). 5-minute ceiling per thread.
+// ---------------------------------------------------------------------------
+
+// 3s tick so the cascade fires within seconds of an "I agree" reply (was 8s
+// — 8s of lag during the demo's climax beat felt dead). 30-min ceiling so we
+// don't time out if the supplier takes their time to reply (was 5 min, which
+// silently killed the poller mid-demo).
+const EMAIL_POLL_INTERVAL_MS = 3_000;
+const EMAIL_MAX_POLL_DURATION_MS = 30 * 60 * 1000;
+const PROCESSED_INBOUND_IDS = new Map<string, Set<string>>(); // runId → set
+
+export function startEmailReplyPoller(runId: string, threadId: string): void {
+  const key = `email:${runId}:${threadId}`;
+  if (ACTIVE_POLLERS.has(key)) return;
+  // Seed the processed set with any inbound message_ids we already threaded
+  // (so a re-start after a hot reload doesn't double-fire).
+  const seen = PROCESSED_INBOUND_IDS.get(runId) ?? new Set<string>();
+  const live = loadChainState(runId);
+  if (live) {
+    for (const e of live.stages.email.events) {
+      if (e.direction === "inbound") {
+        const id = (e.payload as { message_id?: string } | undefined)?.message_id;
+        if (id) seen.add(id);
+      }
+    }
+  }
+  PROCESSED_INBOUND_IDS.set(runId, seen);
+
+  const startedAt = Date.now();
+  let inFlight = false;
+
+  const tick = async () => {
+    if (inFlight) return;
+    inFlight = true;
+    try {
+      if (Date.now() - startedAt > EMAIL_MAX_POLL_DURATION_MS) {
+        stopPoller(key);
+        return;
+      }
+      const { getThread } = await import("@/lib/integrations/agentmail");
+      const thread = await getThread(threadId);
+      if (!thread) return;
+
+      const cur = loadChainState(runId);
+      if (!cur) return;
+      if (cur.stages.email.status === "complete") {
+        stopPoller(key);
+        return;
+      }
+
+      const processed = PROCESSED_INBOUND_IDS.get(runId) ?? new Set<string>();
+      const fresh = thread.messages.filter((m) => {
+        if (processed.has(m.messageId)) return false;
+        const labels = (m.labels as unknown as string[]) ?? [];
+        // Only inbound — sent messages have "sent" in labels, received have
+        // "received" or "inbox". Be permissive: anything NOT-labeled "sent"
+        // and from outside our own inbox counts as inbound.
+        const isSent = labels.some((l) => /sent/i.test(l));
+        return !isSent;
+      });
+      if (fresh.length === 0) return;
+
+      let agreed = false;
+      for (const m of fresh) {
+        processed.add(m.messageId);
+        const text =
+          m.extractedText ?? m.text ?? m.preview ?? "";
+        appendEvent(cur, "email", {
+          event_id: `email:inbound:${m.messageId}`,
+          timestamp: m.timestamp ?? new Date().toISOString(),
+          direction: "inbound",
+          actor: "supplier",
+          channel: "email",
+          text: text.slice(0, 400),
+          payload: { thread_id: threadId, from: m.from, message_id: m.messageId },
+        });
+        if (isEmailAgreeReply(text)) agreed = true;
+      }
+      saveChainState(cur);
+      PROCESSED_INBOUND_IDS.set(runId, processed);
+
+      if (agreed) {
+        stopPoller(key);
+        // Skip the old completeStage(email, replied_yes) → fireSmsPay path.
+        // Email agree now fans out to Sponge wire + SMS notification +
+        // meeting all in parallel (no CONFIRMED gate).
+        await fanoutOnEmailAgree(runId, cur);
+      }
+    } catch {
+      // best-effort; next tick will retry
+    } finally {
+      inFlight = false;
+    }
+  };
+
+  const handle = setInterval(() => {
+    void tick();
+  }, EMAIL_POLL_INTERVAL_MS);
+  ACTIVE_POLLERS.set(key, handle);
+  // Fire one tick immediately so a fast supplier reply lands without an
+  // 8-second wait.
+  void tick();
 }
