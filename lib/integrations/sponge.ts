@@ -35,20 +35,36 @@ function env(name: string): string | undefined {
 }
 
 export function spongeConfigured(): boolean {
-  return Boolean(env("SPONGE_API_KEY"));
+  return Boolean(env("SPONGE_API_KEY_SENDER") ?? env("SPONGE_API_KEY"));
 }
 
 function mcpUrl(): string {
   return env("SPONGE_MCP_URL") ?? "https://api.wallet.paysponge.com/mcp";
 }
 
+/**
+ * Auth key for outbound transfers. Prefers SPONGE_API_KEY_SENDER (the
+ * Hackathon-agent key that owns the funded wallet); falls back to the legacy
+ * SPONGE_API_KEY for older configs. See docs/sponge-integration.md.
+ */
 function apiKey(): string {
-  const k = env("SPONGE_API_KEY");
+  const k = env("SPONGE_API_KEY_SENDER") ?? env("SPONGE_API_KEY");
   if (!k) {
-    // TODO: surface missing SPONGE_API_KEY in onboarding doctor.
-    throw new Error("SPONGE_API_KEY is not set");
+    throw new Error(
+      "SPONGE_API_KEY_SENDER (or legacy SPONGE_API_KEY) is not set — cannot sign transfers",
+    );
   }
   return k;
+}
+
+/** Default chain for outbound transfers. Solana is the funded chain for the demo. */
+function defaultChain(): string {
+  return env("SPONGE_CHAIN") ?? "solana";
+}
+
+/** Default token. USDC is what the Hackathon agent holds. */
+function defaultToken(): string {
+  return env("SPONGE_TOKEN") ?? "USDC";
 }
 
 function webhookSecret(): string {
@@ -79,7 +95,70 @@ function resolveToWallet(supplierId: string): string | undefined {
 
 // ---- MCP JSON-RPC plumbing -------------------------------------------------
 
-const MCP_PROTOCOL_VERSION = "2025-06-18";
+// Sponge advertises support for this protocol version; older "2025-06-18"
+// negotiates but skips some streamable-HTTP features.
+const MCP_PROTOCOL_VERSION = "2025-03-26";
+
+// Sponge's Streamable-HTTP MCP server requires an initialize handshake before
+// any tool call. The session id from the initialize response must accompany
+// every subsequent request. We cache the session per process; on auth error
+// we drop the cache and re-init.
+let _sessionId: string | null = null;
+let _sessionPromise: Promise<void> | null = null;
+
+async function ensureSession(): Promise<void> {
+  if (_sessionId) return;
+  if (_sessionPromise) return _sessionPromise;
+  _sessionPromise = (async () => {
+    const initRes = await fetch(mcpUrl(), {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey()}`,
+        "Content-Type": "application/json",
+        Accept: "application/json, text/event-stream",
+        "MCP-Protocol-Version": MCP_PROTOCOL_VERSION,
+      },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        id: nextId(),
+        method: "initialize",
+        params: {
+          protocolVersion: MCP_PROTOCOL_VERSION,
+          capabilities: {},
+          clientInfo: { name: "crovi-chain", version: "0.1.0" },
+        },
+      }),
+    });
+    const sid =
+      initRes.headers.get("mcp-session-id") ??
+      initRes.headers.get("Mcp-Session-Id");
+    if (!sid) {
+      throw new Error("Sponge MCP initialize did not return Mcp-Session-Id");
+    }
+    _sessionId = sid;
+    // Drain the init response body so the connection cleans up.
+    await initRes.text().catch(() => "");
+    // Fire-and-forget notifications/initialized per MCP spec.
+    await fetch(mcpUrl(), {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey()}`,
+        "Content-Type": "application/json",
+        Accept: "application/json, text/event-stream",
+        "MCP-Protocol-Version": MCP_PROTOCOL_VERSION,
+        "Mcp-Session-Id": sid,
+      },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        method: "notifications/initialized",
+        params: {},
+      }),
+    }).catch(() => {});
+  })().finally(() => {
+    _sessionPromise = null;
+  });
+  return _sessionPromise;
+}
 
 interface JsonRpcSuccess<T> {
   jsonrpc: "2.0";
@@ -110,29 +189,40 @@ async function mcpCall<T = McpToolCallResult>(
   method: string,
   params: Record<string, unknown>,
 ): Promise<T> {
-  const res = await fetch(mcpUrl(), {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey()}`,
-      "Content-Type": "application/json",
-      Accept: "application/json, text/event-stream",
-      "MCP-Protocol-Version": MCP_PROTOCOL_VERSION,
-    },
-    body: JSON.stringify({
-      jsonrpc: "2.0",
-      id: nextId(),
-      method,
-      params,
-    }),
-  });
+  await ensureSession();
+  const doFetch = async () =>
+    fetch(mcpUrl(), {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey()}`,
+        "Content-Type": "application/json",
+        Accept: "application/json, text/event-stream",
+        "MCP-Protocol-Version": MCP_PROTOCOL_VERSION,
+        ...(_sessionId ? { "Mcp-Session-Id": _sessionId } : {}),
+      },
+      body: JSON.stringify({
+        jsonrpc: "2.0",
+        id: nextId(),
+        method,
+        params,
+      }),
+    });
+
+  let res = await doFetch();
+  // If the session expired, drop it and retry once.
+  if (res.status === 400 || res.status === 401) {
+    const peek = await res.clone().text().catch(() => "");
+    if (/session/i.test(peek)) {
+      _sessionId = null;
+      await ensureSession();
+      res = await doFetch();
+    }
+  }
 
   const ctype = res.headers.get("content-type") ?? "";
-  // Streamable-HTTP MCP servers may answer either application/json or
-  // text/event-stream. For a single tool call the response is one event.
   let body: JsonRpcResponse<T>;
   if (ctype.includes("text/event-stream")) {
     const text = await res.text();
-    // Pick the first `data: ` line that parses as JSON-RPC.
     const dataLine = text
       .split(/\r?\n/)
       .map((l) => l.trim())
@@ -188,9 +278,11 @@ export interface CreateTransferOptions {
 }
 
 /**
- * Call Sponge's wallet transfer tool. Tries the canonical `wallet.transfer`
- * name; if that returns method-not-found, retries with `wallet_transfer` so
- * we work against both common MCP naming conventions.
+ * Call Sponge's `transfer` tool. Sender wallet is implicit (determined by the
+ * API key the MCP session was opened with — SPONGE_API_KEY_SENDER). The
+ * `fromWallet` arg is retained for backwards compatibility with the legacy
+ * signature but is only used as a sanity assertion against
+ * SPONGE_WALLET_FROM. See docs/sponge-integration.md.
  */
 export async function createTransfer(
   amountCents: number,
@@ -201,61 +293,51 @@ export async function createTransfer(
   if (!Number.isFinite(amountCents) || amountCents <= 0) {
     throw new Error(`createTransfer: amountCents must be > 0, got ${amountCents}`);
   }
-  if (!fromWallet) throw new Error("createTransfer: fromWallet required");
   if (!toWallet) throw new Error("createTransfer: toWallet required");
 
-  const args: Record<string, unknown> = {
-    amount_cents: Math.round(amountCents),
-    amount: Math.round(amountCents),         // many MCP servers accept both
-    currency: opts.currency ?? "usd",
-    from: fromWallet,
-    to: toWallet,
-    from_wallet: fromWallet,
-    to_wallet: toWallet,
-  };
-  if (opts.memo) args.memo = opts.memo;
-  if (opts.metadata) args.metadata = opts.metadata;
-  if (opts.idempotencyKey) args.idempotency_key = opts.idempotencyKey;
+  const chain = defaultChain();
+  const token = defaultToken();
+  // Sponge expects a human-readable amount string in the token's unit (e.g.
+  // "0.50" for half a USDC). The chain layer hands us cents, so divide.
+  const amountStr = (Math.round(amountCents) / 100).toFixed(2);
 
-  const callOnce = async (toolName: string) => {
-    const result = await mcpCall<McpToolCallResult>("tools/call", {
-      name: toolName,
-      arguments: args,
-    });
-    return result;
+  const args: Record<string, unknown> = {
+    chain,
+    to: toWallet,
+    amount: amountStr,
+    token,
   };
 
   let result: McpToolCallResult;
   try {
-    result = await callOnce("wallet.transfer");
+    result = await mcpCall<McpToolCallResult>("tools/call", {
+      name: "transfer",
+      arguments: args,
+    });
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
-    if (/method not found|unknown tool|tool not found|no such tool/i.test(msg)) {
-      result = await callOnce("wallet_transfer");
-    } else {
-      throw err;
-    }
+    throw new Error(`sponge.transfer error: ${msg}`);
   }
 
-  if (result.isError) {
-    const text = (result.content ?? [])
-      .map((c) => (typeof c.text === "string" ? c.text : ""))
-      .filter(Boolean)
-      .join("\n");
-    throw new Error(`sponge.wallet.transfer error: ${text || "unknown error"}`);
+  // Sponge surfaces transfer failures (gas, balance, ATA) either as
+  // isError=true or as a plain-text "Error: ..." string inside content[0].text.
+  const inlineText = (result.content ?? [])
+    .map((c) => (typeof c.text === "string" ? c.text : ""))
+    .filter(Boolean)
+    .join("\n");
+  if (result.isError || /^Error\b/i.test(inlineText.trim())) {
+    throw new Error(`sponge.transfer error: ${inlineText || "unknown error"}`);
   }
 
-  // Parse structured content first; fall back to text content if Sponge returns
-  // a plain JSON-stringified blob.
   const parsed = parseTransferResult(result);
   return {
     id: parsed.id ?? `sponge_${Date.now()}`,
     amount: typeof parsed.amount === "number" ? parsed.amount : Math.round(amountCents),
-    currency: parsed.currency ?? (opts.currency ?? "usd"),
+    currency: parsed.currency ?? token.toLowerCase(),
     from: parsed.from ?? fromWallet,
     to: parsed.to ?? toWallet,
     status: parsed.status,
-    chain: parsed.chain,
+    chain: parsed.chain ?? chain,
     created_at: parsed.created_at ?? new Date().toISOString(),
     raw: result,
   };
@@ -276,18 +358,32 @@ function parseTransferResult(result: McpToolCallResult): ParsedTransfer {
   // Preferred: structuredContent (MCP 2025-06-18+).
   const sc = result.structuredContent;
   if (sc && typeof sc === "object") {
-    return normaliseTransferShape(sc as Record<string, unknown>);
+    const norm = normaliseTransferShape(sc as Record<string, unknown>);
+    if (norm.id) return norm;
   }
-  // Fallback: first text content is JSON.
+  // Next: first text content is JSON.
   for (const c of result.content ?? []) {
-    if (c.type === "text" && typeof c.text === "string") {
-      try {
-        const obj = JSON.parse(c.text);
-        if (obj && typeof obj === "object") return normaliseTransferShape(obj);
-      } catch {
-        // not JSON — skip
+    if (c.type !== "text" || typeof c.text !== "string") continue;
+    try {
+      const obj = JSON.parse(c.text);
+      if (obj && typeof obj === "object") {
+        const norm = normaliseTransferShape(obj as Record<string, unknown>);
+        if (norm.id) return norm;
       }
+    } catch {
+      // not JSON — try plain-text extraction below
     }
+  }
+  // Last resort: Sponge often returns natural-language confirmation strings
+  // like "Successfully transferred 0.10 USDC. Transaction: <sig>" — extract
+  // the Solana signature (88 base58 chars) or an EVM tx hash (0x + 64 hex).
+  for (const c of result.content ?? []) {
+    if (c.type !== "text" || typeof c.text !== "string") continue;
+    const text = c.text;
+    const evm = text.match(/0x[a-fA-F0-9]{64}/);
+    if (evm) return { id: evm[0] };
+    const sol = text.match(/\b[1-9A-HJ-NP-Za-km-z]{80,90}\b/);
+    if (sol) return { id: sol[0] };
   }
   return {};
 }
@@ -480,6 +576,14 @@ export async function createDownPayment(
       metadata: { run_id: input.runId, supplier_id: input.supplierId },
       idempotencyKey: `run_${input.runId}_sup_${input.supplierId}_${input.amountCents}`,
     });
+
+    const chain = transfer.chain ?? defaultChain();
+    // Solana tx ids are base58 signatures; Solscan accepts them directly. For
+    // EVM chains the explorer differs; surface the tx id either way.
+    const solscanUrl =
+      chain === "solana" && transfer.id ? `https://solscan.io/tx/${transfer.id}` : undefined;
+    const amountUsd = (input.amountCents / 100).toFixed(2);
+
     const state = readChain(input.runId);
     if (state) {
       const event: ChainStageEvent = {
@@ -488,8 +592,19 @@ export async function createDownPayment(
         direction: "system",
         actor: "sponge",
         channel: "sms",
-        text: `Sponge transfer ${transfer.id} settled for $${(input.amountCents / 100).toFixed(2)}`,
-        payload: { transferId: transfer.id, amountCents: input.amountCents, from: fromWallet, to: toWallet, chain: transfer.chain },
+        text: `Funds wired — $${amountUsd} USDC settled on ${chain}${solscanUrl ? ` · ${solscanUrl}` : ""}`,
+        payload: {
+          transferId: transfer.id,
+          txHash: transfer.id,
+          solscanUrl,
+          amountUsd,
+          amountCents: input.amountCents,
+          token: defaultToken(),
+          from: fromWallet,
+          to: toWallet,
+          chain,
+          mode: "real",
+        },
       };
       state.stages.sms_pay.events.push(event);
       state.stages.sms_pay.artifact_id = transfer.id;

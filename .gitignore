@@ -18,6 +18,10 @@ data/enriched/views.db
 !.env.example
 *.env
 
+# Editor / safety backups
+*.bak
+*.bak-*
+
 # Python
 __pycache__/
 *.pyc

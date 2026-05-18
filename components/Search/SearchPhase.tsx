@@ -26,66 +26,34 @@ interface Hit {
   delay_ms: number;
 }
 
-// Static script — the order + supplier_ids match V1_DEMO_SUPPLIERS so the
-// 4 cards that appear in the Enrich phase are the 4 cards we "found" here.
-// Delays are jittered between 400-800ms.
+// Static script — trimmed to 2 hits for the sub-1-min demo. The first is
+// a research probe (proves the agent ran a literature query), the second
+// is a sourcing-house sweep (proves the agent crawled supplier sites and
+// shortlisted candidates). The enrich phase still bootstraps its 4-card
+// grid from V1_DEMO_SUPPLIERS — no coupling.
 const HITS: Hit[] = [
   {
     id: "pubmed",
     source: "PubMed",
     url: "pubmed.ncbi.nlm.nih.gov",
     title: "NSCLC liquid biopsy biospecimens — 142 results",
-    snippet: "Plasma + FFPE cohort literature for Stage III-IV NSCLC, EGFR/KRAS/ALK populations.",
-    delay_ms: 720,
+    snippet:
+      "Plasma + FFPE literature for Stage III-IV NSCLC, EGFR/KRAS/ALK populations.",
+    delay_ms: 400,
   },
   {
-    id: "linkedin",
-    source: "LinkedIn",
-    url: "linkedin.com",
-    title: "Biobank procurement · Boston · 8 sourcing houses",
-    snippet: "Connections in oncology biobank BD; cross-referencing against vendor footprints.",
-    delay_ms: 880,
-  },
-  {
-    id: "refmed",
-    source: "referencemedicine.com",
-    url: "referencemedicine.com",
-    title: "Reference Medicine — public catalog",
-    snippet: "U.S. commercial supplier. Monthly XLSX catalog + Airtable embed.",
-    supplier_id: "refmed",
-    delay_ms: 980,
-  },
-  {
-    id: "geneticist",
-    source: "geneticistinc.com",
-    url: "geneticistinc.com",
-    title: "Geneticist Inc — boutique sourcing house",
-    snippet: "Long-tail oncology · NSCLC + CRC core competencies · prose catalog.",
-    supplier_id: "geneticist",
-    delay_ms: 760,
-  },
-  {
-    id: "audubon",
-    source: "audubonbio.com",
-    url: "audubonbio.com",
-    title: "Audubon Bioscience — multi-form intake (Houston)",
-    snippet: "Global biospecimen procurement · NSCLC + broader oncology reach.",
-    supplier_id: "audubon",
-    delay_ms: 820,
-  },
-  {
-    id: "crovi",
-    source: "crovi.bio",
-    url: "crovi.bio",
-    title: "Crovi.bio — discovery layer (this platform)",
-    snippet: "Direct contact + waitlist form. Surfaced because it IS the layer.",
-    supplier_id: "crovi_bio",
-    delay_ms: 640,
+    id: "supplier-sweep",
+    source: "supplier directory sweep",
+    url: "referencemedicine.com · geneticistinc.com · audubonbio.com · crovi.bio",
+    title: "4 sourcing houses shortlisted",
+    snippet:
+      "Public catalogs, boutique houses, global procurement, platform directory — all scoped to NSCLC plasma + FFPE.",
+    delay_ms: 500,
   },
 ];
 
-// After all hits land, hold for this long before auto-advancing.
-const POST_LAND_HOLD_MS = 1800;
+// After all hits land, hold briefly before auto-advancing.
+const POST_LAND_HOLD_MS = 600;
 
 export function SearchPhase({
   intake,
@@ -105,7 +73,7 @@ export function SearchPhase({
 
   // Paced unspool — schedule each hit at cumulative delay.
   useEffect(() => {
-    let cumulative = 900; // initial typing-the-query beat
+    let cumulative = 350; // brief typing-the-query beat (was 900)
     const timers: ReturnType<typeof setTimeout>[] = [];
     HITS.forEach((hit, idx) => {
       cumulative += hit.delay_ms;
@@ -116,7 +84,7 @@ export function SearchPhase({
       );
     });
     // Shortlist line + auto-advance.
-    const shortlistAt = cumulative + 700;
+    const shortlistAt = cumulative + 250;
     const continueAt = shortlistAt + POST_LAND_HOLD_MS;
     timers.push(setTimeout(() => setShortlisted(true), shortlistAt));
     timers.push(
